@@ -1,0 +1,38 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"ISystemMediaTransportControlsInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"ddb0472d-c911-4a1f-86d9-dc3d71a95f5a"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"System.Com","Parents":[]}
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"appWindow","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"mediaTransportControl","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr","RetVal"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
