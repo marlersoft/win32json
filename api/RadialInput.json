@@ -1,0 +1,69 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"IRadialControllerInterop"
+		,"Kind":"Com"
+		,"Guid":"1B0535C9-57AD-45C1-9D79-AD5C34360513"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["ComOutPtr"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IRadialControllerConfigurationInterop"
+		,"Kind":"Com"
+		,"Guid":"787CDAAC-3186-476D-87E4-B9374A7B9970"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["ComOutPtr"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IRadialControllerIndependentInputSourceInterop"
+		,"Kind":"Com"
+		,"Guid":"3D577EFF-4CEE-11E6-B535-001BDC06AB3B"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["ComOutPtr"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
