@@ -1,0 +1,69 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"OOBE_COMPLETED_CALLBACK"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"FunctionPointer"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"CallbackContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"OOBEComplete"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"isOOBEComplete","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"RegisterWaitUntilOOBECompleted"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"OOBECompletedCallback","Type":{"Kind":"ApiRef","Name":"OOBE_COMPLETED_CALLBACK","TargetKind":"FunctionPointer","Api":"System.SetupAndMigration","Parents":[]},"Attrs":["In"]}
+			,{"Name":"CallbackContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
+			,{"Name":"WaitHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"UnregisterWaitUntilOOBECompleted"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"WaitHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

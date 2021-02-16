@@ -1,0 +1,54 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"NOTIFICATION_USER_INPUT_DATA"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Key","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"Value","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"INotificationActivationCallback"
+		,"Architectures":[]
+		,"Platform":"windows10.0.10240"
+		,"Kind":"Com"
+		,"Guid":"53e31837-6600-4a81-9395-75cffe746f94"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"Activate"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"appUserModelId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"invokedArgs","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"data","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"ApiRef","Name":"NOTIFICATION_USER_INPUT_DATA","TargetKind":"Default","Api":"UI.Notifications","Parents":[]}},"Attrs":["In","Const"]}
+					,{"Name":"count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
