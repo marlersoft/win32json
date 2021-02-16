@@ -1,0 +1,131 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"DedupBackupSupport"
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"73d6b2ad-2984-4715-b2e3-924c149744dd"
+	}
+	,{
+		"Name":"DEDUP_CONTAINER_EXTENT"
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"ContainerIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"StartOffset","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"Length","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"DDP_FILE_EXTENT"
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Length","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"Offset","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"DEDUP_RECONSTRUCT_UNOPTIMIZED","Value":1}
+			,{"Name":"DEDUP_RECONSTRUCT_OPTIMIZED","Value":2}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IDedupReadFileCallback"
+		,"Platform":"windowsServer2012"
+		,"Kind":"Com"
+		,"Guid":"7bacc67a-2f1d-42d0-897e-6ff62dd533bb"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"ReadBackupFile"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"FileFullPath","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"FileOffset","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
+					,{"Name":"SizeToRead","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"FileBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out"]}
+					,{"Name":"ReturnedSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+					,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+			,{
+				"Name":"OrderContainersRestore"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"NumberOfContainers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"ContainerPaths","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]}},"Attrs":["In"]}
+					,{"Name":"ReadPlanEntries","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+					,{"Name":"ReadPlan","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DEDUP_CONTAINER_EXTENT","TargetKind":"Default","Api":"DataDeduplication","Parents":[]}}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"PreviewContainerRead"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"FileFullPath","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"NumberOfReads","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"ReadOffsets","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":1,"Child":{"Kind":"ApiRef","Name":"DDP_FILE_EXTENT","TargetKind":"Default","Api":"DataDeduplication","Parents":[]}},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IDedupBackupSupport"
+		,"Platform":"windowsServer2012"
+		,"Kind":"Com"
+		,"Guid":"c719d963-2b2d-415e-acf7-7eb7ca596ff4"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"RestoreFiles"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"NumberOfFiles","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"FileFullPaths","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]}},"Attrs":["In"]}
+					,{"Name":"Store","Type":{"Kind":"ApiRef","Name":"IDedupReadFileCallback","TargetKind":"Com","Api":"DataDeduplication","Parents":[]},"Attrs":["In"]}
+					,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"FileResults","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

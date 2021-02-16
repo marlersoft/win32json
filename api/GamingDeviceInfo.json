@@ -1,0 +1,64 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"GAMING_DEVICE_VENDOR_ID"
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"GAMING_DEVICE_VENDOR_ID_NONE","Value":0}
+			,{"Name":"GAMING_DEVICE_VENDOR_ID_MICROSOFT","Value":-1024700366}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"GAMING_DEVICE_DEVICE_ID"
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"GAMING_DEVICE_DEVICE_ID_NONE","Value":0}
+			,{"Name":"GAMING_DEVICE_DEVICE_ID_XBOX_ONE","Value":1988865574}
+			,{"Name":"GAMING_DEVICE_DEVICE_ID_XBOX_ONE_S","Value":712204761}
+			,{"Name":"GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X","Value":1523980231}
+			,{"Name":"GAMING_DEVICE_DEVICE_ID_XBOX_ONE_X_DEVKIT","Value":284675555}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"GAMING_DEVICE_MODEL_INFORMATION"
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"vendorId","Type":{"Kind":"ApiRef","Name":"GAMING_DEVICE_VENDOR_ID","TargetKind":"Default","Api":"GamingDeviceInfo","Parents":[]},"Attrs":[]}
+			,{"Name":"deviceId","Type":{"Kind":"ApiRef","Name":"GAMING_DEVICE_DEVICE_ID","TargetKind":"Default","Api":"GamingDeviceInfo","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"GetGamingDeviceModelInformation"
+		,"SetLastError":false
+		,"DllImport":"api-ms-win-gaming-deviceinformation-l1-1-0"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"information","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GAMING_DEVICE_MODEL_INFORMATION","TargetKind":"Default","Api":"GamingDeviceInfo","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
