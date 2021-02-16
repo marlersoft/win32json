@@ -1,0 +1,115 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"MbnConnectionProfileManager"
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"bdfee05a-4418-11dd-90ed-001c257ccff1"
+	}
+	,{
+		"Name":"MbnInterfaceManager"
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"bdfee05b-4418-11dd-90ed-001c257ccff1"
+	}
+	,{
+		"Name":"MbnConnectionManager"
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"bdfee05c-4418-11dd-90ed-001c257ccff1"
+	}
+	,{
+		"Name":"MbnDeviceServicesManager"
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"2269daa3-2a9f-4165-a501-ce00a6f7a75b"
+	}
+	,{
+		"Name":"IDummyMBNUCMExt"
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"dcbbbab6-ffff-4bbb-aaee-338e368af6fa"
+		,"Interface":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"Automation","Parents":[]}
+		,"Methods":[
+		]
+	}
+	,{
+		"Name":"MBN_DEVICE_SERVICE_SESSIONS_STATE"
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"MBN_DEVICE_SERVICE_SESSIONS_RESTORED","Value":0}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IMbnDeviceServiceStateEvents"
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"5d3ff196-89ee-49d8-8b60-33ffddffc58d"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"OnSessionsStateChange"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"interfaceID","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"stateChange","Type":{"Kind":"ApiRef","Name":"MBN_DEVICE_SERVICE_SESSIONS_STATE","TargetKind":"Default","Api":"Mbn","Parents":[]},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"__mbnapi_ReferenceRemainingTypes__"
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"bandClass","Type":{"Kind":"ApiRef","Name":"MBN_BAND_CLASS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"contextConstants","Type":{"Kind":"ApiRef","Name":"MBN_CONTEXT_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"ctrlCaps","Type":{"Kind":"ApiRef","Name":"MBN_CTRL_CAPS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"dataClass","Type":{"Kind":"ApiRef","Name":"MBN_DATA_CLASS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"interfaceCapsConstants","Type":{"Kind":"ApiRef","Name":"MBN_INTERFACE_CAPS_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"pinConstants","Type":{"Kind":"ApiRef","Name":"MBN_PIN_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"providerConstants","Type":{"Kind":"ApiRef","Name":"MBN_PROVIDER_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"providerState","Type":{"Kind":"ApiRef","Name":"MBN_PROVIDER_STATE","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"registrationConstants","Type":{"Kind":"ApiRef","Name":"MBN_REGISTRATION_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"signalConstants","Type":{"Kind":"ApiRef","Name":"MBN_SIGNAL_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"smsCaps","Type":{"Kind":"ApiRef","Name":"MBN_SMS_CAPS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"smsConstants","Type":{"Kind":"ApiRef","Name":"WWAEXT_SMS_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"wwaextSmsConstants","Type":{"Kind":"ApiRef","Name":"WWAEXT_SMS_CONSTANTS","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+			,{"Name":"smsStatusFlag","Type":{"Kind":"ApiRef","Name":"MBN_SMS_STATUS_FLAG","TargetKind":"Default","Api":"MobileBroadband","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"__DummyPinType__"
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pinType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

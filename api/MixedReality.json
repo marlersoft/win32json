@@ -1,0 +1,57 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"ISpatialInteractionManagerInterop"
+		,"Platform":"windows10.0.15063"
+		,"Kind":"Com"
+		,"Guid":"5c4ee536-6a98-4b86-a170-587013d6fd4b"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"window","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"spatialInteractionManager","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr","RetVal"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IHolographicSpaceInterop"
+		,"Platform":"windows10.0.15063"
+		,"Kind":"Com"
+		,"Guid":"5c4ee536-6a98-4b86-a170-587013d6fd4b"
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateForWindow"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"window","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"holographicSpace","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr","RetVal"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

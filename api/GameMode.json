@@ -1,0 +1,47 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"HasExpandedResources"
+		,"SetLastError":false
+		,"DllImport":"api-ms-win-gaming-expandedresources-l1-1-0"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"hasExpandedResources","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"GetExpandedResourceExclusiveCpuCount"
+		,"SetLastError":false
+		,"DllImport":"api-ms-win-gaming-expandedresources-l1-1-0"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"exclusiveCpuCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"ReleaseExclusiveCpuSets"
+		,"SetLastError":false
+		,"DllImport":"api-ms-win-gaming-expandedresources-l1-1-0"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

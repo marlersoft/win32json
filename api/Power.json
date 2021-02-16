@@ -1,0 +1,135 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"PowerWriteACValueIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemeGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"AcValueIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"PowerWriteDCValueIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemeGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"DcValueIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"PowerReadACValueIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemeGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"AcValueIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"PowerReadDCValueIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemeGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"DcValueIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"PowerReadACDefaultIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemePersonalityGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"AcDefaultIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"PowerReadDCDefaultIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemePersonalityGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"DcDefaultIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"PowerWriteACDefaultIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootSystemPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemePersonalityGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"DefaultAcIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"PowerWriteDCDefaultIndex"
+		,"SetLastError":false
+		,"DllImport":"POWRPROF"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"RootSystemPowerKey","Type":{"Kind":"ApiRef","Name":"HKEY","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"SchemePersonalityGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"SubGroupOfPowerSettingsGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"PowerSettingGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"DefaultDcIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
