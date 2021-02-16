@@ -1,0 +1,147 @@
+﻿{
+
+"Constants":[
+	{
+		"Name":"DISPID_EVENT_ON_STATE_CHANGED"
+		,"NativeType":"UInt32"
+		,"Value":5
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DISPID_EVENT_ON_TERMINATION"
+		,"NativeType":"UInt32"
+		,"Value":6
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DISPID_EVENT_ON_CONTEXT_DATA"
+		,"NativeType":"UInt32"
+		,"Value":7
+		,"Attrs":[]
+	}
+	,{
+		"Name":"DISPID_EVENT_ON_SEND_ERROR"
+		,"NativeType":"UInt32"
+		,"Value":8
+		,"Attrs":[]
+	}
+]
+
+,"Types":[
+	{
+		"Name":"RendezvousApplication"
+		,"Kind":"ComClassID"
+		,"Guid":"0b7e019a-b5de-47fa-8966-9082f82fb192"
+	}
+	,{
+		"Name":"RENDEZVOUS_SESSION_STATE"
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"RSS_UNKNOWN","Value":0}
+			,{"Name":"RSS_READY","Value":1}
+			,{"Name":"RSS_INVITATION","Value":2}
+			,{"Name":"RSS_ACCEPTED","Value":3}
+			,{"Name":"RSS_CONNECTED","Value":4}
+			,{"Name":"RSS_CANCELLED","Value":5}
+			,{"Name":"RSS_DECLINED","Value":6}
+			,{"Name":"RSS_TERMINATED","Value":7}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"RENDEZVOUS_SESSION_FLAGS"
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"RSF_NONE","Value":0}
+			,{"Name":"RSF_INVITER","Value":1}
+			,{"Name":"RSF_INVITEE","Value":2}
+			,{"Name":"RSF_ORIGINAL_INVITER","Value":4}
+			,{"Name":"RSF_REMOTE_LEGACYSESSION","Value":8}
+			,{"Name":"RSF_REMOTE_WIN7SESSION","Value":16}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IRendezvousSession"
+		,"Kind":"Com"
+		,"Guid":"9ba4b1dd-8b0c-48b7-9e7c-2f25857c8df5"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"get_State"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pSessionState","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RENDEZVOUS_SESSION_STATE","TargetKind":"Default","Api":"RemoteAssistance","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"get_RemoteUser"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"bstrUserName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]}},"Attrs":["Out","Optional"]}
+				]
+			}
+			,{
+				"Name":"get_Flags"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pFlags","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"SendContextData"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"bstrData","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In"]}
+				]
+			}
+			,{
+				"Name":"Terminate"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"hr","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]},"Attrs":["In"]}
+					,{"Name":"bstrAppData","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"DRendezvousSessionEvents"
+		,"Kind":"Com"
+		,"Guid":"3fa19cf8-64c4-4f53-ae60-635b3806eca6"
+		,"Interface":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"Automation","Parents":[]}
+		,"Methods":[
+		]
+	}
+	,{
+		"Name":"IRendezvousApplication"
+		,"Kind":"Com"
+		,"Guid":"4f4d070b-a275-49fb-b10d-8ec26387b50d"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"SetRendezvousSession"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pRendezvousSession","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]},"Attrs":["In","Optional"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
