@@ -1,0 +1,97 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"ChangeServiceConfigA"
+		,"SetLastError":true
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"hService","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"dwServiceType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwStartType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwErrorControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpBinaryPathName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpLoadOrderGroup","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpdwTagId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpDependencies","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpServiceStartName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpPassword","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpDisplayName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+		]
+	}
+	,{
+		"Name":"ChangeServiceConfigW"
+		,"SetLastError":true
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"hService","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"dwServiceType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwStartType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwErrorControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpBinaryPathName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpLoadOrderGroup","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpdwTagId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpDependencies","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpServiceStartName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpDisplayName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+		]
+	}
+	,{
+		"Name":"CreateServiceA"
+		,"SetLastError":true
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}}
+		,"Params":[
+			{"Name":"hSCManager","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"lpServiceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"lpDisplayName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"dwDesiredAccess","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwServiceType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwStartType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwErrorControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpBinaryPathName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpLoadOrderGroup","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpdwTagId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpDependencies","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpServiceStartName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpPassword","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+		]
+	}
+	,{
+		"Name":"CreateServiceW"
+		,"SetLastError":true
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}}
+		,"Params":[
+			{"Name":"hSCManager","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SC_HANDLE__","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"lpServiceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"lpDisplayName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"dwDesiredAccess","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwServiceType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwStartType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwErrorControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpBinaryPathName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpLoadOrderGroup","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpdwTagId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpDependencies","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpServiceStartName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"lpPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+	"ChangeServiceConfig"
+	,"CreateService"
+]
+
+}

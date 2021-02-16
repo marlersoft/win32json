@@ -1,0 +1,123 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"RendezvousApplication"
+		,"Kind":"ComClassID"
+		,"Guid":"0B7E019A-B5DE-47FA-8966-9082F82FB192"
+	}
+	,{
+		"Name":"RENDEZVOUS_SESSION_STATE"
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"RSS_UNKNOWN","Value":0}
+			,{"Name":"RSS_READY","Value":1}
+			,{"Name":"RSS_INVITATION","Value":2}
+			,{"Name":"RSS_ACCEPTED","Value":3}
+			,{"Name":"RSS_CONNECTED","Value":4}
+			,{"Name":"RSS_CANCELLED","Value":5}
+			,{"Name":"RSS_DECLINED","Value":6}
+			,{"Name":"RSS_TERMINATED","Value":7}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"RENDEZVOUS_SESSION_FLAGS"
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"RSF_NONE","Value":0}
+			,{"Name":"RSF_INVITER","Value":1}
+			,{"Name":"RSF_INVITEE","Value":2}
+			,{"Name":"RSF_ORIGINAL_INVITER","Value":4}
+			,{"Name":"RSF_REMOTE_LEGACYSESSION","Value":8}
+			,{"Name":"RSF_REMOTE_WIN7SESSION","Value":16}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IRendezvousSession"
+		,"Kind":"Com"
+		,"Guid":"9BA4B1DD-8B0C-48B7-9E7C-2F25857C8DF5"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"get_State"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pSessionState","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RENDEZVOUS_SESSION_STATE","TargetKind":"Default","Api":"RemoteAssistance","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"get_RemoteUser"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"bstrUserName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"get_Flags"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pFlags","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"SendContextData"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"bstrData","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In","Out"]}
+				]
+			}
+			,{
+				"Name":"Terminate"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"hr","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]},"Attrs":[]}
+					,{"Name":"bstrAppData","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Automation","Parents":[]},"Attrs":["In","Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"DRendezvousSessionEvents"
+		,"Kind":"Com"
+		,"Guid":"3FA19CF8-64C4-4F53-AE60-635B3806ECA6"
+		,"Interface":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"Automation","Parents":[]}
+		,"Methods":[
+		]
+	}
+	,{
+		"Name":"IRendezvousApplication"
+		,"Kind":"Com"
+		,"Guid":"4F4D070B-A275-49FB-B10D-8EC26387B50D"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"SetRendezvousSession"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pRendezvousSession","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]},"Attrs":["In","Out","Optional"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

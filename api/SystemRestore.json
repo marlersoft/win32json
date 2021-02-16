@@ -1,0 +1,92 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"RESTOREPOINTINFOA"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"dwEventType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwRestorePtType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"llSequenceNumber","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"szDescription","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"Native","Name":"SByte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"RESTOREPOINTINFOW"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"dwEventType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwRestorePtType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"llSequenceNumber","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"szDescription","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"_RESTOREPTINFOEX"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"ftCreation","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]},"Attrs":[]}
+			,{"Name":"dwEventType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwRestorePtType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwRPNum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"szDescription","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"STATEMGRSTATUS"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"nStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"llSequenceNumber","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"SRSetRestorePointA"
+		,"SetLastError":false
+		,"DllImport":"sfc"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"pRestorePtSpec","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RESTOREPOINTINFOA","TargetKind":"Default","Api":"SystemRestore","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"pSMgrStatus","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STATEMGRSTATUS","TargetKind":"Default","Api":"SystemRestore","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"SRSetRestorePointW"
+		,"SetLastError":false
+		,"DllImport":"sfc"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"pRestorePtSpec","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RESTOREPOINTINFOW","TargetKind":"Default","Api":"SystemRestore","Parents":[]}},"Attrs":["In"]}
+			,{"Name":"pSMgrStatus","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STATEMGRSTATUS","TargetKind":"Default","Api":"SystemRestore","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+	"RESTOREPOINTINFO"
+	,"SRSetRestorePoint"
+]
+
+}

@@ -1,0 +1,167 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"MANAGEMENT_SERVICE_INFO"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pszMDMServiceUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+			,{"Name":"pszAuthenticationUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"MANAGEMENT_REGISTRATION_INFO"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"fDeviceRegisteredWithManagement","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+			,{"Name":"dwDeviceRegistionKind","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"pszUPN","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+			,{"Name":"pszMDMServiceUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"REGISTRATION_INFORMATION_CLASS"
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Values":[
+			{"Name":"DeviceRegistrationBasicInfo","Value":1}
+			,{"Name":"MaxDeviceInfoClass","Value":2}
+		]
+		,"IntegerBase":"Int32"
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"GetDeviceRegistrationInfo"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"DeviceInformationClass","Type":{"Kind":"ApiRef","Name":"REGISTRATION_INFORMATION_CLASS","TargetKind":"Default","Api":"MobileDeviceManagementRegistration","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ppDeviceRegistrationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"IsDeviceRegisteredWithManagement"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pfIsDeviceRegisteredWithManagement","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["Out"]}
+			,{"Name":"cchUPN","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"pszUPN","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":1,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"IsManagementRegistrationAllowed"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pfIsManagementRegistrationAllowed","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"IsMdmUxWithoutAadAllowed"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"isEnrollmentAllowed","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"SetManagedExternally"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"IsManagedExternally","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"DiscoverManagementService"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pszUPN","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"ppMgmtInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MANAGEMENT_SERVICE_INFO","TargetKind":"Default","Api":"MobileDeviceManagementRegistration","Parents":[]}}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"RegisterDeviceWithManagementUsingAADCredentials"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"UserToken","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":[]}
+		]
+	}
+	,{
+		"Name":"RegisterDeviceWithManagementUsingAADDeviceCredentials"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+		]
+	}
+	,{
+		"Name":"RegisterDeviceWithManagement"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pszUPN","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"ppszMDMServiceUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"ppzsAccessToken","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}
+	,{
+		"Name":"UnregisterDeviceWithManagement"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"enrollmentID","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+		]
+	}
+	,{
+		"Name":"GetManagementAppHyperlink"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"cchHyperlink","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"pszHyperlink","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":0,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"DiscoverManagementServiceEx"
+		,"SetLastError":false
+		,"DllImport":"MDMRegistration"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pszUPN","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"pszDiscoveryServiceCandidate","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"ppMgmtInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MANAGEMENT_SERVICE_INFO","TargetKind":"Default","Api":"MobileDeviceManagementRegistration","Parents":[]}}},"Attrs":["Out"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

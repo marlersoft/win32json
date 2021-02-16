@@ -1,0 +1,131 @@
+﻿{
+
+"Constants":[
+	{
+		"Name":"CLSID_DeviceIoControl"
+		,"NativeType":"Guid"
+		,"Value":"12d3e372-874b-457d-9fdf-73977778686c"
+		,"Attrs":[]
+	}
+]
+
+,"Types":[
+	{
+		"Name":"IDeviceRequestCompletionCallback"
+		,"Kind":"Com"
+		,"Guid":"999BAD24-9ACD-45BB-8669-2A2FC0288B04"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"Invoke"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"requestResult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]},"Attrs":["In"]}
+					,{"Name":"bytesReturned","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IDeviceIoControl"
+		,"Kind":"Com"
+		,"Guid":"9EEFE161-23AB-4F18-9B49-991B586AE970"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"DeviceIoControlSync"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"ioControlCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"inputBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":2,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Optional"]}
+					,{"Name":"inputBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"outputBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":4,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out","Optional"]}
+					,{"Name":"outputBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"bytesReturned","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"DeviceIoControlAsync"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"ioControlCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"inputBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":2,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Optional"]}
+					,{"Name":"inputBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"outputBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":4,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out","Optional"]}
+					,{"Name":"outputBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"requestCompletionCallback","Type":{"Kind":"ApiRef","Name":"IDeviceRequestCompletionCallback","TargetKind":"Com","Api":"DeviceAccess","Parents":[]},"Attrs":["In"]}
+					,{"Name":"cancelContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UIntPtr"}},"Attrs":["Out","Optional"]}
+				]
+			}
+			,{
+				"Name":"CancelOperation"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"cancelContext","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ICreateDeviceAccessAsync"
+		,"Kind":"Com"
+		,"Guid":"3474628F-683D-42D2-ABCB-DB018C6503BC"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"Cancel"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+				]
+			}
+			,{
+				"Name":"Wait"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"timeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+			,{
+				"Name":"Close"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+				]
+			}
+			,{
+				"Name":"GetResult"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"deviceAccess","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["ComOutPtr"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"CreateDeviceAccessInstance"
+		,"SetLastError":false
+		,"DllImport":"deviceaccess"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"deviceInterfacePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"desiredAccess","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"createAsync","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ICreateDeviceAccessAsync","TargetKind":"Com","Api":"DeviceAccess","Parents":[]}},"Attrs":["ComOutPtr"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

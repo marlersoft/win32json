@@ -1,0 +1,59 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"OPERATION_START_PARAMETERS"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"OperationId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"OPERATION_END_PARAMETERS"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"OperationId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"OperationStart"
+		,"SetLastError":false
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"OperationStartParams","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OPERATION_START_PARAMETERS","TargetKind":"Default","Api":"OperationRecorder","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"OperationEnd"
+		,"SetLastError":false
+		,"DllImport":"ADVAPI32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"OperationEndParams","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OPERATION_END_PARAMETERS","TargetKind":"Default","Api":"OperationRecorder","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
