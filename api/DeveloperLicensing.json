@@ -1,0 +1,43 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"CheckDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pExpiration","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"AcquireDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In","Optional"]}
+			,{"Name":"pExpiration","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"RemoveDeveloperLicense"
+		,"SetLastError":false
+		,"DllImport":"WSClient"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"WindowsAndMessaging","Parents":[]},"Attrs":["In","Optional"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

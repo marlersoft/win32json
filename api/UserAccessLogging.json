@@ -1,0 +1,162 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"IEnumSpeechCommands"
+		,"Kind":"Com"
+		,"Guid":"8c5dac4f-083c-4b85-a4c9-71746048adca"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"Clone"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"ppEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IEnumSpeechCommands","TargetKind":"Com","Api":"UserAccessLogging","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"Next"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"ulCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"pSpCmds","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":0,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["Out"]}
+					,{"Name":"pcFetched","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"Reset"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+				]
+			}
+			,{
+				"Name":"Skip"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"ulCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ISpeechCommandProvider"
+		,"Kind":"Com"
+		,"Guid":"38e09d4c-586d-435a-b592-c8a86691dec6"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"EnumSpeechCommands"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"langid","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+					,{"Name":"ppEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IEnumSpeechCommands","TargetKind":"Com","Api":"UserAccessLogging","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"ProcessCommand"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pszCommand","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":1,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Const"]}
+					,{"Name":"cch","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"langid","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ITfFnCustomSpeechCommand"
+		,"Kind":"Com"
+		,"Guid":"fca6c349-a12f-43a3-8dd6-5a5a4282577b"
+		,"Interface":{"Kind":"ApiRef","Name":"ITfFunction","TargetKind":"Com","Api":"TextServices","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"SetSpeechCommandProvider"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+				,"Params":[
+					{"Name":"pspcmdProvider","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"Com","Parents":[]},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"UAL_DATA_BLOB"
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"RoleGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"TenantId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"Address","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE_LH","TargetKind":"Default","Api":"NetworkDrivers","Parents":[]},"Attrs":[]}
+			,{"Name":"UserName","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"DoMsCtfMonitor"
+		,"SetLastError":false
+		,"DllImport":"MsCtfMonitor"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"hEventForServiceStop","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalStart"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalStop"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalInstrument"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalRegisterProduct"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"wszProductName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"wszRoleName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"wszGuid","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

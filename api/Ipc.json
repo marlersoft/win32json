@@ -1,0 +1,41 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"CreateNamedPipeA"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"lpName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"dwOpenMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwPipeMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"nMaxInstances","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"nOutBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"nInBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"nDefaultTimeOut","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpSecurityAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["In","Optional"]}
+		]
+	}
+	,{
+		"Name":"WaitNamedPipeA"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Params":[
+			{"Name":"lpNamedPipeName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"nTimeOut","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
