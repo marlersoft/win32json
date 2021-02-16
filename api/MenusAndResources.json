@@ -1,0 +1,47 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"HICON"
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":null
+		,"Def":{"Kind":"Native","Name":"IntPtr"}
+		,"FreeFunc":"DestroyIcon"
+	}
+	,{
+		"Name":"HMENU"
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":null
+		,"Def":{"Kind":"Native","Name":"IntPtr"}
+		,"FreeFunc":"DestroyMenu"
+	}
+	,{
+		"Name":"HCURSOR"
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":"HICON"
+		,"Def":{"Kind":"Native","Name":"IntPtr"}
+		,"FreeFunc":"DestroyCursor"
+	}
+	,{
+		"Name":"HACCEL"
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":null
+		,"Def":{"Kind":"Native","Name":"IntPtr"}
+		,"FreeFunc":"DestroyAcceleratorTable"
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
