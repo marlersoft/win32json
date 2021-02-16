@@ -1,0 +1,54 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"EnterCriticalSection"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"Architectures":[]
+		,"Platform":"windows5.1.2600"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"lpCriticalSection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RTL_CRITICAL_SECTION","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["In","Out"]}
+		]
+	}
+	,{
+		"Name":"CreatePrivateNamespaceA"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"NamespaceHandle","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"lpPrivateNamespaceAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["In","Optional"]}
+			,{"Name":"lpBoundaryDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
+			,{"Name":"lpAliasPrefix","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}
+	,{
+		"Name":"OpenPrivateNamespaceA"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"NamespaceHandle","TargetKind":"Default","Api":"SystemServices","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows6.0.6000"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"lpBoundaryDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
+			,{"Name":"lpAliasPrefix","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
