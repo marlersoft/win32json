@@ -1,0 +1,75 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+]
+
+,"Functions":[
+	{
+		"Name":"CreateMailslotA"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows5.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"lpName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"nMaxMessageSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lReadTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpSecurityAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In","Optional"]}
+		]
+	}
+	,{
+		"Name":"CreateMailslotW"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows5.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"lpName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"nMaxMessageSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lReadTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"lpSecurityAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In","Optional"]}
+		]
+	}
+	,{
+		"Name":"GetMailslotInfo"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows5.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"hMailslot","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"lpMaxMessageSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpNextSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpMessageCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"lpReadTimeout","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"SetMailslotInfo"
+		,"SetLastError":true
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"Architectures":[]
+		,"Platform":"windows5.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"hMailslot","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"lReadTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+	"CreateMailslot"
+]
+
+}

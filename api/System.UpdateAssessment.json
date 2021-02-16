@@ -1,0 +1,118 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"WaaSAssessor"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"ComClassID"
+		,"Guid":"098ef871-fa9f-46af-8958-c083515d7c9c"
+	}
+	,{
+		"Name":"UpdateImpactLevel"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"UpdateImpactLevel_None","Value":0}
+			,{"Name":"UpdateImpactLevel_Low","Value":1}
+			,{"Name":"UpdateImpactLevel_Medium","Value":2}
+			,{"Name":"UpdateImpactLevel_High","Value":3}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"UpdateAssessmentStatus"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"UpdateAssessmentStatus_Latest","Value":0}
+			,{"Name":"UpdateAssessmentStatus_NotLatestSoftRestriction","Value":1}
+			,{"Name":"UpdateAssessmentStatus_NotLatestHardRestriction","Value":2}
+			,{"Name":"UpdateAssessmentStatus_NotLatestEndOfSupport","Value":3}
+			,{"Name":"UpdateAssessmentStatus_NotLatestServicingTrain","Value":4}
+			,{"Name":"UpdateAssessmentStatus_NotLatestDeferredFeature","Value":5}
+			,{"Name":"UpdateAssessmentStatus_NotLatestDeferredQuality","Value":6}
+			,{"Name":"UpdateAssessmentStatus_NotLatestPausedFeature","Value":7}
+			,{"Name":"UpdateAssessmentStatus_NotLatestPausedQuality","Value":8}
+			,{"Name":"UpdateAssessmentStatus_NotLatestManaged","Value":9}
+			,{"Name":"UpdateAssessmentStatus_NotLatestUnknown","Value":10}
+			,{"Name":"UpdateAssessmentStatus_NotLatestTargetedVersion","Value":11}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"UpdateAssessment"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"status","Type":{"Kind":"ApiRef","Name":"UpdateAssessmentStatus","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]},"Attrs":[]}
+			,{"Name":"impact","Type":{"Kind":"ApiRef","Name":"UpdateImpactLevel","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]},"Attrs":[]}
+			,{"Name":"daysOutOfDate","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"OSUpdateAssessment"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"isEndOfSupport","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"assessmentForCurrent","Type":{"Kind":"ApiRef","Name":"UpdateAssessment","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]},"Attrs":[]}
+			,{"Name":"assessmentForUpToDate","Type":{"Kind":"ApiRef","Name":"UpdateAssessment","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]},"Attrs":[]}
+			,{"Name":"securityStatus","Type":{"Kind":"ApiRef","Name":"UpdateAssessmentStatus","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]},"Attrs":[]}
+			,{"Name":"assessmentTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"releaseInfoTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"currentOSBuild","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"currentOSReleaseTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"upToDateOSBuild","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"upToDateOSReleaseTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"IWaaSAssessor"
+		,"Architectures":[]
+		,"Platform":"windows10.0.15063"
+		,"Kind":"Com"
+		,"Guid":"2347bbef-1a3b-45a4-902d-3e09c269b45e"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetOSUpdateAssessment"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OSUpdateAssessment","TargetKind":"Default","Api":"System.UpdateAssessment","Parents":[]}},"Attrs":["Out","RetVal"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
