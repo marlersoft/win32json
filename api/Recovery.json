@@ -1,0 +1,108 @@
+﻿{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"RegisterApplicationRestart_dwFlags"
+		,"Kind":"Enum"
+		,"Flags":true
+		,"Values":[
+			{"Name":"RESTART_NO_CRASH","Value":1}
+			,{"Name":"RESTART_NO_HANG","Value":2}
+			,{"Name":"RESTART_NO_PATCH","Value":4}
+			,{"Name":"RESTART_NO_REBOOT","Value":8}
+		]
+		,"IntegerBase":"UInt32"
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"RegisterApplicationRecoveryCallback"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pRecoveyCallback","Type":{"Kind":"ApiRef","Name":"APPLICATION_RECOVERY_CALLBACK","TargetKind":"FunctionPointer","Api":"WindowsProgramming","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pvParameter","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
+			,{"Name":"dwPingInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UnregisterApplicationRecoveryCallback"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+		]
+	}
+	,{
+		"Name":"RegisterApplicationRestart"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pwzCommandline","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In","Optional","Const"]}
+			,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"RegisterApplicationRestart_dwFlags","TargetKind":"Default","Api":"Recovery","Parents":[]},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UnregisterApplicationRestart"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+		]
+	}
+	,{
+		"Name":"GetApplicationRecoveryCallback"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pRecoveryCallback","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"APPLICATION_RECOVERY_CALLBACK","TargetKind":"FunctionPointer","Api":"WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
+			,{"Name":"ppvParameter","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","Optional"]}
+			,{"Name":"pdwPingInterval","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+			,{"Name":"pdwFlags","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"GetApplicationRestartSettings"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pwzCommandline","Type":{"Kind":"LPArray","NullNullTerm":false,"SizeParamIndex":2,"BytesParamIndex":-1,"SizeConst":-1,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+			,{"Name":"pcchSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+			,{"Name":"pdwFlags","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"ApplicationRecoveryInProgress"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Com","Parents":[]}
+		,"Params":[
+			{"Name":"pbCancelled","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"ApplicationRecoveryFinished"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"Params":[
+			{"Name":"bSuccess","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"SystemServices","Parents":[]},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
