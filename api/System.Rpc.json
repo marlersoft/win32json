@@ -1697,6 +1697,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"ObjectUuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In"]}
@@ -1711,6 +1712,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"InterfaceUuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -1724,6 +1726,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2330,6 +2333,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"RedirectorStage","Type":{"Kind":"ApiRef","Name":"RPC_HTTP_REDIRECTOR_STAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":["In"]}
@@ -2353,6 +2357,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"String","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In"]}
@@ -2365,6 +2370,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Arg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2397,6 +2403,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"ClientBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2491,6 +2498,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"IfGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2556,6 +2564,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"InterfaceId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Out"]}
@@ -2586,6 +2595,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"arg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2598,6 +2608,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Message","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -2694,6 +2705,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"AssociationContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2736,6 +2748,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2750,6 +2763,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pfnFilter","Type":{"Kind":"ApiRef","Name":"RPCLT_PDU_FILTER_FUNC","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":["In"]}
@@ -2762,6 +2776,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hWnd","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2816,6 +2831,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Machine","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In"]}
@@ -2830,6 +2846,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2844,6 +2861,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"ConnectionTimeout","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -2856,6 +2874,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -2870,6 +2889,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"CallOutState","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RDR_CALLOUT_STATE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -2882,6 +2902,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2898,6 +2919,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -2936,6 +2958,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Counter","Type":{"Kind":"ApiRef","Name":"RpcProxyPerfCounters","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":["In"]}
@@ -2950,6 +2973,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"MachineName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In"]}
@@ -3017,6 +3041,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pAsync","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_ASYNC_STATE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -3484,6 +3509,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3496,6 +3522,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 		]
@@ -3507,6 +3534,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"flag","Type":{"Kind":"Native","Name":"Byte"},"Attrs":["In"]}
@@ -3533,6 +3561,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -3634,6 +3663,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3646,6 +3676,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3689,6 +3720,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -3717,6 +3749,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -3731,6 +3764,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -3745,6 +3779,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -3759,6 +3794,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -3864,6 +3900,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3881,6 +3918,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3898,6 +3936,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3916,6 +3955,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3935,6 +3975,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hBinding","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4057,6 +4098,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["In","Out"]}
@@ -4069,6 +4111,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 		]
@@ -4314,6 +4357,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Size","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -4326,6 +4370,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Ptr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -4411,6 +4456,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4425,6 +4471,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4439,6 +4486,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"state","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4691,6 +4739,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4705,6 +4754,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4717,6 +4767,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4729,6 +4780,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4742,6 +4794,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4754,6 +4807,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4768,6 +4822,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4782,6 +4837,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4795,6 +4851,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4808,6 +4865,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4821,6 +4879,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4834,6 +4893,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4846,6 +4906,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4859,6 +4920,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4872,6 +4934,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4885,6 +4948,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4898,6 +4962,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4910,6 +4975,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4927,6 +4993,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4944,6 +5011,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4961,6 +5029,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4978,6 +5047,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4990,6 +5060,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5002,6 +5073,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5015,6 +5087,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5027,6 +5100,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5039,6 +5113,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5052,6 +5127,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5065,6 +5141,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5077,6 +5154,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5089,6 +5167,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5101,6 +5180,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5114,6 +5194,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5126,6 +5207,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5139,6 +5221,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5151,6 +5234,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5163,6 +5247,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5175,6 +5260,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -5188,6 +5274,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5202,6 +5289,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5216,6 +5304,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5230,6 +5319,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -5247,6 +5337,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5265,6 +5356,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -5284,6 +5376,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5298,6 +5391,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -5312,6 +5406,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5325,6 +5420,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5339,6 +5435,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5353,6 +5450,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -5368,6 +5466,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5382,6 +5481,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5397,6 +5497,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5411,6 +5512,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5426,6 +5528,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5441,6 +5544,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5457,6 +5561,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5472,6 +5577,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5488,6 +5594,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5503,6 +5610,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -5519,6 +5627,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5534,6 +5643,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -5550,6 +5660,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -5561,6 +5672,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5573,6 +5685,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5586,6 +5699,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5598,6 +5712,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5610,6 +5725,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5621,6 +5737,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5633,6 +5750,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5644,6 +5762,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5655,6 +5774,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5668,6 +5788,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5680,6 +5801,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5694,6 +5816,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5708,6 +5831,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5721,6 +5845,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5734,6 +5859,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5747,6 +5873,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5761,6 +5888,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5775,6 +5903,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5790,6 +5919,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5805,6 +5935,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5817,6 +5948,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5829,6 +5961,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -5841,6 +5974,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5853,6 +5987,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5864,6 +5999,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -5876,6 +6012,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -5887,6 +6024,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5904,6 +6042,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5921,6 +6060,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5939,6 +6079,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5957,6 +6098,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5974,6 +6116,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -5991,6 +6134,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6008,6 +6152,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6026,6 +6171,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6043,6 +6189,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6061,6 +6208,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6080,6 +6228,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6099,6 +6248,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6112,6 +6262,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6127,6 +6278,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6142,6 +6294,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6155,6 +6308,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6167,6 +6321,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6178,6 +6333,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6190,6 +6346,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6202,6 +6359,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6215,6 +6373,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6227,6 +6386,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6239,6 +6399,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6252,6 +6413,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6265,6 +6427,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6278,6 +6441,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6291,6 +6455,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6305,6 +6470,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6317,6 +6483,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6331,6 +6498,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt16"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6344,6 +6512,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6357,6 +6526,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6372,6 +6542,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6387,6 +6558,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6402,6 +6574,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6417,6 +6590,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6431,6 +6605,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6444,6 +6619,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6457,6 +6633,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6474,6 +6651,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6486,6 +6664,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6502,6 +6681,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6518,6 +6698,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6533,6 +6714,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -6545,6 +6727,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -6557,6 +6740,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6576,6 +6760,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6595,6 +6780,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6607,6 +6793,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6619,6 +6806,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6632,6 +6820,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -6645,6 +6834,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6657,6 +6847,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6669,6 +6860,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6682,6 +6874,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6694,6 +6887,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6706,6 +6900,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6718,6 +6913,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6731,6 +6927,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6743,6 +6940,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6756,6 +6954,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6768,6 +6967,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6780,6 +6980,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6792,6 +6993,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6804,6 +7006,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6816,6 +7019,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6828,6 +7032,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6839,6 +7044,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6854,6 +7060,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6865,6 +7072,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6879,6 +7087,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6893,6 +7102,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6906,6 +7116,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6919,6 +7130,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6932,6 +7144,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6945,6 +7158,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6959,6 +7173,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -6972,6 +7187,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6985,6 +7201,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -6999,6 +7216,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7013,6 +7231,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7030,6 +7249,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7047,6 +7267,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7063,6 +7284,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7079,6 +7301,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7093,6 +7316,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7106,6 +7330,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7119,6 +7344,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7131,6 +7357,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7144,6 +7371,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7159,6 +7387,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7171,6 +7400,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7184,6 +7414,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7197,6 +7428,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7212,6 +7444,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7223,6 +7456,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7235,6 +7469,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_ADDRESS_CHANGE_FN","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7246,6 +7481,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7258,6 +7494,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7273,6 +7510,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7288,6 +7526,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7299,6 +7538,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7310,6 +7550,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7322,6 +7563,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7334,6 +7576,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7348,6 +7591,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7359,6 +7603,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7371,6 +7616,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7385,6 +7631,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7398,6 +7645,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7412,6 +7660,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7425,6 +7674,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7438,6 +7688,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7449,6 +7700,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7463,6 +7715,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -7476,6 +7729,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7492,6 +7746,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7507,6 +7762,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7523,6 +7779,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7538,6 +7795,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7553,6 +7811,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7568,6 +7827,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7583,6 +7843,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7598,6 +7859,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7615,6 +7877,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7632,6 +7895,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7645,6 +7909,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7657,6 +7922,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7670,6 +7936,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7685,6 +7952,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7700,6 +7968,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7715,6 +7984,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7728,6 +7998,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7741,6 +8012,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7756,6 +8028,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7771,6 +8044,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7786,6 +8060,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7799,6 +8074,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7811,6 +8087,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7824,6 +8101,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7842,6 +8120,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7858,6 +8137,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7877,6 +8157,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7893,6 +8174,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7906,6 +8188,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7924,6 +8207,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7940,6 +8224,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7959,6 +8244,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7975,6 +8261,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -7987,6 +8274,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8001,6 +8289,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8015,6 +8304,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8028,6 +8318,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8040,6 +8331,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8054,6 +8346,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8070,6 +8363,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8083,6 +8377,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8096,6 +8391,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8110,6 +8406,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8123,6 +8420,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8135,6 +8433,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8147,6 +8446,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8161,6 +8461,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8177,6 +8478,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8190,6 +8492,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8203,6 +8506,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8217,6 +8521,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8233,6 +8538,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8249,6 +8555,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8262,6 +8569,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8274,6 +8582,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCNS4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8287,6 +8596,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8299,6 +8609,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8312,6 +8623,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8324,6 +8636,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8337,6 +8650,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8350,6 +8664,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8363,6 +8678,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8375,6 +8691,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8389,6 +8706,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8401,6 +8719,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8413,6 +8732,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8426,6 +8746,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8440,6 +8761,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8454,6 +8776,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8466,6 +8789,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8477,6 +8801,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8496,6 +8821,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8508,6 +8834,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8521,6 +8848,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8534,6 +8862,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8547,6 +8876,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -8560,6 +8890,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -8575,6 +8906,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -8589,6 +8921,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -8603,6 +8936,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -8615,6 +8949,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8628,6 +8963,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8641,6 +8977,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8653,6 +8990,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8668,6 +9006,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8680,6 +9019,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8693,6 +9033,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8708,6 +9049,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8722,6 +9064,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8735,6 +9078,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8750,6 +9094,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8767,6 +9112,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8781,6 +9127,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8797,6 +9144,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8809,6 +9157,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8823,6 +9172,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8837,6 +9187,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8851,6 +9202,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8865,6 +9217,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8879,6 +9232,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8893,6 +9247,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8907,6 +9262,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8921,6 +9277,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8935,6 +9292,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8949,6 +9307,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8963,6 +9322,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -8977,6 +9337,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -8991,6 +9352,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9005,6 +9367,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9019,6 +9382,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9033,6 +9397,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9047,6 +9412,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9061,6 +9427,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9075,6 +9442,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9089,6 +9457,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9103,6 +9472,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9118,6 +9488,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9132,6 +9503,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9147,6 +9519,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9162,6 +9535,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9174,6 +9548,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9186,6 +9561,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9201,6 +9577,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9216,6 +9593,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9231,6 +9609,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9246,6 +9625,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9261,6 +9641,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9276,6 +9657,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9291,6 +9673,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9306,6 +9689,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9321,6 +9705,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9336,6 +9721,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9351,6 +9737,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9366,6 +9753,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9381,6 +9769,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9396,6 +9785,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9411,6 +9801,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9426,6 +9817,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9441,6 +9833,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9456,6 +9849,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9470,6 +9864,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9482,6 +9877,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -9495,6 +9891,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9508,6 +9905,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9522,6 +9920,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9536,6 +9935,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9550,6 +9950,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9564,6 +9965,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9578,6 +9980,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9592,6 +9995,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9606,6 +10010,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9620,6 +10025,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9634,6 +10040,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9648,6 +10055,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9662,6 +10070,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9676,6 +10085,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9690,6 +10100,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9704,6 +10115,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9718,6 +10130,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9732,6 +10145,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9746,6 +10160,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9760,6 +10175,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -9774,6 +10190,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9787,6 +10204,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9800,6 +10218,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9813,6 +10232,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9826,6 +10246,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9839,6 +10260,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9852,6 +10274,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9865,6 +10288,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9878,6 +10302,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9891,6 +10316,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9904,6 +10330,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9917,6 +10344,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9930,6 +10358,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9943,6 +10372,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9956,6 +10386,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9969,6 +10400,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9982,6 +10414,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9995,6 +10428,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10009,6 +10443,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10023,6 +10458,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10037,6 +10473,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10051,6 +10488,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10065,6 +10503,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10079,6 +10518,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10093,6 +10533,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10107,6 +10548,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10121,6 +10563,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10135,6 +10578,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10149,6 +10593,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10163,6 +10608,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10177,6 +10623,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10191,6 +10638,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10205,6 +10653,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10219,6 +10668,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10233,6 +10683,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10246,6 +10697,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10260,6 +10712,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10275,6 +10728,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10289,6 +10743,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10304,6 +10759,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10319,6 +10775,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10333,6 +10790,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10347,6 +10805,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10360,6 +10819,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10374,6 +10834,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10388,6 +10849,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10401,6 +10863,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10415,6 +10878,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10427,6 +10891,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10440,6 +10905,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10453,6 +10919,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10466,6 +10933,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10479,6 +10947,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10491,6 +10960,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10506,6 +10976,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10521,6 +10992,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10533,6 +11005,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10548,6 +11021,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10560,6 +11034,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10571,6 +11046,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10582,6 +11058,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10594,6 +11071,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10605,6 +11083,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10618,6 +11097,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10630,6 +11110,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10645,6 +11126,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10658,6 +11140,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10670,6 +11153,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10682,6 +11166,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10693,6 +11178,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10704,6 +11190,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10716,6 +11203,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10728,6 +11216,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10741,6 +11230,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10753,6 +11243,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10768,6 +11259,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10780,6 +11272,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10792,6 +11285,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10804,6 +11298,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10816,6 +11311,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10828,6 +11324,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10840,6 +11337,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10852,6 +11350,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FULL_PTR_XLAT_TABLES","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10865,6 +11364,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10877,6 +11377,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10890,6 +11391,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10904,6 +11406,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10916,6 +11419,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10928,6 +11432,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10942,6 +11447,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10955,6 +11461,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10969,6 +11476,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -10983,6 +11491,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10997,6 +11506,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11009,6 +11519,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -11021,6 +11532,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11036,6 +11548,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -11051,6 +11564,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -11063,6 +11577,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11075,6 +11590,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11088,6 +11604,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11101,6 +11618,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11114,6 +11632,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11128,6 +11647,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -11141,6 +11661,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11156,6 +11677,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11170,6 +11692,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11187,6 +11710,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11202,6 +11726,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11216,6 +11741,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11230,6 +11756,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11247,6 +11774,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11259,6 +11787,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11273,6 +11802,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11285,6 +11815,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11299,6 +11830,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11314,6 +11846,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11329,6 +11862,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11344,6 +11878,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11359,6 +11894,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11375,6 +11911,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11391,6 +11928,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11407,6 +11945,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11423,6 +11962,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11437,6 +11977,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11451,6 +11992,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11468,6 +12010,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11485,6 +12028,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11502,6 +12046,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11519,6 +12064,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11534,6 +12080,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11549,6 +12096,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11564,6 +12112,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11577,6 +12126,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11591,6 +12141,7 @@
 		,"SetLastError":false
 		,"DllImport":"RPCRT4"
 		,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]

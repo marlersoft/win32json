@@ -459,6 +459,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pSrcData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
@@ -481,6 +482,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pSrcData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
@@ -499,6 +501,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pSrcData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":1},"Const"]}
@@ -574,6 +577,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"rclsid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
@@ -588,6 +592,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pMalloc","Type":{"Kind":"ApiRef","Name":"IMalloc","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
@@ -608,6 +613,7 @@
 				"Name":"GetBufferPointer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -618,6 +624,7 @@
 				"Name":"GetBufferSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -638,6 +645,7 @@
 				"Name":"GetEncoding"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -660,6 +668,7 @@
 				"Name":"SetMalloc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -671,6 +680,7 @@
 				"Name":"CreateBlobFromBlob"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -685,6 +695,7 @@
 				"Name":"CreateBlobFromFile"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -698,6 +709,7 @@
 				"Name":"CreateBlobWithEncodingFromPinned"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -712,6 +724,7 @@
 				"Name":"CreateBlobWithEncodingOnHeapCopy"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -726,6 +739,7 @@
 				"Name":"CreateBlobWithEncodingOnMalloc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -741,6 +755,7 @@
 				"Name":"CreateIncludeHandler"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -752,6 +767,7 @@
 				"Name":"CreateStreamFromBlobReadOnly"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -764,6 +780,7 @@
 				"Name":"GetBlobAsUtf8"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -776,6 +793,7 @@
 				"Name":"GetBlobAsUtf16"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -798,6 +816,7 @@
 				"Name":"GetStatus"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -809,6 +828,7 @@
 				"Name":"GetResult"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -820,6 +840,7 @@
 				"Name":"GetErrorBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -841,6 +862,7 @@
 				"Name":"LoadSource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -877,6 +899,7 @@
 				"Name":"Compile"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -897,6 +920,7 @@
 				"Name":"Preprocess"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -915,6 +939,7 @@
 				"Name":"Disassemble"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -937,6 +962,7 @@
 				"Name":"CompileWithDebug"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -969,6 +995,7 @@
 				"Name":"RegisterLibrary"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -981,6 +1008,7 @@
 				"Name":"Link"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1008,6 +1036,7 @@
 				"Name":"Validate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1031,6 +1060,7 @@
 				"Name":"Load"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1042,6 +1072,7 @@
 				"Name":"AddPart"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1054,6 +1085,7 @@
 				"Name":"RemovePart"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1065,6 +1097,7 @@
 				"Name":"SerializeContainer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1086,6 +1119,7 @@
 				"Name":"AssembleToContainer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1108,6 +1142,7 @@
 				"Name":"Load"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1119,6 +1154,7 @@
 				"Name":"GetPartCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1130,6 +1166,7 @@
 				"Name":"GetPartKind"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1142,6 +1179,7 @@
 				"Name":"GetPartContent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1154,6 +1192,7 @@
 				"Name":"FindFirstPartKind"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1166,6 +1205,7 @@
 				"Name":"GetPartReflection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1189,6 +1229,7 @@
 				"Name":"GetOptionName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1200,6 +1241,7 @@
 				"Name":"GetDescription"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1211,6 +1253,7 @@
 				"Name":"GetOptionArgCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1222,6 +1265,7 @@
 				"Name":"GetOptionArgName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1234,6 +1278,7 @@
 				"Name":"GetOptionArgDescription"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1256,6 +1301,7 @@
 				"Name":"GetAvailablePassCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1267,6 +1313,7 @@
 				"Name":"GetAvailablePass"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1279,6 +1326,7 @@
 				"Name":"RunOptimizer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1304,6 +1352,7 @@
 				"Name":"GetVersion"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1316,6 +1365,7 @@
 				"Name":"GetFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1337,6 +1387,7 @@
 				"Name":"GetCommitInfo"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -1369,6 +1420,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1382,6 +1434,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1396,6 +1449,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1418,6 +1472,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1443,6 +1498,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1463,6 +1519,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1481,6 +1538,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1495,6 +1553,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1510,6 +1569,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1525,6 +1585,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1541,6 +1602,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1560,6 +1622,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1572,6 +1635,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1586,6 +1650,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1599,6 +1664,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1617,6 +1683,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1631,6 +1698,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1645,6 +1713,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1659,6 +1728,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1674,6 +1744,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1690,6 +1761,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1708,6 +1780,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1721,6 +1794,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1736,6 +1810,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1755,6 +1830,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]

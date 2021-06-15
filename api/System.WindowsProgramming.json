@@ -4196,6 +4196,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpFiberParameter","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4208,6 +4209,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpParameter","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4349,6 +4351,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -4367,6 +4370,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pvParameter","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4455,6 +4459,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 		]
@@ -4512,6 +4517,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"ApcContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4861,6 +4867,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -5002,6 +5009,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"ResourceDescription","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -5016,6 +5024,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"HeapAllocation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AVRF_HEAP_ALLOCATION","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["In","Out"]}
@@ -5030,6 +5039,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"HandleOperation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AVRF_HANDLE_OPERATION","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["In","Out"]}
@@ -5136,6 +5146,7 @@
 				"Name":"OnStartupComplete"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5146,6 +5157,7 @@
 				"Name":"OnSuspendComplete"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5156,6 +5168,7 @@
 				"Name":"OnItemCaptured"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5167,6 +5180,7 @@
 				"Name":"OnItemDeleted"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5178,6 +5192,7 @@
 				"Name":"OnClosed"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5198,6 +5213,7 @@
 				"Name":"Show"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5216,6 +5232,7 @@
 				"Name":"Close"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5226,6 +5243,7 @@
 				"Name":"Suspend"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5237,6 +5255,7 @@
 				"Name":"Resume"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5247,6 +5266,7 @@
 				"Name":"GetCurrentViewType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5258,6 +5278,7 @@
 				"Name":"GetActiveItem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5269,6 +5290,7 @@
 				"Name":"GetSelectedItems"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5280,6 +5302,7 @@
 				"Name":"RemoveCapturedItem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5315,6 +5338,7 @@
 				"Name":"CanUpgrade"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5326,6 +5350,7 @@
 				"Name":"UpdateOperatingSystem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5337,6 +5362,7 @@
 				"Name":"ShowProductKeyUI"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5347,6 +5373,7 @@
 				"Name":"GetOsProductContentId"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5358,6 +5385,7 @@
 				"Name":"GetGenuineLocalStatus"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5379,6 +5407,7 @@
 				"Name":"GetSMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5400,6 +5429,7 @@
 				"Name":"InitializeParentWindow"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5411,6 +5441,7 @@
 				"Name":"UpdateOperatingSystem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5422,6 +5453,7 @@
 				"Name":"ShowProductKeyUI"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5432,6 +5464,7 @@
 				"Name":"CanUpgrade"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5452,6 +5485,7 @@
 				"Name":"CanActivateClientVM"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5473,6 +5507,7 @@
 				"Name":"ShowToast"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5548,6 +5583,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -5626,6 +5662,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpSurfaceInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DCISURFACEINFO","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["In","Out"]}
@@ -5687,6 +5724,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hww","Type":{"Kind":"ApiRef","Name":"HWINWATCH","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
@@ -5702,6 +5740,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -5715,6 +5754,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -5807,6 +5847,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hm","Type":{"Kind":"ApiRef","Name":"HINSTANCE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -6181,6 +6222,7 @@
 				"Name":"GoBack"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6191,6 +6233,7 @@
 				"Name":"GoForward"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6201,6 +6244,7 @@
 				"Name":"GoHome"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6211,6 +6255,7 @@
 				"Name":"GoSearch"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6221,6 +6266,7 @@
 				"Name":"Navigate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6236,6 +6282,7 @@
 				"Name":"Refresh"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6246,6 +6293,7 @@
 				"Name":"Refresh2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6257,6 +6305,7 @@
 				"Name":"Stop"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6267,6 +6316,7 @@
 				"Name":"get_Application"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6280,6 +6330,7 @@
 				"Name":"get_Parent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6293,6 +6344,7 @@
 				"Name":"get_Container"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6306,6 +6358,7 @@
 				"Name":"get_Document"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6319,6 +6372,7 @@
 				"Name":"get_TopLevelContainer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6332,6 +6386,7 @@
 				"Name":"get_Type"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6345,6 +6400,7 @@
 				"Name":"get_Left"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6358,6 +6414,7 @@
 				"Name":"put_Left"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6371,6 +6428,7 @@
 				"Name":"get_Top"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6384,6 +6442,7 @@
 				"Name":"put_Top"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6397,6 +6456,7 @@
 				"Name":"get_Width"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6410,6 +6470,7 @@
 				"Name":"put_Width"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6423,6 +6484,7 @@
 				"Name":"get_Height"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6436,6 +6498,7 @@
 				"Name":"put_Height"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6449,6 +6512,7 @@
 				"Name":"get_LocationName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6462,6 +6526,7 @@
 				"Name":"get_LocationURL"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6475,6 +6540,7 @@
 				"Name":"get_Busy"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6508,6 +6574,7 @@
 				"Name":"Quit"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6518,6 +6585,7 @@
 				"Name":"ClientToWindow"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6530,6 +6598,7 @@
 				"Name":"PutProperty"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6542,6 +6611,7 @@
 				"Name":"GetProperty"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6554,6 +6624,7 @@
 				"Name":"get_Name"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6567,6 +6638,7 @@
 				"Name":"get_HWND"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6580,6 +6652,7 @@
 				"Name":"get_FullName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6593,6 +6666,7 @@
 				"Name":"get_Path"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6606,6 +6680,7 @@
 				"Name":"get_Visible"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6619,6 +6694,7 @@
 				"Name":"put_Visible"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6632,6 +6708,7 @@
 				"Name":"get_StatusBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6645,6 +6722,7 @@
 				"Name":"put_StatusBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6658,6 +6736,7 @@
 				"Name":"get_StatusText"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6671,6 +6750,7 @@
 				"Name":"put_StatusText"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6684,6 +6764,7 @@
 				"Name":"get_ToolBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6697,6 +6778,7 @@
 				"Name":"put_ToolBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6710,6 +6792,7 @@
 				"Name":"get_MenuBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6723,6 +6806,7 @@
 				"Name":"put_MenuBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6736,6 +6820,7 @@
 				"Name":"get_FullScreen"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6749,6 +6834,7 @@
 				"Name":"put_FullScreen"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6772,6 +6858,7 @@
 				"Name":"Navigate2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6787,6 +6874,7 @@
 				"Name":"QueryStatusWB"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6799,6 +6887,7 @@
 				"Name":"ExecWB"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6813,6 +6902,7 @@
 				"Name":"ShowBrowserBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6826,6 +6916,7 @@
 				"Name":"get_ReadyState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6839,6 +6930,7 @@
 				"Name":"get_Offline"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6852,6 +6944,7 @@
 				"Name":"put_Offline"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6865,6 +6958,7 @@
 				"Name":"get_Silent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6878,6 +6972,7 @@
 				"Name":"put_Silent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6891,6 +6986,7 @@
 				"Name":"get_RegisterAsBrowser"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6904,6 +7000,7 @@
 				"Name":"put_RegisterAsBrowser"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6917,6 +7014,7 @@
 				"Name":"get_RegisterAsDropTarget"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6930,6 +7028,7 @@
 				"Name":"put_RegisterAsDropTarget"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6943,6 +7042,7 @@
 				"Name":"get_TheaterMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6956,6 +7056,7 @@
 				"Name":"put_TheaterMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6969,6 +7070,7 @@
 				"Name":"get_AddressBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6982,6 +7084,7 @@
 				"Name":"put_AddressBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -6995,6 +7098,7 @@
 				"Name":"get_Resizable"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -7008,6 +7112,7 @@
 				"Name":"put_Resizable"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -7051,6 +7156,7 @@
 				"Name":"ResetFirstBootMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7061,6 +7167,7 @@
 				"Name":"ResetSafeMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7071,6 +7178,7 @@
 				"Name":"RefreshOfflineDesktop"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7081,6 +7189,7 @@
 				"Name":"AddFavorite"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7093,6 +7202,7 @@
 				"Name":"AddChannel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7104,6 +7214,7 @@
 				"Name":"AddDesktopComponent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7120,6 +7231,7 @@
 				"Name":"IsSubscribed"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7132,6 +7244,7 @@
 				"Name":"NavigateAndFind"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7145,6 +7258,7 @@
 				"Name":"ImportExportFavorites"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7157,6 +7271,7 @@
 				"Name":"AutoCompleteSaveForm"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7168,6 +7283,7 @@
 				"Name":"AutoScan"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7181,6 +7297,7 @@
 				"Name":"AutoCompleteAttach"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7192,6 +7309,7 @@
 				"Name":"ShowBrowserUI"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7215,6 +7333,7 @@
 				"Name":"AddSearchProvider"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7226,6 +7345,7 @@
 				"Name":"RunOnceShown"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7236,6 +7356,7 @@
 				"Name":"SkipRunOnce"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7246,6 +7367,7 @@
 				"Name":"CustomizeSettings"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7259,6 +7381,7 @@
 				"Name":"SqmEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7270,6 +7393,7 @@
 				"Name":"PhishingEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7281,6 +7405,7 @@
 				"Name":"BrandImageUri"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7292,6 +7417,7 @@
 				"Name":"SkipTabsWelcome"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7302,6 +7428,7 @@
 				"Name":"DiagnoseConnection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7312,6 +7439,7 @@
 				"Name":"CustomizeClearType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7323,6 +7451,7 @@
 				"Name":"IsSearchProviderInstalled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7335,6 +7464,7 @@
 				"Name":"IsSearchMigrated"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7346,6 +7476,7 @@
 				"Name":"DefaultSearchProvider"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7357,6 +7488,7 @@
 				"Name":"RunOnceRequiredSettingsComplete"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7368,6 +7500,7 @@
 				"Name":"RunOnceHasShown"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7379,6 +7512,7 @@
 				"Name":"SearchGuideUrl"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7400,6 +7534,7 @@
 				"Name":"AddService"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7411,6 +7546,7 @@
 				"Name":"IsServiceInstalled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7424,6 +7560,7 @@
 				"Name":"InPrivateFilteringEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7435,6 +7572,7 @@
 				"Name":"AddToFavoritesBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7448,6 +7586,7 @@
 				"Name":"BuildNewTabPage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7458,6 +7597,7 @@
 				"Name":"SetRecentlyClosedVisible"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7469,6 +7609,7 @@
 				"Name":"SetActivitiesVisible"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7480,6 +7621,7 @@
 				"Name":"ContentDiscoveryReset"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7490,6 +7632,7 @@
 				"Name":"IsSuggestedSitesEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7501,6 +7644,7 @@
 				"Name":"EnableSuggestedSites"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7512,6 +7656,7 @@
 				"Name":"NavigateToSuggestedSites"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7523,6 +7668,7 @@
 				"Name":"ShowTabsHelp"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7533,6 +7679,7 @@
 				"Name":"ShowInPrivateHelp"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7553,6 +7700,7 @@
 				"Name":"msIsSiteMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7564,6 +7712,7 @@
 				"Name":"msSiteModeShowThumbBar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7574,6 +7723,7 @@
 				"Name":"msSiteModeAddThumbBarButton"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7587,6 +7737,7 @@
 				"Name":"msSiteModeUpdateThumbBarButton"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7600,6 +7751,7 @@
 				"Name":"msSiteModeSetIconOverlay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7612,6 +7764,7 @@
 				"Name":"msSiteModeClearIconOverlay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7622,6 +7775,7 @@
 				"Name":"msAddSiteMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7632,6 +7786,7 @@
 				"Name":"msSiteModeCreateJumpList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7643,6 +7798,7 @@
 				"Name":"msSiteModeAddJumpListItem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7657,6 +7813,7 @@
 				"Name":"msSiteModeClearJumpList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7667,6 +7824,7 @@
 				"Name":"msSiteModeShowJumpList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7677,6 +7835,7 @@
 				"Name":"msSiteModeAddButtonStyle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7691,6 +7850,7 @@
 				"Name":"msSiteModeShowButtonStyle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7703,6 +7863,7 @@
 				"Name":"msSiteModeActivate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7713,6 +7874,7 @@
 				"Name":"msIsSiteModeFirstRun"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7725,6 +7887,7 @@
 				"Name":"msAddTrackingProtectionList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7737,6 +7900,7 @@
 				"Name":"msTrackingProtectionEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7748,6 +7912,7 @@
 				"Name":"msActiveXFilteringEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7769,6 +7934,7 @@
 				"Name":"msProvisionNetworks"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7781,6 +7947,7 @@
 				"Name":"msReportSafeUrl"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7791,6 +7958,7 @@
 				"Name":"msSiteModeRefreshBadge"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7801,6 +7969,7 @@
 				"Name":"msSiteModeClearBadge"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7811,6 +7980,7 @@
 				"Name":"msDiagnoseConnectionUILess"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7821,6 +7991,7 @@
 				"Name":"msLaunchNetworkClientHelp"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7831,6 +8002,7 @@
 				"Name":"msChangeDefaultBrowser"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7852,6 +8024,7 @@
 				"Name":"msStopPeriodicTileUpdate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7862,6 +8035,7 @@
 				"Name":"msStartPeriodicTileUpdate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7875,6 +8049,7 @@
 				"Name":"msStartPeriodicTileUpdateBatch"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7888,6 +8063,7 @@
 				"Name":"msClearTile"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7898,6 +8074,7 @@
 				"Name":"msEnableTileNotificationQueue"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7909,6 +8086,7 @@
 				"Name":"msPinnedSiteState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7920,6 +8098,7 @@
 				"Name":"msEnableTileNotificationQueueForSquare150x150"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7931,6 +8110,7 @@
 				"Name":"msEnableTileNotificationQueueForWide310x150"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7942,6 +8122,7 @@
 				"Name":"msEnableTileNotificationQueueForSquare310x310"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7953,6 +8134,7 @@
 				"Name":"msScheduledTileNotification"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7968,6 +8150,7 @@
 				"Name":"msRemoveScheduledTileNotification"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7979,6 +8162,7 @@
 				"Name":"msStartPeriodicBadgeUpdate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7992,6 +8176,7 @@
 				"Name":"msStopPeriodicBadgeUpdate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8002,6 +8187,7 @@
 				"Name":"msLaunchInternetOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8022,6 +8208,7 @@
 				"Name":"SetExperimentalFlag"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8034,6 +8221,7 @@
 				"Name":"GetExperimentalFlag"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8046,6 +8234,7 @@
 				"Name":"SetExperimentalValue"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8058,6 +8247,7 @@
 				"Name":"GetExperimentalValue"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8070,6 +8260,7 @@
 				"Name":"ResetAllExperimentalFlagsAndValues"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8080,6 +8271,7 @@
 				"Name":"GetNeedIEAutoLaunchFlag"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8092,6 +8284,7 @@
 				"Name":"SetNeedIEAutoLaunchFlag"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8104,6 +8297,7 @@
 				"Name":"HasNeedIEAutoLaunchFlag"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8116,6 +8310,7 @@
 				"Name":"LaunchIE"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8138,6 +8333,7 @@
 				"Name":"GetCVListData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8149,6 +8345,7 @@
 				"Name":"GetCVListLocalData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8160,6 +8357,7 @@
 				"Name":"GetEMIEListData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8171,6 +8369,7 @@
 				"Name":"GetEMIEListLocalData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8182,6 +8381,7 @@
 				"Name":"OpenFavoritesPane"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8192,6 +8392,7 @@
 				"Name":"OpenFavoritesSettings"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8202,6 +8403,7 @@
 				"Name":"LaunchInHVSI"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8223,6 +8425,7 @@
 				"Name":"GetOSSku"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8254,6 +8457,7 @@
 				"Name":"MoveSelectionUp"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8264,6 +8468,7 @@
 				"Name":"MoveSelectionDown"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8274,6 +8479,7 @@
 				"Name":"ResetSort"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8284,6 +8490,7 @@
 				"Name":"NewFolder"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8294,6 +8501,7 @@
 				"Name":"Synchronize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8304,6 +8512,7 @@
 				"Name":"Import"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8314,6 +8523,7 @@
 				"Name":"Export"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8324,6 +8534,7 @@
 				"Name":"InvokeContextMenuCommand"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8335,6 +8546,7 @@
 				"Name":"MoveSelectionTo"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8345,6 +8557,7 @@
 				"Name":"get_SubscriptionsEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8358,6 +8571,7 @@
 				"Name":"CreateSubscriptionForSelection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8369,6 +8583,7 @@
 				"Name":"DeleteSubscriptionForSelection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8380,6 +8595,7 @@
 				"Name":"SetRoot"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8401,6 +8617,7 @@
 				"Name":"get_EnumOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8414,6 +8631,7 @@
 				"Name":"put_EnumOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8427,6 +8645,7 @@
 				"Name":"get_SelectedItem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8440,6 +8659,7 @@
 				"Name":"put_SelectedItem"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8453,6 +8673,7 @@
 				"Name":"get_Root"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8466,6 +8687,7 @@
 				"Name":"put_Root"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8479,6 +8701,7 @@
 				"Name":"get_Depth"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8492,6 +8715,7 @@
 				"Name":"put_Depth"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8505,6 +8729,7 @@
 				"Name":"get_Mode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8518,6 +8743,7 @@
 				"Name":"put_Mode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8531,6 +8757,7 @@
 				"Name":"get_Flags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8544,6 +8771,7 @@
 				"Name":"put_Flags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8557,6 +8785,7 @@
 				"Name":"put_TVFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8570,6 +8799,7 @@
 				"Name":"get_TVFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8583,6 +8813,7 @@
 				"Name":"get_Columns"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8596,6 +8827,7 @@
 				"Name":"put_Columns"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8609,6 +8841,7 @@
 				"Name":"get_CountViewTypes"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[
@@ -8622,6 +8855,7 @@
 				"Name":"SetViewType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8633,6 +8867,7 @@
 				"Name":"SelectedItems"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8644,6 +8879,7 @@
 				"Name":"Expand"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8656,6 +8892,7 @@
 				"Name":"UnselectAll"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8676,6 +8913,7 @@
 				"Name":"advanceError"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8686,6 +8924,7 @@
 				"Name":"retreatError"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8696,6 +8935,7 @@
 				"Name":"canAdvanceError"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8707,6 +8947,7 @@
 				"Name":"canRetreatError"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8718,6 +8959,7 @@
 				"Name":"getErrorLine"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8729,6 +8971,7 @@
 				"Name":"getErrorChar"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8740,6 +8983,7 @@
 				"Name":"getErrorCode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8751,6 +8995,7 @@
 				"Name":"getErrorMsg"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8762,6 +9007,7 @@
 				"Name":"getErrorUrl"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8773,6 +9019,7 @@
 				"Name":"getAlwaysShowLockState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8784,6 +9031,7 @@
 				"Name":"getDetailsPaneOpen"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8795,6 +9043,7 @@
 				"Name":"setDetailsPaneOpen"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8806,6 +9055,7 @@
 				"Name":"getPerErrorDisplay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8817,6 +9067,7 @@
 				"Name":"setPerErrorDisplay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8857,6 +9108,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FIO_CONTEXT","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["In","Out"]}
@@ -8911,6 +9163,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpstrName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -8926,6 +9179,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpstrName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -8945,6 +9199,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"cbKey1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -8960,6 +9215,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lpbKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Out"]}
@@ -8973,6 +9229,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -8987,6 +9244,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -9000,6 +9258,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pSecurityDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_DESCRIPTOR","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In","Out"]}
@@ -9296,6 +9555,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hFileHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -9308,6 +9568,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pbEnabled","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -9320,6 +9581,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"fileHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -9334,6 +9596,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"lockdownMode","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WLDP_WINDOWS_LOCKDOWN_MODE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
@@ -9346,6 +9609,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"LockdownRestriction","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WLDP_WINDOWS_LOCKDOWN_RESTRICTION","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
@@ -9358,6 +9622,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"LockdownRestriction","Type":{"Kind":"ApiRef","Name":"WLDP_WINDOWS_LOCKDOWN_RESTRICTION","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
@@ -9370,6 +9635,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"PackageFamilyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -9433,6 +9699,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-apiquery-l2-1-0"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9445,6 +9712,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -9458,6 +9726,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -9471,6 +9740,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -9484,6 +9754,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.1"
 		,"Attrs":[]
@@ -9498,6 +9769,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-1"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -9510,6 +9782,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-1"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -9522,6 +9795,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-1"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -9534,6 +9808,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.1"
 		,"Attrs":[]
@@ -9546,6 +9821,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-2"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.15063"
 		,"Attrs":[]
@@ -9558,6 +9834,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-2"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.15063"
 		,"Attrs":[]
@@ -9572,6 +9849,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-realtime-l1-1-2"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.15063"
 		,"Attrs":[]
@@ -9586,6 +9864,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9598,6 +9877,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9610,6 +9890,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9622,6 +9903,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9634,6 +9916,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9646,6 +9929,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9659,6 +9943,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9671,6 +9956,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9683,6 +9969,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9695,6 +9982,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9707,6 +9995,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9719,6 +10008,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9732,6 +10022,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -9746,6 +10037,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -9759,6 +10051,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9773,6 +10066,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -9787,6 +10081,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9800,6 +10095,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9813,6 +10109,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9827,6 +10124,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9841,6 +10139,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9855,6 +10154,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9869,6 +10169,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9881,6 +10182,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9895,6 +10197,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -9910,6 +10213,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9924,6 +10228,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9938,6 +10243,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9952,6 +10258,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9966,6 +10273,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9981,6 +10289,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -9993,6 +10302,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -10008,6 +10318,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -10023,6 +10334,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -10039,6 +10351,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -10055,6 +10368,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -10070,6 +10384,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -10085,6 +10400,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -10101,6 +10417,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -10117,6 +10434,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -10129,6 +10447,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10143,6 +10462,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10157,6 +10477,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10173,6 +10494,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10189,6 +10511,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10203,6 +10526,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10217,6 +10541,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10231,6 +10556,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10245,6 +10571,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10258,6 +10585,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10271,6 +10599,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10286,6 +10615,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10301,6 +10631,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10318,6 +10649,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10335,6 +10667,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10350,6 +10683,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10365,6 +10699,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10380,6 +10715,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10395,6 +10731,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10409,6 +10746,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10423,6 +10761,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10437,6 +10776,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10451,6 +10791,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10467,6 +10808,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10483,6 +10825,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10499,6 +10842,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10515,6 +10859,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10528,6 +10873,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10541,6 +10887,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10554,6 +10901,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10567,6 +10915,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10581,6 +10930,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10595,6 +10945,7 @@
 		,"SetLastError":true
 		,"DllImport":"ADVAPI32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10608,6 +10959,7 @@
 		,"SetLastError":true
 		,"DllImport":"ADVAPI32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10621,6 +10973,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVAPI32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10633,6 +10986,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10650,6 +11004,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10663,6 +11018,7 @@
 		,"SetLastError":true
 		,"DllImport":"ADVAPI32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10675,6 +11031,7 @@
 		,"SetLastError":true
 		,"DllImport":"ADVAPI32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10687,6 +11044,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10701,6 +11059,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10715,6 +11074,7 @@
 		,"SetLastError":true
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10731,6 +11091,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-backgroundtask-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10743,6 +11104,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10756,6 +11118,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10769,6 +11132,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10781,6 +11145,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10794,6 +11159,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10807,6 +11173,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10820,6 +11187,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10832,6 +11200,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}
+		,"ReturnAttrs":[]
 		,"Architectures":["X64","Arm64"]
 		,"Platform":null
 		,"Attrs":[]
@@ -10845,6 +11214,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10857,6 +11227,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10879,6 +11250,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10896,6 +11268,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10909,6 +11282,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10932,6 +11306,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10949,6 +11324,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -10964,6 +11340,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10985,6 +11362,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -10999,6 +11377,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11013,6 +11392,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11029,6 +11409,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11044,6 +11425,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11056,6 +11438,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11069,6 +11452,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11082,6 +11466,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11094,6 +11479,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11106,6 +11492,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11118,6 +11505,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11131,6 +11519,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11144,6 +11533,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11157,6 +11547,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11170,6 +11561,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11183,6 +11575,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11197,6 +11590,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11211,6 +11605,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11225,6 +11620,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11239,6 +11635,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11253,6 +11650,7 @@
 		,"SetLastError":false
 		,"DllImport":"ntdll"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11265,6 +11663,7 @@
 		,"SetLastError":false
 		,"DllImport":"verifier"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11281,6 +11680,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-0"
 		,"ReturnType":{"Kind":"ApiRef","Name":"FEATURE_ENABLED_STATE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11294,6 +11694,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11309,6 +11710,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11322,6 +11724,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11336,6 +11739,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11348,6 +11752,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-core-featurestaging-l1-1-1"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11363,6 +11768,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11374,6 +11780,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11386,6 +11793,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11399,6 +11807,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11420,6 +11829,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11434,6 +11844,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11450,6 +11861,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11465,6 +11877,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HWINWATCH","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11477,6 +11890,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11489,6 +11903,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11504,6 +11919,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11516,6 +11932,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11530,6 +11947,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11544,6 +11962,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11558,6 +11977,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11570,6 +11990,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11586,6 +12007,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -11598,6 +12020,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11610,6 +12033,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11623,6 +12047,7 @@
 		,"SetLastError":false
 		,"DllImport":"DCIMAN32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11637,6 +12062,7 @@
 		,"SetLastError":false
 		,"DllImport":"api-ms-win-dx-d3dkmt-l1-1-0"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11648,6 +12074,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11667,6 +12094,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11686,6 +12114,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11697,6 +12126,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11709,6 +12139,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11724,6 +12155,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11739,6 +12171,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11758,6 +12191,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11777,6 +12211,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -11791,6 +12226,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -11805,6 +12241,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11820,6 +12257,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11834,6 +12272,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11848,6 +12287,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11866,6 +12306,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11884,6 +12325,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11902,6 +12344,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11920,6 +12363,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11938,6 +12382,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11956,6 +12401,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11970,6 +12416,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -11984,6 +12431,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12000,6 +12448,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12018,6 +12467,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12036,6 +12486,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12051,6 +12502,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12066,6 +12518,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12080,6 +12533,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12094,6 +12548,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12109,6 +12564,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12124,6 +12580,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12139,6 +12596,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12154,6 +12612,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12167,6 +12626,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12180,6 +12640,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12193,6 +12654,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12208,6 +12670,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12224,6 +12687,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12240,6 +12704,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12259,6 +12724,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12278,6 +12744,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12290,6 +12757,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12307,6 +12775,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12324,6 +12793,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12339,6 +12809,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12354,6 +12825,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12369,6 +12841,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12384,6 +12857,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12399,6 +12873,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12411,6 +12886,7 @@
 		,"SetLastError":false
 		,"DllImport":"ADVPACK"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12423,6 +12899,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"LRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -12436,6 +12913,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"LRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -12449,6 +12927,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12462,6 +12941,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12475,6 +12955,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12487,6 +12968,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12499,6 +12981,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12512,6 +12995,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12525,6 +13009,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12537,6 +13022,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -12550,6 +13036,7 @@
 		,"SetLastError":false
 		,"DllImport":"USER32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12562,6 +13049,7 @@
 		,"SetLastError":false
 		,"DllImport":"APPHELP"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12576,6 +13064,7 @@
 		,"SetLastError":false
 		,"DllImport":"Wldp"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12590,6 +13079,7 @@
 		,"SetLastError":false
 		,"DllImport":"Wldp"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12605,6 +13095,7 @@
 		,"SetLastError":false
 		,"DllImport":"Wldp"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12617,6 +13108,7 @@
 		,"SetLastError":false
 		,"DllImport":"Wldp"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12629,6 +13121,7 @@
 		,"SetLastError":false
 		,"DllImport":"Wldp"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -12643,6 +13136,7 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.1"
 		,"Attrs":[]

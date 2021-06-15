@@ -1295,6 +1295,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Format","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated","Const"]}
@@ -1369,6 +1370,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -1388,6 +1390,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -1408,6 +1411,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -1437,6 +1441,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Connection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -1451,6 +1456,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Connection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -1465,6 +1471,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1478,6 +1485,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1491,6 +1499,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1504,6 +1513,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1517,6 +1527,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1531,6 +1542,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1545,6 +1557,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1558,6 +1571,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1571,6 +1585,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1584,6 +1599,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1598,6 +1614,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1611,6 +1628,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1624,6 +1642,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1637,6 +1656,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1649,6 +1669,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1661,6 +1682,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1675,6 +1697,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1689,6 +1712,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1703,6 +1727,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1717,6 +1742,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1731,6 +1757,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1745,6 +1772,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1759,6 +1787,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1773,6 +1802,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1788,6 +1818,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1803,6 +1834,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1818,6 +1850,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1833,6 +1866,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1851,6 +1885,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1869,6 +1904,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1887,6 +1923,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1905,6 +1942,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1919,6 +1957,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1933,6 +1972,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1948,6 +1988,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1963,6 +2004,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1980,6 +2022,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -1997,6 +2040,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2015,6 +2059,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2033,6 +2078,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2052,6 +2098,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2071,6 +2118,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2093,6 +2141,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2115,6 +2164,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2137,6 +2187,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2159,6 +2210,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2176,6 +2228,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2194,6 +2247,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2213,6 +2267,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2235,6 +2290,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2257,6 +2313,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2270,6 +2327,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2283,6 +2341,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2297,6 +2356,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2311,6 +2371,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2325,6 +2386,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2339,6 +2401,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2356,6 +2419,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2373,6 +2437,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2389,6 +2454,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2405,6 +2471,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2419,6 +2486,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2433,6 +2501,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2450,6 +2519,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2466,6 +2536,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2481,6 +2552,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2496,6 +2568,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2510,6 +2583,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2524,6 +2598,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2539,6 +2614,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2554,6 +2630,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2568,6 +2645,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2582,6 +2660,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2597,6 +2676,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2611,6 +2691,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2626,6 +2707,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2640,6 +2722,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2659,6 +2742,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2678,6 +2762,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2696,6 +2781,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2714,6 +2800,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2733,6 +2820,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2751,6 +2839,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2765,6 +2854,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2779,6 +2869,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2793,6 +2884,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2807,6 +2899,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2824,6 +2917,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2841,6 +2935,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2857,6 +2952,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2873,6 +2969,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2887,6 +2984,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2901,6 +2999,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2918,6 +3017,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2934,6 +3034,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2949,6 +3050,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2964,6 +3066,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2979,6 +3082,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -2994,6 +3098,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3009,6 +3114,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3024,6 +3130,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3043,6 +3150,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3062,6 +3170,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3080,6 +3189,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3098,6 +3208,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3117,6 +3228,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3135,6 +3247,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3148,6 +3261,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3161,6 +3275,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3174,6 +3289,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3187,6 +3303,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3203,6 +3320,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3219,6 +3337,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3234,6 +3353,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3249,6 +3369,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3262,6 +3383,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3275,6 +3397,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3291,6 +3414,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3306,6 +3430,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3319,6 +3444,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3335,6 +3461,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3347,6 +3474,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3361,6 +3489,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3380,6 +3509,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3399,6 +3529,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3415,6 +3546,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3431,6 +3563,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3443,6 +3576,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3455,6 +3589,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3467,6 +3602,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3479,6 +3615,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3491,6 +3628,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3503,6 +3641,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3522,6 +3661,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3534,6 +3674,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3546,6 +3687,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3558,6 +3700,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3570,6 +3713,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3582,6 +3726,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3594,6 +3739,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3607,6 +3753,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3620,6 +3767,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3633,6 +3781,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3646,6 +3795,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3660,6 +3810,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3674,6 +3825,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3688,6 +3840,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3702,6 +3855,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3716,6 +3870,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3730,6 +3885,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3744,6 +3900,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3758,6 +3915,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3772,6 +3930,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3786,6 +3945,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3800,6 +3960,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3814,6 +3975,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3826,6 +3988,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3838,6 +4001,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3850,6 +4014,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3862,6 +4027,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3874,6 +4040,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3886,6 +4053,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3898,6 +4066,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3910,6 +4079,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3923,6 +4093,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3936,6 +4107,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3949,6 +4121,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3962,6 +4135,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3975,6 +4149,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -3988,6 +4163,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4000,6 +4176,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4012,6 +4189,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4024,6 +4202,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4036,6 +4215,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4048,6 +4228,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4060,6 +4241,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4072,6 +4254,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4085,6 +4268,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4098,6 +4282,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4111,6 +4296,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4124,6 +4310,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4136,6 +4323,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4151,6 +4339,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4166,6 +4355,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4181,6 +4371,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4193,6 +4384,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4205,6 +4397,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4220,6 +4413,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4235,6 +4429,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4250,6 +4445,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4265,6 +4461,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4280,6 +4477,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4295,6 +4493,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4310,6 +4509,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4325,6 +4525,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4340,6 +4541,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4355,6 +4557,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4371,6 +4574,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4387,6 +4591,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4402,6 +4607,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4417,6 +4623,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4433,6 +4640,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4448,6 +4656,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4470,6 +4679,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4492,6 +4702,7 @@
 		,"SetLastError":true
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4514,6 +4725,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4529,6 +4741,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4546,6 +4759,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4561,6 +4775,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4574,6 +4789,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4589,6 +4805,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4604,6 +4821,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4621,6 +4839,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4638,6 +4857,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4654,6 +4874,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4670,6 +4891,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Byte"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4682,6 +4904,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4695,6 +4918,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4708,6 +4932,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4721,6 +4946,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4735,6 +4961,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4749,6 +4976,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4763,6 +4991,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4780,6 +5009,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4797,6 +5027,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4815,6 +5046,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4833,6 +5065,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4850,6 +5083,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4863,6 +5097,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4874,6 +5109,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4886,6 +5122,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4899,6 +5136,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"berelement","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4911,6 +5149,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4924,6 +5163,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4936,6 +5176,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4948,6 +5189,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"berelement","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4960,6 +5202,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4973,6 +5216,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -4986,6 +5230,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5000,6 +5245,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5014,6 +5260,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5027,6 +5274,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]
@@ -5040,6 +5288,7 @@
 		,"SetLastError":false
 		,"DllImport":"WLDAP32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.0.6000"
 		,"Attrs":[]

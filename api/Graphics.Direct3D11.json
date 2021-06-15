@@ -3855,6 +3855,7 @@
 				"Name":"GetBufferPointer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -3865,6 +3866,7 @@
 				"Name":"GetBufferSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -3880,6 +3882,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -3897,6 +3900,7 @@
 				"Name":"RegisterDestructionCallback"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -3910,6 +3914,7 @@
 				"Name":"UnregisterDestructionCallback"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -3947,6 +3952,7 @@
 				"Name":"Open"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -3962,6 +3968,7 @@
 				"Name":"Close"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -4827,6 +4834,7 @@
 				"Name":"GetDevice"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -4838,6 +4846,7 @@
 				"Name":"GetPrivateData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -4851,6 +4860,7 @@
 				"Name":"SetPrivateData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -4864,6 +4874,7 @@
 				"Name":"SetPrivateDataInterface"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -4973,6 +4984,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5089,6 +5101,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5132,6 +5145,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5183,6 +5197,7 @@
 				"Name":"GetType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5194,6 +5209,7 @@
 				"Name":"SetEvictionPriority"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5205,6 +5221,7 @@
 				"Name":"GetEvictionPriority"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5243,6 +5260,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5284,6 +5302,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5327,6 +5346,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5369,6 +5389,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5407,6 +5428,7 @@
 				"Name":"GetResource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5666,6 +5688,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -5862,6 +5885,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6013,6 +6037,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6167,6 +6192,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6371,6 +6397,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6457,6 +6484,7 @@
 				"Name":"GetDataSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6542,6 +6570,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6680,6 +6709,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6747,6 +6777,7 @@
 				"Name":"GetClassLinkage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6758,6 +6789,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6769,6 +6801,7 @@
 				"Name":"GetInstanceName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6781,6 +6814,7 @@
 				"Name":"GetTypeName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6803,6 +6837,7 @@
 				"Name":"GetClassInstance"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6816,6 +6851,7 @@
 				"Name":"CreateClassInstance"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -6842,6 +6878,7 @@
 				"Name":"GetContextFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7243,6 +7280,7 @@
 				"Name":"VSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7256,6 +7294,7 @@
 				"Name":"PSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7269,6 +7308,7 @@
 				"Name":"PSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7282,6 +7322,7 @@
 				"Name":"PSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7295,6 +7336,7 @@
 				"Name":"VSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7308,6 +7350,7 @@
 				"Name":"DrawIndexed"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7321,6 +7364,7 @@
 				"Name":"Draw"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7333,6 +7377,7 @@
 				"Name":"Map"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7348,6 +7393,7 @@
 				"Name":"Unmap"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7360,6 +7406,7 @@
 				"Name":"PSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7373,6 +7420,7 @@
 				"Name":"IASetInputLayout"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7384,6 +7432,7 @@
 				"Name":"IASetVertexBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7399,6 +7448,7 @@
 				"Name":"IASetIndexBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7412,6 +7462,7 @@
 				"Name":"DrawIndexedInstanced"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7427,6 +7478,7 @@
 				"Name":"DrawInstanced"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7441,6 +7493,7 @@
 				"Name":"GSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7454,6 +7507,7 @@
 				"Name":"GSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7467,6 +7521,7 @@
 				"Name":"IASetPrimitiveTopology"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7478,6 +7533,7 @@
 				"Name":"VSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7491,6 +7547,7 @@
 				"Name":"VSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7504,6 +7561,7 @@
 				"Name":"Begin"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7515,6 +7573,7 @@
 				"Name":"End"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7526,6 +7585,7 @@
 				"Name":"GetData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7540,6 +7600,7 @@
 				"Name":"SetPredication"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7552,6 +7613,7 @@
 				"Name":"GSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7565,6 +7627,7 @@
 				"Name":"GSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7578,6 +7641,7 @@
 				"Name":"OMSetRenderTargets"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7591,6 +7655,7 @@
 				"Name":"OMSetRenderTargetsAndUnorderedAccessViews"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7608,6 +7673,7 @@
 				"Name":"OMSetBlendState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7621,6 +7687,7 @@
 				"Name":"OMSetDepthStencilState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7633,6 +7700,7 @@
 				"Name":"SOSetTargets"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7646,6 +7714,7 @@
 				"Name":"DrawAuto"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7656,6 +7725,7 @@
 				"Name":"DrawIndexedInstancedIndirect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7668,6 +7738,7 @@
 				"Name":"DrawInstancedIndirect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7680,6 +7751,7 @@
 				"Name":"Dispatch"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7693,6 +7765,7 @@
 				"Name":"DispatchIndirect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7705,6 +7778,7 @@
 				"Name":"RSSetState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7716,6 +7790,7 @@
 				"Name":"RSSetViewports"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7728,6 +7803,7 @@
 				"Name":"RSSetScissorRects"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7740,6 +7816,7 @@
 				"Name":"CopySubresourceRegion"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7758,6 +7835,7 @@
 				"Name":"CopyResource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7770,6 +7848,7 @@
 				"Name":"UpdateSubresource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7786,6 +7865,7 @@
 				"Name":"CopyStructureCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7799,6 +7879,7 @@
 				"Name":"ClearRenderTargetView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7811,6 +7892,7 @@
 				"Name":"ClearUnorderedAccessViewUint"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7823,6 +7905,7 @@
 				"Name":"ClearUnorderedAccessViewFloat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7835,6 +7918,7 @@
 				"Name":"ClearDepthStencilView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7849,6 +7933,7 @@
 				"Name":"GenerateMips"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7860,6 +7945,7 @@
 				"Name":"SetResourceMinLOD"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7872,6 +7958,7 @@
 				"Name":"GetResourceMinLOD"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Single"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7883,6 +7970,7 @@
 				"Name":"ResolveSubresource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7898,6 +7986,7 @@
 				"Name":"ExecuteCommandList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7910,6 +7999,7 @@
 				"Name":"HSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7923,6 +8013,7 @@
 				"Name":"HSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7936,6 +8027,7 @@
 				"Name":"HSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7949,6 +8041,7 @@
 				"Name":"HSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7962,6 +8055,7 @@
 				"Name":"DSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7975,6 +8069,7 @@
 				"Name":"DSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -7988,6 +8083,7 @@
 				"Name":"DSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8001,6 +8097,7 @@
 				"Name":"DSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8014,6 +8111,7 @@
 				"Name":"CSSetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8027,6 +8125,7 @@
 				"Name":"CSSetUnorderedAccessViews"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8041,6 +8140,7 @@
 				"Name":"CSSetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8054,6 +8154,7 @@
 				"Name":"CSSetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8067,6 +8168,7 @@
 				"Name":"CSSetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8080,6 +8182,7 @@
 				"Name":"VSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8093,6 +8196,7 @@
 				"Name":"PSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8106,6 +8210,7 @@
 				"Name":"PSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8119,6 +8224,7 @@
 				"Name":"PSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8132,6 +8238,7 @@
 				"Name":"VSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8145,6 +8252,7 @@
 				"Name":"PSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8158,6 +8266,7 @@
 				"Name":"IAGetInputLayout"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8169,6 +8278,7 @@
 				"Name":"IAGetVertexBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8184,6 +8294,7 @@
 				"Name":"IAGetIndexBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8197,6 +8308,7 @@
 				"Name":"GSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8210,6 +8322,7 @@
 				"Name":"GSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8223,6 +8336,7 @@
 				"Name":"IAGetPrimitiveTopology"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8234,6 +8348,7 @@
 				"Name":"VSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8247,6 +8362,7 @@
 				"Name":"VSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8260,6 +8376,7 @@
 				"Name":"GetPredication"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8272,6 +8389,7 @@
 				"Name":"GSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8285,6 +8403,7 @@
 				"Name":"GSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8298,6 +8417,7 @@
 				"Name":"OMGetRenderTargets"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8311,6 +8431,7 @@
 				"Name":"OMGetRenderTargetsAndUnorderedAccessViews"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8327,6 +8448,7 @@
 				"Name":"OMGetBlendState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8340,6 +8462,7 @@
 				"Name":"OMGetDepthStencilState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8352,6 +8475,7 @@
 				"Name":"SOGetTargets"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8364,6 +8488,7 @@
 				"Name":"RSGetState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8375,6 +8500,7 @@
 				"Name":"RSGetViewports"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8387,6 +8513,7 @@
 				"Name":"RSGetScissorRects"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8399,6 +8526,7 @@
 				"Name":"HSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8412,6 +8540,7 @@
 				"Name":"HSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8425,6 +8554,7 @@
 				"Name":"HSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8438,6 +8568,7 @@
 				"Name":"HSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8451,6 +8582,7 @@
 				"Name":"DSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8464,6 +8596,7 @@
 				"Name":"DSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8477,6 +8610,7 @@
 				"Name":"DSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8490,6 +8624,7 @@
 				"Name":"DSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8503,6 +8638,7 @@
 				"Name":"CSGetShaderResources"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8516,6 +8652,7 @@
 				"Name":"CSGetUnorderedAccessViews"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8529,6 +8666,7 @@
 				"Name":"CSGetShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8542,6 +8680,7 @@
 				"Name":"CSGetSamplers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8555,6 +8694,7 @@
 				"Name":"CSGetConstantBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8568,6 +8708,7 @@
 				"Name":"ClearState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8578,6 +8719,7 @@
 				"Name":"Flush"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8588,6 +8730,7 @@
 				"Name":"GetType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"D3D11_DEVICE_CONTEXT_TYPE","TargetKind":"Default","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8598,6 +8741,7 @@
 				"Name":"GetContextFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8608,6 +8752,7 @@
 				"Name":"FinishCommandList"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8769,6 +8914,7 @@
 				"Name":"GetCreationParameters"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -8781,6 +8927,7 @@
 				"Name":"GetDriverHandle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9141,6 +9288,7 @@
 				"Name":"GetVideoProcessorContentDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9152,6 +9300,7 @@
 				"Name":"CheckVideoProcessorFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9164,6 +9313,7 @@
 				"Name":"GetVideoProcessorCaps"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9175,6 +9325,7 @@
 				"Name":"GetVideoProcessorRateConversionCaps"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9187,6 +9338,7 @@
 				"Name":"GetVideoProcessorCustomRate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9200,6 +9352,7 @@
 				"Name":"GetVideoProcessorFilterRange"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9408,6 +9561,7 @@
 				"Name":"GetContentDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9419,6 +9573,7 @@
 				"Name":"GetRateConversionCaps"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9467,6 +9622,7 @@
 				"Name":"GetCertificateSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9478,6 +9634,7 @@
 				"Name":"GetCertificate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9490,6 +9647,7 @@
 				"Name":"GetChannelHandle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9981,6 +10139,7 @@
 				"Name":"GetCryptoType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -9992,6 +10151,7 @@
 				"Name":"GetDecoderProfile"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10003,6 +10163,7 @@
 				"Name":"GetCertificateSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10014,6 +10175,7 @@
 				"Name":"GetCertificate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10026,6 +10188,7 @@
 				"Name":"GetCryptoSessionHandle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10101,6 +10264,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10177,6 +10341,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10268,6 +10433,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10289,6 +10455,7 @@
 				"Name":"GetDecoderBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10303,6 +10470,7 @@
 				"Name":"ReleaseDecoderBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10315,6 +10483,7 @@
 				"Name":"DecoderBeginFrame"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10329,6 +10498,7 @@
 				"Name":"DecoderEndFrame"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10340,6 +10510,7 @@
 				"Name":"SubmitDecoderBuffers"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10353,6 +10524,7 @@
 				"Name":"DecoderExtension"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10365,6 +10537,7 @@
 				"Name":"VideoProcessorSetOutputTargetRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10378,6 +10551,7 @@
 				"Name":"VideoProcessorSetOutputBackgroundColor"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10391,6 +10565,7 @@
 				"Name":"VideoProcessorSetOutputColorSpace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10403,6 +10578,7 @@
 				"Name":"VideoProcessorSetOutputAlphaFillMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10416,6 +10592,7 @@
 				"Name":"VideoProcessorSetOutputConstriction"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10429,6 +10606,7 @@
 				"Name":"VideoProcessorSetOutputStereoMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10441,6 +10619,7 @@
 				"Name":"VideoProcessorSetOutputExtension"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10455,6 +10634,7 @@
 				"Name":"VideoProcessorGetOutputTargetRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10468,6 +10648,7 @@
 				"Name":"VideoProcessorGetOutputBackgroundColor"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10481,6 +10662,7 @@
 				"Name":"VideoProcessorGetOutputColorSpace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10493,6 +10675,7 @@
 				"Name":"VideoProcessorGetOutputAlphaFillMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10506,6 +10689,7 @@
 				"Name":"VideoProcessorGetOutputConstriction"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10519,6 +10703,7 @@
 				"Name":"VideoProcessorGetOutputStereoMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10531,6 +10716,7 @@
 				"Name":"VideoProcessorGetOutputExtension"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10545,6 +10731,7 @@
 				"Name":"VideoProcessorSetStreamFrameFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10558,6 +10745,7 @@
 				"Name":"VideoProcessorSetStreamColorSpace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10571,6 +10759,7 @@
 				"Name":"VideoProcessorSetStreamOutputRate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10586,6 +10775,7 @@
 				"Name":"VideoProcessorSetStreamSourceRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10600,6 +10790,7 @@
 				"Name":"VideoProcessorSetStreamDestRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10614,6 +10805,7 @@
 				"Name":"VideoProcessorSetStreamAlpha"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10628,6 +10820,7 @@
 				"Name":"VideoProcessorSetStreamPalette"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10642,6 +10835,7 @@
 				"Name":"VideoProcessorSetStreamPixelAspectRatio"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10657,6 +10851,7 @@
 				"Name":"VideoProcessorSetStreamLumaKey"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10672,6 +10867,7 @@
 				"Name":"VideoProcessorSetStreamStereoFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10690,6 +10886,7 @@
 				"Name":"VideoProcessorSetStreamAutoProcessingMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10703,6 +10900,7 @@
 				"Name":"VideoProcessorSetStreamFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10718,6 +10916,7 @@
 				"Name":"VideoProcessorSetStreamExtension"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10733,6 +10932,7 @@
 				"Name":"VideoProcessorGetStreamFrameFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10746,6 +10946,7 @@
 				"Name":"VideoProcessorGetStreamColorSpace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10759,6 +10960,7 @@
 				"Name":"VideoProcessorGetStreamOutputRate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10774,6 +10976,7 @@
 				"Name":"VideoProcessorGetStreamSourceRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10788,6 +10991,7 @@
 				"Name":"VideoProcessorGetStreamDestRect"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10802,6 +11006,7 @@
 				"Name":"VideoProcessorGetStreamAlpha"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10816,6 +11021,7 @@
 				"Name":"VideoProcessorGetStreamPalette"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10830,6 +11036,7 @@
 				"Name":"VideoProcessorGetStreamPixelAspectRatio"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10845,6 +11052,7 @@
 				"Name":"VideoProcessorGetStreamLumaKey"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10860,6 +11068,7 @@
 				"Name":"VideoProcessorGetStreamStereoFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10878,6 +11087,7 @@
 				"Name":"VideoProcessorGetStreamAutoProcessingMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10891,6 +11101,7 @@
 				"Name":"VideoProcessorGetStreamFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10906,6 +11117,7 @@
 				"Name":"VideoProcessorGetStreamExtension"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10921,6 +11133,7 @@
 				"Name":"VideoProcessorBlt"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10936,6 +11149,7 @@
 				"Name":"NegotiateCryptoSessionKeyExchange"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10949,6 +11163,7 @@
 				"Name":"EncryptionBlt"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10964,6 +11179,7 @@
 				"Name":"DecryptionBlt"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10982,6 +11198,7 @@
 				"Name":"StartSessionKeyRefresh"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -10995,6 +11212,7 @@
 				"Name":"FinishSessionKeyRefresh"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11006,6 +11224,7 @@
 				"Name":"GetEncryptionBltKey"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11019,6 +11238,7 @@
 				"Name":"NegotiateAuthenticatedChannelKeyExchange"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11032,6 +11252,7 @@
 				"Name":"QueryAuthenticatedChannel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11047,6 +11268,7 @@
 				"Name":"ConfigureAuthenticatedChannel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11061,6 +11283,7 @@
 				"Name":"VideoProcessorSetStreamRotation"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11075,6 +11298,7 @@
 				"Name":"VideoProcessorGetStreamRotation"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11099,6 +11323,7 @@
 				"Name":"CreateVideoDecoder"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11112,6 +11337,7 @@
 				"Name":"CreateVideoProcessor"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11125,6 +11351,7 @@
 				"Name":"CreateAuthenticatedChannel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11137,6 +11364,7 @@
 				"Name":"CreateCryptoSession"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11151,6 +11379,7 @@
 				"Name":"CreateVideoDecoderOutputView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11164,6 +11393,7 @@
 				"Name":"CreateVideoProcessorInputView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11178,6 +11408,7 @@
 				"Name":"CreateVideoProcessorOutputView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11192,6 +11423,7 @@
 				"Name":"CreateVideoProcessorEnumerator"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11204,6 +11436,7 @@
 				"Name":"GetVideoDecoderProfileCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11214,6 +11447,7 @@
 				"Name":"GetVideoDecoderProfile"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11226,6 +11460,7 @@
 				"Name":"CheckVideoDecoderFormat"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11239,6 +11474,7 @@
 				"Name":"GetVideoDecoderConfigCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11251,6 +11487,7 @@
 				"Name":"GetVideoDecoderConfig"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11264,6 +11501,7 @@
 				"Name":"GetContentProtectionCaps"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11277,6 +11515,7 @@
 				"Name":"CheckCryptoKeyExchange"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11291,6 +11530,7 @@
 				"Name":"SetPrivateData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11304,6 +11544,7 @@
 				"Name":"SetPrivateDataInterface"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11326,6 +11567,7 @@
 				"Name":"CreateBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11339,6 +11581,7 @@
 				"Name":"CreateTexture1D"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11352,6 +11595,7 @@
 				"Name":"CreateTexture2D"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11365,6 +11609,7 @@
 				"Name":"CreateTexture3D"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11378,6 +11623,7 @@
 				"Name":"CreateShaderResourceView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11391,6 +11637,7 @@
 				"Name":"CreateUnorderedAccessView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11404,6 +11651,7 @@
 				"Name":"CreateRenderTargetView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11417,6 +11665,7 @@
 				"Name":"CreateDepthStencilView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11430,6 +11679,7 @@
 				"Name":"CreateInputLayout"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11445,6 +11695,7 @@
 				"Name":"CreateVertexShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11459,6 +11710,7 @@
 				"Name":"CreateGeometryShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11473,6 +11725,7 @@
 				"Name":"CreateGeometryShaderWithStreamOutput"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11492,6 +11745,7 @@
 				"Name":"CreatePixelShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11506,6 +11760,7 @@
 				"Name":"CreateHullShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11520,6 +11775,7 @@
 				"Name":"CreateDomainShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11534,6 +11790,7 @@
 				"Name":"CreateComputeShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11548,6 +11805,7 @@
 				"Name":"CreateClassLinkage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11559,6 +11817,7 @@
 				"Name":"CreateBlendState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11571,6 +11830,7 @@
 				"Name":"CreateDepthStencilState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11583,6 +11843,7 @@
 				"Name":"CreateRasterizerState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11595,6 +11856,7 @@
 				"Name":"CreateSamplerState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11607,6 +11869,7 @@
 				"Name":"CreateQuery"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11619,6 +11882,7 @@
 				"Name":"CreatePredicate"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11631,6 +11895,7 @@
 				"Name":"CreateCounter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11643,6 +11908,7 @@
 				"Name":"CreateDeferredContext"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11655,6 +11921,7 @@
 				"Name":"OpenSharedResource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11668,6 +11935,7 @@
 				"Name":"CheckFormatSupport"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11680,6 +11948,7 @@
 				"Name":"CheckMultisampleQualityLevels"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11693,6 +11962,7 @@
 				"Name":"CheckCounterInfo"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11704,6 +11974,7 @@
 				"Name":"CheckCounter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11723,6 +11994,7 @@
 				"Name":"CheckFeatureSupport"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11736,6 +12008,7 @@
 				"Name":"GetPrivateData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11749,6 +12022,7 @@
 				"Name":"SetPrivateData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11762,6 +12036,7 @@
 				"Name":"SetPrivateDataInterface"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11774,6 +12049,7 @@
 				"Name":"GetFeatureLevel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"D3D_FEATURE_LEVEL","TargetKind":"Default","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11784,6 +12060,7 @@
 				"Name":"GetCreationFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11794,6 +12071,7 @@
 				"Name":"GetDeviceRemovedReason"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11804,6 +12082,7 @@
 				"Name":"GetImmediateContext"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11815,6 +12094,7 @@
 				"Name":"SetExceptionMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11826,6 +12106,7 @@
 				"Name":"GetExceptionMode"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11880,6 +12161,7 @@
 				"Name":"SetFeatureMask"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11891,6 +12173,7 @@
 				"Name":"GetFeatureMask"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11901,6 +12184,7 @@
 				"Name":"SetPresentPerRenderOpDelay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11912,6 +12196,7 @@
 				"Name":"GetPresentPerRenderOpDelay"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11922,6 +12207,7 @@
 				"Name":"SetSwapChain"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11933,6 +12219,7 @@
 				"Name":"GetSwapChain"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11944,6 +12231,7 @@
 				"Name":"ValidateContext"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11955,6 +12243,7 @@
 				"Name":"ReportLiveDeviceObjects"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11966,6 +12255,7 @@
 				"Name":"ValidateContextForDispatch"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11987,6 +12277,7 @@
 				"Name":"SetUseRef"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -11998,6 +12289,7 @@
 				"Name":"GetUseRef"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -12063,6 +12355,7 @@
 				"Name":"SetShaderTrackingOptionsByType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -12075,6 +12368,7 @@
 				"Name":"SetShaderTrackingOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -12097,6 +12391,7 @@
 				"Name":"SetTrackingOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -12118,6 +12413,7 @@
 				"Name":"SetTrackingOptions"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13574,6 +13870,7 @@
 				"Name":"SetMessageCountLimit"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13585,6 +13882,7 @@
 				"Name":"ClearStoredMessages"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13595,6 +13893,7 @@
 				"Name":"GetMessage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13608,6 +13907,7 @@
 				"Name":"GetNumMessagesAllowedByStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13618,6 +13918,7 @@
 				"Name":"GetNumMessagesDeniedByStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13628,6 +13929,7 @@
 				"Name":"GetNumStoredMessages"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13638,6 +13940,7 @@
 				"Name":"GetNumStoredMessagesAllowedByRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13648,6 +13951,7 @@
 				"Name":"GetNumMessagesDiscardedByMessageCountLimit"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13658,6 +13962,7 @@
 				"Name":"GetMessageCountLimit"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13668,6 +13973,7 @@
 				"Name":"AddStorageFilterEntries"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13679,6 +13985,7 @@
 				"Name":"GetStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13691,6 +13998,7 @@
 				"Name":"ClearStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13701,6 +14009,7 @@
 				"Name":"PushEmptyStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13711,6 +14020,7 @@
 				"Name":"PushCopyOfStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13721,6 +14031,7 @@
 				"Name":"PushStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13732,6 +14043,7 @@
 				"Name":"PopStorageFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13742,6 +14054,7 @@
 				"Name":"GetStorageFilterStackSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13752,6 +14065,7 @@
 				"Name":"AddRetrievalFilterEntries"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13763,6 +14077,7 @@
 				"Name":"GetRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13775,6 +14090,7 @@
 				"Name":"ClearRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13785,6 +14101,7 @@
 				"Name":"PushEmptyRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13795,6 +14112,7 @@
 				"Name":"PushCopyOfRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13805,6 +14123,7 @@
 				"Name":"PushRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13816,6 +14135,7 @@
 				"Name":"PopRetrievalFilter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13826,6 +14146,7 @@
 				"Name":"GetRetrievalFilterStackSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13836,6 +14157,7 @@
 				"Name":"AddMessage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13850,6 +14172,7 @@
 				"Name":"AddApplicationMessage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13862,6 +14185,7 @@
 				"Name":"SetBreakOnCategory"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13874,6 +14198,7 @@
 				"Name":"SetBreakOnSeverity"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13886,6 +14211,7 @@
 				"Name":"SetBreakOnID"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13898,6 +14224,7 @@
 				"Name":"GetBreakOnCategory"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13909,6 +14236,7 @@
 				"Name":"GetBreakOnSeverity"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13920,6 +14248,7 @@
 				"Name":"GetBreakOnID"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13931,6 +14260,7 @@
 				"Name":"SetMuteDebugOutput"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13942,6 +14272,7 @@
 				"Name":"GetMuteDebugOutput"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -13957,6 +14288,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"ApiRef","Name":"IDXGIAdapter","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In","Optional"]}
@@ -13978,6 +14310,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"ApiRef","Name":"IDXGIAdapter","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In","Optional"]}
@@ -14083,6 +14416,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14127,6 +14461,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14170,6 +14505,7 @@
 				"Name":"CopySubresourceRegion1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14189,6 +14525,7 @@
 				"Name":"UpdateSubresource1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14206,6 +14543,7 @@
 				"Name":"DiscardResource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14217,6 +14555,7 @@
 				"Name":"DiscardView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14228,6 +14567,7 @@
 				"Name":"VSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14243,6 +14583,7 @@
 				"Name":"HSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14258,6 +14599,7 @@
 				"Name":"DSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14273,6 +14615,7 @@
 				"Name":"GSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14288,6 +14631,7 @@
 				"Name":"PSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14303,6 +14647,7 @@
 				"Name":"CSSetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14318,6 +14663,7 @@
 				"Name":"VSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14333,6 +14679,7 @@
 				"Name":"HSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14348,6 +14695,7 @@
 				"Name":"DSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14363,6 +14711,7 @@
 				"Name":"GSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14378,6 +14727,7 @@
 				"Name":"PSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14393,6 +14743,7 @@
 				"Name":"CSGetConstantBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14408,6 +14759,7 @@
 				"Name":"SwapDeviceContextState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14420,6 +14772,7 @@
 				"Name":"ClearView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14434,6 +14787,7 @@
 				"Name":"DiscardView1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14634,6 +14988,7 @@
 				"Name":"SubmitDecoderBuffers1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14647,6 +15002,7 @@
 				"Name":"GetDataForNewHardwareKey"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14661,6 +15017,7 @@
 				"Name":"CheckCryptoSessionStatus"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14673,6 +15030,7 @@
 				"Name":"DecoderEnableDownsampling"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14687,6 +15045,7 @@
 				"Name":"DecoderUpdateDownsampling"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14699,6 +15058,7 @@
 				"Name":"VideoProcessorSetOutputColorSpace1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14711,6 +15071,7 @@
 				"Name":"VideoProcessorSetOutputShaderUsage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14723,6 +15084,7 @@
 				"Name":"VideoProcessorGetOutputColorSpace1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14735,6 +15097,7 @@
 				"Name":"VideoProcessorGetOutputShaderUsage"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14747,6 +15110,7 @@
 				"Name":"VideoProcessorSetStreamColorSpace1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14760,6 +15124,7 @@
 				"Name":"VideoProcessorSetStreamMirror"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14775,6 +15140,7 @@
 				"Name":"VideoProcessorGetStreamColorSpace1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14788,6 +15154,7 @@
 				"Name":"VideoProcessorGetStreamMirror"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14803,6 +15170,7 @@
 				"Name":"VideoProcessorGetBehaviorHints"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14830,6 +15198,7 @@
 				"Name":"GetCryptoSessionPrivateDataSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14845,6 +15214,7 @@
 				"Name":"GetVideoDecoderCaps"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14862,6 +15232,7 @@
 				"Name":"CheckVideoDecoderDownsampling"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14879,6 +15250,7 @@
 				"Name":"RecommendVideoDecoderDownsampleParameters"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14904,6 +15276,7 @@
 				"Name":"CheckVideoProcessorFormatConversion"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14929,6 +15302,7 @@
 				"Name":"GetImmediateContext1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14940,6 +15314,7 @@
 				"Name":"CreateDeferredContext1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14952,6 +15327,7 @@
 				"Name":"CreateBlendState1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14964,6 +15340,7 @@
 				"Name":"CreateRasterizerState1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14976,6 +15353,7 @@
 				"Name":"CreateDeviceContextState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -14993,6 +15371,7 @@
 				"Name":"OpenSharedResource1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15006,6 +15385,7 @@
 				"Name":"OpenSharedResourceByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15030,6 +15410,7 @@
 				"Name":"BeginEvent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15041,6 +15422,7 @@
 				"Name":"EndEvent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Int32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15051,6 +15433,7 @@
 				"Name":"SetMarker"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15062,6 +15445,7 @@
 				"Name":"GetStatus"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15214,6 +15598,7 @@
 				"Name":"UpdateTileMappings"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15234,6 +15619,7 @@
 				"Name":"CopyTileMappings"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15250,6 +15636,7 @@
 				"Name":"CopyTiles"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15266,6 +15653,7 @@
 				"Name":"UpdateTiles"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15281,6 +15669,7 @@
 				"Name":"ResizeTilePool"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15293,6 +15682,7 @@
 				"Name":"TiledResourceBarrier"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15305,6 +15695,7 @@
 				"Name":"IsAnnotationEnabled"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15315,6 +15706,7 @@
 				"Name":"SetMarkerInt"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15327,6 +15719,7 @@
 				"Name":"BeginEventInt"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15339,6 +15732,7 @@
 				"Name":"EndEvent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15359,6 +15753,7 @@
 				"Name":"GetImmediateContext2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15370,6 +15765,7 @@
 				"Name":"CreateDeferredContext2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15382,6 +15778,7 @@
 				"Name":"GetResourceTiling"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15399,6 +15796,7 @@
 				"Name":"CheckMultisampleQualityLevels1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15476,6 +15874,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15519,6 +15918,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15577,6 +15977,7 @@
 				"Name":"GetDesc2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15668,6 +16069,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15754,6 +16156,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15838,6 +16241,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15874,6 +16278,7 @@
 				"Name":"GetDesc1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15910,6 +16315,7 @@
 				"Name":"Flush1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15922,6 +16328,7 @@
 				"Name":"SetHardwareProtectionState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15933,6 +16340,7 @@
 				"Name":"GetHardwareProtectionState"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15954,6 +16362,7 @@
 				"Name":"CreateSharedHandle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15968,6 +16377,7 @@
 				"Name":"GetCompletedValue"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -15978,6 +16388,7 @@
 				"Name":"SetEventOnCompletion"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16000,6 +16411,7 @@
 				"Name":"Signal"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16012,6 +16424,7 @@
 				"Name":"Wait"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16034,6 +16447,7 @@
 				"Name":"CreateTexture2D1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16047,6 +16461,7 @@
 				"Name":"CreateTexture3D1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16060,6 +16475,7 @@
 				"Name":"CreateRasterizerState2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16072,6 +16488,7 @@
 				"Name":"CreateShaderResourceView1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16085,6 +16502,7 @@
 				"Name":"CreateUnorderedAccessView1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16098,6 +16516,7 @@
 				"Name":"CreateRenderTargetView1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16111,6 +16530,7 @@
 				"Name":"CreateQuery1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16123,6 +16543,7 @@
 				"Name":"GetImmediateContext3"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16134,6 +16555,7 @@
 				"Name":"CreateDeferredContext3"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16146,6 +16568,7 @@
 				"Name":"WriteToSubresource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16162,6 +16585,7 @@
 				"Name":"ReadFromSubresource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16188,6 +16612,7 @@
 				"Name":"RegisterDeviceRemovedEvent"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16200,6 +16625,7 @@
 				"Name":"UnregisterDeviceRemoved"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16221,6 +16647,7 @@
 				"Name":"OpenSharedFence"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16234,6 +16661,7 @@
 				"Name":"CreateFence"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16258,6 +16686,7 @@
 				"Name":"Enter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16268,6 +16697,7 @@
 				"Name":"Leave"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16278,6 +16708,7 @@
 				"Name":"SetMultithreadProtected"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16289,6 +16720,7 @@
 				"Name":"GetMultithreadProtected"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16309,6 +16741,7 @@
 				"Name":"VideoProcessorSetOutputHDRMetaData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16323,6 +16756,7 @@
 				"Name":"VideoProcessorGetOutputHDRMetaData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16337,6 +16771,7 @@
 				"Name":"VideoProcessorSetStreamHDRMetaData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16352,6 +16787,7 @@
 				"Name":"VideoProcessorGetStreamHDRMetaData"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16454,6 +16890,7 @@
 				"Name":"CheckFeatureSupport"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16467,6 +16904,7 @@
 				"Name":"NegotiateCryptoSessionKeyExchangeMT"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16512,6 +16950,7 @@
 				"Name":"DecoderBeginFrame1"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16529,6 +16968,7 @@
 				"Name":"SubmitDecoderBuffers2"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16816,6 +17256,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16827,6 +17268,7 @@
 				"Name":"GetMemberTypeByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16838,6 +17280,7 @@
 				"Name":"GetMemberTypeByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16849,6 +17292,7 @@
 				"Name":"GetMemberTypeName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16860,6 +17304,7 @@
 				"Name":"IsEqual"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16871,6 +17316,7 @@
 				"Name":"GetSubType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16881,6 +17327,7 @@
 				"Name":"GetBaseClass"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16891,6 +17338,7 @@
 				"Name":"GetNumInterfaces"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16901,6 +17349,7 @@
 				"Name":"GetInterfaceByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16912,6 +17361,7 @@
 				"Name":"IsOfType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16923,6 +17373,7 @@
 				"Name":"ImplementsInterface"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16944,6 +17395,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16955,6 +17407,7 @@
 				"Name":"GetType"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionType","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16965,6 +17418,7 @@
 				"Name":"GetBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionConstantBuffer","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16975,6 +17429,7 @@
 				"Name":"GetInterfaceSlot"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -16996,6 +17451,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17007,6 +17463,7 @@
 				"Name":"GetVariableByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionVariable","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17018,6 +17475,7 @@
 				"Name":"GetVariableByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionVariable","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17039,6 +17497,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17050,6 +17509,7 @@
 				"Name":"GetConstantBufferByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionConstantBuffer","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17061,6 +17521,7 @@
 				"Name":"GetConstantBufferByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionConstantBuffer","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17072,6 +17533,7 @@
 				"Name":"GetResourceBindingDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17084,6 +17546,7 @@
 				"Name":"GetInputParameterDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17096,6 +17559,7 @@
 				"Name":"GetOutputParameterDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17108,6 +17572,7 @@
 				"Name":"GetPatchConstantParameterDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17120,6 +17585,7 @@
 				"Name":"GetVariableByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionVariable","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17131,6 +17597,7 @@
 				"Name":"GetResourceBindingDescByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17143,6 +17610,7 @@
 				"Name":"GetMovInstructionCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17153,6 +17621,7 @@
 				"Name":"GetMovcInstructionCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17163,6 +17632,7 @@
 				"Name":"GetConversionInstructionCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17173,6 +17643,7 @@
 				"Name":"GetBitwiseInstructionCount"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17183,6 +17654,7 @@
 				"Name":"GetGSInputPrimitive"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"D3D_PRIMITIVE","TargetKind":"Default","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17193,6 +17665,7 @@
 				"Name":"IsSampleFrequencyShader"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17203,6 +17676,7 @@
 				"Name":"GetNumInterfaceSlots"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17213,6 +17687,7 @@
 				"Name":"GetMinFeatureLevel"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17224,6 +17699,7 @@
 				"Name":"GetThreadGroupSize"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17237,6 +17713,7 @@
 				"Name":"GetRequiresFlags"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"UInt64"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17257,6 +17734,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17268,6 +17746,7 @@
 				"Name":"GetFunctionByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11FunctionReflection","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17289,6 +17768,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17300,6 +17780,7 @@
 				"Name":"GetConstantBufferByIndex"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionConstantBuffer","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17311,6 +17792,7 @@
 				"Name":"GetConstantBufferByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionConstantBuffer","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17322,6 +17804,7 @@
 				"Name":"GetResourceBindingDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17334,6 +17817,7 @@
 				"Name":"GetVariableByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11ShaderReflectionVariable","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17345,6 +17829,7 @@
 				"Name":"GetResourceBindingDescByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17357,6 +17842,7 @@
 				"Name":"GetFunctionParameter"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"ID3D11FunctionParameterReflection","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17378,6 +17864,7 @@
 				"Name":"GetDesc"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17399,6 +17886,7 @@
 				"Name":"CreateInstance"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17421,6 +17909,7 @@
 				"Name":"BindConstantBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17434,6 +17923,7 @@
 				"Name":"BindConstantBufferByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17447,6 +17937,7 @@
 				"Name":"BindResource"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17460,6 +17951,7 @@
 				"Name":"BindResourceByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17473,6 +17965,7 @@
 				"Name":"BindSampler"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17486,6 +17979,7 @@
 				"Name":"BindSamplerByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17499,6 +17993,7 @@
 				"Name":"BindUnorderedAccessView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17512,6 +18007,7 @@
 				"Name":"BindUnorderedAccessViewByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17525,6 +18021,7 @@
 				"Name":"BindResourceAsUnorderedAccessView"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17538,6 +18035,7 @@
 				"Name":"BindResourceAsUnorderedAccessViewByName"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17561,6 +18059,7 @@
 				"Name":"Link"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17577,6 +18076,7 @@
 				"Name":"UseLibrary"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17588,6 +18088,7 @@
 				"Name":"AddClipPlaneFromCBuffer"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17620,6 +18121,7 @@
 				"Name":"CreateModuleInstance"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17632,6 +18134,7 @@
 				"Name":"SetInputSignature"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17645,6 +18148,7 @@
 				"Name":"SetOutputSignature"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17658,6 +18162,7 @@
 				"Name":"CallFunction"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17672,6 +18177,7 @@
 				"Name":"PassValue"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17686,6 +18192,7 @@
 				"Name":"PassValueWithSwizzle"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17702,6 +18209,7 @@
 				"Name":"GetLastError"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -17713,6 +18221,7 @@
 				"Name":"GenerateHlsl"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18030,6 +18539,7 @@
 				"Name":"TraceReady"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18041,6 +18551,7 @@
 				"Name":"ResetTrace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Void"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18051,6 +18562,7 @@
 				"Name":"GetTraceStats"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18062,6 +18574,7 @@
 				"Name":"PSSelectStamp"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18073,6 +18586,7 @@
 				"Name":"GetInitialRegisterContents"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18085,6 +18599,7 @@
 				"Name":"GetStep"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18097,6 +18612,7 @@
 				"Name":"GetWrittenRegister"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18111,6 +18627,7 @@
 				"Name":"GetReadRegister"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18135,6 +18652,7 @@
 				"Name":"CreateShaderTrace"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18203,6 +18721,7 @@
 				"Name":"SetScanDirection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18214,6 +18733,7 @@
 				"Name":"Scan"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18229,6 +18749,7 @@
 				"Name":"Multiscan"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18256,6 +18777,7 @@
 				"Name":"SetScanDirection"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18267,6 +18789,7 @@
 				"Name":"SegScan"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18293,6 +18816,7 @@
 				"Name":"SetForwardScale"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18304,6 +18828,7 @@
 				"Name":"GetForwardScale"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Single"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18314,6 +18839,7 @@
 				"Name":"SetInverseScale"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18325,6 +18851,7 @@
 				"Name":"GetInverseScale"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"Native","Name":"Single"}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18335,6 +18862,7 @@
 				"Name":"AttachBuffersAndPrecompute"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18349,6 +18877,7 @@
 				"Name":"ForwardTransform"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18361,6 +18890,7 @@
 				"Name":"InverseTransform"
 				,"SetLastError":false
 				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
 				,"Architectures":[]
 				,"Platform":null
 				,"Attrs":[]
@@ -18450,6 +18980,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3d11"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18471,6 +19002,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3d11"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18494,6 +19026,7 @@
 		,"SetLastError":false
 		,"DllImport":"D3DCOMPILER_47"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -18512,6 +19045,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18527,6 +19061,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18541,6 +19076,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18557,6 +19093,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18573,6 +19110,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18589,6 +19127,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18606,6 +19145,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18623,6 +19163,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -18641,6 +19182,7 @@
 		,"SetLastError":false
 		,"DllImport":"d3dcsx"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]

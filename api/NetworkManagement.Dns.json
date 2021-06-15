@@ -3428,6 +3428,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"completionContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -3517,6 +3518,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pQueryContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -3872,6 +3874,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Status","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3917,6 +3920,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Status","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3948,6 +3952,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Status","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3998,6 +4003,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pQueryContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -4050,6 +4056,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4067,6 +4074,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DNS_RECORDA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4081,6 +4089,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DNS_RECORDA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4095,6 +4104,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4108,6 +4118,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4123,6 +4134,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DNS_RECORDA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4135,6 +4147,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
 		,"Attrs":[]
@@ -4148,6 +4161,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4165,6 +4179,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4182,6 +4197,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4199,6 +4215,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -4213,6 +4230,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows8.0"
 		,"Attrs":[]
@@ -4225,6 +4243,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4239,6 +4258,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4253,6 +4273,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4265,6 +4286,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4282,6 +4304,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4299,6 +4322,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4316,6 +4340,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4332,6 +4357,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4348,6 +4374,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4364,6 +4391,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4377,6 +4405,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4390,6 +4419,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4403,6 +4433,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4416,6 +4447,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4429,6 +4461,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4446,6 +4479,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4463,6 +4497,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4477,6 +4512,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -4491,6 +4527,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.1"
 		,"Attrs":[]
@@ -4507,6 +4544,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows6.1"
 		,"Attrs":[]
@@ -4519,6 +4557,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4535,6 +4574,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4547,6 +4587,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4561,6 +4602,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4573,6 +4615,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4587,6 +4630,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4600,6 +4644,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4613,6 +4658,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4625,6 +4671,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4637,6 +4684,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4649,6 +4697,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4661,6 +4710,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4674,6 +4724,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -4686,6 +4737,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DNS_SERVICE_INSTANCE","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4707,6 +4759,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DNS_SERVICE_INSTANCE","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4719,6 +4772,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4731,6 +4785,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4744,6 +4799,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4756,6 +4812,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4769,6 +4826,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4781,6 +4839,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4794,6 +4853,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4807,6 +4867,7 @@
 		,"SetLastError":false
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4819,6 +4880,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]
@@ -4832,6 +4894,7 @@
 		,"SetLastError":true
 		,"DllImport":"DNSAPI"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows10.0.10240"
 		,"Attrs":[]

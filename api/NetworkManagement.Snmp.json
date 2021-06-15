@@ -949,6 +949,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"dwUpTimeReference","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -963,6 +964,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pNextSupportedRegion","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AsnObjectIdentifier","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]}},"Attrs":["In","Out"]}
@@ -975,6 +977,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pAgentMgmtData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -987,6 +990,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"bPduType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":["In"]}
@@ -1002,6 +1006,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"nRequestType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -1019,6 +1024,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pEnterpriseOid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AsnObjectIdentifier","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]}},"Attrs":["In","Out"]}
@@ -1035,6 +1041,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 		]
@@ -1137,6 +1144,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hSession","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
@@ -1154,6 +1162,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -1170,6 +1179,7 @@
 		,"Kind":"FunctionPointer"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
 		]
@@ -1182,6 +1192,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1195,6 +1206,7 @@
 		,"SetLastError":true
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1208,6 +1220,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1222,6 +1235,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1235,6 +1249,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1247,6 +1262,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1260,6 +1276,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1274,6 +1291,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1287,6 +1305,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1299,6 +1318,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1312,6 +1332,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1324,6 +1345,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1337,6 +1359,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1349,6 +1372,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1362,6 +1386,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1374,6 +1399,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1386,6 +1412,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1398,6 +1425,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1411,6 +1439,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1423,6 +1452,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1436,6 +1466,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1448,6 +1479,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1460,6 +1492,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1471,6 +1504,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1483,6 +1517,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1495,6 +1530,7 @@
 		,"SetLastError":false
 		,"DllImport":"snmpapi"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1508,6 +1544,7 @@
 		,"SetLastError":true
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1523,6 +1560,7 @@
 		,"SetLastError":true
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1541,6 +1579,7 @@
 		,"SetLastError":false
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1553,6 +1592,7 @@
 		,"SetLastError":true
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1569,6 +1609,7 @@
 		,"SetLastError":false
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1582,6 +1623,7 @@
 		,"SetLastError":false
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1595,6 +1637,7 @@
 		,"SetLastError":true
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1607,6 +1650,7 @@
 		,"SetLastError":false
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1624,6 +1668,7 @@
 		,"SetLastError":false
 		,"DllImport":"mgmtapi"
 		,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1643,6 +1688,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1655,6 +1701,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1667,6 +1714,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1679,6 +1727,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1691,6 +1740,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1705,6 +1755,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1718,6 +1769,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1732,6 +1784,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1745,6 +1798,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1757,6 +1811,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1773,6 +1828,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1784,6 +1840,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1797,6 +1854,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1809,6 +1867,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1825,6 +1884,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1841,6 +1901,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1858,6 +1919,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1873,6 +1935,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1886,6 +1949,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
@@ -1900,6 +1964,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1913,6 +1978,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1929,6 +1995,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1940,6 +2007,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1953,6 +2021,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1967,6 +2036,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1979,6 +2049,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -1992,6 +2063,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2005,6 +2077,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2017,6 +2090,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2030,6 +2104,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2047,6 +2122,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2064,6 +2140,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2081,6 +2158,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2094,6 +2172,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2106,6 +2185,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2120,6 +2200,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2133,6 +2214,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2145,6 +2227,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2157,6 +2240,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2172,6 +2256,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2187,6 +2272,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2200,6 +2286,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2212,6 +2299,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2225,6 +2313,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2239,6 +2328,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2252,6 +2342,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2267,6 +2358,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2284,6 +2376,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
@@ -2301,6 +2394,7 @@
 		,"SetLastError":false
 		,"DllImport":"wsnmp32"
 		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.0"
 		,"Attrs":[]
