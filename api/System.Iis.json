@@ -6046,6 +6046,20 @@
 		,"Guid":"70bdc667-33b2-45f0-ac52-c3ca46f7a656"
 	}
 	,{
+		"Name":"CONFIGURATION_ENTRY"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"bstrKey","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"bstrValue","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
 		"Name":"IFtpProviderConstruct"
 		,"Architectures":[]
 		,"Platform":null
@@ -6257,6 +6271,36 @@
 		]
 	}
 	,{
+		"Name":"LOGGING_PARAMETERS"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pszSessionId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszSiteName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszUserName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszHostName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszRemoteIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwRemoteIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"pszLocalIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwLocalIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"BytesSent","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"BytesReceived","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"pszCommand","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszCommandParameters","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszFullPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwElapsedMilliseconds","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"FtpStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"FtpSubStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"hrStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"pszInformation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
 		"Name":"IFtpLogProvider"
 		,"Architectures":[]
 		,"Platform":null
@@ -6405,6 +6449,31 @@
 		,"IntegerBase":"Int32"
 	}
 	,{
+		"Name":"PRE_PROCESS_PARAMETERS"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pszSessionId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszSiteName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszUserName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszHostName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszRemoteIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwRemoteIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"pszLocalIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwLocalIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"pszCommand","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszCommandParameters","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"SessionStartTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"BytesSentPerSession","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"BytesReceivedPerSession","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
 		"Name":"IFtpPreprocessProvider"
 		,"Architectures":[]
 		,"Platform":null
@@ -6459,6 +6528,38 @@
 					{"Name":"pFtpProcessStatus","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FTP_PROCESS_STATUS","TargetKind":"Default","Api":"System.Iis","Parents":[]}},"Attrs":["Out"]}
 				]
 			}
+		]
+	}
+	,{
+		"Name":"POST_PROCESS_PARAMETERS"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pszSessionId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszSiteName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszUserName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszHostName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszRemoteIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwRemoteIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"pszLocalIpAddress","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"dwLocalIpPort","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"BytesSent","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"BytesReceived","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"pszCommand","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszCommandParameters","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszFullPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"pszPhysicalPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			,{"Name":"FtpStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"FtpSubStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"hrStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"SessionStartTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"BytesSentPerSession","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"BytesReceivedPerSession","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
 		]
 	}
 	,{
