@@ -1,0 +1,694 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/marlersoft/win32json/main/schema.json",
+
+  "type": "object",
+  "properties": {
+    "Constants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": { "type": "string" },
+          "Type": { "type": "object" },
+          "ValueType": { "$ref": "#/$defs/c_type" },
+          "Value": {
+            "oneOf": [
+              { "type": "number" },
+              { "type": "string" },
+              {
+                "type": "object",
+                "properties": {
+                  "Fmtid": { "type": "string" },
+                  "Pid": { "type": "number" }
+                }
+              }
+            ]
+          },
+          "Attrs": { "type": "array" }
+        },
+        "required": ["Name", "Type", "ValueType", "Value", "Attrs"]
+      }
+    },
+    "Types": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": { "type": "string" },
+          "Architectures": { "type": "array" },
+          "Platform": {},
+          "Kind": {
+            "enum": [
+              "Enum",
+              "Struct",
+              "NativeTypedef",
+              "FunctionPointer",
+              "Com",
+              "ComClassID",
+              "Union"
+            ]
+          }
+        },
+        "required": ["Name", "Architectures", "Platform", "Kind"],
+        "allOf": [
+          {
+            "if": {
+              "properties": { "Kind": { "const": "Enum" } }
+            },
+            "then": {
+              "properties": {
+                "Flags": { "type": "boolean" },
+                "Scoped": { "type": "boolean" },
+                "Values": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "Name": { "type": "string" },
+                      "Value": { "type": "number" }
+                    }
+                  }
+                },
+                "IntegerBase": {
+                  "oneOf": [{ "$ref": "#/$defs/integer" }, { "type": "null" }]
+                }
+              },
+              "required": ["Flags", "Scoped", "Values", "IntegerBase"]
+            }
+          },
+          {
+            "if": {
+              "properties": { "Kind": { "const": "Struct" } }
+            },
+            "then": {
+              "properties": {
+                "Size": { "type": "number" },
+                "PackingSize": { "type": "number" },
+                "Fields": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["Name", "Type", "Attrs"],
+                    "properties": {
+                      "Name": { "type": "string" },
+                      "Type": { "$ref": "#/$defs/types" },
+                      "Attrs": { "type": "array" }
+                    }
+                  }
+                },
+                "NestedTypes": {
+                  "$ref": "#/properties/Types"
+                }
+              },
+              "required": ["Size", "PackingSize", "Fields", "NestedTypes"]
+            }
+          },
+          {
+            "if": {
+              "properties": { "Kind": { "const": "NativeTypedef" } }
+            },
+            "then": {
+              "properties": {
+                "AlsoUsableFor": {},
+                "Def": {},
+                "FreeFunc": {}
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": { "Kind": { "const": "FunctionPointer" } }
+            },
+            "then": {
+              "properties": {
+                "SetLastError": { "type": "boolean" },
+                "ReturnType": { "$ref": "#/$defs/return_types" },
+                "ReturnAttrs": { "$ref": "#/$defs/return_attrs" },
+                "Attrs": { "type": "array" },
+                "Params": { "$ref": "#/$defs/params" }
+              },
+              "required": [
+                "SetLastError",
+                "ReturnType",
+                "ReturnAttrs",
+                "Attrs",
+                "Params"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Functions": {
+      "type": "array",
+      "items": {
+        "Name": { "type": "string" },
+        "SetLastError": { "type": "boolean" },
+        "DllImport": { "enum": ["USER32"] },
+        "ReturnType": { "$ref": "#/$defs/return_types" },
+        "ReturnAttrs": { "$ref": "#/$defs/return_attrs" },
+        "Architectures": { "$ref": "#/$defs/architectures" },
+        "Platform": { "$ref": "#/$defs/platforms" },
+        "Attrs": { "type": "array" },
+        "Params": { "$ref": "#/$defs/params" }
+      },
+      "required": [
+        "Name",
+        "SetLastError",
+        "DllImport",
+        "ReturnType",
+        "ReturnAttrs",
+        "Architectures",
+        "Platform",
+        "Attrs",
+        "Params"
+      ]
+    },
+    "UnicodeAliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["Constants", "Types", "Functions", "UnicodeAliases"],
+
+  "$defs": {
+    "c_type": {
+      "oneOf": [
+        { "$ref": "#/$defs/integer" },
+        { "$ref": "#/$defs/real" },
+        { "$ref": "#/$defs/pointer" },
+        { "$ref": "#/$defs/compound" }
+      ]
+    },
+    "integer": {
+      "enum": [
+        "UInt32",
+        "Int32",
+        "UInt16",
+        "Int16",
+        "UInt64",
+        "Int64",
+        "Byte",
+        "Char",
+        "Boolean",
+        "BOOLEAN",
+        "BOOL",
+        "SByte"
+      ]
+    },
+    "real": {
+      "enum": ["Double", "Float", "Single"]
+    },
+    "pointer": {
+      "enum": ["String", "UIntPtr", "IntPtr", "PWSTR", "Void"]
+    },
+    "compound": {
+      "enum": ["PropertyKey", "Guid"]
+    },
+    "return_types": {
+      "type": "object",
+      "properties": {
+        "Kind": { "enum": ["Native", "ApiRef", "PointerTo"] },
+        "Name": {
+          "oneOf": [
+            { "$ref": "#/$defs/c_type" },
+            { "$ref": "#/$defs/types" },
+            {
+              "enum": [
+                "LRESULT",
+                "HRESULT",
+                "MI_Result",
+                "RPC_STATUS",
+                "EXCEPTION_DISPOSITION",
+                "EFaultRepRetVal",
+                "NTSTATUS",
+                "HDDEDATA",
+                "COPYFILE2_MESSAGE_ACTION",
+                "HANDLE",
+                "SOCKET",
+                "HKEY",
+                "CLUSTER_NETINTERFACE_STATE",
+                "CLUSTER_NETWORK_STATE",
+                "CLUSTER_RESOURCE_STATE",
+                "CLUSTER_GROUP_STATE",
+                "CLUSTER_NODE_STATE",
+                "IDirect3D9",
+                "UCharDirection",
+                "HBITMAP",
+                "HSURF",
+                "DHPDEV",
+                "QStatus",
+                "PSTR"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "return_attrs": { "type": "array" },
+    "platforms": { "enum": [] },
+    "architectures": { "enum": [] },
+    "apis": {
+      "enum": [
+        "AI.MachineLearning.DirectML",
+        "AI.MachineLearning.WinML",
+        "Data.HtmlHelp",
+        "Data.RightsManagement",
+        "Data.Xml.MsXml",
+        "Data.Xml.XmlLite",
+        "Devices.AllJoyn",
+        "Devices.BiometricFramework",
+        "Devices.Bluetooth",
+        "Devices.Communication",
+        "Devices.DeviceAccess",
+        "Devices.DeviceAndDriverInstallation",
+        "Devices.DeviceQuery",
+        "Devices.Display",
+        "Devices.Enumeration.Pnp",
+        "Devices.Fax",
+        "Devices.FunctionDiscovery",
+        "Devices.Geolocation",
+        "Devices.HumanInterfaceDevice",
+        "Devices.ImageAcquisition",
+        "Devices.PortableDevices",
+        "Devices.Properties",
+        "Devices.Pwm",
+        "Devices.Sensors",
+        "Devices.SerialCommunication",
+        "Devices.Tapi",
+        "Devices.Usb",
+        "Devices.WebServicesOnDevices",
+        "Foundation",
+        "Gaming",
+        "Globalization",
+        "Graphics.CompositionSwapchain",
+        "Graphics.Direct2D.Common",
+        "Graphics.Direct2D",
+        "Graphics.Direct3D10",
+        "Graphics.Direct3D11",
+        "Graphics.Direct3D11on12",
+        "Graphics.Direct3D12",
+        "Graphics.Direct3D9",
+        "Graphics.Direct3D9on12",
+        "Graphics.Direct3D.Dxc",
+        "Graphics.Direct3D.Fxc",
+        "Graphics.Direct3D",
+        "Graphics.DirectComposition",
+        "Graphics.DirectDraw",
+        "Graphics.DirectManipulation",
+        "Graphics.DirectWrite",
+        "Graphics.Dwm",
+        "Graphics.DXCore",
+        "Graphics.Dxgi.Common",
+        "Graphics.Dxgi",
+        "Graphics.Gdi",
+        "Graphics.Hlsl",
+        "Graphics.Imaging.D2D",
+        "Graphics.Imaging",
+        "Graphics",
+        "Graphics.OpenGL",
+        "Graphics.Printing",
+        "Graphics.Printing.PrintTicket",
+        "Management.MobileDeviceManagementRegistration",
+        "Media.Audio.Apo",
+        "Media.Audio.DirectMusic",
+        "Media.Audio.DirectSound",
+        "Media.Audio.Endpoints",
+        "Media.Audio",
+        "Media.Audio.XAudio2",
+        "Media.DeviceManager",
+        "Media.DirectShow",
+        "Media.DirectShow.Xml",
+        "Media.DxMediaObjects",
+        "Media",
+        "Media.KernelStreaming",
+        "Media.LibrarySharingServices",
+        "Media.MediaFoundation",
+        "Media.MediaPlayer",
+        "Media.Multimedia",
+        "Media.PictureAcquisition",
+        "Media.Speech",
+        "Media.Streaming",
+        "Media.WindowsMediaFormat",
+        "Networking.ActiveDirectory",
+        "Networking.BackgroundIntelligentTransferService",
+        "Networking.Clustering",
+        "Networking.HttpServer",
+        "Networking.Ldap",
+        "Networking.NetworkListManager",
+        "Networking.RemoteDifferentialCompression",
+        "Networking.WebSocket",
+        "Networking.WindowsWebServices",
+        "Networking.WinHttp",
+        "Networking.WinInet",
+        "Networking.WinSock",
+        "NetworkManagement.Dhcp",
+        "NetworkManagement.Dns",
+        "NetworkManagement.InternetConnectionWizard",
+        "NetworkManagement.IpHelper",
+        "NetworkManagement.MobileBroadband",
+        "NetworkManagement.Multicast",
+        "NetworkManagement.Ndis",
+        "NetworkManagement.NetBios",
+        "NetworkManagement.NetManagement",
+        "NetworkManagement.NetShell",
+        "NetworkManagement.NetworkDiagnosticsFramework",
+        "NetworkManagement.NetworkPolicyServer",
+        "NetworkManagement.P2P",
+        "NetworkManagement.QoS",
+        "NetworkManagement.Rras",
+        "NetworkManagement.Snmp",
+        "NetworkManagement.WebDav",
+        "NetworkManagement.WiFi",
+        "NetworkManagement.WindowsConnectionManager",
+        "NetworkManagement.WindowsConnectNow",
+        "NetworkManagement.WindowsFilteringPlatform",
+        "NetworkManagement.WindowsFirewall",
+        "NetworkManagement.WindowsNetworkVirtualization",
+        "NetworkManagement.WNet",
+        "Security.AppLocker",
+        "Security.Authentication.Identity",
+        "Security.Authentication.Identity.Provider",
+        "Security.Authorization",
+        "Security.Authorization.UI",
+        "Security.ConfigurationSnapin",
+        "Security.Credentials",
+        "Security.Cryptography.Catalog",
+        "Security.Cryptography.Certificates",
+        "Security.Cryptography",
+        "Security.Cryptography.Sip",
+        "Security.Cryptography.UI",
+        "Security.DiagnosticDataQuery",
+        "Security.DirectoryServices",
+        "Security.EnterpriseData",
+        "Security.ExtensibleAuthenticationProtocol",
+        "Security.Isolation",
+        "Security",
+        "Security.LicenseProtection",
+        "Security.NetworkAccessProtection",
+        "Security.Tpm",
+        "Security.WinTrust",
+        "Security.WinWlx",
+        "Storage.Cabinets",
+        "Storage.CloudFilters",
+        "Storage.Compression",
+        "Storage.DataDeduplication",
+        "Storage.DistributedFileSystem",
+        "Storage.EnhancedStorage",
+        "Storage.FileHistory",
+        "Storage.FileServerResourceManager",
+        "Storage.FileSystem",
+        "Storage.Imapi",
+        "Storage.IndexServer",
+        "Storage.InstallableFileSystems",
+        "Storage.IscsiDisc",
+        "Storage.Jet",
+        "Storage.OfflineFiles",
+        "Storage.OperationRecorder",
+        "Storage.Packaging.Appx",
+        "Storage.Packaging.Opc",
+        "Storage.ProjectedFileSystem",
+        "Storage.StructuredStorage",
+        "Storage.Vhd",
+        "Storage.VirtualDiskService",
+        "Storage.Vss",
+        "Storage.Xps",
+        "Storage.Xps.Printing",
+        "System.AddressBook",
+        "System.Antimalware",
+        "System.ApplicationInstallationAndServicing",
+        "System.ApplicationVerifier",
+        "System.AssessmentTool",
+        "System.Com.CallObj",
+        "System.Com.ChannelCredentials",
+        "System.Com.Events",
+        "System.Com",
+        "System.Com.Marshal",
+        "System.ComponentServices",
+        "System.Com.StructuredStorage",
+        "System.Com.UI",
+        "System.Com.Urlmon",
+        "System.Console",
+        "System.Contacts",
+        "System.CorrelationVector",
+        "System.DataExchange",
+        "System.DeploymentServices",
+        "System.DesktopSharing",
+        "System.DeveloperLicensing",
+        "System.Diagnostics.Ceip",
+        "System.Diagnostics.Debug",
+        "System.Diagnostics.Debug.WebApp",
+        "System.Diagnostics.Etw",
+        "System.Diagnostics.ProcessSnapshotting",
+        "System.Diagnostics.ToolHelp",
+        "System.DistributedTransactionCoordinator",
+        "System.Environment",
+        "System.ErrorReporting",
+        "System.EventCollector",
+        "System.EventLog",
+        "System.EventNotificationService",
+        "System.GroupPolicy",
+        "System.HostCompute",
+        "System.HostComputeNetwork",
+        "System.HostComputeSystem",
+        "System.Hypervisor",
+        "System.Iis",
+        "System.Ioctl",
+        "System.IO",
+        "System.JobObjects",
+        "System.Js",
+        "System.Kernel",
+        "System.LibraryLoader",
+        "System.Mailslots",
+        "System.Mapi",
+        "System.Memory",
+        "System.Memory.NonVolatile",
+        "System.MessageQueuing",
+        "System.MixedReality",
+        "System.Mmc",
+        "System.Ole",
+        "System.ParentalControls",
+        "System.PasswordManagement",
+        "System.Performance.HardwareCounterProfiling",
+        "System.Performance",
+        "System.Pipes",
+        "System.Power",
+        "System.ProcessStatus",
+        "System.RealTimeCommunications",
+        "System.Recovery",
+        "System.Registry",
+        "System.RemoteAssistance",
+        "System.RemoteDesktop",
+        "System.RemoteManagement",
+        "System.RestartManager",
+        "System.Restore",
+        "System.Rpc",
+        "System.Search.Common",
+        "System.Search",
+        "System.SecurityCenter",
+        "System.ServerBackup",
+        "System.Services",
+        "System.SettingsManagementInfrastructure",
+        "System.SetupAndMigration",
+        "System.Shutdown",
+        "System.SideShow",
+        "System.SqlLite",
+        "System.StationsAndDesktops",
+        "System.SubsystemForLinux",
+        "System.SystemInformation",
+        "System.SystemServices",
+        "System.TaskScheduler",
+        "System.Threading",
+        "System.Time",
+        "System.TpmBaseServices",
+        "System.TransactionServer",
+        "System.UpdateAgent",
+        "System.UpdateAssessment",
+        "System.UserAccessLogging",
+        "System.VirtualDosMachines",
+        "System.WindowsProgramming",
+        "System.WindowsSync",
+        "System.WinRT.AllJoyn",
+        "System.WinRT.Composition",
+        "System.WinRT.CoreInputView",
+        "System.WinRT.Direct3D11",
+        "System.WinRT.Display",
+        "System.WinRT.Graphics.Capture",
+        "System.WinRT.Graphics.Direct2D",
+        "System.WinRT.Graphics.Imaging",
+        "System.WinRT.Holographic",
+        "System.WinRT.Isolation",
+        "System.WinRT",
+        "System.WinRT.Media",
+        "System.WinRT.ML",
+        "System.WinRT.Pdf",
+        "System.WinRT.Printing",
+        "System.WinRT.Shell",
+        "System.WinRT.Storage",
+        "System.WinRT.Xaml",
+        "System.Wmi",
+        "UI.Accessibility",
+        "UI.Animation",
+        "UI.ColorSystem",
+        "UI.Controls.Dialogs",
+        "UI.Controls",
+        "UI.Controls.RichEdit",
+        "UI.HiDpi",
+        "UI.Input.Ime",
+        "UI.Input.Ink",
+        "UI.Input",
+        "UI.Input.KeyboardAndMouse",
+        "UI.Input.Pointer",
+        "UI.Input.Radial",
+        "UI.Input.Touch",
+        "UI.Input.XboxController",
+        "UI.InteractionContext",
+        "UI.LegacyWindowsEnvironmentFeatures",
+        "UI.Magnification",
+        "UI.Notifications",
+        "UI.Ribbon",
+        "UI.Shell.Common",
+        "UI.Shell",
+        "UI.Shell.PropertiesSystem",
+        "UI.TabletPC",
+        "UI.TextServices",
+        "UI.WindowsAndMessaging",
+        "UI.Wpf",
+        "UI.Xaml.Diagnostics",
+        "Web.MsHtml"
+      ]
+    },
+    "params": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["Name", "Type", "Attrs"],
+        "properties": {
+          "Name": { "type": "string" },
+          "Type": { "$ref": "#/$defs/types" },
+          "Attrs": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "enum": [
+                    "Const",
+                    "In",
+                    "Out",
+                    "Optional",
+                    "NotNullTerminated",
+                    "NullNullTerminated",
+                    "Reserved",
+                    "ComOutPtr"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "Kind": {
+                      "enum": ["MemorySize"],
+                      "BytesParamIndex": { "type": "number" }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "types": {
+      "type": "object",
+      "properties": {
+        "Kind": {
+          "enum": ["Native", "ApiRef", "Array", "PointerTo", "Union", "LPArray"]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "Kind": { "const": "Native" } }
+          },
+          "then": {
+            "properties": {
+              "Name": { "$ref": "#/$defs/c_type" }
+            },
+            "required": ["Name"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "Kind": { "const": "ApiRef" } }
+          },
+          "then": {
+            "properties": {
+              "Name": { "type": "string" },
+              "TargetKind": {
+                "enum": ["Default", "FunctionPointer", "Com"]
+              },
+              "Api": { "$ref": "#/$defs/apis" },
+              "Parents": { "type": "array" }
+            },
+            "required": ["Name", "TargetKind", "Api", "Parents"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "Kind": { "const": "Array" } }
+          },
+          "then": {
+            "properties": {
+              "Shape": {},
+              "Child": { "$ref": "#/$defs/types" }
+            },
+            "required": ["Shape", "Child"]
+          }
+        },
+        {
+          "if": {
+            "properties": { "Kind": { "const": "PointerTo" } }
+          },
+          "then": {
+            "required": ["Child"],
+            "properties": {
+              "Child": { "$ref": "#/$defs/types" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Kind": { "const": "Union" } }
+          },
+          "then": {
+            "required": ["Name"],
+            "properties": {
+              "Name": { "$ref": "#/$defs/c_type" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "Kind": { "const": "LPArray" } }
+          },
+          "then": {
+            "required": [
+              "NullNullTerm",
+              "CountConst",
+              "CountParamIndex",
+              "Child"
+            ],
+            "properties": {
+              "NullNullTerm": { "type": "boolean" },
+              "CountConst": { "type": "number" },
+              "CountParamIndex": { "type": "number" },
+              "Child": { "$ref": "#/$defs/types" }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
