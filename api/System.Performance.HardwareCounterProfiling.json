@@ -1,0 +1,122 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"HARDWARE_COUNTER_TYPE"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"PMCCounter","Value":0}
+			,{"Name":"MaxHardwareCounterType","Value":1}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"HARDWARE_COUNTER_DATA"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Type","Type":{"Kind":"ApiRef","Name":"HARDWARE_COUNTER_TYPE","TargetKind":"Default","Api":"System.Performance.HardwareCounterProfiling","Parents":[]},"Attrs":[]}
+			,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"PERFORMANCE_DATA"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Size","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"Version","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"HwCountersCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"ContextSwitchCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"WaitReasonBitMap","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"CycleTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"RetryCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"HwCounters","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"ApiRef","Name":"HARDWARE_COUNTER_DATA","TargetKind":"Default","Api":"System.Performance.HardwareCounterProfiling","Parents":[]}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"EnableThreadProfiling"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows6.1"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"ThreadHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"HardwareCounters","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
+			,{"Name":"PerformanceDataHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"DisableThreadProfiling"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows6.1"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"PerformanceDataHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"QueryThreadProfiling"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows6.1"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"ThreadHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"Enabled","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"ReadThreadProfilingData"
+		,"SetLastError":false
+		,"DllImport":"KERNEL32"
+		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows6.1"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"PerformanceDataHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"PerformanceData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PERFORMANCE_DATA","TargetKind":"Default","Api":"System.Performance.HardwareCounterProfiling","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
