@@ -1,0 +1,153 @@
+{
+
+"Constants":[
+	{
+		"Name":"COMDB_MIN_PORTS_ARBITRATED"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":256
+		,"Attrs":[]
+	}
+	,{
+		"Name":"COMDB_MAX_PORTS_ARBITRATED"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":4096
+		,"Attrs":[]
+	}
+	,{
+		"Name":"CDB_REPORT_BITS"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":0
+		,"Attrs":[]
+	}
+	,{
+		"Name":"CDB_REPORT_BYTES"
+		,"Type":{"Kind":"Native","Name":"UInt32"}
+		,"ValueType":"UInt32"
+		,"Value":1
+		,"Attrs":[]
+	}
+]
+
+,"Types":[
+	{
+		"Name":"HCOMDB"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"NativeTypedef"
+		,"AlsoUsableFor":null
+		,"Def":{"Kind":"Native","Name":"IntPtr"}
+		,"FreeFunc":null
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"ComDBOpen"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"PHComDB","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"ComDBClose"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"ComDBGetCurrentPortUsage"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+			,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2},"Optional"]}
+			,{"Name":"BufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"ReportType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"MaxPortsReported","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"ComDBClaimNextFreePort"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ComNumber","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"ComDBClaimPort"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ComNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"ForceClaim","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"Forced","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","Optional"]}
+		]
+	}
+	,{
+		"Name":"ComDBReleasePort"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ComNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"ComDBResizeDatabase"
+		,"SetLastError":false
+		,"DllImport":"MSPORTS"
+		,"ReturnType":{"Kind":"Native","Name":"Int32"}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"HComDB","Type":{"Kind":"ApiRef","Name":"HCOMDB","TargetKind":"Default","Api":"Devices.SerialCommunication","Parents":[]},"Attrs":["In"]}
+			,{"Name":"NewSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

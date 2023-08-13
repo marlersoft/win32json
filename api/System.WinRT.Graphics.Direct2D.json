@@ -1,0 +1,158 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_UNKNOWN","Value":0}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_DIRECT","Value":1}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_VECTORX","Value":2}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_VECTORY","Value":3}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_VECTORZ","Value":4}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_VECTORW","Value":5}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_RECT_TO_VECTOR4","Value":6}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_RADIANS_TO_DEGREES","Value":7}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_COLORMATRIX_ALPHA_MODE","Value":8}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_COLOR_TO_VECTOR3","Value":9}
+			,{"Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING_COLOR_TO_VECTOR4","Value":10}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IGraphicsEffectD2D1Interop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"2fc57384-a068-44d7-a331-30982fcf7177"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetEffectId"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"id","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetNamedPropertyMapping"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"index","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+					,{"Name":"mapping","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GRAPHICS_EFFECT_PROPERTY_MAPPING","TargetKind":"Default","Api":"System.WinRT.Graphics.Direct2D","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetPropertyCount"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"count","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetProperty"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"MissingClrType","Name":"IPropertyValue","Namespace":"Windows.Foundation"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetSource"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+					,{"Name":"source","Type":{"Kind":"PointerTo","Child":{"Kind":"MissingClrType","Name":"IGraphicsEffectSource","Namespace":"Windows.Graphics.Effects"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetSourceCount"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"count","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IGeometrySource2DInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"0657af73-53fd-47cf-84ff-c8492d2a80a3"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetGeometry"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ID2D1Geometry","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]}},"Attrs":["Out","ComOutPtr"]}
+				]
+			}
+			,{
+				"Name":"TryGetGeometryUsingFactory"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"factory","Type":{"Kind":"ApiRef","Name":"ID2D1Factory","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ID2D1Geometry","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]}},"Attrs":["Out","ComOutPtr","Optional"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
