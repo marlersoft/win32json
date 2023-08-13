@@ -21159,6 +21159,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"IntPtr"}
 		,"FreeFunc":"CryptCloseAsyncHandle"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"HCERTCHAINENGINE"
@@ -21168,6 +21169,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"IntPtr"}
 		,"FreeFunc":"CertFreeCertificateChainEngine"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"BCRYPT_ALG_HANDLE"
@@ -21177,6 +21179,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"IntPtr"}
 		,"FreeFunc":"BCryptCloseAlgorithmProvider"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"BCRYPT_KEY_HANDLE"
@@ -21186,6 +21189,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"IntPtr"}
 		,"FreeFunc":"BCryptDestroyKey"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"NCRYPT_HANDLE"
@@ -21195,6 +21199,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"NCRYPT_PROV_HANDLE"
@@ -21204,6 +21209,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":"NCryptFreeObject"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"NCRYPT_KEY_HANDLE"
@@ -21213,6 +21219,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":"NCryptFreeObject"
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"NCRYPT_HASH_HANDLE"
@@ -21222,6 +21229,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"NCRYPT_SECRET_HANDLE"
@@ -21231,6 +21239,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"HCRYPTPROV_LEGACY"
@@ -21240,6 +21249,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"HCRYPTPROV_OR_NCRYPT_KEY_HANDLE"
@@ -21249,6 +21259,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"Native","Name":"UIntPtr"}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"HCERTSTORE"
@@ -21258,6 +21269,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"HCERTSTOREPROV"
@@ -21267,6 +21279,7 @@
 		,"AlsoUsableFor":null
 		,"Def":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 		,"FreeFunc":null
+		,"InvalidHandleValue":null
 	}
 	,{
 		"Name":"CMS_KEY_INFO"
