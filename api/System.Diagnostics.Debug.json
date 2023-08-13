@@ -73759,10 +73759,12 @@
 		,"SetLastError":false
 		,"DllImport":"KERNEL32"
 		,"ReturnType":{"Kind":"Native","Name":"Void"}
-		,"ReturnAttrs":["DoesNotReturn"]
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":"windows5.1.2600"
-		,"Attrs":[]
+		,"Attrs":[
+			"DoesNotReturn"
+		]
 		,"Params":[
 			{"Name":"ExitCode","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		]
