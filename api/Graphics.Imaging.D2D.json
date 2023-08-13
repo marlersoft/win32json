@@ -1,0 +1,90 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"IWICImageEncoder"
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Kind":"Com"
+		,"Guid":"04c75bf8-3ce1-473b-acc5-3cc4f5e94999"
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"WriteFrame"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pImage","Type":{"Kind":"ApiRef","Name":"ID2D1Image","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pFrameEncode","Type":{"Kind":"ApiRef","Name":"IWICBitmapFrameEncode","TargetKind":"Com","Api":"Graphics.Imaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pImageParameters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WICImageParameters","TargetKind":"Default","Api":"Graphics.Imaging","Parents":[]}},"Attrs":["In","Const"]}
+				]
+			}
+			,{
+				"Name":"WriteFrameThumbnail"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pImage","Type":{"Kind":"ApiRef","Name":"ID2D1Image","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pFrameEncode","Type":{"Kind":"ApiRef","Name":"IWICBitmapFrameEncode","TargetKind":"Com","Api":"Graphics.Imaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pImageParameters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WICImageParameters","TargetKind":"Default","Api":"Graphics.Imaging","Parents":[]}},"Attrs":["In","Const"]}
+				]
+			}
+			,{
+				"Name":"WriteThumbnail"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pImage","Type":{"Kind":"ApiRef","Name":"ID2D1Image","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pEncoder","Type":{"Kind":"ApiRef","Name":"IWICBitmapEncoder","TargetKind":"Com","Api":"Graphics.Imaging","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pImageParameters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WICImageParameters","TargetKind":"Default","Api":"Graphics.Imaging","Parents":[]}},"Attrs":["In","Const"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IWICImagingFactory2"
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Kind":"Com"
+		,"Guid":"7b816b45-1996-4476-b132-de9e247c8af0"
+		,"Interface":{"Kind":"ApiRef","Name":"IWICImagingFactory","TargetKind":"Com","Api":"Graphics.Imaging","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateImageEncoder"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pD2DDevice","Type":{"Kind":"ApiRef","Name":"ID2D1Device","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"ppWICImageEncoder","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IWICImageEncoder","TargetKind":"Com","Api":"Graphics.Imaging.D2D","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
