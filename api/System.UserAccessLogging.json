@@ -1,0 +1,86 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"UAL_DATA_BLOB"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"RoleGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"TenantId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"Address","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
+			,{"Name":"UserName","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"UalStart"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"System.UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalStop"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"System.UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalInstrument"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UAL_DATA_BLOB","TargetKind":"Default","Api":"System.UserAccessLogging","Parents":[]}},"Attrs":["In"]}
+		]
+	}
+	,{
+		"Name":"UalRegisterProduct"
+		,"SetLastError":false
+		,"DllImport":"ualapi"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":"windows8.0"
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"wszProductName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"wszRoleName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"wszGuid","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
