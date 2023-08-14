@@ -1,0 +1,51 @@
+{
+
+"Constants":[
+	{
+		"Name":"PERCEPTIONFIELD_StateStream_TimeStamps"
+		,"Type":{"Kind":"Native","Name":"Guid"}
+		,"ValueType":"String"
+		,"Value":"aa886119-f32f-49bf-92ca-f9ddf784d297"
+		,"Attrs":[]
+	}
+]
+
+,"Types":[
+	{
+		"Name":"PERCEPTION_PAYLOAD_FIELD"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"FieldId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"OffsetInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"SizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"PERCEPTION_STATE_STREAM_TIMESTAMPS"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"InputTimestampInQpcCounts","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"AvailableTimestampInQpcCounts","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
