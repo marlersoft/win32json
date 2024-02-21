@@ -1,0 +1,100 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"PFN_PDF_CREATE_RENDERER"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"FunctionPointer"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"param0","Type":{"Kind":"ApiRef","Name":"IDXGIDevice","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In"]}
+			,{"Name":"param1","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IPdfRendererNative","TargetKind":"Com","Api":"System.WinRT.Pdf","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+	,{
+		"Name":"PDF_RENDER_PARAMS"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"SourceRect","Type":{"Kind":"ApiRef","Name":"D2D_RECT_F","TargetKind":"Default","Api":"Graphics.Direct2D.Common","Parents":[]},"Attrs":[]}
+			,{"Name":"DestinationWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"DestinationHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"BackgroundColor","Type":{"Kind":"ApiRef","Name":"D2D_COLOR_F","TargetKind":"Default","Api":"Graphics.Direct2D.Common","Parents":[]},"Attrs":[]}
+			,{"Name":"IgnoreHighContrast","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[
+		]
+	}
+	,{
+		"Name":"IPdfRendererNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"7d9dcd91-d277-4947-8527-07a0daeda94a"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"RenderPageToSurface"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pdfPage","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pSurface","Type":{"Kind":"ApiRef","Name":"IDXGISurface","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In"]}
+					,{"Name":"offset","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pRenderParams","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PDF_RENDER_PARAMS","TargetKind":"Default","Api":"System.WinRT.Pdf","Parents":[]}},"Attrs":["In","Optional"]}
+				]
+			}
+			,{
+				"Name":"RenderPageToDeviceContext"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"pdfPage","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pD2DDeviceContext","Type":{"Kind":"ApiRef","Name":"ID2D1DeviceContext","TargetKind":"Com","Api":"Graphics.Direct2D","Parents":[]},"Attrs":["In"]}
+					,{"Name":"pRenderParams","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PDF_RENDER_PARAMS","TargetKind":"Default","Api":"System.WinRT.Pdf","Parents":[]}},"Attrs":["In","Optional"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"PdfCreateRenderer"
+		,"SetLastError":false
+		,"DllImport":"Windows.Data.Pdf"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pDevice","Type":{"Kind":"ApiRef","Name":"IDXGIDevice","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ppRenderer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IPdfRendererNative","TargetKind":"Com","Api":"System.WinRT.Pdf","Parents":[]}},"Attrs":["Out"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}

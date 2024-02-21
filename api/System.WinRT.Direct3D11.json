@@ -1,0 +1,67 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"IDirect3DDxgiInterfaceAccess"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"a9b3d012-3df2-4ee3-b8d1-8695f457d3c1"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetInterface"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"iid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"p","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+	{
+		"Name":"CreateDirect3D11DeviceFromDXGIDevice"
+		,"SetLastError":false
+		,"DllImport":"d3d11"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"dxgiDevice","Type":{"Kind":"ApiRef","Name":"IDXGIDevice","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In"]}
+			,{"Name":"graphicsDevice","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}},"Attrs":["Out","ComOutPtr"]}
+		]
+	}
+	,{
+		"Name":"CreateDirect3D11SurfaceFromDXGISurface"
+		,"SetLastError":false
+		,"DllImport":"d3d11"
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"dgxiSurface","Type":{"Kind":"ApiRef","Name":"IDXGISurface","TargetKind":"Com","Api":"Graphics.Dxgi","Parents":[]},"Attrs":["In"]}
+			,{"Name":"graphicsSurface","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}},"Attrs":["Out","ComOutPtr"]}
+		]
+	}
+]
+
+,"UnicodeAliases":[
+]
+
+}
