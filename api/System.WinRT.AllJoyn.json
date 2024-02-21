@@ -1,0 +1,144 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"IWindowsDevicesAllJoynBusAttachmentInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"fd89c65b-b50e-4a19-9d0c-b42b783281cd"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"get_Win32Handle"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[
+					"SpecialName"
+				]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","RetVal"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IWindowsDevicesAllJoynBusAttachmentFactoryInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"4b8f7505-b239-4e7b-88af-f6682575d861"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateFromWin32Handle"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"win32handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
+					,{"Name":"enableAboutData","Type":{"Kind":"Native","Name":"Byte"},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IWindowsDevicesAllJoynBusObjectInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"d78aa3d5-5054-428f-99f2-ec3a5de3c3bc"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"AddPropertyGetHandler"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
+					,{"Name":"interfaceName","Type":{"Kind":"ApiRef","Name":"HSTRING","TargetKind":"Default","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callback","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
+				]
+			}
+			,{
+				"Name":"AddPropertySetHandler"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
+					,{"Name":"interfaceName","Type":{"Kind":"ApiRef","Name":"HSTRING","TargetKind":"Default","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
+					,{"Name":"callback","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
+				]
+			}
+			,{
+				"Name":"get_Win32Handle"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[
+					"SpecialName"
+				]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["Out","RetVal"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"IWindowsDevicesAllJoynBusObjectFactoryInterop"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"6174e506-8b95-4e36-95c0-b88fed34938c"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateFromWin32Handle"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"win32handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
+					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+					,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

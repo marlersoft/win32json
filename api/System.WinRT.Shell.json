@@ -1,0 +1,60 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"CreateProcessMethod"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Enum"
+		,"Flags":false
+		,"Scoped":false
+		,"Values":[
+			{"Name":"CpCreateProcess","Value":0}
+			,{"Name":"CpCreateProcessAsUser","Value":1}
+			,{"Name":"CpAicLaunchAdminProcess","Value":2}
+		]
+		,"IntegerBase":"Int32"
+	}
+	,{
+		"Name":"IDDEInitializer"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"30dc931f-33fc-4ffd-a168-942258cf3ca4"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"Initialize"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"fileExtensionOrProtocol","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"method","Type":{"Kind":"ApiRef","Name":"CreateProcessMethod","TargetKind":"Default","Api":"System.WinRT.Shell","Parents":[]},"Attrs":["In"]}
+					,{"Name":"currentDirectory","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"execTarget","Type":{"Kind":"ApiRef","Name":"IShellItem","TargetKind":"Com","Api":"UI.Shell","Parents":[]},"Attrs":["In"]}
+					,{"Name":"site","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
+					,{"Name":"application","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"targetFile","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"arguments","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+					,{"Name":"verb","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}

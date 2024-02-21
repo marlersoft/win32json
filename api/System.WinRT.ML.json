@@ -1,0 +1,147 @@
+{
+
+"Constants":[
+]
+
+,"Types":[
+	{
+		"Name":"ILearningModelOperatorProviderNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"1adaa23a-eb67-41f3-aad8-5d984e9bacd4"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetRegistry"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"ppOperatorRegistry","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IMLOperatorRegistry","TargetKind":"Com","Api":"AI.MachineLearning.WinML","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ITensorNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"52f547ef-5b03-49b5-82d6-565f1ee0dd49"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"GetBuffer"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":1,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}},"Attrs":["Out"]}
+					,{"Name":"capacity","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+				]
+			}
+			,{
+				"Name":"GetD3D12Resource"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ID3D12Resource","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ITensorStaticsNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"39d055a4-66f6-4ebc-95d9-7a29ebe7690a"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateFromD3D12Resource"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"ApiRef","Name":"ID3D12Resource","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]},"Attrs":["In"]}
+					,{"Name":"shape","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int64"}},"Attrs":["In","Out"]}
+					,{"Name":"shapeCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+					,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ILearningModelDeviceFactoryNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"1e9b31a1-662e-4ae0-af67-f63bb337e634"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"CreateFromD3D12CommandQueue"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"value","Type":{"Kind":"ApiRef","Name":"ID3D12CommandQueue","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]},"Attrs":["In"]}
+					,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}},"Attrs":["Out"]}
+				]
+			}
+		]
+	}
+	,{
+		"Name":"ILearningModelSessionOptionsNative"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Com"
+		,"Guid":"c71e953f-37b4-4564-8658-d8396866db0d"
+		,"Attrs":[]
+		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+		,"Methods":[
+			{
+				"Name":"SetIntraOpNumThreadsOverride"
+				,"SetLastError":false
+				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+				,"ReturnAttrs":[]
+				,"Architectures":[]
+				,"Platform":null
+				,"Attrs":[]
+				,"Params":[
+					{"Name":"intraOpNumThreads","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+				]
+			}
+		]
+	}
+]
+
+,"Functions":[
+]
+
+,"UnicodeAliases":[
+]
+
+}
