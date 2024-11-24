@@ -1,79 +1,67 @@
 {
+"Constants":[],
 
-"Constants":[
-]
-
-,"Types":[
-	{
-		"Name":"IThumbnailExtractor"
+"Types":[{
+	"Name":"IThumbnailExtractor"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"969dc708-5c76-11d1-8d86-0000f804b057"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"ExtractThumbnail"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"969dc708-5c76-11d1-8d86-0000f804b057"
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"ExtractThumbnail"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pStg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
-					,{"Name":"ulLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"ulHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"pulOutputLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
-					,{"Name":"pulOutputHeight","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
-					,{"Name":"phOutputBitmap","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Out"]}
-				]
-			}
-			,{
-				"Name":"OnFileUpdated"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pStg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
-				]
-			}
+		,"Params":[
+			{"Name":"pStg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
+			,{"Name":"ulLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"ulHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"pulOutputLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			,{"Name":"pulOutputHeight","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			,{"Name":"phOutputBitmap","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Out"]}
 		]
-	}
-	,{
-		"Name":"IDummyHICONIncluder"
+	},{
+		"Name":"OnFileUpdated"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"947990de-cc28-11d2-a0f7-00805f858fb1"
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"Dummy"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"h1","Type":{"Kind":"ApiRef","Name":"HICON","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
-					,{"Name":"h2","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
-				]
-			}
+		,"Params":[
+			{"Name":"pStg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
 		]
-	}
-]
+	}]
+},{
+	"Name":"IDummyHICONIncluder"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"947990de-cc28-11d2-a0f7-00805f858fb1"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"Dummy"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"h1","Type":{"Kind":"ApiRef","Name":"HICON","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
+			,{"Name":"h2","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
+		]
+	}]
+}],
 
-,"Functions":[
-]
+"Functions":[],
 
-,"UnicodeAliases":[
+"UnicodeAliases":[
 ]
-
 }

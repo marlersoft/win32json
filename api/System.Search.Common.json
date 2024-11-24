@@ -1,56 +1,49 @@
 {
+"Constants":[],
 
-"Constants":[
+"Types":[{
+	"Name":"CONDITION_TYPE"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"CT_AND_CONDITION","Value":0}
+		,{"Name":"CT_OR_CONDITION","Value":1}
+		,{"Name":"CT_NOT_CONDITION","Value":2}
+		,{"Name":"CT_LEAF_CONDITION","Value":3}
+	]
+	,"IntegerBase":"Int32"
+},{
+	"Name":"CONDITION_OPERATION"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"COP_IMPLICIT","Value":0}
+		,{"Name":"COP_EQUAL","Value":1}
+		,{"Name":"COP_NOTEQUAL","Value":2}
+		,{"Name":"COP_LESSTHAN","Value":3}
+		,{"Name":"COP_GREATERTHAN","Value":4}
+		,{"Name":"COP_LESSTHANOREQUAL","Value":5}
+		,{"Name":"COP_GREATERTHANOREQUAL","Value":6}
+		,{"Name":"COP_VALUE_STARTSWITH","Value":7}
+		,{"Name":"COP_VALUE_ENDSWITH","Value":8}
+		,{"Name":"COP_VALUE_CONTAINS","Value":9}
+		,{"Name":"COP_VALUE_NOTCONTAINS","Value":10}
+		,{"Name":"COP_DOSWILDCARDS","Value":11}
+		,{"Name":"COP_WORD_EQUAL","Value":12}
+		,{"Name":"COP_WORD_STARTSWITH","Value":13}
+		,{"Name":"COP_APPLICATION_SPECIFIC","Value":14}
+	]
+	,"IntegerBase":"Int32"
+}],
+
+"Functions":[],
+
+"UnicodeAliases":[
 ]
-
-,"Types":[
-	{
-		"Name":"CONDITION_TYPE"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Enum"
-		,"Flags":false
-		,"Scoped":false
-		,"Values":[
-			{"Name":"CT_AND_CONDITION","Value":0}
-			,{"Name":"CT_OR_CONDITION","Value":1}
-			,{"Name":"CT_NOT_CONDITION","Value":2}
-			,{"Name":"CT_LEAF_CONDITION","Value":3}
-		]
-		,"IntegerBase":"Int32"
-	}
-	,{
-		"Name":"CONDITION_OPERATION"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Enum"
-		,"Flags":false
-		,"Scoped":false
-		,"Values":[
-			{"Name":"COP_IMPLICIT","Value":0}
-			,{"Name":"COP_EQUAL","Value":1}
-			,{"Name":"COP_NOTEQUAL","Value":2}
-			,{"Name":"COP_LESSTHAN","Value":3}
-			,{"Name":"COP_GREATERTHAN","Value":4}
-			,{"Name":"COP_LESSTHANOREQUAL","Value":5}
-			,{"Name":"COP_GREATERTHANOREQUAL","Value":6}
-			,{"Name":"COP_VALUE_STARTSWITH","Value":7}
-			,{"Name":"COP_VALUE_ENDSWITH","Value":8}
-			,{"Name":"COP_VALUE_CONTAINS","Value":9}
-			,{"Name":"COP_VALUE_NOTCONTAINS","Value":10}
-			,{"Name":"COP_DOSWILDCARDS","Value":11}
-			,{"Name":"COP_WORD_EQUAL","Value":12}
-			,{"Name":"COP_WORD_STARTSWITH","Value":13}
-			,{"Name":"COP_APPLICATION_SPECIFIC","Value":14}
-		]
-		,"IntegerBase":"Int32"
-	}
-]
-
-,"Functions":[
-]
-
-,"UnicodeAliases":[
-]
-
 }

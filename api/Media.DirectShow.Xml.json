@@ -1,73 +1,62 @@
 {
+"Constants":[{
+	"Name":"CLSID_XMLGraphBuilder"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"1bb05961-5fbf-11d2-a521-44df07c10000"
+	,"Attrs":[]
+}],
 
-"Constants":[
-	{
-		"Name":"CLSID_XMLGraphBuilder"
-		,"Type":{"Kind":"Native","Name":"Guid"}
-		,"ValueType":"String"
-		,"Value":"1bb05961-5fbf-11d2-a521-44df07c10000"
-		,"Attrs":[]
-	}
-]
-
-,"Types":[
-	{
-		"Name":"IXMLGraphBuilder"
+"Types":[{
+	"Name":"IXMLGraphBuilder"
+	,"Architectures":[]
+	,"Platform":"windows5.0"
+	,"Kind":"Com"
+	,"Guid":"1bb05960-5fbf-11d2-a521-44df07c10000"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"BuildFromXML"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
-		,"Platform":"windows5.0"
-		,"Kind":"Com"
-		,"Guid":"1bb05960-5fbf-11d2-a521-44df07c10000"
+		,"Platform":null
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"BuildFromXML"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
-					,{"Name":"pxml","Type":{"Kind":"ApiRef","Name":"IXMLElement","TargetKind":"Com","Api":"Data.Xml.MsXml","Parents":[]},"Attrs":["In"]}
-				]
-			}
-			,{
-				"Name":"SaveToXML"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
-					,{"Name":"pbstrxml","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
-				]
-			}
-			,{
-				"Name":"BuildFromXMLFile"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
-					,{"Name":"wszFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
-					,{"Name":"wszBaseURL","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
-				]
-			}
+		,"Params":[
+			{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pxml","Type":{"Kind":"ApiRef","Name":"IXMLElement","TargetKind":"Com","Api":"Data.Xml.MsXml","Parents":[]},"Attrs":["In"]}
 		]
-	}
-]
+	},{
+		"Name":"SaveToXML"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pbstrxml","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
+		]
+	},{
+		"Name":"BuildFromXMLFile"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pGraph","Type":{"Kind":"ApiRef","Name":"IGraphBuilder","TargetKind":"Com","Api":"Media.DirectShow","Parents":[]},"Attrs":["In"]}
+			,{"Name":"wszFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+			,{"Name":"wszBaseURL","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+		]
+	}]
+}],
 
-,"Functions":[
-]
+"Functions":[],
 
-,"UnicodeAliases":[
+"UnicodeAliases":[
 ]
-
 }

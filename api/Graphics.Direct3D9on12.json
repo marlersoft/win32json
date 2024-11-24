@@ -1,155 +1,138 @@
 {
+"Constants":[{
+	"Name":"MAX_D3D9ON12_QUEUES"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+}],
 
-"Constants":[
-	{
-		"Name":"MAX_D3D9ON12_QUEUES"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":2
-		,"Attrs":[]
-	}
-]
-
-,"Types":[
-	{
-		"Name":"D3D9ON12_ARGS"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Enable9On12","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			,{"Name":"pD3D12Device","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
-			,{"Name":"ppD3D12Queues","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}},"Attrs":[]}
-			,{"Name":"NumQueues","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"NodeMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[
-		]
-	}
-	,{
-		"Name":"PFN_Direct3DCreate9On12Ex"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"FunctionPointer"
+"Types":[{
+	"Name":"D3D9ON12_ARGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Enable9On12","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"pD3D12Device","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+		,{"Name":"ppD3D12Queues","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}},"Attrs":[]}
+		,{"Name":"NumQueues","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"NodeMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"PFN_Direct3DCreate9On12Ex"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"FunctionPointer"
+	,"SetLastError":false
+	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"ppOutputInterface","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IDirect3D9Ex","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}},"Attrs":["Out"]}
+	]
+},{
+	"Name":"PFN_Direct3DCreate9On12"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"FunctionPointer"
+	,"SetLastError":false
+	,"ReturnType":{"Kind":"ApiRef","Name":"IDirect3D9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+	]
+},{
+	"Name":"IDirect3DDevice9On12"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"e7fda234-b589-4049-940d-8878977531c8"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"GetD3D12Device"
 		,"SetLastError":false
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 		,"ReturnAttrs":[]
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
-			,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"ppOutputInterface","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IDirect3D9Ex","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}},"Attrs":["Out"]}
-		]
-	}
-	,{
-		"Name":"PFN_Direct3DCreate9On12"
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"FunctionPointer"
-		,"SetLastError":false
-		,"ReturnType":{"Kind":"ApiRef","Name":"IDirect3D9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}
-		,"ReturnAttrs":[]
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
-			,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"ppvDevice","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out"]}
 		]
-	}
-	,{
-		"Name":"IDirect3DDevice9On12"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"e7fda234-b589-4049-940d-8878977531c8"
-		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"GetD3D12Device"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
-					,{"Name":"ppvDevice","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out"]}
-				]
-			}
-			,{
-				"Name":"UnwrapUnderlyingResource"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pResource","Type":{"Kind":"ApiRef","Name":"IDirect3DResource9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]},"Attrs":["In"]}
-					,{"Name":"pCommandQueue","Type":{"Kind":"ApiRef","Name":"ID3D12CommandQueue","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]},"Attrs":["In"]}
-					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
-					,{"Name":"ppvResource12","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out"]}
-				]
-			}
-			,{
-				"Name":"ReturnUnderlyingResource"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pResource","Type":{"Kind":"ApiRef","Name":"IDirect3DResource9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]},"Attrs":["In"]}
-					,{"Name":"NumSync","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"pSignalValues","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["In","Out"]}
-					,{"Name":"ppFences","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ID3D12Fence","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]}},"Attrs":["Out"]}
-				]
-			}
-		]
-	}
-]
-
-,"Functions":[
-	{
-		"Name":"Direct3DCreate9On12Ex"
+	},{
+		"Name":"UnwrapUnderlyingResource"
 		,"SetLastError":false
-		,"DllImport":"d3d9"
 		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
-			,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"ppOutputInterface","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IDirect3D9Ex","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}},"Attrs":["Out"]}
+			{"Name":"pResource","Type":{"Kind":"ApiRef","Name":"IDirect3DResource9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pCommandQueue","Type":{"Kind":"ApiRef","Name":"ID3D12CommandQueue","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]},"Attrs":["In"]}
+			,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"ppvResource12","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out"]}
 		]
-	}
-	,{
-		"Name":"Direct3DCreate9On12"
+	},{
+		"Name":"ReturnUnderlyingResource"
 		,"SetLastError":false
-		,"DllImport":"d3d9"
-		,"ReturnType":{"Kind":"ApiRef","Name":"IDirect3D9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
-			,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"pResource","Type":{"Kind":"ApiRef","Name":"IDirect3DResource9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]},"Attrs":["In"]}
+			,{"Name":"NumSync","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"pSignalValues","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":["In","Out"]}
+			,{"Name":"ppFences","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ID3D12Fence","TargetKind":"Com","Api":"Graphics.Direct3D12","Parents":[]}},"Attrs":["Out"]}
 		]
-	}
-]
+	}]
+}],
 
-,"UnicodeAliases":[
-]
+"Functions":[{
+	"Name":"Direct3DCreate9On12Ex"
+	,"SetLastError":false
+	,"DllImport":"d3d9"
+	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"ppOutputInterface","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IDirect3D9Ex","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}},"Attrs":["Out"]}
+	]
+},{
+	"Name":"Direct3DCreate9On12"
+	,"SetLastError":false
+	,"DllImport":"d3d9"
+	,"ReturnType":{"Kind":"ApiRef","Name":"IDirect3D9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"SDKVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"pOverrideList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"D3D9ON12_ARGS","TargetKind":"Default","Api":"Graphics.Direct3D9on12","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"NumOverrideEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+	]
+}],
 
+"UnicodeAliases":[
+]
 }

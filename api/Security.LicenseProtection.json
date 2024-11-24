@@ -1,62 +1,54 @@
 {
+"Constants":[],
 
-"Constants":[
+"Types":[{
+	"Name":"LicenseProtectionStatus"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"Success","Value":0}
+		,{"Name":"LicenseKeyNotFound","Value":1}
+		,{"Name":"LicenseKeyUnprotected","Value":2}
+		,{"Name":"LicenseKeyCorrupted","Value":3}
+		,{"Name":"LicenseKeyAlreadyExists","Value":4}
+	]
+	,"IntegerBase":"Int32"
+}],
+
+"Functions":[{
+	"Name":"RegisterLicenseKeyWithExpiration"
+	,"SetLastError":false
+	,"DllImport":"licenseprotection"
+	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"licenseKey","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+		,{"Name":"validityInDays","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"status","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LicenseProtectionStatus","TargetKind":"Default","Api":"Security.LicenseProtection","Parents":[]}},"Attrs":["Out"]}
+	]
+},{
+	"Name":"ValidateLicenseKeyProtection"
+	,"SetLastError":false
+	,"DllImport":"licenseprotection"
+	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"licenseKey","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
+		,{"Name":"notValidBefore","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"notValidAfter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"status","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LicenseProtectionStatus","TargetKind":"Default","Api":"Security.LicenseProtection","Parents":[]}},"Attrs":["Out"]}
+	]
+}],
+
+"UnicodeAliases":[
 ]
-
-,"Types":[
-	{
-		"Name":"LicenseProtectionStatus"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Enum"
-		,"Flags":false
-		,"Scoped":false
-		,"Values":[
-			{"Name":"Success","Value":0}
-			,{"Name":"LicenseKeyNotFound","Value":1}
-			,{"Name":"LicenseKeyUnprotected","Value":2}
-			,{"Name":"LicenseKeyCorrupted","Value":3}
-			,{"Name":"LicenseKeyAlreadyExists","Value":4}
-		]
-		,"IntegerBase":"Int32"
-	}
-]
-
-,"Functions":[
-	{
-		"Name":"RegisterLicenseKeyWithExpiration"
-		,"SetLastError":false
-		,"DllImport":"licenseprotection"
-		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"licenseKey","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
-			,{"Name":"validityInDays","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"status","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LicenseProtectionStatus","TargetKind":"Default","Api":"Security.LicenseProtection","Parents":[]}},"Attrs":["Out"]}
-		]
-	}
-	,{
-		"Name":"ValidateLicenseKeyProtection"
-		,"SetLastError":false
-		,"DllImport":"licenseprotection"
-		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"licenseKey","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
-			,{"Name":"notValidBefore","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
-			,{"Name":"notValidAfter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
-			,{"Name":"status","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LicenseProtectionStatus","TargetKind":"Default","Api":"Security.LicenseProtection","Parents":[]}},"Attrs":["Out"]}
-		]
-	}
-]
-
-,"UnicodeAliases":[
-]
-
 }

@@ -1,91 +1,78 @@
 {
+"Constants":[],
 
-"Constants":[
-]
-
-,"Types":[
-	{
-		"Name":"IDisplayDeviceInterop"
+"Types":[{
+	"Name":"IDisplayDeviceInterop"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"64338358-366a-471b-bd56-dd8ef48e439b"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"CreateSharedHandle"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"64338358-366a-471b-bd56-dd8ef48e439b"
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"CreateSharedHandle"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pObject","Type":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
-					,{"Name":"pSecurityAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In","Const"]}
-					,{"Name":"Access","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-					,{"Name":"Name","Type":{"Kind":"ApiRef","Name":"HSTRING","TargetKind":"Default","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
-					,{"Name":"pHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","RetVal"]}
-				]
-			}
-			,{
-				"Name":"OpenSharedHandle"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"NTHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-					,{"Name":"riid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":["In"]}
-					,{"Name":"ppvObj","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","RetVal"]}
-				]
-			}
+		,"Params":[
+			{"Name":"pObject","Type":{"Kind":"ApiRef","Name":"IInspectable","TargetKind":"Com","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pSecurityAttributes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SECURITY_ATTRIBUTES","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":["In","Const"]}
+			,{"Name":"Access","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"Name","Type":{"Kind":"ApiRef","Name":"HSTRING","TargetKind":"Default","Api":"System.WinRT","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","RetVal"]}
 		]
-	}
-	,{
-		"Name":"IDisplayPathInterop"
+	},{
+		"Name":"OpenSharedHandle"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"a6ba4205-e59e-4e71-b25b-4e436d21ee3d"
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"CreateSourcePresentationHandle"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pValue","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","RetVal"]}
-				]
-			}
-			,{
-				"Name":"GetSourceId"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"pSourceId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","RetVal"]}
-				]
-			}
+		,"Params":[
+			{"Name":"NTHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"riid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":["In"]}
+			,{"Name":"ppvObj","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","RetVal"]}
 		]
-	}
-]
+	}]
+},{
+	"Name":"IDisplayPathInterop"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"a6ba4205-e59e-4e71-b25b-4e436d21ee3d"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"CreateSourcePresentationHandle"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pValue","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","RetVal"]}
+		]
+	},{
+		"Name":"GetSourceId"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"pSourceId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","RetVal"]}
+		]
+	}]
+}],
 
-,"Functions":[
-]
+"Functions":[],
 
-,"UnicodeAliases":[
+"UnicodeAliases":[
 ]
-
 }

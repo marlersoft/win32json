@@ -1,54 +1,45 @@
 {
+"Constants":[],
 
-"Constants":[
-]
-
-,"Types":[
-	{
-		"Name":"IGraphicsCaptureItemInterop"
+"Types":[{
+	"Name":"IGraphicsCaptureItemInterop"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Com"
+	,"Guid":"3628e81b-3cac-4c60-b7f4-23ce0e0c3356"
+	,"Attrs":[]
+	,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
+	,"Methods":[{
+		"Name":"CreateForWindow"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
-		,"Kind":"Com"
-		,"Guid":"3628e81b-3cac-4c60-b7f4-23ce0e0c3356"
 		,"Attrs":[]
-		,"Interface":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]}
-		,"Methods":[
-			{
-				"Name":"CreateForWindow"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"window","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
-					,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
-				]
-			}
-			,{
-				"Name":"CreateForMonitor"
-				,"SetLastError":false
-				,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
-				,"ReturnAttrs":[]
-				,"Architectures":[]
-				,"Platform":null
-				,"Attrs":[]
-				,"Params":[
-					{"Name":"monitor","Type":{"Kind":"ApiRef","Name":"HMONITOR","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
-					,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
-					,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
-				]
-			}
+		,"Params":[
+			{"Name":"window","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
 		]
-	}
-]
+	},{
+		"Name":"CreateForMonitor"
+		,"SetLastError":false
+		,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
+		,"ReturnAttrs":[]
+		,"Architectures":[]
+		,"Platform":null
+		,"Attrs":[]
+		,"Params":[
+			{"Name":"monitor","Type":{"Kind":"ApiRef","Name":"HMONITOR","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
+			,{"Name":"riid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
+			,{"Name":"result","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
+		]
+	}]
+}],
 
-,"Functions":[
-]
+"Functions":[],
 
-,"UnicodeAliases":[
+"UnicodeAliases":[
 ]
-
 }

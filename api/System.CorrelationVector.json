@@ -1,118 +1,102 @@
 {
+"Constants":[{
+	"Name":"RTL_CORRELATION_VECTOR_STRING_LENGTH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":129
+	,"Attrs":[]
+},{
+	"Name":"RTL_CORRELATION_VECTOR_V1_PREFIX_LENGTH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"RTL_CORRELATION_VECTOR_V1_LENGTH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":64
+	,"Attrs":[]
+},{
+	"Name":"RTL_CORRELATION_VECTOR_V2_PREFIX_LENGTH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":22
+	,"Attrs":[]
+},{
+	"Name":"RTL_CORRELATION_VECTOR_V2_LENGTH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":128
+	,"Attrs":[]
+}],
 
-"Constants":[
-	{
-		"Name":"RTL_CORRELATION_VECTOR_STRING_LENGTH"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":129
-		,"Attrs":[]
-	}
-	,{
-		"Name":"RTL_CORRELATION_VECTOR_V1_PREFIX_LENGTH"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":16
-		,"Attrs":[]
-	}
-	,{
-		"Name":"RTL_CORRELATION_VECTOR_V1_LENGTH"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":64
-		,"Attrs":[]
-	}
-	,{
-		"Name":"RTL_CORRELATION_VECTOR_V2_PREFIX_LENGTH"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":22
-		,"Attrs":[]
-	}
-	,{
-		"Name":"RTL_CORRELATION_VECTOR_V2_LENGTH"
-		,"Type":{"Kind":"Native","Name":"UInt32"}
-		,"ValueType":"UInt32"
-		,"Value":128
-		,"Attrs":[]
-	}
+"Types":[{
+	"Name":"CORRELATION_VECTOR"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"Vector","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+}],
+
+"Functions":[{
+	"Name":"RtlInitializeCorrelationVector"
+	,"SetLastError":false
+	,"DllImport":"ntdll"
+	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"Version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"Guid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
+	]
+},{
+	"Name":"RtlIncrementCorrelationVector"
+	,"SetLastError":false
+	,"DllImport":"ntdll"
+	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In","Out"]}
+	]
+},{
+	"Name":"RtlExtendCorrelationVector"
+	,"SetLastError":false
+	,"DllImport":"ntdll"
+	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In","Out"]}
+	]
+},{
+	"Name":"RtlValidateCorrelationVector"
+	,"SetLastError":false
+	,"DllImport":"ntdll"
+	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnAttrs":[]
+	,"Architectures":[]
+	,"Platform":null
+	,"Attrs":[]
+	,"Params":[
+		{"Name":"Vector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In"]}
+	]
+}],
+
+"UnicodeAliases":[
 ]
-
-,"Types":[
-	{
-		"Name":"CORRELATION_VECTOR"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Version","Type":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			,{"Name":"Vector","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
-		]
-		,"NestedTypes":[
-		]
-	}
-]
-
-,"Functions":[
-	{
-		"Name":"RtlInitializeCorrelationVector"
-		,"SetLastError":false
-		,"DllImport":"ntdll"
-		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["Out"]}
-			,{"Name":"Version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-			,{"Name":"Guid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
-		]
-	}
-	,{
-		"Name":"RtlIncrementCorrelationVector"
-		,"SetLastError":false
-		,"DllImport":"ntdll"
-		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In","Out"]}
-		]
-	}
-	,{
-		"Name":"RtlExtendCorrelationVector"
-		,"SetLastError":false
-		,"DllImport":"ntdll"
-		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"CorrelationVector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In","Out"]}
-		]
-	}
-	,{
-		"Name":"RtlValidateCorrelationVector"
-		,"SetLastError":false
-		,"DllImport":"ntdll"
-		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
-		,"ReturnAttrs":[]
-		,"Architectures":[]
-		,"Platform":null
-		,"Attrs":[]
-		,"Params":[
-			{"Name":"Vector","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CORRELATION_VECTOR","TargetKind":"Default","Api":"System.CorrelationVector","Parents":[]}},"Attrs":["In"]}
-		]
-	}
-]
-
-,"UnicodeAliases":[
-]
-
 }
