@@ -22274,6 +22274,24 @@
 		]
 		,"NestedTypes":[]
 	},{
+		"Name":"_Section_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":2
+		,"Fields":[
+			{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"NumberOfRelocations","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"NumberOfLinenumbers","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"CheckSum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Number","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
+			,{"Name":"Selection","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"bReserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"HighNumber","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_File_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -22357,24 +22375,6 @@
 				,"NestedTypes":[]
 			}]
 		}]
-	},{
-		"Name":"_Section_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":2
-		,"Fields":[
-			{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"NumberOfRelocations","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			,{"Name":"NumberOfLinenumbers","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			,{"Name":"CheckSum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Number","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-			,{"Name":"Selection","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"bReserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"HighNumber","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"IMAGE_AUX_SYMBOL_EX"
@@ -22391,29 +22391,6 @@
 		,{"Name":"CRC","Type":{"Kind":"ApiRef","Name":"_CRC_e__Struct","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"TokenDef","Type":{"Kind":"ApiRef","Name":"IMAGE_AUX_SYMBOL_TOKEN_DEF","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":[]}
-			,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_File_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Name","Type":{"Kind":"Array","Shape":{"Size":20},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_CRC_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -22426,16 +22403,15 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Sym_e__Struct"
+		"Name":"_Anonymous_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Struct"
 		,"Size":0
-		,"PackingSize":2
+		,"PackingSize":0
 		,"Fields":[
-			{"Name":"WeakDefaultSymIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"WeakSearchType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":12},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			{"Name":"TokenDef","Type":{"Kind":"ApiRef","Name":"IMAGE_AUX_SYMBOL_TOKEN_DEF","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":[]}
+			,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -22455,6 +22431,30 @@
 			,{"Name":"bReserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"HighNumber","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 			,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_File_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Name","Type":{"Kind":"Array","Shape":{"Size":20},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Sym_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":2
+		,"Fields":[
+			{"Name":"WeakDefaultSymIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"WeakSearchType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":12},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

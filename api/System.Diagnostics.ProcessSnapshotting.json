@@ -366,6 +366,19 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_Section_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"BaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
+				,{"Name":"AllocationAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"MaximumSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Event_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -375,6 +388,20 @@
 			,"Fields":[
 				{"Name":"ManualReset","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"Signaled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Mutant_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"CurrentCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Abandoned","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"OwnerProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"OwnerThreadId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -396,19 +423,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Section_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"BaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-				,{"Name":"AllocationAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"MaximumSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Process_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -423,20 +437,6 @@
 				,{"Name":"ProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"ParentProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Mutant_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"CurrentCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Abandoned","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"OwnerProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"OwnerThreadId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

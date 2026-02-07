@@ -3852,6 +3852,19 @@
 		,{"Name":"Metrics","Type":{"Kind":"ApiRef","Name":"_Metrics_e__Union","TargetKind":"Default","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Metrics_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"cSteps","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"cbCustomData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwReserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Bounds_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3888,19 +3901,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Metrics_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"cSteps","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"cbCustomData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwReserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"MIXERCONTROLW"
@@ -3921,43 +3921,6 @@
 		,{"Name":"Metrics","Type":{"Kind":"ApiRef","Name":"_Metrics_e__Union","TargetKind":"Default","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Bounds_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Struct","TargetKind":"Default","Api":"Media.Audio","Parents":["_Bounds_e__Union"]},"Attrs":[]}
-			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Media.Audio","Parents":["_Bounds_e__Union"]},"Attrs":[]}
-			,{"Name":"dwReserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
-		]
-		,"NestedTypes":[{
-			"Name":"_Anonymous1_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"lMinimum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"lMaximum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Anonymous2_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"dwMinimum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwMaximum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		}]
-	},{
 		"Name":"_Metrics_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3970,6 +3933,43 @@
 			,{"Name":"dwReserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
+	},{
+		"Name":"_Bounds_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Struct","TargetKind":"Default","Api":"Media.Audio","Parents":["_Bounds_e__Union"]},"Attrs":[]}
+			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Media.Audio","Parents":["_Bounds_e__Union"]},"Attrs":[]}
+			,{"Name":"dwReserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
+		]
+		,"NestedTypes":[{
+			"Name":"_Anonymous2_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"dwMinimum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwMaximum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Anonymous1_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"lMinimum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"lMaximum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		}]
 	}]
 },{
 	"Name":"MIXERLINECONTROLSA"

@@ -139,18 +139,6 @@
 		,{"Name":"CloseStatus","Type":{"Kind":"ApiRef","Name":"_CloseStatus_e__Struct","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Data_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"pbBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-			,{"Name":"ulBufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_CloseStatus_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -161,6 +149,18 @@
 			{"Name":"pbReason","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"ulReasonLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"usStatus","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Data_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pbBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			,{"Name":"ulBufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

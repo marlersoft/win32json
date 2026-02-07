@@ -5870,6 +5870,20 @@
 		,{"Name":"ddckSrcColorkey","Type":{"Kind":"ApiRef","Name":"DDCOLORKEY","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous5_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwFillColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwFillDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwFillPixel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"lpDDSPattern","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous4_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5879,6 +5893,18 @@
 		,"Fields":[
 			{"Name":"dwAlphaSrcConst","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"lpDDSAlphaSrc","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous3_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwAlphaDestConst","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"lpDDSAlphaDest","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -5894,20 +5920,6 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Anonymous5_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwFillColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwFillDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwFillPixel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"lpDDSPattern","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5917,18 +5929,6 @@
 		,"Fields":[
 			{"Name":"dwZDestConst","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"lpDDSZBufferDest","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous3_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwAlphaDestConst","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"lpDDSAlphaDest","Type":{"Kind":"ApiRef","Name":"IDirectDrawSurface","TargetKind":"Com","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -6345,6 +6345,20 @@
 		]
 		,"NestedTypes":[]
 	},{
+		"Name":"_Anonymous4_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwBBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwVBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwStencilBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwBumpLuminanceBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous3_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -6372,6 +6386,22 @@
 			,"NestedTypes":[]
 		}]
 	},{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwRBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwYBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwStencilBitDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwLuminanceBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwBumpDuBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwOperations","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -6386,36 +6416,6 @@
 			,{"Name":"dwLuminanceBitCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"dwBumpBitCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"dwPrivateFormatBitCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous4_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwBBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwVBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwStencilBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwBumpLuminanceBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwRBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwYBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwStencilBitDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwLuminanceBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwBumpDuBitMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwOperations","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -10295,6 +10295,18 @@
 		,{"Name":"dwTextureStage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous5_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"ddpfPixelFormat","Type":{"Kind":"ApiRef","Name":"DDPIXELFORMAT","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
+			,{"Name":"dwFVF","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous4_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -10304,18 +10316,6 @@
 		,"Fields":[
 			{"Name":"ddckCKDestOverlay","Type":{"Kind":"ApiRef","Name":"DDCOLORKEY","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 			,{"Name":"dwEmptyFaceColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwBackBufferCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -10332,6 +10332,18 @@
 		]
 		,"NestedTypes":[]
 	},{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwBackBufferCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -10341,18 +10353,6 @@
 		,"Fields":[
 			{"Name":"lPitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"dwLinearSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous5_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"ddpfPixelFormat","Type":{"Kind":"ApiRef","Name":"DDPIXELFORMAT","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
-			,{"Name":"dwFVF","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -10947,20 +10947,6 @@
 			,{"Name":"Rectangular","Type":{"Kind":"ApiRef","Name":"_Rectangular_e__Struct","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_Linear_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"dwStartAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwPitchAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwReserved2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Rectangular_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10970,6 +10956,20 @@
 			,"Fields":[
 				{"Name":"dwXAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwYAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwReserved2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Linear_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"dwStartAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwPitchAlignment","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -11318,18 +11318,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"fpEnd","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
-			,{"Name":"dwWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -11339,6 +11327,18 @@
 		,"Fields":[
 			{"Name":"lpHeap","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VMEMHEAP","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
 			,{"Name":"dwHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"fpEnd","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
+			,{"Name":"dwWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -12651,6 +12651,18 @@
 		,{"Name":"ddpfSurface","Type":{"Kind":"ApiRef","Name":"DDPIXELFORMAT","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous4_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"lPitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+			,{"Name":"dwLinearSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous3_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -12660,19 +12672,6 @@
 		,"Fields":[
 			{"Name":"lpDD","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DDRAWI_DIRECTDRAW_GBL","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
 			,{"Name":"lpDDHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"lpRectList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ACCESSRECTLIST","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
-			,{"Name":"dwBlockSizeY","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"lSlicePitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -12688,15 +12687,16 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Anonymous4_e__Union"
+		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
 		,"Fields":[
-			{"Name":"lPitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			,{"Name":"dwLinearSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			{"Name":"lpRectList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ACCESSRECTLIST","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
+			,{"Name":"dwBlockSizeY","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"lSlicePitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -14328,18 +14328,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"fpEnd","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
-			,{"Name":"dwWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -14349,6 +14337,18 @@
 		,"Fields":[
 			{"Name":"lpHeap","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VMEMHEAP","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
 			,{"Name":"dwHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"fpEnd","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
+			,{"Name":"dwWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -15418,18 +15418,6 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwBlockSizeY","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"lSlicePitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -15440,6 +15428,18 @@
 			{"Name":"lpVidMemHeap","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VIDEOMEMORY","TargetKind":"Default","Api":"Graphics.DirectDraw","Parents":[]}},"Attrs":[]}
 			,{"Name":"dwBlockSizeX","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"dwUserMemSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwBlockSizeY","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"lSlicePitch","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

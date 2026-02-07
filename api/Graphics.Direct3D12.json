@@ -6492,7 +6492,29 @@
 			,{"Name":"UnorderedAccessView","Type":{"Kind":"ApiRef","Name":"_UnorderedAccessView_e__Struct","TargetKind":"Default","Api":"Graphics.Direct3D12","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_UnorderedAccessView_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"RootParameterIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_ShaderResourceView_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"RootParameterIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ConstantBufferView_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -6516,17 +6538,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_UnorderedAccessView_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"RootParameterIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_VertexBuffer_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -6535,17 +6546,6 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"Slot","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ConstantBufferView_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"RootParameterIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

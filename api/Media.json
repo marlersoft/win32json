@@ -656,6 +656,17 @@
 			,{"Name":"midi","Type":{"Kind":"ApiRef","Name":"_midi_e__Struct","TargetKind":"Default","Api":"Media","Parents":["_u_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_midi_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"songptrpos","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_smpte_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -670,17 +681,6 @@
 				,{"Name":"fps","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"dummy","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"pad","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_midi_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"songptrpos","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

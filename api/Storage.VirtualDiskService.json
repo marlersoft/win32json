@@ -3420,6 +3420,17 @@
 			,{"Name":"cvd","Type":{"Kind":"ApiRef","Name":"_cvd","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_cvd"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"pVDiskUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_cpg"
 			,"Architectures":[]
 			,"Platform":null
@@ -3428,6 +3439,17 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"pPortalGroupUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"pTargetUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -3442,7 +3464,29 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_sv"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"ullReclaimedBytes","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_bvp"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"pVolumeUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_cv"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -3462,50 +3506,6 @@
 			,"Fields":[
 				{"Name":"ullOffset","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"volumeId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_cvd"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"pVDiskUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_sv"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"ullReclaimedBytes","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"pTargetUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_cv"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"pVolumeUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -3912,6 +3912,18 @@
 		,{"Name":"Anonymous3","Type":{"Kind":"ApiRef","Name":"_Anonymous3_e__Union","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous3_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pHbaPortProp","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VDS_HBAPORT_PROP","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":[]}},"Attrs":[]}
+			,{"Name":"pInitiatorPortalIpAddr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VDS_IPADDRESS","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":[]}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3933,18 +3945,6 @@
 		,"Fields":[
 			{"Name":"controllerPortId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"targetPortalId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous3_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"pHbaPortProp","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VDS_HBAPORT_PROP","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":[]}},"Attrs":[]}
-			,{"Name":"pInitiatorPortalIpAddr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VDS_IPADDRESS","TargetKind":"Default","Api":"Storage.VirtualDiskService","Parents":[]}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

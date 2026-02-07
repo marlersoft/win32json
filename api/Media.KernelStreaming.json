@@ -4300,18 +4300,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Media.KernelStreaming","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"SignedMinimum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			,{"Name":"SignedMaximum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -4321,6 +4309,18 @@
 		,"Fields":[
 			{"Name":"UnsignedMinimum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"UnsignedMaximum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"SignedMinimum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+			,{"Name":"SignedMaximum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -4336,18 +4336,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Media.KernelStreaming","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"SignedMinimum","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
-			,{"Name":"SignedMaximum","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -4357,6 +4345,18 @@
 		,"Fields":[
 			{"Name":"UnsignedMinimum","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"UnsignedMaximum","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"SignedMinimum","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			,{"Name":"SignedMaximum","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -4409,6 +4409,18 @@
 			,{"Name":"Alignment","Type":{"Kind":"ApiRef","Name":"_Alignment_e__Struct","TargetKind":"Default","Api":"Media.KernelStreaming","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Alignment_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Unused","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
+				,{"Name":"Alignment","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_SemaphoreHandle_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -4431,18 +4443,6 @@
 			,"Fields":[
 				{"Name":"Event","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"UIntPtr"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Alignment_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Unused","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-				,{"Name":"Alignment","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -6746,6 +6746,18 @@
 		,{"Name":"Anonymous3","Type":{"Kind":"ApiRef","Name":"_Anonymous3_e__Union","TargetKind":"Default","Api":"Media.KernelStreaming","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous3_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"z","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
+			,{"Name":"dvZ","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -6767,18 +6779,6 @@
 		,"Fields":[
 			{"Name":"x","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 			,{"Name":"dvX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous3_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"z","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
-			,{"Name":"dvZ","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -12777,18 +12777,6 @@
 		,{"Name":"Data3","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Resolution_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"X","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Y","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_MaxFrameRate_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -12798,6 +12786,18 @@
 		,"Fields":[
 			{"Name":"Numerator","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Denominator","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Resolution_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"X","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Y","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

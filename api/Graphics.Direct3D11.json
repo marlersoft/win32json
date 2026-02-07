@@ -3942,18 +3942,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Graphics.Direct3D11","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"FirstElement","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"ElementOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3963,6 +3951,18 @@
 		,"Fields":[
 			{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"ElementWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"FirstElement","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"ElementOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

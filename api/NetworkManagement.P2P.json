@@ -2145,6 +2145,18 @@
 				,"NestedTypes":[]
 			}]
 		},{
+			"Name":"_registrationStateChange_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"state","Type":{"Kind":"ApiRef","Name":"DRT_REGISTRATION_STATE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
+				,{"Name":"localKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_leafsetKeyChange_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -2155,18 +2167,6 @@
 				{"Name":"change","Type":{"Kind":"ApiRef","Name":"DRT_LEAFSET_KEY_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 				,{"Name":"localKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 				,{"Name":"remoteKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_registrationStateChange_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"state","Type":{"Kind":"ApiRef","Name":"DRT_REGISTRATION_STATE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
-				,{"Name":"localKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

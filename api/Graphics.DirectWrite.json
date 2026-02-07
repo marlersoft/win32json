@@ -4152,46 +4152,6 @@
 		,{"Name":"symbol","Type":{"Kind":"ApiRef","Name":"_symbol_e__Struct","TargetKind":"Default","Api":"Graphics.DirectWrite","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_decorative_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"familyKind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"decorativeClass","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"weight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"aspect","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"contrast","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"serifVariant","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"fill","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"lining","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"decorativeTopology","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"characterRange","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_text_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"familyKind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"serifStyle","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"weight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"proportion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"contrast","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"strokeVariation","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"armStyle","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"letterform","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"midline","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"xHeight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_symbol_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -4212,6 +4172,26 @@
 		]
 		,"NestedTypes":[]
 	},{
+		"Name":"_decorative_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"familyKind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"decorativeClass","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"weight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"aspect","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"contrast","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"serifVariant","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"fill","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"lining","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"decorativeTopology","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"characterRange","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_script_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -4229,6 +4209,26 @@
 			,{"Name":"scriptForm","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"finials","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"xAscent","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_text_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"familyKind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"serifStyle","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"weight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"proportion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"contrast","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"strokeVariation","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"armStyle","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"letterform","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"midline","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"xHeight","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

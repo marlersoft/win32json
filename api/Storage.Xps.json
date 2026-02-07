@@ -1064,6 +1064,18 @@
 			,{"Name":"context","Type":{"Kind":"ApiRef","Name":"_context_e__Struct","TargetKind":"Default","Api":"Storage.Xps","Parents":["XPS_COLOR_VALUE"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_context_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"channelCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+				,{"Name":"channels","Type":{"Kind":"Array","Shape":{"Size":9},"Child":{"Kind":"Native","Name":"Single"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_scRGB_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -1089,18 +1101,6 @@
 				,{"Name":"red","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"green","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"blue","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_context_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"channelCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-				,{"Name":"channels","Type":{"Kind":"Array","Shape":{"Size":9},"Child":{"Kind":"Native","Name":"Single"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

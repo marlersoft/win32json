@@ -548,6 +548,19 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_folder_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"pFolderReserve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
+				,{"Name":"cbFolderReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"iFolder","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_cabinet_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -559,19 +572,6 @@
 				,{"Name":"cbHeaderReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"setID","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"iCabinet","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_folder_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"pFolderReserve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-				,{"Name":"cbFolderReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"iFolder","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

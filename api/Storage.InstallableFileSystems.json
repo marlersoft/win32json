@@ -664,6 +664,18 @@
 			,{"Name":"LegacyFilter","Type":{"Kind":"ApiRef","Name":"_LegacyFilter_e__Struct","TargetKind":"Default","Api":"Storage.InstallableFileSystems","Parents":["_Type_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_LegacyFilter_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_MiniFilter_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -677,18 +689,6 @@
 				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"FilterAltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"FilterAltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_LegacyFilter_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -717,6 +717,21 @@
 			,{"Name":"LegacyFilter","Type":{"Kind":"ApiRef","Name":"_LegacyFilter_e__Struct","TargetKind":"Default","Api":"Storage.InstallableFileSystems","Parents":["_Type_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_LegacyFilter_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterAltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterAltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_MiniFilter_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -727,21 +742,6 @@
 				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"FrameID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"NumberOfInstances","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterAltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterAltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_LegacyFilter_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"FilterAltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -875,6 +875,24 @@
 			,{"Name":"LegacyFilter","Type":{"Kind":"ApiRef","Name":"_LegacyFilter_e__Struct","TargetKind":"Default","Api":"Storage.InstallableFileSystems","Parents":["_Type_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_LegacyFilter_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"AltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"AltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"VolumeNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"VolumeNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"SupportedFeatures","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_MiniFilter_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -887,24 +905,6 @@
 				,{"Name":"VolumeFileSystemType","Type":{"Kind":"ApiRef","Name":"FLT_FILESYSTEM_TYPE","TargetKind":"Default","Api":"Storage.InstallableFileSystems","Parents":[]},"Attrs":[]}
 				,{"Name":"InstanceNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"InstanceNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"AltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"AltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"VolumeNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"VolumeNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"FilterNameBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"SupportedFeatures","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_LegacyFilter_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"AltitudeLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"AltitudeBufferOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"VolumeNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}

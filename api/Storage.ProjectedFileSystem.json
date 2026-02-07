@@ -231,18 +231,6 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_EaInformation_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"EaBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"OffsetToFirstEa","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_SecurityInformation_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -252,6 +240,18 @@
 		,"Fields":[
 			{"Name":"SecurityBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"OffsetToSecurityDescriptor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_EaInformation_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"EaBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"OffsetToFirstEa","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -428,17 +428,6 @@
 		,{"Name":"FileDeletedOnHandleClose","Type":{"Kind":"ApiRef","Name":"_FileDeletedOnHandleClose_e__Struct","TargetKind":"Default","Api":"Storage.ProjectedFileSystem","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_FileRenamed_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"NotificationMask","Type":{"Kind":"ApiRef","Name":"PRJ_NOTIFY_TYPES","TargetKind":"Default","Api":"Storage.ProjectedFileSystem","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_FileDeletedOnHandleClose_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -447,6 +436,17 @@
 		,"PackingSize":0
 		,"Fields":[
 			{"Name":"IsFileModified","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_FileRenamed_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"NotificationMask","Type":{"Kind":"ApiRef","Name":"PRJ_NOTIFY_TYPES","TargetKind":"Default","Api":"Storage.ProjectedFileSystem","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{

@@ -4804,6 +4804,17 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_NewContainerSuffix_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"NextContainerSuffix","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_NewContainerPrefix_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -4816,6 +4827,17 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_AutoGrow_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Enabled","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_AutoShrink_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -4824,40 +4846,6 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"Percentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_GrowthRate_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"AbsoluteGrowthInContainers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"RelativeGrowthPercentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_MinimumSize_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_NewContainerSuffix_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"NextContainerSuffix","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -4873,25 +4861,15 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_MaximumSize_e__Struct"
+			"Name":"_GrowthRate_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_AutoGrow_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Enabled","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				{"Name":"AbsoluteGrowthInContainers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"RelativeGrowthPercentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -4903,6 +4881,28 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"SizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_MinimumSize_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_MaximumSize_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -7320,6 +7320,17 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_PollContinue_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_StreamFinished_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7331,26 +7342,6 @@
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"hSourceFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"hDestinationFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliStreamSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliStreamBytesTransferred","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliTotalFileSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliTotalBytesTransferred","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ChunkFinished_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"hSourceFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"hDestinationFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliChunkNumber","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"uliChunkSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uliStreamSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uliStreamBytesTransferred","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uliTotalFileSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7374,6 +7365,26 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_ChunkFinished_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"hSourceFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"hDestinationFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliChunkNumber","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliChunkSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliStreamSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliStreamBytesTransferred","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliTotalFileSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"uliTotalBytesTransferred","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_ChunkStarted_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7389,17 +7400,6 @@
 				,{"Name":"uliChunkSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uliStreamSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uliTotalFileSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_PollContinue_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

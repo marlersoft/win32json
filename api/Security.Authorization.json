@@ -2304,6 +2304,18 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Security.Authorization","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Data1","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
+			,{"Name":"LogonId_HighPart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -2319,18 +2331,6 @@
 			,{"Name":"LogonId_LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"pObjectTypes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AUDIT_OBJECT_TYPES","TargetKind":"Default","Api":"Security.Authorization","Parents":[]}},"Attrs":[]}
 			,{"Name":"pIpAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AUDIT_IP_ADDRESS","TargetKind":"Default","Api":"Security.Authorization","Parents":[]}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Data1","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
-			,{"Name":"LogonId_HighPart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

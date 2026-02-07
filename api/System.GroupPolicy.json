@@ -5813,18 +5813,6 @@
 		,{"Name":"COMClass","Type":{"Kind":"ApiRef","Name":"_COMClass_e__Struct","TargetKind":"Default","Api":"System.GroupPolicy","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_AppName_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			,{"Name":"GPOId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_COMClass_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -5834,6 +5822,18 @@
 		,"Fields":[
 			{"Name":"Clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"ClsCtx","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_AppName_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"GPOId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

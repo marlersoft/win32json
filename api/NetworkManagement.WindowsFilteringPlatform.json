@@ -4271,18 +4271,6 @@
 			,{"Name":"Anonymous3","Type":{"Kind":"ApiRef","Name":"_Anonymous3_e__Struct","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_Anonymous2_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"outboundEnterpriseStoreArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"outboundEnterpriseStoreCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Anonymous3_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -4292,6 +4280,18 @@
 			,"Fields":[
 				{"Name":"outboundRootStoreArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"outboundTrustedRootStoreCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Anonymous2_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"outboundEnterpriseStoreArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"outboundEnterpriseStoreCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -4332,18 +4332,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Anonymous1_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"inboundRootArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"inboundRootCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Anonymous2_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -4353,6 +4341,18 @@
 			,"Fields":[
 				{"Name":"inboundEnterpriseStoreArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"inboundEnterpriseStoreCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Anonymous1_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"inboundRootArraySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"inboundRootCriteria","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IKEEXT_CERTIFICATE_CRITERIA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -5489,18 +5489,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"startV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"startV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5510,6 +5498,18 @@
 		,"Fields":[
 			{"Name":"endV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"endV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"startV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"startV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -5589,18 +5589,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5610,6 +5598,18 @@
 		,"Fields":[
 			{"Name":"remoteV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -6218,18 +6218,6 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -6239,6 +6227,18 @@
 		,"Fields":[
 			{"Name":"remoteV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -6262,18 +6262,6 @@
 		,{"Name":"realIfProfileId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"remoteV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"remoteV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous3_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -6283,6 +6271,18 @@
 		,"Fields":[
 			{"Name":"ipsecFilterId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"tunnelPolicyId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"remoteV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"remoteV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -7377,18 +7377,6 @@
 		,{"Name":"userId","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7398,6 +7386,18 @@
 		,"Fields":[
 			{"Name":"remoteAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7476,18 +7476,6 @@
 			}]
 		}]
 	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7497,6 +7485,18 @@
 		,"Fields":[
 			{"Name":"remoteAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7523,18 +7523,6 @@
 		,{"Name":"packageSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7544,6 +7532,18 @@
 		,"Fields":[
 			{"Name":"remoteAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7573,18 +7573,6 @@
 		,{"Name":"effectiveName","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_BLOB","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7594,6 +7582,18 @@
 		,"Fields":[
 			{"Name":"remoteAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localAddrV4","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localAddrV6","Type":{"Kind":"ApiRef","Name":"FWP_BYTE_ARRAY16","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7711,17 +7711,6 @@
 		,{"Name":"qmFilterId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7730,6 +7719,17 @@
 		,"PackingSize":0
 		,"Fields":[
 			{"Name":"remoteSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7754,17 +7754,6 @@
 		,{"Name":"mmProviderContextKey","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7773,6 +7762,17 @@
 		,"PackingSize":0
 		,"Fields":[
 			{"Name":"remoteSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localSubNet","Type":{"Kind":"ApiRef","Name":"FWP_CONDITION_VALUE0","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -7946,18 +7946,6 @@
 		,{"Name":"direction","Type":{"Kind":"ApiRef","Name":"FWP_DIRECTION","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"publicHostV4Addr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"publicHostV6Addr","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -7967,6 +7955,18 @@
 		,"Fields":[
 			{"Name":"internalHostV4Addr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"internalHostV6Addr","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"publicHostV4Addr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"publicHostV6Addr","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -8302,18 +8302,6 @@
 		,{"Name":"startSysTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -8323,6 +8311,18 @@
 		,"Fields":[
 			{"Name":"remoteV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"remoteV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"localV4Address","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"localV6Address","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -8404,18 +8404,6 @@
 			,{"Name":"reorderInfo","Type":{"Kind":"ApiRef","Name":"_reorderInfo_e__Struct","TargetKind":"Default","Api":"NetworkManagement.WindowsFilteringPlatform","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_positionInfo_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"numvSwitchFilterExtensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"vSwitchFilterExtensions","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_reorderInfo_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -8425,6 +8413,18 @@
 			,"Fields":[
 				{"Name":"inRequiredPosition","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"numvSwitchFilterExtensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"vSwitchFilterExtensions","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_positionInfo_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"numvSwitchFilterExtensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"vSwitchFilterExtensions","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]

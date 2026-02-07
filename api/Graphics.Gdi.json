@@ -8999,6 +8999,18 @@
 		,{"Name":"dmPanningHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dmDisplayFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dmNup","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -9041,18 +9053,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dmDisplayFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dmNup","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"DEVMODEW"
@@ -9091,6 +9091,18 @@
 		,{"Name":"dmPanningHeight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dmDisplayFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dmNup","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -9102,6 +9114,19 @@
 			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Graphics.Gdi","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Anonymous2_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"dmPosition","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"dmDisplayOrientation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dmDisplayFixedOutput","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Anonymous1_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -9119,32 +9144,7 @@
 				,{"Name":"dmPrintQuality","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
-		},{
-			"Name":"_Anonymous2_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"dmPosition","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"dmDisplayOrientation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dmDisplayFixedOutput","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dmDisplayFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dmNup","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"DISPLAY_DEVICEA"

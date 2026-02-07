@@ -18699,18 +18699,6 @@
 			,{"Name":"RawBytes","Type":{"Kind":"Array","Shape":{"Size":24},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_I64Parts32_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"HighPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_F128Parts64_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -18720,6 +18708,18 @@
 			,"Fields":[
 				{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_I64Parts32_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"HighPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -46941,17 +46941,6 @@
 			,{"Name":"BreakpointInformation","Type":{"Kind":"ApiRef","Name":"_BreakpointInformation_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":["_u_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_ExceptionInformation_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"IsUncaught","Type":{"Kind":"Native","Name":"Boolean"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_BreakpointInformation_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -46960,6 +46949,17 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"BreakpointId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ExceptionInformation_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"IsUncaught","Type":{"Kind":"Native","Name":"Boolean"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -49039,18 +49039,6 @@
 		,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"fieldCallBack","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-			,{"Name":"pBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_BitField"
 		,"Architectures":[]
 		,"Platform":null
@@ -49060,6 +49048,18 @@
 		,"Fields":[
 			{"Name":"Position","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"Size","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"fieldCallBack","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
+			,{"Name":"pBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -49521,6 +49521,17 @@
 			,{"Name":"Bits","Type":{"Kind":"ApiRef","Name":"_Bits_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":["_HighWord_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Bits_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Bytes_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -49532,17 +49543,6 @@
 				,{"Name":"Flags1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"Flags2","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"BaseHi","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Bits_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -49625,6 +49625,17 @@
 			,{"Name":"Bits","Type":{"Kind":"ApiRef","Name":"_Bits_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":["_HighWord_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Bits_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Bytes_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -49636,17 +49647,6 @@
 				,{"Name":"Flags1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"Flags2","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"BaseHi","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Bits_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -50420,19 +50420,6 @@
 			,{"Name":"ThreadObject","Type":{"Kind":"ApiRef","Name":"_ThreadObject_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_LockObject_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"ObjectName","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
-				,{"Name":"Timeout","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"Alertable","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_ThreadObject_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -50444,6 +50431,19 @@
 				,{"Name":"ThreadId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"WaitTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"ContextSwitches","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_LockObject_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"ObjectName","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
+				,{"Name":"Timeout","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"Alertable","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -50654,6 +50654,17 @@
 		,{"Name":"OtherCpuInfo","Type":{"Kind":"ApiRef","Name":"_OtherCpuInfo_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_OtherCpuInfo_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":4
+		,"Fields":[
+			{"Name":"ProcessorFeatures","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_X86CpuInfo_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -50665,17 +50676,6 @@
 			,{"Name":"VersionInformation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"FeatureInformation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"AMDExtendedCpuFeatures","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_OtherCpuInfo_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":4
-		,"Fields":[
-			{"Name":"ProcessorFeatures","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -51848,6 +51848,18 @@
 			,{"Name":"Status","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Anonymous5_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"VmReadStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"VmReadBytesCompleted","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Anonymous4_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -51857,6 +51869,18 @@
 			,"Fields":[
 				{"Name":"VmQueryStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"VmQueryResult","Type":{"Kind":"ApiRef","Name":"MINIDUMP_MEMORY_INFO","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Anonymous3_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"VmRegion","Type":{"Kind":"ApiRef","Name":"MINIDUMP_MEMORY_INFO","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]},"Attrs":[]}
+				,{"Name":"Continue","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -51872,18 +51896,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Anonymous5_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"VmReadStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"VmReadBytesCompleted","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Anonymous1_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -51893,18 +51905,6 @@
 			,"Fields":[
 				{"Name":"MemoryBase","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"MemorySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Anonymous3_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"VmRegion","Type":{"Kind":"ApiRef","Name":"MINIDUMP_MEMORY_INFO","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]},"Attrs":[]}
-				,{"Name":"Continue","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -62257,7 +62257,39 @@
 			,{"Name":"Gsiv","Type":{"Kind":"ApiRef","Name":"_Gsiv_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":["_u_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Gsiv_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"PollInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"Vector","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SwitchToPollingThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SwitchToPollingWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ErrorThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ErrorThresholdWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_Sei_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"PollInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"Vector","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SwitchToPollingThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SwitchToPollingWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ErrorThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ErrorThresholdWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Sea_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -62289,7 +62321,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_LocalInterrupt_e__Struct"
+			"Name":"_Sci_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -62305,18 +62337,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Polled_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"PollInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Sea_e__Struct"
+			"Name":"_LocalInterrupt_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -62348,7 +62369,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Sci_e__Struct"
+			"Name":"_Polled_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -62356,27 +62377,6 @@
 			,"PackingSize":1
 			,"Fields":[
 				{"Name":"PollInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"Vector","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SwitchToPollingThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SwitchToPollingWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ErrorThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ErrorThresholdWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Gsiv_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"PollInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"Vector","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SwitchToPollingThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SwitchToPollingWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ErrorThreshold","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ErrorThresholdWindow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

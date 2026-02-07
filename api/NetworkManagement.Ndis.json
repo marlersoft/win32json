@@ -13007,7 +13007,7 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_IPv4Receive_e__Struct"
+		"Name":"_IPv6Transmit_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Struct"
@@ -13019,7 +13019,7 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_IPv6Transmit_e__Struct"
+		"Name":"_IPv4Receive_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Struct"
@@ -13056,7 +13056,7 @@
 		,{"Name":"IPv4ESP","Type":{"Kind":"ApiRef","Name":"_IPv4ESP_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_IPv4AH_e__Struct"
+		"Name":"_IPv4ESP_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Struct"
@@ -13067,7 +13067,7 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_IPv4ESP_e__Struct"
+		"Name":"_IPv4AH_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Struct"
@@ -13105,19 +13105,6 @@
 		,{"Name":"IPv6","Type":{"Kind":"ApiRef","Name":"_IPv6_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_IPv4_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_IPv6_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -13129,6 +13116,19 @@
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_IPv4_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -13203,6 +13203,21 @@
 		]
 		,"NestedTypes":[]
 	},{
+		"Name":"_IPv6Transmit_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"IpExtensionHeadersSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"TcpOptionsSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"TcpChecksum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"UdpChecksum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_IPv4Receive_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -13234,21 +13249,6 @@
 			,{"Name":"IpChecksum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
-	},{
-		"Name":"_IPv6Transmit_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"IpExtensionHeadersSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"TcpOptionsSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"TcpChecksum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"UdpChecksum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"NDIS_WMI_IPSEC_OFFLOAD_V1"
@@ -13263,6 +13263,24 @@
 		,{"Name":"IPv4ESP","Type":{"Kind":"ApiRef","Name":"_IPv4ESP_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_IPv4ESP_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Des","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"TripleDes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"NullEsp","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Transport","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Tunnel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Send","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"Receive","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_IPv4AH_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -13293,24 +13311,6 @@
 			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
-	},{
-		"Name":"_IPv4ESP_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Des","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"TripleDes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"NullEsp","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Transport","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Tunnel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Send","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"Receive","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"NDIS_WMI_TCP_LARGE_SEND_OFFLOAD_V2"
@@ -13324,19 +13324,6 @@
 		,{"Name":"IPv6","Type":{"Kind":"ApiRef","Name":"_IPv6_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_IPv4_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_IPv6_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -13349,6 +13336,19 @@
 			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"IpExtensionHeadersSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"TcpOptionsSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_IPv4_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"MinSegmentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

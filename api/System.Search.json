@@ -32749,18 +32749,6 @@
 		,{"Name":"RetCode","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"wszArg","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			,{"Name":"szArg","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -32770,6 +32758,18 @@
 		,"Fields":[
 			{"Name":"wszCorrelation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"szCorrelation","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"wszArg","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"szArg","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -32845,6 +32845,18 @@
 			,{"Name":"BLOBType","Type":{"Kind":"ApiRef","Name":"_BLOBType","TargetKind":"Default","Api":"System.Search","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_BLOBType"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"dbobj","Type":{"Kind":"ApiRef","Name":"DBOBJECT","TargetKind":"Default","Api":"System.Search","Parents":[]},"Attrs":[]}
+				,{"Name":"pUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_UnknownType"
 			,"Architectures":[]
 			,"Platform":null
@@ -32855,6 +32867,20 @@
 				{"Name":"dwActualLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"rgMetadata","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"pUnknownData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_BinaryVal"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"sActualLength","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
+				,{"Name":"sMaxLength","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
+				,{"Name":"prgbBinaryVal","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -32874,18 +32900,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_BLOBType"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"dbobj","Type":{"Kind":"ApiRef","Name":"DBOBJECT","TargetKind":"Default","Api":"System.Search","Parents":[]},"Attrs":[]}
-				,{"Name":"pUnk","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_NCharVal"
 			,"Architectures":[]
 			,"Platform":null
@@ -32899,20 +32913,6 @@
 				,{"Name":"rgbReserved","Type":{"Kind":"Array","Shape":{"Size":5},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"pwchReserved","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_BinaryVal"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"sActualLength","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-				,{"Name":"sMaxLength","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-				,{"Name":"prgbBinaryVal","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

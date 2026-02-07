@@ -5263,6 +5263,18 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_sequence_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_url_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -5276,18 +5288,6 @@
 			,"NestedTypes":[]
 		},{
 			"Name":"_string_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_sequence_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -5458,29 +5458,6 @@
 			,{"Name":"CharacteristicFormat","Type":{"Kind":"ApiRef","Name":"_CharacteristicFormat_e__Struct","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_ServerCharacteristicConfiguration_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"IsBroadcast","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_CharacteristicExtendedProperties_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"IsReliableWriteEnabled","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"IsAuxiliariesWritable","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_CharacteristicFormat_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -5496,6 +5473,17 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_ServerCharacteristicConfiguration_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"IsBroadcast","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_ClientCharacteristicConfiguration_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -5505,6 +5493,18 @@
 			,"Fields":[
 				{"Name":"IsSubscribeToNotification","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"IsSubscribeToIndication","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_CharacteristicExtendedProperties_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"IsReliableWriteEnabled","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"IsAuxiliariesWritable","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

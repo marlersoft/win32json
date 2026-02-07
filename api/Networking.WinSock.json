@@ -7864,17 +7864,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Event_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Apc_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7884,6 +7873,17 @@
 			,"Fields":[
 				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
 				,{"Name":"lpfnCompletionProc","Type":{"Kind":"ApiRef","Name":"LPWSAOVERLAPPED_COMPLETION_ROUTINE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Event_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -8796,18 +8796,6 @@
 			,{"Name":"irdaAttribUsrStr","Type":{"Kind":"ApiRef","Name":"_irdaAttribUsrStr_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_irdaAttribute_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_irdaAttribOctetSeq_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_irdaAttribUsrStr_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -8818,6 +8806,18 @@
 				{"Name":"Len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"CharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"UsrStr","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_irdaAttribOctetSeq_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -8849,18 +8849,6 @@
 			,{"Name":"irdaAttribUsrStr","Type":{"Kind":"ApiRef","Name":"_irdaAttribUsrStr_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_irdaAttribute_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_irdaAttribOctetSeq_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_irdaAttribUsrStr_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -8871,6 +8859,18 @@
 				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"CharSet","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"UsrStr","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_irdaAttribOctetSeq_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -10355,17 +10355,6 @@
 				,"NestedTypes":[]
 			}]
 		},{
-			"Name":"_locationData_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"information","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_connectivity_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10375,6 +10364,17 @@
 			,"Fields":[
 				{"Name":"type","Type":{"Kind":"ApiRef","Name":"NLA_CONNECTIVITY_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 				,{"Name":"internet","Type":{"Kind":"ApiRef","Name":"NLA_INTERNET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_locationData_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"information","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -13047,6 +13047,19 @@
 		,{"Name":"MulticastAddress","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"MaxRespTime","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"Code","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous1_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -13069,19 +13082,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"MaxRespTime","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"Code","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"IGMP_MAX_RESP_CODE_TYPE"

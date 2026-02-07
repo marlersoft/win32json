@@ -10048,58 +10048,6 @@
 			,{"Name":"None","Type":{"Kind":"ApiRef","Name":"_None_e__Struct","TargetKind":"Default","Api":"Devices.ImageAcquisition","Parents":["_ValidVal_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_Flag_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"ValidBits","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ListGuid_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_List_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Range_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Min","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Max","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Inc","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_None_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10111,16 +10059,15 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_ListFloat_e__Struct"
+			"Name":"_Flag_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
-				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+				{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"ValidBits","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -10137,6 +10084,45 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_ListGuid_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ListFloat_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
+				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_List_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"cNumList","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"pList","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_RangeFloat_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10148,6 +10134,20 @@
 				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
 				,{"Name":"Max","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
 				,{"Name":"Inc","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Range_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Min","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Nom","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Max","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+				,{"Name":"Inc","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -10179,7 +10179,7 @@
 		,{"Name":"Current","Type":{"Kind":"ApiRef","Name":"_Current_e__Union","TargetKind":"Default","Api":"Devices.ImageAcquisition","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Old_e__Union"
+		"Name":"_Current_e__Union"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Union"
@@ -10193,7 +10193,7 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Current_e__Union"
+		"Name":"_Old_e__Union"
 		,"Architectures":[]
 		,"Platform":null
 		,"Kind":"Union"

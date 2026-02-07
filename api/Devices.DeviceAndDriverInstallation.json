@@ -10813,17 +10813,6 @@
 			,{"Name":"DeviceInstance","Type":{"Kind":"ApiRef","Name":"_DeviceInstance_e__Struct","TargetKind":"Default","Api":"Devices.DeviceAndDriverInstallation","Parents":["_u_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_DeviceHandle_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"hTarget","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_DeviceInstance_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10832,6 +10821,17 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"InstanceId","Type":{"Kind":"Array","Shape":{"Size":200},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_DeviceHandle_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"hTarget","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -10904,18 +10904,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_DeviceInterface_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"ClassGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-				,{"Name":"SymbolicLink","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_DeviceHandle_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -10927,6 +10915,18 @@
 				,{"Name":"NameOffset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 				,{"Name":"DataSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Data","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_DeviceInterface_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"ClassGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+				,{"Name":"SymbolicLink","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

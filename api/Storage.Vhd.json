@@ -137,17 +137,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Version1_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"RWDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Version2_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -158,6 +147,17 @@
 				{"Name":"GetInfoOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"ReadOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"ResiliencyGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Version1_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"RWDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -270,27 +270,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Version2_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-				,{"Name":"BlockSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SectorSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"PhysicalSectorSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ParentPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
-				,{"Name":"SourcePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
-				,{"Name":"OpenFlags","Type":{"Kind":"ApiRef","Name":"OPEN_VIRTUAL_DISK_FLAG","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
-				,{"Name":"ParentVirtualStorageType","Type":{"Kind":"ApiRef","Name":"VIRTUAL_STORAGE_TYPE","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
-				,{"Name":"SourceVirtualStorageType","Type":{"Kind":"ApiRef","Name":"VIRTUAL_STORAGE_TYPE","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
-				,{"Name":"ResiliencyGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Version3_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -311,6 +290,27 @@
 				,{"Name":"ResiliencyGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"SourceLimitPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 				,{"Name":"BackingStorageType","Type":{"Kind":"ApiRef","Name":"VIRTUAL_STORAGE_TYPE","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Version2_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+				,{"Name":"BlockSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SectorSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"PhysicalSectorSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ParentPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+				,{"Name":"SourcePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+				,{"Name":"OpenFlags","Type":{"Kind":"ApiRef","Name":"OPEN_VIRTUAL_DISK_FLAG","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
+				,{"Name":"ParentVirtualStorageType","Type":{"Kind":"ApiRef","Name":"VIRTUAL_STORAGE_TYPE","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
+				,{"Name":"SourceVirtualStorageType","Type":{"Kind":"ApiRef","Name":"VIRTUAL_STORAGE_TYPE","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
+				,{"Name":"ResiliencyGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -614,6 +614,19 @@
 			,{"Name":"ChangeTrackingState","Type":{"Kind":"ApiRef","Name":"_ChangeTrackingState_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_ChangeTrackingState_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Enabled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"NewerChanges","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"MostRecentId","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_PhysicalDisk_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -624,6 +637,18 @@
 				{"Name":"LogicalSectorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PhysicalSectorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"IsRemote","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ParentLocation_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"ParentResolved","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				,{"Name":"ParentLocationBuffer","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -638,31 +663,6 @@
 				,{"Name":"PhysicalSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"BlockSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"SectorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ChangeTrackingState_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Enabled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"NewerChanges","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"MostRecentId","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ParentLocation_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"ParentResolved","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-				,{"Name":"ParentLocationBuffer","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -713,18 +713,6 @@
 			,{"Name":"ParentLocator","Type":{"Kind":"ApiRef","Name":"_ParentLocator_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_ParentPathWithDepthInfo_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"ChildDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_ParentLocator_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -733,6 +721,18 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"LinkageId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+				,{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ParentPathWithDepthInfo_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"ChildDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			]
 			,"NestedTypes":[]

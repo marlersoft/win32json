@@ -2768,18 +2768,6 @@
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Flags_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Data_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -2873,6 +2861,18 @@
 			,{"Name":"pDataPtr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
+	},{
+		"Name":"_Flags_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
 	}]
 },{
 	"Name":"_DnsRecordOptW"
@@ -2893,18 +2893,6 @@
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Flags_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Data_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -2914,6 +2902,18 @@
 		,"Fields":[
 			{"Name":"OPT","Type":{"Kind":"ApiRef","Name":"DNS_OPT_DATA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 			,{"Name":"Opt","Type":{"Kind":"ApiRef","Name":"DNS_OPT_DATA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Flags_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -2935,18 +2935,6 @@
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Flags_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Data_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3040,6 +3028,18 @@
 			,{"Name":"pDataPtr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
+	},{
+		"Name":"_Flags_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
 	}]
 },{
 	"Name":"_DnsRecordOptA"
@@ -3060,18 +3060,6 @@
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Flags_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Data_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3081,6 +3069,18 @@
 		,"Fields":[
 			{"Name":"OPT","Type":{"Kind":"ApiRef","Name":"DNS_OPT_DATA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 			,{"Name":"Opt","Type":{"Kind":"ApiRef","Name":"DNS_OPT_DATA","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Flags_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"DW","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"S","Type":{"Kind":"ApiRef","Name":"DNS_RECORD_FLAGS","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -3234,17 +3234,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"NetworkManagement.Dns","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"pwszTemplate","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3253,6 +3242,17 @@
 		,"PackingSize":0
 		,"Fields":[
 			{"Name":"MaxSa","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"pwszTemplate","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

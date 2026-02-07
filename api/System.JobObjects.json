@@ -344,18 +344,6 @@
 		]
 		,"NestedTypes":[]
 	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"JobHighMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-			,{"Name":"JobMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -365,6 +353,18 @@
 		,"Fields":[
 			{"Name":"RateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"JobHighMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+			,{"Name":"JobMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -417,18 +417,6 @@
 		,{"Name":"NetRateControlToleranceLimit","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"RateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
-			,{"Name":"CpuRateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous3_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -438,6 +426,18 @@
 		,"Fields":[
 			{"Name":"RateControlToleranceLimit","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlToleranceLimit","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"RateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
+			,{"Name":"CpuRateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{

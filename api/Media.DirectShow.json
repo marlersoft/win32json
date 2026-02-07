@@ -8282,18 +8282,6 @@
 			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Media.DirectShow","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_Anonymous1_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"cPins","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"rgPins","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"REGFILTERPINS","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]}},"Attrs":["Const"]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_Anonymous2_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -8303,6 +8291,18 @@
 			,"Fields":[
 				{"Name":"cPins2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"rgPins2","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"REGFILTERPINS2","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]}},"Attrs":["Const"]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_Anonymous1_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"cPins","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"rgPins","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"REGFILTERPINS","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]}},"Attrs":["Const"]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -49557,18 +49557,6 @@
 		,{"Name":"RemainingData","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Header_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
-			,{"Name":"W","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Version_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -49578,6 +49566,18 @@
 		,"Fields":[
 			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_VERSION_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
 			,{"Name":"B","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Header_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
+			,{"Name":"W","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -49605,18 +49605,6 @@
 		,{"Name":"RemainingData","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Header_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
-			,{"Name":"W","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Version_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -49626,6 +49614,18 @@
 		,"Fields":[
 			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_VERSION_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
 			,{"Name":"B","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Header_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"S","Type":{"Kind":"ApiRef","Name":"MPEG_HEADER_BITS_MIDL","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
+			,{"Name":"W","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -60395,18 +60395,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"InputPinId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"InputPinType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -60416,6 +60404,18 @@
 		,"Fields":[
 			{"Name":"OutputPinId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"OutputPinType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"InputPinId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"InputPinType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -61047,6 +61047,17 @@
 			,{"Name":"ATSC","Type":{"Kind":"ApiRef","Name":"_ATSC_e__Struct","TargetKind":"Default","Api":"Media.DirectShow","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_ATSC_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"lProgNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_DC_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -61068,17 +61079,6 @@
 				{"Name":"lONID","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 				,{"Name":"lTSID","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 				,{"Name":"lSID","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_ATSC_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"lProgNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

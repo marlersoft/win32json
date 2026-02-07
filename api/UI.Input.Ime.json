@@ -4375,18 +4375,6 @@
 		,{"Name":"BLKBuff","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous2_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"cchRead","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			,{"Name":"cchComp","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous3_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -4396,6 +4384,18 @@
 		,"Fields":[
 			{"Name":"pchReadIdxWDD","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 			,{"Name":"pchCompIdxWDD","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous2_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"cchRead","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"cchComp","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	},{
@@ -4942,18 +4942,6 @@
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"dwControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"dwNotUsed","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -4963,6 +4951,18 @@
 		,"Fields":[
 			{"Name":"pwszDscr","Type":{"Kind":"Array","Shape":{"Size":31},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 			,{"Name":"pwszNoUse","Type":{"Kind":"Array","Shape":{"Size":31},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"dwControl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"dwNotUsed","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

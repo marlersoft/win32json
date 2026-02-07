@@ -2921,6 +2921,18 @@
 		,{"Name":"NotificationRoutine","Type":{"Kind":"ApiRef","Name":"PFN_RPCNOTIFICATION_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_IntPtr_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			,{"Name":"Msg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_IOC_e__Struct"
 		,"Architectures":[]
 		,"Platform":null
@@ -2944,18 +2956,6 @@
 		,"Fields":[
 			{"Name":"NotificationRoutine","Type":{"Kind":"ApiRef","Name":"PFN_RPCNOTIFICATION_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 			,{"Name":"hThread","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
-		"Name":"_IntPtr_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			,{"Name":"Msg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

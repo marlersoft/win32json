@@ -3403,6 +3403,18 @@
 		,{"Name":"ReachabilityTime","Type":{"Kind":"ApiRef","Name":"_ReachabilityTime_e__Union","TargetKind":"Default","Api":"NetworkManagement.IpHelper","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_ReachabilityTime_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"LastReachable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"LastUnreachable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3425,18 +3437,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_ReachabilityTime_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"LastReachable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"LastUnreachable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"MIB_IPNET_TABLE2"
@@ -3780,18 +3780,6 @@
 		,{"Name":"dwForwardMetric5","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"dwForwardType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"ForwardType","Type":{"Kind":"ApiRef","Name":"MIB_IPFORWARD_TYPE","TargetKind":"Default","Api":"NetworkManagement.IpHelper","Parents":[]},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3801,6 +3789,18 @@
 		,"Fields":[
 			{"Name":"dwForwardProto","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"ForwardProto","Type":{"Kind":"ApiRef","Name":"NL_ROUTE_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"dwForwardType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"ForwardType","Type":{"Kind":"ApiRef","Name":"MIB_IPFORWARD_TYPE","TargetKind":"Default","Api":"NetworkManagement.IpHelper","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

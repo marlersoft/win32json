@@ -3681,18 +3681,6 @@
 		,{"Name":"u2","Type":{"Kind":"ApiRef","Name":"_u2_e__Union","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_u1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"stspec","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SENDER_TSPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
-			,{"Name":"isflow","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IS_FLOWSPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_u2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3702,6 +3690,18 @@
 		,"Fields":[
 			{"Name":"stemp","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILTER_SPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
 			,{"Name":"fspec","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILTER_SPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_u1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"stspec","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SENDER_TSPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
+			,{"Name":"isflow","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IS_FLOWSPEC","TargetKind":"Default","Api":"NetworkManagement.QoS","Parents":[]}},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]

@@ -3819,6 +3819,19 @@
 		,{"Name":"AlternateMode","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Usb","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
+		"Name":"_Anonymous_e__Struct"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Struct"
+		,"Size":0
+		,"PackingSize":1
+		,"Fields":[
+			{"Name":"wSVID","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"bAlternateMode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+			,{"Name":"iAlternateModeSetting","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_VconnPower_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3841,19 +3854,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous_e__Struct"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Struct"
-		,"Size":0
-		,"PackingSize":1
-		,"Fields":[
-			{"Name":"wSVID","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			,{"Name":"bAlternateMode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			,{"Name":"iAlternateModeSetting","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR"
@@ -4039,7 +4039,7 @@
 			,{"Name":"Isochronous","Type":{"Kind":"ApiRef","Name":"_Isochronous_e__Struct","TargetKind":"Default","Api":"Devices.Usb","Parents":["_bmAttributes_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_Bulk_e__Struct"
+			"Name":"_Isochronous_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -4050,7 +4050,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_Isochronous_e__Struct"
+			"Name":"_Bulk_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"

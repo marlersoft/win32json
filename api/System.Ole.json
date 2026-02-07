@@ -9788,6 +9788,17 @@
 			,{"Name":"emf","Type":{"Kind":"ApiRef","Name":"_emf_e__Struct","TargetKind":"Default","Api":"System.Ole","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_emf_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"hemf","Type":{"Kind":"ApiRef","Name":"HENHMETAFILE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_icon_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -9796,18 +9807,6 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"hicon","Type":{"Kind":"ApiRef","Name":"HICON","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_bmp_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"hbitmap","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
-				,{"Name":"hpal","Type":{"Kind":"ApiRef","Name":"HPALETTE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -9824,14 +9823,15 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_emf_e__Struct"
+			"Name":"_bmp_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"hemf","Type":{"Kind":"ApiRef","Name":"HENHMETAFILE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
+				{"Name":"hbitmap","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
+				,{"Name":"hpal","Type":{"Kind":"ApiRef","Name":"HPALETTE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

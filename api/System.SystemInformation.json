@@ -1150,17 +1150,6 @@
 			,{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":[]}
 		]
 		,"NestedTypes":[{
-			"Name":"_ProcessorCore_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_NumaNode_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -1169,6 +1158,17 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"NodeNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_ProcessorCore_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -1352,6 +1352,18 @@
 				,{"Name":"AllocationTag","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
 			,"NestedTypes":[{
+				"Name":"_Anonymous2_e__Union"
+				,"Architectures":[]
+				,"Platform":null
+				,"Kind":"Union"
+				,"Size":0
+				,"PackingSize":0
+				,"Fields":[
+					{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+					,{"Name":"SchedulingClass","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+				]
+				,"NestedTypes":[]
+			},{
 				"Name":"_Anonymous1_e__Union"
 				,"Architectures":[]
 				,"Platform":null
@@ -1374,18 +1386,6 @@
 					]
 					,"NestedTypes":[]
 				}]
-			},{
-				"Name":"_Anonymous2_e__Union"
-				,"Architectures":[]
-				,"Platform":null
-				,"Kind":"Union"
-				,"Size":0
-				,"PackingSize":0
-				,"Fields":[
-					{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-					,{"Name":"SchedulingClass","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-				]
-				,"NestedTypes":[]
 			}]
 		}]
 	}]

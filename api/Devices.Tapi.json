@@ -7849,6 +7849,17 @@
 			,{"Name":"GetGroupList","Type":{"Kind":"ApiRef","Name":"_GetGroupList_e__Struct","TargetKind":"Default","Api":"Devices.Tapi","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_GetGroupList_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"GroupList","Type":{"Kind":"ApiRef","Name":"LINEAGENTGROUPLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_GetQueueInfo_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7858,6 +7869,18 @@
 			,"Fields":[
 				{"Name":"dwQueueID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"QueueInfo","Type":{"Kind":"ApiRef","Name":"LINEQUEUEINFO","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_SetQueueMeasurementPeriod_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"dwQueueID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwMeasurementPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -7873,6 +7896,19 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_SetAgentSessionState_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"hAgentSession","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwAgentSessionState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwNextAgentSessionState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_GetAgentSessionInfo_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7882,6 +7918,18 @@
 			,"Fields":[
 				{"Name":"hAgentSession","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"SessionInfo","Type":{"Kind":"ApiRef","Name":"LINEAGENTSESSIONINFO","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_GetAgentSessionList_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"SessionList","Type":{"Kind":"ApiRef","Name":"LINEAGENTSESSIONLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -7901,6 +7949,18 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_GetAgentInfo_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"AgentInfo","Type":{"Kind":"ApiRef","Name":"LINEAGENTINFO","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_SetAgentMeasurementPeriod_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -7910,6 +7970,19 @@
 			,"Fields":[
 				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwMeasurementPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_SetAgentStateEx_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwNextAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -7928,43 +8001,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_GetAgentActivityList_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"ActivityList","Type":{"Kind":"ApiRef","Name":"LINEAGENTACTIVITYLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_GetAgentStatus_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"AgentStatus","Type":{"Kind":"ApiRef","Name":"LINEAGENTSTATUS","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_SetAgentActivity_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwActivityID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_SetAgentGroup_e__Struct"
+			"Name":"_GetAgentGroupList_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -7976,40 +8013,15 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_SetQueueMeasurementPeriod_e__Struct"
+			"Name":"_GetAgentActivityList_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":1
 			,"Fields":[
-				{"Name":"dwQueueID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwMeasurementPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_GetAgentSessionList_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"SessionList","Type":{"Kind":"ApiRef","Name":"LINEAGENTSESSIONLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_SetAgentStateEx_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwNextAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"ActivityList","Type":{"Kind":"ApiRef","Name":"LINEAGENTACTIVITYLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -8027,7 +8039,7 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_SetAgentState_e__Struct"
+			"Name":"_GetAgentStatus_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
@@ -8035,44 +8047,7 @@
 			,"PackingSize":1
 			,"Fields":[
 				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwNextAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_SetAgentSessionState_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"hAgentSession","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwAgentSessionState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"dwNextAgentSessionState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_GetAgentGroupList_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":1
-			,"Fields":[
-				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"GroupList","Type":{"Kind":"ApiRef","Name":"LINEAGENTGROUPLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_GetGroupList_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"GroupList","Type":{"Kind":"ApiRef","Name":"LINEAGENTGROUPLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"AgentStatus","Type":{"Kind":"ApiRef","Name":"LINEAGENTSTATUS","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -8088,15 +8063,40 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_GetAgentInfo_e__Struct"
+			"Name":"_SetAgentActivity_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":1
 			,"Fields":[
-				{"Name":"hAgent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-				,{"Name":"AgentInfo","Type":{"Kind":"ApiRef","Name":"LINEAGENTINFO","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwActivityID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_SetAgentState_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"dwNextAgentState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_SetAgentGroup_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":1
+			,"Fields":[
+				{"Name":"dwAddressID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+				,{"Name":"GroupList","Type":{"Kind":"ApiRef","Name":"LINEAGENTGROUPLIST","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]
@@ -17623,6 +17623,18 @@
 			]
 			,"NestedTypes":[]
 		},{
+			"Name":"_MSP_TTS_TERMINAL_EVENT_INFO_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"pTTSTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"hrErrorCode","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_MSP_ASR_TERMINAL_EVENT_INFO_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -17632,33 +17644,6 @@
 			,"Fields":[
 				{"Name":"pASRTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 				,{"Name":"hrErrorCode","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_MSP_PRIVATE_EVENT_INFO_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"pEvent","Type":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
-				,{"Name":"lEventCode","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_MSP_CALL_EVENT_INFO_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"Type","Type":{"Kind":"ApiRef","Name":"MSP_CALL_EVENT","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"Cause","Type":{"Kind":"ApiRef","Name":"MSP_CALL_EVENT_CAUSE","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"pStream","Type":{"Kind":"ApiRef","Name":"ITStream","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"pTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"hrError","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -17677,15 +17662,15 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_MSP_ADDRESS_EVENT_INFO_e__Struct"
+			"Name":"_MSP_PRIVATE_EVENT_INFO_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"Type","Type":{"Kind":"ApiRef","Name":"MSP_ADDRESS_EVENT","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"pTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				{"Name":"pEvent","Type":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
+				,{"Name":"lEventCode","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		},{
@@ -17701,15 +17686,30 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_MSP_TTS_TERMINAL_EVENT_INFO_e__Struct"
+			"Name":"_MSP_CALL_EVENT_INFO_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"pTTSTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
-				,{"Name":"hrErrorCode","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+				{"Name":"Type","Type":{"Kind":"ApiRef","Name":"MSP_CALL_EVENT","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"Cause","Type":{"Kind":"ApiRef","Name":"MSP_CALL_EVENT_CAUSE","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"pStream","Type":{"Kind":"ApiRef","Name":"ITStream","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"pTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"hrError","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_MSP_ADDRESS_EVENT_INFO_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"Type","Type":{"Kind":"ApiRef","Name":"MSP_ADDRESS_EVENT","TargetKind":"Default","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
+				,{"Name":"pTerminal","Type":{"Kind":"ApiRef","Name":"ITTerminal","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

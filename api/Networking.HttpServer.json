@@ -1314,6 +1314,18 @@
 			,{"Name":"Trailers","Type":{"Kind":"ApiRef","Name":"_Trailers_e__Struct","TargetKind":"Default","Api":"Networking.HttpServer","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
 		,"NestedTypes":[{
+			"Name":"_Trailers_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"TrailerCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"pTrailers","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HTTP_UNKNOWN_HEADER","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]}},"Attrs":[]}
+			]
+			,"NestedTypes":[]
+		},{
 			"Name":"_FromFragmentCacheEx_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -1322,6 +1334,18 @@
 			,"PackingSize":0
 			,"Fields":[
 				{"Name":"ByteRange","Type":{"Kind":"ApiRef","Name":"HTTP_BYTE_RANGE","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]},"Attrs":[]}
+				,{"Name":"pFragmentName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
+			]
+			,"NestedTypes":[]
+		},{
+			"Name":"_FromFragmentCache_e__Struct"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"FragmentNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"pFragmentName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			]
 			,"NestedTypes":[]
@@ -1338,18 +1362,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_FromFragmentCache_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"FragmentNameLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"pFragmentName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_FromMemory_e__Struct"
 			,"Architectures":[]
 			,"Platform":null
@@ -1359,18 +1371,6 @@
 			,"Fields":[
 				{"Name":"pBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 				,{"Name":"BufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
-			"Name":"_Trailers_e__Struct"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"TrailerCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"pTrailers","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HTTP_UNKNOWN_HEADER","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]}},"Attrs":[]}
 			]
 			,"NestedTypes":[]
 		}]

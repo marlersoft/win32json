@@ -3333,6 +3333,18 @@
 			,"NestedTypes":[]
 		}]
 	},{
+		"Name":"_Anonymous3_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
+			,{"Name":"GuidPtr","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -3381,18 +3393,6 @@
 			]
 			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous3_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
-			,{"Name":"GuidPtr","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"EVENT_INSTANCE_HEADER"
@@ -4176,18 +4176,6 @@
 		,{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"LogFileMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"ProcessTraceMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -4197,6 +4185,18 @@
 		,"Fields":[
 			{"Name":"EventCallback","Type":{"Kind":"ApiRef","Name":"PEVENT_CALLBACK","TargetKind":"FunctionPointer","Api":"System.Diagnostics.Etw","Parents":[]},"Attrs":[]}
 			,{"Name":"EventRecordCallback","Type":{"Kind":"ApiRef","Name":"PEVENT_RECORD_CALLBACK","TargetKind":"FunctionPointer","Api":"System.Diagnostics.Etw","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"LogFileMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"ProcessTraceMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -4224,18 +4224,6 @@
 		,{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 	]
 	,"NestedTypes":[{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"LogFileMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"ProcessTraceMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -4245,6 +4233,18 @@
 		,"Fields":[
 			{"Name":"EventCallback","Type":{"Kind":"ApiRef","Name":"PEVENT_CALLBACK","TargetKind":"FunctionPointer","Api":"System.Diagnostics.Etw","Parents":[]},"Attrs":[]}
 			,{"Name":"EventRecordCallback","Type":{"Kind":"ApiRef","Name":"PEVENT_RECORD_CALLBACK","TargetKind":"FunctionPointer","Api":"System.Diagnostics.Etw","Parents":[]},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"LogFileMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"ProcessTraceMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
@@ -5062,6 +5062,18 @@
 			,"NestedTypes":[]
 		}]
 	},{
+		"Name":"_Anonymous3_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+			,{"Name":"lengthPropertyIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5099,19 +5111,6 @@
 			]
 			,"NestedTypes":[]
 		},{
-			"Name":"_nonStructType"
-			,"Architectures":[]
-			,"Platform":null
-			,"Kind":"Struct"
-			,"Size":0
-			,"PackingSize":0
-			,"Fields":[
-				{"Name":"InType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"OutType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-				,{"Name":"MapNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			]
-			,"NestedTypes":[]
-		},{
 			"Name":"_structType"
 			,"Architectures":[]
 			,"Platform":null
@@ -5124,19 +5123,20 @@
 				,{"Name":"padding","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
 			,"NestedTypes":[]
+		},{
+			"Name":"_nonStructType"
+			,"Architectures":[]
+			,"Platform":null
+			,"Kind":"Struct"
+			,"Size":0
+			,"PackingSize":0
+			,"Fields":[
+				{"Name":"InType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"OutType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				,{"Name":"MapNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			]
+			,"NestedTypes":[]
 		}]
-	},{
-		"Name":"_Anonymous3_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-			,{"Name":"lengthPropertyIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
 	}]
 },{
 	"Name":"DECODING_SOURCE"
@@ -5219,18 +5219,6 @@
 			,"NestedTypes":[]
 		}]
 	},{
-		"Name":"_Anonymous1_e__Union"
-		,"Architectures":[]
-		,"Platform":null
-		,"Kind":"Union"
-		,"Size":0
-		,"PackingSize":0
-		,"Fields":[
-			{"Name":"EventNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-			,{"Name":"ActivityIDNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		]
-		,"NestedTypes":[]
-	},{
 		"Name":"_Anonymous2_e__Union"
 		,"Architectures":[]
 		,"Platform":null
@@ -5240,6 +5228,18 @@
 		,"Fields":[
 			{"Name":"EventAttributesOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"RelatedActivityIDNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		]
+		,"NestedTypes":[]
+	},{
+		"Name":"_Anonymous1_e__Union"
+		,"Architectures":[]
+		,"Platform":null
+		,"Kind":"Union"
+		,"Size":0
+		,"PackingSize":0
+		,"Fields":[
+			{"Name":"EventNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+			,{"Name":"ActivityIDNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
