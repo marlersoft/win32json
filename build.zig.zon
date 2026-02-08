@@ -1,0 +1,22 @@
+.{
+    .name = .win32jsongenerate,
+    .fingerprint = 0xf9e0adc32fc8efe2,
+    .version = "0.0.0",
+    .zig_version = "0.15.2",
+    .minimum_zig_version = "0.15.0",
+    .dependencies = .{
+        .zipcmdline = .{
+            .url = "git+https://github.com/marler8997/zipcmdline#a6de65875023c52d2f56f21a31c6487266f8105f",
+            .hash = "zipcmdline-0.0.0-DFii07hmAwCFNhtMpml64Pj_hr8kN4WesClygZErQHsk",
+        },
+        .winmd = .{
+            .url = "git+https://github.com/marler8997/winmd-zig#d0d8daff01b4fb1a6324c79a855c34ced5bbc8d2",
+            .hash = "winmd-0.0.0-2QIrG4MpAQCCh0ReC0jZKAps9Frn3jbbR--W7szyGAOS",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
