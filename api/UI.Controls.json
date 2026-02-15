@@ -12503,6 +12503,20 @@
 	]
 	,"IntegerBase":"UInt32"
 },{
+	"Name":"SET_THEME_APP_PROPERTIES_FLAGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"ALLOW_NONCLIENT","Value":1}
+		,{"Name":"ALLOW_CONTROLS","Value":2}
+		,{"Name":"ALLOW_WEBCONTENT","Value":4}
+		,{"Name":"VALIDBITS","Value":7}
+	]
+	,"IntegerBase":"UInt32"
+},{
 	"Name":"DRAGLISTINFO_NOTIFICATION_FLAGS"
 	,"Architectures":[]
 	,"Platform":null
@@ -13327,6 +13341,31 @@
 		,{"Name":"ILC_PERITEMMIRROR","Value":32768}
 		,{"Name":"ILC_ORIGINALSIZE","Value":65536}
 		,{"Name":"ILC_HIGHQUALITYSCALE","Value":131072}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"DTTOPTS_FLAGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"DTT_TEXTCOLOR","Value":1}
+		,{"Name":"DTT_BORDERCOLOR","Value":2}
+		,{"Name":"DTT_SHADOWCOLOR","Value":4}
+		,{"Name":"DTT_SHADOWTYPE","Value":8}
+		,{"Name":"DTT_SHADOWOFFSET","Value":16}
+		,{"Name":"DTT_BORDERSIZE","Value":32}
+		,{"Name":"DTT_FONTPROP","Value":64}
+		,{"Name":"DTT_COLORPROP","Value":128}
+		,{"Name":"DTT_STATEID","Value":256}
+		,{"Name":"DTT_CALCRECT","Value":512}
+		,{"Name":"DTT_APPLYOVERLAY","Value":1024}
+		,{"Name":"DTT_GLOWSIZE","Value":2048}
+		,{"Name":"DTT_CALLBACK","Value":4096}
+		,{"Name":"DTT_COMPOSITED","Value":8192}
+		,{"Name":"DTT_VALIDBITS","Value":12287}
 	]
 	,"IntegerBase":"UInt32"
 },{
@@ -14157,8 +14196,8 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBtnHighlight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBtnShadow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrBtnHighlight","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBtnShadow","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -14309,13 +14348,13 @@
 		,{"Name":"cy","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"xBitmap","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"yBitmap","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-		,{"Name":"rgbBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"rgbFg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"rgbBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"rgbFg","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"fStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwRop","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Frame","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crEffect","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crEffect","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -14526,8 +14565,8 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"from","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"to","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"from","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"to","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -14542,12 +14581,12 @@
 		,{"Name":"hbrMonoDither","Type":{"Kind":"ApiRef","Name":"HBRUSH","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"hbrLines","Type":{"Kind":"ApiRef","Name":"HBRUSH","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"hpenLines","Type":{"Kind":"ApiRef","Name":"HPEN","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
-		,{"Name":"clrText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrMark","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrTextHighlight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBtnFace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBtnHighlight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrHighlightHotTrack","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrMark","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrTextHighlight","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBtnFace","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBtnHighlight","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrHighlightHotTrack","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rcText","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"nStringBkMode","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"nHLStringBkMode","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -14846,8 +14885,8 @@
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrFore","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBack","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrFore","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBack","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lpText","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"cch","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iImage","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -14878,8 +14917,8 @@
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrFore","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBack","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrFore","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBack","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lpText","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"cch","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iImage","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -15446,12 +15485,12 @@
 		,{"Name":"Top","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Right","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Bottom","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crLeft","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crTop","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crRight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBottom","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crHeader","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crFooter","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crLeft","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crTop","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crRight","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBottom","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crHeader","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crFooter","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -15629,11 +15668,11 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"nmcd","Type":{"Kind":"ApiRef","Name":"NMCUSTOMDRAW","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
-		,{"Name":"clrText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrTextBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrTextBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"iSubItem","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"dwItemType","Type":{"Kind":"ApiRef","Name":"NMLVCUSTOMDRAW_ITEM_TYPE","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
-		,{"Name":"clrFace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrFace","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"iIconEffect","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"iIconPhase","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -16125,8 +16164,8 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"nmcd","Type":{"Kind":"ApiRef","Name":"NMCUSTOMDRAW","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
-		,{"Name":"clrText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrTextBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrTextBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"iLevel","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -17187,7 +17226,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"hbmImage","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
-			,{"Name":"crMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"crMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pi","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
 		]
 	},{
@@ -17347,8 +17386,8 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"clrBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pclr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"clrBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+			,{"Name":"pclr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"GetBkColor"
@@ -17359,7 +17398,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"pclr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"pclr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"BeginDrag"
@@ -17939,10 +17978,10 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBorder","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crShadow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"DTTOPTS_FLAGS","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
+		,{"Name":"crText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBorder","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crShadow","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"iTextShadowType","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ptShadowOffset","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"iBorderSize","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -22051,20 +22090,20 @@
 	"Name":"ImageList_SetBkColor"
 	,"SetLastError":false
 	,"DllImport":"COMCTL32"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"himl","Type":{"Kind":"ApiRef","Name":"HIMAGELIST","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
-		,{"Name":"clrBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"clrBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"ImageList_GetBkColor"
 	,"SetLastError":false
 	,"DllImport":"COMCTL32"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
@@ -22130,7 +22169,7 @@
 	,"Params":[
 		{"Name":"himl","Type":{"Kind":"ApiRef","Name":"HIMAGELIST","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"hbmImage","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
-		,{"Name":"crMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"ImageList_DrawEx"
@@ -22149,8 +22188,8 @@
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"dx","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"dy","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"rgbBk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"rgbFg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"rgbBk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+		,{"Name":"rgbFg","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"fStyle","Type":{"Kind":"ApiRef","Name":"IMAGE_LIST_DRAW_STYLE","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 	]
 },{
@@ -22206,7 +22245,7 @@
 		,{"Name":"lpbmp","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"cx","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"cGrow","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"crMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"uType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"uFlags","Type":{"Kind":"ApiRef","Name":"IMAGE_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
 	]
@@ -22224,7 +22263,7 @@
 		,{"Name":"lpbmp","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"cx","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"cGrow","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"crMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"uType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"uFlags","Type":{"Kind":"ApiRef","Name":"IMAGE_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
 	]
@@ -23413,8 +23452,8 @@
 		,{"Name":"cch","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"prc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"crText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"crShadow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
+		,{"Name":"crShadow","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"ixOffset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iyOffset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 	]
@@ -23821,8 +23860,8 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"pColor","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
+		,{"Name":"pColor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"GetThemeMetric"
@@ -23887,7 +23926,7 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"piVal","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
 	]
 },{
@@ -23903,7 +23942,7 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"piVal","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
 	]
 },{
@@ -23919,7 +23958,7 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pPoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
@@ -23969,7 +24008,7 @@
 		,{"Name":"hdc","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In","Optional"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"prc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"pMargins","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MARGINS","TargetKind":"Default","Api":"UI.Controls","Parents":[]}},"Attrs":["Out"]}
 	]
@@ -23986,7 +24025,7 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pIntList","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"INTLIST","TargetKind":"Default","Api":"UI.Controls","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
@@ -24032,7 +24071,7 @@
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"iPartId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"iStateId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"iPropId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iPropId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pszThemeFileName","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":5,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out"]}
 		,{"Name":"cchMaxBuffChars","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 	]
@@ -24040,7 +24079,7 @@
 	"Name":"GetThemeSysColor"
 	,"SetLastError":false
 	,"DllImport":"UxTheme"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
@@ -24073,7 +24112,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In","Optional"]}
-		,{"Name":"iBoolId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iBoolId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"GetThemeSysSize"
@@ -24128,7 +24167,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hTheme","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
-		,{"Name":"iIntId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
+		,{"Name":"iIntId","Type":{"Kind":"ApiRef","Name":"THEME_PROPERTY_SYMBOL_ID","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 		,{"Name":"piValue","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
 	]
 },{
@@ -24194,7 +24233,7 @@
 	"Name":"GetThemeAppProperties"
 	,"SetLastError":false
 	,"DllImport":"UXTHEME"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"SET_THEME_APP_PROPERTIES_FLAGS","TargetKind":"Default","Api":"UI.Controls","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
@@ -24211,7 +24250,7 @@
 	,"Platform":"windows6.0.6000"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"SET_THEME_APP_PROPERTIES_FLAGS","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"GetCurrentThemeName"

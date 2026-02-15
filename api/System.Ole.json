@@ -17884,7 +17884,7 @@
 	,"Params":[
 		{"Name":"clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"hpal","Type":{"Kind":"ApiRef","Name":"HPALETTE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
-		,{"Name":"lpcolorref","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+		,{"Name":"lpcolorref","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 	]
 },{
 	"Name":"OleCreateFontIndirect"

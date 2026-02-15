@@ -2974,7 +2974,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hcmTransform","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
-		,{"Name":"ColorRef","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"ColorRef","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpColorRef","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]

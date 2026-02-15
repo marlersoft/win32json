@@ -3003,7 +3003,7 @@
 			,{"Name":"measuringMode","Type":{"Kind":"ApiRef","Name":"DWRITE_MEASURING_MODE","TargetKind":"Default","Api":"Graphics.DirectWrite","Parents":[]},"Attrs":["In"]}
 			,{"Name":"glyphRun","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DWRITE_GLYPH_RUN","TargetKind":"Default","Api":"Graphics.DirectWrite","Parents":[]}},"Attrs":["In","Const"]}
 			,{"Name":"renderingParams","Type":{"Kind":"ApiRef","Name":"IDWriteRenderingParams","TargetKind":"Com","Api":"Graphics.DirectWrite","Parents":[]},"Attrs":["In"]}
-			,{"Name":"textColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"textColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"blackBoxRect","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","Optional"]}
 		]
 	},{

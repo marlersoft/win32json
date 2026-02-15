@@ -38798,7 +38798,7 @@
 		,"Params":[
 			{"Name":"pSrc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MFVideoNormalizedRect","TargetKind":"Default","Api":"Media.MediaFoundation","Parents":[]}},"Attrs":["In","Optional","Const"]}
 			,{"Name":"pDst","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Optional","Const"]}
-			,{"Name":"pBorderClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Optional","Const"]}
+			,{"Name":"pBorderClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Optional","Const"]}
 		]
 	},{
 		"Name":"SetSampleCallback"
@@ -45157,7 +45157,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"Clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"Clr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBorderColor"
@@ -45168,7 +45168,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"pClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"pClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"SetRenderingPrefs"
@@ -46044,7 +46044,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"Clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"Clr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBorderColor"
@@ -46055,7 +46055,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"pClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"pClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"InsertEffect"
@@ -46980,7 +46980,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"SetBackgroundColor"
@@ -46991,7 +46991,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"ClrBkg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"ClrBkg","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
 },{
@@ -47003,7 +47003,7 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrSrcKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrSrcKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rcSrc","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"nrcDest","Type":{"Kind":"ApiRef","Name":"MFVideoNormalizedRect","TargetKind":"Default","Api":"Media.MediaFoundation","Parents":[]},"Attrs":[]}
 		,{"Name":"fAlpha","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}

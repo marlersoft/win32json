@@ -3929,7 +3929,7 @@
 			{"Name":"pBMapSm","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":["In"]}
 			,{"Name":"pBMapLg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":["In"]}
 			,{"Name":"nStartLoc","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-			,{"Name":"cMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"cMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
 },{
@@ -4475,7 +4475,7 @@
 			,{"Name":"hbmp","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
 			,{"Name":"cxSize","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 			,{"Name":"cySize","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-			,{"Name":"crMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"crMask","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"AddButtons"
@@ -4660,7 +4660,7 @@
 			{"Name":"hSmallImage","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Out"]}
 			,{"Name":"hSmallImageOpen","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Out"]}
 			,{"Name":"hLargeImage","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Out"]}
-			,{"Name":"cMask","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			,{"Name":"cMask","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	}]
 },{

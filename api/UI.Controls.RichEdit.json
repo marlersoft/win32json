@@ -3126,12 +3126,12 @@
 		,{"Name":"dyBrdrTop","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"dxBrdrRight","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"dyBrdrBottom","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-		,{"Name":"crBrdrLeft","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBrdrTop","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBrdrRight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBrdrBottom","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBackPat","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crForePat","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crBrdrLeft","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBrdrTop","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBrdrRight","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBrdrBottom","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBackPat","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crForePat","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -3206,7 +3206,7 @@
 		,{"Name":"dwEffects","Type":{"Kind":"ApiRef","Name":"CFE_EFFECTS","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"yHeight","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"yOffset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-		,{"Name":"crTextColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crTextColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"bCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"bPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"szFaceName","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -3225,7 +3225,7 @@
 		,{"Name":"dwEffects","Type":{"Kind":"ApiRef","Name":"CFE_EFFECTS","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"yHeight","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"yOffset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
-		,{"Name":"crTextColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crTextColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"bCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"bPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"szFaceName","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -3242,7 +3242,7 @@
 		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CHARFORMATW","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"wWeight","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sSpacing","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-		,{"Name":"crBackColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crBackColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lcid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"sStyle","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -3276,7 +3276,7 @@
 		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CHARFORMATA","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"wWeight","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sSpacing","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
-		,{"Name":"crBackColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crBackColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lcid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"UI.Controls.RichEdit","Parents":[]},"Attrs":[]}
 		,{"Name":"sStyle","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -3691,8 +3691,8 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"crText","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBackground","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"crText","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBackground","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwEffects","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -4484,7 +4484,7 @@
 	},{
 		"Name":"TxGetSysColor"
 		,"SetLastError":false
-		,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+		,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 		,"ReturnAttrs":[]
 		,"Architectures":[]
 		,"Platform":null
@@ -10735,7 +10735,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Index","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-			,{"Name":"cr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"cr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetEffectColor"
@@ -10747,7 +10747,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"Index","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-			,{"Name":"pcr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			,{"Name":"pcr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"GetCaretType"

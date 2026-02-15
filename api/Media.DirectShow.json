@@ -8484,8 +8484,8 @@
 	,"Fields":[
 		{"Name":"KeyType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PaletteIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"LowColorValue","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"HighColorValue","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"LowColorValue","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"HighColorValue","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -14757,7 +14757,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"clrBorder","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"clrBorder","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
 },{
@@ -14917,7 +14917,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"Clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"Clr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBorderColor"
@@ -14928,7 +14928,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	},{
 		"Name":"SetColorKey"
@@ -14939,7 +14939,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"Clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"Clr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetColorKey"
@@ -14950,7 +14950,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	}]
 },{
@@ -15085,7 +15085,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"ClrBkg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"ClrBkg","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBackgroundClr"
@@ -15096,7 +15096,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	},{
 		"Name":"SetMixingPrefs"
@@ -15564,7 +15564,7 @@
 		,{"Name":"rSrc","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rDest","Type":{"Kind":"ApiRef","Name":"NORMALIZEDRECT","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
 		,{"Name":"fAlpha","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
-		,{"Name":"clrSrcKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrSrcKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -31608,7 +31608,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"Clr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"Clr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBorderColor"
@@ -31619,7 +31619,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"lpClr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	}]
 },{
@@ -31802,7 +31802,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"ClrBkg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"ClrBkg","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBackgroundClr"
@@ -31813,7 +31813,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In"]}
+			{"Name":"lpClrBkg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
 		]
 	},{
 		"Name":"SetMixingPrefs"
@@ -31888,7 +31888,7 @@
 		,{"Name":"rSrc","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rDest","Type":{"Kind":"ApiRef","Name":"VMR9NormalizedRect","TargetKind":"Default","Api":"Media.DirectShow","Parents":[]},"Attrs":[]}
 		,{"Name":"fAlpha","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
-		,{"Name":"clrSrcKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrSrcKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFilterMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]

@@ -4388,7 +4388,7 @@
 		,{"Name":"cAuxBuffers","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"iLayerPlane","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"bReserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		,{"Name":"crTransparent","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crTransparent","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -5144,7 +5144,7 @@
 		,{"Name":"param1","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"param2","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"param3","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"param4","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Const"]}
+		,{"Name":"param4","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"wglGetLayerPaletteEntries"
@@ -5160,7 +5160,7 @@
 		,{"Name":"param1","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"param2","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"param3","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
-		,{"Name":"param4","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+		,{"Name":"param4","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 	]
 },{
 	"Name":"wglRealizeLayerPalette"

@@ -1681,8 +1681,8 @@
 		,{"Name":"idString","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pszText","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}},"Attrs":[]}
 		,{"Name":"pt","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-		,{"Name":"clrForeground","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"clrBackground","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"clrForeground","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"clrBackground","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rcMargins","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pszFont","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}},"Attrs":[]}
 	]

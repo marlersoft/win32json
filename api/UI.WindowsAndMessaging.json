@@ -10487,7 +10487,7 @@
 		,{"Name":"psize","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SIZE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Const"]}
 		,{"Name":"hdcSrc","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"pptSrc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Const"]}
-		,{"Name":"crKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pblend","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BLENDFUNCTION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["Const"]}
 		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"UPDATE_LAYERED_WINDOW_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":[]}
 		,{"Name":"prcDirty","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Const"]}
@@ -12198,7 +12198,7 @@
 		,{"Name":"psize","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SIZE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"hdcSrc","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In","Optional"]}
 		,{"Name":"pptSrc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Optional"]}
-		,{"Name":"crKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pblend","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BLENDFUNCTION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"UPDATE_LAYERED_WINDOW_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
 	]
@@ -12226,7 +12226,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pcrKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		,{"Name":"pcrKey","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","Optional"]}
 		,{"Name":"pbAlpha","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out","Optional"]}
 		,{"Name":"pdwFlags","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LAYERED_WINDOW_ATTRIBUTES_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]}},"Attrs":["Out","Optional"]}
 	]
@@ -12241,7 +12241,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-		,{"Name":"crKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"crKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"bAlpha","Type":{"Kind":"Native","Name":"Byte"},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"LAYERED_WINDOW_ATTRIBUTES_FLAGS","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":["In"]}
 	]
@@ -15014,7 +15014,7 @@
 	,"Params":[
 		{"Name":"cElements","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"lpaElements","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Const"]}
-		,{"Name":"lpaRgbValues","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Const"]}
+		,{"Name":"lpaRgbValues","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"GetWindowWord"

@@ -13404,7 +13404,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"color","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"color","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"SetFont"
@@ -13426,7 +13426,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"color","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"color","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
 },{
@@ -15593,7 +15593,7 @@
 		{"Name":"sizeDragImage","Type":{"Kind":"ApiRef","Name":"SIZE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ptOffset","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hbmpDragImage","Type":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
-		,{"Name":"crColorKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crColorKey","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -16982,7 +16982,7 @@
 		,{"Name":"ptActual","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"wszTitle","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"dwModeFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBkgnd","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crBkgnd","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -22633,7 +22633,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"color","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"color","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetBackgroundColor"
@@ -22644,7 +22644,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"color","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			{"Name":"color","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"SetPosition"
@@ -25089,7 +25089,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"vpcf","Type":{"Kind":"ApiRef","Name":"VPCOLORFLAGS","TargetKind":"Default","Api":"UI.Shell","Parents":[]},"Attrs":["In"]}
-			,{"Name":"cr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"cr","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GetColor"
@@ -25101,7 +25101,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"vpcf","Type":{"Kind":"ApiRef","Name":"VPCOLORFLAGS","TargetKind":"Default","Api":"UI.Shell","Parents":[]},"Attrs":["In"]}
-			,{"Name":"pcr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+			,{"Name":"pcr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
 		"Name":"SetItemHeight"
@@ -26848,8 +26848,8 @@
 			{"Name":"hdc","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":["In"]}
 			,{"Name":"prc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
 			,{"Name":"pnstccdItem","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NSTCCUSTOMDRAW","TargetKind":"Default","Api":"UI.Shell","Parents":[]}},"Attrs":["In"]}
-			,{"Name":"pclrText","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
-			,{"Name":"pclrTextBk","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
+			,{"Name":"pclrText","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
+			,{"Name":"pclrTextBk","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 			,{"Name":"plres","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
@@ -32787,7 +32787,7 @@
 		,{"Name":"uHistoryBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"uNumberOfHistoryBuffers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bHistoryNoDup","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
-		,{"Name":"ColorTable","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
+		,{"Name":"ColorTable","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -34910,9 +34910,9 @@
 		{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwStateMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBkgnd","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBtnLt","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"crBtnDk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"crBkgnd","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBtnLt","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+		,{"Name":"crBtnDk","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"wViewMode","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wAlign","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"psf","Type":{"Kind":"ApiRef","Name":"IShellFolder","TargetKind":"Com","Api":"UI.Shell","Parents":[]},"Attrs":[]}
@@ -53449,7 +53449,7 @@
 	,"Platform":"windows5.0"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"clrRGB","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		{"Name":"clrRGB","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pwHue","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
 		,{"Name":"pwLuminance","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
 		,{"Name":"pwSaturation","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
@@ -53458,7 +53458,7 @@
 	"Name":"ColorHLSToRGB"
 	,"SetLastError":false
 	,"DllImport":"SHLWAPI"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
@@ -53472,13 +53472,13 @@
 	"Name":"ColorAdjustLuma"
 	,"SetLastError":false
 	,"DllImport":"SHLWAPI"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"clrRGB","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		{"Name":"clrRGB","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"n","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"fScale","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
