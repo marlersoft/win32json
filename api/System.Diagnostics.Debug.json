@@ -43935,7 +43935,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+			{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 			,{"Name":"intrinsicData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VARIANT","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["Out"]}
 		]
 	},{
@@ -54640,7 +54640,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"cCharacterPosition","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pcharText","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out"]}
+			,{"Name":"pcharText","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out"]}
 			,{"Name":"pstaTextAttr","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out","Optional"]}
 			,{"Name":"pcNumChars","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 			,{"Name":"cMaxChars","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -55297,8 +55297,8 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"dwTextStartCookie","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pcharText","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out"]}
-			,{"Name":"pstaTextAttr","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
+			,{"Name":"pcharText","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out"]}
+			,{"Name":"pstaTextAttr","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
 			,{"Name":"pcNumChars","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 			,{"Name":"cMaxChars","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		]
@@ -57183,7 +57183,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+			{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 			,{"Name":"ptdescArrayType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"TYPEDESC","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["In"]}
 			,{"Name":"pbstr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 		]
@@ -67553,7 +67553,7 @@
 		,{"Name":"lpSource","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional","Const"]}
 		,{"Name":"dwMessageId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"dwLanguageId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"lpBuffer","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Out"]}
+		,{"Name":"lpBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":5,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out"]}
 		,{"Name":"nSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"Arguments","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":["In","Optional"]}
 	]
@@ -67571,7 +67571,7 @@
 		,{"Name":"lpSource","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional","Const"]}
 		,{"Name":"dwMessageId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"dwLanguageId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"lpBuffer","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Out"]}
+		,{"Name":"lpBuffer","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":5,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out"]}
 		,{"Name":"nSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"Arguments","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":["In","Optional"]}
 	]

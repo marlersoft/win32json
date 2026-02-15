@@ -26798,7 +26798,7 @@
 		,{"Name":"hHash","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
 		,{"Name":"Final","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":6},"Optional"]}
+		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":6},"Optional"]}
 		,{"Name":"pdwDataLen","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"dwBufLen","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
@@ -26816,7 +26816,7 @@
 		,{"Name":"hHash","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
 		,{"Name":"Final","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":5}]}
+		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":5}]}
 		,{"Name":"pdwDataLen","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 	]
 },{

@@ -391,6 +391,68 @@
 		,"NestedTypes":[]
 	}]
 },{
+	"Name":"VARENUM"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"VT_EMPTY","Value":0}
+		,{"Name":"VT_NULL","Value":1}
+		,{"Name":"VT_I2","Value":2}
+		,{"Name":"VT_I4","Value":3}
+		,{"Name":"VT_R4","Value":4}
+		,{"Name":"VT_R8","Value":5}
+		,{"Name":"VT_CY","Value":6}
+		,{"Name":"VT_DATE","Value":7}
+		,{"Name":"VT_BSTR","Value":8}
+		,{"Name":"VT_DISPATCH","Value":9}
+		,{"Name":"VT_ERROR","Value":10}
+		,{"Name":"VT_BOOL","Value":11}
+		,{"Name":"VT_VARIANT","Value":12}
+		,{"Name":"VT_UNKNOWN","Value":13}
+		,{"Name":"VT_DECIMAL","Value":14}
+		,{"Name":"VT_I1","Value":16}
+		,{"Name":"VT_UI1","Value":17}
+		,{"Name":"VT_UI2","Value":18}
+		,{"Name":"VT_UI4","Value":19}
+		,{"Name":"VT_I8","Value":20}
+		,{"Name":"VT_UI8","Value":21}
+		,{"Name":"VT_INT","Value":22}
+		,{"Name":"VT_UINT","Value":23}
+		,{"Name":"VT_VOID","Value":24}
+		,{"Name":"VT_HRESULT","Value":25}
+		,{"Name":"VT_PTR","Value":26}
+		,{"Name":"VT_SAFEARRAY","Value":27}
+		,{"Name":"VT_CARRAY","Value":28}
+		,{"Name":"VT_USERDEFINED","Value":29}
+		,{"Name":"VT_LPSTR","Value":30}
+		,{"Name":"VT_LPWSTR","Value":31}
+		,{"Name":"VT_RECORD","Value":36}
+		,{"Name":"VT_INT_PTR","Value":37}
+		,{"Name":"VT_UINT_PTR","Value":38}
+		,{"Name":"VT_FILETIME","Value":64}
+		,{"Name":"VT_BLOB","Value":65}
+		,{"Name":"VT_STREAM","Value":66}
+		,{"Name":"VT_STORAGE","Value":67}
+		,{"Name":"VT_STREAMED_OBJECT","Value":68}
+		,{"Name":"VT_STORED_OBJECT","Value":69}
+		,{"Name":"VT_BLOB_OBJECT","Value":70}
+		,{"Name":"VT_CF","Value":71}
+		,{"Name":"VT_CLSID","Value":72}
+		,{"Name":"VT_VERSIONED_STREAM","Value":73}
+		,{"Name":"VT_BSTR_BLOB","Value":4095}
+		,{"Name":"VT_VECTOR","Value":4096}
+		,{"Name":"VT_ARRAY","Value":8192}
+		,{"Name":"VT_BYREF","Value":16384}
+		,{"Name":"VT_RESERVED","Value":32768}
+		,{"Name":"VT_ILLEGAL","Value":65535}
+		,{"Name":"VT_ILLEGALMASKED","Value":4095}
+		,{"Name":"VT_TYPEMASK","Value":4095}
+	]
+	,"IntegerBase":"UInt16"
+},{
 	"Name":"CSPLATFORM"
 	,"Architectures":[]
 	,"Platform":null
@@ -3522,7 +3584,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_objidl_L9017_C36","Type":{"Kind":"ApiRef","Name":"BIND_OPTS","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"BIND_OPTS","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"dwTrackFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwClassContext","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"locale","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3537,7 +3599,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_objidl_L9041_C36","Type":{"Kind":"ApiRef","Name":"BIND_OPTS2","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"BIND_OPTS2","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"hwnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -6936,7 +6998,7 @@
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 				,{"Name":"wReserved1","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"wReserved2","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"wReserved3","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7041,7 +7103,7 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
 		"Name":"_Anonymous_e__Union"

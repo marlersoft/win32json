@@ -6064,7 +6064,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"pValueName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional"]}
-		,{"Name":"ppData","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out"]}
+		,{"Name":"ppData","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
 		,{"Name":"pcbTotalBytes","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"pNumObjectTypes","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 	]
@@ -10500,7 +10500,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hQuery","Type":{"Kind":"ApiRef","Name":"PerfQueryHandle","TargetKind":"Default","Api":"System.Performance","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pCounters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PERF_COUNTER_IDENTIFIER","TargetKind":"Default","Api":"System.Performance","Parents":[]}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":2}]}
+		,{"Name":"pCounters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PERF_COUNTER_IDENTIFIER","TargetKind":"Default","Api":"System.Performance","Parents":[]}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
 		,{"Name":"cbCounters","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
 },{
@@ -10514,7 +10514,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hQuery","Type":{"Kind":"ApiRef","Name":"PerfQueryHandle","TargetKind":"Default","Api":"System.Performance","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pCounters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PERF_COUNTER_IDENTIFIER","TargetKind":"Default","Api":"System.Performance","Parents":[]}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":2}]}
+		,{"Name":"pCounters","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PERF_COUNTER_IDENTIFIER","TargetKind":"Default","Api":"System.Performance","Parents":[]}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
 		,{"Name":"cbCounters","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
 },{

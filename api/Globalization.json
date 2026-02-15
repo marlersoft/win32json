@@ -4920,78 +4920,6 @@
 	,"Value":0
 	,"Attrs":[]
 },{
-	"Name":"IME_CMODE_ALPHANUMERIC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_NATIVE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_CHINESE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_HANGUL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_JAPANESE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_KATAKANA"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_LANGUAGE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_FULLSHAPE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_ROMAN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_CHARCODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_HANJACONVERT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":64
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_NATIVESYMBOL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":128
-	,"Attrs":[]
-},{
 	"Name":"MAX_MIMECP_NAME"
 	,"Type":{"Kind":"Native","Name":"UInt32"}
 	,"ValueType":"UInt32"
@@ -14852,7 +14780,7 @@
 	,"Params":[
 		{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"pcwszFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
-		,{"Name":"pFileMUIInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILEMUIINFO","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
+		,{"Name":"pFileMUIInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILEMUIINFO","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"pcbFileMUIInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 	]
 },{

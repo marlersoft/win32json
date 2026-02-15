@@ -1739,7 +1739,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_http_L1861_C35","Type":{"Kind":"ApiRef","Name":"HTTP_REQUEST_V1","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"HTTP_REQUEST_V1","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]},"Attrs":[]}
 		,{"Name":"RequestInfoCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"pRequestInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HTTP_REQUEST_INFO","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]}},"Attrs":[]}
 	]
@@ -1811,7 +1811,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_http_L2050_C36","Type":{"Kind":"ApiRef","Name":"HTTP_RESPONSE_V1","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"HTTP_RESPONSE_V1","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]},"Attrs":[]}
 		,{"Name":"ResponseInfoCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"pResponseInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HTTP_RESPONSE_INFO","TargetKind":"Default","Api":"Networking.HttpServer","Parents":[]}},"Attrs":[]}
 	]

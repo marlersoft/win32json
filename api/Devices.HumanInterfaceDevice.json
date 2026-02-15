@@ -19386,7 +19386,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"ReportType","Type":{"Kind":"ApiRef","Name":"HIDP_REPORT_TYPE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]},"Attrs":["In"]}
-		,{"Name":"DataList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"ApiRef","Name":"HIDP_DATA","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"DataList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"ApiRef","Name":"HIDP_DATA","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"DataLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"PreparsedData","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"Report","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated",{"Kind":"MemorySize","BytesParamIndex":5}]}
@@ -19435,7 +19435,7 @@
 		{"Name":"ReportType","Type":{"Kind":"ApiRef","Name":"HIDP_REPORT_TYPE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]},"Attrs":["In"]}
 		,{"Name":"UsagePage","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 		,{"Name":"LinkCollection","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In","Optional"]}
-		,{"Name":"UsageList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
+		,{"Name":"UsageList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
 		,{"Name":"UsageLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"PreparsedData","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"Report","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated",{"Kind":"MemorySize","BytesParamIndex":7}]}
@@ -19454,7 +19454,7 @@
 		{"Name":"ReportType","Type":{"Kind":"ApiRef","Name":"HIDP_REPORT_TYPE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]},"Attrs":["In"]}
 		,{"Name":"UsagePage","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 		,{"Name":"LinkCollection","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In","Optional"]}
-		,{"Name":"UsageList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
+		,{"Name":"UsageList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
 		,{"Name":"UsageLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"PreparsedData","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"Report","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated",{"Kind":"MemorySize","BytesParamIndex":7}]}
@@ -19491,7 +19491,7 @@
 	,"Params":[
 		{"Name":"ReportType","Type":{"Kind":"ApiRef","Name":"HIDP_REPORT_TYPE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]},"Attrs":["In"]}
 		,{"Name":"LinkCollection","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In","Optional"]}
-		,{"Name":"ButtonList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"ApiRef","Name":"USAGE_AND_PAGE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"ButtonList","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"ApiRef","Name":"USAGE_AND_PAGE","TargetKind":"Default","Api":"Devices.HumanInterfaceDevice","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"UsageLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"PreparsedData","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"Report","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated",{"Kind":"MemorySize","BytesParamIndex":6}]}

@@ -8892,7 +8892,7 @@
 	,"Params":[
 		{"Name":"hRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwInfoLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"lpBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
+		,{"Name":"lpBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"lpdwBufferLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"lpdwIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 	]
@@ -8908,7 +8908,7 @@
 	,"Params":[
 		{"Name":"hRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwInfoLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"lpBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
+		,{"Name":"lpBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"lpdwBufferLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"lpdwIndex","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 	]

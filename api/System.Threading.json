@@ -3249,7 +3249,7 @@
 		{"Name":"lpAttributeList","Type":{"Kind":"ApiRef","Name":"LPPROC_THREAD_ATTRIBUTE_LIST","TargetKind":"Default","Api":"System.Threading","Parents":[]},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"dwAttributeCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In","Reserved"]}
-		,{"Name":"lpSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UIntPtr"}},"Attrs":["Out"]}
+		,{"Name":"lpSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UIntPtr"}},"Attrs":["In","Out"]}
 	]
 },{
 	"Name":"DeleteProcThreadAttributeList"

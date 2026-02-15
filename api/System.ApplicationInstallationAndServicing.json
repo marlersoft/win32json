@@ -3680,6 +3680,18 @@
 }],
 
 "Types":[{
+	"Name":"ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"ElementCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COMPATIBILITY_CONTEXT_ELEMENT","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
 	"Name":"MSIASSEMBLYINFO"
 	,"Architectures":[]
 	,"Platform":null
@@ -10041,18 +10053,6 @@
 		{"Name":"Id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"ACTCTX_COMPATIBILITY_ELEMENT_TYPE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
 		,{"Name":"MaxVersionTested","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"ElementCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"Elements","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"COMPATIBILITY_CONTEXT_ELEMENT","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{

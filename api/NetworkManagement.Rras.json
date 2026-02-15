@@ -10740,7 +10740,7 @@
 		,{"Name":"lpdwGlobalInfoSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
 		,{"Name":"ppClientInterfaceInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"lpdwClientInterfaceInfoSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
-		,{"Name":"lplpwsDLLPath","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","Optional"]}
+		,{"Name":"lplpwsDLLPath","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out","Optional"]}
 	]
 },{
 	"Name":"MprConfigTransportEnum"

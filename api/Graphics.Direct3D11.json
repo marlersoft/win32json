@@ -9221,7 +9221,7 @@
 			,{"Name":"pSrcSurface","Type":{"Kind":"ApiRef","Name":"ID3D11Texture2D","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pDstSurface","Type":{"Kind":"ApiRef","Name":"ID3D11Texture2D","TargetKind":"Com","Api":"Graphics.Direct3D11","Parents":[]},"Attrs":["In"]}
 			,{"Name":"IVSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pIV","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
+			,{"Name":"pIV","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		]
 	},{
 		"Name":"DecryptionBlt"
@@ -9239,7 +9239,7 @@
 			,{"Name":"ContentKeySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 			,{"Name":"pContentKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":4},"Optional","Const"]}
 			,{"Name":"IVSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-			,{"Name":"pIV","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":6},"Optional"]}
+			,{"Name":"pIV","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":6},"Optional"]}
 		]
 	},{
 		"Name":"StartSessionKeyRefresh"

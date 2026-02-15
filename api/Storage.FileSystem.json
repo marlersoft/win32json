@@ -2432,6 +2432,17 @@
 	]
 	,"IntegerBase":"UInt32"
 },{
+	"Name":"FILE_DISPOSITION_INFO"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"DeleteFile","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
 	"Name":"FindFileHandle"
 	,"Architectures":[]
 	,"Platform":null
@@ -7582,17 +7593,6 @@
 	,"Fields":[
 		{"Name":"FileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReparseTag","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"FILE_DISPOSITION_INFO"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"DeleteFileA","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{

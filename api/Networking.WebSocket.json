@@ -213,7 +213,7 @@
 		{"Name":"hWebSocket","Type":{"Kind":"ApiRef","Name":"WEB_SOCKET_HANDLE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pResponseHeaders","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"ApiRef","Name":"WEB_SOCKET_HTTP_HEADER","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]}},"Attrs":["In","Const"]}
 		,{"Name":"ulReponseHeaderCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"pulSelectedExtensions","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		,{"Name":"pulSelectedExtensions","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":4,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"pulSelectedExtensionCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"pulSelectedSubprotocol","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 	]
@@ -303,7 +303,7 @@
 	,"Params":[
 		{"Name":"hWebSocket","Type":{"Kind":"ApiRef","Name":"WEB_SOCKET_HANDLE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":["In"]}
 		,{"Name":"eActionQueue","Type":{"Kind":"ApiRef","Name":"WEB_SOCKET_ACTION_QUEUE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pDataBuffers","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"ApiRef","Name":"WEB_SOCKET_BUFFER","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]}},"Attrs":["Out"]}
+		,{"Name":"pDataBuffers","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":3,"Child":{"Kind":"ApiRef","Name":"WEB_SOCKET_BUFFER","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"pulDataBufferCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"pAction","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WEB_SOCKET_ACTION","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]}},"Attrs":["Out"]}
 		,{"Name":"pBufferType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WEB_SOCKET_BUFFER_TYPE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]}},"Attrs":["Out"]}
@@ -359,7 +359,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"eType","Type":{"Kind":"ApiRef","Name":"WEB_SOCKET_PROPERTY_TYPE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pvValue","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out"]}
+		,{"Name":"pvValue","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":2,"Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"ulSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 	]
 }],

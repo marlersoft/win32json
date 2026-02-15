@@ -1,5 +1,1631 @@
 {
 "Constants":[{
+	"Name":"CATID_MSIME_IImePadApplet_VER7"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"4a0f8e31-c3ee-11d1-afef-00805f0c8b6d"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet_VER80"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"56f7a792-fef1-11d3-8463-00c04f7a06e5"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet_VER81"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"656520b0-bb88-11d4-84c0-00c04f7a06e5"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet900"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"faae51bf-5e5b-4a1d-8de1-17c1d9e1728d"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet1000"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"e081e1d6-2389-43cb-b66f-609f823d9f9c"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet1200"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"a47fb5fc-7d15-4223-a789-b781bf9ae667"
+	,"Attrs":[]
+},{
+	"Name":"CATID_MSIME_IImePadApplet"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"7566cad1-4ec9-4478-9fe9-8ed766619edf"
+	,"Attrs":[]
+},{
+	"Name":"FEID_NONE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"FEID_CHINESE_TRADITIONAL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"FEID_CHINESE_SIMPLIFIED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"FEID_CHINESE_HONGKONG"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"FEID_CHINESE_SINGAPORE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"FEID_JAPANESE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"FEID_KOREAN"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"FEID_KOREAN_JOHAB"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_NONE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_QUERY_CAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_APPLY_CAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_APPLY_CAND_EX"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_STRING_FIX"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":65536
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_HIDE_CAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":131072
+	,"Attrs":[]
+},{
+	"Name":"INFOMASK_BLOCK_CAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":262144
+	,"Attrs":[]
+},{
+	"Name":"IMEFAREASTINFO_TYPE_DEFAULT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IMEFAREASTINFO_TYPE_READING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMEFAREASTINFO_TYPE_COMMENT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMEFAREASTINFO_TYPE_COSTTIME"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"CHARINFO_APPLETID_MASK"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4278190080
+	,"Attrs":[]
+},{
+	"Name":"CHARINFO_FEID_MASK"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":15728640
+	,"Attrs":[]
+},{
+	"Name":"CHARINFO_CHARID_MASK"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":65535
+	,"Attrs":[]
+},{
+	"Name":"MAX_APPLETTITLE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":64
+	,"Attrs":[]
+},{
+	"Name":"MAX_FONTFACE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_NONE"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_PROPERTY"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_HELP"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_TITLE"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":65536
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_TITLEFONTFACE"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":131072
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_CATEGORY"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":262144
+	,"Attrs":[]
+},{
+	"Name":"IPACFG_LANG"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IPACID_NONE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IPACID_SOFTKEY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IPACID_HANDWRITING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IPACID_STROKESEARCH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IPACID_RADICALSEARCH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IPACID_SYMBOLSEARCH"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"IPACID_VOICE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"IPACID_EPWING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"IPACID_OCR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IPACID_CHARLIST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":9
+	,"Attrs":[]
+},{
+	"Name":"IPACID_USER"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":256
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4096
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_INSERTSTRINGCANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4098
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_INSERTITEMCANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4099
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_SENDKEYCONTROL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4101
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_GETSELECTEDSTRING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4103
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_SETAPPLETDATA"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4105
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_GETAPPLETDATA"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4106
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_SETTITLEFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4107
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_GETCOMPOSITIONSTRINGID"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4109
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_INSERTSTRINGCANDIDATEINFO"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4110
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_CHANGESTRINGCANDIDATEINFO"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4111
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_INSERTSTRINGINFO"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4114
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_CHANGESTRINGINFO"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4115
+	,"Attrs":[]
+},{
+	"Name":"IMEPADREQ_GETCURRENTUILANGID"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4120
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CONVERTALL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_DETERMINALL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_DETERMINCHAR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CLEARALL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETSET"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETLEFT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETRIGHT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETTOP"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETBOTTOM"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":9
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETBACKSPACE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":10
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_CARETDELETE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":11
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_PHRASEDELETE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":12
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_INSERTSPACE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":13
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_INSERTFULLSPACE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":14
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_INSERTHALFSPACE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":15
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_ONIME"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_OFFIME"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":17
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_ONPRECONVERSION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":18
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_OFFPRECONVERSION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":19
+	,"Attrs":[]
+},{
+	"Name":"IMEPADCTRL_PHONETICCANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":20
+	,"Attrs":[]
+},{
+	"Name":"IMEKEYCTRLMASK_ALT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMEKEYCTRLMASK_CTRL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMEKEYCTRLMASK_SHIFT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IMEKEYCTRL_UP"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMEKEYCTRL_DOWN"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":256
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_ACTIVATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":257
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_INACTIVATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":258
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_SHOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":260
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_HIDE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":261
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_SIZECHANGING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":262
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_SIZECHANGED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":263
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_CONFIG"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":264
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_HELP"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":265
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_QUERYCAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":266
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_APPLYCAND"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":267
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_APPLYCANDEX"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":268
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_SETTINGCHANGED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":269
+	,"Attrs":[]
+},{
+	"Name":"IMEPN_USER"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":356
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_ENABLED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_SIZINGNOTIFY"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_VERTICALFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":256
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_HORIZONTALFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":512
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_SIZEFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":768
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MAXWIDTHFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":4096
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MAXHEIGHTFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":8192
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MAXSIZEFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":12288
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MINWIDTHFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":65536
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MINHEIGHTFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":131072
+	,"Attrs":[]
+},{
+	"Name":"IPAWS_MINSIZEFIXED"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":196608
+	,"Attrs":[]
+},{
+	"Name":"STYLE_DESCRIPTION_SIZE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"IMEMENUITEM_STRING_SIZE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":80
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETCANDIDATEPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETCANDIDATEPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETCOMPOSITIONFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":9
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETCOMPOSITIONFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":10
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETCOMPOSITIONWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":11
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETCOMPOSITIONWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":12
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETSTATUSWINDOWPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":15
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSTATUSWINDOWPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IMC_CLOSESTATUSWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":33
+	,"Attrs":[]
+},{
+	"Name":"IMC_OPENSTATUSWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":34
+	,"Attrs":[]
+},{
+	"Name":"NI_FINALIZECONVERSIONRESULT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":20
+	,"Attrs":[]
+},{
+	"Name":"ISC_SHOWUICANDIDATEWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"ISC_SHOWUICOMPOSITIONWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2147483648
+	,"Attrs":[]
+},{
+	"Name":"ISC_SHOWUIGUIDELINE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1073741824
+	,"Attrs":[]
+},{
+	"Name":"ISC_SHOWUIALLCANDIDATEWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":15
+	,"Attrs":[]
+},{
+	"Name":"ISC_SHOWUIALL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3221225487
+	,"Attrs":[]
+},{
+	"Name":"MOD_LEFT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32768
+	,"Attrs":[]
+},{
+	"Name":"MOD_RIGHT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16384
+	,"Attrs":[]
+},{
+	"Name":"MOD_ON_KEYUP"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2048
+	,"Attrs":[]
+},{
+	"Name":"MOD_IGNORE_ALL_MODIFIER"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1024
+	,"Attrs":[]
+},{
+	"Name":"IME_HOTKEY_DSWITCH_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":256
+	,"Attrs":[]
+},{
+	"Name":"IME_HOTKEY_DSWITCH_LAST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":287
+	,"Attrs":[]
+},{
+	"Name":"IME_HOTKEY_PRIVATE_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":512
+	,"Attrs":[]
+},{
+	"Name":"IME_HOTKEY_PRIVATE_LAST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":543
+	,"Attrs":[]
+},{
+	"Name":"CS_INSERTCHAR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8192
+	,"Attrs":[]
+},{
+	"Name":"CS_NOMOVECARET"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16384
+	,"Attrs":[]
+},{
+	"Name":"IMEVER_0310"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":196618
+	,"Attrs":[]
+},{
+	"Name":"IMEVER_0400"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":262144
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_AT_CARET"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":65536
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_SPECIAL_UI"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":131072
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_CANDLIST_START_FROM_1"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":262144
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_UNICODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":524288
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_COMPLETE_ON_UNSELECT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1048576
+	,"Attrs":[]
+},{
+	"Name":"UI_CAP_2700"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"UI_CAP_ROT90"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"UI_CAP_ROTANY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"SCS_CAP_COMPSTR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"SCS_CAP_MAKEREAD"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"SCS_CAP_SETRECONVERTSTRING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"SELECT_CAP_CONVERSION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"SELECT_CAP_SENTENCE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"GL_LEVEL_NOGUIDELINE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"GL_LEVEL_FATAL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"GL_LEVEL_ERROR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"GL_LEVEL_WARNING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"GL_LEVEL_INFORMATION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_UNKNOWN"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_NOMODULE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_NODICTIONARY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_CANNOTSAVE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":17
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_NOCONVERT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_TYPINGERROR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":33
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_TOOMANYSTROKE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":34
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_READINGCONFLICT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":35
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_INPUTREADING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":36
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_INPUTRADICAL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":37
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_INPUTCODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":38
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_INPUTSYMBOL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":39
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_CHOOSECANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":40
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_REVERSECONVERSION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":41
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_PRIVATE_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32768
+	,"Attrs":[]
+},{
+	"Name":"GL_ID_PRIVATE_LAST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":65535
+	,"Attrs":[]
+},{
+	"Name":"ATTR_INPUT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"ATTR_TARGET_CONVERTED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"ATTR_CONVERTED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"ATTR_TARGET_NOTCONVERTED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"ATTR_INPUT_ERROR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"ATTR_FIXEDCONVERTED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"CFS_DEFAULT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"CFS_RECT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"CFS_POINT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"CFS_FORCE_POSITION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"CFS_CANDIDATEPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":64
+	,"Attrs":[]
+},{
+	"Name":"CFS_EXCLUDE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":128
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_UNKNOWN"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_READ"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_CODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_MEANING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_RADICAL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IME_CAND_STROKE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"IMN_CLOSESTATUSWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMN_OPENSTATUSWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMN_CHANGECANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IMN_CLOSECANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IMN_OPENCANDIDATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETCONVERSIONMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETSENTENCEMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETOPENSTATUS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETCANDIDATEPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":9
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETCOMPOSITIONFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":10
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETCOMPOSITIONWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":11
+	,"Attrs":[]
+},{
+	"Name":"IMN_SETSTATUSWINDOWPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":12
+	,"Attrs":[]
+},{
+	"Name":"IMN_GUIDELINE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":13
+	,"Attrs":[]
+},{
+	"Name":"IMN_PRIVATE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":14
+	,"Attrs":[]
+},{
+	"Name":"IMR_COMPOSITIONWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMR_CANDIDATEWINDOW"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMR_COMPOSITIONFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IMR_RECONVERTSTRING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IMR_CONFIRMRECONVERTSTRING"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":5
+	,"Attrs":[]
+},{
+	"Name":"IMR_QUERYCHARPOSITION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"IMR_DOCUMENTFEED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":7
+	,"Attrs":[]
+},{
+	"Name":"IMM_ERROR_NODATA"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":-1
+	,"Attrs":[]
+},{
+	"Name":"IMM_ERROR_GENERAL"
+	,"Type":{"Kind":"Native","Name":"Int32"}
+	,"ValueType":"Int32"
+	,"Value":-2
+	,"Attrs":[]
+},{
+	"Name":"IME_CONFIG_GENERAL"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IME_CONFIG_REGISTERWORD"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IME_CONFIG_SELECTDICTIONARY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IME_REGWORD_STYLE_EUDC"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IME_REGWORD_STYLE_USER_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2147483648
+	,"Attrs":[]
+},{
+	"Name":"IME_REGWORD_STYLE_USER_LAST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4294967295
+	,"Attrs":[]
+},{
+	"Name":"IACE_CHILDREN"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IACE_DEFAULT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IACE_IGNORENOCONTEXT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"IGIMIF_RIGHTMENU"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_CMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_SMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_CONFIGURE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_TOOLS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_HELP"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_OTHER"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"IGIMII_INPUTTOOLS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":64
+	,"Attrs":[]
+},{
+	"Name":"IMFT_RADIOCHECK"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IMFT_SEPARATOR"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMFT_SUBMENU"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"SOFTKEYBOARD_TYPE_T1"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"SOFTKEYBOARD_TYPE_C1"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMMGWL_IMC"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IMMGWLP_IMC"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":0
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETCONVERSIONMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSENTENCEMODE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETOPENSTATUS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":6
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETSOFTKBDFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":17
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSOFTKBDFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":18
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETSOFTKBDPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":19
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSOFTKBDPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":20
+	,"Attrs":[]
+},{
+	"Name":"IMC_GETSOFTKBDSUBTYPE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":21
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSOFTKBDSUBTYPE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":22
+	,"Attrs":[]
+},{
+	"Name":"IMC_SETSOFTKBDDATA"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":24
+	,"Attrs":[]
+},{
+	"Name":"NI_CONTEXTUPDATED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":3
+	,"Attrs":[]
+},{
+	"Name":"IME_SYSINFO_WINLOGON"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IME_SYSINFO_WOW16"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"INIT_STATUSWNDPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"INIT_CONVERSION"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"INIT_SENTENCE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"INIT_LOGFONT"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"INIT_COMPFORM"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"INIT_SOFTKBDPOS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_END_UNLOAD"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":1
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_KBD_CHAR_FIRST"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":2
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_IGNORE_UPKEYS"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":4
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_NEED_ALTKEY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":8
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_NO_KEYS_ON_CLOSE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IME_PROP_ACCEPT_WIDE_VKEY"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":32
+	,"Attrs":[]
+},{
+	"Name":"UI_CAP_SOFTKBD"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":65536
+	,"Attrs":[]
+},{
+	"Name":"IMN_SOFTKBDDESTROYED"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":17
+	,"Attrs":[]
+},{
+	"Name":"IME_UI_CLASS_NAME_SIZE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":16
+	,"Attrs":[]
+},{
+	"Name":"IME_ESC_STRING_BUFFER_SIZE"
+	,"Type":{"Kind":"Native","Name":"UInt32"}
+	,"ValueType":"UInt32"
+	,"Value":80
+	,"Attrs":[]
+},{
 	"Name":"szImeJapan"
 	,"Type":{"Kind":"Native","Name":"String"}
 	,"ValueType":"String"
@@ -1962,1956 +3588,6 @@
 	,"Value":268435456
 	,"Attrs":[]
 },{
-	"Name":"STYLE_DESCRIPTION_SIZE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IMEMENUITEM_STRING_SIZE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":80
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETCANDIDATEPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETCANDIDATEPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETCOMPOSITIONFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":9
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETCOMPOSITIONFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":10
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETCOMPOSITIONWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":11
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETCOMPOSITIONWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":12
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETSTATUSWINDOWPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":15
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSTATUSWINDOWPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IMC_CLOSESTATUSWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":33
-	,"Attrs":[]
-},{
-	"Name":"IMC_OPENSTATUSWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":34
-	,"Attrs":[]
-},{
-	"Name":"NI_FINALIZECONVERSIONRESULT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":20
-	,"Attrs":[]
-},{
-	"Name":"ISC_SHOWUICANDIDATEWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"ISC_SHOWUICOMPOSITIONWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2147483648
-	,"Attrs":[]
-},{
-	"Name":"ISC_SHOWUIGUIDELINE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1073741824
-	,"Attrs":[]
-},{
-	"Name":"ISC_SHOWUIALLCANDIDATEWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":15
-	,"Attrs":[]
-},{
-	"Name":"ISC_SHOWUIALL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3221225487
-	,"Attrs":[]
-},{
-	"Name":"MOD_LEFT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32768
-	,"Attrs":[]
-},{
-	"Name":"MOD_RIGHT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16384
-	,"Attrs":[]
-},{
-	"Name":"MOD_ON_KEYUP"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2048
-	,"Attrs":[]
-},{
-	"Name":"MOD_IGNORE_ALL_MODIFIER"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1024
-	,"Attrs":[]
-},{
-	"Name":"IME_CHOTKEY_IME_NONIME_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IME_CHOTKEY_SHAPE_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":17
-	,"Attrs":[]
-},{
-	"Name":"IME_CHOTKEY_SYMBOL_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":18
-	,"Attrs":[]
-},{
-	"Name":"IME_JHOTKEY_CLOSE_OPEN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":48
-	,"Attrs":[]
-},{
-	"Name":"IME_KHOTKEY_SHAPE_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":80
-	,"Attrs":[]
-},{
-	"Name":"IME_KHOTKEY_HANJACONVERT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":81
-	,"Attrs":[]
-},{
-	"Name":"IME_KHOTKEY_ENGLISH"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":82
-	,"Attrs":[]
-},{
-	"Name":"IME_THOTKEY_IME_NONIME_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":112
-	,"Attrs":[]
-},{
-	"Name":"IME_THOTKEY_SHAPE_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":113
-	,"Attrs":[]
-},{
-	"Name":"IME_THOTKEY_SYMBOL_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":114
-	,"Attrs":[]
-},{
-	"Name":"IME_HOTKEY_DSWITCH_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"IME_HOTKEY_DSWITCH_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":287
-	,"Attrs":[]
-},{
-	"Name":"IME_HOTKEY_PRIVATE_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":512
-	,"Attrs":[]
-},{
-	"Name":"IME_ITHOTKEY_RESEND_RESULTSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":512
-	,"Attrs":[]
-},{
-	"Name":"IME_ITHOTKEY_PREVIOUS_COMPOSITION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":513
-	,"Attrs":[]
-},{
-	"Name":"IME_ITHOTKEY_UISTYLE_TOGGLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":514
-	,"Attrs":[]
-},{
-	"Name":"IME_ITHOTKEY_RECONVERTSTRING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":515
-	,"Attrs":[]
-},{
-	"Name":"IME_HOTKEY_PRIVATE_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":543
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPREADSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPREADATTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPREADCLAUSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPATTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"GCS_COMPCLAUSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"GCS_CURSORPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":128
-	,"Attrs":[]
-},{
-	"Name":"GCS_DELTASTART"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"GCS_RESULTREADSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":512
-	,"Attrs":[]
-},{
-	"Name":"GCS_RESULTREADCLAUSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1024
-	,"Attrs":[]
-},{
-	"Name":"GCS_RESULTSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2048
-	,"Attrs":[]
-},{
-	"Name":"GCS_RESULTCLAUSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4096
-	,"Attrs":[]
-},{
-	"Name":"CS_INSERTCHAR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8192
-	,"Attrs":[]
-},{
-	"Name":"CS_NOMOVECARET"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16384
-	,"Attrs":[]
-},{
-	"Name":"IMEVER_0310"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":196618
-	,"Attrs":[]
-},{
-	"Name":"IMEVER_0400"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":262144
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_AT_CARET"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":65536
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_SPECIAL_UI"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":131072
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_CANDLIST_START_FROM_1"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":262144
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_UNICODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":524288
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_COMPLETE_ON_UNSELECT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1048576
-	,"Attrs":[]
-},{
-	"Name":"UI_CAP_2700"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"UI_CAP_ROT90"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"UI_CAP_ROTANY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"SCS_CAP_COMPSTR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"SCS_CAP_MAKEREAD"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"SCS_CAP_SETRECONVERTSTRING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"SELECT_CAP_CONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"SELECT_CAP_SENTENCE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"GL_LEVEL_NOGUIDELINE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"GL_LEVEL_FATAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"GL_LEVEL_ERROR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"GL_LEVEL_WARNING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"GL_LEVEL_INFORMATION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_UNKNOWN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_NOMODULE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_NODICTIONARY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_CANNOTSAVE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":17
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_NOCONVERT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_TYPINGERROR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":33
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_TOOMANYSTROKE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":34
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_READINGCONFLICT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":35
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_INPUTREADING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":36
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_INPUTRADICAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":37
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_INPUTCODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":38
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_INPUTSYMBOL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":39
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_CHOOSECANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":40
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_REVERSECONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":41
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_PRIVATE_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32768
-	,"Attrs":[]
-},{
-	"Name":"GL_ID_PRIVATE_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":65535
-	,"Attrs":[]
-},{
-	"Name":"ATTR_INPUT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"ATTR_TARGET_CONVERTED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"ATTR_CONVERTED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"ATTR_TARGET_NOTCONVERTED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"ATTR_INPUT_ERROR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"ATTR_FIXEDCONVERTED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"CFS_DEFAULT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"CFS_RECT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"CFS_POINT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"CFS_FORCE_POSITION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"CFS_CANDIDATEPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":64
-	,"Attrs":[]
-},{
-	"Name":"CFS_EXCLUDE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":128
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_SOFTKBD"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":128
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_NOCONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_EUDC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":512
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_SYMBOL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1024
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_FIXED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2048
-	,"Attrs":[]
-},{
-	"Name":"IME_CMODE_RESERVED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4026531840
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_NONE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_PLAURALCLAUSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_SINGLECONVERT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_AUTOMATIC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_PHRASEPREDICT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_CONVERSATION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IME_SMODE_RESERVED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":61440
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_UNKNOWN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_READ"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_CODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_MEANING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_RADICAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IME_CAND_STROKE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"IMN_CLOSESTATUSWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMN_OPENSTATUSWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMN_CHANGECANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IMN_CLOSECANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IMN_OPENCANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETCONVERSIONMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETSENTENCEMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETOPENSTATUS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETCANDIDATEPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":9
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETCOMPOSITIONFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":10
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETCOMPOSITIONWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":11
-	,"Attrs":[]
-},{
-	"Name":"IMN_SETSTATUSWINDOWPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":12
-	,"Attrs":[]
-},{
-	"Name":"IMN_GUIDELINE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":13
-	,"Attrs":[]
-},{
-	"Name":"IMN_PRIVATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":14
-	,"Attrs":[]
-},{
-	"Name":"IMR_COMPOSITIONWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMR_CANDIDATEWINDOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMR_COMPOSITIONFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IMR_RECONVERTSTRING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IMR_CONFIRMRECONVERTSTRING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"IMR_QUERYCHARPOSITION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"IMR_DOCUMENTFEED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"IMM_ERROR_NODATA"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":-1
-	,"Attrs":[]
-},{
-	"Name":"IMM_ERROR_GENERAL"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":-2
-	,"Attrs":[]
-},{
-	"Name":"IME_CONFIG_GENERAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_CONFIG_REGISTERWORD"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IME_CONFIG_SELECTDICTIONARY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_QUERY_SUPPORT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_RESERVED_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_RESERVED_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2047
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_PRIVATE_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2048
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_PRIVATE_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4095
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_SEQUENCE_TO_INTERNAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4097
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_GET_EUDC_DICTIONARY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4099
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_SET_EUDC_DICTIONARY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4100
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_MAX_KEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4101
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_IME_NAME"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4102
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_SYNC_HOTKEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4103
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_HANJA_MODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4104
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_AUTOMATA"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4105
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_PRIVATE_HOTKEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4106
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_GETHELPFILENAME"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4107
-	,"Attrs":[]
-},{
-	"Name":"IME_REGWORD_STYLE_EUDC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_REGWORD_STYLE_USER_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2147483648
-	,"Attrs":[]
-},{
-	"Name":"IME_REGWORD_STYLE_USER_LAST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4294967295
-	,"Attrs":[]
-},{
-	"Name":"IACE_CHILDREN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IACE_DEFAULT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IACE_IGNORENOCONTEXT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IGIMIF_RIGHTMENU"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_CMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_SMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_CONFIGURE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_TOOLS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_HELP"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_OTHER"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IGIMII_INPUTTOOLS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":64
-	,"Attrs":[]
-},{
-	"Name":"IMFT_RADIOCHECK"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMFT_SEPARATOR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMFT_SUBMENU"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"SOFTKEYBOARD_TYPE_T1"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"SOFTKEYBOARD_TYPE_C1"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMMGWL_IMC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IMMGWLP_IMC"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETCONVERSIONMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSENTENCEMODE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETOPENSTATUS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETSOFTKBDFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":17
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSOFTKBDFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":18
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETSOFTKBDPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":19
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSOFTKBDPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":20
-	,"Attrs":[]
-},{
-	"Name":"IMC_GETSOFTKBDSUBTYPE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":21
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSOFTKBDSUBTYPE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":22
-	,"Attrs":[]
-},{
-	"Name":"IMC_SETSOFTKBDDATA"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":24
-	,"Attrs":[]
-},{
-	"Name":"NI_CONTEXTUPDATED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IME_SYSINFO_WINLOGON"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_SYSINFO_WOW16"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"INIT_STATUSWNDPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"INIT_CONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"INIT_SENTENCE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"INIT_LOGFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"INIT_COMPFORM"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"INIT_SOFTKBDPOS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_END_UNLOAD"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_KBD_CHAR_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_IGNORE_UPKEYS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_NEED_ALTKEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_NO_KEYS_ON_CLOSE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IME_PROP_ACCEPT_WIDE_VKEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"UI_CAP_SOFTKBD"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":65536
-	,"Attrs":[]
-},{
-	"Name":"IMN_SOFTKBDDESTROYED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":17
-	,"Attrs":[]
-},{
-	"Name":"IME_UI_CLASS_NAME_SIZE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IME_ESC_STRING_BUFFER_SIZE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":80
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet_VER7"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"4a0f8e31-c3ee-11d1-afef-00805f0c8b6d"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet_VER80"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"56f7a792-fef1-11d3-8463-00c04f7a06e5"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet_VER81"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"656520b0-bb88-11d4-84c0-00c04f7a06e5"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet900"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"faae51bf-5e5b-4a1d-8de1-17c1d9e1728d"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet1000"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"e081e1d6-2389-43cb-b66f-609f823d9f9c"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet1200"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"a47fb5fc-7d15-4223-a789-b781bf9ae667"
-	,"Attrs":[]
-},{
-	"Name":"CATID_MSIME_IImePadApplet"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"7566cad1-4ec9-4478-9fe9-8ed766619edf"
-	,"Attrs":[]
-},{
-	"Name":"FEID_NONE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"FEID_CHINESE_TRADITIONAL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"FEID_CHINESE_SIMPLIFIED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"FEID_CHINESE_HONGKONG"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"FEID_CHINESE_SINGAPORE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"FEID_JAPANESE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"FEID_KOREAN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"FEID_KOREAN_JOHAB"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_NONE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_QUERY_CAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_APPLY_CAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_APPLY_CAND_EX"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_STRING_FIX"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":65536
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_HIDE_CAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":131072
-	,"Attrs":[]
-},{
-	"Name":"INFOMASK_BLOCK_CAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":262144
-	,"Attrs":[]
-},{
-	"Name":"IMEFAREASTINFO_TYPE_DEFAULT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IMEFAREASTINFO_TYPE_READING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMEFAREASTINFO_TYPE_COMMENT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMEFAREASTINFO_TYPE_COSTTIME"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"CHARINFO_APPLETID_MASK"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4278190080
-	,"Attrs":[]
-},{
-	"Name":"CHARINFO_FEID_MASK"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":15728640
-	,"Attrs":[]
-},{
-	"Name":"CHARINFO_CHARID_MASK"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":65535
-	,"Attrs":[]
-},{
-	"Name":"MAX_APPLETTITLE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":64
-	,"Attrs":[]
-},{
-	"Name":"MAX_FONTFACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_NONE"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_PROPERTY"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_HELP"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_TITLE"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":65536
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_TITLEFONTFACE"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":131072
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_CATEGORY"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":262144
-	,"Attrs":[]
-},{
-	"Name":"IPACFG_LANG"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IPACID_NONE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IPACID_SOFTKEY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IPACID_HANDWRITING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IPACID_STROKESEARCH"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IPACID_RADICALSEARCH"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IPACID_SYMBOLSEARCH"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"IPACID_VOICE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"IPACID_EPWING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"IPACID_OCR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IPACID_CHARLIST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":9
-	,"Attrs":[]
-},{
-	"Name":"IPACID_USER"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4096
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_INSERTSTRINGCANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4098
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_INSERTITEMCANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4099
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_SENDKEYCONTROL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4101
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_GETSELECTEDSTRING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4103
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_SETAPPLETDATA"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4105
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_GETAPPLETDATA"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4106
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_SETTITLEFONT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4107
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_GETCOMPOSITIONSTRINGID"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4109
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_INSERTSTRINGCANDIDATEINFO"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4110
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_CHANGESTRINGCANDIDATEINFO"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4111
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_INSERTSTRINGINFO"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4114
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_CHANGESTRINGINFO"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4115
-	,"Attrs":[]
-},{
-	"Name":"IMEPADREQ_GETCURRENTUILANGID"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4120
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CONVERTALL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_DETERMINALL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_DETERMINCHAR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CLEARALL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETSET"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETLEFT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETRIGHT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETTOP"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETBOTTOM"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":9
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETBACKSPACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":10
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_CARETDELETE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":11
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_PHRASEDELETE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":12
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_INSERTSPACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":13
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_INSERTFULLSPACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":14
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_INSERTHALFSPACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":15
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_ONIME"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_OFFIME"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":17
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_ONPRECONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":18
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_OFFPRECONVERSION"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":19
-	,"Attrs":[]
-},{
-	"Name":"IMEPADCTRL_PHONETICCANDIDATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":20
-	,"Attrs":[]
-},{
-	"Name":"IMEKEYCTRLMASK_ALT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMEKEYCTRLMASK_CTRL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"IMEKEYCTRLMASK_SHIFT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IMEKEYCTRL_UP"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IMEKEYCTRL_DOWN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_FIRST"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_ACTIVATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":257
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_INACTIVATE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":258
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_SHOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":260
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_HIDE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":261
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_SIZECHANGING"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":262
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_SIZECHANGED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":263
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_CONFIG"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":264
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_HELP"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":265
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_QUERYCAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":266
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_APPLYCAND"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":267
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_APPLYCANDEX"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":268
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_SETTINGCHANGED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":269
-	,"Attrs":[]
-},{
-	"Name":"IMEPN_USER"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":356
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_ENABLED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_SIZINGNOTIFY"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_VERTICALFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":256
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_HORIZONTALFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":512
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_SIZEFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":768
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MAXWIDTHFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":4096
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MAXHEIGHTFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":8192
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MAXSIZEFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":12288
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MINWIDTHFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":65536
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MINHEIGHTFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":131072
-	,"Attrs":[]
-},{
-	"Name":"IPAWS_MINSIZEFIXED"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":196608
-	,"Attrs":[]
-},{
 	"Name":"CLSID_ImePlugInDictDictionaryList_CHS"
 	,"Type":{"Kind":"Native","Name":"Guid"}
 	,"ValueType":"String"
@@ -4026,6 +3702,123 @@
 		,{"Name":"IMEPADREQ_GETCONVERSIONSTATUS","Value":4126}
 		,{"Name":"IMEPADREQ_GETVERSION","Value":4127}
 		,{"Name":"IMEPADREQ_GETCURRENTIMEINFO","Value":4128}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"IME_CONVERSION_MODE"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"IME_CMODE_ALPHANUMERIC","Value":0}
+		,{"Name":"IME_CMODE_NATIVE","Value":1}
+		,{"Name":"IME_CMODE_CHINESE","Value":1}
+		,{"Name":"IME_CMODE_HANGUL","Value":1}
+		,{"Name":"IME_CMODE_JAPANESE","Value":1}
+		,{"Name":"IME_CMODE_KATAKANA","Value":2}
+		,{"Name":"IME_CMODE_LANGUAGE","Value":3}
+		,{"Name":"IME_CMODE_FULLSHAPE","Value":8}
+		,{"Name":"IME_CMODE_ROMAN","Value":16}
+		,{"Name":"IME_CMODE_CHARCODE","Value":32}
+		,{"Name":"IME_CMODE_HANJACONVERT","Value":64}
+		,{"Name":"IME_CMODE_NATIVESYMBOL","Value":128}
+		,{"Name":"IME_CMODE_HANGEUL","Value":1}
+		,{"Name":"IME_CMODE_SOFTKBD","Value":128}
+		,{"Name":"IME_CMODE_NOCONVERSION","Value":256}
+		,{"Name":"IME_CMODE_EUDC","Value":512}
+		,{"Name":"IME_CMODE_SYMBOL","Value":1024}
+		,{"Name":"IME_CMODE_FIXED","Value":2048}
+		,{"Name":"IME_CMODE_RESERVED","Value":4026531840}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"IME_SENTENCE_MODE"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"IME_SMODE_NONE","Value":0}
+		,{"Name":"IME_SMODE_PLAURALCLAUSE","Value":1}
+		,{"Name":"IME_SMODE_SINGLECONVERT","Value":2}
+		,{"Name":"IME_SMODE_AUTOMATIC","Value":4}
+		,{"Name":"IME_SMODE_PHRASEPREDICT","Value":8}
+		,{"Name":"IME_SMODE_CONVERSATION","Value":16}
+		,{"Name":"IME_SMODE_RESERVED","Value":61440}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"IME_COMPOSITION_STRING"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"GCS_COMPREADSTR","Value":1}
+		,{"Name":"GCS_COMPREADATTR","Value":2}
+		,{"Name":"GCS_COMPREADCLAUSE","Value":4}
+		,{"Name":"GCS_COMPSTR","Value":8}
+		,{"Name":"GCS_COMPATTR","Value":16}
+		,{"Name":"GCS_COMPCLAUSE","Value":32}
+		,{"Name":"GCS_CURSORPOS","Value":128}
+		,{"Name":"GCS_DELTASTART","Value":256}
+		,{"Name":"GCS_RESULTREADSTR","Value":512}
+		,{"Name":"GCS_RESULTREADCLAUSE","Value":1024}
+		,{"Name":"GCS_RESULTSTR","Value":2048}
+		,{"Name":"GCS_RESULTCLAUSE","Value":4096}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"IME_ESCAPE"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"IME_ESC_QUERY_SUPPORT","Value":3}
+		,{"Name":"IME_ESC_RESERVED_FIRST","Value":4}
+		,{"Name":"IME_ESC_RESERVED_LAST","Value":2047}
+		,{"Name":"IME_ESC_PRIVATE_FIRST","Value":2048}
+		,{"Name":"IME_ESC_PRIVATE_LAST","Value":4095}
+		,{"Name":"IME_ESC_SEQUENCE_TO_INTERNAL","Value":4097}
+		,{"Name":"IME_ESC_GET_EUDC_DICTIONARY","Value":4099}
+		,{"Name":"IME_ESC_SET_EUDC_DICTIONARY","Value":4100}
+		,{"Name":"IME_ESC_MAX_KEY","Value":4101}
+		,{"Name":"IME_ESC_IME_NAME","Value":4102}
+		,{"Name":"IME_ESC_SYNC_HOTKEY","Value":4103}
+		,{"Name":"IME_ESC_HANJA_MODE","Value":4104}
+		,{"Name":"IME_ESC_AUTOMATA","Value":4105}
+		,{"Name":"IME_ESC_PRIVATE_HOTKEY","Value":4106}
+		,{"Name":"IME_ESC_GETHELPFILENAME","Value":4107}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"IME_HOTKEY_IDENTIFIER"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"IME_CHOTKEY_IME_NONIME_TOGGLE","Value":16}
+		,{"Name":"IME_CHOTKEY_SHAPE_TOGGLE","Value":17}
+		,{"Name":"IME_CHOTKEY_SYMBOL_TOGGLE","Value":18}
+		,{"Name":"IME_JHOTKEY_CLOSE_OPEN","Value":48}
+		,{"Name":"IME_KHOTKEY_SHAPE_TOGGLE","Value":80}
+		,{"Name":"IME_KHOTKEY_HANJACONVERT","Value":81}
+		,{"Name":"IME_KHOTKEY_ENGLISH","Value":82}
+		,{"Name":"IME_THOTKEY_IME_NONIME_TOGGLE","Value":112}
+		,{"Name":"IME_THOTKEY_SHAPE_TOGGLE","Value":113}
+		,{"Name":"IME_THOTKEY_SYMBOL_TOGGLE","Value":114}
+		,{"Name":"IME_ITHOTKEY_RESEND_RESULTSTR","Value":512}
+		,{"Name":"IME_ITHOTKEY_PREVIOUS_COMPOSITION","Value":513}
+		,{"Name":"IME_ITHOTKEY_UISTYLE_TOGGLE","Value":514}
+		,{"Name":"IME_ITHOTKEY_RECONVERTSTRING","Value":515}
 	]
 	,"IntegerBase":"UInt32"
 },{
@@ -8304,7 +8097,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"IME_HOTKEY_IDENTIFIER","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"ImmCreateContext"
@@ -8392,7 +8185,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"IME_COMPOSITION_STRING","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpBuf","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"dwBufLen","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
@@ -8407,7 +8200,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"IME_COMPOSITION_STRING","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpBuf","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":3},"Optional"]}
 		,{"Name":"dwBufLen","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
@@ -8542,8 +8335,8 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"lpfdwConversion","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
-		,{"Name":"lpfdwSentence","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpfdwConversion","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IME_CONVERSION_MODE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpfdwSentence","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IME_SENTENCE_MODE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]}},"Attrs":["Out","Optional"]}
 	]
 },{
 	"Name":"ImmSetConversionStatus"
@@ -8556,8 +8349,8 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"param2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"IME_CONVERSION_MODE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
+		,{"Name":"param2","Type":{"Kind":"ApiRef","Name":"IME_SENTENCE_MODE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"ImmGetOpenStatus"
@@ -8678,7 +8471,7 @@
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HKL","TargetKind":"Default","Api":"UI.TextServices","Parents":[]},"Attrs":["In"]}
 		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param2","Type":{"Kind":"ApiRef","Name":"IME_ESCAPE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 		,{"Name":"param3","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 	]
 },{
@@ -8693,7 +8486,7 @@
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"ApiRef","Name":"HKL","TargetKind":"Default","Api":"UI.TextServices","Parents":[]},"Attrs":["In"]}
 		,{"Name":"param1","Type":{"Kind":"ApiRef","Name":"HIMC","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
-		,{"Name":"param2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"param2","Type":{"Kind":"ApiRef","Name":"IME_ESCAPE","TargetKind":"Default","Api":"UI.Input.Ime","Parents":[]},"Attrs":["In"]}
 		,{"Name":"param3","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 	]
 },{

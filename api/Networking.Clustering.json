@@ -3710,6 +3710,102 @@
 }],
 
 "Types":[{
+	"Name":"CLUSPROP_RESOURCE_CLASS_INFO"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_RESOURCE_CLASS_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_VOLUME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_NAME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSTER_SHARED_VOLUME_RENAME_GUID_INPUT"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_VOLUME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_GUID_NAME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSPROP_PARTITION_INFO"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSPROP_PARTITION_INFO_EX"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO_EX","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSPROP_PARTITION_INFO_EX2"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_PARTITION_INFO_EX","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO_EX2","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSPROP_FTSET_INFO"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_FTSET_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
+	"Name":"CLUSPROP_SCSI_ADDRESS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Struct"
+	,"Size":0
+	,"PackingSize":0
+	,"Fields":[
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		,{"Name":"Base2","Type":{"Kind":"ApiRef","Name":"CLUS_SCSI_ADDRESS","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+	]
+	,"NestedTypes":[]
+},{
 	"Name":"_HCLUSTER"
 	,"Architectures":[]
 	,"Platform":null
@@ -7776,7 +7872,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5129_C41","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"rgb","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7788,7 +7884,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5139_C39","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"w","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7800,7 +7896,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5149_C40","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"dw","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7812,7 +7908,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5159_C39","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"l","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7824,7 +7920,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5169_C37","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"sz","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7836,7 +7932,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5186_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"li","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7848,7 +7944,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5199_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"li","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7860,7 +7956,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5211_C54","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[{
@@ -7884,7 +7980,7 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5225_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"ft","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -7943,20 +8039,8 @@
 	,"Size":0
 	,"PackingSize":0
 	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5250_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
+		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 		,{"Name":"rc","Type":{"Kind":"ApiRef","Name":"CLUSTER_RESOURCE_CLASS","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"CLUSPROP_RESOURCE_CLASS_INFO"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5261_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5262_C14","Type":{"Kind":"ApiRef","Name":"CLUS_RESOURCE_CLASS_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -8221,30 +8305,6 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5464_C14","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_VOLUME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5465_C14","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_NAME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"CLUSTER_SHARED_VOLUME_RENAME_GUID_INPUT"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5475_C14","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_VOLUME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5476_C14","Type":{"Kind":"ApiRef","Name":"CLUSTER_SHARED_VOLUME_RENAME_INPUT_GUID_NAME","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
 	"Name":"CLUS_CHKDSK_INFO"
 	,"Architectures":[]
 	,"Platform":null
@@ -8284,42 +8344,6 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"CLUSPROP_PARTITION_INFO"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5507_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5508_C14","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"CLUSPROP_PARTITION_INFO_EX"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5519_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5520_C14","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO_EX","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"CLUSPROP_PARTITION_INFO_EX2"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5533_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_PARTITION_INFO_EX","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5534_C14","Type":{"Kind":"ApiRef","Name":"CLUS_PARTITION_INFO_EX2","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
 	"Name":"CLUS_FTSET_INFO"
 	,"Architectures":[]
 	,"Platform":null
@@ -8329,18 +8353,6 @@
 	,"Fields":[
 		{"Name":"dwRootSignature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFtType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-	]
-	,"NestedTypes":[]
-},{
-	"Name":"CLUSPROP_FTSET_INFO"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5555_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5556_C14","Type":{"Kind":"ApiRef","Name":"CLUS_FTSET_INFO","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -8380,18 +8392,6 @@
 			,"NestedTypes":[]
 		}]
 	}]
-},{
-	"Name":"CLUSPROP_SCSI_ADDRESS"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Struct"
-	,"Size":0
-	,"PackingSize":0
-	,"Fields":[
-		{"Name":"__AnonymousBase_clusapi_L5583_C14","Type":{"Kind":"ApiRef","Name":"CLUSPROP_VALUE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-		,{"Name":"__AnonymousBase_clusapi_L5584_C14","Type":{"Kind":"ApiRef","Name":"CLUS_SCSI_ADDRESS","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]},"Attrs":[]}
-	]
-	,"NestedTypes":[]
 },{
 	"Name":"CLUS_NETNAME_VS_TOKEN_INFO"
 	,"Architectures":[]
@@ -17960,13 +17960,13 @@
 		,{"Name":"pFilterAndType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NOTIFY_FILTER_AND_TYPE","TargetKind":"Default","Api":"Networking.Clustering","Parents":[]}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Out",{"Kind":"MemorySize","BytesParamIndex":4},"Optional"]}
 		,{"Name":"lpbBufferSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
-		,{"Name":"lpszObjectId","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":6,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpszObjectId","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":6,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"lpcchObjectId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
-		,{"Name":"lpszParentId","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":8,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpszParentId","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":8,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"lpcchParentId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
-		,{"Name":"lpszName","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":10,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpszName","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":10,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"lpcchName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
-		,{"Name":"lpszType","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":12,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpszType","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":12,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"lpcchType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 		,{"Name":"dwMilliseconds","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In","Optional"]}
 	]

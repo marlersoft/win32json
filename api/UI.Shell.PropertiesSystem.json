@@ -2425,7 +2425,7 @@
 		{"Name":"propBag","Type":{"Kind":"ApiRef","Name":"IPropertyBag","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
 		,{"Name":"propName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"var","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VARIANT","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["Out"]}
-		,{"Name":"type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"PSPropertyBag_ReadStr"
@@ -3935,7 +3935,7 @@
 		{"Name":"ppropvarDest","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PROPVARIANT","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["Out"]}
 		,{"Name":"propvarSrc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PROPVARIANT","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In","Const"]}
 		,{"Name":"flags","Type":{"Kind":"ApiRef","Name":"PROPVAR_CHANGE_FLAGS","TargetKind":"Default","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":["In"]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"PropVariantToVariant"

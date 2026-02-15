@@ -1448,7 +1448,7 @@
 			,"Size":0
 			,"PackingSize":0
 			,"Fields":[
-				{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+				{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 				,{"Name":"wReserved1","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"wReserved2","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"wReserved3","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -1574,7 +1574,7 @@
 	,"Fields":[
 		{"Name":"lpwstrName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"propid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -2044,7 +2044,7 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"cfType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"dwHint","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pstrName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2679,7 +2679,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"pstg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pcf","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
+		,{"Name":"pcf","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
 		,{"Name":"lplpszUserType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out","Optional"]}
 	]
 },{
@@ -2692,7 +2692,7 @@
 	,"Platform":"windows5.0"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"lpolestream","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In","Out"]}
+		{"Name":"lpolestream","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"pstg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
 		,{"Name":"ptd","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DVTARGETDEVICE","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["In","Const"]}
 	]
@@ -2707,7 +2707,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"pstg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
-		,{"Name":"lpolestream","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"lpolestream","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"SetConvertStg"
@@ -2737,8 +2737,8 @@
 		,{"Name":"lWidth","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"lHeight","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
-		,{"Name":"pmedium","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STGMEDIUM","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["In","Out"]}
-		,{"Name":"polestm","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"pmedium","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STGMEDIUM","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["In"]}
+		,{"Name":"polestm","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"OleConvertOLESTREAMToIStorageEx"
@@ -2750,13 +2750,13 @@
 	,"Platform":"windows5.0"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"polestm","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In","Out"]}
+		{"Name":"polestm","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OLESTREAM","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"pstg","Type":{"Kind":"ApiRef","Name":"IStorage","TargetKind":"Com","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":["In"]}
-		,{"Name":"pcfFormat","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
-		,{"Name":"plwWidth","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
-		,{"Name":"plHeight","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
-		,{"Name":"pdwSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
-		,{"Name":"pmedium","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STGMEDIUM","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["In","Out"]}
+		,{"Name":"pcfFormat","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Out"]}
+		,{"Name":"plwWidth","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
+		,{"Name":"plHeight","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["Out"]}
+		,{"Name":"pdwSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
+		,{"Name":"pmedium","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"STGMEDIUM","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"StgSerializePropVariant"

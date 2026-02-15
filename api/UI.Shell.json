@@ -8148,78 +8148,6 @@
 	,"Value":0
 	,"Attrs":[]
 },{
-	"Name":"SHACF_DEFAULT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"SHACF_FILESYSTEM"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"SHACF_URLHISTORY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"SHACF_URLMRU"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"SHACF_USETAB"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"SHACF_FILESYS_ONLY"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":16
-	,"Attrs":[]
-},{
-	"Name":"SHACF_FILESYS_DIRS"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":32
-	,"Attrs":[]
-},{
-	"Name":"SHACF_VIRTUAL_NAMESPACE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":64
-	,"Attrs":[]
-},{
-	"Name":"SHACF_AUTOSUGGEST_FORCE_ON"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":268435456
-	,"Attrs":[]
-},{
-	"Name":"SHACF_AUTOSUGGEST_FORCE_OFF"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":536870912
-	,"Attrs":[]
-},{
-	"Name":"SHACF_AUTOAPPEND_FORCE_ON"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1073741824
-	,"Attrs":[]
-},{
-	"Name":"SHACF_AUTOAPPEND_FORCE_OFF"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2147483648
-	,"Attrs":[]
-},{
 	"Name":"DLLVER_PLATFORM_WINDOWS"
 	,"Type":{"Kind":"Native","Name":"UInt32"}
 	,"ValueType":"UInt32"
@@ -10713,6 +10641,29 @@
 		,{"Name":"OS_SERVERADMINUI","Value":34}
 		,{"Name":"OS_MEDIACENTER","Value":35}
 		,{"Name":"OS_APPLIANCE","Value":36}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"SHELL_AUTOCOMPLETE_FLAGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"SHACF_DEFAULT","Value":0}
+		,{"Name":"SHACF_FILESYSTEM","Value":1}
+		,{"Name":"SHACF_URLALL","Value":6}
+		,{"Name":"SHACF_URLHISTORY","Value":2}
+		,{"Name":"SHACF_URLMRU","Value":4}
+		,{"Name":"SHACF_USETAB","Value":8}
+		,{"Name":"SHACF_FILESYS_ONLY","Value":16}
+		,{"Name":"SHACF_FILESYS_DIRS","Value":32}
+		,{"Name":"SHACF_VIRTUAL_NAMESPACE","Value":64}
+		,{"Name":"SHACF_AUTOSUGGEST_FORCE_ON","Value":268435456}
+		,{"Name":"SHACF_AUTOSUGGEST_FORCE_OFF","Value":536870912}
+		,{"Name":"SHACF_AUTOAPPEND_FORCE_ON","Value":1073741824}
+		,{"Name":"SHACF_AUTOAPPEND_FORCE_OFF","Value":2147483648}
 	]
 	,"IntegerBase":"UInt32"
 },{
@@ -35074,7 +35025,7 @@
 	,"PackingSize":1
 	,"Fields":[
 		{"Name":"scid","Type":{"Kind":"ApiRef","Name":"PROPERTYKEY","TargetKind":"Default","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"fmt","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cChars","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"csFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -53382,7 +53333,7 @@
 	,"Attrs":[]
 	,"Params":[
 		{"Name":"hwndEdit","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"SHELL_AUTOCOMPLETE_FLAGS","TargetKind":"Default","Api":"UI.Shell","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"SHCreateThreadRef"

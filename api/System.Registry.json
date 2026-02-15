@@ -6541,7 +6541,7 @@
 		,{"Name":"lpReserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Reserved"]}
 		,{"Name":"lpType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"REG_VALUE_TYPE","TargetKind":"Default","Api":"System.Registry","Parents":[]}},"Attrs":["Out","Optional"]}
 		,{"Name":"lpData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":5},"Optional"]}
-		,{"Name":"lpcbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpcbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 	]
 },{
 	"Name":"RegQueryValueExW"
@@ -6558,7 +6558,7 @@
 		,{"Name":"lpReserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Reserved"]}
 		,{"Name":"lpType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"REG_VALUE_TYPE","TargetKind":"Default","Api":"System.Registry","Parents":[]}},"Attrs":["Out","Optional"]}
 		,{"Name":"lpData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":5},"Optional"]}
-		,{"Name":"lpcbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
+		,{"Name":"lpcbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out","Optional"]}
 	]
 },{
 	"Name":"RegReplaceKeyA"
@@ -7033,7 +7033,7 @@
 		,{"Name":"pwszValue","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"pdwType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
-		,{"Name":"pvData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out","Optional"]}
+		,{"Name":"pvData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":8},"Optional"]}
 		,{"Name":"cbDataIn","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"pcbDataOut","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out","Optional"]}
 	]

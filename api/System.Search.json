@@ -20795,7 +20795,7 @@
 			,{"Name":"fUseDefault","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pFilterClsid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Out"]}
 			,{"Name":"SearchDecSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
-			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["Out"]}
+			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["In","Out"]}
 			,{"Name":"ppIFilt","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IFilter","TargetKind":"Com","Api":"Storage.IndexServer","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	},{
@@ -20813,7 +20813,7 @@
 			,{"Name":"fUseDefault","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pFilterClsid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Out"]}
 			,{"Name":"SearchDecSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
-			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["Out"]}
+			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["In","Out"]}
 			,{"Name":"ppIFilt","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IFilter","TargetKind":"Com","Api":"Storage.IndexServer","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	},{
@@ -20831,7 +20831,7 @@
 			,{"Name":"fUseDefault","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pFilterClsid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Out"]}
 			,{"Name":"SearchDecSize","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
-			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["Out"]}
+			,{"Name":"pwcsSearchDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["In","Out"]}
 			,{"Name":"ppIFilt","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IFilter","TargetKind":"Com","Api":"Storage.IndexServer","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	}]
@@ -22030,7 +22030,7 @@
 		{"Name":"pwszDescription","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwPropertyID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"vtType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vtType","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"vValues","Type":{"Kind":"ApiRef","Name":"VARIANT","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -31367,7 +31367,7 @@
 	,"PackingSize":0
 	,"Fields":[
 		{"Name":"ulDiagFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"vt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vt","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"sDiagField","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -33330,7 +33330,7 @@
 		{"Name":"pwszDescription","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwPropertyID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"vtType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
+		,{"Name":"vtType","Type":{"Kind":"ApiRef","Name":"VARENUM","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 		,{"Name":"vValues","Type":{"Kind":"ApiRef","Name":"VARIANT","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
