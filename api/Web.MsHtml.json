@@ -46585,6 +46585,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lFlags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"lZOrder","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -46599,6 +46600,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eM11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"eM12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -46615,6 +46617,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"rcViewport","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hrgnUpdate","Type":{"Kind":"ApiRef","Name":"HRGN","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
@@ -131979,6 +131982,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulTarget","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulURL","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -133072,6 +133076,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwCreationFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -133157,6 +133162,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -133167,6 +133173,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -134135,6 +134142,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -134311,6 +134319,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -135505,6 +135514,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwcsUrl","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -136195,7 +136205,7 @@
 "Functions":[{
 	"Name":"RatingEnable"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136209,7 +136219,7 @@
 },{
 	"Name":"RatingEnableW"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136223,7 +136233,7 @@
 },{
 	"Name":"RatingCheckUserAccess"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136240,7 +136250,7 @@
 },{
 	"Name":"RatingCheckUserAccessW"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136257,7 +136267,7 @@
 },{
 	"Name":"RatingAccessDeniedDialog"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136272,7 +136282,7 @@
 },{
 	"Name":"RatingAccessDeniedDialogW"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136287,7 +136297,7 @@
 },{
 	"Name":"RatingAccessDeniedDialog2"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136301,7 +136311,7 @@
 },{
 	"Name":"RatingAccessDeniedDialog2W"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136315,7 +136325,7 @@
 },{
 	"Name":"RatingFreeDetails"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136327,7 +136337,7 @@
 },{
 	"Name":"RatingObtainCancel"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136339,7 +136349,7 @@
 },{
 	"Name":"RatingObtainQuery"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136354,7 +136364,7 @@
 },{
 	"Name":"RatingObtainQueryW"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136369,7 +136379,7 @@
 },{
 	"Name":"RatingSetupUI"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136382,7 +136392,7 @@
 },{
 	"Name":"RatingSetupUIW"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136395,7 +136405,7 @@
 },{
 	"Name":"RatingAddToApprovedSites"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136413,7 +136423,7 @@
 },{
 	"Name":"RatingClickedOnPRFInternal"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136428,7 +136438,7 @@
 },{
 	"Name":"RatingClickedOnRATInternal"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136443,7 +136453,7 @@
 },{
 	"Name":"RatingEnabledQuery"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136454,7 +136464,7 @@
 },{
 	"Name":"RatingInit"
 	,"SetLastError":false
-	,"DllImport":"MSRATING"
+	,"DllImport":"MSRATING.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136465,7 +136475,7 @@
 },{
 	"Name":"CreateMIMEMap"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136477,7 +136487,7 @@
 },{
 	"Name":"DecodeImage"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136491,7 +136501,7 @@
 },{
 	"Name":"SniffStream"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136505,7 +136515,7 @@
 },{
 	"Name":"GetMaxMIMEIDBytes"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136517,7 +136527,7 @@
 },{
 	"Name":"IdentifyMIMEType"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136531,7 +136541,7 @@
 },{
 	"Name":"ComputeInvCMAP"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136546,7 +136556,7 @@
 },{
 	"Name":"DitherTo8"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136571,7 +136581,7 @@
 },{
 	"Name":"CreateDDrawSurfaceOnDIB"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136584,7 +136594,7 @@
 },{
 	"Name":"DecodeImageEx"
 	,"SetLastError":false
-	,"DllImport":"ImgUtil"
+	,"DllImport":"ImgUtil.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -136599,7 +136609,7 @@
 },{
 	"Name":"DoPrivacyDlg"
 	,"SetLastError":false
-	,"DllImport":"SHDOCVW"
+	,"DllImport":"SHDOCVW.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

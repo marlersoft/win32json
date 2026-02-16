@@ -26,6 +26,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Depth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -77,6 +78,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HeapHandle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"UserAllocation","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -110,6 +112,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"ProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -179,7 +182,7 @@
 "Functions":[{
 	"Name":"VerifierEnumerateResource"
 	,"SetLastError":false
-	,"DllImport":"verifier"
+	,"DllImport":"verifier.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

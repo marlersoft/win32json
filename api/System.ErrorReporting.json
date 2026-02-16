@@ -440,6 +440,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -458,6 +459,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -478,6 +480,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -499,6 +502,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -522,6 +526,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -545,6 +550,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -569,6 +575,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -595,6 +602,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pExceptionPointers","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EXCEPTION_POINTERS","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]}},"Attrs":[]}
 		,{"Name":"bClientPointers","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -638,6 +646,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hProcess","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -723,6 +732,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Name","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -735,6 +745,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EventName","Type":{"Kind":"Array","Shape":{"Size":65},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"Parameters","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"ApiRef","Name":"WER_REPORT_PARAMETER","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]}},"Attrs":[]}
@@ -747,6 +758,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Signature","Type":{"Kind":"ApiRef","Name":"WER_REPORT_SIGNATURE","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]},"Attrs":[]}
 		,{"Name":"BucketId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -768,6 +780,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Signature","Type":{"Kind":"ApiRef","Name":"WER_REPORT_SIGNATURE","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]},"Attrs":[]}
 		,{"Name":"BucketId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -795,6 +808,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Signature","Type":{"Kind":"ApiRef","Name":"WER_REPORT_SIGNATURE","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]},"Attrs":[]}
 		,{"Name":"BucketId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -866,7 +880,7 @@
 "Functions":[{
 	"Name":"WerReportCreate"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -881,7 +895,7 @@
 },{
 	"Name":"WerReportSetParameter"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -896,7 +910,7 @@
 },{
 	"Name":"WerReportAddFile"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -911,7 +925,7 @@
 },{
 	"Name":"WerReportSetUIOption"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -925,7 +939,7 @@
 },{
 	"Name":"WerReportSubmit"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -940,7 +954,7 @@
 },{
 	"Name":"WerReportAddDump"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -958,7 +972,7 @@
 },{
 	"Name":"WerReportCloseHandle"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -970,7 +984,7 @@
 },{
 	"Name":"WerRegisterFile"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -984,7 +998,7 @@
 },{
 	"Name":"WerUnregisterFile"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -996,7 +1010,7 @@
 },{
 	"Name":"WerRegisterMemoryBlock"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1009,7 +1023,7 @@
 },{
 	"Name":"WerUnregisterMemoryBlock"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1021,7 +1035,7 @@
 },{
 	"Name":"WerRegisterExcludedMemoryBlock"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1034,7 +1048,7 @@
 },{
 	"Name":"WerUnregisterExcludedMemoryBlock"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1046,7 +1060,7 @@
 },{
 	"Name":"WerRegisterCustomMetadata"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1059,7 +1073,7 @@
 },{
 	"Name":"WerUnregisterCustomMetadata"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1071,7 +1085,7 @@
 },{
 	"Name":"WerRegisterAdditionalProcess"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1084,7 +1098,7 @@
 },{
 	"Name":"WerUnregisterAdditionalProcess"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1096,7 +1110,7 @@
 },{
 	"Name":"WerRegisterAppLocalDump"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1108,7 +1122,7 @@
 },{
 	"Name":"WerUnregisterAppLocalDump"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1119,7 +1133,7 @@
 },{
 	"Name":"WerSetFlags"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1131,7 +1145,7 @@
 },{
 	"Name":"WerGetFlags"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1144,7 +1158,7 @@
 },{
 	"Name":"WerAddExcludedApplication"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1157,7 +1171,7 @@
 },{
 	"Name":"WerRemoveExcludedApplication"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1170,7 +1184,7 @@
 },{
 	"Name":"WerRegisterRuntimeExceptionModule"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1183,7 +1197,7 @@
 },{
 	"Name":"WerUnregisterRuntimeExceptionModule"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1196,7 +1210,7 @@
 },{
 	"Name":"WerStoreOpen"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1209,7 +1223,7 @@
 },{
 	"Name":"WerStoreClose"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1221,7 +1235,7 @@
 },{
 	"Name":"WerStoreGetFirstReportKey"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1234,7 +1248,7 @@
 },{
 	"Name":"WerStoreGetNextReportKey"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1247,7 +1261,7 @@
 },{
 	"Name":"WerStoreQueryReportMetadataV2"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1261,7 +1275,7 @@
 },{
 	"Name":"WerStoreQueryReportMetadataV3"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1275,7 +1289,7 @@
 },{
 	"Name":"WerFreeString"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1287,7 +1301,7 @@
 },{
 	"Name":"WerStorePurge"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1298,7 +1312,7 @@
 },{
 	"Name":"WerStoreGetReportCount"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1311,7 +1325,7 @@
 },{
 	"Name":"WerStoreGetSizeOnDisk"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1324,7 +1338,7 @@
 },{
 	"Name":"WerStoreQueryReportMetadataV1"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1338,7 +1352,7 @@
 },{
 	"Name":"WerStoreUploadReport"
 	,"SetLastError":false
-	,"DllImport":"wer"
+	,"DllImport":"wer.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1353,7 +1367,7 @@
 },{
 	"Name":"ReportFault"
 	,"SetLastError":false
-	,"DllImport":"faultrep"
+	,"DllImport":"faultrep.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EFaultRepRetVal","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1366,7 +1380,7 @@
 },{
 	"Name":"AddERExcludedApplicationA"
 	,"SetLastError":true
-	,"DllImport":"faultrep"
+	,"DllImport":"faultrep.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1378,7 +1392,7 @@
 },{
 	"Name":"AddERExcludedApplicationW"
 	,"SetLastError":true
-	,"DllImport":"faultrep"
+	,"DllImport":"faultrep.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1390,7 +1404,7 @@
 },{
 	"Name":"WerReportHang"
 	,"SetLastError":false
-	,"DllImport":"faultrep"
+	,"DllImport":"faultrep.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

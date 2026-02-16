@@ -104,6 +104,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"majortype","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"subtype","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -258,6 +259,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pBuffer","Type":{"Kind":"ApiRef","Name":"IMediaBuffer","TargetKind":"Com","Api":"Media.DxMediaObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"dwStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -770,6 +772,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"subtype","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -802,7 +805,7 @@
 "Functions":[{
 	"Name":"DMORegister"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -821,7 +824,7 @@
 },{
 	"Name":"DMOUnregister"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -834,7 +837,7 @@
 },{
 	"Name":"DMOEnum"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -852,7 +855,7 @@
 },{
 	"Name":"DMOGetTypes"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -870,7 +873,7 @@
 },{
 	"Name":"DMOGetName"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -883,7 +886,7 @@
 },{
 	"Name":"MoInitMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -896,7 +899,7 @@
 },{
 	"Name":"MoFreeMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -908,7 +911,7 @@
 },{
 	"Name":"MoCopyMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -921,7 +924,7 @@
 },{
 	"Name":"MoCreateMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -934,7 +937,7 @@
 },{
 	"Name":"MoDeleteMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -946,7 +949,7 @@
 },{
 	"Name":"MoDuplicateMediaType"
 	,"SetLastError":false
-	,"DllImport":"msdmo"
+	,"DllImport":"msdmo.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

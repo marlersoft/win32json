@@ -2438,6 +2438,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeleteFile","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -2503,6 +2504,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ftCreationTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2523,6 +2525,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ftCreationTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2630,6 +2633,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransactionKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"TransactionNotification","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2644,6 +2648,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EnlistmentId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"UOW","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -2656,6 +2661,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TmIdentity","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2668,6 +2674,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SavepointId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -2679,6 +2686,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PropagationCookie","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"UOW","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -2693,6 +2701,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MarshalCookie","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"UOW","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -2705,6 +2714,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VersionMajor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"VersionMinor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2719,6 +2729,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UOW","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"TmIdentity","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -2735,6 +2746,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProtocolId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"StaticInfoLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2750,6 +2762,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ActualTotalAllocationUnits","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"ActualAvailableAllocationUnits","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -2773,6 +2786,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ftCreationTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2789,6 +2803,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ftCreationTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2809,6 +2824,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2837,6 +2853,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StreamSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"cStreamName","Type":{"Kind":"Array","Shape":{"Size":296},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -2849,6 +2866,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSignature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwStrucVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2902,6 +2920,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"EventId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3002,6 +3021,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpReserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3027,6 +3047,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpReserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3069,6 +3090,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"State","Type":{"Kind":"ApiRef","Name":"NtmsDriveState","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3095,6 +3117,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"State","Type":{"Kind":"ApiRef","Name":"NtmsDriveState","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3167,6 +3190,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LibraryType","Type":{"Kind":"ApiRef","Name":"NtmsLibraryType","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"CleanerSlot","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3200,6 +3224,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ChangerType","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3220,6 +3245,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ChangerType","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3255,6 +3281,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"State","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3281,6 +3308,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"State","Type":{"Kind":"ApiRef","Name":"NtmsDoorState","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3321,6 +3349,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Number","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Content","Type":{"Kind":"ApiRef","Name":"NtmsPortContent","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3365,6 +3394,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CurrentLibrary","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"MediaPool","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3389,6 +3419,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CurrentLibrary","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"MediaPool","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3413,6 +3444,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MediaPool","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwNumberOfPartitions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3445,6 +3477,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PhysicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"LogicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3466,6 +3499,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PhysicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"LogicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3524,6 +3558,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PoolType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MediaType","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3557,6 +3592,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MediaType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumberOfSides","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3571,6 +3607,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szVendor","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"szProduct","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -3585,6 +3622,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szVendor","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"szProduct","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -3599,6 +3637,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szVendor","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"szProduct","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -3612,6 +3651,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szVendor","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"szProduct","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -3680,6 +3720,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationCode","Type":{"Kind":"ApiRef","Name":"NtmsLmOperation","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"OperationOption","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3706,6 +3747,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationCode","Type":{"Kind":"ApiRef","Name":"NtmsLmOperation","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"OperationOption","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3764,6 +3806,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Request","Type":{"Kind":"ApiRef","Name":"NtmsOpreqCommand","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Submitted","Type":{"Kind":"ApiRef","Name":"SYSTEMTIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3785,6 +3828,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Request","Type":{"Kind":"ApiRef","Name":"NtmsOpreqCommand","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Submitted","Type":{"Kind":"ApiRef","Name":"SYSTEMTIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3806,6 +3850,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwLibRequestPurgeTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwOpRequestPurgeTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3873,6 +3918,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"ApiRef","Name":"NtmsObjectsTypes","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3892,6 +3938,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Drive","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVEINFORMATIONA","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 			,{"Name":"DriveType","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVETYPEINFORMATIONA","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3919,6 +3966,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"ApiRef","Name":"NtmsObjectsTypes","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3938,6 +3986,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Drive","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVEINFORMATIONW","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 			,{"Name":"DriveType","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVETYPEINFORMATIONW","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -3965,6 +4014,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LibraryType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CleanerSlot","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -3996,6 +4046,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OperationOption","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4019,6 +4070,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OperationOption","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4042,6 +4094,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CurrentLibrary","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"MediaPool","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4063,6 +4116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CurrentLibrary","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"MediaPool","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4084,6 +4138,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PhysicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"LogicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4104,6 +4159,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PhysicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"LogicalMedia","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4124,6 +4180,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Request","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Submitted","Type":{"Kind":"ApiRef","Name":"SYSTEMTIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4145,6 +4202,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Request","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Submitted","Type":{"Kind":"ApiRef","Name":"SYSTEMTIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4166,6 +4224,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4185,6 +4244,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Drive","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVEINFORMATIONA","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 			,{"Name":"DriveType","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVETYPEINFORMATIONA","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -4211,6 +4271,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4230,6 +4291,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Drive","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVEINFORMATIONW","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 			,{"Name":"DriveType","Type":{"Kind":"ApiRef","Name":"NTMS_DRIVETYPEINFORMATIONW","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -4309,6 +4371,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileSystemType","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"VolumeName","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4390,6 +4453,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwOperation","Type":{"Kind":"ApiRef","Name":"NtmsNotificationOperations","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"ObjectId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4402,6 +4466,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LabelType","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"LabelIDSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4457,6 +4522,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Internal","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -4496,6 +4562,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbNode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4508,6 +4575,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ByteLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4520,6 +4588,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TotalAvailable","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"CurrentAvailable","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -4547,6 +4616,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NameLengthInBytes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Name","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4559,6 +4629,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StreamIdentifier","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4570,6 +4641,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StreamIdentifier","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"VirtualLsn","Type":{"Kind":"ApiRef","Name":"CLS_LSN","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -4583,6 +4655,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CreationTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4644,6 +4717,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ubMajorVersion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ubMinorVersion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4659,6 +4733,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hdrIoStats","Type":{"Kind":"ApiRef","Name":"CLS_IO_STATISTICS_HEADER","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"cFlush","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4674,6 +4749,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cidNode","Type":{"Kind":"ApiRef","Name":"CLFS_NODE_ID","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"hLog","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4691,6 +4767,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"coffLow","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"coffHigh","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4776,6 +4853,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"LengthInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4790,6 +4868,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"MaximumSize","Type":{"Kind":"ApiRef","Name":"_MaximumSize_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_PolicyParameters_e__Union"]},"Attrs":[]}
 			,{"Name":"MinimumSize","Type":{"Kind":"ApiRef","Name":"_MinimumSize_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_PolicyParameters_e__Union"]},"Attrs":[]}
@@ -4809,6 +4888,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ExtensionLengthInBytes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"ExtensionString","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4821,6 +4901,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"NextContainerSuffix","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
@@ -4832,6 +4913,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"PrefixLengthInBytes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"PrefixString","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4844,6 +4926,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Enabled","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4855,6 +4938,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Percentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4866,6 +4950,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"MinimumAvailablePercentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"MinimumAvailableContainers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4878,6 +4963,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"AbsoluteGrowthInContainers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"RelativeGrowthPercentage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4890,6 +4976,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4901,6 +4988,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4912,6 +5000,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Containers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4939,6 +5028,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Notification","Type":{"Kind":"ApiRef","Name":"CLFS_MGMT_NOTIFICATION_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Lsn","Type":{"Kind":"ApiRef","Name":"CLS_LSN","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -4994,6 +5084,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CallbackContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"AdvanceTailCallback","Type":{"Kind":"ApiRef","Name":"PLOG_TAIL_ADVANCE_CALLBACK","TargetKind":"FunctionPointer","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -5008,6 +5099,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"QuotaUsed","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"QuotaThreshold","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -5582,6 +5674,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwCertEncodingType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5595,6 +5688,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5607,6 +5701,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5619,6 +5714,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbPadding","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5632,6 +5728,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Entropy","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5646,6 +5743,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EfsVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -5657,6 +5755,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EfsVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5669,6 +5768,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwDecryptionError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwHashOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5682,6 +5782,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bHasCurrentKey","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwEncryptionError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5694,6 +5795,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbTotalLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pUserSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
@@ -5707,6 +5809,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbTotalLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pUserSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
@@ -5721,6 +5824,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nCert_Hash","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pUsers","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCRYPTION_CERTIFICATE_HASH","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}}},"Attrs":[]}
@@ -5733,6 +5837,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nUsers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pUsers","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCRYPTION_CERTIFICATE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}}},"Attrs":[]}
@@ -5745,6 +5850,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwEfsAccessType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pCertificatesAdded","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCRYPTION_CERTIFICATE_HASH_LIST","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}},"Attrs":[]}
@@ -5759,6 +5865,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbTotalLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pUserSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
@@ -5772,6 +5879,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nProtectors","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pProtectors","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCRYPTION_PROTECTOR","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}}},"Attrs":[]}
@@ -5811,6 +5919,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"WimEntryInfoSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WimType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5828,6 +5937,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataSourceId","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ResourceHash","Type":{"Kind":"Array","Shape":{"Size":20},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5841,6 +5951,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Algorithm","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -5852,6 +5963,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Algorithm","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5864,6 +5976,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 	]
@@ -5874,6 +5987,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":4
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"LowPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 			,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -5887,6 +6001,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"RecordType","Type":{"Kind":"ApiRef","Name":"TXF_LOG_RECORD_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -5900,6 +6015,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"RecordType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5921,6 +6037,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"RecordType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5940,6 +6057,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"RecordLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5957,6 +6075,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfDisks","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DiskNumbers","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -5969,6 +6088,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VolumeNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"VolumeManagerName","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -5981,6 +6101,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LogicalOffset","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 	]
@@ -5992,6 +6113,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DiskNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -6004,6 +6126,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfPhysicalOffsets","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PhysicalOffset","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"VOLUME_PHYSICAL_OFFSET","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}},"Attrs":[]}
@@ -6016,6 +6139,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ByteOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6029,6 +6153,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"GptAttributes","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"RevertOnClose","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6044,6 +6169,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6060,6 +6186,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaximumRequestsPerPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MinimumPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6076,6 +6203,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RequestsPerPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6096,6 +6224,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RequestSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"NumOutStandingRequests","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6108,6 +6237,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VolumeOffset","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"ExtentLength","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -6120,6 +6250,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AccessType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ExtentsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6133,6 +6264,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClusterSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumberOfClusters","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6146,6 +6278,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Bitmap","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
 	]
@@ -6157,6 +6290,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VolumeSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -6168,6 +6302,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi0_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -6179,6 +6314,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"shi1_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6192,6 +6328,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi2_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"shi2_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6210,6 +6347,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi501_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"shi501_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6224,6 +6362,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi502_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"shi502_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6244,6 +6383,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi503_netname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"shi503_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6265,6 +6405,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1004_remark","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -6276,6 +6417,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1005_flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6287,6 +6429,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1006_max_uses","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6298,6 +6441,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1501_reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"shi1501_security_descriptor","Type":{"Kind":"ApiRef","Name":"PSECURITY_DESCRIPTOR","TargetKind":"Default","Api":"Security","Parents":[]},"Attrs":[]}
@@ -6310,6 +6454,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"shi1503_sharefilter","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 	]
@@ -6321,6 +6466,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"srvai0_alias","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"srvai0_target","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6335,6 +6481,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sesi0_cname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -6346,6 +6493,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sesi1_cname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"sesi1_username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6362,6 +6510,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sesi2_cname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"sesi2_username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6379,6 +6528,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sesi10_cname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"sesi10_username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6393,6 +6543,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sesi502_cname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"sesi502_username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6411,6 +6562,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"coni0_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6422,6 +6574,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"coni1_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"coni1_type","Type":{"Kind":"ApiRef","Name":"SHARE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6439,6 +6592,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fi2_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6450,6 +6604,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fi3_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fi3_permissions","Type":{"Kind":"ApiRef","Name":"FILE_INFO_FLAGS_PERMISSIONS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6476,6 +6631,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"srvci0_name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"srvci0_subject","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6498,6 +6654,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StatisticsStartTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"BytesReceived","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6548,6 +6705,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sts0_start","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"sts0_fopens","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6590,6 +6748,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Internal","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"InternalHigh","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -6610,6 +6769,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_dwTempHack","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_dwSignature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6733,6 +6893,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_dwSignature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6784,6 +6945,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Address","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6796,6 +6958,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BufferIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6808,6 +6971,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"unused","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
@@ -6852,6 +7016,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Required","Type":{"Kind":"ApiRef","Name":"IORING_CREATE_REQUIRED_FLAGS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Advisory","Type":{"Kind":"ApiRef","Name":"IORING_CREATE_ADVISORY_FLAGS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6864,6 +7029,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IoRingVersion","Type":{"Kind":"ApiRef","Name":"IORING_VERSION","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"IORING_CREATE_FLAGS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6878,6 +7044,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxVersion","Type":{"Kind":"ApiRef","Name":"IORING_VERSION","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"MaxSubmissionQueueSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6904,6 +7071,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"ApiRef","Name":"IORING_REF_KIND","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Handle","Type":{"Kind":"ApiRef","Name":"HandleUnion","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6915,6 +7083,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Handle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6928,6 +7097,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"ApiRef","Name":"IORING_REF_KIND","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Buffer","Type":{"Kind":"ApiRef","Name":"BufferUnion","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6939,6 +7109,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Address","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 			,{"Name":"IndexAndOffset","Type":{"Kind":"ApiRef","Name":"IORING_REGISTERED_BUFFER","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6952,6 +7123,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UserData","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ResultCode","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6965,6 +7137,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Identifier","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -6976,6 +7149,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Action","Type":{"Kind":"ApiRef","Name":"FILE_ACTION","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -6990,6 +7164,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Action","Type":{"Kind":"ApiRef","Name":"FILE_ACTION","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -7014,6 +7189,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -7026,6 +7202,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReparseTag","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReparseDataLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7040,6 +7217,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"DataBuffer","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
@@ -7052,6 +7230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"ERASE_TAPE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Immediate","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7064,6 +7243,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Operation","Type":{"Kind":"ApiRef","Name":"PREPARE_TAPE_OPERATION","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Immediate","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7076,6 +7256,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"TAPEMARK_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7089,6 +7270,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"TAPE_POSITION_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Partition","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7102,6 +7284,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Method","Type":{"Kind":"ApiRef","Name":"TAPE_POSITION_METHOD","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Partition","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7161,6 +7344,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cBytes","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"fFixedDisk","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -7205,6 +7389,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwStreamId","Type":{"Kind":"ApiRef","Name":"WIN_STREAM_ID","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"dwStreamAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7291,6 +7476,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"COPYFILE2_MESSAGE_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"dwPadding","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7303,6 +7489,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ChunkStarted","Type":{"Kind":"ApiRef","Name":"_ChunkStarted_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_Info_e__Union"]},"Attrs":[]}
 			,{"Name":"ChunkFinished","Type":{"Kind":"ApiRef","Name":"_ChunkFinished_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_Info_e__Union"]},"Attrs":[]}
@@ -7318,6 +7505,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"CopyPhase","Type":{"Kind":"ApiRef","Name":"COPYFILE2_COPY_PHASE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 				,{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7337,6 +7525,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -7348,6 +7537,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7366,6 +7556,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7382,6 +7573,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7402,6 +7594,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwStreamNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7435,6 +7628,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwCopyFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7450,6 +7644,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwCopyFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7469,6 +7664,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CreationTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"LastAccessTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7484,6 +7680,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AllocationSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"EndOfFile","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7499,6 +7696,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileNameLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"FileName","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -7511,6 +7709,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"RootDirectory","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7524,6 +7723,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ReplaceIfExists","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7537,6 +7737,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AllocationSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -7548,6 +7749,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EndOfFile","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -7559,6 +7761,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"StreamNameLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7574,6 +7777,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CompressedFileSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"CompressionFormat","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7590,6 +7794,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReparseTag","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7602,6 +7807,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"FileIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7627,6 +7833,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"FileIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7663,6 +7870,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PriorityHint","Type":{"Kind":"ApiRef","Name":"PRIORITY_HINT","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 	]
@@ -7674,6 +7882,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AlignmentRequirement","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -7685,6 +7894,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LogicalBytesPerSector","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PhysicalBytesPerSectorForAtomicity","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7702,6 +7912,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VolumeSerialNumber","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"FileId","Type":{"Kind":"ApiRef","Name":"FILE_ID_128","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -7714,6 +7925,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextEntryOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"FileIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7738,6 +7950,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructureVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"StructureSize","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7757,6 +7970,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Smb2","Type":{"Kind":"ApiRef","Name":"_Smb2_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_ProtocolSpecific_e__Union"]},"Attrs":[]}
 			,{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -7768,6 +7982,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Server","Type":{"Kind":"ApiRef","Name":"_Server_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_ProtocolSpecific_e__Union","_Smb2_e__Struct"]},"Attrs":[]}
 				,{"Name":"Share","Type":{"Kind":"ApiRef","Name":"_Share_e__Struct","TargetKind":"Default","Api":"Storage.FileSystem","Parents":["_ProtocolSpecific_e__Union","_Smb2_e__Struct"]},"Attrs":[]}
@@ -7779,6 +7994,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 					,{"Name":"CachingFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7791,6 +8007,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				]
@@ -7804,6 +8021,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
 		]
@@ -7830,6 +8048,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"FILE_ID_TYPE","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
@@ -7842,6 +8061,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"FileId","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"ObjectId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -7854,7 +8074,7 @@
 "Functions":[{
 	"Name":"SearchPathW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7871,7 +8091,7 @@
 },{
 	"Name":"SearchPathA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7888,7 +8108,7 @@
 },{
 	"Name":"CompareFileTime"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7901,7 +8121,7 @@
 },{
 	"Name":"CreateDirectoryA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7914,7 +8134,7 @@
 },{
 	"Name":"CreateDirectoryW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7927,7 +8147,7 @@
 },{
 	"Name":"CreateFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7945,7 +8165,7 @@
 },{
 	"Name":"CreateFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7963,7 +8183,7 @@
 },{
 	"Name":"DefineDosDeviceW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7977,7 +8197,7 @@
 },{
 	"Name":"DeleteFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7989,7 +8209,7 @@
 },{
 	"Name":"DeleteFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8001,7 +8221,7 @@
 },{
 	"Name":"DeleteVolumeMountPointW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8013,7 +8233,7 @@
 },{
 	"Name":"FileTimeToLocalFileTime"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8026,7 +8246,7 @@
 },{
 	"Name":"FindClose"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8038,7 +8258,7 @@
 },{
 	"Name":"FindCloseChangeNotification"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8050,7 +8270,7 @@
 },{
 	"Name":"FindFirstChangeNotificationA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindChangeNotificationHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8064,7 +8284,7 @@
 },{
 	"Name":"FindFirstChangeNotificationW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindChangeNotificationHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8078,7 +8298,7 @@
 },{
 	"Name":"FindFirstFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8091,7 +8311,7 @@
 },{
 	"Name":"FindFirstFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8104,7 +8324,7 @@
 },{
 	"Name":"FindFirstFileExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8121,7 +8341,7 @@
 },{
 	"Name":"FindFirstFileExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8138,7 +8358,7 @@
 },{
 	"Name":"FindFirstVolumeW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindVolumeHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8151,7 +8371,7 @@
 },{
 	"Name":"FindNextChangeNotification"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8163,7 +8383,7 @@
 },{
 	"Name":"FindNextFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8176,7 +8396,7 @@
 },{
 	"Name":"FindNextFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8189,7 +8409,7 @@
 },{
 	"Name":"FindNextVolumeW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8203,7 +8423,7 @@
 },{
 	"Name":"FindVolumeClose"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8215,7 +8435,7 @@
 },{
 	"Name":"FlushFileBuffers"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8227,7 +8447,7 @@
 },{
 	"Name":"GetDiskFreeSpaceA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8243,7 +8463,7 @@
 },{
 	"Name":"GetDiskFreeSpaceW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8259,7 +8479,7 @@
 },{
 	"Name":"GetDiskFreeSpaceExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8274,7 +8494,7 @@
 },{
 	"Name":"GetDiskFreeSpaceExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8289,7 +8509,7 @@
 },{
 	"Name":"GetDiskSpaceInformationA"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8302,7 +8522,7 @@
 },{
 	"Name":"GetDiskSpaceInformationW"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8315,7 +8535,7 @@
 },{
 	"Name":"GetDriveTypeA"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8327,7 +8547,7 @@
 },{
 	"Name":"GetDriveTypeW"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8339,7 +8559,7 @@
 },{
 	"Name":"GetFileAttributesA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8351,7 +8571,7 @@
 },{
 	"Name":"GetFileAttributesW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8363,7 +8583,7 @@
 },{
 	"Name":"GetFileAttributesExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8377,7 +8597,7 @@
 },{
 	"Name":"GetFileAttributesExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8391,7 +8611,7 @@
 },{
 	"Name":"GetFileInformationByHandle"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8404,7 +8624,7 @@
 },{
 	"Name":"GetFileSize"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8417,7 +8637,7 @@
 },{
 	"Name":"GetFileSizeEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8430,7 +8650,7 @@
 },{
 	"Name":"GetFileType"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8442,7 +8662,7 @@
 },{
 	"Name":"GetFinalPathNameByHandleA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8457,7 +8677,7 @@
 },{
 	"Name":"GetFinalPathNameByHandleW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8472,7 +8692,7 @@
 },{
 	"Name":"GetFileTime"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8487,7 +8707,7 @@
 },{
 	"Name":"GetFullPathNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8502,7 +8722,7 @@
 },{
 	"Name":"GetFullPathNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8517,7 +8737,7 @@
 },{
 	"Name":"GetLogicalDrives"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8528,7 +8748,7 @@
 },{
 	"Name":"GetLogicalDriveStringsW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8541,7 +8761,7 @@
 },{
 	"Name":"GetLongPathNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8555,7 +8775,7 @@
 },{
 	"Name":"GetLongPathNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8569,7 +8789,7 @@
 },{
 	"Name":"AreShortNamesEnabled"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8582,7 +8802,7 @@
 },{
 	"Name":"GetShortPathNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8596,7 +8816,7 @@
 },{
 	"Name":"GetTempFileNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8611,7 +8831,7 @@
 },{
 	"Name":"GetVolumeInformationByHandleW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8630,7 +8850,7 @@
 },{
 	"Name":"GetVolumeInformationW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8649,7 +8869,7 @@
 },{
 	"Name":"GetVolumePathNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8663,7 +8883,7 @@
 },{
 	"Name":"LocalFileTimeToFileTime"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8676,7 +8896,7 @@
 },{
 	"Name":"LockFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8692,7 +8912,7 @@
 },{
 	"Name":"LockFileEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8709,7 +8929,7 @@
 },{
 	"Name":"QueryDosDeviceW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8723,7 +8943,7 @@
 },{
 	"Name":"ReadFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8739,7 +8959,7 @@
 },{
 	"Name":"ReadFileEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8755,7 +8975,7 @@
 },{
 	"Name":"ReadFileScatter"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8771,7 +8991,7 @@
 },{
 	"Name":"RemoveDirectoryA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8783,7 +9003,7 @@
 },{
 	"Name":"RemoveDirectoryW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8795,7 +9015,7 @@
 },{
 	"Name":"SetEndOfFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8807,7 +9027,7 @@
 },{
 	"Name":"SetFileAttributesA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8820,7 +9040,7 @@
 },{
 	"Name":"SetFileAttributesW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8833,7 +9053,7 @@
 },{
 	"Name":"SetFileInformationByHandle"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8848,7 +9068,7 @@
 },{
 	"Name":"SetFilePointer"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8863,7 +9083,7 @@
 },{
 	"Name":"SetFilePointerEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8878,7 +9098,7 @@
 },{
 	"Name":"SetFileTime"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8893,7 +9113,7 @@
 },{
 	"Name":"SetFileValidData"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8906,7 +9126,7 @@
 },{
 	"Name":"UnlockFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8922,7 +9142,7 @@
 },{
 	"Name":"UnlockFileEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8938,7 +9158,7 @@
 },{
 	"Name":"WriteFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8954,7 +9174,7 @@
 },{
 	"Name":"WriteFileEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8970,7 +9190,7 @@
 },{
 	"Name":"WriteFileGather"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8986,7 +9206,7 @@
 },{
 	"Name":"GetTempPathW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8999,7 +9219,7 @@
 },{
 	"Name":"GetVolumeNameForVolumeMountPointW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9013,7 +9233,7 @@
 },{
 	"Name":"GetVolumePathNamesForVolumeNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9028,7 +9248,7 @@
 },{
 	"Name":"CreateFile2"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9044,7 +9264,7 @@
 },{
 	"Name":"SetFileIoOverlappedRange"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9058,7 +9278,7 @@
 },{
 	"Name":"GetCompressedFileSizeA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9071,7 +9291,7 @@
 },{
 	"Name":"GetCompressedFileSizeW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9084,7 +9304,7 @@
 },{
 	"Name":"FindFirstStreamW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindStreamHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9099,7 +9319,7 @@
 },{
 	"Name":"FindNextStreamW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9112,7 +9332,7 @@
 },{
 	"Name":"AreFileApisANSI"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9123,7 +9343,7 @@
 },{
 	"Name":"GetTempPathA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9136,7 +9356,7 @@
 },{
 	"Name":"FindFirstFileNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileNameHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9151,7 +9371,7 @@
 },{
 	"Name":"FindNextFileNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9165,7 +9385,7 @@
 },{
 	"Name":"GetVolumeInformationA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9184,7 +9404,7 @@
 },{
 	"Name":"GetTempFileNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9199,7 +9419,7 @@
 },{
 	"Name":"SetFileApisToOEM"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9210,7 +9430,7 @@
 },{
 	"Name":"SetFileApisToANSI"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9221,7 +9441,7 @@
 },{
 	"Name":"GetTempPath2W"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9234,7 +9454,7 @@
 },{
 	"Name":"GetTempPath2A"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9247,7 +9467,7 @@
 },{
 	"Name":"CopyFileFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9261,7 +9481,7 @@
 },{
 	"Name":"CreateDirectoryFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9274,7 +9494,7 @@
 },{
 	"Name":"CreateFileFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9292,7 +9512,7 @@
 },{
 	"Name":"CreateFile2FromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9308,7 +9528,7 @@
 },{
 	"Name":"DeleteFileFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9320,7 +9540,7 @@
 },{
 	"Name":"FindFirstFileExFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9337,7 +9557,7 @@
 },{
 	"Name":"GetFileAttributesExFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9351,7 +9571,7 @@
 },{
 	"Name":"MoveFileFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9364,7 +9584,7 @@
 },{
 	"Name":"RemoveDirectoryFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9376,7 +9596,7 @@
 },{
 	"Name":"ReplaceFileFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9393,7 +9613,7 @@
 },{
 	"Name":"SetFileAttributesFromAppW"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0"
+	,"DllImport":"api-ms-win-core-file-fromapp-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9406,7 +9626,7 @@
 },{
 	"Name":"VerFindFileA"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"VER_FIND_FILE_STATUS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9425,7 +9645,7 @@
 },{
 	"Name":"VerFindFileW"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"VER_FIND_FILE_STATUS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9444,7 +9664,7 @@
 },{
 	"Name":"VerInstallFileA"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"VER_INSTALL_FILE_STATUS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9463,7 +9683,7 @@
 },{
 	"Name":"VerInstallFileW"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"VER_INSTALL_FILE_STATUS","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9482,7 +9702,7 @@
 },{
 	"Name":"GetFileVersionInfoSizeA"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9495,7 +9715,7 @@
 },{
 	"Name":"GetFileVersionInfoSizeW"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9508,7 +9728,7 @@
 },{
 	"Name":"GetFileVersionInfoA"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9523,7 +9743,7 @@
 },{
 	"Name":"GetFileVersionInfoW"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9538,7 +9758,7 @@
 },{
 	"Name":"GetFileVersionInfoSizeExA"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9552,7 +9772,7 @@
 },{
 	"Name":"GetFileVersionInfoSizeExW"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9566,7 +9786,7 @@
 },{
 	"Name":"GetFileVersionInfoExA"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9582,7 +9802,7 @@
 },{
 	"Name":"GetFileVersionInfoExW"
 	,"SetLastError":true
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9598,7 +9818,7 @@
 },{
 	"Name":"VerLanguageNameA"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9612,7 +9832,7 @@
 },{
 	"Name":"VerLanguageNameW"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9626,7 +9846,7 @@
 },{
 	"Name":"VerQueryValueA"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9641,7 +9861,7 @@
 },{
 	"Name":"VerQueryValueW"
 	,"SetLastError":false
-	,"DllImport":"VERSION"
+	,"DllImport":"VERSION.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9656,7 +9876,7 @@
 },{
 	"Name":"LsnEqual"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9669,7 +9889,7 @@
 },{
 	"Name":"LsnLess"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9682,7 +9902,7 @@
 },{
 	"Name":"LsnGreater"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9695,7 +9915,7 @@
 },{
 	"Name":"LsnNull"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9707,7 +9927,7 @@
 },{
 	"Name":"LsnContainer"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9719,7 +9939,7 @@
 },{
 	"Name":"LsnCreate"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLS_LSN","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9733,7 +9953,7 @@
 },{
 	"Name":"LsnBlockOffset"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9745,7 +9965,7 @@
 },{
 	"Name":"LsnRecordSequence"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9757,7 +9977,7 @@
 },{
 	"Name":"LsnInvalid"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9769,7 +9989,7 @@
 },{
 	"Name":"LsnIncrement"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLS_LSN","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9781,7 +10001,7 @@
 },{
 	"Name":"CreateLogFile"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9798,7 +10018,7 @@
 },{
 	"Name":"DeleteLogByHandle"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9810,7 +10030,7 @@
 },{
 	"Name":"DeleteLogFile"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9823,7 +10043,7 @@
 },{
 	"Name":"AddLogContainer"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9838,7 +10058,7 @@
 },{
 	"Name":"AddLogContainerSet"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9854,7 +10074,7 @@
 },{
 	"Name":"RemoveLogContainer"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9869,7 +10089,7 @@
 },{
 	"Name":"RemoveLogContainerSet"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9885,7 +10105,7 @@
 },{
 	"Name":"SetLogArchiveTail"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9899,7 +10119,7 @@
 },{
 	"Name":"SetEndOfLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9913,7 +10133,7 @@
 },{
 	"Name":"TruncateLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9927,7 +10147,7 @@
 },{
 	"Name":"CreateLogContainerScanContext"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9944,7 +10164,7 @@
 },{
 	"Name":"ScanLogContainers"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9958,7 +10178,7 @@
 },{
 	"Name":"AlignReservedLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9973,7 +10193,7 @@
 },{
 	"Name":"AllocReservedLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9987,7 +10207,7 @@
 },{
 	"Name":"FreeReservedLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10001,7 +10221,7 @@
 },{
 	"Name":"GetLogFileInformation"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10015,7 +10235,7 @@
 },{
 	"Name":"SetLogArchiveMode"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10028,7 +10248,7 @@
 },{
 	"Name":"ReadLogRestartArea"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10045,7 +10265,7 @@
 },{
 	"Name":"ReadPreviousLogRestartArea"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10061,7 +10281,7 @@
 },{
 	"Name":"WriteLogRestartArea"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10080,7 +10300,7 @@
 },{
 	"Name":"GetLogReservationInfo"
 	,"SetLastError":false
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10095,7 +10315,7 @@
 },{
 	"Name":"AdvanceLogBase"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10110,7 +10330,7 @@
 },{
 	"Name":"CloseAndResetLogFile"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10122,7 +10342,7 @@
 },{
 	"Name":"CreateLogMarshallingArea"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10141,7 +10361,7 @@
 },{
 	"Name":"DeleteLogMarshallingArea"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10153,7 +10373,7 @@
 },{
 	"Name":"ReserveAndAppendLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10174,7 +10394,7 @@
 },{
 	"Name":"ReserveAndAppendLogAligned"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10196,7 +10416,7 @@
 },{
 	"Name":"FlushLogBuffers"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10209,7 +10429,7 @@
 },{
 	"Name":"FlushLogToLsn"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10224,7 +10444,7 @@
 },{
 	"Name":"ReadLogRecord"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10245,7 +10465,7 @@
 },{
 	"Name":"ReadNextLogRecord"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10265,7 +10485,7 @@
 },{
 	"Name":"TerminateReadLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10277,7 +10497,7 @@
 },{
 	"Name":"PrepareLogArchive"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10300,7 +10520,7 @@
 },{
 	"Name":"ReadLogArchiveMetadata"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10316,7 +10536,7 @@
 },{
 	"Name":"GetNextLogArchiveExtent"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10331,7 +10551,7 @@
 },{
 	"Name":"TerminateLogArchive"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10343,7 +10563,7 @@
 },{
 	"Name":"ValidateLog"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10358,7 +10578,7 @@
 },{
 	"Name":"GetLogContainerName"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10374,7 +10594,7 @@
 },{
 	"Name":"GetLogIoStatistics"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10390,7 +10610,7 @@
 },{
 	"Name":"RegisterManageableLogClient"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10403,7 +10623,7 @@
 },{
 	"Name":"DeregisterManageableLogClient"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10415,7 +10635,7 @@
 },{
 	"Name":"ReadLogNotification"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10429,7 +10649,7 @@
 },{
 	"Name":"InstallLogPolicy"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10442,7 +10662,7 @@
 },{
 	"Name":"RemoveLogPolicy"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10455,7 +10675,7 @@
 },{
 	"Name":"QueryLogPolicy"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10470,7 +10690,7 @@
 },{
 	"Name":"SetLogFileSizeWithPolicy"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10484,7 +10704,7 @@
 },{
 	"Name":"HandleLogFull"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10496,7 +10716,7 @@
 },{
 	"Name":"LogTailAdvanceFailure"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10509,7 +10729,7 @@
 },{
 	"Name":"RegisterForLogWriteNotification"
 	,"SetLastError":true
-	,"DllImport":"clfsw32"
+	,"DllImport":"clfsw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10523,7 +10743,7 @@
 },{
 	"Name":"QueryUsersOnEncryptedFile"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10536,7 +10756,7 @@
 },{
 	"Name":"QueryRecoveryAgentsOnEncryptedFile"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10549,7 +10769,7 @@
 },{
 	"Name":"RemoveUsersFromEncryptedFile"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10562,7 +10782,7 @@
 },{
 	"Name":"AddUsersToEncryptedFile"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10575,7 +10795,7 @@
 },{
 	"Name":"SetUserFileEncryptionKey"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10587,7 +10807,7 @@
 },{
 	"Name":"SetUserFileEncryptionKeyEx"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10602,7 +10822,7 @@
 },{
 	"Name":"FreeEncryptionCertificateHashList"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10614,7 +10834,7 @@
 },{
 	"Name":"EncryptionDisable"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10627,7 +10847,7 @@
 },{
 	"Name":"DuplicateEncryptionInfoFile"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10643,12 +10863,14 @@
 },{
 	"Name":"GetEncryptedFileMetadata"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"lpFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pcbMetadata","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
@@ -10657,12 +10879,14 @@
 },{
 	"Name":"SetEncryptedFileMetadata"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"lpFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pbOldMetadata","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Optional"]}
@@ -10674,19 +10898,21 @@
 },{
 	"Name":"FreeEncryptedFileMetadata"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pbMetadata","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"LZStart"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10697,7 +10923,7 @@
 },{
 	"Name":"LZDone"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10708,7 +10934,7 @@
 },{
 	"Name":"CopyLZFile"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10721,7 +10947,7 @@
 },{
 	"Name":"LZCopy"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10734,7 +10960,7 @@
 },{
 	"Name":"LZInit"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10746,7 +10972,7 @@
 },{
 	"Name":"GetExpandedNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10759,7 +10985,7 @@
 },{
 	"Name":"GetExpandedNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10772,7 +10998,7 @@
 },{
 	"Name":"LZOpenFileA"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10786,7 +11012,7 @@
 },{
 	"Name":"LZOpenFileW"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10800,7 +11026,7 @@
 },{
 	"Name":"LZSeek"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10814,7 +11040,7 @@
 },{
 	"Name":"LZRead"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10828,7 +11054,7 @@
 },{
 	"Name":"LZClose"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10840,7 +11066,7 @@
 },{
 	"Name":"WofShouldCompressBinaries"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10853,7 +11079,7 @@
 },{
 	"Name":"WofGetDriverVersion"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10867,7 +11093,7 @@
 },{
 	"Name":"WofSetFileDataLocation"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10882,7 +11108,7 @@
 },{
 	"Name":"WofIsExternalFile"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10898,7 +11124,7 @@
 },{
 	"Name":"WofEnumEntries"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10913,7 +11139,7 @@
 },{
 	"Name":"WofWimAddEntry"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10929,7 +11155,7 @@
 },{
 	"Name":"WofWimEnumFiles"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10944,7 +11170,7 @@
 },{
 	"Name":"WofWimSuspendEntry"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10957,7 +11183,7 @@
 },{
 	"Name":"WofWimRemoveEntry"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10970,7 +11196,7 @@
 },{
 	"Name":"WofWimUpdateEntry"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10984,7 +11210,7 @@
 },{
 	"Name":"WofFileEnumFiles"
 	,"SetLastError":false
-	,"DllImport":"WOFUTIL"
+	,"DllImport":"WOFUTIL.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10999,7 +11225,7 @@
 },{
 	"Name":"TxfLogCreateFileReadContext"
 	,"SetLastError":true
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11015,7 +11241,7 @@
 },{
 	"Name":"TxfLogCreateRangeReadContext"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11033,7 +11259,7 @@
 },{
 	"Name":"TxfLogDestroyReadContext"
 	,"SetLastError":true
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11045,7 +11271,7 @@
 },{
 	"Name":"TxfLogReadRecords"
 	,"SetLastError":true
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11061,7 +11287,7 @@
 },{
 	"Name":"TxfReadMetadataInfo"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11077,7 +11303,7 @@
 },{
 	"Name":"TxfLogRecordGetFileName"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11093,7 +11319,7 @@
 },{
 	"Name":"TxfLogRecordGetGenericType"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11108,7 +11334,7 @@
 },{
 	"Name":"TxfSetThreadMiniVersionForCreate"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11120,7 +11346,7 @@
 },{
 	"Name":"TxfGetThreadMiniVersionForCreate"
 	,"SetLastError":false
-	,"DllImport":"txfw32"
+	,"DllImport":"txfw32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11132,7 +11358,7 @@
 },{
 	"Name":"CreateTransaction"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11150,7 +11376,7 @@
 },{
 	"Name":"OpenTransaction"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11163,7 +11389,7 @@
 },{
 	"Name":"CommitTransaction"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11175,7 +11401,7 @@
 },{
 	"Name":"CommitTransactionAsync"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11187,7 +11413,7 @@
 },{
 	"Name":"RollbackTransaction"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11199,7 +11425,7 @@
 },{
 	"Name":"RollbackTransactionAsync"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11211,7 +11437,7 @@
 },{
 	"Name":"GetTransactionId"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11224,7 +11450,7 @@
 },{
 	"Name":"GetTransactionInformation"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11242,7 +11468,7 @@
 },{
 	"Name":"SetTransactionInformation"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11258,7 +11484,7 @@
 },{
 	"Name":"CreateTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11273,7 +11499,7 @@
 },{
 	"Name":"OpenTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11287,7 +11513,7 @@
 },{
 	"Name":"OpenTransactionManagerById"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11301,7 +11527,7 @@
 },{
 	"Name":"RenameTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11314,7 +11540,7 @@
 },{
 	"Name":"RollforwardTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11327,7 +11553,7 @@
 },{
 	"Name":"RecoverTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11339,7 +11565,7 @@
 },{
 	"Name":"GetCurrentClockTransactionManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11352,7 +11578,7 @@
 },{
 	"Name":"GetTransactionManagerId"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11365,7 +11591,7 @@
 },{
 	"Name":"CreateResourceManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11381,7 +11607,7 @@
 },{
 	"Name":"OpenResourceManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11395,7 +11621,7 @@
 },{
 	"Name":"RecoverResourceManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11407,7 +11633,7 @@
 },{
 	"Name":"GetNotificationResourceManager"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11423,7 +11649,7 @@
 },{
 	"Name":"GetNotificationResourceManagerAsync"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11439,7 +11665,7 @@
 },{
 	"Name":"SetResourceManagerCompletionPort"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11453,7 +11679,7 @@
 },{
 	"Name":"CreateEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11470,7 +11696,7 @@
 },{
 	"Name":"OpenEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11484,7 +11710,7 @@
 },{
 	"Name":"RecoverEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11497,7 +11723,7 @@
 },{
 	"Name":"GetEnlistmentRecoveryInformation"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11512,7 +11738,7 @@
 },{
 	"Name":"GetEnlistmentId"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11525,7 +11751,7 @@
 },{
 	"Name":"SetEnlistmentRecoveryInformation"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11539,7 +11765,7 @@
 },{
 	"Name":"PrepareEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11552,7 +11778,7 @@
 },{
 	"Name":"PrePrepareEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11565,7 +11791,7 @@
 },{
 	"Name":"CommitEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11578,7 +11804,7 @@
 },{
 	"Name":"RollbackEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11591,7 +11817,7 @@
 },{
 	"Name":"PrePrepareComplete"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11604,7 +11830,7 @@
 },{
 	"Name":"PrepareComplete"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11617,7 +11843,7 @@
 },{
 	"Name":"ReadOnlyEnlistment"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11630,7 +11856,7 @@
 },{
 	"Name":"CommitComplete"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11643,7 +11869,7 @@
 },{
 	"Name":"RollbackComplete"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11656,7 +11882,7 @@
 },{
 	"Name":"SinglePhaseReject"
 	,"SetLastError":true
-	,"DllImport":"ktmw32"
+	,"DllImport":"ktmw32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11669,7 +11895,7 @@
 },{
 	"Name":"NetShareAdd"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11684,7 +11910,7 @@
 },{
 	"Name":"NetShareEnum"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11702,7 +11928,7 @@
 },{
 	"Name":"NetShareEnumSticky"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11720,7 +11946,7 @@
 },{
 	"Name":"NetShareGetInfo"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11735,7 +11961,7 @@
 },{
 	"Name":"NetShareSetInfo"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11751,7 +11977,7 @@
 },{
 	"Name":"NetShareDel"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11765,7 +11991,7 @@
 },{
 	"Name":"NetShareDelSticky"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11779,7 +12005,7 @@
 },{
 	"Name":"NetShareCheck"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11793,7 +12019,7 @@
 },{
 	"Name":"NetShareDelEx"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11807,7 +12033,7 @@
 },{
 	"Name":"NetServerAliasAdd"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11821,7 +12047,7 @@
 },{
 	"Name":"NetServerAliasDel"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11835,7 +12061,7 @@
 },{
 	"Name":"NetServerAliasEnum"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11853,7 +12079,7 @@
 },{
 	"Name":"NetSessionEnum"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11873,7 +12099,7 @@
 },{
 	"Name":"NetSessionDel"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11887,7 +12113,7 @@
 },{
 	"Name":"NetSessionGetInfo"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11903,7 +12129,7 @@
 },{
 	"Name":"NetConnectionEnum"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11922,7 +12148,7 @@
 },{
 	"Name":"NetFileClose"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11935,7 +12161,7 @@
 },{
 	"Name":"NetFileEnum"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11955,7 +12181,7 @@
 },{
 	"Name":"NetFileGetInfo"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11970,7 +12196,7 @@
 },{
 	"Name":"NetStatisticsGet"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11986,7 +12212,7 @@
 },{
 	"Name":"QueryIoRingCapabilities"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11998,7 +12224,7 @@
 },{
 	"Name":"IsIoRingOpSupported"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12011,7 +12237,7 @@
 },{
 	"Name":"CreateIoRing"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12027,7 +12253,7 @@
 },{
 	"Name":"GetIoRingInfo"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12040,7 +12266,7 @@
 },{
 	"Name":"SubmitIoRing"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12055,7 +12281,7 @@
 },{
 	"Name":"CloseIoRing"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12067,7 +12293,7 @@
 },{
 	"Name":"PopIoRingCompletion"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12080,7 +12306,7 @@
 },{
 	"Name":"SetIoRingCompletionEvent"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12093,7 +12319,7 @@
 },{
 	"Name":"BuildIoRingCancelRequest"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12108,7 +12334,7 @@
 },{
 	"Name":"BuildIoRingReadFile"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12126,7 +12352,7 @@
 },{
 	"Name":"BuildIoRingRegisterFileHandles"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12141,7 +12367,7 @@
 },{
 	"Name":"BuildIoRingRegisterBuffers"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-ioring-l1-1-0"
+	,"DllImport":"api-ms-win-core-ioring-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12156,7 +12382,7 @@
 },{
 	"Name":"Wow64EnableWow64FsRedirection"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12168,7 +12394,7 @@
 },{
 	"Name":"Wow64DisableWow64FsRedirection"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12180,7 +12406,7 @@
 },{
 	"Name":"Wow64RevertWow64FsRedirection"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12192,7 +12418,7 @@
 },{
 	"Name":"GetBinaryTypeA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12205,7 +12431,7 @@
 },{
 	"Name":"GetBinaryTypeW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12218,7 +12444,7 @@
 },{
 	"Name":"GetShortPathNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12232,7 +12458,7 @@
 },{
 	"Name":"GetLongPathNameTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12247,7 +12473,7 @@
 },{
 	"Name":"GetLongPathNameTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12262,7 +12488,7 @@
 },{
 	"Name":"SetFileCompletionNotificationModes"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12275,7 +12501,7 @@
 },{
 	"Name":"SetFileShortNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12288,7 +12514,7 @@
 },{
 	"Name":"SetFileShortNameW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12301,7 +12527,7 @@
 },{
 	"Name":"SetTapePosition"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12318,7 +12544,7 @@
 },{
 	"Name":"GetTapePosition"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12334,7 +12560,7 @@
 },{
 	"Name":"PrepareTape"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12348,7 +12574,7 @@
 },{
 	"Name":"EraseTape"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12362,7 +12588,7 @@
 },{
 	"Name":"CreateTapePartition"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12377,7 +12603,7 @@
 },{
 	"Name":"WriteTapemark"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12392,7 +12618,7 @@
 },{
 	"Name":"GetTapeStatus"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12404,7 +12630,7 @@
 },{
 	"Name":"GetTapeParameters"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12419,7 +12645,7 @@
 },{
 	"Name":"SetTapeParameters"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12433,7 +12659,7 @@
 },{
 	"Name":"EncryptFileA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12445,7 +12671,7 @@
 },{
 	"Name":"EncryptFileW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12457,7 +12683,7 @@
 },{
 	"Name":"DecryptFileA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12470,7 +12696,7 @@
 },{
 	"Name":"DecryptFileW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12483,7 +12709,7 @@
 },{
 	"Name":"FileEncryptionStatusA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12496,7 +12722,7 @@
 },{
 	"Name":"FileEncryptionStatusW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12509,7 +12735,7 @@
 },{
 	"Name":"OpenEncryptedFileRawA"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12523,7 +12749,7 @@
 },{
 	"Name":"OpenEncryptedFileRawW"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12537,7 +12763,7 @@
 },{
 	"Name":"ReadEncryptedFileRaw"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12551,7 +12777,7 @@
 },{
 	"Name":"WriteEncryptedFileRaw"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12565,7 +12791,7 @@
 },{
 	"Name":"CloseEncryptedFileRaw"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12577,7 +12803,7 @@
 },{
 	"Name":"OpenFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12591,7 +12817,7 @@
 },{
 	"Name":"BackupRead"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12609,7 +12835,7 @@
 },{
 	"Name":"BackupSeek"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12626,7 +12852,7 @@
 },{
 	"Name":"BackupWrite"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12644,7 +12870,7 @@
 },{
 	"Name":"GetLogicalDriveStringsA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12657,7 +12883,7 @@
 },{
 	"Name":"SetSearchPathMode"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12669,7 +12895,7 @@
 },{
 	"Name":"CreateDirectoryExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12683,7 +12909,7 @@
 },{
 	"Name":"CreateDirectoryExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12697,7 +12923,7 @@
 },{
 	"Name":"CreateDirectoryTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12712,7 +12938,7 @@
 },{
 	"Name":"CreateDirectoryTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12727,7 +12953,7 @@
 },{
 	"Name":"RemoveDirectoryTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12740,7 +12966,7 @@
 },{
 	"Name":"RemoveDirectoryTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12753,7 +12979,7 @@
 },{
 	"Name":"GetFullPathNameTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12769,7 +12995,7 @@
 },{
 	"Name":"GetFullPathNameTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12785,7 +13011,7 @@
 },{
 	"Name":"DefineDosDeviceA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12799,7 +13025,7 @@
 },{
 	"Name":"QueryDosDeviceA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12813,7 +13039,7 @@
 },{
 	"Name":"CreateFileTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12834,7 +13060,7 @@
 },{
 	"Name":"CreateFileTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12855,7 +13081,7 @@
 },{
 	"Name":"ReOpenFile"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12870,7 +13096,7 @@
 },{
 	"Name":"SetFileAttributesTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12884,7 +13110,7 @@
 },{
 	"Name":"SetFileAttributesTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12898,7 +13124,7 @@
 },{
 	"Name":"GetFileAttributesTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12913,7 +13139,7 @@
 },{
 	"Name":"GetFileAttributesTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12928,7 +13154,7 @@
 },{
 	"Name":"GetCompressedFileSizeTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12942,7 +13168,7 @@
 },{
 	"Name":"GetCompressedFileSizeTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12956,7 +13182,7 @@
 },{
 	"Name":"DeleteFileTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12969,7 +13195,7 @@
 },{
 	"Name":"DeleteFileTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12982,7 +13208,7 @@
 },{
 	"Name":"CheckNameLegalDOS8Dot3A"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12998,7 +13224,7 @@
 },{
 	"Name":"CheckNameLegalDOS8Dot3W"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13014,7 +13240,7 @@
 },{
 	"Name":"FindFirstFileTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13032,7 +13258,7 @@
 },{
 	"Name":"FindFirstFileTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13050,7 +13276,7 @@
 },{
 	"Name":"CopyFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13064,7 +13290,7 @@
 },{
 	"Name":"CopyFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13078,7 +13304,7 @@
 },{
 	"Name":"CopyFileExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13095,7 +13321,7 @@
 },{
 	"Name":"CopyFileExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13112,7 +13338,7 @@
 },{
 	"Name":"CopyFileTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13130,7 +13356,7 @@
 },{
 	"Name":"CopyFileTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13148,7 +13374,7 @@
 },{
 	"Name":"CopyFile2"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13162,7 +13388,7 @@
 },{
 	"Name":"MoveFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13175,7 +13401,7 @@
 },{
 	"Name":"MoveFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13188,7 +13414,7 @@
 },{
 	"Name":"MoveFileExA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13202,7 +13428,7 @@
 },{
 	"Name":"MoveFileExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13216,7 +13442,7 @@
 },{
 	"Name":"MoveFileWithProgressA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13232,7 +13458,7 @@
 },{
 	"Name":"MoveFileWithProgressW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13248,7 +13474,7 @@
 },{
 	"Name":"MoveFileTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13265,7 +13491,7 @@
 },{
 	"Name":"MoveFileTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13282,7 +13508,7 @@
 },{
 	"Name":"ReplaceFileA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13299,7 +13525,7 @@
 },{
 	"Name":"ReplaceFileW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13316,7 +13542,7 @@
 },{
 	"Name":"CreateHardLinkA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13330,7 +13556,7 @@
 },{
 	"Name":"CreateHardLinkW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13344,7 +13570,7 @@
 },{
 	"Name":"CreateHardLinkTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13359,7 +13585,7 @@
 },{
 	"Name":"CreateHardLinkTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13374,7 +13600,7 @@
 },{
 	"Name":"FindFirstStreamTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindStreamHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13390,7 +13616,7 @@
 },{
 	"Name":"FindFirstFileNameTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindFileNameHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13406,7 +13632,7 @@
 },{
 	"Name":"SetVolumeLabelA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13419,7 +13645,7 @@
 },{
 	"Name":"SetVolumeLabelW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13432,7 +13658,7 @@
 },{
 	"Name":"SetFileBandwidthReservation"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13449,7 +13675,7 @@
 },{
 	"Name":"GetFileBandwidthReservation"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13466,7 +13692,7 @@
 },{
 	"Name":"ReadDirectoryChangesW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13485,7 +13711,7 @@
 },{
 	"Name":"ReadDirectoryChangesExW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13505,7 +13731,7 @@
 },{
 	"Name":"FindFirstVolumeA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindVolumeHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13518,7 +13744,7 @@
 },{
 	"Name":"FindNextVolumeA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13532,7 +13758,7 @@
 },{
 	"Name":"FindFirstVolumeMountPointA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindVolumeMointPointHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13546,7 +13772,7 @@
 },{
 	"Name":"FindFirstVolumeMountPointW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FindVolumeMointPointHandle","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13560,7 +13786,7 @@
 },{
 	"Name":"FindNextVolumeMountPointA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13574,7 +13800,7 @@
 },{
 	"Name":"FindNextVolumeMountPointW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13588,7 +13814,7 @@
 },{
 	"Name":"FindVolumeMountPointClose"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13600,7 +13826,7 @@
 },{
 	"Name":"SetVolumeMountPointA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13613,7 +13839,7 @@
 },{
 	"Name":"SetVolumeMountPointW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13626,7 +13852,7 @@
 },{
 	"Name":"DeleteVolumeMountPointA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13638,7 +13864,7 @@
 },{
 	"Name":"GetVolumeNameForVolumeMountPointA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13652,7 +13878,7 @@
 },{
 	"Name":"GetVolumePathNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13666,7 +13892,7 @@
 },{
 	"Name":"GetVolumePathNamesForVolumeNameA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13681,7 +13907,7 @@
 },{
 	"Name":"GetFileInformationByHandleEx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13696,7 +13922,7 @@
 },{
 	"Name":"OpenFileById"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13713,7 +13939,7 @@
 },{
 	"Name":"CreateSymbolicLinkA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13727,7 +13953,7 @@
 },{
 	"Name":"CreateSymbolicLinkW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13741,7 +13967,7 @@
 },{
 	"Name":"CreateSymbolicLinkTransactedA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13756,7 +13982,7 @@
 },{
 	"Name":"CreateSymbolicLinkTransactedW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13771,7 +13997,7 @@
 },{
 	"Name":"NtCreateFile"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

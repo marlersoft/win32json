@@ -152,6 +152,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pgSubjectType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -179,6 +180,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"psFlat","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MS_ADDINFO_FLAT","TargetKind":"Default","Api":"Security.Cryptography.Sip","Parents":[]}},"Attrs":[]}
 			,{"Name":"psCatMember","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MS_ADDINFO_CATALOGMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}},"Attrs":[]}
@@ -193,6 +195,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pIndirectData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SIP_INDIRECT_DATA","TargetKind":"Default","Api":"Security.Cryptography.Sip","Parents":[]}},"Attrs":[]}
@@ -205,6 +208,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbMemObject","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -220,6 +224,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -234,6 +239,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -247,6 +253,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -260,6 +267,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Data","Type":{"Kind":"ApiRef","Name":"CRYPT_ATTRIBUTE_TYPE_VALUE","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]},"Attrs":[]}
 		,{"Name":"DigestAlgorithm","Type":{"Kind":"ApiRef","Name":"CRYPT_ALGORITHM_IDENTIFIER","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]},"Attrs":[]}
@@ -345,6 +353,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hSIP","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -388,6 +397,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pgSubject","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -437,7 +447,7 @@
 "Functions":[{
 	"Name":"CryptSIPGetSignedDataMsg"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -453,7 +463,7 @@
 },{
 	"Name":"CryptSIPPutSignedDataMsg"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -469,7 +479,7 @@
 },{
 	"Name":"CryptSIPCreateIndirectData"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -483,7 +493,7 @@
 },{
 	"Name":"CryptSIPVerifyIndirectData"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -496,7 +506,7 @@
 },{
 	"Name":"CryptSIPRemoveSignedDataMsg"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -509,7 +519,7 @@
 },{
 	"Name":"CryptSIPLoad"
 	,"SetLastError":true
-	,"DllImport":"CRYPT32"
+	,"DllImport":"CRYPT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -523,7 +533,7 @@
 },{
 	"Name":"CryptSIPRetrieveSubjectGuid"
 	,"SetLastError":true
-	,"DllImport":"CRYPT32"
+	,"DllImport":"CRYPT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -537,7 +547,7 @@
 },{
 	"Name":"CryptSIPRetrieveSubjectGuidForCatalogFile"
 	,"SetLastError":true
-	,"DllImport":"CRYPT32"
+	,"DllImport":"CRYPT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -551,7 +561,7 @@
 },{
 	"Name":"CryptSIPAddProvider"
 	,"SetLastError":true
-	,"DllImport":"CRYPT32"
+	,"DllImport":"CRYPT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -563,7 +573,7 @@
 },{
 	"Name":"CryptSIPRemoveProvider"
 	,"SetLastError":true
-	,"DllImport":"CRYPT32"
+	,"DllImport":"CRYPT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -575,7 +585,7 @@
 },{
 	"Name":"CryptSIPGetCaps"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -588,7 +598,7 @@
 },{
 	"Name":"CryptSIPGetSealedDigest"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

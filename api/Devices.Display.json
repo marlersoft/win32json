@@ -4520,6 +4520,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Numerator","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Denominator","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4579,6 +4580,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cx","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cy","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4591,6 +4593,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pixelRate","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"hSyncFreq","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_RATIONAL","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -4607,6 +4610,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"AdditionalSignalInfo","Type":{"Kind":"ApiRef","Name":"_AdditionalSignalInfo_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"videoStandard","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4618,6 +4622,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4693,6 +4698,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"height","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4707,6 +4713,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"targetVideoSignalInfo","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_VIDEO_SIGNAL_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 	]
@@ -4718,6 +4725,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PathSourceSize","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"DesktopImageRegion","Type":{"Kind":"ApiRef","Name":"RECTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4731,6 +4739,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"infoType","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_MODE_INFO_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4744,6 +4753,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"targetMode","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_TARGET_MODE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 			,{"Name":"sourceMode","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_SOURCE_MODE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -4758,6 +4768,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"adapterId","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4771,6 +4782,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"modeInfoIdx","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -4782,6 +4794,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4795,6 +4808,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"adapterId","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4814,6 +4828,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"modeInfoIdx","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -4825,6 +4840,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4838,6 +4854,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sourceInfo","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_PATH_SOURCE_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"targetInfo","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_PATH_TARGET_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -4890,6 +4907,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4904,6 +4922,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"viewGdiDeviceName","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4916,6 +4935,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 	]
@@ -4926,6 +4946,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4937,6 +4958,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -4950,6 +4972,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"flags","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_TARGET_DEVICE_NAME_FLAGS","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -4968,6 +4991,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4982,6 +5006,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"adapterDevicePath","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4994,6 +5019,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"baseOutputTechnology","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_VIDEO_OUTPUT_TECHNOLOGY","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5006,6 +5032,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5017,6 +5044,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5028,6 +5056,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5041,6 +5070,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5052,6 +5082,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5063,6 +5094,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5076,6 +5108,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5089,6 +5122,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5100,6 +5134,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5113,6 +5148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5124,6 +5160,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5135,6 +5172,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5148,6 +5186,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"SDRWhiteLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5160,6 +5199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5171,6 +5211,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5182,6 +5223,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5195,6 +5237,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"DISPLAYCONFIG_DEVICE_INFO_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5209,6 +5252,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5220,6 +5264,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -5233,6 +5278,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hPhysicalMonitor","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"szPhysicalMonitorDescription","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -5245,6 +5291,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwHorizontalFrequencyInHZ","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVerticalFrequencyInHZ","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5358,6 +5405,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sourceId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"numTargets","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5371,6 +5419,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AdapterName","Type":{"Kind":"Array","Shape":{"Size":128},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"numSources","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5384,6 +5433,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numAdapters","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"adapter","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"Adapter","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -5396,6 +5446,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeviceName","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"devMode","Type":{"Kind":"ApiRef","Name":"DEVMODEW","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
@@ -5408,6 +5459,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numDisplayModes","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"displayMode","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"DisplayMode","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -5565,6 +5617,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5598,6 +5651,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -5610,6 +5664,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"e","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"l","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5622,6 +5677,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5634,6 +5690,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"xLeft","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"yTop","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5648,6 +5705,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eXX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"eXY","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -5662,6 +5720,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"flRealizedType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pteBase","Type":{"Kind":"ApiRef","Name":"POINTE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5694,6 +5753,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"culSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwsz","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5708,6 +5768,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"culThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5722,6 +5783,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5734,6 +5796,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wcLow","Type":{"Kind":"Native","Name":"Char"},"Attrs":[]}
 		,{"Name":"cGlyphs","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5747,6 +5810,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cjThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"flAccel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5762,6 +5826,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cjThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cGlyphs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5776,6 +5841,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wcFirst","Type":{"Kind":"Native","Name":"Char"},"Attrs":[]}
 		,{"Name":"wcSecond","Type":{"Kind":"Native","Name":"Char"},"Attrs":[]}
@@ -5789,6 +5855,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"jReserved1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"jReserved2","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5808,6 +5875,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dpBold","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"dpItalic","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5821,6 +5889,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cjThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cjIfiExtra","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5891,6 +5960,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulIdentifier","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dpFontSig","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -5918,6 +5988,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iFunc","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pfn","Type":{"Kind":"ApiRef","Name":"PFN","TargetKind":"FunctionPointer","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -5930,6 +6001,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iDriverVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"c","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5943,6 +6015,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"flGraphicsCaps","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lfDefaultFont","Type":{"Kind":"ApiRef","Name":"LOGFONTW","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
@@ -5963,6 +6036,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iJoin","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5981,6 +6055,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eM11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"eM12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -5997,6 +6072,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -6010,6 +6086,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"ApiRef","Name":"CIECHROMA","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"ApiRef","Name":"CIECHROMA","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -6036,6 +6113,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumDirtyRects","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DirtyRect","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -6051,6 +6129,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulTechnology","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6106,6 +6185,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iSolidColor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pvRbrush","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -6119,6 +6199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iUniq","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"rclBounds","Type":{"Kind":"ApiRef","Name":"RECTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6147,6 +6228,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pvObj","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"pFreeProc","Type":{"Kind":"ApiRef","Name":"FREEOBJPROC","TargetKind":"FunctionPointer","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -6161,6 +6243,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iUniq","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iFace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6181,6 +6264,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BlendFunction","Type":{"Kind":"ApiRef","Name":"BLENDFUNCTION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 	]
@@ -6192,6 +6276,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6203,6 +6288,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cCurves","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6215,6 +6301,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dhsurf","Type":{"Kind":"ApiRef","Name":"DHSURF","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"hsurf","Type":{"Kind":"ApiRef","Name":"HSURF","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -6238,6 +6325,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"coClient","Type":{"Kind":"ApiRef","Name":"CLIPOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"pvConsumer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -6252,6 +6340,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -6263,6 +6352,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iUniq","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"flXlate","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6279,6 +6369,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"c","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"arcl","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"RECTL","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -6291,6 +6382,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ptlOrigin","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"sizlBitmap","Type":{"Kind":"ApiRef","Name":"SIZE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6304,6 +6396,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pgb","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GLYPHBITS","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
 		,{"Name":"ppo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PATHOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -6316,6 +6409,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pgdf","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GLYPHDEF","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -6329,6 +6423,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"gdf","Type":{"Kind":"ApiRef","Name":"GLYPHDEF","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"hg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6348,6 +6443,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cGlyphs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"flAccel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6364,6 +6460,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cjThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"flCaps","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6381,6 +6478,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6394,6 +6492,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iStart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"iStop","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -6406,6 +6505,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ptfxA","Type":{"Kind":"ApiRef","Name":"POINTFIX","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"ptfxB","Type":{"Kind":"ApiRef","Name":"POINTFIX","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -6421,6 +6521,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bRepeatThisBand","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"szlBand","Type":{"Kind":"ApiRef","Name":"SIZE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6435,6 +6536,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -6461,6 +6563,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HTFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HTPatternSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6475,6 +6578,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeviceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DeviceXDPI","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6490,6 +6594,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hPFM","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hPFB","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6503,6 +6608,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hsem","Type":{"Kind":"ApiRef","Name":"HSEMAPHORE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"lCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -6515,6 +6621,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eM11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"eM12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -6544,6 +6651,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"usYear","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"usMonth","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -6588,6 +6696,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hdc","Type":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
@@ -7788,6 +7897,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pso","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SURFOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
 		,{"Name":"b","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8051,6 +8161,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DisplayAdapterLuid","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8065,6 +8176,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProcessHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -8076,6 +8188,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MinimumStateSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -8087,6 +8200,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DescriptorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Descriptor","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8133,6 +8247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PathsArray","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ModesArray","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -8148,6 +8263,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CalloutType","Type":{"Kind":"ApiRef","Name":"VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"PhysDisp","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -8178,6 +8294,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PhysDisp","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Callout","Type":{"Kind":"ApiRef","Name":"PVIDEO_WIN32K_CALLOUT","TargetKind":"FunctionPointer","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8193,6 +8310,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bEnable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bSuccess","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8205,6 +8323,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PortValue","Type":{"Kind":"Array","Shape":{"Size":48},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8245,6 +8364,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StateHeader","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VIDEO_HARDWARE_STATE_HEADER","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
 		,{"Name":"StateLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8257,6 +8377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumModes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ModeInformationLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8269,6 +8390,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RequestedMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -8280,6 +8402,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ModeIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8310,6 +8433,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"WidthInPixels","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"HeightInPixels","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8324,6 +8448,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumEntries","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"FirstEntry","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8337,6 +8462,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8351,6 +8477,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumEntries","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"FirstEntry","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8363,6 +8490,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"RgbArray","Type":{"Kind":"ApiRef","Name":"VIDEO_CLUTDATA","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 			,{"Name":"RgbLong","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8376,6 +8504,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Column","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"Row","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -8388,6 +8517,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Width","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Height","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8404,6 +8534,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Column","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"Row","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -8416,6 +8547,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8434,6 +8566,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MaxWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8449,6 +8582,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8487,6 +8621,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RequestedVirtualAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 	]
@@ -8498,6 +8633,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProcessHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ViewOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8512,6 +8648,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SharedViewOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SharedViewSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8525,6 +8662,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VideoRamBase","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"VideoRamLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8539,6 +8677,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"InIoSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MappedInIoSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8552,6 +8691,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"AttributeFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8598,6 +8738,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DPMSVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8611,6 +8752,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"LutDataFormat","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8624,6 +8766,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -8637,6 +8780,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReadBankPosition","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WriteBankPosition","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8649,6 +8793,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ucDisplayPolicy","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ucACBrightness","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8662,6 +8807,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DefaultToBiosPolicy","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"LevelCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8674,6 +8820,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"BatteryLevel","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Brightness","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8687,6 +8834,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Position","Type":{"Kind":"ApiRef","Name":"COORD","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
 		,{"Name":"ScreenSize","Type":{"Kind":"ApiRef","Name":"COORD","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
@@ -8700,6 +8848,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FontSize","Type":{"Kind":"ApiRef","Name":"COORD","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
 		,{"Name":"ImageBits","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8712,6 +8861,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CharInfo","Type":{"Kind":"ApiRef","Name":"CHAR_INFO","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
 		,{"Name":"FontImageInfo","Type":{"Kind":"ApiRef","Name":"FONT_IMAGE_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8724,6 +8874,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Char","Type":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Attributes","Type":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8736,6 +8887,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SrcScreen","Type":{"Kind":"ApiRef","Name":"FSCNTL_SCREEN_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"DestScreen","Type":{"Kind":"ApiRef","Name":"FSCNTL_SCREEN_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8748,6 +8900,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SrcBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CHAR_IMAGE_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
 		,{"Name":"DestScreen","Type":{"Kind":"ApiRef","Name":"FSCNTL_SCREEN_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8760,6 +8913,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Screen","Type":{"Kind":"ApiRef","Name":"FSCNTL_SCREEN_INFO","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8772,6 +8926,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VideoMode","Type":{"Kind":"ApiRef","Name":"VIDEO_MODE_INFORMATION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"VideoMemory","Type":{"Kind":"ApiRef","Name":"VIDEO_MEMORY_INFORMATION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8784,6 +8939,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ScreenSize","Type":{"Kind":"ApiRef","Name":"COORD","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
 		,{"Name":"FontSize","Type":{"Kind":"ApiRef","Name":"COORD","TargetKind":"Default","Api":"System.Console","Parents":[]},"Attrs":[]}
@@ -8796,6 +8952,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Coord","Type":{"Kind":"ApiRef","Name":"VIDEO_CURSOR_POSITION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8808,6 +8965,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pKEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"fFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8820,6 +8978,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NbOfAllocationEvicted","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":[]}
 		,{"Name":"NbOfAllocationMarked","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"Native","Name":"UInt64"}},"Attrs":[]}
@@ -8851,6 +9010,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VIDEO_PERFORMANCE_COUNTER","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -8876,6 +9036,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8887,6 +9048,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8898,6 +9060,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -8911,6 +9074,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Level","Type":{"Kind":"Array","Shape":{"Size":103},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8923,6 +9087,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MinLevelInMillinit","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MaxLevelInMillinit","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8936,6 +9101,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NormalRangeCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RangeCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8950,6 +9116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8961,6 +9128,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"BrightnessLevel","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_LEVEL","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 			,{"Name":"NitRanges","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_NIT_RANGES","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8974,6 +9142,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -8985,6 +9154,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Level","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -8996,6 +9166,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"CurrentInMillinits","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"TargetInMillinits","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9010,6 +9181,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -9022,6 +9194,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"AlsReading","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -9035,6 +9208,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9046,6 +9220,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9059,6 +9234,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"BRIGHTNESS_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9070,6 +9246,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Level","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -9081,6 +9258,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Millinits","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"TransitionTimeInMs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9096,6 +9274,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 	]
@@ -9106,6 +9285,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9117,6 +9297,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9145,6 +9326,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Level","Type":{"Kind":"ApiRef","Name":"BACKLIGHT_OPTIMIZATION_LEVEL","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 	]
@@ -9156,6 +9338,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"R","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		,{"Name":"G","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -9169,6 +9352,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BacklightUsersetting","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"BacklightEffective","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -9194,6 +9378,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataType","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_DATA_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9207,6 +9392,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -9219,6 +9405,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9230,6 +9417,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9243,6 +9431,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfLUTEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DataCap","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_DATA_CAP","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9255,6 +9444,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"DataCap","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_DATA_CAP","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9266,6 +9456,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9277,6 +9468,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9303,6 +9495,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"LookupTable1DDegammaCap","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_1DLUT_CAP","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9333,6 +9526,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -9346,6 +9540,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Red","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"Green","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -9359,6 +9554,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Scale","Type":{"Kind":"ApiRef","Name":"GAMMA_RAMP_RGB","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"ApiRef","Name":"GAMMA_RAMP_RGB","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9372,6 +9568,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ColorMatrix3x4","Type":{"Kind":"Array","Shape":{"Size":12},"Child":{"Kind":"Native","Name":"Single"}},"Attrs":[]}
 		,{"Name":"ScalarMultiplier","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -9418,6 +9615,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ColorEncoding","Type":{"Kind":"ApiRef","Name":"OUTPUT_COLOR_ENCODING","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"BitsPerPixel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9443,6 +9641,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StageControlLookupTable1DDegamma","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_STAGE_CONTROL","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"LookupTable1DDegamma","Type":{"Kind":"Array","Shape":{"Size":4096},"Child":{"Kind":"ApiRef","Name":"GAMMA_RAMP_RGB","TargetKind":"Default","Api":"Devices.Display","Parents":[]}},"Attrs":[]}
@@ -9459,6 +9658,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"COLORSPACE_TRANSFORM_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9470,6 +9670,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Rgb256x3x16","Type":{"Kind":"ApiRef","Name":"GAMMA_RAMP_RGB256x3x16","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 			,{"Name":"Dxgi1","Type":{"Kind":"ApiRef","Name":"GAMMA_RAMP_DXGI_1","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9485,6 +9686,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OutputWireColorSpaceExpected","Type":{"Kind":"ApiRef","Name":"OUTPUT_WIRE_COLOR_SPACE_TYPE","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"OutputWireFormatExpected","Type":{"Kind":"ApiRef","Name":"OUTPUT_WIRE_FORMAT","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9498,6 +9700,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ColorProfileName","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 	]
@@ -9509,6 +9712,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DSITypeMajor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"DSITypeMinor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9550,6 +9754,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9563,6 +9768,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
 			,{"Name":"LongWriteWordCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -9574,6 +9780,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Data0","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"Data1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9587,6 +9794,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"DataId","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
@@ -9598,6 +9806,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -9611,6 +9820,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TotalBufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PacketCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9629,6 +9839,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		]
@@ -9641,6 +9852,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9652,6 +9864,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Devices.Display","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Results","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9663,6 +9876,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -9710,6 +9924,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9722,6 +9937,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"e","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"l","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -9734,6 +9950,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eXX","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"eXY","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9748,6 +9965,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cjThis","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cjIfiExtra","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9817,6 +10035,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fl","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iJoin","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9835,6 +10054,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eM11","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"eM12","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9851,6 +10071,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ul1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ul2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9863,6 +10084,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eM11","Type":{"Kind":"ApiRef","Name":"FLOATOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
 		,{"Name":"eM12","Type":{"Kind":"ApiRef","Name":"FLOATOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]},"Attrs":[]}
@@ -9877,7 +10099,7 @@
 "Functions":[{
 	"Name":"GetNumberOfPhysicalMonitorsFromHMONITOR"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9890,7 +10112,7 @@
 },{
 	"Name":"GetNumberOfPhysicalMonitorsFromIDirect3DDevice9"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9903,7 +10125,7 @@
 },{
 	"Name":"GetPhysicalMonitorsFromHMONITOR"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9917,7 +10139,7 @@
 },{
 	"Name":"GetPhysicalMonitorsFromIDirect3DDevice9"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9931,7 +10153,7 @@
 },{
 	"Name":"DestroyPhysicalMonitor"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9943,7 +10165,7 @@
 },{
 	"Name":"DestroyPhysicalMonitors"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9956,7 +10178,7 @@
 },{
 	"Name":"GetVCPFeatureAndVCPFeatureReply"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9972,7 +10194,7 @@
 },{
 	"Name":"SetVCPFeature"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9986,7 +10208,7 @@
 },{
 	"Name":"SaveCurrentSettings"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9998,7 +10220,7 @@
 },{
 	"Name":"GetCapabilitiesStringLength"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10011,7 +10233,7 @@
 },{
 	"Name":"CapabilitiesRequestAndCapabilitiesReply"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10025,7 +10247,7 @@
 },{
 	"Name":"GetTimingReport"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10038,7 +10260,7 @@
 },{
 	"Name":"GetMonitorCapabilities"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10052,7 +10274,7 @@
 },{
 	"Name":"SaveCurrentMonitorSettings"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10064,7 +10286,7 @@
 },{
 	"Name":"GetMonitorTechnologyType"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10077,7 +10299,7 @@
 },{
 	"Name":"GetMonitorBrightness"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10092,7 +10314,7 @@
 },{
 	"Name":"GetMonitorContrast"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10107,7 +10329,7 @@
 },{
 	"Name":"GetMonitorColorTemperature"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10120,7 +10342,7 @@
 },{
 	"Name":"GetMonitorRedGreenOrBlueDrive"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10136,7 +10358,7 @@
 },{
 	"Name":"GetMonitorRedGreenOrBlueGain"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10152,7 +10374,7 @@
 },{
 	"Name":"SetMonitorBrightness"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10165,7 +10387,7 @@
 },{
 	"Name":"SetMonitorContrast"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10178,7 +10400,7 @@
 },{
 	"Name":"SetMonitorColorTemperature"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10191,7 +10413,7 @@
 },{
 	"Name":"SetMonitorRedGreenOrBlueDrive"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10205,7 +10427,7 @@
 },{
 	"Name":"SetMonitorRedGreenOrBlueGain"
 	,"SetLastError":false
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10219,7 +10441,7 @@
 },{
 	"Name":"DegaussMonitor"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10231,7 +10453,7 @@
 },{
 	"Name":"GetMonitorDisplayAreaSize"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10247,7 +10469,7 @@
 },{
 	"Name":"GetMonitorDisplayAreaPosition"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10263,7 +10485,7 @@
 },{
 	"Name":"SetMonitorDisplayAreaSize"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10277,7 +10499,7 @@
 },{
 	"Name":"SetMonitorDisplayAreaPosition"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10291,7 +10513,7 @@
 },{
 	"Name":"RestoreMonitorFactoryColorDefaults"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10303,7 +10525,7 @@
 },{
 	"Name":"RestoreMonitorFactoryDefaults"
 	,"SetLastError":true
-	,"DllImport":"dxva2"
+	,"DllImport":"dxva2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10315,7 +10537,7 @@
 },{
 	"Name":"BRUSHOBJ_pvAllocRbrush"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10328,7 +10550,7 @@
 },{
 	"Name":"BRUSHOBJ_pvGetRbrush"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10340,7 +10562,7 @@
 },{
 	"Name":"BRUSHOBJ_ulGetBrushColor"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10352,7 +10574,7 @@
 },{
 	"Name":"BRUSHOBJ_hGetColorTransform"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10364,7 +10586,7 @@
 },{
 	"Name":"CLIPOBJ_cEnumStart"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10380,7 +10602,7 @@
 },{
 	"Name":"CLIPOBJ_bEnum"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10394,7 +10616,7 @@
 },{
 	"Name":"CLIPOBJ_ppoGetPath"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PATHOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10406,7 +10628,7 @@
 },{
 	"Name":"FONTOBJ_cGetAllGlyphHandles"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10419,7 +10641,7 @@
 },{
 	"Name":"FONTOBJ_vGetInfo"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10433,7 +10655,7 @@
 },{
 	"Name":"FONTOBJ_cGetGlyphs"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10449,7 +10671,7 @@
 },{
 	"Name":"FONTOBJ_pxoGetXform"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"XFORMOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10461,7 +10683,7 @@
 },{
 	"Name":"FONTOBJ_pifi"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IFIMETRICS","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10473,7 +10695,7 @@
 },{
 	"Name":"FONTOBJ_pfdg"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FD_GLYPHSET","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10485,7 +10707,7 @@
 },{
 	"Name":"FONTOBJ_pvTrueTypeFontFile"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10498,7 +10720,7 @@
 },{
 	"Name":"FONTOBJ_pQueryGlyphAttrs"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FD_GLYPHATTR","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10511,7 +10733,7 @@
 },{
 	"Name":"PATHOBJ_vEnumStart"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10523,7 +10745,7 @@
 },{
 	"Name":"PATHOBJ_bEnum"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10536,7 +10758,7 @@
 },{
 	"Name":"PATHOBJ_vEnumStartClipLines"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10551,7 +10773,7 @@
 },{
 	"Name":"PATHOBJ_bEnumClipLines"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10565,7 +10787,7 @@
 },{
 	"Name":"PATHOBJ_vGetBounds"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10578,7 +10800,7 @@
 },{
 	"Name":"STROBJ_vEnumStart"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10590,7 +10812,7 @@
 },{
 	"Name":"STROBJ_bEnum"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10604,7 +10826,7 @@
 },{
 	"Name":"STROBJ_bEnumPositionsOnly"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10618,7 +10840,7 @@
 },{
 	"Name":"STROBJ_dwGetCodePage"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10630,7 +10852,7 @@
 },{
 	"Name":"STROBJ_bGetAdvanceWidths"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10645,7 +10867,7 @@
 },{
 	"Name":"XFORMOBJ_iGetXform"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10658,7 +10880,7 @@
 },{
 	"Name":"XFORMOBJ_bApplyXform"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10674,7 +10896,7 @@
 },{
 	"Name":"XLATEOBJ_iXlate"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10687,7 +10909,7 @@
 },{
 	"Name":"XLATEOBJ_piVector"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10699,7 +10921,7 @@
 },{
 	"Name":"XLATEOBJ_cGetPalette"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10714,7 +10936,7 @@
 },{
 	"Name":"XLATEOBJ_hGetColorTransform"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10726,7 +10948,7 @@
 },{
 	"Name":"EngCreateBitmap"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10742,7 +10964,7 @@
 },{
 	"Name":"EngCreateDeviceSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HSURF","TargetKind":"Default","Api":"Devices.Display","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10756,7 +10978,7 @@
 },{
 	"Name":"EngCreateDeviceBitmap"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HBITMAP","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10770,7 +10992,7 @@
 },{
 	"Name":"EngDeleteSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10782,7 +11004,7 @@
 },{
 	"Name":"EngLockSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SURFOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10794,7 +11016,7 @@
 },{
 	"Name":"EngUnlockSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10806,7 +11028,7 @@
 },{
 	"Name":"EngEraseSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10820,7 +11042,7 @@
 },{
 	"Name":"EngAssociateSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10834,7 +11056,7 @@
 },{
 	"Name":"EngMarkBandingSurface"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10846,7 +11068,7 @@
 },{
 	"Name":"EngCheckAbort"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10858,7 +11080,7 @@
 },{
 	"Name":"EngDeletePath"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10870,7 +11092,7 @@
 },{
 	"Name":"EngCreatePalette"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HPALETTE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10887,7 +11109,7 @@
 },{
 	"Name":"EngDeletePalette"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10899,7 +11121,7 @@
 },{
 	"Name":"EngCreateClip"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CLIPOBJ","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10910,7 +11132,7 @@
 },{
 	"Name":"EngDeleteClip"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10922,7 +11144,7 @@
 },{
 	"Name":"EngBitBlt"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10944,7 +11166,7 @@
 },{
 	"Name":"EngLineTo"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10964,7 +11186,7 @@
 },{
 	"Name":"EngStretchBlt"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10986,7 +11208,7 @@
 },{
 	"Name":"EngStretchBltROP"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11010,7 +11232,7 @@
 },{
 	"Name":"EngAlphaBlend"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11028,7 +11250,7 @@
 },{
 	"Name":"EngGradientFill"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11049,7 +11271,7 @@
 },{
 	"Name":"EngTransparentBlt"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11068,7 +11290,7 @@
 },{
 	"Name":"EngTextOut"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11089,7 +11311,7 @@
 },{
 	"Name":"EngStrokePath"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11108,7 +11330,7 @@
 },{
 	"Name":"EngFillPath"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11126,7 +11348,7 @@
 },{
 	"Name":"EngStrokeAndFillPath"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11147,7 +11369,7 @@
 },{
 	"Name":"EngPaint"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11163,7 +11385,7 @@
 },{
 	"Name":"EngCopyBits"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11180,7 +11402,7 @@
 },{
 	"Name":"EngPlgBlt"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11202,7 +11424,7 @@
 },{
 	"Name":"HT_Get8BPPFormatPalette"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11217,7 +11439,7 @@
 },{
 	"Name":"HT_Get8BPPMaskPalette"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11234,7 +11456,7 @@
 },{
 	"Name":"EngGetPrinterDataFileName"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11246,7 +11468,7 @@
 },{
 	"Name":"EngGetDriverName"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11258,7 +11480,7 @@
 },{
 	"Name":"EngLoadModule"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11270,7 +11492,7 @@
 },{
 	"Name":"EngFindResource"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11285,7 +11507,7 @@
 },{
 	"Name":"EngFreeModule"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11297,7 +11519,7 @@
 },{
 	"Name":"EngCreateSemaphore"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HSEMAPHORE","TargetKind":"Default","Api":"Devices.Display","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11308,7 +11530,7 @@
 },{
 	"Name":"EngAcquireSemaphore"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11320,7 +11542,7 @@
 },{
 	"Name":"EngReleaseSemaphore"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11332,7 +11554,7 @@
 },{
 	"Name":"EngDeleteSemaphore"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11344,7 +11566,7 @@
 },{
 	"Name":"EngMultiByteToUnicodeN"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11360,7 +11582,7 @@
 },{
 	"Name":"EngUnicodeToMultiByteN"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11376,7 +11598,7 @@
 },{
 	"Name":"EngQueryLocalTime"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11388,7 +11610,7 @@
 },{
 	"Name":"EngComputeGlyphSet"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FD_GLYPHSET","TargetKind":"Default","Api":"Devices.Display","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11402,7 +11624,7 @@
 },{
 	"Name":"EngMultiByteToWideChar"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11418,7 +11640,7 @@
 },{
 	"Name":"EngWideCharToMultiByte"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11434,7 +11656,7 @@
 },{
 	"Name":"EngGetCurrentCodePage"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11447,7 +11669,7 @@
 },{
 	"Name":"EngQueryEMFInfo"
 	,"SetLastError":false
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11460,7 +11682,7 @@
 },{
 	"Name":"GetDisplayConfigBufferSizes"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11474,7 +11696,7 @@
 },{
 	"Name":"SetDisplayConfig"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11490,7 +11712,7 @@
 },{
 	"Name":"QueryDisplayConfig"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11507,7 +11729,7 @@
 },{
 	"Name":"DisplayConfigGetDeviceInfo"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11519,7 +11741,7 @@
 },{
 	"Name":"DisplayConfigSetDeviceInfo"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11531,7 +11753,7 @@
 },{
 	"Name":"GetAutoRotationState"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11543,7 +11765,7 @@
 },{
 	"Name":"GetDisplayAutoRotationPreferences"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11555,7 +11777,7 @@
 },{
 	"Name":"SetDisplayAutoRotationPreferences"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

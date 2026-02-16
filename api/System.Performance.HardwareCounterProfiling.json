@@ -20,6 +20,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"HARDWARE_COUNTER_TYPE","TargetKind":"Default","Api":"System.Performance.HardwareCounterProfiling","Parents":[]},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -33,6 +34,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Version","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -50,7 +52,7 @@
 "Functions":[{
 	"Name":"EnableThreadProfiling"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -65,7 +67,7 @@
 },{
 	"Name":"DisableThreadProfiling"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -77,7 +79,7 @@
 },{
 	"Name":"QueryThreadProfiling"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -90,7 +92,7 @@
 },{
 	"Name":"ReadThreadProfilingData"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -508,6 +508,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"rgb","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -549,6 +550,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uow","Type":{"Kind":"ApiRef","Name":"BOID","TargetKind":"Default","Api":"System.DistributedTransactionCoordinator","Parents":[]},"Attrs":[]}
 		,{"Name":"isoLevel","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -566,6 +568,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cOpen","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cCommitting","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -691,6 +694,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szDescription","Type":{"Kind":"Array","Shape":{"Size":40},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -1669,6 +1673,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"formatID","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"gtrid_length","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -1683,6 +1688,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -2035,6 +2041,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwcConcurrencyHint","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2047,6 +2054,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwcConcurrencyHint","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2858,6 +2866,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wcThreadsMax","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -3773,7 +3782,7 @@
 "Functions":[{
 	"Name":"DtcGetTransactionManager"
 	,"SetLastError":false
-	,"DllImport":"XOLEHLP"
+	,"DllImport":"XOLEHLP.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3791,7 +3800,7 @@
 },{
 	"Name":"DtcGetTransactionManagerC"
 	,"SetLastError":false
-	,"DllImport":"XOLEHLP"
+	,"DllImport":"XOLEHLP.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3809,7 +3818,7 @@
 },{
 	"Name":"DtcGetTransactionManagerExA"
 	,"SetLastError":false
-	,"DllImport":"XOLEHLP"
+	,"DllImport":"XOLEHLP.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3826,7 +3835,7 @@
 },{
 	"Name":"DtcGetTransactionManagerExW"
 	,"SetLastError":false
-	,"DllImport":"XOLEHLP"
+	,"DllImport":"XOLEHLP.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

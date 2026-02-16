@@ -4501,6 +4501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"a","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"b","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4515,6 +4516,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -4526,6 +4528,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ipv4","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"ipv6","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -4539,6 +4542,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hrasconn","Type":{"Kind":"ApiRef","Name":"HRASCONN","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -4560,6 +4564,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hrasconn","Type":{"Kind":"ApiRef","Name":"HRASCONN","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -4637,6 +4642,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"rasconnstate","Type":{"Kind":"ApiRef","Name":"RASCONNSTATE","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -4656,6 +4662,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"rasconnstate","Type":{"Kind":"ApiRef","Name":"RASCONNSTATE","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -4675,6 +4682,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szEntryName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4696,6 +4704,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szEntryName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -4717,6 +4726,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeofEapInfo","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pbEapInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4729,6 +4739,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pbDevSpecificInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4741,6 +4752,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwfOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4759,6 +4771,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szEntryName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4773,6 +4786,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szEntryName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -4804,6 +4818,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4818,6 +4833,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4832,6 +4848,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4848,6 +4865,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4864,6 +4882,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4877,6 +4896,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4890,6 +4910,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4906,6 +4927,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4922,6 +4944,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4938,6 +4961,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fBundled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4963,6 +4987,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fBundled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4988,6 +5013,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5004,6 +5030,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ipv4Address","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -5037,6 +5064,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ipv4Address","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -5097,6 +5125,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"version","Type":{"Kind":"ApiRef","Name":"RASAPIVERSION","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"RASPROJECTION_INFO_TYPE","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -5109,6 +5138,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ppp","Type":{"Kind":"ApiRef","Name":"RASPPP_PROJECTION_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 			,{"Name":"ikev2","Type":{"Kind":"ApiRef","Name":"RASIKEV2_PROJECTION_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -5170,6 +5200,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szDeviceType","Type":{"Kind":"Array","Shape":{"Size":17},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -5183,6 +5214,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szDeviceType","Type":{"Kind":"Array","Shape":{"Size":17},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -5196,6 +5228,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwCountryID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5211,6 +5244,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwfOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5282,6 +5316,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwfOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5368,6 +5403,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5413,6 +5449,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwfFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5429,6 +5466,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwfFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5445,6 +5483,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5460,6 +5499,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5475,6 +5515,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5489,6 +5530,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5503,6 +5545,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szUserName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"dwSizeofEapInfo","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5516,6 +5559,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szUserName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"dwSizeofEapInfo","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5620,6 +5664,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bParity","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5649,6 +5694,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pfnRasSetCommSettings","Type":{"Kind":"ApiRef","Name":"PFNRASSETCOMMSETTINGS","TargetKind":"FunctionPointer","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -5661,6 +5707,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwBytesXmited","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5731,6 +5778,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"version","Type":{"Kind":"ApiRef","Name":"RASAPIVERSION","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5777,6 +5825,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5793,6 +5842,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5809,6 +5859,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5829,6 +5880,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5849,6 +5901,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5868,6 +5921,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5887,6 +5941,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndOwner","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5973,6 +6028,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszInterfaceName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5990,6 +6046,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszFriendlyName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -6002,6 +6059,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszInterfaceName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6020,6 +6078,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszInterfaceName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6067,6 +6126,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszInterfaceName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6118,6 +6178,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szDeviceType","Type":{"Kind":"Array","Shape":{"Size":17},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"szDeviceName","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6130,6 +6191,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szDeviceType","Type":{"Kind":"Array","Shape":{"Size":17},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"szDeviceName","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6144,6 +6206,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpbCredentialsInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -6156,6 +6219,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpbCredentialsInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -6168,6 +6232,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwTransportId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hTransport","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6181,6 +6246,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwTransportId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hIfTransport","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6194,6 +6260,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fLanOnlyMode","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwUpTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6208,6 +6275,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPptpPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPptpPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6222,6 +6290,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPptpPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPptpPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6267,6 +6336,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6286,6 +6356,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6312,6 +6383,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6349,6 +6421,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszWksta","Type":{"Kind":"Array","Shape":{"Size":17},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6361,6 +6434,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6374,6 +6448,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6389,6 +6464,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":23},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6401,6 +6477,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":33},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6413,6 +6490,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6432,6 +6510,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nbf","Type":{"Kind":"ApiRef","Name":"PPP_NBFCP_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"ip","Type":{"Kind":"ApiRef","Name":"PPP_IPCP_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6446,6 +6525,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwCompressionAlgorithm","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6461,6 +6541,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwAuthenticationProtocol","Type":{"Kind":"ApiRef","Name":"PPP_LCP","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6482,6 +6563,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nbf","Type":{"Kind":"ApiRef","Name":"PPP_NBFCP_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"ip","Type":{"Kind":"ApiRef","Name":"PPP_IPCP_INFO2","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6498,6 +6580,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nbf","Type":{"Kind":"ApiRef","Name":"PPP_NBFCP_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"ip","Type":{"Kind":"ApiRef","Name":"PPP_IPCP_INFO2","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6513,6 +6596,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6532,6 +6616,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"hInterface","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6557,6 +6642,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"wszUserName","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6586,6 +6672,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6605,6 +6692,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bfPrivilege","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"wszPhoneNumber","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6617,6 +6705,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bfPrivilege","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"wszPhoneNumber","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6630,6 +6719,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fEnable","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -6641,6 +6731,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"revision","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -6670,6 +6761,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6708,6 +6800,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6747,6 +6840,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6772,6 +6866,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIPv4NegotiationError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -6798,6 +6893,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"projectionInfoType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6809,6 +6905,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"PppProjectionInfo","Type":{"Kind":"ApiRef","Name":"PPP_PROJECTION_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 			,{"Name":"Ikev2ProjectionInfo","Type":{"Kind":"ApiRef","Name":"IKEV2_PROJECTION_INFO","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6822,6 +6919,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"projectionInfoType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6833,6 +6931,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"PppProjectionInfo","Type":{"Kind":"ApiRef","Name":"PPP_PROJECTION_INFO2","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 			,{"Name":"Ikev2ProjectionInfo","Type":{"Kind":"ApiRef","Name":"IKEV2_PROJECTION_INFO2","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6846,6 +6945,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwConnectDuration","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6885,6 +6985,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwConnectDuration","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwInterfaceType","Type":{"Kind":"ApiRef","Name":"ROUTER_INTERFACE_TYPE","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6925,6 +7026,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIntegrityMethod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwEncryptionMethod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6941,6 +7043,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSaLifeTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSaDataSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6955,6 +7058,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6968,6 +7072,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"IsEKUOID","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6981,6 +7086,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -6992,6 +7098,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"v4","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"v6","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7017,6 +7124,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"MPR_VPN_TS_TYPE","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"protocolId","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -7034,6 +7142,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numTsi","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"numTsr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7048,6 +7157,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSaLifeTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSaDataSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7065,6 +7175,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7078,6 +7189,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIdleTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNetworkBlackoutTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7102,6 +7214,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSaLifeTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSaDataSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7117,6 +7230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7130,6 +7244,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIdleTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNetworkBlackoutTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7153,6 +7268,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIdleTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNetworkBlackoutTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7173,6 +7289,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIdleTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwEncryptionType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7189,6 +7306,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIdleTimeout","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwEncryptionType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7204,6 +7322,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7218,6 +7337,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7230,6 +7350,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7244,6 +7365,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7256,6 +7378,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7268,6 +7391,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"isDefault","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"certBlob","Type":{"Kind":"ApiRef","Name":"CRYPTOAPI_BLOB","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]},"Attrs":[]}
@@ -7280,6 +7404,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPortFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7295,6 +7420,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IkeConfigParams","Type":{"Kind":"ApiRef","Name":"IKEV2_CONFIG_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"PptpConfigParams","Type":{"Kind":"ApiRef","Name":"PPTP_CONFIG_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -7309,6 +7435,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IkeConfigParams","Type":{"Kind":"ApiRef","Name":"IKEV2_CONFIG_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"PptpConfigParams","Type":{"Kind":"ApiRef","Name":"PPTP_CONFIG_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -7324,6 +7451,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"fLanOnlyMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7341,6 +7469,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"fLanOnlyMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7358,6 +7487,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"setConfigForProtocols","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7371,6 +7501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"setConfigForProtocols","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7384,6 +7515,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"hRasConnection","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7400,6 +7532,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"MPRAPI_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"dwIfIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7668,6 +7801,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"revision","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"lpfnMprAdminGetIpAddressForUser","Type":{"Kind":"ApiRef","Name":"PMPRADMINGETIPADDRESSFORUSER","TargetKind":"FunctionPointer","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -7691,6 +7825,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwMsgId","Type":{"Kind":"ApiRef","Name":"SECURITY_MESSAGE_MSG_ID","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"hPort","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -7706,6 +7841,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LastError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BytesReceived","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7730,6 +7866,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwIfIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwIfNextHopAddr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7896,6 +8033,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwCallbackFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pfnRpfCallback","Type":{"Kind":"ApiRef","Name":"PMGM_RPF_CALLBACK","TargetKind":"FunctionPointer","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -7928,6 +8066,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSourceAddr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSourceMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7942,6 +8081,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxNextHopsInRoute","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MaxHandlesInEnum","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7956,6 +8096,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"NumBits","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7969,6 +8110,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Metric","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Preference","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7981,6 +8123,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumNextHops","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"NextHops","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"IntPtr"}},"Attrs":[]}
@@ -7993,6 +8136,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DestHandle","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
 		,{"Name":"DestAddress","Type":{"Kind":"ApiRef","Name":"RTM_NET_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
@@ -8008,6 +8152,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ViewId","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"NumRoutes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8025,6 +8170,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DestHandle","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
 		,{"Name":"RouteOwner","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -8045,6 +8191,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextHopAddress","Type":{"Kind":"ApiRef","Name":"RTM_NET_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 		,{"Name":"NextHopOwner","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -8062,6 +8209,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":[]},"Attrs":[]}
 	]
@@ -8072,6 +8220,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Rras","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"EntityId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -8083,6 +8232,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"EntityProtocolId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"EntityInstanceId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8097,6 +8247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RtmInstanceId","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"AddressFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8139,6 +8290,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MethodType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"InputSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8152,6 +8304,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MethodType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MethodStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8181,6 +8334,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumMethods","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Methods","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"RTM_ENTITY_EXPORT_METHOD","TargetKind":"FunctionPointer","Api":"NetworkManagement.Rras","Parents":[]}},"Attrs":[]}
@@ -8191,7 +8345,7 @@
 "Functions":[{
 	"Name":"RasDialA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8208,7 +8362,7 @@
 },{
 	"Name":"RasDialW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8225,7 +8379,7 @@
 },{
 	"Name":"RasEnumConnectionsA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8239,7 +8393,7 @@
 },{
 	"Name":"RasEnumConnectionsW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8253,7 +8407,7 @@
 },{
 	"Name":"RasEnumEntriesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8269,7 +8423,7 @@
 },{
 	"Name":"RasEnumEntriesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8285,7 +8439,7 @@
 },{
 	"Name":"RasGetConnectStatusA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8298,7 +8452,7 @@
 },{
 	"Name":"RasGetConnectStatusW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8311,7 +8465,7 @@
 },{
 	"Name":"RasGetErrorStringA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8325,7 +8479,7 @@
 },{
 	"Name":"RasGetErrorStringW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8339,7 +8493,7 @@
 },{
 	"Name":"RasHangUpA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8351,7 +8505,7 @@
 },{
 	"Name":"RasHangUpW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8363,7 +8517,7 @@
 },{
 	"Name":"RasGetProjectionInfoA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8378,7 +8532,7 @@
 },{
 	"Name":"RasGetProjectionInfoW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8393,7 +8547,7 @@
 },{
 	"Name":"RasCreatePhonebookEntryA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8406,7 +8560,7 @@
 },{
 	"Name":"RasCreatePhonebookEntryW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8419,7 +8573,7 @@
 },{
 	"Name":"RasEditPhonebookEntryA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8433,7 +8587,7 @@
 },{
 	"Name":"RasEditPhonebookEntryW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8447,7 +8601,7 @@
 },{
 	"Name":"RasSetEntryDialParamsA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8461,7 +8615,7 @@
 },{
 	"Name":"RasSetEntryDialParamsW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8475,7 +8629,7 @@
 },{
 	"Name":"RasGetEntryDialParamsA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8489,7 +8643,7 @@
 },{
 	"Name":"RasGetEntryDialParamsW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8503,7 +8657,7 @@
 },{
 	"Name":"RasEnumDevicesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8517,7 +8671,7 @@
 },{
 	"Name":"RasEnumDevicesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8531,7 +8685,7 @@
 },{
 	"Name":"RasGetCountryInfoA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8544,7 +8698,7 @@
 },{
 	"Name":"RasGetCountryInfoW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8557,7 +8711,7 @@
 },{
 	"Name":"RasGetEntryPropertiesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8574,7 +8728,7 @@
 },{
 	"Name":"RasGetEntryPropertiesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8591,7 +8745,7 @@
 },{
 	"Name":"RasSetEntryPropertiesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8608,7 +8762,7 @@
 },{
 	"Name":"RasSetEntryPropertiesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8625,7 +8779,7 @@
 },{
 	"Name":"RasRenameEntryA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8639,7 +8793,7 @@
 },{
 	"Name":"RasRenameEntryW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8653,7 +8807,7 @@
 },{
 	"Name":"RasDeleteEntryA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8666,7 +8820,7 @@
 },{
 	"Name":"RasDeleteEntryW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8679,7 +8833,7 @@
 },{
 	"Name":"RasValidateEntryNameA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8692,7 +8846,7 @@
 },{
 	"Name":"RasValidateEntryNameW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8705,7 +8859,7 @@
 },{
 	"Name":"RasConnectionNotificationA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8719,7 +8873,7 @@
 },{
 	"Name":"RasConnectionNotificationW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8733,7 +8887,7 @@
 },{
 	"Name":"RasGetSubEntryHandleA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8747,7 +8901,7 @@
 },{
 	"Name":"RasGetSubEntryHandleW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8761,7 +8915,7 @@
 },{
 	"Name":"RasGetCredentialsA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8775,7 +8929,7 @@
 },{
 	"Name":"RasGetCredentialsW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8789,7 +8943,7 @@
 },{
 	"Name":"RasSetCredentialsA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8804,7 +8958,7 @@
 },{
 	"Name":"RasSetCredentialsW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8819,7 +8973,7 @@
 },{
 	"Name":"RasGetSubEntryPropertiesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8837,7 +8991,7 @@
 },{
 	"Name":"RasGetSubEntryPropertiesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8855,7 +9009,7 @@
 },{
 	"Name":"RasSetSubEntryPropertiesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8873,7 +9027,7 @@
 },{
 	"Name":"RasSetSubEntryPropertiesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8891,7 +9045,7 @@
 },{
 	"Name":"RasGetAutodialAddressA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8907,7 +9061,7 @@
 },{
 	"Name":"RasGetAutodialAddressW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8923,7 +9077,7 @@
 },{
 	"Name":"RasSetAutodialAddressA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8939,7 +9093,7 @@
 },{
 	"Name":"RasSetAutodialAddressW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8955,7 +9109,7 @@
 },{
 	"Name":"RasEnumAutodialAddressesA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8969,7 +9123,7 @@
 },{
 	"Name":"RasEnumAutodialAddressesW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8983,7 +9137,7 @@
 },{
 	"Name":"RasGetAutodialEnableA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8996,7 +9150,7 @@
 },{
 	"Name":"RasGetAutodialEnableW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9009,7 +9163,7 @@
 },{
 	"Name":"RasSetAutodialEnableA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9022,7 +9176,7 @@
 },{
 	"Name":"RasSetAutodialEnableW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9035,7 +9189,7 @@
 },{
 	"Name":"RasGetAutodialParamA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9049,7 +9203,7 @@
 },{
 	"Name":"RasGetAutodialParamW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9063,7 +9217,7 @@
 },{
 	"Name":"RasSetAutodialParamA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9077,7 +9231,7 @@
 },{
 	"Name":"RasSetAutodialParamW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9091,7 +9245,7 @@
 },{
 	"Name":"RasGetPCscf"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9103,7 +9257,7 @@
 },{
 	"Name":"RasInvokeEapUI"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9118,7 +9272,7 @@
 },{
 	"Name":"RasGetLinkStatistics"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9132,7 +9286,7 @@
 },{
 	"Name":"RasGetConnectionStatistics"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9145,7 +9299,7 @@
 },{
 	"Name":"RasClearLinkStatistics"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9158,7 +9312,7 @@
 },{
 	"Name":"RasClearConnectionStatistics"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9170,7 +9324,7 @@
 },{
 	"Name":"RasGetEapUserDataA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9186,7 +9340,7 @@
 },{
 	"Name":"RasGetEapUserDataW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9202,7 +9356,7 @@
 },{
 	"Name":"RasSetEapUserDataA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9218,7 +9372,7 @@
 },{
 	"Name":"RasSetEapUserDataW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9234,7 +9388,7 @@
 },{
 	"Name":"RasGetCustomAuthDataA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9249,7 +9403,7 @@
 },{
 	"Name":"RasGetCustomAuthDataW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9264,7 +9418,7 @@
 },{
 	"Name":"RasSetCustomAuthDataA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9279,7 +9433,7 @@
 },{
 	"Name":"RasSetCustomAuthDataW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9294,7 +9448,7 @@
 },{
 	"Name":"RasGetEapUserIdentityW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9310,7 +9464,7 @@
 },{
 	"Name":"RasGetEapUserIdentityA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9326,7 +9480,7 @@
 },{
 	"Name":"RasFreeEapUserIdentityW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9338,7 +9492,7 @@
 },{
 	"Name":"RasFreeEapUserIdentityA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9350,7 +9504,7 @@
 },{
 	"Name":"RasDeleteSubEntryA"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9364,7 +9518,7 @@
 },{
 	"Name":"RasDeleteSubEntryW"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9378,7 +9532,7 @@
 },{
 	"Name":"RasUpdateConnection"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9391,7 +9545,7 @@
 },{
 	"Name":"RasGetProjectionInfoEx"
 	,"SetLastError":false
-	,"DllImport":"RASAPI32"
+	,"DllImport":"RASAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9405,7 +9559,7 @@
 },{
 	"Name":"RasPhonebookDlgA"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9419,7 +9573,7 @@
 },{
 	"Name":"RasPhonebookDlgW"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9433,7 +9587,7 @@
 },{
 	"Name":"RasEntryDlgA"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9447,7 +9601,7 @@
 },{
 	"Name":"RasEntryDlgW"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9461,7 +9615,7 @@
 },{
 	"Name":"RasDialDlgA"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9476,7 +9630,7 @@
 },{
 	"Name":"RasDialDlgW"
 	,"SetLastError":false
-	,"DllImport":"RASDLG"
+	,"DllImport":"RASDLG.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9491,7 +9645,7 @@
 },{
 	"Name":"MprAdminConnectionEnumEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9509,7 +9663,7 @@
 },{
 	"Name":"MprAdminConnectionGetInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9523,7 +9677,7 @@
 },{
 	"Name":"MprAdminServerGetInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9536,7 +9690,7 @@
 },{
 	"Name":"MprAdminServerSetInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9549,7 +9703,7 @@
 },{
 	"Name":"MprConfigServerGetInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9562,7 +9716,7 @@
 },{
 	"Name":"MprConfigServerSetInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9575,7 +9729,7 @@
 },{
 	"Name":"MprAdminUpdateConnection"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9589,7 +9743,7 @@
 },{
 	"Name":"MprAdminIsServiceInitialized"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9602,7 +9756,7 @@
 },{
 	"Name":"MprAdminInterfaceSetCustomInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9616,7 +9770,7 @@
 },{
 	"Name":"MprAdminInterfaceGetCustomInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9630,7 +9784,7 @@
 },{
 	"Name":"MprConfigInterfaceGetCustomInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9644,7 +9798,7 @@
 },{
 	"Name":"MprConfigInterfaceSetCustomInfoEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9658,7 +9812,7 @@
 },{
 	"Name":"MprAdminConnectionEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9676,7 +9830,7 @@
 },{
 	"Name":"MprAdminPortEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9695,7 +9849,7 @@
 },{
 	"Name":"MprAdminConnectionGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9710,7 +9864,7 @@
 },{
 	"Name":"MprAdminPortGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9725,7 +9879,7 @@
 },{
 	"Name":"MprAdminConnectionClearStats"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9738,7 +9892,7 @@
 },{
 	"Name":"MprAdminPortClearStats"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9751,7 +9905,7 @@
 },{
 	"Name":"MprAdminPortReset"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9764,7 +9918,7 @@
 },{
 	"Name":"MprAdminPortDisconnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9777,7 +9931,7 @@
 },{
 	"Name":"MprAdminConnectionRemoveQuarantine"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9791,7 +9945,7 @@
 },{
 	"Name":"MprAdminUserGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9806,7 +9960,7 @@
 },{
 	"Name":"MprAdminUserSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9821,7 +9975,7 @@
 },{
 	"Name":"MprAdminSendUserMessage"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9835,7 +9989,7 @@
 },{
 	"Name":"MprAdminGetPDCServer"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9849,7 +10003,7 @@
 },{
 	"Name":"MprAdminIsServiceRunning"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9861,7 +10015,7 @@
 },{
 	"Name":"MprAdminServerConnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9874,7 +10028,7 @@
 },{
 	"Name":"MprAdminServerDisconnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9886,7 +10040,7 @@
 },{
 	"Name":"MprAdminServerGetCredentials"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9900,7 +10054,7 @@
 },{
 	"Name":"MprAdminServerSetCredentials"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9914,7 +10068,7 @@
 },{
 	"Name":"MprAdminBufferFree"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9926,7 +10080,7 @@
 },{
 	"Name":"MprAdminGetErrorString"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9939,7 +10093,7 @@
 },{
 	"Name":"MprAdminServerGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9953,7 +10107,7 @@
 },{
 	"Name":"MprAdminServerSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9967,7 +10121,7 @@
 },{
 	"Name":"MprAdminEstablishDomainRasServer"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9981,7 +10135,7 @@
 },{
 	"Name":"MprAdminIsDomainRasServer"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9995,7 +10149,7 @@
 },{
 	"Name":"MprAdminTransportCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10014,7 +10168,7 @@
 },{
 	"Name":"MprAdminTransportSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10031,7 +10185,7 @@
 },{
 	"Name":"MprAdminTransportGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10048,7 +10202,7 @@
 },{
 	"Name":"MprAdminDeviceEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10063,7 +10217,7 @@
 },{
 	"Name":"MprAdminInterfaceGetHandle"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10078,7 +10232,7 @@
 },{
 	"Name":"MprAdminInterfaceCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10093,7 +10247,7 @@
 },{
 	"Name":"MprAdminInterfaceGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10108,7 +10262,7 @@
 },{
 	"Name":"MprAdminInterfaceSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10123,7 +10277,7 @@
 },{
 	"Name":"MprAdminInterfaceDelete"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10136,7 +10290,7 @@
 },{
 	"Name":"MprAdminInterfaceDeviceGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10152,7 +10306,7 @@
 },{
 	"Name":"MprAdminInterfaceDeviceSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10168,7 +10322,7 @@
 },{
 	"Name":"MprAdminInterfaceTransportRemove"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10182,7 +10336,7 @@
 },{
 	"Name":"MprAdminInterfaceTransportAdd"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10198,7 +10352,7 @@
 },{
 	"Name":"MprAdminInterfaceTransportGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10214,7 +10368,7 @@
 },{
 	"Name":"MprAdminInterfaceTransportSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10230,7 +10384,7 @@
 },{
 	"Name":"MprAdminInterfaceEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10248,7 +10402,7 @@
 },{
 	"Name":"MprAdminInterfaceSetCredentials"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10264,7 +10418,7 @@
 },{
 	"Name":"MprAdminInterfaceGetCredentials"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10280,7 +10434,7 @@
 },{
 	"Name":"MprAdminInterfaceSetCredentialsEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10295,7 +10449,7 @@
 },{
 	"Name":"MprAdminInterfaceGetCredentialsEx"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10310,7 +10464,7 @@
 },{
 	"Name":"MprAdminInterfaceConnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10325,7 +10479,7 @@
 },{
 	"Name":"MprAdminInterfaceDisconnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10338,7 +10492,7 @@
 },{
 	"Name":"MprAdminInterfaceUpdateRoutes"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10353,7 +10507,7 @@
 },{
 	"Name":"MprAdminInterfaceQueryUpdateResult"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10368,7 +10522,7 @@
 },{
 	"Name":"MprAdminInterfaceUpdatePhonebookInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10381,7 +10535,7 @@
 },{
 	"Name":"MprAdminRegisterConnectionNotification"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10394,7 +10548,7 @@
 },{
 	"Name":"MprAdminDeregisterConnectionNotification"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10407,7 +10561,7 @@
 },{
 	"Name":"MprAdminMIBServerConnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10420,7 +10574,7 @@
 },{
 	"Name":"MprAdminMIBServerDisconnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10432,7 +10586,7 @@
 },{
 	"Name":"MprAdminMIBEntryCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10448,7 +10602,7 @@
 },{
 	"Name":"MprAdminMIBEntryDelete"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10464,7 +10618,7 @@
 },{
 	"Name":"MprAdminMIBEntrySet"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10480,7 +10634,7 @@
 },{
 	"Name":"MprAdminMIBEntryGet"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10498,7 +10652,7 @@
 },{
 	"Name":"MprAdminMIBEntryGetFirst"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10516,7 +10670,7 @@
 },{
 	"Name":"MprAdminMIBEntryGetNext"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10534,7 +10688,7 @@
 },{
 	"Name":"MprAdminMIBBufferFree"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10546,7 +10700,7 @@
 },{
 	"Name":"MprConfigServerInstall"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10559,7 +10713,7 @@
 },{
 	"Name":"MprConfigServerConnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10572,7 +10726,7 @@
 },{
 	"Name":"MprConfigServerDisconnect"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10584,7 +10738,7 @@
 },{
 	"Name":"MprConfigServerRefresh"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10596,7 +10750,7 @@
 },{
 	"Name":"MprConfigBufferFree"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10608,7 +10762,7 @@
 },{
 	"Name":"MprConfigServerGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10622,7 +10776,7 @@
 },{
 	"Name":"MprConfigServerSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10636,7 +10790,7 @@
 },{
 	"Name":"MprConfigServerBackup"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10649,7 +10803,7 @@
 },{
 	"Name":"MprConfigServerRestore"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10662,7 +10816,7 @@
 },{
 	"Name":"MprConfigTransportCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10682,7 +10836,7 @@
 },{
 	"Name":"MprConfigTransportDelete"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10695,7 +10849,7 @@
 },{
 	"Name":"MprConfigTransportGetHandle"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10709,7 +10863,7 @@
 },{
 	"Name":"MprConfigTransportSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10727,7 +10881,7 @@
 },{
 	"Name":"MprConfigTransportGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10745,7 +10899,7 @@
 },{
 	"Name":"MprConfigTransportEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10763,7 +10917,7 @@
 },{
 	"Name":"MprConfigInterfaceCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10778,7 +10932,7 @@
 },{
 	"Name":"MprConfigInterfaceDelete"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10791,7 +10945,7 @@
 },{
 	"Name":"MprConfigInterfaceGetHandle"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10805,7 +10959,7 @@
 },{
 	"Name":"MprConfigInterfaceGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10821,7 +10975,7 @@
 },{
 	"Name":"MprConfigInterfaceSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10836,7 +10990,7 @@
 },{
 	"Name":"MprConfigInterfaceEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10854,7 +11008,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportAdd"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10872,7 +11026,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportRemove"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10886,7 +11040,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportGetHandle"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10901,7 +11055,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10917,7 +11071,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10933,7 +11087,7 @@
 },{
 	"Name":"MprConfigInterfaceTransportEnum"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10952,7 +11106,7 @@
 },{
 	"Name":"MprConfigGetFriendlyName"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10967,7 +11121,7 @@
 },{
 	"Name":"MprConfigGetGuidName"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10982,7 +11136,7 @@
 },{
 	"Name":"MprConfigFilterGetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10997,7 +11151,7 @@
 },{
 	"Name":"MprConfigFilterSetInfo"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11012,7 +11166,7 @@
 },{
 	"Name":"MprInfoCreate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11025,7 +11179,7 @@
 },{
 	"Name":"MprInfoDelete"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11037,7 +11191,7 @@
 },{
 	"Name":"MprInfoRemoveAll"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11050,7 +11204,7 @@
 },{
 	"Name":"MprInfoDuplicate"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11063,7 +11217,7 @@
 },{
 	"Name":"MprInfoBlockAdd"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11080,7 +11234,7 @@
 },{
 	"Name":"MprInfoBlockRemove"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11094,7 +11248,7 @@
 },{
 	"Name":"MprInfoBlockSet"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11111,7 +11265,7 @@
 },{
 	"Name":"MprInfoBlockFind"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11127,7 +11281,7 @@
 },{
 	"Name":"MprInfoBlockQuerySize"
 	,"SetLastError":false
-	,"DllImport":"MPRAPI"
+	,"DllImport":"MPRAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11139,7 +11293,7 @@
 },{
 	"Name":"MgmRegisterMProtocol"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11154,7 +11308,7 @@
 },{
 	"Name":"MgmDeRegisterMProtocol"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11166,7 +11320,7 @@
 },{
 	"Name":"MgmTakeInterfaceOwnership"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11180,7 +11334,7 @@
 },{
 	"Name":"MgmReleaseInterfaceOwnership"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11194,7 +11348,7 @@
 },{
 	"Name":"MgmGetProtocolOnInterface"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11209,7 +11363,7 @@
 },{
 	"Name":"MgmAddGroupMembershipEntry"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11228,7 +11382,7 @@
 },{
 	"Name":"MgmDeleteGroupMembershipEntry"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11247,7 +11401,7 @@
 },{
 	"Name":"MgmGetMfe"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11261,7 +11415,7 @@
 },{
 	"Name":"MgmGetFirstMfe"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11275,7 +11429,7 @@
 },{
 	"Name":"MgmGetNextMfe"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11290,7 +11444,7 @@
 },{
 	"Name":"MgmGetMfeStats"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11305,7 +11459,7 @@
 },{
 	"Name":"MgmGetFirstMfeStats"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11320,7 +11474,7 @@
 },{
 	"Name":"MgmGetNextMfeStats"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11336,7 +11490,7 @@
 },{
 	"Name":"MgmGroupEnumerationStart"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11350,7 +11504,7 @@
 },{
 	"Name":"MgmGroupEnumerationGetNext"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11365,7 +11519,7 @@
 },{
 	"Name":"MgmGroupEnumerationEnd"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11377,7 +11531,7 @@
 },{
 	"Name":"RtmConvertNetAddressToIpv6AddressAndLength"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11392,7 +11546,7 @@
 },{
 	"Name":"RtmConvertIpv6AddressAndLengthToNetAddress"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11407,7 +11561,7 @@
 },{
 	"Name":"RtmRegisterEntity"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11424,7 +11578,7 @@
 },{
 	"Name":"RtmDeregisterEntity"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11436,7 +11590,7 @@
 },{
 	"Name":"RtmGetRegisteredEntities"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11451,7 +11605,7 @@
 },{
 	"Name":"RtmReleaseEntities"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11465,7 +11619,7 @@
 },{
 	"Name":"RtmLockDestination"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11480,7 +11634,7 @@
 },{
 	"Name":"RtmGetOpaqueInformationPointer"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11494,7 +11648,7 @@
 },{
 	"Name":"RtmGetEntityMethods"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11509,7 +11663,7 @@
 },{
 	"Name":"RtmInvokeMethod"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11525,7 +11679,7 @@
 },{
 	"Name":"RtmBlockMethods"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11540,7 +11694,7 @@
 },{
 	"Name":"RtmGetEntityInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11554,7 +11708,7 @@
 },{
 	"Name":"RtmGetDestInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11570,7 +11724,7 @@
 },{
 	"Name":"RtmGetRouteInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11585,7 +11739,7 @@
 },{
 	"Name":"RtmGetNextHopInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11599,7 +11753,7 @@
 },{
 	"Name":"RtmReleaseEntityInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11612,7 +11766,7 @@
 },{
 	"Name":"RtmReleaseDestInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11625,7 +11779,7 @@
 },{
 	"Name":"RtmReleaseRouteInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11638,7 +11792,7 @@
 },{
 	"Name":"RtmReleaseNextHopInfo"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11651,7 +11805,7 @@
 },{
 	"Name":"RtmAddRouteToDest"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11671,7 +11825,7 @@
 },{
 	"Name":"RtmDeleteRouteToDest"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11685,7 +11839,7 @@
 },{
 	"Name":"RtmHoldDestination"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11700,7 +11854,7 @@
 },{
 	"Name":"RtmGetRoutePointer"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11714,7 +11868,7 @@
 },{
 	"Name":"RtmLockRoute"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11730,7 +11884,7 @@
 },{
 	"Name":"RtmUpdateAndUnlockRoute"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11748,7 +11902,7 @@
 },{
 	"Name":"RtmGetExactMatchDestination"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11764,7 +11918,7 @@
 },{
 	"Name":"RtmGetMostSpecificDestination"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11780,7 +11934,7 @@
 },{
 	"Name":"RtmGetLessSpecificDestination"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11796,7 +11950,7 @@
 },{
 	"Name":"RtmGetExactMatchRoute"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11814,7 +11968,7 @@
 },{
 	"Name":"RtmIsBestRoute"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11828,7 +11982,7 @@
 },{
 	"Name":"RtmAddNextHop"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11843,7 +11997,7 @@
 },{
 	"Name":"RtmFindNextHop"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11858,7 +12012,7 @@
 },{
 	"Name":"RtmDeleteNextHop"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11872,7 +12026,7 @@
 },{
 	"Name":"RtmGetNextHopPointer"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11886,7 +12040,7 @@
 },{
 	"Name":"RtmLockNextHop"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11902,7 +12056,7 @@
 },{
 	"Name":"RtmCreateDestEnum"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11919,7 +12073,7 @@
 },{
 	"Name":"RtmGetEnumDests"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11934,7 +12088,7 @@
 },{
 	"Name":"RtmReleaseDests"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11948,7 +12102,7 @@
 },{
 	"Name":"RtmCreateRouteEnum"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11968,7 +12122,7 @@
 },{
 	"Name":"RtmGetEnumRoutes"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11983,7 +12137,7 @@
 },{
 	"Name":"RtmReleaseRoutes"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11997,7 +12151,7 @@
 },{
 	"Name":"RtmCreateNextHopEnum"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12012,7 +12166,7 @@
 },{
 	"Name":"RtmGetEnumNextHops"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12027,7 +12181,7 @@
 },{
 	"Name":"RtmReleaseNextHops"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12041,7 +12195,7 @@
 },{
 	"Name":"RtmDeleteEnumHandle"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12054,7 +12208,7 @@
 },{
 	"Name":"RtmRegisterForChangeNotification"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12070,7 +12224,7 @@
 },{
 	"Name":"RtmGetChangedDests"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12085,7 +12239,7 @@
 },{
 	"Name":"RtmReleaseChangedDests"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12100,7 +12254,7 @@
 },{
 	"Name":"RtmIgnoreChangedDests"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12115,7 +12269,7 @@
 },{
 	"Name":"RtmGetChangeStatus"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12130,7 +12284,7 @@
 },{
 	"Name":"RtmMarkDestForChangeNotification"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12145,7 +12299,7 @@
 },{
 	"Name":"RtmIsMarkedForChangeNotification"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12160,7 +12314,7 @@
 },{
 	"Name":"RtmDeregisterFromChangeNotification"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12173,7 +12327,7 @@
 },{
 	"Name":"RtmCreateRouteList"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12186,7 +12340,7 @@
 },{
 	"Name":"RtmInsertInRouteList"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12201,7 +12355,7 @@
 },{
 	"Name":"RtmCreateRouteListEnum"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12215,7 +12369,7 @@
 },{
 	"Name":"RtmGetListEnumRoutes"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12230,7 +12384,7 @@
 },{
 	"Name":"RtmDeleteRouteList"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12243,7 +12397,7 @@
 },{
 	"Name":"RtmReferenceHandles"
 	,"SetLastError":false
-	,"DllImport":"rtm"
+	,"DllImport":"rtm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -213,6 +213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpValue","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -225,6 +226,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"startTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"endTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -237,6 +239,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"Array","Shape":{"Size":126},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -249,6 +252,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"ATTRIBUTE_TYPE","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
@@ -261,6 +265,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Boolean","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Char","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -328,6 +333,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszOperation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszFile","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -343,6 +349,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"UI_INFO_TYPE","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
@@ -354,6 +361,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pwzNull","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"ShellInfo","Type":{"Kind":"ApiRef","Name":"ShellCommandInfo","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
@@ -369,6 +377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"pwszClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -389,6 +398,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"repair","Type":{"Kind":"ApiRef","Name":"RepairInfo","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"repairRank","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -401,6 +411,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszDescription","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"rootCauseID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -465,6 +476,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszDescription","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -479,6 +491,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"ATTRIBUTE_TYPE","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
@@ -491,6 +504,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cost","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -727,6 +741,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hypothesis","Type":{"Kind":"ApiRef","Name":"HYPOTHESIS","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"pathStatus","Type":{"Kind":"ApiRef","Name":"DIAGNOSIS_STATUS","TargetKind":"Default","Api":"NetworkManagement.NetworkDiagnosticsFramework","Parents":[]},"Attrs":[]}
@@ -846,7 +861,7 @@
 "Functions":[{
 	"Name":"NdfCreateIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -861,7 +876,7 @@
 },{
 	"Name":"NdfCreateWinSockIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -878,7 +893,7 @@
 },{
 	"Name":"NdfCreateWebIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -891,7 +906,7 @@
 },{
 	"Name":"NdfCreateWebIncidentEx"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -906,7 +921,7 @@
 },{
 	"Name":"NdfCreateSharingIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -919,7 +934,7 @@
 },{
 	"Name":"NdfCreateDNSIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -933,7 +948,7 @@
 },{
 	"Name":"NdfCreateConnectivityIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -945,7 +960,7 @@
 },{
 	"Name":"NdfCreateNetConnectionIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -958,7 +973,7 @@
 },{
 	"Name":"NdfCreatePnrpIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -974,7 +989,7 @@
 },{
 	"Name":"NdfCreateGroupingIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -992,7 +1007,7 @@
 },{
 	"Name":"NdfExecuteDiagnosis"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1005,7 +1020,7 @@
 },{
 	"Name":"NdfCloseIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1017,7 +1032,7 @@
 },{
 	"Name":"NdfDiagnoseIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1033,7 +1048,7 @@
 },{
 	"Name":"NdfRepairIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1047,7 +1062,7 @@
 },{
 	"Name":"NdfCancelIncident"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1059,7 +1074,7 @@
 },{
 	"Name":"NdfGetTraceFile"
 	,"SetLastError":false
-	,"DllImport":"NDFAPI"
+	,"DllImport":"NDFAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

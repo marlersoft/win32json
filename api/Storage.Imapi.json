@@ -8200,6 +8200,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -8223,6 +8224,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cValues","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"aPropAttr","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -8373,6 +8375,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guidSignature","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 	]
@@ -8450,6 +8453,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pguid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["Const"]}
 		,{"Name":"dwStart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8461,7 +8465,7 @@
 "Functions":[{
 	"Name":"OpenIMsgSession"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8475,7 +8479,7 @@
 },{
 	"Name":"CloseIMsgSession"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8487,7 +8491,7 @@
 },{
 	"Name":"OpenIMsgOnIStg"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8509,7 +8513,7 @@
 },{
 	"Name":"GetAttribIMsgOnIStg"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8523,7 +8527,7 @@
 },{
 	"Name":"SetAttribIMsgOnIStg"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8538,7 +8542,7 @@
 },{
 	"Name":"MapStorageSCode"
 	,"SetLastError":false
-	,"DllImport":"MAPI32"
+	,"DllImport":"MAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -4691,6 +4691,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -4703,6 +4704,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"HighPart","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4771,6 +4773,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"minAttribute","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"maxAttribute","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4783,6 +4786,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uuid128","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"uuid32","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4796,6 +4800,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"u","Type":{"Kind":"ApiRef","Name":"SdpQueryUuidUnion","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"uuidType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4808,6 +4813,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"address","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4822,6 +4828,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"deviceInfo","Type":{"Kind":"ApiRef","Name":"BTH_DEVICE_INFO","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"previousDeviceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4834,6 +4841,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bthAddress","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"psm","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4848,6 +4856,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bthAddress","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"connectionType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4893,6 +4902,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 	]
@@ -4903,6 +4913,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ullLong","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"rgBytes","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4916,6 +4927,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Enabled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"btAddr","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_ADDRESS","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -4930,6 +4942,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -4941,6 +4954,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"address","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_ADDRESS","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -4957,6 +4971,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Address","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_ADDRESS","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5023,6 +5038,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"deviceInfo","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_DEVICE_INFO","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"authenticationMethod","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_AUTHENTICATION_METHOD","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5037,6 +5053,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Numeric_Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Passkey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5050,6 +5067,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fReturnAuthenticated","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5068,6 +5086,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulCODMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pcszDescription","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -5093,6 +5112,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cNumOfClasses","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5118,6 +5138,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pin","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"pinLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5130,6 +5151,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"C","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"R","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5142,6 +5164,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumericValue","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -5153,6 +5176,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"passkey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -5190,6 +5214,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bthAddressRemote","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_ADDRESS","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"authMethod","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_AUTHENTICATION_METHOD","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5203,6 +5228,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pinInfo","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_PIN_INFO","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 			,{"Name":"oobInfo","Type":{"Kind":"ApiRef","Name":"BLUETOOTH_OOB_DATA_INFO","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5218,6 +5244,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"SDP_TYPE","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"specificType","Type":{"Kind":"ApiRef","Name":"SDP_SPECIFICTYPE","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5230,6 +5257,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"int128","Type":{"Kind":"ApiRef","Name":"SDP_LARGE_INTEGER_16","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 			,{"Name":"int64","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -5257,6 +5285,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5269,6 +5298,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5281,6 +5311,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5293,6 +5324,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5307,6 +5339,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"encoding","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"mibeNum","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5335,6 +5368,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IsShortUuid","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"ApiRef","Name":"_Value_e__Union","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5346,6 +5380,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ShortUuid","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"LongUuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -5359,6 +5394,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ServiceUuid","Type":{"Kind":"ApiRef","Name":"BTH_LE_UUID","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"AttributeHandle","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5388,6 +5424,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ServiceHandle","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"CharacteristicUuid","Type":{"Kind":"ApiRef","Name":"BTH_LE_UUID","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5410,6 +5447,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5422,6 +5460,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ServiceHandle","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"CharacteristicHandle","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5437,6 +5476,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DescriptorType","Type":{"Kind":"ApiRef","Name":"BTH_LE_GATT_DESCRIPTOR_TYPE","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 		,{"Name":"DescriptorUuid","Type":{"Kind":"ApiRef","Name":"BTH_LE_UUID","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5451,6 +5491,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"CharacteristicExtendedProperties","Type":{"Kind":"ApiRef","Name":"_CharacteristicExtendedProperties_e__Struct","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"ClientCharacteristicConfiguration","Type":{"Kind":"ApiRef","Name":"_ClientCharacteristicConfiguration_e__Struct","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -5464,6 +5505,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Format","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"Exponent","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5479,6 +5521,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"IsBroadcast","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
@@ -5490,6 +5533,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"IsSubscribeToNotification","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"IsSubscribeToIndication","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5502,6 +5546,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"IsReliableWriteEnabled","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"IsAuxiliariesWritable","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5541,6 +5586,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumCharacteristics","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Characteristics","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"BTH_LE_GATT_CHARACTERISTIC","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]}},"Attrs":[]}
@@ -5553,6 +5599,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ChangedAttributeHandle","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"CharacteristicValueDataSize","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -5566,6 +5613,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"addressFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"btAddr","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -5580,6 +5628,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pSdpVersion","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
 		,{"Name":"pRecordHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -5596,6 +5645,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LAP","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5608,6 +5658,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"serviceHandle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5623,6 +5674,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Signals","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Break","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5635,6 +5687,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LineStatus","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -5646,6 +5699,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Baud","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5663,6 +5717,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CmdType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5674,6 +5729,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"MSC","Type":{"Kind":"ApiRef","Name":"RFCOMM_MSC_DATA","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
 			,{"Name":"RLS","Type":{"Kind":"ApiRef","Name":"RFCOMM_RLS_DATA","TargetKind":"Default","Api":"Devices.Bluetooth","Parents":[]},"Attrs":[]}
@@ -5688,6 +5744,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"btAddr","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"dataLen","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5701,6 +5758,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dataLen","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"Array","Shape":{"Size":44},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5713,6 +5771,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"btAddr","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"infoType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -5725,6 +5784,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"result","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"dataLen","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5737,6 +5797,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"connectionlessMTU","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"data","Type":{"Kind":"Array","Shape":{"Size":44},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -5748,7 +5809,7 @@
 "Functions":[{
 	"Name":"BluetoothFindFirstRadio"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5761,7 +5822,7 @@
 },{
 	"Name":"BluetoothFindNextRadio"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5774,7 +5835,7 @@
 },{
 	"Name":"BluetoothFindRadioClose"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5786,7 +5847,7 @@
 },{
 	"Name":"BluetoothGetRadioInfo"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5799,7 +5860,7 @@
 },{
 	"Name":"BluetoothFindFirstDevice"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5812,7 +5873,7 @@
 },{
 	"Name":"BluetoothFindNextDevice"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5825,7 +5886,7 @@
 },{
 	"Name":"BluetoothFindDeviceClose"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5837,7 +5898,7 @@
 },{
 	"Name":"BluetoothGetDeviceInfo"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5850,7 +5911,7 @@
 },{
 	"Name":"BluetoothUpdateDeviceRecord"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5862,7 +5923,7 @@
 },{
 	"Name":"BluetoothRemoveDevice"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5958,7 +6019,7 @@
 },{
 	"Name":"BluetoothSetServiceState"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5973,7 +6034,7 @@
 },{
 	"Name":"BluetoothEnumerateInstalledServices"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5988,7 +6049,7 @@
 },{
 	"Name":"BluetoothEnableDiscovery"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6001,7 +6062,7 @@
 },{
 	"Name":"BluetoothIsDiscoverable"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6013,7 +6074,7 @@
 },{
 	"Name":"BluetoothEnableIncomingConnections"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6026,7 +6087,7 @@
 },{
 	"Name":"BluetoothIsConnectable"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6038,7 +6099,7 @@
 },{
 	"Name":"BluetoothRegisterForAuthentication"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6053,7 +6114,7 @@
 },{
 	"Name":"BluetoothRegisterForAuthenticationEx"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6068,7 +6129,7 @@
 },{
 	"Name":"BluetoothUnregisterAuthentication"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6080,7 +6141,7 @@
 },{
 	"Name":"BluetoothSendAuthenticationResponse"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6094,7 +6155,7 @@
 },{
 	"Name":"BluetoothSendAuthenticationResponseEx"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6107,7 +6168,7 @@
 },{
 	"Name":"BluetoothSdpGetElementData"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6121,7 +6182,7 @@
 },{
 	"Name":"BluetoothSdpGetContainerElementData"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6136,7 +6197,7 @@
 },{
 	"Name":"BluetoothSdpGetAttributeValue"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6151,7 +6212,7 @@
 },{
 	"Name":"BluetoothSdpGetString"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6168,7 +6229,7 @@
 },{
 	"Name":"BluetoothSdpEnumAttributes"
 	,"SetLastError":true
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6183,7 +6244,7 @@
 },{
 	"Name":"BluetoothSetLocalServiceInfo"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6198,7 +6259,7 @@
 },{
 	"Name":"BluetoothIsVersionAvailable"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6211,7 +6272,7 @@
 },{
 	"Name":"BluetoothGATTGetServices"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6227,7 +6288,7 @@
 },{
 	"Name":"BluetoothGATTGetIncludedServices"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6244,7 +6305,7 @@
 },{
 	"Name":"BluetoothGATTGetCharacteristics"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6261,7 +6322,7 @@
 },{
 	"Name":"BluetoothGATTGetDescriptors"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6278,7 +6339,7 @@
 },{
 	"Name":"BluetoothGATTGetCharacteristicValue"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6295,7 +6356,7 @@
 },{
 	"Name":"BluetoothGATTGetDescriptorValue"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6312,7 +6373,7 @@
 },{
 	"Name":"BluetoothGATTBeginReliableWrite"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6326,7 +6387,7 @@
 },{
 	"Name":"BluetoothGATTSetCharacteristicValue"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6342,7 +6403,7 @@
 },{
 	"Name":"BluetoothGATTEndReliableWrite"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6356,7 +6417,7 @@
 },{
 	"Name":"BluetoothGATTAbortReliableWrite"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6370,7 +6431,7 @@
 },{
 	"Name":"BluetoothGATTSetDescriptorValue"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6385,7 +6446,7 @@
 },{
 	"Name":"BluetoothGATTRegisterEvent"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6403,7 +6464,7 @@
 },{
 	"Name":"BluetoothGATTUnregisterEvent"
 	,"SetLastError":false
-	,"DllImport":"BluetoothApis"
+	,"DllImport":"BluetoothApis.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

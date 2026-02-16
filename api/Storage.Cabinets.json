@@ -213,6 +213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"erfOper","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"erfType","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -246,6 +247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbFolderThresh","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -483,6 +485,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbCabinet","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"cFolders","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -514,6 +517,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fdidt","Type":{"Kind":"ApiRef","Name":"FDIDECRYPTTYPE","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]},"Attrs":[]}
 		,{"Name":"pvUser","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -526,6 +530,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"cabinet","Type":{"Kind":"ApiRef","Name":"_cabinet_e__Struct","TargetKind":"Default","Api":"Storage.Cabinets","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"folder","Type":{"Kind":"ApiRef","Name":"_folder_e__Struct","TargetKind":"Default","Api":"Storage.Cabinets","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -538,6 +543,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"pDataReserve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 				,{"Name":"cbDataReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -554,6 +560,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"pFolderReserve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 				,{"Name":"cbFolderReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -567,6 +574,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"pHeaderReserve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 				,{"Name":"cbHeaderReserve","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -687,6 +695,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"psz1","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -739,6 +748,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ach","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"cbFile","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -751,6 +761,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ach","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"cbFile","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -761,7 +772,7 @@
 "Functions":[{
 	"Name":"FCICreate"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -785,7 +796,7 @@
 },{
 	"Name":"FCIAddFile"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -804,7 +815,7 @@
 },{
 	"Name":"FCIFlushCabinet"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -819,7 +830,7 @@
 },{
 	"Name":"FCIFlushFolder"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -833,7 +844,7 @@
 },{
 	"Name":"FCIDestroy"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -845,7 +856,7 @@
 },{
 	"Name":"FDICreate"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -865,7 +876,7 @@
 },{
 	"Name":"FDIIsCabinet"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -879,7 +890,7 @@
 },{
 	"Name":"FDICopy"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -897,7 +908,7 @@
 },{
 	"Name":"FDIDestroy"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -909,7 +920,7 @@
 },{
 	"Name":"FDITruncateCabinet"
 	,"SetLastError":false
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

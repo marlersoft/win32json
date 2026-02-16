@@ -1229,6 +1229,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszUserName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"pwszDomain","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1310,6 +1311,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"OptionLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1323,6 +1325,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Operation","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"HardwareAddressType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1348,6 +1351,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"bMagicCookie","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"uMagicCookie","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1361,6 +1365,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionCode","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"DataLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -1374,6 +1379,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MessageType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Message","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -1386,6 +1392,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MessageType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"TransactionIDByte1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1401,6 +1408,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MessageType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"HopCount","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1416,6 +1424,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uSizeOfStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1431,6 +1440,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.DeploymentServices","Parents":[]},"Attrs":[]}
@@ -1444,6 +1454,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"bAddress","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"uIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1457,6 +1468,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pRelayMessage","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PXE_DHCPV6_RELAY_MESSAGE","TargetKind":"Default","Api":"System.DeploymentServices","Parents":[]}},"Attrs":[]}
 		,{"Name":"cbRelayMessage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1494,6 +1506,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulMcServerVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1508,6 +1521,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulProviderVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1537,6 +1551,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulStructureLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ullFileSize","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1638,6 +1653,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulApiVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1658,6 +1674,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SessionStart","Type":{"Kind":"ApiRef","Name":"PFN_WdsTransportClientSessionStart","TargetKind":"FunctionPointer","Api":"System.DeploymentServices","Parents":[]},"Attrs":[]}
 		,{"Name":"SessionStartEx","Type":{"Kind":"ApiRef","Name":"PFN_WdsTransportClientSessionStartEx","TargetKind":"FunctionPointer","Api":"System.DeploymentServices","Parents":[]},"Attrs":[]}
@@ -3767,7 +3784,7 @@
 "Functions":[{
 	"Name":"WdsCliClose"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3779,7 +3796,7 @@
 },{
 	"Name":"WdsCliRegisterTrace"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3791,7 +3808,7 @@
 },{
 	"Name":"WdsCliFreeStringArray"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3804,7 +3821,7 @@
 },{
 	"Name":"WdsCliFindFirstImage"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3817,7 +3834,7 @@
 },{
 	"Name":"WdsCliFindNextImage"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3829,7 +3846,7 @@
 },{
 	"Name":"WdsCliGetEnumerationFlags"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3842,7 +3859,7 @@
 },{
 	"Name":"WdsCliGetImageHandleFromFindHandle"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3855,7 +3872,7 @@
 },{
 	"Name":"WdsCliGetImageHandleFromTransferHandle"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3868,7 +3885,7 @@
 },{
 	"Name":"WdsCliCreateSession"
 	,"SetLastError":true
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3882,7 +3899,7 @@
 },{
 	"Name":"WdsCliAuthorizeSession"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3895,7 +3912,7 @@
 },{
 	"Name":"WdsCliInitializeLog"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3910,7 +3927,7 @@
 },{
 	"Name":"WdsCliLog"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3924,7 +3941,7 @@
 },{
 	"Name":"WdsCliGetImageName"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3937,7 +3954,7 @@
 },{
 	"Name":"WdsCliGetImageDescription"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3950,7 +3967,7 @@
 },{
 	"Name":"WdsCliGetImageType"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3963,7 +3980,7 @@
 },{
 	"Name":"WdsCliGetImageFiles"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3977,7 +3994,7 @@
 },{
 	"Name":"WdsCliGetImageLanguage"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3990,7 +4007,7 @@
 },{
 	"Name":"WdsCliGetImageLanguages"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4004,7 +4021,7 @@
 },{
 	"Name":"WdsCliGetImageVersion"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4017,7 +4034,7 @@
 },{
 	"Name":"WdsCliGetImagePath"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4030,7 +4047,7 @@
 },{
 	"Name":"WdsCliGetImageIndex"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4043,7 +4060,7 @@
 },{
 	"Name":"WdsCliGetImageArchitecture"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4056,7 +4073,7 @@
 },{
 	"Name":"WdsCliGetImageLastModifiedTime"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4069,7 +4086,7 @@
 },{
 	"Name":"WdsCliGetImageSize"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4082,7 +4099,7 @@
 },{
 	"Name":"WdsCliGetImageHalName"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4095,7 +4112,7 @@
 },{
 	"Name":"WdsCliGetImageGroup"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4108,7 +4125,7 @@
 },{
 	"Name":"WdsCliGetImageNamespace"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4121,7 +4138,7 @@
 },{
 	"Name":"WdsCliGetImageParameter"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4136,7 +4153,7 @@
 },{
 	"Name":"WdsCliGetTransferSize"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4149,7 +4166,7 @@
 },{
 	"Name":"WdsCliSetTransferBufferSize"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4161,7 +4178,7 @@
 },{
 	"Name":"WdsCliTransferImage"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4179,7 +4196,7 @@
 },{
 	"Name":"WdsCliTransferFile"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4199,7 +4216,7 @@
 },{
 	"Name":"WdsCliCancelTransfer"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4211,7 +4228,7 @@
 },{
 	"Name":"WdsCliWaitForTransfer"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4223,7 +4240,7 @@
 },{
 	"Name":"WdsCliObtainDriverPackages"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4238,7 +4255,7 @@
 },{
 	"Name":"WdsCliObtainDriverPackagesEx"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4254,7 +4271,7 @@
 },{
 	"Name":"WdsCliGetDriverQueryXml"
 	,"SetLastError":false
-	,"DllImport":"WDSCLIENTAPI"
+	,"DllImport":"WDSCLIENTAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4267,7 +4284,7 @@
 },{
 	"Name":"PxeProviderRegister"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4283,7 +4300,7 @@
 },{
 	"Name":"PxeProviderUnRegister"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4295,7 +4312,7 @@
 },{
 	"Name":"PxeProviderQueryIndex"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4308,7 +4325,7 @@
 },{
 	"Name":"PxeProviderEnumFirst"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4320,7 +4337,7 @@
 },{
 	"Name":"PxeProviderEnumNext"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4333,7 +4350,7 @@
 },{
 	"Name":"PxeProviderEnumClose"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4345,7 +4362,7 @@
 },{
 	"Name":"PxeProviderFreeInfo"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4357,7 +4374,7 @@
 },{
 	"Name":"PxeRegisterCallback"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4372,7 +4389,7 @@
 },{
 	"Name":"PxeSendReply"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4387,7 +4404,7 @@
 },{
 	"Name":"PxeAsyncRecvDone"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4400,7 +4417,7 @@
 },{
 	"Name":"PxeTrace"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4414,7 +4431,7 @@
 },{
 	"Name":"PxeTraceV"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4429,7 +4446,7 @@
 },{
 	"Name":"PxePacketAllocate"
 	,"SetLastError":true
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4443,7 +4460,7 @@
 },{
 	"Name":"PxePacketFree"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4457,7 +4474,7 @@
 },{
 	"Name":"PxeProviderSetAttribute"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4472,7 +4489,7 @@
 },{
 	"Name":"PxeDhcpInitialize"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4488,7 +4505,7 @@
 },{
 	"Name":"PxeDhcpv6Initialize"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4504,7 +4521,7 @@
 },{
 	"Name":"PxeDhcpAppendOption"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4521,7 +4538,7 @@
 },{
 	"Name":"PxeDhcpv6AppendOption"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4538,7 +4555,7 @@
 },{
 	"Name":"PxeDhcpAppendOptionRaw"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4554,7 +4571,7 @@
 },{
 	"Name":"PxeDhcpv6AppendOptionRaw"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4570,7 +4587,7 @@
 },{
 	"Name":"PxeDhcpIsValid"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4585,7 +4602,7 @@
 },{
 	"Name":"PxeDhcpv6IsValid"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4600,7 +4617,7 @@
 },{
 	"Name":"PxeDhcpGetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4617,7 +4634,7 @@
 },{
 	"Name":"PxeDhcpv6GetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4634,7 +4651,7 @@
 },{
 	"Name":"PxeDhcpGetVendorOptionValue"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4651,7 +4668,7 @@
 },{
 	"Name":"PxeDhcpv6GetVendorOptionValue"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4669,7 +4686,7 @@
 },{
 	"Name":"PxeDhcpv6ParseRelayForw"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4687,7 +4704,7 @@
 },{
 	"Name":"PxeDhcpv6CreateRelayRepl"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4705,7 +4722,7 @@
 },{
 	"Name":"PxeGetServerInfo"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4719,7 +4736,7 @@
 },{
 	"Name":"PxeGetServerInfoEx"
 	,"SetLastError":false
-	,"DllImport":"WDSPXE"
+	,"DllImport":"WDSPXE.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4734,7 +4751,7 @@
 },{
 	"Name":"WdsTransportServerRegisterCallback"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4748,7 +4765,7 @@
 },{
 	"Name":"WdsTransportServerCompleteRead"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4763,7 +4780,7 @@
 },{
 	"Name":"WdsTransportServerTrace"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4777,7 +4794,7 @@
 },{
 	"Name":"WdsTransportServerTraceV"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4792,7 +4809,7 @@
 },{
 	"Name":"WdsTransportServerAllocateBuffer"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4805,7 +4822,7 @@
 },{
 	"Name":"WdsTransportServerFreeBuffer"
 	,"SetLastError":false
-	,"DllImport":"WDSMC"
+	,"DllImport":"WDSMC.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4818,7 +4835,7 @@
 },{
 	"Name":"WdsTransportClientInitialize"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4829,7 +4846,7 @@
 },{
 	"Name":"WdsTransportClientInitializeSession"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4843,7 +4860,7 @@
 },{
 	"Name":"WdsTransportClientRegisterCallback"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4857,7 +4874,7 @@
 },{
 	"Name":"WdsTransportClientStartSession"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4869,7 +4886,7 @@
 },{
 	"Name":"WdsTransportClientCompleteReceive"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4883,7 +4900,7 @@
 },{
 	"Name":"WdsTransportClientCancelSession"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4895,7 +4912,7 @@
 },{
 	"Name":"WdsTransportClientCancelSessionEx"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4908,7 +4925,7 @@
 },{
 	"Name":"WdsTransportClientWaitForCompletion"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4921,7 +4938,7 @@
 },{
 	"Name":"WdsTransportClientQueryStatus"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4935,7 +4952,7 @@
 },{
 	"Name":"WdsTransportClientCloseSession"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4947,7 +4964,7 @@
 },{
 	"Name":"WdsTransportClientAddRefBuffer"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4959,7 +4976,7 @@
 },{
 	"Name":"WdsTransportClientReleaseBuffer"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4971,7 +4988,7 @@
 },{
 	"Name":"WdsTransportClientShutdown"
 	,"SetLastError":false
-	,"DllImport":"WDSTPTC"
+	,"DllImport":"WDSTPTC.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4982,7 +4999,7 @@
 },{
 	"Name":"WdsBpParseInitialize"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4997,7 +5014,7 @@
 },{
 	"Name":"WdsBpParseInitializev6"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5012,7 +5029,7 @@
 },{
 	"Name":"WdsBpInitialize"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5025,7 +5042,7 @@
 },{
 	"Name":"WdsBpCloseHandle"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5037,7 +5054,7 @@
 },{
 	"Name":"WdsBpQueryOption"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5053,7 +5070,7 @@
 },{
 	"Name":"WdsBpAddOption"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5068,7 +5085,7 @@
 },{
 	"Name":"WdsBpGetOptionBuffer"
 	,"SetLastError":false
-	,"DllImport":"WDSBP"
+	,"DllImport":"WDSBP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

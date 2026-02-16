@@ -326,6 +326,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guidFormatType","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwSamplesPerFrame","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -408,6 +409,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pBuffer","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"u32ValidFrameCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -422,6 +424,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"property","Type":{"Kind":"ApiRef","Name":"APO_CONNECTION_PROPERTY","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"u64QPCTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -447,6 +450,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"APO_CONNECTION_BUFFER_TYPE","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"pBuffer","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -479,6 +483,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"APO_FLAG","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
@@ -502,6 +507,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -926,6 +932,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APOInit","Type":{"Kind":"ApiRef","Name":"APOInitBaseStruct","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"pAPOEndpointProperties","Type":{"Kind":"ApiRef","Name":"IPropertyStore","TargetKind":"Com","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
@@ -941,6 +948,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APOInit","Type":{"Kind":"ApiRef","Name":"APOInitBaseStruct","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"pAPOEndpointProperties","Type":{"Kind":"ApiRef","Name":"IPropertyStore","TargetKind":"Com","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
@@ -960,6 +968,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddPageParam","Type":{"Kind":"ApiRef","Name":"LPARAM","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwstrEndpointID","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -985,6 +994,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"canSetState","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1032,6 +1042,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APOInit","Type":{"Kind":"ApiRef","Name":"APOInitBaseStruct","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"pAPOEndpointProperties","Type":{"Kind":"ApiRef","Name":"IPropertyStore","TargetKind":"Com","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
@@ -1121,6 +1132,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"endpoint","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 		,{"Name":"volume","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"AUDIO_VOLUME_NOTIFICATION_DATA","TargetKind":"Default","Api":"Media.Audio","Parents":[]}},"Attrs":[]}
@@ -1133,6 +1145,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"endpoint","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 		,{"Name":"propertyStore","Type":{"Kind":"ApiRef","Name":"IPropertyStore","TargetKind":"Com","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
@@ -1146,6 +1159,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"endpoint","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 		,{"Name":"propertyStoreContext","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1161,6 +1175,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"APO_NOTIFICATION_TYPE","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
@@ -1172,6 +1187,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"audioEndpointVolumeChange","Type":{"Kind":"ApiRef","Name":"AUDIO_ENDPOINT_VOLUME_CHANGE_NOTIFICATION","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 			,{"Name":"audioEndpointPropertyChange","Type":{"Kind":"ApiRef","Name":"AUDIO_ENDPOINT_PROPERTY_CHANGE_NOTIFICATION","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
@@ -1186,6 +1202,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"device","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 	]
@@ -1197,6 +1214,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"device","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 	]
@@ -1208,6 +1226,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"device","Type":{"Kind":"ApiRef","Name":"IMMDevice","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":[]}
 		,{"Name":"propertyStoreContext","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1220,6 +1239,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"APO_NOTIFICATION_TYPE","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
@@ -1231,6 +1251,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"audioEndpointVolume","Type":{"Kind":"ApiRef","Name":"AUDIO_ENDPOINT_VOLUME_APO_NOTIFICATION_DESCRIPTOR","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}
 			,{"Name":"audioEndpointPropertyChange","Type":{"Kind":"ApiRef","Name":"AUDIO_ENDPOINT_PROPERTY_CHANGE_APO_NOTIFICATION_DESCRIPTOR","TargetKind":"Default","Api":"Media.Audio.Apo","Parents":[]},"Attrs":[]}

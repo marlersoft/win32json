@@ -2382,6 +2382,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4588,6 +4589,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guidCombaseProcessIdentifier","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"ProcessStartTime","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -4616,6 +4618,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fAppHangMonitorEnabled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"fTerminateOnHang","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4646,6 +4649,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_cTotalCalls","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_cTotalInstances","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4660,6 +4664,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_idApp","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_szAppGuid","Type":{"Kind":"Array","Shape":{"Size":40},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -4674,6 +4679,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"m_cReferences","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4692,6 +4698,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"m_appid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4730,6 +4737,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PartitionIdPrimaryApplication","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"ApplicationIdPrimaryApplication","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4749,6 +4757,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumCallsOutstanding","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumTrackedComponents","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4767,6 +4776,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IsRecyclable","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"IsRecycled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4791,6 +4801,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ApplicationInstanceId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"PartitionId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4808,6 +4819,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ApplicationInstanceId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"PartitionId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -4824,6 +4836,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumInstances","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumBoundReferences","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4847,6 +4860,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IsMonitored","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"TerminateOnHang","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6425,6 +6439,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwCrmFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSequenceNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8766,7 +8781,7 @@
 "Functions":[{
 	"Name":"CoGetDefaultContext"
 	,"SetLastError":false
-	,"DllImport":"OLE32"
+	,"DllImport":"OLE32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8780,7 +8795,7 @@
 },{
 	"Name":"CoCreateActivity"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8794,7 +8809,7 @@
 },{
 	"Name":"CoEnterServiceDomain"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8806,7 +8821,7 @@
 },{
 	"Name":"CoLeaveServiceDomain"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8818,7 +8833,7 @@
 },{
 	"Name":"GetManagedExtensions"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8830,7 +8845,7 @@
 },{
 	"Name":"SafeRef"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8843,7 +8858,7 @@
 },{
 	"Name":"RecycleSurrogate"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8855,7 +8870,7 @@
 },{
 	"Name":"MTSCreateActivity"
 	,"SetLastError":false
-	,"DllImport":"comsvcs"
+	,"DllImport":"comsvcs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8868,7 +8883,7 @@
 },{
 	"Name":"GetDispenserManager"
 	,"SetLastError":false
-	,"DllImport":"MTxDM"
+	,"DllImport":"MTxDM.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

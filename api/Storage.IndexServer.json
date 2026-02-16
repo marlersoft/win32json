@@ -842,6 +842,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cWordList","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -867,6 +868,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guidPropSet","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"psProperty","Type":{"Kind":"ApiRef","Name":"PROPSPEC","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":[]}
@@ -941,6 +943,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"idChunk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cwcStart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -954,6 +957,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"idChunk","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"breakType","Type":{"Kind":"ApiRef","Name":"CHUNK_BREAKTYPE","TargetKind":"Default","Api":"Storage.IndexServer","Parents":[]},"Attrs":[]}
@@ -1109,6 +1113,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uGuid","Type":{"Kind":"ApiRef","Name":"_uGuid_e__Union","TargetKind":"Default","Api":"Storage.IndexServer","Parents":[]},"Attrs":[]}
 		,{"Name":"eKind","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1121,6 +1126,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"ulPropid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1133,6 +1139,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"pguid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -1146,6 +1153,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":2
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"uGuid","Type":{"Kind":"ApiRef","Name":"_uGuid_e__Union","TargetKind":"Default","Api":"Storage.IndexServer","Parents":[]},"Attrs":[]}
 		,{"Name":"eKind","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1158,6 +1166,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":2
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"ulPropid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1170,6 +1179,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":2
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"pguid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -1181,7 +1191,7 @@
 "Functions":[{
 	"Name":"LoadIFilter"
 	,"SetLastError":false
-	,"DllImport":"query"
+	,"DllImport":"query.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1195,7 +1205,7 @@
 },{
 	"Name":"LoadIFilterEx"
 	,"SetLastError":false
-	,"DllImport":"query"
+	,"DllImport":"query.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1210,7 +1220,7 @@
 },{
 	"Name":"BindIFilterFromStorage"
 	,"SetLastError":false
-	,"DllImport":"query"
+	,"DllImport":"query.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1224,7 +1234,7 @@
 },{
 	"Name":"BindIFilterFromStream"
 	,"SetLastError":false
-	,"DllImport":"query"
+	,"DllImport":"query.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

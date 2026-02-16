@@ -1566,6 +1566,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wszTicket","Type":{"Kind":"Array","Shape":{"Size":45},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"hKey","Type":{"Kind":"ApiRef","Name":"NCRYPT_KEY_HANDLE","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]},"Attrs":[]}
@@ -1579,6 +1580,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"raaType","Type":{"Kind":"ApiRef","Name":"RAS_AUTH_ATTRIBUTE_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"dwLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1592,6 +1594,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Code","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Id","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1606,6 +1609,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1656,6 +1660,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Action","Type":{"Kind":"ApiRef","Name":"PPP_EAP_ACTION","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -1681,6 +1686,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwEapTypeId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1697,6 +1703,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eapType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1717,6 +1724,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eapType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSizeofContextData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2075,6 +2083,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"dwVendorId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2088,6 +2097,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eapType","Type":{"Kind":"ApiRef","Name":"EAP_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"dwAuthorId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2100,6 +2110,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eaptype","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszAuthorName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2115,6 +2126,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eaptype","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszAuthorName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2130,6 +2142,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumberOfMethods","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEapMethods","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_METHOD_INFO","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2142,6 +2155,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumberOfMethods","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEapMethods","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_METHOD_INFO_EX","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2154,6 +2168,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwWinError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2280,6 +2295,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eaType","Type":{"Kind":"ApiRef","Name":"EAP_ATTRIBUTE_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"dwLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2293,6 +2309,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumberOfAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pAttribs","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_ATTRIBUTE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2324,6 +2341,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"EAP_CONFIG_INPUT_FIELD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2341,6 +2359,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNumberOfFields","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2370,6 +2389,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"curCreds","Type":{"Kind":"ApiRef","Name":"EAP_CONFIG_INPUT_FIELD_ARRAY","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"newCreds","Type":{"Kind":"ApiRef","Name":"EAP_CONFIG_INPUT_FIELD_ARRAY","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2382,6 +2402,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"credData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_CONFIG_INPUT_FIELD_ARRAY","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
 		,{"Name":"credExpiryData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_CRED_EXPIRY_REQ","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2395,6 +2416,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2464,6 +2486,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2476,6 +2499,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2488,6 +2512,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2500,6 +2525,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"empvBool","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_PROPERTY_VALUE_BOOL","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"empvDword","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_PROPERTY_VALUE_DWORD","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2513,6 +2539,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eapMethodPropertyType","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_PROPERTY_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"eapMethodPropertyValueType","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_PROPERTY_VALUE_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2526,6 +2553,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumberOfProperties","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pMethodProperty","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_METHOD_PROPERTY","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2538,6 +2566,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eapMethodType","Type":{"Kind":"ApiRef","Name":"EAP_METHOD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2559,6 +2588,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeofContextData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pContextData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2590,6 +2620,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"password","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2602,6 +2633,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"certHash","Type":{"Kind":"Array","Shape":{"Size":20},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"password","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2614,6 +2646,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iccID","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -2625,6 +2658,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"username_password","Type":{"Kind":"ApiRef","Name":"EapUsernamePasswordCredential","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"certificate","Type":{"Kind":"ApiRef","Name":"EapCertificateCredential","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2638,6 +2672,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"credType","Type":{"Kind":"ApiRef","Name":"EapCredentialType","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"credData","Type":{"Kind":"ApiRef","Name":"EapCredentialTypeData","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
@@ -2711,6 +2746,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"status","Type":{"Kind":"ApiRef","Name":"EAPHOST_AUTH_STATUS","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"dwErrorCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2738,6 +2774,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fIsSuccess","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFailureReasonCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2760,6 +2797,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Code","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Id","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -2819,6 +2857,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fIsSuccess","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFailureReason","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2848,6 +2887,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"action","Type":{"Kind":"ApiRef","Name":"EapPeerMethodResponseAction","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]},"Attrs":[]}
 		,{"Name":"fAllowNotifications","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2873,6 +2913,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fIsSuccess","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwFailureReasonCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2895,6 +2936,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEapType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2933,6 +2975,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEapType","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EAP_METHOD_TYPE","TargetKind":"Default","Api":"Security.ExtensibleAuthenticationProtocol","Parents":[]}},"Attrs":[]}
@@ -2953,7 +2996,7 @@
 "Functions":[{
 	"Name":"EapHostPeerGetMethods"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2966,7 +3009,7 @@
 },{
 	"Name":"EapHostPeerGetMethodProperties"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2987,7 +3030,7 @@
 },{
 	"Name":"EapHostPeerInvokeConfigUI"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3006,7 +3049,7 @@
 },{
 	"Name":"EapHostPeerQueryCredentialInputFields"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3024,7 +3067,7 @@
 },{
 	"Name":"EapHostPeerQueryUserBlobFromCredentialInputFields"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3044,7 +3087,7 @@
 },{
 	"Name":"EapHostPeerInvokeIdentityUI"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3068,7 +3111,7 @@
 },{
 	"Name":"EapHostPeerInvokeInteractiveUI"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3085,7 +3128,7 @@
 },{
 	"Name":"EapHostPeerQueryInteractiveUIInputFields"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3103,7 +3146,7 @@
 },{
 	"Name":"EapHostPeerQueryUIBlobFromInteractiveUIInputFields"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3123,7 +3166,7 @@
 },{
 	"Name":"EapHostPeerConfigXml2Blob"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3140,7 +3183,7 @@
 },{
 	"Name":"EapHostPeerCredentialsXml2Blob"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3159,7 +3202,7 @@
 },{
 	"Name":"EapHostPeerConfigBlob2Xml"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3176,7 +3219,7 @@
 },{
 	"Name":"EapHostPeerFreeMemory"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3188,7 +3231,7 @@
 },{
 	"Name":"EapHostPeerFreeErrorMemory"
 	,"SetLastError":false
-	,"DllImport":"eappcfg"
+	,"DllImport":"eappcfg.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3200,7 +3243,7 @@
 },{
 	"Name":"EapHostPeerInitialize"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3211,7 +3254,7 @@
 },{
 	"Name":"EapHostPeerUninitialize"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3222,7 +3265,7 @@
 },{
 	"Name":"EapHostPeerBeginSession"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3247,7 +3290,7 @@
 },{
 	"Name":"EapHostPeerProcessReceivedPacket"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3263,7 +3306,7 @@
 },{
 	"Name":"EapHostPeerGetSendPacket"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3278,7 +3321,7 @@
 },{
 	"Name":"EapHostPeerGetResult"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3293,7 +3336,7 @@
 },{
 	"Name":"EapHostPeerGetUIContext"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3308,7 +3351,7 @@
 },{
 	"Name":"EapHostPeerSetUIContext"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3324,7 +3367,7 @@
 },{
 	"Name":"EapHostPeerGetResponseAttributes"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3338,7 +3381,7 @@
 },{
 	"Name":"EapHostPeerSetResponseAttributes"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3353,7 +3396,7 @@
 },{
 	"Name":"EapHostPeerGetAuthStatus"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3369,7 +3412,7 @@
 },{
 	"Name":"EapHostPeerEndSession"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3382,7 +3425,7 @@
 },{
 	"Name":"EapHostPeerGetDataToUnplumbCredentials"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3398,7 +3441,7 @@
 },{
 	"Name":"EapHostPeerClearConnection"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3411,7 +3454,7 @@
 },{
 	"Name":"EapHostPeerFreeEapError"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3423,7 +3466,7 @@
 },{
 	"Name":"EapHostPeerGetIdentity"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3448,7 +3491,7 @@
 },{
 	"Name":"EapHostPeerGetEncryptedPassword"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3462,7 +3505,7 @@
 },{
 	"Name":"EapHostPeerFreeRuntimeMemory"
 	,"SetLastError":false
-	,"DllImport":"eappprxy"
+	,"DllImport":"eappprxy.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

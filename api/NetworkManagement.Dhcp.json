@@ -1946,6 +1946,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OptionId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1961,6 +1962,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nParams","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPV6CAPI_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -1973,6 +1975,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2000,6 +2003,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"prefix","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"prefixLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2015,6 +2019,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nPrefixes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"prefixArray","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPV6Prefix","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2035,6 +2040,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OptionId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2050,6 +2056,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nParams","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Params","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPAPI_PARAMS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2062,6 +2069,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2075,6 +2083,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MessageType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -2227,6 +2236,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DhcpControlHook","Type":{"Kind":"ApiRef","Name":"LPDHCP_CONTROL","TargetKind":"FunctionPointer","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"DhcpNewPktHook","Type":{"Kind":"ApiRef","Name":"LPDHCP_NEWPKT","TargetKind":"FunctionPointer","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2261,6 +2271,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwLowDateTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwHighDateTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2273,6 +2284,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StartAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"EndAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2285,6 +2297,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2297,6 +2310,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NetBiosName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2323,6 +2337,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DWord1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DWord2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2350,6 +2365,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SubnetAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2366,6 +2382,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SubnetAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2387,6 +2404,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"LPArray","NullNullTerm":false,"CountConst":-1,"CountParamIndex":0,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -2399,6 +2417,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClusterAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ClusterMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2411,6 +2430,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReservedForClient","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2441,6 +2461,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_UNION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2452,6 +2473,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"IpRange","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RANGE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
 			,{"Name":"SecondaryHost","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_HOST_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2468,6 +2490,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2478,6 +2501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2490,6 +2514,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HighOrderBits","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"LowOrderBits","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -2514,6 +2539,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MatchHWType","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"HWType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -2529,6 +2555,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddrPatt","Type":{"Kind":"ApiRef","Name":"DHCP_ADDR_PATTERN","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Comment","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2542,6 +2569,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EnforceAllowList","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"EnforceDenyList","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2554,6 +2582,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddrPatt","Type":{"Kind":"ApiRef","Name":"DHCP_ADDR_PATTERN","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Comment","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2566,6 +2595,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEnumRecords","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_FILTER_RECORD","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2597,6 +2627,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionType","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_DATA_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_ELEMENT_UNION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2608,6 +2639,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ByteOption","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"WordOption","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -2628,6 +2660,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2638,6 +2671,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_OPTION_DATA_ELEMENT","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2662,6 +2696,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OptionName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2677,6 +2712,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Options","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_OPTION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2689,6 +2725,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2701,6 +2738,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Values","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_OPTION_VALUE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2728,6 +2766,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReservedIpSubnetAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2740,6 +2779,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ScopeType","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_SCOPE_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"ScopeInfo","Type":{"Kind":"ApiRef","Name":"_DHCP_OPTION_SCOPE_UNION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2751,6 +2791,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"DefaultScopeInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 			,{"Name":"GlobalScopeInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -2781,6 +2822,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"ReservedIpSubnetAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2793,6 +2835,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ScopeType","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_SCOPE_TYPE6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"ScopeInfo","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION_SCOPE_UNION6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2804,6 +2847,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"DefaultScopeInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 			,{"Name":"SubnetScopeInfo","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -2818,6 +2862,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2828,6 +2873,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Options","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_OPTION_VALUE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -2840,6 +2886,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2857,6 +2904,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -2886,6 +2934,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2908,6 +2957,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_VQ","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -2920,6 +2970,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2943,6 +2994,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_FILTER_STATUS_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -2955,6 +3007,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2979,6 +3032,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_PB","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -3004,6 +3058,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SearchType","Type":{"Kind":"ApiRef","Name":"DHCP_SEARCH_INFO_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"SearchInfo","Type":{"Kind":"ApiRef","Name":"DHCP_CLIENT_SEARCH_UNION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3015,6 +3070,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"ClientHardwareAddress","Type":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3029,6 +3085,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3066,6 +3123,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ID","Type":{"Kind":"ApiRef","Name":"DHCP_PROPERTY_ID","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"DHCP_PROPERTY_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3078,6 +3136,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ByteValue","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"WordValue","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -3094,6 +3153,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_PROPERTY","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3106,6 +3166,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3131,6 +3192,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_EX","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -3143,6 +3205,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Subnet","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumAddressesInuse","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3157,6 +3220,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Discovers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3177,6 +3241,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Subnet","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumAddressesInuse","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3197,6 +3262,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Discovers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3224,6 +3290,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Subnet","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumAddressesInuse","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3238,6 +3305,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Discovers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offers","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3267,6 +3335,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APIProtocolSupport","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3298,6 +3367,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ScanFlag","Type":{"Kind":"ApiRef","Name":"DHCP_SCAN_FLAG","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3310,6 +3380,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumScanItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ScanItems","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SCAN_ITEM","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3322,6 +3393,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ClassComment","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3338,6 +3410,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Classes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLASS_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3350,6 +3423,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ClassComment","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3367,6 +3441,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Classes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLASS_INFO_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3379,6 +3454,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DefaultVendorClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"DefaultUserClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3391,6 +3467,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReservedForClient","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3404,6 +3481,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReservedForClient","Type":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3420,6 +3498,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RESERVATION_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -3432,6 +3511,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_UNION_V4","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3443,6 +3523,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"IpRange","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RANGE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
 			,{"Name":"SecondaryHost","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_HOST_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3459,6 +3540,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3469,6 +3551,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_DATA_V4","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3481,6 +3564,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3499,6 +3583,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_V4","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -3511,6 +3596,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APIProtocolSupport","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3534,6 +3620,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APIProtocolSupport","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3560,6 +3647,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UnicastFlag","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"RapidCommitFlag","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3579,6 +3667,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SubnetAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SuperScopeNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3593,6 +3682,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pEntries","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SUPER_SCOPE_TABLE_ENTRY","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3605,6 +3695,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3624,6 +3715,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_V5","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -3636,6 +3728,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NonVendorOptions","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_OPTION_ARRAY","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3649,6 +3742,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Option","Type":{"Kind":"ApiRef","Name":"DHCP_OPTION","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 			,{"Name":"VendorName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3663,6 +3757,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3675,6 +3770,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"VendorName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3690,6 +3786,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3702,6 +3799,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"PolicyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"VendorName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3717,6 +3815,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ServerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3734,6 +3833,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3747,6 +3847,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DhcpAttribId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DhcpAttribType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3759,6 +3860,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"DhcpAttribBool","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"DhcpAttribUlong","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3772,6 +3874,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DhcpAttribs","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_ATTRIB","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3784,6 +3887,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StartAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"EndAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3798,6 +3902,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"ApiRef","Name":"_DHCP_SUBNET_ELEMENT_UNION_V5","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3809,6 +3914,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"IpRange","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_BOOTP_IP_RANGE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
 			,{"Name":"SecondaryHost","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_HOST_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3825,6 +3931,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_DATA_V5","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3837,6 +3944,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNumPacketsReceived","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNumPacketsDuplicate","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3866,6 +3974,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fBoundToDHCPServer","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3883,6 +3992,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_BIND_ELEMENT","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3895,6 +4005,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fBoundToDHCPServer","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3913,6 +4024,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPV6_BIND_ELEMENT","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -3925,6 +4037,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StartAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"EndAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -3937,6 +4050,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IpAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"NetBiosName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3950,6 +4064,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SubnetAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Prefix","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3967,6 +4082,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Subnet","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"NumAddressesInuse","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -3981,6 +4097,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Solicits","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Advertises","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4004,6 +4121,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReservedIpAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"ReservedForClient","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4030,6 +4148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_TYPE_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_UNION_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4041,6 +4160,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"IpRange","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RANGE_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
 			,{"Name":"ReservedIp","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RESERVATION_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4055,6 +4175,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -4065,6 +4186,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_SUBNET_ELEMENT_DATA_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4077,6 +4199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"ClientDUID","Type":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4096,6 +4219,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4108,6 +4232,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_CLIENT_INFO_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -4133,6 +4258,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SearchType","Type":{"Kind":"ApiRef","Name":"DHCP_SEARCH_INFO_TYPE_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"SearchInfo","Type":{"Kind":"ApiRef","Name":"_DHCP_CLIENT_SEARCH_UNION_V6","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4144,6 +4270,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ClientIpAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 			,{"Name":"ClientDUID","Type":{"Kind":"ApiRef","Name":"DHCP_BINARY_DATA","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4218,6 +4345,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ParentExpr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"DHCP_POL_ATTR_TYPE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4236,6 +4364,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_POL_COND","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4248,6 +4377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ParentExpr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Operator","Type":{"Kind":"ApiRef","Name":"DHCP_POL_LOGIC_OPER","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
@@ -4260,6 +4390,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_POL_EXPR","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4272,6 +4403,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_IP_RANGE","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4284,6 +4416,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PolicyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"IsGlobalPolicy","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4303,6 +4436,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_POLICY","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4315,6 +4449,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PolicyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"IsGlobalPolicy","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4335,6 +4470,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_POLICY_EX","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4359,6 +4495,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Status","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"PurgeInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4371,6 +4508,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SubnetAddress","Type":{"Kind":"ApiRef","Name":"DHCP_IPV6_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]},"Attrs":[]}
 		,{"Name":"NumStatelessClientsAdded","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -4384,6 +4522,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumScopes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ScopeStats","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPV6_STATELESS_SCOPE_STATS","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4444,6 +4583,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PrimaryServer","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SecondaryServer","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4468,6 +4608,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pRelationships","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_FAILOVER_RELATIONSHIP","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}},"Attrs":[]}
@@ -4480,6 +4621,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4511,6 +4653,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumElements","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Clients","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCPV4_FAILOVER_CLIENT_INFO","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}},"Attrs":[]}
@@ -4523,6 +4666,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ClientIpAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4555,6 +4699,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumAddr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"AddrFree","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4572,6 +4717,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MessageType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"SubnetMask","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -4605,7 +4751,7 @@
 "Functions":[{
 	"Name":"Dhcpv6CApiInitialize"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4617,7 +4763,7 @@
 },{
 	"Name":"Dhcpv6CApiCleanup"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4628,7 +4774,7 @@
 },{
 	"Name":"Dhcpv6RequestParams"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4646,7 +4792,7 @@
 },{
 	"Name":"Dhcpv6RequestPrefix"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4661,7 +4807,7 @@
 },{
 	"Name":"Dhcpv6RenewPrefix"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4677,7 +4823,7 @@
 },{
 	"Name":"Dhcpv6ReleasePrefix"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc6"
+	,"DllImport":"dhcpcsvc6.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4691,7 +4837,7 @@
 },{
 	"Name":"DhcpCApiInitialize"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4703,7 +4849,7 @@
 },{
 	"Name":"DhcpCApiCleanup"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4714,7 +4860,7 @@
 },{
 	"Name":"DhcpRequestParams"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4734,7 +4880,7 @@
 },{
 	"Name":"DhcpUndoRequestParams"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4749,7 +4895,7 @@
 },{
 	"Name":"DhcpRegisterParamChange"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4766,7 +4912,7 @@
 },{
 	"Name":"DhcpDeRegisterParamChange"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4780,7 +4926,7 @@
 },{
 	"Name":"DhcpRemoveDNSRegistrations"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4791,7 +4937,7 @@
 },{
 	"Name":"DhcpGetOriginalSubnetMask"
 	,"SetLastError":false
-	,"DllImport":"dhcpcsvc"
+	,"DllImport":"dhcpcsvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4804,7 +4950,7 @@
 },{
 	"Name":"DhcpAddFilterV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4818,7 +4964,7 @@
 },{
 	"Name":"DhcpDeleteFilterV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4831,7 +4977,7 @@
 },{
 	"Name":"DhcpSetFilterV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4844,7 +4990,7 @@
 },{
 	"Name":"DhcpGetFilterV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4857,7 +5003,7 @@
 },{
 	"Name":"DhcpEnumFilterV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4875,7 +5021,7 @@
 },{
 	"Name":"DhcpCreateSubnet"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4889,7 +5035,7 @@
 },{
 	"Name":"DhcpSetSubnetInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4903,7 +5049,7 @@
 },{
 	"Name":"DhcpGetSubnetInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4917,7 +5063,7 @@
 },{
 	"Name":"DhcpEnumSubnets"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4934,7 +5080,7 @@
 },{
 	"Name":"DhcpAddSubnetElement"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4948,7 +5094,7 @@
 },{
 	"Name":"DhcpEnumSubnetElements"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4967,7 +5113,7 @@
 },{
 	"Name":"DhcpRemoveSubnetElement"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4982,7 +5128,7 @@
 },{
 	"Name":"DhcpDeleteSubnet"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4996,7 +5142,7 @@
 },{
 	"Name":"DhcpCreateOption"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5010,7 +5156,7 @@
 },{
 	"Name":"DhcpSetOptionInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5024,7 +5170,7 @@
 },{
 	"Name":"DhcpGetOptionInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5038,7 +5184,7 @@
 },{
 	"Name":"DhcpEnumOptions"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5055,7 +5201,7 @@
 },{
 	"Name":"DhcpRemoveOption"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5068,7 +5214,7 @@
 },{
 	"Name":"DhcpSetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5083,7 +5229,7 @@
 },{
 	"Name":"DhcpSetOptionValues"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5097,7 +5243,7 @@
 },{
 	"Name":"DhcpGetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5112,7 +5258,7 @@
 },{
 	"Name":"DhcpEnumOptionValues"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5130,7 +5276,7 @@
 },{
 	"Name":"DhcpRemoveOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5144,7 +5290,7 @@
 },{
 	"Name":"DhcpCreateClientInfoVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5157,7 +5303,7 @@
 },{
 	"Name":"DhcpSetClientInfoVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5170,7 +5316,7 @@
 },{
 	"Name":"DhcpGetClientInfoVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5184,7 +5330,7 @@
 },{
 	"Name":"DhcpEnumSubnetClientsVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5202,7 +5348,7 @@
 },{
 	"Name":"DhcpEnumSubnetClientsFilterStatusInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5220,7 +5366,7 @@
 },{
 	"Name":"DhcpCreateClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5233,7 +5379,7 @@
 },{
 	"Name":"DhcpSetClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5246,7 +5392,7 @@
 },{
 	"Name":"DhcpGetClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5260,7 +5406,7 @@
 },{
 	"Name":"DhcpDeleteClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5273,7 +5419,7 @@
 },{
 	"Name":"DhcpEnumSubnetClients"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5291,7 +5437,7 @@
 },{
 	"Name":"DhcpGetClientOptions"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5306,7 +5452,7 @@
 },{
 	"Name":"DhcpGetMibInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5319,7 +5465,7 @@
 },{
 	"Name":"DhcpServerSetConfig"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5333,7 +5479,7 @@
 },{
 	"Name":"DhcpServerGetConfig"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5346,7 +5492,7 @@
 },{
 	"Name":"DhcpScanDatabase"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5361,7 +5507,7 @@
 },{
 	"Name":"DhcpRpcFreeMemory"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5373,7 +5519,7 @@
 },{
 	"Name":"DhcpGetVersion"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5387,7 +5533,7 @@
 },{
 	"Name":"DhcpAddSubnetElementV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5401,7 +5547,7 @@
 },{
 	"Name":"DhcpEnumSubnetElementsV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5420,7 +5566,7 @@
 },{
 	"Name":"DhcpRemoveSubnetElementV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5435,7 +5581,7 @@
 },{
 	"Name":"DhcpCreateClientInfoV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5448,7 +5594,7 @@
 },{
 	"Name":"DhcpSetClientInfoV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5461,7 +5607,7 @@
 },{
 	"Name":"DhcpGetClientInfoV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5475,7 +5621,7 @@
 },{
 	"Name":"DhcpEnumSubnetClientsV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5493,7 +5639,7 @@
 },{
 	"Name":"DhcpServerSetConfigV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5507,7 +5653,7 @@
 },{
 	"Name":"DhcpServerGetConfigV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5520,7 +5666,7 @@
 },{
 	"Name":"DhcpSetSuperScopeV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5535,7 +5681,7 @@
 },{
 	"Name":"DhcpDeleteSuperScopeV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5548,7 +5694,7 @@
 },{
 	"Name":"DhcpGetSuperScopeInfoV4"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5561,7 +5707,7 @@
 },{
 	"Name":"DhcpEnumSubnetClientsV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5579,7 +5725,7 @@
 },{
 	"Name":"DhcpCreateOptionV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5596,7 +5742,7 @@
 },{
 	"Name":"DhcpSetOptionInfoV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5613,7 +5759,7 @@
 },{
 	"Name":"DhcpGetOptionInfoV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5630,7 +5776,7 @@
 },{
 	"Name":"DhcpEnumOptionsV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5650,7 +5796,7 @@
 },{
 	"Name":"DhcpRemoveOptionV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5666,7 +5812,7 @@
 },{
 	"Name":"DhcpSetOptionValueV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5684,7 +5830,7 @@
 },{
 	"Name":"DhcpSetOptionValuesV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5701,7 +5847,7 @@
 },{
 	"Name":"DhcpGetOptionValueV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5719,7 +5865,7 @@
 },{
 	"Name":"DhcpGetOptionValueV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5737,7 +5883,7 @@
 },{
 	"Name":"DhcpEnumOptionValuesV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5758,7 +5904,7 @@
 },{
 	"Name":"DhcpRemoveOptionValueV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5775,7 +5921,7 @@
 },{
 	"Name":"DhcpCreateClass"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5789,7 +5935,7 @@
 },{
 	"Name":"DhcpModifyClass"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5803,7 +5949,7 @@
 },{
 	"Name":"DhcpDeleteClass"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5817,7 +5963,7 @@
 },{
 	"Name":"DhcpGetClassInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5832,7 +5978,7 @@
 },{
 	"Name":"DhcpEnumClasses"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5850,7 +5996,7 @@
 },{
 	"Name":"DhcpGetAllOptions"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5864,7 +6010,7 @@
 },{
 	"Name":"DhcpGetAllOptionsV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5878,7 +6024,7 @@
 },{
 	"Name":"DhcpGetAllOptionValues"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5893,7 +6039,7 @@
 },{
 	"Name":"DhcpGetAllOptionValuesV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5908,7 +6054,7 @@
 },{
 	"Name":"DhcpEnumServers"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5924,7 +6070,7 @@
 },{
 	"Name":"DhcpAddServer"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5940,7 +6086,7 @@
 },{
 	"Name":"DhcpDeleteServer"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5956,7 +6102,7 @@
 },{
 	"Name":"DhcpGetServerBindingInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5970,7 +6116,7 @@
 },{
 	"Name":"DhcpSetServerBindingInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5984,7 +6130,7 @@
 },{
 	"Name":"DhcpAddSubnetElementV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5998,7 +6144,7 @@
 },{
 	"Name":"DhcpEnumSubnetElementsV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6017,7 +6163,7 @@
 },{
 	"Name":"DhcpRemoveSubnetElementV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6032,7 +6178,7 @@
 },{
 	"Name":"DhcpV4EnumSubnetReservations"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6050,7 +6196,7 @@
 },{
 	"Name":"DhcpCreateOptionV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6067,7 +6213,7 @@
 },{
 	"Name":"DhcpRemoveOptionV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6083,7 +6229,7 @@
 },{
 	"Name":"DhcpEnumOptionsV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6103,7 +6249,7 @@
 },{
 	"Name":"DhcpRemoveOptionValueV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6120,7 +6266,7 @@
 },{
 	"Name":"DhcpGetOptionInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6137,7 +6283,7 @@
 },{
 	"Name":"DhcpSetOptionInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6154,7 +6300,7 @@
 },{
 	"Name":"DhcpSetOptionValueV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6172,7 +6318,7 @@
 },{
 	"Name":"DhcpGetSubnetInfoVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6186,7 +6332,7 @@
 },{
 	"Name":"DhcpCreateSubnetVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6200,7 +6346,7 @@
 },{
 	"Name":"DhcpSetSubnetInfoVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6214,7 +6360,7 @@
 },{
 	"Name":"DhcpEnumOptionValuesV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6235,7 +6381,7 @@
 },{
 	"Name":"DhcpDsInit"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6246,7 +6392,7 @@
 },{
 	"Name":"DhcpDsCleanup"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6257,7 +6403,7 @@
 },{
 	"Name":"DhcpSetThreadOptions"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6270,7 +6416,7 @@
 },{
 	"Name":"DhcpGetThreadOptions"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6283,7 +6429,7 @@
 },{
 	"Name":"DhcpServerQueryAttribute"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6298,7 +6444,7 @@
 },{
 	"Name":"DhcpServerQueryAttributes"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6314,7 +6460,7 @@
 },{
 	"Name":"DhcpServerRedoAuthorization"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6327,7 +6473,7 @@
 },{
 	"Name":"DhcpAuditLogSetParams"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6344,7 +6490,7 @@
 },{
 	"Name":"DhcpAuditLogGetParams"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6361,7 +6507,7 @@
 },{
 	"Name":"DhcpServerQueryDnsRegCredentials"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6377,7 +6523,7 @@
 },{
 	"Name":"DhcpServerSetDnsRegCredentials"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6392,7 +6538,7 @@
 },{
 	"Name":"DhcpServerSetDnsRegCredentialsV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6407,7 +6553,7 @@
 },{
 	"Name":"DhcpServerBackupDatabase"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6420,7 +6566,7 @@
 },{
 	"Name":"DhcpServerRestoreDatabase"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6433,7 +6579,7 @@
 },{
 	"Name":"DhcpServerSetConfigVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6447,7 +6593,7 @@
 },{
 	"Name":"DhcpServerGetConfigVQ"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6460,7 +6606,7 @@
 },{
 	"Name":"DhcpGetServerSpecificStrings"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6473,7 +6619,7 @@
 },{
 	"Name":"DhcpServerAuditlogParamsFree"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6485,7 +6631,7 @@
 },{
 	"Name":"DhcpCreateSubnetV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6499,7 +6645,7 @@
 },{
 	"Name":"DhcpDeleteSubnetV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6513,7 +6659,7 @@
 },{
 	"Name":"DhcpEnumSubnetsV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6530,7 +6676,7 @@
 },{
 	"Name":"DhcpAddSubnetElementV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6544,7 +6690,7 @@
 },{
 	"Name":"DhcpRemoveSubnetElementV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6559,7 +6705,7 @@
 },{
 	"Name":"DhcpEnumSubnetElementsV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6578,7 +6724,7 @@
 },{
 	"Name":"DhcpGetSubnetInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6592,7 +6738,7 @@
 },{
 	"Name":"DhcpEnumSubnetClientsV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6610,7 +6756,7 @@
 },{
 	"Name":"DhcpServerGetConfigV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6624,7 +6770,7 @@
 },{
 	"Name":"DhcpServerSetConfigV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6639,7 +6785,7 @@
 },{
 	"Name":"DhcpSetSubnetInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6653,7 +6799,7 @@
 },{
 	"Name":"DhcpGetMibInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6666,7 +6812,7 @@
 },{
 	"Name":"DhcpGetServerBindingInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6680,7 +6826,7 @@
 },{
 	"Name":"DhcpSetServerBindingInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6694,7 +6840,7 @@
 },{
 	"Name":"DhcpSetClientInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6707,7 +6853,7 @@
 },{
 	"Name":"DhcpGetClientInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6721,7 +6867,7 @@
 },{
 	"Name":"DhcpDeleteClientInfoV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6734,7 +6880,7 @@
 },{
 	"Name":"DhcpCreateClassV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6748,7 +6894,7 @@
 },{
 	"Name":"DhcpModifyClassV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6762,7 +6908,7 @@
 },{
 	"Name":"DhcpDeleteClassV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6776,7 +6922,7 @@
 },{
 	"Name":"DhcpEnumClassesV6"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6794,7 +6940,7 @@
 },{
 	"Name":"DhcpSetSubnetDelayOffer"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6808,7 +6954,7 @@
 },{
 	"Name":"DhcpGetSubnetDelayOffer"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6822,7 +6968,7 @@
 },{
 	"Name":"DhcpGetMibInfoV5"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6835,7 +6981,7 @@
 },{
 	"Name":"DhcpAddSecurityGroup"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6847,7 +6993,7 @@
 },{
 	"Name":"DhcpV4GetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6865,7 +7011,7 @@
 },{
 	"Name":"DhcpV4SetOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6883,7 +7029,7 @@
 },{
 	"Name":"DhcpV4SetOptionValues"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6900,7 +7046,7 @@
 },{
 	"Name":"DhcpV4RemoveOptionValue"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6917,7 +7063,7 @@
 },{
 	"Name":"DhcpV4GetAllOptionValues"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6932,7 +7078,7 @@
 },{
 	"Name":"DhcpV4FailoverCreateRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6945,7 +7091,7 @@
 },{
 	"Name":"DhcpV4FailoverSetRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6959,7 +7105,7 @@
 },{
 	"Name":"DhcpV4FailoverDeleteRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6972,7 +7118,7 @@
 },{
 	"Name":"DhcpV4FailoverGetRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6986,7 +7132,7 @@
 },{
 	"Name":"DhcpV4FailoverEnumRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7003,7 +7149,7 @@
 },{
 	"Name":"DhcpV4FailoverAddScopeToRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7016,7 +7162,7 @@
 },{
 	"Name":"DhcpV4FailoverDeleteScopeFromRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7029,7 +7175,7 @@
 },{
 	"Name":"DhcpV4FailoverGetScopeRelationship"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7043,7 +7189,7 @@
 },{
 	"Name":"DhcpV4FailoverGetScopeStatistics"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7057,7 +7203,7 @@
 },{
 	"Name":"DhcpV4FailoverGetClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7071,7 +7217,7 @@
 },{
 	"Name":"DhcpV4FailoverGetSystemTime"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7085,7 +7231,7 @@
 },{
 	"Name":"DhcpV4FailoverGetAddressStatus"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7099,7 +7245,7 @@
 },{
 	"Name":"DhcpV4FailoverTriggerAddrAllocation"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7112,7 +7258,7 @@
 },{
 	"Name":"DhcpHlprCreateV4Policy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7131,7 +7277,7 @@
 },{
 	"Name":"DhcpHlprCreateV4PolicyEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7150,7 +7296,7 @@
 },{
 	"Name":"DhcpHlprAddV4PolicyExpr"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7165,7 +7311,7 @@
 },{
 	"Name":"DhcpHlprAddV4PolicyCondition"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7186,7 +7332,7 @@
 },{
 	"Name":"DhcpHlprAddV4PolicyRange"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7199,7 +7345,7 @@
 },{
 	"Name":"DhcpHlprResetV4PolicyExpr"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7211,7 +7357,7 @@
 },{
 	"Name":"DhcpHlprModifyV4PolicyExpr"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7224,7 +7370,7 @@
 },{
 	"Name":"DhcpHlprFreeV4Policy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7236,7 +7382,7 @@
 },{
 	"Name":"DhcpHlprFreeV4PolicyArray"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7248,7 +7394,7 @@
 },{
 	"Name":"DhcpHlprFreeV4PolicyEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7260,7 +7406,7 @@
 },{
 	"Name":"DhcpHlprFreeV4PolicyExArray"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7272,7 +7418,7 @@
 },{
 	"Name":"DhcpHlprFreeV4DhcpProperty"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7284,7 +7430,7 @@
 },{
 	"Name":"DhcpHlprFreeV4DhcpPropertyArray"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7296,7 +7442,7 @@
 },{
 	"Name":"DhcpHlprFindV4DhcpProperty"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"DHCP_PROPERTY","TargetKind":"Default","Api":"NetworkManagement.Dhcp","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7310,7 +7456,7 @@
 },{
 	"Name":"DhcpHlprIsV4PolicySingleUC"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7322,7 +7468,7 @@
 },{
 	"Name":"DhcpV4QueryPolicyEnforcement"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7337,7 +7483,7 @@
 },{
 	"Name":"DhcpV4SetPolicyEnforcement"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7352,7 +7498,7 @@
 },{
 	"Name":"DhcpHlprIsV4PolicyWellFormed"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7364,7 +7510,7 @@
 },{
 	"Name":"DhcpHlprIsV4PolicyValid"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7376,7 +7522,7 @@
 },{
 	"Name":"DhcpV4CreatePolicy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7389,7 +7535,7 @@
 },{
 	"Name":"DhcpV4GetPolicy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7405,7 +7551,7 @@
 },{
 	"Name":"DhcpV4SetPolicy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7422,7 +7568,7 @@
 },{
 	"Name":"DhcpV4DeletePolicy"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7437,7 +7583,7 @@
 },{
 	"Name":"DhcpV4EnumPolicies"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7456,7 +7602,7 @@
 },{
 	"Name":"DhcpV4AddPolicyRange"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7471,7 +7617,7 @@
 },{
 	"Name":"DhcpV4RemovePolicyRange"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7486,7 +7632,7 @@
 },{
 	"Name":"DhcpV6SetStatelessStoreParams"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7502,7 +7648,7 @@
 },{
 	"Name":"DhcpV6GetStatelessStoreParams"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7517,7 +7663,7 @@
 },{
 	"Name":"DhcpV6GetStatelessStatistics"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7530,7 +7676,7 @@
 },{
 	"Name":"DhcpV4CreateClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7543,7 +7689,7 @@
 },{
 	"Name":"DhcpV4EnumSubnetClients"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7561,7 +7707,7 @@
 },{
 	"Name":"DhcpV4GetClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7575,7 +7721,7 @@
 },{
 	"Name":"DhcpV6CreateClientInfo"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7588,7 +7734,7 @@
 },{
 	"Name":"DhcpV4GetFreeIPAddress"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7605,7 +7751,7 @@
 },{
 	"Name":"DhcpV6GetFreeIPAddress"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7622,7 +7768,7 @@
 },{
 	"Name":"DhcpV4CreateClientInfoEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7635,7 +7781,7 @@
 },{
 	"Name":"DhcpV4EnumSubnetClientsEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7653,7 +7799,7 @@
 },{
 	"Name":"DhcpV4GetClientInfoEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7667,7 +7813,7 @@
 },{
 	"Name":"DhcpV4CreatePolicyEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7680,7 +7826,7 @@
 },{
 	"Name":"DhcpV4GetPolicyEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7696,7 +7842,7 @@
 },{
 	"Name":"DhcpV4SetPolicyEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7713,7 +7859,7 @@
 },{
 	"Name":"DhcpV4EnumPoliciesEx"
 	,"SetLastError":false
-	,"DllImport":"DHCPSAPI"
+	,"DllImport":"DHCPSAPI.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

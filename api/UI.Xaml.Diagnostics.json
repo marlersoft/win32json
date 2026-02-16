@@ -51,6 +51,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileName","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"LineNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -66,6 +67,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Parent","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"Child","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -79,6 +81,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"SrcInfo","Type":{"Kind":"ApiRef","Name":"SourceInfo","TargetKind":"Default","Api":"UI.Xaml.Diagnostics","Parents":[]},"Attrs":[]}
@@ -94,6 +97,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"TargetType","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -127,6 +131,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -147,6 +152,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Name","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ValueInts","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SAFEARRAY","TargetKind":"Default","Api":"System.Com","Parents":[]}},"Attrs":[]}
@@ -160,6 +166,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Index","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ValueType","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -186,6 +193,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Height","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -708,7 +716,7 @@
 "Functions":[{
 	"Name":"InitializeXamlDiagnostic"
 	,"SetLastError":false
-	,"DllImport":"Windows.UI.Xaml"
+	,"DllImport":"Windows.UI.Xaml.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -724,7 +732,7 @@
 },{
 	"Name":"InitializeXamlDiagnosticsEx"
 	,"SetLastError":false
-	,"DllImport":"Windows.UI.Xaml"
+	,"DllImport":"Windows.UI.Xaml.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

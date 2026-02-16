@@ -723,6 +723,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -750,6 +751,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -777,6 +779,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -809,6 +812,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -841,6 +845,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szExtensionOID","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dwTestOperation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -855,6 +860,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cExtensionChecks","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -884,6 +890,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pccert","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
@@ -913,6 +920,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pccert","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
 		,{"Name":"dwOperation","Type":{"Kind":"ApiRef","Name":"CTL_MODIFY_REQUEST_OPERATION","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]},"Attrs":[]}
@@ -940,6 +948,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hStore","Type":{"Kind":"ApiRef","Name":"HCERTSTORE","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]},"Attrs":[]}
 		,{"Name":"prgpChain","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CHAIN_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}}},"Attrs":[]}
@@ -953,6 +962,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -968,6 +978,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pGuidSubject","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -983,6 +994,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cCertStore","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -998,6 +1010,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszPvkFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1012,6 +1025,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszSigningCertFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1025,6 +1039,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pPvkFileInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_DIGITAL_SIGN_PVK_FILE_INFO","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]}},"Attrs":[]}
 			,{"Name":"pPvkProvInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPT_KEY_PROV_INFO","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":[]}
@@ -1038,6 +1053,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwAttrFlags","Type":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_DIGITAL_SIGN_SIG_TYPE","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]},"Attrs":[]}
@@ -1057,6 +1073,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSubjectChoice","Type":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]},"Attrs":[]}
@@ -1074,6 +1091,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pSigningCertContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"pSigningCertStore","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]}},"Attrs":[]}
@@ -1087,6 +1105,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pwszFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			,{"Name":"pSignBlobInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]}},"Attrs":[]}
@@ -1100,6 +1119,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbBlob","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1113,6 +1133,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lParam","Type":{"Kind":"ApiRef","Name":"LPARAM","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pCertContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
@@ -1125,6 +1146,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1152,6 +1174,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pCryptProviderData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPT_PROVIDER_DATA","TargetKind":"Default","Api":"Security.WinTrust","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"hWVTStateData","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1165,6 +1188,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1192,6 +1216,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pCryptProviderData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPT_PROVIDER_DATA","TargetKind":"Default","Api":"Security.WinTrust","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"hWVTStateData","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1205,6 +1230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszExportFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1220,6 +1246,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pCertContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
 			,{"Name":"pCTLContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CTL_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":[]}
@@ -1235,6 +1262,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwExportFormat","Type":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_EXPORT_FORMAT","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]},"Attrs":[]}
@@ -1251,6 +1279,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwSubjectChoice","Type":{"Kind":"ApiRef","Name":"CRYPTUI_WIZ_IMPORT_SUBJECT_OPTION","TargetKind":"Default","Api":"Security.Cryptography.UI","Parents":[]},"Attrs":[]}
@@ -1265,6 +1294,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pwszFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			,{"Name":"pCertContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}},"Attrs":["Const"]}
@@ -1279,7 +1309,7 @@
 "Functions":[{
 	"Name":"CryptUIDlgViewContext"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1296,7 +1326,7 @@
 },{
 	"Name":"CryptUIDlgSelectCertificateFromStore"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1314,7 +1344,7 @@
 },{
 	"Name":"CertSelectionGetSerializedBlob"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1328,7 +1358,7 @@
 },{
 	"Name":"CryptUIDlgCertMgr"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1340,7 +1370,7 @@
 },{
 	"Name":"CryptUIWizDigitalSign"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1356,7 +1386,7 @@
 },{
 	"Name":"CryptUIWizFreeDigitalSignContext"
 	,"SetLastError":false
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1368,7 +1398,7 @@
 },{
 	"Name":"CryptUIDlgViewCertificateW"
 	,"SetLastError":true
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1381,7 +1411,7 @@
 },{
 	"Name":"CryptUIDlgViewCertificateA"
 	,"SetLastError":true
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1394,7 +1424,7 @@
 },{
 	"Name":"CryptUIWizExport"
 	,"SetLastError":true
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1410,7 +1440,7 @@
 },{
 	"Name":"CryptUIWizImport"
 	,"SetLastError":true
-	,"DllImport":"CRYPTUI"
+	,"DllImport":"CRYPTUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

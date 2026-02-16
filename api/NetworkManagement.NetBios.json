@@ -512,6 +512,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ncb_command","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ncb_retcode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -537,6 +538,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"adapter_address","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"rev_major","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -574,6 +576,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"name_num","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -587,6 +590,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sess_name","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"num_sess","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -601,6 +605,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lsn","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"state","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -617,6 +622,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"lana","Type":{"Kind":"Array","Shape":{"Size":255},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -629,6 +635,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"node_count","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -642,6 +649,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"access_control","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -658,6 +666,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"transport_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"action_code","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -671,6 +680,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ncb_command","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ncb_retcode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -694,7 +704,7 @@
 "Functions":[{
 	"Name":"Netbios"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Byte"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

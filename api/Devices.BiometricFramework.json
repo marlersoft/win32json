@@ -671,6 +671,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MajorVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MinorVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -683,6 +684,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"ApiRef","Name":"_Value_e__Union","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -694,6 +696,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Wildcard","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -708,6 +711,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Data","Type":{"Kind":"Array","Shape":{"Size":68},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -722,6 +726,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -735,6 +740,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Version","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -751,6 +757,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -763,6 +770,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HeaderBlock","Type":{"Kind":"ApiRef","Name":"WINBIO_BIR_DATA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"StandardDataBlock","Type":{"Kind":"ApiRef","Name":"WINBIO_BIR_DATA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -777,6 +785,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Owner","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -789,6 +798,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ValidFields","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"HeaderVersion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -810,6 +820,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"BeginDate","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"EndDate","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -823,6 +834,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RecordLength","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"FormatIdentifier","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -848,6 +860,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BlockLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HorizontalLineLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -867,6 +880,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -881,6 +895,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Parameters","Type":{"Kind":"ApiRef","Name":"_Parameters_e__Union","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -892,6 +907,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Unclaimed","Type":{"Kind":"ApiRef","Name":"_Unclaimed_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Parameters_e__Union"]},"Attrs":[]}
 			,{"Name":"UnclaimedIdentify","Type":{"Kind":"ApiRef","Name":"_UnclaimedIdentify_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Parameters_e__Union"]},"Attrs":[]}
@@ -904,6 +920,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ErrorCode","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			]
@@ -915,6 +932,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UnitId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -929,6 +947,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UnitId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"RejectDetail","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -943,6 +962,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FacialFeatures","Type":{"Kind":"ApiRef","Name":"_FacialFeatures_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Iris","Type":{"Kind":"ApiRef","Name":"_Iris_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -954,6 +974,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"EyeBoundingBox_1","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"EyeBoundingBox_2","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -969,6 +990,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"BoundingBox","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Distance","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -981,6 +1003,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"AdapterId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"Data","Type":{"Kind":"Array","Shape":{"Size":78},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -995,6 +1018,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Factor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1013,6 +1037,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Data","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -1026,6 +1051,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BiometricFactor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BspId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1041,6 +1067,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UnitId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PoolType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1062,6 +1089,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BiometricFactor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DatabaseId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1078,6 +1106,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"GenericSensorCapabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Factor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1090,6 +1119,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"FacialFeatures","Type":{"Kind":"ApiRef","Name":"_FacialFeatures_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union"]},"Attrs":[]}
@@ -1104,6 +1134,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1115,6 +1146,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"FrameSize","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"FrameOffset","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1128,6 +1160,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1139,6 +1172,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"FrameSize","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"FrameOffset","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1152,6 +1186,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"ColorSensorId","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 					,{"Name":"InfraredSensorId","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -1168,6 +1203,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"GenericEngineCapabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Factor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1180,6 +1216,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"FacialFeatures","Type":{"Kind":"ApiRef","Name":"_FacialFeatures_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union"]},"Attrs":[]}
@@ -1194,6 +1231,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"EnrollmentRequirements","Type":{"Kind":"ApiRef","Name":"_EnrollmentRequirements_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union","_Voice_e__Struct"]},"Attrs":[]}
@@ -1205,6 +1243,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				]
@@ -1217,6 +1256,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"EnrollmentRequirements","Type":{"Kind":"ApiRef","Name":"_EnrollmentRequirements_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union","_Iris_e__Struct"]},"Attrs":[]}
@@ -1228,6 +1268,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				]
@@ -1240,6 +1281,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"EnrollmentRequirements","Type":{"Kind":"ApiRef","Name":"_EnrollmentRequirements_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union","_Fingerprint_e__Struct"]},"Attrs":[]}
@@ -1251,6 +1293,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"GeneralSamples","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 					,{"Name":"Center","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1268,6 +1311,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"EnrollmentRequirements","Type":{"Kind":"ApiRef","Name":"_EnrollmentRequirements_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union","_FacialFeatures_e__Struct"]},"Attrs":[]}
@@ -1279,6 +1323,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				]
@@ -1293,6 +1338,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"GenericStorageCapabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Factor","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1305,6 +1351,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"FacialFeatures","Type":{"Kind":"ApiRef","Name":"_FacialFeatures_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union"]},"Attrs":[]}
@@ -1319,6 +1366,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1330,6 +1378,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1341,6 +1390,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1352,6 +1402,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1365,6 +1416,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TemplateStatus","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"RejectDetail","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1380,6 +1432,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Null","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"FacialFeatures","Type":{"Kind":"ApiRef","Name":"_FacialFeatures_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Specific_e__Union"]},"Attrs":[]}
@@ -1394,6 +1447,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1405,6 +1459,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"EyeBoundingBox_1","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"EyeBoundingBox_2","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1423,6 +1478,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"X","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
 					,{"Name":"Y","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
@@ -1437,6 +1493,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"GeneralSamples","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Center","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1453,6 +1510,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"BoundingBox","Type":{"Kind":"ApiRef","Name":"RECT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"Distance","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -1465,6 +1523,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"AdapterId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 					,{"Name":"Data","Type":{"Kind":"Array","Shape":{"Size":78},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -1480,6 +1539,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Availability","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReasonCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1492,6 +1552,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SensorAttached","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"CreationResult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1531,6 +1592,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Action","Type":{"Kind":"ApiRef","Name":"WINBIO_ANTI_SPOOF_POLICY_ACTION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Source","Type":{"Kind":"ApiRef","Name":"WINBIO_POLICY_SOURCE","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -1580,6 +1642,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1592,6 +1655,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"AntiSpoofBehavior","Type":{"Kind":"ApiRef","Name":"WINBIO_ANTI_SPOOF_POLICY_ACTION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -1604,6 +1668,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -1620,6 +1685,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"BiometricType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1648,6 +1714,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SessionHandle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Operation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1665,6 +1732,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Verify","Type":{"Kind":"ApiRef","Name":"_Verify_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Parameters_e__Union"]},"Attrs":[]}
 			,{"Name":"Identify","Type":{"Kind":"ApiRef","Name":"_Identify_e__Struct","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":["_Parameters_e__Union"]},"Attrs":[]}
@@ -1695,6 +1763,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ExtendedStatus","Type":{"Kind":"ApiRef","Name":"WINBIO_EXTENDED_UNIT_STATUS","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 			]
@@ -1706,6 +1775,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"Policy","Type":{"Kind":"ApiRef","Name":"WINBIO_PROTECTION_POLICY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -1718,6 +1788,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ChangeType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PresenceCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -1731,6 +1802,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SelectorValue","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
@@ -1742,6 +1814,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1756,6 +1829,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Match","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"RejectDetail","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1769,6 +1843,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"StorageCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 				,{"Name":"StorageSchemaArray","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINBIO_STORAGE_SCHEMA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]}},"Attrs":[]}
@@ -1781,6 +1856,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UnitCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 				,{"Name":"UnitSchemaArray","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINBIO_UNIT_SCHEMA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]}},"Attrs":[]}
@@ -1793,6 +1869,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"BspCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 				,{"Name":"BspSchemaArray","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINBIO_BSP_SCHEMA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]}},"Attrs":[]}
@@ -1805,6 +1882,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Component","Type":{"Kind":"ApiRef","Name":"WINBIO_COMPONENT","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"ControlCode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1823,6 +1901,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Event","Type":{"Kind":"ApiRef","Name":"WINBIO_EVENT","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 			]
@@ -1834,6 +1913,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"PropertyType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PropertyId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1850,6 +1930,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"PropertyType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PropertyId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1866,6 +1947,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1878,6 +1960,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Sample","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINBIO_BIR","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]}},"Attrs":[]}
 				,{"Name":"SampleSize","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -1891,6 +1974,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"SubFactorCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -1904,6 +1988,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"IsNewTemplate","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1916,6 +2001,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"RejectDetail","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -1927,6 +2013,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -1938,6 +2025,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Identity","Type":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 				,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1951,6 +2039,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Match","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"RejectDetail","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2069,6 +2158,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2079,6 +2169,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2089,6 +2180,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2099,6 +2191,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Identity","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WINBIO_IDENTITY","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]}},"Attrs":[]}
 		,{"Name":"SubFactor","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -2117,6 +2210,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SensorHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"EngineHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2137,6 +2231,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MajorVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MinorVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -2577,6 +2672,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"WINBIO_ADAPTER_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3227,6 +3323,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"WINBIO_ADAPTER_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3707,6 +3804,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"WINBIO_ADAPTER_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4016,6 +4114,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"WINBIO_ADAPTER_INTERFACE_VERSION","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4074,6 +4173,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4096,6 +4196,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4108,6 +4209,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"FirmwareData","Type":{"Kind":"ApiRef","Name":"WINBIO_DATA","TargetKind":"Default","Api":"Devices.BiometricFramework","Parents":[]},"Attrs":[]}
@@ -4120,6 +4222,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4133,6 +4236,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4147,6 +4251,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4159,6 +4264,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Purpose","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4174,6 +4280,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4189,6 +4296,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4203,6 +4311,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4216,6 +4325,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"IndicatorStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4228,6 +4338,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4241,6 +4352,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Purpose","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4257,6 +4369,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PayloadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WinBioHresult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -4268,7 +4381,7 @@
 "Functions":[{
 	"Name":"WinBioEnumServiceProviders"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4282,7 +4395,7 @@
 },{
 	"Name":"WinBioEnumBiometricUnits"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4296,7 +4409,7 @@
 },{
 	"Name":"WinBioEnumDatabases"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4310,7 +4423,7 @@
 },{
 	"Name":"WinBioAsyncOpenFramework"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4328,7 +4441,7 @@
 },{
 	"Name":"WinBioCloseFramework"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4340,7 +4453,7 @@
 },{
 	"Name":"WinBioAsyncEnumServiceProviders"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4353,7 +4466,7 @@
 },{
 	"Name":"WinBioAsyncEnumBiometricUnits"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4366,7 +4479,7 @@
 },{
 	"Name":"WinBioAsyncEnumDatabases"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4379,7 +4492,7 @@
 },{
 	"Name":"WinBioAsyncMonitorFrameworkChanges"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4392,7 +4505,7 @@
 },{
 	"Name":"WinBioOpenSession"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4410,7 +4523,7 @@
 },{
 	"Name":"WinBioAsyncOpenSession"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4434,7 +4547,7 @@
 },{
 	"Name":"WinBioCloseSession"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4446,7 +4559,7 @@
 },{
 	"Name":"WinBioVerify"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4463,7 +4576,7 @@
 },{
 	"Name":"WinBioVerifyWithCallback"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4479,7 +4592,7 @@
 },{
 	"Name":"WinBioIdentify"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4495,7 +4608,7 @@
 },{
 	"Name":"WinBioIdentifyWithCallback"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4509,7 +4622,7 @@
 },{
 	"Name":"WinBioWait"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4521,7 +4634,7 @@
 },{
 	"Name":"WinBioCancel"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4533,7 +4646,7 @@
 },{
 	"Name":"WinBioLocateSensor"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4546,7 +4659,7 @@
 },{
 	"Name":"WinBioLocateSensorWithCallback"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4560,7 +4673,7 @@
 },{
 	"Name":"WinBioEnrollBegin"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4574,7 +4687,7 @@
 },{
 	"Name":"WinBioEnrollSelect"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4587,7 +4700,7 @@
 },{
 	"Name":"WinBioEnrollCapture"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4600,7 +4713,7 @@
 },{
 	"Name":"WinBioEnrollCaptureWithCallback"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4614,7 +4727,7 @@
 },{
 	"Name":"WinBioEnrollCommit"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4628,7 +4741,7 @@
 },{
 	"Name":"WinBioEnrollDiscard"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4640,7 +4753,7 @@
 },{
 	"Name":"WinBioEnumEnrollments"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4656,7 +4769,7 @@
 },{
 	"Name":"WinBioImproveBegin"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4669,7 +4782,7 @@
 },{
 	"Name":"WinBioImproveEnd"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4681,7 +4794,7 @@
 },{
 	"Name":"WinBioRegisterEventMonitor"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4696,7 +4809,7 @@
 },{
 	"Name":"WinBioUnregisterEventMonitor"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4708,7 +4821,7 @@
 },{
 	"Name":"WinBioMonitorPresence"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4721,7 +4834,7 @@
 },{
 	"Name":"WinBioCaptureSample"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4739,7 +4852,7 @@
 },{
 	"Name":"WinBioCaptureSampleWithCallback"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4755,7 +4868,7 @@
 },{
 	"Name":"WinBioDeleteTemplate"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4770,7 +4883,7 @@
 },{
 	"Name":"WinBioLockUnit"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4783,7 +4896,7 @@
 },{
 	"Name":"WinBioUnlockUnit"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4796,7 +4909,7 @@
 },{
 	"Name":"WinBioControlUnit"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4817,7 +4930,7 @@
 },{
 	"Name":"WinBioControlUnitPrivileged"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4838,7 +4951,7 @@
 },{
 	"Name":"WinBioGetProperty"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4857,7 +4970,7 @@
 },{
 	"Name":"WinBioSetProperty"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4876,7 +4989,7 @@
 },{
 	"Name":"WinBioFree"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4888,7 +5001,7 @@
 },{
 	"Name":"WinBioSetCredential"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4903,7 +5016,7 @@
 },{
 	"Name":"WinBioRemoveCredential"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4916,7 +5029,7 @@
 },{
 	"Name":"WinBioRemoveAllCredentials"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4927,7 +5040,7 @@
 },{
 	"Name":"WinBioRemoveAllDomainCredentials"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4938,7 +5051,7 @@
 },{
 	"Name":"WinBioGetCredentialState"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4952,7 +5065,7 @@
 },{
 	"Name":"WinBioLogonIdentifiedUser"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4964,7 +5077,7 @@
 },{
 	"Name":"WinBioGetEnrolledFactors"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4977,7 +5090,7 @@
 },{
 	"Name":"WinBioGetEnabledSetting"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4990,7 +5103,7 @@
 },{
 	"Name":"WinBioGetLogonSetting"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5003,7 +5116,7 @@
 },{
 	"Name":"WinBioGetDomainLogonSetting"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5016,7 +5129,7 @@
 },{
 	"Name":"WinBioAcquireFocus"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5027,7 +5140,7 @@
 },{
 	"Name":"WinBioReleaseFocus"
 	,"SetLastError":false
-	,"DllImport":"winbio"
+	,"DllImport":"winbio.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

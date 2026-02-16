@@ -21,6 +21,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"rowId","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"timestamp","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -45,6 +46,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"producerNames","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"producerNameCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -63,6 +65,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"privacyTag","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -76,6 +79,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -87,6 +91,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"id","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -99,6 +104,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"privacyTag","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"eventCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -111,6 +117,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"moduleName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"friendlyModuleName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -125,6 +132,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"optInLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"transcriptSizeBytes","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -140,6 +148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hoursOfHistoryToKeep","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"maxStoreMegabytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -153,6 +162,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"Array","Shape":{"Size":129},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -165,6 +175,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventName","Type":{"Kind":"Array","Shape":{"Size":65},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"parameters","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"ApiRef","Name":"DIAGNOSTIC_REPORT_PARAMETER","TargetKind":"Default","Api":"Security.DiagnosticDataQuery","Parents":[]}},"Attrs":[]}
@@ -177,6 +188,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"signature","Type":{"Kind":"ApiRef","Name":"DIAGNOSTIC_REPORT_SIGNATURE","TargetKind":"Default","Api":"Security.DiagnosticDataQuery","Parents":[]},"Attrs":[]}
 		,{"Name":"bucketId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -202,7 +214,7 @@
 "Functions":[{
 	"Name":"DdqCreateSession"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -215,7 +227,7 @@
 },{
 	"Name":"DdqCloseSession"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -227,7 +239,7 @@
 },{
 	"Name":"DdqGetSessionAccessLevel"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -240,7 +252,7 @@
 },{
 	"Name":"DdqGetDiagnosticDataAccessLevelAllowed"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -252,7 +264,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordStats"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -268,7 +280,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordPayload"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -282,7 +294,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordLocaleTags"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -296,7 +308,7 @@
 },{
 	"Name":"DdqFreeDiagnosticRecordLocaleTags"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -308,7 +320,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordLocaleTagAtIndex"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -322,7 +334,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordLocaleTagCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -335,7 +347,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordProducers"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -348,7 +360,7 @@
 },{
 	"Name":"DdqFreeDiagnosticRecordProducers"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -360,7 +372,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordProducerAtIndex"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -374,7 +386,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordProducerCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -387,7 +399,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordProducerCategories"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -401,7 +413,7 @@
 },{
 	"Name":"DdqFreeDiagnosticRecordProducerCategories"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -413,7 +425,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordCategoryAtIndex"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -427,7 +439,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordCategoryCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -440,7 +452,7 @@
 },{
 	"Name":"DdqIsDiagnosticRecordSampledIn"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -460,7 +472,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordPage"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -477,7 +489,7 @@
 },{
 	"Name":"DdqFreeDiagnosticRecordPage"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -489,7 +501,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordAtIndex"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -503,7 +515,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -516,7 +528,7 @@
 },{
 	"Name":"DdqGetDiagnosticReportStoreReportCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -530,7 +542,7 @@
 },{
 	"Name":"DdqCancelDiagnosticRecordOperation"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -542,7 +554,7 @@
 },{
 	"Name":"DdqGetDiagnosticReport"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -556,7 +568,7 @@
 },{
 	"Name":"DdqFreeDiagnosticReport"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -568,7 +580,7 @@
 },{
 	"Name":"DdqGetDiagnosticReportAtIndex"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -582,7 +594,7 @@
 },{
 	"Name":"DdqGetDiagnosticReportCount"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -595,7 +607,7 @@
 },{
 	"Name":"DdqExtractDiagnosticReport"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -610,7 +622,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordTagDistribution"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -626,7 +638,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordBinaryDistribution"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -643,7 +655,7 @@
 },{
 	"Name":"DdqGetDiagnosticRecordSummary"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -658,7 +670,7 @@
 },{
 	"Name":"DdqSetTranscriptConfiguration"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -671,7 +683,7 @@
 },{
 	"Name":"DdqGetTranscriptConfiguration"
 	,"SetLastError":false
-	,"DllImport":"DiagnosticDataQuery"
+	,"DllImport":"DiagnosticDataQuery.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

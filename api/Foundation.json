@@ -39169,7 +39169,7 @@
 		,{"Name":"WAIT_OBJECT_0","Value":0}
 		,{"Name":"WAIT_ABANDONED","Value":128}
 		,{"Name":"WAIT_ABANDONED_0","Value":128}
-		,{"Name":"WAIT_IO_COMPLETION","Value":129}
+		,{"Name":"WAIT_IO_COMPLETION","Value":192}
 		,{"Name":"WAIT_TIMEOUT","Value":258}
 		,{"Name":"WAIT_FAILED","Value":4294967295}
 		,{"Name":"ERROR_SUCCESS","Value":0}
@@ -42634,6 +42634,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wYear","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wMonth","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -42652,6 +42653,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wReserved","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -42665,6 +42667,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
 			,{"Name":"Lo64","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -42676,6 +42679,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Lo32","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"Mid32","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -42689,6 +42693,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
 			,{"Name":"signscale","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -42700,6 +42705,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"scale","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"sign","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -42747,6 +42753,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"unused","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
@@ -42758,6 +42765,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"unused","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
@@ -42769,6 +42777,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"unused","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
@@ -42780,6 +42789,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwLowDateTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwHighDateTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -42792,6 +42802,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"unused","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
@@ -42803,6 +42814,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"left","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"top","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42817,6 +42829,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"left","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"top","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42831,6 +42844,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42843,6 +42857,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42855,6 +42870,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cx","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"cy","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42867,6 +42883,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -42879,6 +42896,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"value","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -42890,6 +42908,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MaximumLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -42903,6 +42922,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LowPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -42915,6 +42935,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"u","Type":{"Kind":"ApiRef","Name":"_u_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -42927,6 +42948,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42939,6 +42961,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -42952,6 +42975,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"u","Type":{"Kind":"ApiRef","Name":"_u_e__Struct","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -42964,6 +42988,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"HighPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -42976,6 +43001,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"HighPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -42989,6 +43015,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LowPart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HighPart","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -43011,7 +43038,7 @@
 "Functions":[{
 	"Name":"SysAllocString"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43023,7 +43050,7 @@
 },{
 	"Name":"SysReAllocString"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43036,7 +43063,7 @@
 },{
 	"Name":"SysAllocStringLen"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43049,7 +43076,7 @@
 },{
 	"Name":"SysReAllocStringLen"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43063,7 +43090,7 @@
 },{
 	"Name":"SysAddRefString"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43075,7 +43102,7 @@
 },{
 	"Name":"SysReleaseString"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43087,7 +43114,7 @@
 },{
 	"Name":"SysFreeString"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43099,7 +43126,7 @@
 },{
 	"Name":"SysStringLen"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43111,7 +43138,7 @@
 },{
 	"Name":"SysStringByteLen"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43123,7 +43150,7 @@
 },{
 	"Name":"SysAllocStringByteLen"
 	,"SetLastError":false
-	,"DllImport":"OLEAUT32"
+	,"DllImport":"OLEAUT32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43136,7 +43163,7 @@
 },{
 	"Name":"CloseHandle"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43148,7 +43175,7 @@
 },{
 	"Name":"DuplicateHandle"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43166,7 +43193,7 @@
 },{
 	"Name":"CompareObjectHandles"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-core-handle-l1-1-0"
+	,"DllImport":"api-ms-win-core-handle-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43179,7 +43206,7 @@
 },{
 	"Name":"GetHandleInformation"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43192,7 +43219,7 @@
 },{
 	"Name":"SetHandleInformation"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43206,7 +43233,7 @@
 },{
 	"Name":"GetLastError"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43217,7 +43244,7 @@
 },{
 	"Name":"SetLastError"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43229,7 +43256,7 @@
 },{
 	"Name":"SetLastErrorEx"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -43242,7 +43269,7 @@
 },{
 	"Name":"RtlNtStatusToDosError"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

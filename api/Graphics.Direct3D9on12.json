@@ -14,6 +14,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Enable9On12","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pD3D12Device","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":[]}
@@ -105,7 +106,7 @@
 "Functions":[{
 	"Name":"Direct3DCreate9On12Ex"
 	,"SetLastError":false
-	,"DllImport":"d3d9"
+	,"DllImport":"d3d9.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -120,7 +121,7 @@
 },{
 	"Name":"Direct3DCreate9On12"
 	,"SetLastError":false
-	,"DllImport":"d3d9"
+	,"DllImport":"d3d9.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"IDirect3D9","TargetKind":"Com","Api":"Graphics.Direct3D9","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

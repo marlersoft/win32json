@@ -261,6 +261,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszToken","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dwValue","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -400,6 +401,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.NetShell","Parents":[]},"Attrs":[]}
 		,{"Name":"guidHelper","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -413,6 +415,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"NetworkManagement.NetShell","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"_ullAlign","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -424,6 +427,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -438,6 +442,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszCmdToken","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"pfnCmdHandler","Type":{"Kind":"ApiRef","Name":"PFN_HANDLE_CMD","TargetKind":"FunctionPointer","Api":"NetworkManagement.NetShell","Parents":[]},"Attrs":[]}
@@ -454,6 +459,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszCmdGroupToken","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dwShortCmdHelpToken","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -470,6 +476,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.NetShell","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszContext","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -493,6 +500,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"NetworkManagement.NetShell","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"_ullAlign","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -504,6 +512,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwReserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -518,6 +527,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszTag","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dwRequired","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -542,7 +552,7 @@
 "Functions":[{
 	"Name":"MatchEnumTag"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -558,7 +568,7 @@
 },{
 	"Name":"MatchToken"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -571,7 +581,7 @@
 },{
 	"Name":"PreprocessCommand"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -591,7 +601,7 @@
 },{
 	"Name":"PrintError"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -604,7 +614,7 @@
 },{
 	"Name":"PrintMessageFromModule"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -617,7 +627,7 @@
 },{
 	"Name":"PrintMessage"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -629,7 +639,7 @@
 },{
 	"Name":"RegisterContext"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -641,7 +651,7 @@
 },{
 	"Name":"RegisterHelper"
 	,"SetLastError":false
-	,"DllImport":"NETSH"
+	,"DllImport":"NETSH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

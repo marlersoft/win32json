@@ -5629,6 +5629,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5652,6 +5653,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5728,6 +5730,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszAccountName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszNewSOM","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5775,6 +5778,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szKey","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"szEventSource","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5806,6 +5810,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AppName","Type":{"Kind":"ApiRef","Name":"_AppName_e__Struct","TargetKind":"Default","Api":"System.GroupPolicy","Parents":[]},"Attrs":[]}
 		,{"Name":"FileExt","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5819,6 +5824,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Clsid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"ClsCtx","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5831,6 +5837,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"GPOId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -5844,6 +5851,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"INSTALLSPECTYPE","TargetKind":"Default","Api":"System.GroupPolicy","Parents":[]},"Attrs":[]}
 		,{"Name":"Spec","Type":{"Kind":"ApiRef","Name":"INSTALLSPEC","TargetKind":"Default","Api":"System.GroupPolicy","Parents":[]},"Attrs":[]}
@@ -5869,6 +5877,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pszDeploymentName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pszPolicyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -5883,6 +5892,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pszPackageName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pszPublisher","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6329,6 +6339,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6348,7 +6359,7 @@
 "Functions":[{
 	"Name":"RefreshPolicy"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6360,7 +6371,7 @@
 },{
 	"Name":"RefreshPolicyEx"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6373,7 +6384,7 @@
 },{
 	"Name":"EnterCriticalPolicySection"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6385,7 +6396,7 @@
 },{
 	"Name":"LeaveCriticalPolicySection"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6397,7 +6408,7 @@
 },{
 	"Name":"RegisterGPNotification"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6410,7 +6421,7 @@
 },{
 	"Name":"UnregisterGPNotification"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6422,7 +6433,7 @@
 },{
 	"Name":"GetGPOListA"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6439,7 +6450,7 @@
 },{
 	"Name":"GetGPOListW"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6456,7 +6467,7 @@
 },{
 	"Name":"FreeGPOListA"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6468,7 +6479,7 @@
 },{
 	"Name":"FreeGPOListW"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6480,7 +6491,7 @@
 },{
 	"Name":"GetAppliedGPOListA"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6496,7 +6507,7 @@
 },{
 	"Name":"GetAppliedGPOListW"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6512,7 +6523,7 @@
 },{
 	"Name":"ProcessGroupPolicyCompleted"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6526,7 +6537,7 @@
 },{
 	"Name":"ProcessGroupPolicyCompletedEx"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6541,7 +6552,7 @@
 },{
 	"Name":"RsopAccessCheckByType"
 	,"SetLastError":true
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6563,7 +6574,7 @@
 },{
 	"Name":"RsopFileAccessCheck"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6579,7 +6590,7 @@
 },{
 	"Name":"RsopSetPolicySettingStatus"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6595,7 +6606,7 @@
 },{
 	"Name":"RsopResetPolicySettingStatus"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6609,7 +6620,7 @@
 },{
 	"Name":"GenerateGPNotification"
 	,"SetLastError":false
-	,"DllImport":"USERENV"
+	,"DllImport":"USERENV.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6623,7 +6634,7 @@
 },{
 	"Name":"InstallApplication"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6635,7 +6646,7 @@
 },{
 	"Name":"UninstallApplication"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6648,7 +6659,7 @@
 },{
 	"Name":"CommandLineFromMsiDescriptor"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6662,7 +6673,7 @@
 },{
 	"Name":"GetManagedApplications"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6678,7 +6689,7 @@
 },{
 	"Name":"GetLocalManagedApplications"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6692,7 +6703,7 @@
 },{
 	"Name":"GetLocalManagedApplicationData"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6706,7 +6717,7 @@
 },{
 	"Name":"GetManagedApplicationCategories"
 	,"SetLastError":false
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6719,7 +6730,7 @@
 },{
 	"Name":"CreateGPOLink"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6733,7 +6744,7 @@
 },{
 	"Name":"DeleteGPOLink"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6746,7 +6757,7 @@
 },{
 	"Name":"DeleteAllGPOLinks"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6758,7 +6769,7 @@
 },{
 	"Name":"BrowseForGPO"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6770,7 +6781,7 @@
 },{
 	"Name":"ImportRSoPData"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6783,7 +6794,7 @@
 },{
 	"Name":"ExportRSoPData"
 	,"SetLastError":false
-	,"DllImport":"GPEDIT"
+	,"DllImport":"GPEDIT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

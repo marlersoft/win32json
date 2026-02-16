@@ -50,6 +50,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ulSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -63,6 +64,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pszUserName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ulUserNameLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -77,6 +79,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AuthBlob","Type":{"Kind":"ApiRef","Name":"DAV_CALLBACK_AUTH_BLOB","TargetKind":"Default","Api":"NetworkManagement.WebDav","Parents":[]},"Attrs":[]}
 		,{"Name":"UNPBlob","Type":{"Kind":"ApiRef","Name":"DAV_CALLBACK_AUTH_UNP","TargetKind":"Default","Api":"NetworkManagement.WebDav","Parents":[]},"Attrs":[]}
@@ -132,7 +135,7 @@
 "Functions":[{
 	"Name":"DavAddConnection"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -149,7 +152,7 @@
 },{
 	"Name":"DavDeleteConnection"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -161,7 +164,7 @@
 },{
 	"Name":"DavGetUNCFromHTTPPath"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -175,7 +178,7 @@
 },{
 	"Name":"DavGetHTTPFromUNCPath"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -189,7 +192,7 @@
 },{
 	"Name":"DavGetTheLockOwnerOfTheFile"
 	,"SetLastError":false
-	,"DllImport":"davclnt"
+	,"DllImport":"davclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -203,7 +206,7 @@
 },{
 	"Name":"DavGetExtendedError"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -218,7 +221,7 @@
 },{
 	"Name":"DavFlushFile"
 	,"SetLastError":false
-	,"DllImport":"NETAPI32"
+	,"DllImport":"NETAPI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -230,7 +233,7 @@
 },{
 	"Name":"DavInvalidateCache"
 	,"SetLastError":false
-	,"DllImport":"davclnt"
+	,"DllImport":"davclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -242,7 +245,7 @@
 },{
 	"Name":"DavCancelConnectionsToServer"
 	,"SetLastError":false
-	,"DllImport":"davclnt"
+	,"DllImport":"davclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -255,7 +258,7 @@
 },{
 	"Name":"DavRegisterAuthCallback"
 	,"SetLastError":false
-	,"DllImport":"davclnt"
+	,"DllImport":"davclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -268,7 +271,7 @@
 },{
 	"Name":"DavUnregisterAuthCallback"
 	,"SetLastError":false
-	,"DllImport":"davclnt"
+	,"DllImport":"davclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

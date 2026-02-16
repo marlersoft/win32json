@@ -200,6 +200,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -211,6 +212,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.TpmBaseServices","Parents":[]},"Attrs":[]}
@@ -222,6 +224,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"System.TpmBaseServices","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"asUINT32","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -233,6 +236,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -246,6 +250,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"status","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"message","Type":{"Kind":"Array","Shape":{"Size":28},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -258,6 +263,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"structVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"tpmVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -270,7 +276,7 @@
 "Functions":[{
 	"Name":"Tbsi_Context_Create"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -283,7 +289,7 @@
 },{
 	"Name":"Tbsip_Context_Close"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -295,7 +301,7 @@
 },{
 	"Name":"Tbsip_Submit_Command"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -313,7 +319,7 @@
 },{
 	"Name":"Tbsip_Cancel_Commands"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -325,7 +331,7 @@
 },{
 	"Name":"Tbsi_Physical_Presence_Command"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -341,7 +347,7 @@
 },{
 	"Name":"Tbsi_Get_TCG_Log"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -355,7 +361,7 @@
 },{
 	"Name":"Tbsi_GetDeviceInfo"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -368,7 +374,7 @@
 },{
 	"Name":"Tbsi_Get_OwnerAuth"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -383,7 +389,7 @@
 },{
 	"Name":"Tbsi_Revoke_Attestation"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -394,7 +400,7 @@
 },{
 	"Name":"GetDeviceID"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -409,7 +415,7 @@
 },{
 	"Name":"GetDeviceIDString"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -424,7 +430,7 @@
 },{
 	"Name":"Tbsi_Create_Windows_Key"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -436,7 +442,7 @@
 },{
 	"Name":"Tbsi_Get_TCG_Log_Ex"
 	,"SetLastError":false
-	,"DllImport":"tbs"
+	,"DllImport":"tbs.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

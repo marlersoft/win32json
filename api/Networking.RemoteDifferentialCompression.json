@@ -295,6 +295,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_BlockType","Type":{"Kind":"ApiRef","Name":"RdcNeedType","TargetKind":"Default","Api":"Networking.RemoteDifferentialCompression","Parents":[]},"Attrs":[]}
 		,{"Name":"m_FileOffset","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -308,6 +309,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_Used","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -321,6 +323,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_Used","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -334,6 +337,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Signature","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"m_BlockLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -346,6 +350,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_Used","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -385,6 +390,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Data","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"m_Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -397,6 +403,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_Data","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -408,6 +415,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_FileIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_MatchCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -420,6 +428,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_FileIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"m_Data","Type":{"Kind":"ApiRef","Name":"SimilarityData","TargetKind":"Default","Api":"Networking.RemoteDifferentialCompression","Parents":[]},"Attrs":[]}
@@ -432,6 +441,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_FileId","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]

@@ -1388,6 +1388,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pad","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":[]}
 		,{"Name":"userContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -1613,6 +1614,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BindingH","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":[]}
@@ -1625,6 +1627,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Uuid","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}}},"Attrs":[]}
@@ -1637,6 +1640,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Uuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"VersMajor","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -1650,6 +1654,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Protseq","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}},"Attrs":[]}
@@ -1662,6 +1667,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Protseq","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":[]}
@@ -1674,6 +1680,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"EndpointFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1726,6 +1733,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Stats","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -1738,6 +1746,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"IfId","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_IF_ID","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}},"Attrs":[]}
@@ -1750,6 +1759,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1764,6 +1774,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"User","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		,{"Name":"UserLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1781,6 +1792,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"User","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"UserLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1798,6 +1810,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SEC_WINNT_AUTH_IDENTITY_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1814,6 +1827,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SEC_WINNT_AUTH_IDENTITY_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1830,6 +1844,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SEC_WINNT_AUTH_IDENTITY_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1849,6 +1864,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SEC_WINNT_AUTH_IDENTITY_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1868,6 +1884,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1887,6 +1904,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_C_HTTP_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1906,6 +1924,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1921,6 +1940,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -1933,6 +1953,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1948,6 +1969,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -1960,6 +1982,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -1976,6 +1999,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -1988,6 +2012,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2004,6 +2029,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -2016,6 +2042,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2033,6 +2060,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -2045,6 +2073,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2062,6 +2091,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -2074,6 +2104,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2092,6 +2123,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_W","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -2104,6 +2136,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Capabilities","Type":{"Kind":"ApiRef","Name":"RPC_C_QOS_CAPABILITIES","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2122,6 +2155,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"HttpCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_HTTP_TRANSPORT_CREDENTIALS_A","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		]
@@ -2134,6 +2168,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2150,6 +2185,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Reserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
 		]
@@ -2162,6 +2198,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2178,6 +2215,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Reserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		]
@@ -2190,6 +2228,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ServerPrincName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -2206,6 +2245,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ServerPrincName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2222,6 +2262,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"RPC_BINDING_HANDLE_OPTIONS_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2302,6 +2343,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UserName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"ComputerName","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2330,6 +2372,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProtSeq","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -2345,6 +2388,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProtSeq","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2360,6 +2404,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"IfSpec","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -2381,6 +2426,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"IfSpec","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -2416,6 +2462,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MajorVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MinorVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -2428,6 +2475,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SyntaxGUID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"SyntaxVersion","Type":{"Kind":"ApiRef","Name":"RPC_VERSION","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2440,6 +2488,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Handle","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"DataRepresentation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2514,6 +2563,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DispatchTableCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DispatchTable","Type":{"Kind":"ApiRef","Name":"RPC_DISPATCH_FUNCTION","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2527,6 +2577,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RpcProtocolSequence","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Endpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2539,6 +2590,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"InterfaceId","Type":{"Kind":"ApiRef","Name":"RPC_SYNTAX_IDENTIFIER","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2558,6 +2610,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"InterfaceId","Type":{"Kind":"ApiRef","Name":"RPC_SYNTAX_IDENTIFIER","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2601,6 +2654,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EncryptAlgorithm","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"KeySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2614,6 +2668,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Uuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"VersMajor","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -2667,6 +2722,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Buffer","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2679,6 +2735,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LastError","Type":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"LastEEInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -2849,6 +2906,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IsValidMachineFn","Type":{"Kind":"ApiRef","Name":"I_RpcProxyIsValidMachineFn","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"GetClientAddressFn","Type":{"Kind":"ApiRef","Name":"I_RpcProxyGetClientAddressFn","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2913,6 +2971,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"APC","Type":{"Kind":"ApiRef","Name":"_APC_e__Struct","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"IOC","Type":{"Kind":"ApiRef","Name":"_IOC_e__Struct","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -2927,6 +2986,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Msg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2939,6 +2999,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"hIOPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"dwNumberOfBytesTransferred","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2953,6 +3014,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"NotificationRoutine","Type":{"Kind":"ApiRef","Name":"PFN_RPCNOTIFICATION_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 			,{"Name":"hThread","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2966,6 +3028,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Signature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3004,6 +3067,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -3016,6 +3080,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ParameterType","Type":{"Kind":"ApiRef","Name":"ExtendedErrorParamTypes","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"u","Type":{"Kind":"ApiRef","Name":"_u_e__Union","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -3027,6 +3092,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"AnsiString","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"UnicodeString","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3044,6 +3110,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ComputerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3063,6 +3130,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"SystemTime","Type":{"Kind":"ApiRef","Name":"SYSTEMTIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"FileTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -3076,6 +3144,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Signature","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CurrentPos","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3102,6 +3171,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3116,6 +3186,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3135,6 +3206,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3182,6 +3254,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3210,6 +3283,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3238,6 +3312,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3268,6 +3343,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3311,6 +3387,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LookupContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ProposedHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3324,6 +3401,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pad","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":[]}
 		,{"Name":"userContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -3371,6 +3449,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfObjects","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ArrayOfObjects","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}},"Attrs":[]}
@@ -3395,6 +3474,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Dimension","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"BufferConformanceMark","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -3411,6 +3491,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3421,6 +3502,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3431,6 +3513,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3441,6 +3524,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3451,6 +3535,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3461,6 +3546,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RpcMsg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -3555,6 +3641,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pfnBind","Type":{"Kind":"ApiRef","Name":"GENERIC_BINDING_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"pfnUnbind","Type":{"Kind":"ApiRef","Name":"GENERIC_UNBIND_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -3567,6 +3654,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pObj","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -3593,6 +3681,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pfnTranslateToXmit","Type":{"Kind":"ApiRef","Name":"XMIT_HELPER_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"pfnTranslateFromXmit","Type":{"Kind":"ApiRef","Name":"XMIT_HELPER_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -3662,6 +3751,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pfnBufferSize","Type":{"Kind":"ApiRef","Name":"USER_MARSHAL_SIZING_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"pfnMarshall","Type":{"Kind":"ApiRef","Name":"USER_MARSHAL_MARSHALLING_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -3690,6 +3780,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pStubMsg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_MESSAGE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
@@ -3707,6 +3798,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pfnAllocate","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
 		,{"Name":"pfnFree","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -3719,6 +3811,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CommOffset","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"FaultOffset","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -3832,6 +3925,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pfnNetSize","Type":{"Kind":"ApiRef","Name":"CS_TYPE_NET_SIZE_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"pfnToNetCs","Type":{"Kind":"ApiRef","Name":"CS_TYPE_TO_NETCS_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -3846,6 +3940,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pSizeConvertRoutines","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_CS_SIZE_CONVERT_ROUTINES","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"pTagGettingRoutines","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CS_TAG_GETTING_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
@@ -3858,6 +3953,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pOffset","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["Const"]}
 		,{"Name":"pFormatExpr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -3870,6 +3966,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RpcInterfaceInformation","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"pfnAllocate","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -3899,6 +3996,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pAutoHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":[]}
 			,{"Name":"pPrimitiveHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":[]}
@@ -3913,6 +4011,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Pad","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"Format","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -3948,6 +4047,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -3960,6 +4060,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Properties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_METHOD_PROPERTY","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":["Const"]}
@@ -3972,6 +4073,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MethodCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MethodProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_METHOD_PROPERTY_MAP","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}},"Attrs":["Const"]}
@@ -3984,6 +4086,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pStubDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_DESC","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"DispatchTable","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SERVER_ROUTINE","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]}},"Attrs":["Const"]}
@@ -4002,6 +4105,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pStubDesc","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MIDL_STUB_DESC","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
 		,{"Name":"ProcFormatString","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4018,6 +4122,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransferSyntax","Type":{"Kind":"ApiRef","Name":"RPC_SYNTAX_IDENTIFIER","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"DispatchTable","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_DISPATCH_TABLE","TargetKind":"Default","Api":"System.Rpc","Parents":[]}},"Attrs":[]}
@@ -4036,6 +4141,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Pointer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Simple","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -4060,6 +4166,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RefIdToPointer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"PointerToRefId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -4099,6 +4206,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProcString","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4114,6 +4222,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"TypeFormatString","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -4182,6 +4291,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"BufferSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4198,6 +4308,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"InformationLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -4209,6 +4320,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Level1","Type":{"Kind":"ApiRef","Name":"NDR_USER_MARSHAL_INFO_LEVEL1","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		]
@@ -4289,6 +4401,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4302,6 +4415,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -4313,6 +4427,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -4324,6 +4439,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"StackSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4342,6 +4458,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -4353,6 +4470,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Attributes","Type":{"Kind":"ApiRef","Name":"NDR64_PARAM_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -4367,6 +4485,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"RangeType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4382,6 +4501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4393,6 +4513,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ContextFlags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4407,6 +4528,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HandleType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4421,6 +4543,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HandleType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4436,6 +4559,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HandleType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4451,6 +4575,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Primitive","Type":{"Kind":"ApiRef","Name":"NDR64_BIND_PRIMITIVE","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"Generic","Type":{"Kind":"ApiRef","Name":"NDR64_BIND_GENERIC","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -4464,6 +4589,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Binding","Type":{"Kind":"ApiRef","Name":"NDR64_BIND_CONTEXT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"NotifyIndex","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4476,6 +4602,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"HandleType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4489,6 +4616,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4503,6 +4631,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4517,6 +4646,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Offset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4529,6 +4659,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4540,6 +4671,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"NDR64_POINTER_REPEAT_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -4556,6 +4688,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RepeatFormat","Type":{"Kind":"ApiRef","Name":"NDR64_REPEAT_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"Iterations","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4569,6 +4702,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4580,6 +4714,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4594,6 +4729,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4608,6 +4744,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4619,6 +4756,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4634,6 +4772,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4650,6 +4789,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4668,6 +4808,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4687,6 +4828,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserved1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4701,6 +4843,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserve1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4715,6 +4858,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserve1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4729,6 +4873,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4743,6 +4888,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4757,6 +4903,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4774,6 +4921,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4791,6 +4939,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Reserved1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4805,6 +4954,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CaseValue","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -4818,6 +4968,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4829,6 +4980,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementMemSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Element","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -4841,6 +4993,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4856,6 +5009,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4872,6 +5026,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4889,6 +5044,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4906,6 +5062,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Alignment","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -4922,6 +5079,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FixedArrayFormat","Type":{"Kind":"ApiRef","Name":"NDR64_BOGUS_ARRAY_HEADER_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"ConfDescription","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -4936,6 +5094,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -4947,6 +5106,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"NDR64_STRING_FLAGS","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
@@ -4960,6 +5120,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDR64_STRING_HEADER_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"TotalSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4972,6 +5133,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDR64_STRING_HEADER_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4986,6 +5148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDR64_STRING_HEADER_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 	]
@@ -4997,6 +5160,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDR64_STRING_HEADER_FORMAT","TargetKind":"Default","Api":"System.Rpc","Parents":[]},"Attrs":[]}
 		,{"Name":"SizeDescription","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -5027,6 +5191,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExprType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Operator","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5041,6 +5206,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExprType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5055,6 +5221,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExprType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5069,6 +5236,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExprType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"VarType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5083,6 +5251,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExprType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5096,6 +5265,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -5107,6 +5277,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5125,6 +5296,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -5136,6 +5308,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5154,6 +5327,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -5165,6 +5339,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5182,6 +5357,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5201,6 +5377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"RealFormatCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -5215,7 +5392,7 @@
 "Functions":[{
 	"Name":"IUnknown_QueryInterface_Proxy"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5229,7 +5406,7 @@
 },{
 	"Name":"IUnknown_AddRef_Proxy"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5241,7 +5418,7 @@
 },{
 	"Name":"IUnknown_Release_Proxy"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5253,7 +5430,7 @@
 },{
 	"Name":"RpcBindingCopy"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5266,7 +5443,7 @@
 },{
 	"Name":"RpcBindingFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5278,7 +5455,7 @@
 },{
 	"Name":"RpcBindingSetOption"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5292,7 +5469,7 @@
 },{
 	"Name":"RpcBindingInqOption"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5306,7 +5483,7 @@
 },{
 	"Name":"RpcBindingFromStringBindingA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5319,7 +5496,7 @@
 },{
 	"Name":"RpcBindingFromStringBindingW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5332,7 +5509,7 @@
 },{
 	"Name":"RpcSsGetContextBinding"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5345,7 +5522,7 @@
 },{
 	"Name":"RpcBindingInqMaxCalls"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5358,7 +5535,7 @@
 },{
 	"Name":"RpcBindingInqObject"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5371,7 +5548,7 @@
 },{
 	"Name":"RpcBindingReset"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5383,7 +5560,7 @@
 },{
 	"Name":"RpcBindingSetObject"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5396,7 +5573,7 @@
 },{
 	"Name":"RpcMgmtInqDefaultProtectLevel"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5409,7 +5586,7 @@
 },{
 	"Name":"RpcBindingToStringBindingA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5422,7 +5599,7 @@
 },{
 	"Name":"RpcBindingToStringBindingW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5435,7 +5612,7 @@
 },{
 	"Name":"RpcBindingVectorFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5447,7 +5624,7 @@
 },{
 	"Name":"RpcStringBindingComposeA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5464,7 +5641,7 @@
 },{
 	"Name":"RpcStringBindingComposeW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5481,7 +5658,7 @@
 },{
 	"Name":"RpcStringBindingParseA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5498,7 +5675,7 @@
 },{
 	"Name":"RpcStringBindingParseW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5515,7 +5692,7 @@
 },{
 	"Name":"RpcStringFreeA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5527,7 +5704,7 @@
 },{
 	"Name":"RpcStringFreeW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5539,7 +5716,7 @@
 },{
 	"Name":"RpcIfInqId"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5552,7 +5729,7 @@
 },{
 	"Name":"RpcNetworkIsProtseqValidA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5564,7 +5741,7 @@
 },{
 	"Name":"RpcNetworkIsProtseqValidW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5576,7 +5753,7 @@
 },{
 	"Name":"RpcMgmtInqComTimeout"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5589,7 +5766,7 @@
 },{
 	"Name":"RpcMgmtSetComTimeout"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5602,7 +5779,7 @@
 },{
 	"Name":"RpcMgmtSetCancelTimeout"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5614,7 +5791,7 @@
 },{
 	"Name":"RpcNetworkInqProtseqsA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5626,7 +5803,7 @@
 },{
 	"Name":"RpcNetworkInqProtseqsW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5638,7 +5815,7 @@
 },{
 	"Name":"RpcObjectInqType"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5651,7 +5828,7 @@
 },{
 	"Name":"RpcObjectSetInqFn"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5663,7 +5840,7 @@
 },{
 	"Name":"RpcObjectSetType"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5676,7 +5853,7 @@
 },{
 	"Name":"RpcProtseqVectorFreeA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5688,7 +5865,7 @@
 },{
 	"Name":"RpcProtseqVectorFreeW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5700,7 +5877,7 @@
 },{
 	"Name":"RpcServerInqBindings"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5712,7 +5889,7 @@
 },{
 	"Name":"RpcServerInqBindingsEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5725,7 +5902,7 @@
 },{
 	"Name":"RpcServerInqIf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5739,7 +5916,7 @@
 },{
 	"Name":"RpcServerListen"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5753,7 +5930,7 @@
 },{
 	"Name":"RpcServerRegisterIf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5767,7 +5944,7 @@
 },{
 	"Name":"RpcServerRegisterIfEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5784,7 +5961,7 @@
 },{
 	"Name":"RpcServerRegisterIf2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5802,7 +5979,7 @@
 },{
 	"Name":"RpcServerRegisterIf3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5821,7 +5998,7 @@
 },{
 	"Name":"RpcServerUnregisterIf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5835,7 +6012,7 @@
 },{
 	"Name":"RpcServerUnregisterIfEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5849,7 +6026,7 @@
 },{
 	"Name":"RpcServerUseAllProtseqs"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5862,7 +6039,7 @@
 },{
 	"Name":"RpcServerUseAllProtseqsEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5876,7 +6053,7 @@
 },{
 	"Name":"RpcServerUseAllProtseqsIf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5890,7 +6067,7 @@
 },{
 	"Name":"RpcServerUseAllProtseqsIfEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5905,7 +6082,7 @@
 },{
 	"Name":"RpcServerUseProtseqA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5919,7 +6096,7 @@
 },{
 	"Name":"RpcServerUseProtseqExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5934,7 +6111,7 @@
 },{
 	"Name":"RpcServerUseProtseqW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5948,7 +6125,7 @@
 },{
 	"Name":"RpcServerUseProtseqExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5963,7 +6140,7 @@
 },{
 	"Name":"RpcServerUseProtseqEpA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5978,7 +6155,7 @@
 },{
 	"Name":"RpcServerUseProtseqEpExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5994,7 +6171,7 @@
 },{
 	"Name":"RpcServerUseProtseqEpW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6009,7 +6186,7 @@
 },{
 	"Name":"RpcServerUseProtseqEpExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6025,7 +6202,7 @@
 },{
 	"Name":"RpcServerUseProtseqIfA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6040,7 +6217,7 @@
 },{
 	"Name":"RpcServerUseProtseqIfExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6056,7 +6233,7 @@
 },{
 	"Name":"RpcServerUseProtseqIfW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6071,7 +6248,7 @@
 },{
 	"Name":"RpcServerUseProtseqIfExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6087,7 +6264,7 @@
 },{
 	"Name":"RpcServerYield"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6098,7 +6275,7 @@
 },{
 	"Name":"RpcMgmtStatsVectorFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6110,7 +6287,7 @@
 },{
 	"Name":"RpcMgmtInqStats"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6123,7 +6300,7 @@
 },{
 	"Name":"RpcMgmtIsServerListening"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6135,7 +6312,7 @@
 },{
 	"Name":"RpcMgmtStopServerListening"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6147,7 +6324,7 @@
 },{
 	"Name":"RpcMgmtWaitServerListen"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6158,7 +6335,7 @@
 },{
 	"Name":"RpcMgmtSetServerStackSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6170,7 +6347,7 @@
 },{
 	"Name":"RpcSsDontSerializeContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6181,7 +6358,7 @@
 },{
 	"Name":"RpcMgmtEnableIdleCleanup"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6192,7 +6369,7 @@
 },{
 	"Name":"RpcMgmtInqIfIds"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6205,7 +6382,7 @@
 },{
 	"Name":"RpcIfIdVectorFree"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6217,7 +6394,7 @@
 },{
 	"Name":"RpcMgmtInqServerPrincNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6231,7 +6408,7 @@
 },{
 	"Name":"RpcMgmtInqServerPrincNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6245,7 +6422,7 @@
 },{
 	"Name":"RpcServerInqDefaultPrincNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6258,7 +6435,7 @@
 },{
 	"Name":"RpcServerInqDefaultPrincNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6271,7 +6448,7 @@
 },{
 	"Name":"RpcEpResolveBinding"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6284,7 +6461,7 @@
 },{
 	"Name":"RpcNsBindingInqEntryNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6298,7 +6475,7 @@
 },{
 	"Name":"RpcNsBindingInqEntryNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6312,7 +6489,7 @@
 },{
 	"Name":"RpcBindingCreateA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6327,7 +6504,7 @@
 },{
 	"Name":"RpcBindingCreateW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6342,7 +6519,7 @@
 },{
 	"Name":"RpcServerInqBindingHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6354,7 +6531,7 @@
 },{
 	"Name":"RpcImpersonateClient"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6366,7 +6543,7 @@
 },{
 	"Name":"RpcImpersonateClient2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6378,7 +6555,7 @@
 },{
 	"Name":"RpcRevertToSelfEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6390,7 +6567,7 @@
 },{
 	"Name":"RpcRevertToSelf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6401,7 +6578,7 @@
 },{
 	"Name":"RpcImpersonateClientContainer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6413,7 +6590,7 @@
 },{
 	"Name":"RpcRevertContainerImpersonation"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6424,7 +6601,7 @@
 },{
 	"Name":"RpcBindingInqAuthClientA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6441,7 +6618,7 @@
 },{
 	"Name":"RpcBindingInqAuthClientW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6458,7 +6635,7 @@
 },{
 	"Name":"RpcBindingInqAuthClientExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6476,7 +6653,7 @@
 },{
 	"Name":"RpcBindingInqAuthClientExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6494,7 +6671,7 @@
 },{
 	"Name":"RpcBindingInqAuthInfoA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6511,7 +6688,7 @@
 },{
 	"Name":"RpcBindingInqAuthInfoW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6528,7 +6705,7 @@
 },{
 	"Name":"RpcBindingSetAuthInfoA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6545,7 +6722,7 @@
 },{
 	"Name":"RpcBindingSetAuthInfoExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6563,7 +6740,7 @@
 },{
 	"Name":"RpcBindingSetAuthInfoW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6580,7 +6757,7 @@
 },{
 	"Name":"RpcBindingSetAuthInfoExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6598,7 +6775,7 @@
 },{
 	"Name":"RpcBindingInqAuthInfoExA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6617,7 +6794,7 @@
 },{
 	"Name":"RpcBindingInqAuthInfoExW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6636,7 +6813,7 @@
 },{
 	"Name":"RpcServerCompleteSecurityCallback"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6649,7 +6826,7 @@
 },{
 	"Name":"RpcServerRegisterAuthInfoA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6664,7 +6841,7 @@
 },{
 	"Name":"RpcServerRegisterAuthInfoW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6679,7 +6856,7 @@
 },{
 	"Name":"RpcBindingServerFromClient"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6692,7 +6869,7 @@
 },{
 	"Name":"RpcRaiseException"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6704,7 +6881,7 @@
 },{
 	"Name":"RpcTestCancel"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6715,7 +6892,7 @@
 },{
 	"Name":"RpcServerTestCancel"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6727,7 +6904,7 @@
 },{
 	"Name":"RpcCancelThread"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6739,7 +6916,7 @@
 },{
 	"Name":"RpcCancelThreadEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6752,7 +6929,7 @@
 },{
 	"Name":"UuidCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6764,7 +6941,7 @@
 },{
 	"Name":"UuidCreateSequential"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6776,7 +6953,7 @@
 },{
 	"Name":"UuidToStringA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6789,7 +6966,7 @@
 },{
 	"Name":"UuidFromStringA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6802,7 +6979,7 @@
 },{
 	"Name":"UuidToStringW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6815,7 +6992,7 @@
 },{
 	"Name":"UuidFromStringW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6828,7 +7005,7 @@
 },{
 	"Name":"UuidCompare"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6842,7 +7019,7 @@
 },{
 	"Name":"UuidCreateNil"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6854,7 +7031,7 @@
 },{
 	"Name":"UuidEqual"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6868,7 +7045,7 @@
 },{
 	"Name":"UuidHash"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt16"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6881,7 +7058,7 @@
 },{
 	"Name":"UuidIsNil"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6894,7 +7071,7 @@
 },{
 	"Name":"RpcEpRegisterNoReplaceA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6909,7 +7086,7 @@
 },{
 	"Name":"RpcEpRegisterNoReplaceW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6924,7 +7101,7 @@
 },{
 	"Name":"RpcEpRegisterA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6939,7 +7116,7 @@
 },{
 	"Name":"RpcEpRegisterW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6954,7 +7131,7 @@
 },{
 	"Name":"RpcEpUnregister"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6968,7 +7145,7 @@
 },{
 	"Name":"DceErrorInqTextA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6981,7 +7158,7 @@
 },{
 	"Name":"DceErrorInqTextW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6994,7 +7171,7 @@
 },{
 	"Name":"RpcMgmtEpEltInqBegin"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7011,7 +7188,7 @@
 },{
 	"Name":"RpcMgmtEpEltInqDone"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7023,7 +7200,7 @@
 },{
 	"Name":"RpcMgmtEpEltInqNextA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7039,7 +7216,7 @@
 },{
 	"Name":"RpcMgmtEpEltInqNextW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7055,7 +7232,7 @@
 },{
 	"Name":"RpcMgmtEpUnregister"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7070,7 +7247,7 @@
 },{
 	"Name":"RpcMgmtSetAuthorizationFn"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7082,7 +7259,7 @@
 },{
 	"Name":"RpcExceptionFilter"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7094,7 +7271,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupCreateW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7113,7 +7290,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupCreateA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7132,7 +7309,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupClose"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7144,7 +7321,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupActivate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7156,7 +7333,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupDeactivate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7169,7 +7346,7 @@
 },{
 	"Name":"RpcServerInterfaceGroupInqBindings"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7182,7 +7359,7 @@
 },{
 	"Name":"I_RpcNegotiateTransferSyntax"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7194,7 +7371,7 @@
 },{
 	"Name":"I_RpcGetBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7206,7 +7383,7 @@
 },{
 	"Name":"I_RpcGetBufferWithObject"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7219,7 +7396,7 @@
 },{
 	"Name":"I_RpcSendReceive"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7231,7 +7408,7 @@
 },{
 	"Name":"I_RpcFreeBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7243,7 +7420,7 @@
 },{
 	"Name":"I_RpcSend"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7255,7 +7432,7 @@
 },{
 	"Name":"I_RpcReceive"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7268,7 +7445,7 @@
 },{
 	"Name":"I_RpcFreePipeBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7280,7 +7457,7 @@
 },{
 	"Name":"I_RpcReallocPipeBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7293,7 +7470,7 @@
 },{
 	"Name":"I_RpcRequestMutex"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7305,7 +7482,7 @@
 },{
 	"Name":"I_RpcClearMutex"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7317,7 +7494,7 @@
 },{
 	"Name":"I_RpcDeleteMutex"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7329,7 +7506,7 @@
 },{
 	"Name":"I_RpcAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7341,7 +7518,7 @@
 },{
 	"Name":"I_RpcFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7353,7 +7530,7 @@
 },{
 	"Name":"I_RpcPauseExecution"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7365,7 +7542,7 @@
 },{
 	"Name":"I_RpcGetExtendedError"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7376,7 +7553,7 @@
 },{
 	"Name":"I_RpcSystemHandleTypeSpecificWork"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7391,7 +7568,7 @@
 },{
 	"Name":"I_RpcGetCurrentCallHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7402,7 +7579,7 @@
 },{
 	"Name":"I_RpcNsInterfaceExported"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7416,7 +7593,7 @@
 },{
 	"Name":"I_RpcNsInterfaceUnexported"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7430,7 +7607,7 @@
 },{
 	"Name":"I_RpcBindingToStaticStringBindingW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7443,7 +7620,7 @@
 },{
 	"Name":"I_RpcBindingInqSecurityContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7456,7 +7633,7 @@
 },{
 	"Name":"I_RpcBindingInqSecurityContextKeyInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7469,7 +7646,7 @@
 },{
 	"Name":"I_RpcBindingInqWireIdForSnego"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7482,7 +7659,7 @@
 },{
 	"Name":"I_RpcBindingInqMarshalledTargetInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7496,7 +7673,7 @@
 },{
 	"Name":"I_RpcBindingInqLocalClientPID"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7509,7 +7686,7 @@
 },{
 	"Name":"I_RpcBindingHandleToAsyncHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7522,7 +7699,7 @@
 },{
 	"Name":"I_RpcNsBindingSetEntryNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7536,7 +7713,7 @@
 },{
 	"Name":"I_RpcNsBindingSetEntryNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7550,7 +7727,7 @@
 },{
 	"Name":"I_RpcServerUseProtseqEp2A"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7567,7 +7744,7 @@
 },{
 	"Name":"I_RpcServerUseProtseqEp2W"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7584,7 +7761,7 @@
 },{
 	"Name":"I_RpcServerUseProtseq2W"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7600,7 +7777,7 @@
 },{
 	"Name":"I_RpcServerUseProtseq2A"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7616,7 +7793,7 @@
 },{
 	"Name":"I_RpcServerStartService"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7630,7 +7807,7 @@
 },{
 	"Name":"I_RpcBindingInqDynamicEndpointW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7643,7 +7820,7 @@
 },{
 	"Name":"I_RpcBindingInqDynamicEndpointA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7656,7 +7833,7 @@
 },{
 	"Name":"I_RpcServerCheckClientRestriction"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7668,7 +7845,7 @@
 },{
 	"Name":"I_RpcBindingInqTransportType"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7681,7 +7858,7 @@
 },{
 	"Name":"I_RpcIfInqTransferSyntaxes"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7696,7 +7873,7 @@
 },{
 	"Name":"I_UuidCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7708,7 +7885,7 @@
 },{
 	"Name":"I_RpcBindingCopy"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7721,7 +7898,7 @@
 },{
 	"Name":"I_RpcBindingIsClientLocal"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7734,7 +7911,7 @@
 },{
 	"Name":"I_RpcBindingCreateNP"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7749,7 +7926,7 @@
 },{
 	"Name":"I_RpcSsDontSerializeContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7760,7 +7937,7 @@
 },{
 	"Name":"I_RpcServerRegisterForwardFunction"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7772,7 +7949,7 @@
 },{
 	"Name":"I_RpcServerInqAddressChangeFn"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RPC_ADDRESS_CHANGE_FN","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7783,7 +7960,7 @@
 },{
 	"Name":"I_RpcServerSetAddressChangeFn"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7795,7 +7972,7 @@
 },{
 	"Name":"I_RpcServerInqLocalConnAddress"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7810,7 +7987,7 @@
 },{
 	"Name":"I_RpcServerInqRemoteConnAddress"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7825,7 +8002,7 @@
 },{
 	"Name":"I_RpcSessionStrictContextHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7836,7 +8013,7 @@
 },{
 	"Name":"I_RpcTurnOnEEInfoPropagation"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7847,7 +8024,7 @@
 },{
 	"Name":"I_RpcServerInqTransportType"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7859,7 +8036,7 @@
 },{
 	"Name":"I_RpcMapWin32Status"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7871,7 +8048,7 @@
 },{
 	"Name":"I_RpcRecordCalloutFailure"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7885,7 +8062,7 @@
 },{
 	"Name":"I_RpcMgmtEnableDedicatedThreadPool"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7896,7 +8073,7 @@
 },{
 	"Name":"I_RpcGetDefaultSD"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7908,7 +8085,7 @@
 },{
 	"Name":"I_RpcOpenClientProcess"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7922,7 +8099,7 @@
 },{
 	"Name":"I_RpcBindingIsServerLocal"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7935,7 +8112,7 @@
 },{
 	"Name":"I_RpcBindingSetPrivateOption"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7949,7 +8126,7 @@
 },{
 	"Name":"I_RpcServerSubscribeForDisconnectNotification"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7962,7 +8139,7 @@
 },{
 	"Name":"I_RpcServerGetAssociationID"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7975,7 +8152,7 @@
 },{
 	"Name":"I_RpcServerDisableExceptionFilter"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7986,7 +8163,7 @@
 },{
 	"Name":"I_RpcServerSubscribeForDisconnectNotification2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8000,7 +8177,7 @@
 },{
 	"Name":"I_RpcServerUnsubscribeForDisconnectNotification"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8013,7 +8190,7 @@
 },{
 	"Name":"RpcNsBindingExportA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8029,7 +8206,7 @@
 },{
 	"Name":"RpcNsBindingUnexportA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8044,7 +8221,7 @@
 },{
 	"Name":"RpcNsBindingExportW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8060,7 +8237,7 @@
 },{
 	"Name":"RpcNsBindingUnexportW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8075,7 +8252,7 @@
 },{
 	"Name":"RpcNsBindingExportPnPA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8090,7 +8267,7 @@
 },{
 	"Name":"RpcNsBindingUnexportPnPA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8105,7 +8282,7 @@
 },{
 	"Name":"RpcNsBindingExportPnPW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8120,7 +8297,7 @@
 },{
 	"Name":"RpcNsBindingUnexportPnPW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8135,7 +8312,7 @@
 },{
 	"Name":"RpcNsBindingLookupBeginA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8152,7 +8329,7 @@
 },{
 	"Name":"RpcNsBindingLookupBeginW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8169,7 +8346,7 @@
 },{
 	"Name":"RpcNsBindingLookupNext"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8182,7 +8359,7 @@
 },{
 	"Name":"RpcNsBindingLookupDone"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8194,7 +8371,7 @@
 },{
 	"Name":"RpcNsGroupDeleteA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8207,7 +8384,7 @@
 },{
 	"Name":"RpcNsGroupMbrAddA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8222,7 +8399,7 @@
 },{
 	"Name":"RpcNsGroupMbrRemoveA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8237,7 +8414,7 @@
 },{
 	"Name":"RpcNsGroupMbrInqBeginA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8252,7 +8429,7 @@
 },{
 	"Name":"RpcNsGroupMbrInqNextA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8265,7 +8442,7 @@
 },{
 	"Name":"RpcNsGroupDeleteW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8278,7 +8455,7 @@
 },{
 	"Name":"RpcNsGroupMbrAddW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8293,7 +8470,7 @@
 },{
 	"Name":"RpcNsGroupMbrRemoveW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8308,7 +8485,7 @@
 },{
 	"Name":"RpcNsGroupMbrInqBeginW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8323,7 +8500,7 @@
 },{
 	"Name":"RpcNsGroupMbrInqNextW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8336,7 +8513,7 @@
 },{
 	"Name":"RpcNsGroupMbrInqDone"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8348,7 +8525,7 @@
 },{
 	"Name":"RpcNsProfileDeleteA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8361,7 +8538,7 @@
 },{
 	"Name":"RpcNsProfileEltAddA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8379,7 +8556,7 @@
 },{
 	"Name":"RpcNsProfileEltRemoveA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8395,7 +8572,7 @@
 },{
 	"Name":"RpcNsProfileEltInqBeginA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8414,7 +8591,7 @@
 },{
 	"Name":"RpcNsProfileEltInqNextA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8430,7 +8607,7 @@
 },{
 	"Name":"RpcNsProfileDeleteW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8443,7 +8620,7 @@
 },{
 	"Name":"RpcNsProfileEltAddW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8461,7 +8638,7 @@
 },{
 	"Name":"RpcNsProfileEltRemoveW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8477,7 +8654,7 @@
 },{
 	"Name":"RpcNsProfileEltInqBeginW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8496,7 +8673,7 @@
 },{
 	"Name":"RpcNsProfileEltInqNextW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8512,7 +8689,7 @@
 },{
 	"Name":"RpcNsProfileEltInqDone"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8524,7 +8701,7 @@
 },{
 	"Name":"RpcNsEntryObjectInqBeginA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8538,7 +8715,7 @@
 },{
 	"Name":"RpcNsEntryObjectInqBeginW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8552,7 +8729,7 @@
 },{
 	"Name":"RpcNsEntryObjectInqNext"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8565,7 +8742,7 @@
 },{
 	"Name":"RpcNsEntryObjectInqDone"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8577,7 +8754,7 @@
 },{
 	"Name":"RpcNsEntryExpandNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8591,7 +8768,7 @@
 },{
 	"Name":"RpcNsMgmtBindingUnexportA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8607,7 +8784,7 @@
 },{
 	"Name":"RpcNsMgmtEntryCreateA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8620,7 +8797,7 @@
 },{
 	"Name":"RpcNsMgmtEntryDeleteA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8633,7 +8810,7 @@
 },{
 	"Name":"RpcNsMgmtEntryInqIfIdsA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8647,7 +8824,7 @@
 },{
 	"Name":"RpcNsMgmtHandleSetExpAge"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8660,7 +8837,7 @@
 },{
 	"Name":"RpcNsMgmtInqExpAge"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8672,7 +8849,7 @@
 },{
 	"Name":"RpcNsMgmtSetExpAge"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8684,7 +8861,7 @@
 },{
 	"Name":"RpcNsEntryExpandNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8698,7 +8875,7 @@
 },{
 	"Name":"RpcNsMgmtBindingUnexportW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8714,7 +8891,7 @@
 },{
 	"Name":"RpcNsMgmtEntryCreateW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8727,7 +8904,7 @@
 },{
 	"Name":"RpcNsMgmtEntryDeleteW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8740,7 +8917,7 @@
 },{
 	"Name":"RpcNsMgmtEntryInqIfIdsW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8754,7 +8931,7 @@
 },{
 	"Name":"RpcNsBindingImportBeginA"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8770,7 +8947,7 @@
 },{
 	"Name":"RpcNsBindingImportBeginW"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8786,7 +8963,7 @@
 },{
 	"Name":"RpcNsBindingImportNext"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8799,7 +8976,7 @@
 },{
 	"Name":"RpcNsBindingImportDone"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8811,7 +8988,7 @@
 },{
 	"Name":"RpcNsBindingSelect"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8824,7 +9001,7 @@
 },{
 	"Name":"RpcAsyncRegisterInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8836,7 +9013,7 @@
 },{
 	"Name":"RpcAsyncInitializeHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8849,7 +9026,7 @@
 },{
 	"Name":"RpcAsyncGetCallStatus"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8861,7 +9038,7 @@
 },{
 	"Name":"RpcAsyncCompleteCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8874,7 +9051,7 @@
 },{
 	"Name":"RpcAsyncAbortCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8887,7 +9064,7 @@
 },{
 	"Name":"RpcAsyncCancelCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8900,7 +9077,7 @@
 },{
 	"Name":"RpcErrorStartEnumeration"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8912,7 +9089,7 @@
 },{
 	"Name":"RpcErrorGetNextRecord"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8926,7 +9103,7 @@
 },{
 	"Name":"RpcErrorEndEnumeration"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8938,7 +9115,7 @@
 },{
 	"Name":"RpcErrorResetEnumeration"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8950,7 +9127,7 @@
 },{
 	"Name":"RpcErrorGetNumberOfRecords"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8963,7 +9140,7 @@
 },{
 	"Name":"RpcErrorSaveErrorInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8977,7 +9154,7 @@
 },{
 	"Name":"RpcErrorLoadErrorInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8991,7 +9168,7 @@
 },{
 	"Name":"RpcErrorAddRecord"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9003,7 +9180,7 @@
 },{
 	"Name":"RpcErrorClearInformation"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9014,7 +9191,7 @@
 },{
 	"Name":"RpcGetAuthorizationContextForClient"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9033,7 +9210,7 @@
 },{
 	"Name":"RpcFreeAuthorizationContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9045,7 +9222,7 @@
 },{
 	"Name":"RpcSsContextLockExclusive"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9058,7 +9235,7 @@
 },{
 	"Name":"RpcSsContextLockShared"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9071,7 +9248,7 @@
 },{
 	"Name":"RpcServerInqCallAttributesW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9084,7 +9261,7 @@
 },{
 	"Name":"RpcServerInqCallAttributesA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9097,7 +9274,7 @@
 },{
 	"Name":"RpcServerSubscribeForNotification"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9112,7 +9289,7 @@
 },{
 	"Name":"RpcServerUnsubscribeForNotification"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9126,7 +9303,7 @@
 },{
 	"Name":"RpcBindingBind"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9140,7 +9317,7 @@
 },{
 	"Name":"RpcBindingUnbind"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9152,7 +9329,7 @@
 },{
 	"Name":"I_RpcAsyncSetHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9165,7 +9342,7 @@
 },{
 	"Name":"I_RpcAsyncAbortCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9178,7 +9355,7 @@
 },{
 	"Name":"I_RpcExceptionFilter"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9190,7 +9367,7 @@
 },{
 	"Name":"I_RpcBindingInqClientTokenAttributes"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9205,7 +9382,7 @@
 },{
 	"Name":"I_RpcNsGetBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9217,7 +9394,7 @@
 },{
 	"Name":"I_RpcNsSendReceive"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9230,7 +9407,7 @@
 },{
 	"Name":"I_RpcNsRaiseException"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9243,7 +9420,7 @@
 },{
 	"Name":"I_RpcReBindBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCNS4"
+	,"DllImport":"RPCNS4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9255,7 +9432,7 @@
 },{
 	"Name":"NDRCContextBinding"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9267,7 +9444,7 @@
 },{
 	"Name":"NDRCContextMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9280,7 +9457,7 @@
 },{
 	"Name":"NDRCContextUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9295,7 +9472,7 @@
 },{
 	"Name":"NDRSContextMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9309,7 +9486,7 @@
 },{
 	"Name":"NDRSContextUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9322,7 +9499,7 @@
 },{
 	"Name":"NDRSContextMarshallEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9337,7 +9514,7 @@
 },{
 	"Name":"NDRSContextMarshall2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9354,7 +9531,7 @@
 },{
 	"Name":"NDRSContextUnmarshallEx"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9368,7 +9545,7 @@
 },{
 	"Name":"NDRSContextUnmarshall2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9384,7 +9561,7 @@
 },{
 	"Name":"RpcSsDestroyClientContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9396,7 +9573,7 @@
 },{
 	"Name":"NdrSimpleTypeMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9410,7 +9587,7 @@
 },{
 	"Name":"NdrPointerMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9424,7 +9601,7 @@
 },{
 	"Name":"NdrSimpleStructMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9438,7 +9615,7 @@
 },{
 	"Name":"NdrConformantStructMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9452,7 +9629,7 @@
 },{
 	"Name":"NdrConformantVaryingStructMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9466,7 +9643,7 @@
 },{
 	"Name":"NdrComplexStructMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9480,7 +9657,7 @@
 },{
 	"Name":"NdrFixedArrayMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9494,7 +9671,7 @@
 },{
 	"Name":"NdrConformantArrayMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9508,7 +9685,7 @@
 },{
 	"Name":"NdrConformantVaryingArrayMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9522,7 +9699,7 @@
 },{
 	"Name":"NdrVaryingArrayMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9536,7 +9713,7 @@
 },{
 	"Name":"NdrComplexArrayMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9550,7 +9727,7 @@
 },{
 	"Name":"NdrNonConformantStringMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9564,7 +9741,7 @@
 },{
 	"Name":"NdrConformantStringMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9578,7 +9755,7 @@
 },{
 	"Name":"NdrEncapsulatedUnionMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9592,7 +9769,7 @@
 },{
 	"Name":"NdrNonEncapsulatedUnionMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9606,7 +9783,7 @@
 },{
 	"Name":"NdrByteCountPointerMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9620,7 +9797,7 @@
 },{
 	"Name":"NdrXmitOrRepAsMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9634,7 +9811,7 @@
 },{
 	"Name":"NdrUserMarshalMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9648,7 +9825,7 @@
 },{
 	"Name":"NdrInterfacePointerMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9662,7 +9839,7 @@
 },{
 	"Name":"NdrClientContextMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9676,7 +9853,7 @@
 },{
 	"Name":"NdrServerContextMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9690,7 +9867,7 @@
 },{
 	"Name":"NdrServerContextNewMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9705,7 +9882,7 @@
 },{
 	"Name":"NdrSimpleTypeUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9719,7 +9896,7 @@
 },{
 	"Name":"NdrRangeUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9734,7 +9911,7 @@
 },{
 	"Name":"NdrCorrelationInitialize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9749,7 +9926,7 @@
 },{
 	"Name":"NdrCorrelationPass"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9761,7 +9938,7 @@
 },{
 	"Name":"NdrCorrelationFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9773,7 +9950,7 @@
 },{
 	"Name":"NdrPointerUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9788,7 +9965,7 @@
 },{
 	"Name":"NdrSimpleStructUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9803,7 +9980,7 @@
 },{
 	"Name":"NdrConformantStructUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9818,7 +9995,7 @@
 },{
 	"Name":"NdrConformantVaryingStructUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9833,7 +10010,7 @@
 },{
 	"Name":"NdrComplexStructUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9848,7 +10025,7 @@
 },{
 	"Name":"NdrFixedArrayUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9863,7 +10040,7 @@
 },{
 	"Name":"NdrConformantArrayUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9878,7 +10055,7 @@
 },{
 	"Name":"NdrConformantVaryingArrayUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9893,7 +10070,7 @@
 },{
 	"Name":"NdrVaryingArrayUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9908,7 +10085,7 @@
 },{
 	"Name":"NdrComplexArrayUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9923,7 +10100,7 @@
 },{
 	"Name":"NdrNonConformantStringUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9938,7 +10115,7 @@
 },{
 	"Name":"NdrConformantStringUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9953,7 +10130,7 @@
 },{
 	"Name":"NdrEncapsulatedUnionUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9968,7 +10145,7 @@
 },{
 	"Name":"NdrNonEncapsulatedUnionUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9983,7 +10160,7 @@
 },{
 	"Name":"NdrByteCountPointerUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9998,7 +10175,7 @@
 },{
 	"Name":"NdrXmitOrRepAsUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10013,7 +10190,7 @@
 },{
 	"Name":"NdrUserMarshalUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10028,7 +10205,7 @@
 },{
 	"Name":"NdrInterfacePointerUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10043,7 +10220,7 @@
 },{
 	"Name":"NdrClientContextUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10057,7 +10234,7 @@
 },{
 	"Name":"NdrServerContextUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10069,7 +10246,7 @@
 },{
 	"Name":"NdrContextHandleInitialize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10082,7 +10259,7 @@
 },{
 	"Name":"NdrServerContextNewUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDR_SCONTEXT_1","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10095,7 +10272,7 @@
 },{
 	"Name":"NdrPointerBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10109,7 +10286,7 @@
 },{
 	"Name":"NdrSimpleStructBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10123,7 +10300,7 @@
 },{
 	"Name":"NdrConformantStructBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10137,7 +10314,7 @@
 },{
 	"Name":"NdrConformantVaryingStructBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10151,7 +10328,7 @@
 },{
 	"Name":"NdrComplexStructBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10165,7 +10342,7 @@
 },{
 	"Name":"NdrFixedArrayBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10179,7 +10356,7 @@
 },{
 	"Name":"NdrConformantArrayBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10193,7 +10370,7 @@
 },{
 	"Name":"NdrConformantVaryingArrayBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10207,7 +10384,7 @@
 },{
 	"Name":"NdrVaryingArrayBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10221,7 +10398,7 @@
 },{
 	"Name":"NdrComplexArrayBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10235,7 +10412,7 @@
 },{
 	"Name":"NdrConformantStringBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10249,7 +10426,7 @@
 },{
 	"Name":"NdrNonConformantStringBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10263,7 +10440,7 @@
 },{
 	"Name":"NdrEncapsulatedUnionBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10277,7 +10454,7 @@
 },{
 	"Name":"NdrNonEncapsulatedUnionBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10291,7 +10468,7 @@
 },{
 	"Name":"NdrByteCountPointerBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10305,7 +10482,7 @@
 },{
 	"Name":"NdrXmitOrRepAsBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10319,7 +10496,7 @@
 },{
 	"Name":"NdrUserMarshalBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10333,7 +10510,7 @@
 },{
 	"Name":"NdrInterfacePointerBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10347,7 +10524,7 @@
 },{
 	"Name":"NdrContextHandleSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10361,7 +10538,7 @@
 },{
 	"Name":"NdrPointerMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10374,7 +10551,7 @@
 },{
 	"Name":"NdrSimpleStructMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10387,7 +10564,7 @@
 },{
 	"Name":"NdrConformantStructMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10400,7 +10577,7 @@
 },{
 	"Name":"NdrConformantVaryingStructMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10413,7 +10590,7 @@
 },{
 	"Name":"NdrComplexStructMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10426,7 +10603,7 @@
 },{
 	"Name":"NdrFixedArrayMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10439,7 +10616,7 @@
 },{
 	"Name":"NdrConformantArrayMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10452,7 +10629,7 @@
 },{
 	"Name":"NdrConformantVaryingArrayMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10465,7 +10642,7 @@
 },{
 	"Name":"NdrVaryingArrayMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10478,7 +10655,7 @@
 },{
 	"Name":"NdrComplexArrayMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10491,7 +10668,7 @@
 },{
 	"Name":"NdrConformantStringMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10504,7 +10681,7 @@
 },{
 	"Name":"NdrNonConformantStringMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10517,7 +10694,7 @@
 },{
 	"Name":"NdrEncapsulatedUnionMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10530,7 +10707,7 @@
 },{
 	"Name":"NdrNonEncapsulatedUnionMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10543,7 +10720,7 @@
 },{
 	"Name":"NdrXmitOrRepAsMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10556,7 +10733,7 @@
 },{
 	"Name":"NdrUserMarshalMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10569,7 +10746,7 @@
 },{
 	"Name":"NdrInterfacePointerMemorySize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10582,7 +10759,7 @@
 },{
 	"Name":"NdrPointerFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10596,7 +10773,7 @@
 },{
 	"Name":"NdrSimpleStructFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10610,7 +10787,7 @@
 },{
 	"Name":"NdrConformantStructFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10624,7 +10801,7 @@
 },{
 	"Name":"NdrConformantVaryingStructFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10638,7 +10815,7 @@
 },{
 	"Name":"NdrComplexStructFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10652,7 +10829,7 @@
 },{
 	"Name":"NdrFixedArrayFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10666,7 +10843,7 @@
 },{
 	"Name":"NdrConformantArrayFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10680,7 +10857,7 @@
 },{
 	"Name":"NdrConformantVaryingArrayFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10694,7 +10871,7 @@
 },{
 	"Name":"NdrVaryingArrayFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10708,7 +10885,7 @@
 },{
 	"Name":"NdrComplexArrayFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10722,7 +10899,7 @@
 },{
 	"Name":"NdrEncapsulatedUnionFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10736,7 +10913,7 @@
 },{
 	"Name":"NdrNonEncapsulatedUnionFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10750,7 +10927,7 @@
 },{
 	"Name":"NdrByteCountPointerFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10764,7 +10941,7 @@
 },{
 	"Name":"NdrXmitOrRepAsFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10778,7 +10955,7 @@
 },{
 	"Name":"NdrUserMarshalFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10792,7 +10969,7 @@
 },{
 	"Name":"NdrInterfacePointerFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10806,7 +10983,7 @@
 },{
 	"Name":"NdrConvert2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10820,7 +10997,7 @@
 },{
 	"Name":"NdrConvert"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10833,7 +11010,7 @@
 },{
 	"Name":"NdrUserMarshalSimpleTypeConvert"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10847,7 +11024,7 @@
 },{
 	"Name":"NdrClientInitializeNew"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10862,7 +11039,7 @@
 },{
 	"Name":"NdrServerInitializeNew"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10876,7 +11053,7 @@
 },{
 	"Name":"NdrServerInitializePartial"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10891,7 +11068,7 @@
 },{
 	"Name":"NdrClientInitialize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10906,7 +11083,7 @@
 },{
 	"Name":"NdrServerInitialize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10920,7 +11097,7 @@
 },{
 	"Name":"NdrServerInitializeUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10934,7 +11111,7 @@
 },{
 	"Name":"NdrServerInitializeMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10947,7 +11124,7 @@
 },{
 	"Name":"NdrGetBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10961,7 +11138,7 @@
 },{
 	"Name":"NdrNsGetBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10975,7 +11152,7 @@
 },{
 	"Name":"NdrSendReceive"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10988,7 +11165,7 @@
 },{
 	"Name":"NdrNsSendReceive"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11002,7 +11179,7 @@
 },{
 	"Name":"NdrFreeBuffer"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11014,7 +11191,7 @@
 },{
 	"Name":"NdrGetDcomProtocolVersion"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11027,7 +11204,7 @@
 },{
 	"Name":"NdrClientCall2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11040,7 +11217,7 @@
 },{
 	"Name":"NdrAsyncClientCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11053,7 +11230,7 @@
 },{
 	"Name":"NdrDcomAsyncClientCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11066,7 +11243,7 @@
 },{
 	"Name":"NdrAsyncServerCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11078,7 +11255,7 @@
 },{
 	"Name":"NdrDcomAsyncStubCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11093,7 +11270,7 @@
 },{
 	"Name":"NdrStubCall2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11108,7 +11285,7 @@
 },{
 	"Name":"NdrServerCall2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11120,7 +11297,7 @@
 },{
 	"Name":"NdrMapCommAndFaultStatus"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11135,7 +11312,7 @@
 },{
 	"Name":"RpcSsAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11147,7 +11324,7 @@
 },{
 	"Name":"RpcSsDisableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11158,7 +11335,7 @@
 },{
 	"Name":"RpcSsEnableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11169,7 +11346,7 @@
 },{
 	"Name":"RpcSsFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11181,7 +11358,7 @@
 },{
 	"Name":"RpcSsGetThreadHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11192,7 +11369,7 @@
 },{
 	"Name":"RpcSsSetClientAllocFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11205,7 +11382,7 @@
 },{
 	"Name":"RpcSsSetThreadHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11217,7 +11394,7 @@
 },{
 	"Name":"RpcSsSwapClientAllocFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11232,7 +11409,7 @@
 },{
 	"Name":"RpcSmAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11245,7 +11422,7 @@
 },{
 	"Name":"RpcSmClientFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11257,7 +11434,7 @@
 },{
 	"Name":"RpcSmDestroyClientContext"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11269,7 +11446,7 @@
 },{
 	"Name":"RpcSmDisableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11280,7 +11457,7 @@
 },{
 	"Name":"RpcSmEnableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11291,7 +11468,7 @@
 },{
 	"Name":"RpcSmFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11303,7 +11480,7 @@
 },{
 	"Name":"RpcSmGetThreadHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11315,7 +11492,7 @@
 },{
 	"Name":"RpcSmSetClientAllocFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11328,7 +11505,7 @@
 },{
 	"Name":"RpcSmSetThreadHandle"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11340,7 +11517,7 @@
 },{
 	"Name":"RpcSmSwapClientAllocFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11355,7 +11532,7 @@
 },{
 	"Name":"NdrRpcSsEnableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11367,7 +11544,7 @@
 },{
 	"Name":"NdrRpcSsDisableAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11379,7 +11556,7 @@
 },{
 	"Name":"NdrRpcSmSetClientToOsf"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11391,7 +11568,7 @@
 },{
 	"Name":"NdrRpcSmClientAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11403,7 +11580,7 @@
 },{
 	"Name":"NdrRpcSmClientFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11415,7 +11592,7 @@
 },{
 	"Name":"NdrRpcSsDefaultAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11427,7 +11604,7 @@
 },{
 	"Name":"NdrRpcSsDefaultFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11439,7 +11616,7 @@
 },{
 	"Name":"NdrFullPointerXlatInit"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FULL_PTR_XLAT_TABLES","TargetKind":"Default","Api":"System.Rpc","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11452,7 +11629,7 @@
 },{
 	"Name":"NdrFullPointerXlatFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11464,7 +11641,7 @@
 },{
 	"Name":"NdrAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11477,7 +11654,7 @@
 },{
 	"Name":"NdrClearOutParameters"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11491,7 +11668,7 @@
 },{
 	"Name":"NdrOleAllocate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11503,7 +11680,7 @@
 },{
 	"Name":"NdrOleFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11515,7 +11692,7 @@
 },{
 	"Name":"NdrGetUserMarshalInfo"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11529,7 +11706,7 @@
 },{
 	"Name":"NdrCreateServerInterfaceFromStub"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11542,7 +11719,7 @@
 },{
 	"Name":"NdrClientCall3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11556,7 +11733,7 @@
 },{
 	"Name":"Ndr64AsyncClientCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11570,7 +11747,7 @@
 },{
 	"Name":"Ndr64DcomAsyncClientCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11584,7 +11761,7 @@
 },{
 	"Name":"Ndr64AsyncServerCall64"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11596,7 +11773,7 @@
 },{
 	"Name":"Ndr64AsyncServerCallAll"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11608,7 +11785,7 @@
 },{
 	"Name":"Ndr64DcomAsyncStubCall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11623,7 +11800,7 @@
 },{
 	"Name":"NdrStubCall3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11638,7 +11815,7 @@
 },{
 	"Name":"NdrServerCallAll"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11650,7 +11827,7 @@
 },{
 	"Name":"NdrServerCallNdr64"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11662,7 +11839,7 @@
 },{
 	"Name":"NdrPartialIgnoreClientMarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11675,7 +11852,7 @@
 },{
 	"Name":"NdrPartialIgnoreServerUnmarshall"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11688,7 +11865,7 @@
 },{
 	"Name":"NdrPartialIgnoreClientBufferSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11701,7 +11878,7 @@
 },{
 	"Name":"NdrPartialIgnoreServerInitialize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11715,7 +11892,7 @@
 },{
 	"Name":"RpcUserFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11728,7 +11905,7 @@
 },{
 	"Name":"MesEncodeIncrementalHandleCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11743,7 +11920,7 @@
 },{
 	"Name":"MesDecodeIncrementalHandleCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11757,7 +11934,7 @@
 },{
 	"Name":"MesIncrementalHandleReset"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11774,7 +11951,7 @@
 },{
 	"Name":"MesEncodeFixedBufferHandleCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11789,7 +11966,7 @@
 },{
 	"Name":"MesEncodeDynBufferHandleCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11803,7 +11980,7 @@
 },{
 	"Name":"MesDecodeBufferHandleCreate"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11817,7 +11994,7 @@
 },{
 	"Name":"MesBufferHandleReset"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11834,7 +12011,7 @@
 },{
 	"Name":"MesHandleFree"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11846,7 +12023,7 @@
 },{
 	"Name":"MesInqProcEncodingId"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11860,7 +12037,7 @@
 },{
 	"Name":"NdrMesSimpleTypeAlignSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11872,7 +12049,7 @@
 },{
 	"Name":"NdrMesSimpleTypeDecode"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11886,7 +12063,7 @@
 },{
 	"Name":"NdrMesSimpleTypeEncode"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11901,7 +12078,7 @@
 },{
 	"Name":"NdrMesTypeAlignSize"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11916,7 +12093,7 @@
 },{
 	"Name":"NdrMesTypeEncode"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11931,7 +12108,7 @@
 },{
 	"Name":"NdrMesTypeDecode"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11946,7 +12123,7 @@
 },{
 	"Name":"NdrMesTypeAlignSize2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11962,7 +12139,7 @@
 },{
 	"Name":"NdrMesTypeEncode2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11978,7 +12155,7 @@
 },{
 	"Name":"NdrMesTypeDecode2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11994,7 +12171,7 @@
 },{
 	"Name":"NdrMesTypeFree2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12010,7 +12187,7 @@
 },{
 	"Name":"NdrMesProcEncodeDecode"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12024,7 +12201,7 @@
 },{
 	"Name":"NdrMesProcEncodeDecode2"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12038,7 +12215,7 @@
 },{
 	"Name":"NdrMesTypeAlignSize3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12055,7 +12232,7 @@
 },{
 	"Name":"NdrMesTypeEncode3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12072,7 +12249,7 @@
 },{
 	"Name":"NdrMesTypeDecode3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12089,7 +12266,7 @@
 },{
 	"Name":"NdrMesTypeFree3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12106,7 +12283,7 @@
 },{
 	"Name":"NdrMesProcEncodeDecode3"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CLIENT_CALL_RETURN","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12121,7 +12298,7 @@
 },{
 	"Name":"NdrMesSimpleTypeDecodeAll"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12136,7 +12313,7 @@
 },{
 	"Name":"NdrMesSimpleTypeEncodeAll"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12151,7 +12328,7 @@
 },{
 	"Name":"NdrMesSimpleTypeAlignSizeAll"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UIntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12164,7 +12341,7 @@
 },{
 	"Name":"RpcCertGeneratePrincipalNameW"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12178,7 +12355,7 @@
 },{
 	"Name":"RpcCertGeneratePrincipalNameA"
 	,"SetLastError":false
-	,"DllImport":"RPCRT4"
+	,"DllImport":"RPCRT4.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

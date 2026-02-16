@@ -572,6 +572,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ContextFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Dr0","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -607,6 +608,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LimitLow","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"BaseLow","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -619,6 +621,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Bytes","Type":{"Kind":"ApiRef","Name":"_Bytes_e__Struct","TargetKind":"Default","Api":"System.VirtualDosMachines","Parents":["_HighWord_e__Union"]},"Attrs":[]}
 			,{"Name":"Bits","Type":{"Kind":"ApiRef","Name":"_Bits_e__Struct","TargetKind":"Default","Api":"System.VirtualDosMachines","Parents":["_HighWord_e__Union"]},"Attrs":[]}
@@ -630,6 +633,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -641,6 +645,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"BaseMid","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"Flags1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -657,6 +662,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ContextFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Dr0","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -691,6 +697,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Selector1","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Selector2","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -708,6 +715,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Module","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"FileName","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -722,6 +730,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szModule","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -738,6 +747,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Seg","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -751,6 +761,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Selector","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"SegNumber","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -767,6 +778,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}

@@ -7752,6 +7752,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszDatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwszNewDatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -9258,6 +9259,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pb","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -9270,6 +9272,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ColumnIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SeekOperator","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -21831,6 +21834,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CAType","Type":{"Kind":"ApiRef","Name":"ENUM_CATYPES","TargetKind":"Default","Api":"Security.Cryptography.Certificates","Parents":[]},"Attrs":[]}
@@ -24927,7 +24931,7 @@
 "Functions":[{
 	"Name":"CertSrvIsServerOnlineW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -24940,7 +24944,7 @@
 },{
 	"Name":"CertSrvBackupGetDynamicFileListW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -24954,7 +24958,7 @@
 },{
 	"Name":"CertSrvBackupPrepareW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -24969,7 +24973,7 @@
 },{
 	"Name":"CertSrvBackupGetDatabaseNamesW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -24983,7 +24987,7 @@
 },{
 	"Name":"CertSrvBackupOpenFileW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -24998,7 +25002,7 @@
 },{
 	"Name":"CertSrvBackupRead"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25013,7 +25017,7 @@
 },{
 	"Name":"CertSrvBackupClose"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25025,7 +25029,7 @@
 },{
 	"Name":"CertSrvBackupGetBackupLogsW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25039,7 +25043,7 @@
 },{
 	"Name":"CertSrvBackupTruncateLogs"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25051,7 +25055,7 @@
 },{
 	"Name":"CertSrvBackupEnd"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25063,7 +25067,7 @@
 },{
 	"Name":"CertSrvBackupFree"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25075,7 +25079,7 @@
 },{
 	"Name":"CertSrvRestoreGetDatabaseLocationsW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25089,7 +25093,7 @@
 },{
 	"Name":"CertSrvRestorePrepareW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25103,7 +25107,7 @@
 },{
 	"Name":"CertSrvRestoreRegisterW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25122,7 +25126,7 @@
 },{
 	"Name":"CertSrvRestoreRegisterThroughFile"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25141,7 +25145,7 @@
 },{
 	"Name":"CertSrvRestoreRegisterComplete"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25154,7 +25158,7 @@
 },{
 	"Name":"CertSrvRestoreEnd"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25166,7 +25170,7 @@
 },{
 	"Name":"CertSrvServerControlW"
 	,"SetLastError":false
-	,"DllImport":"certadm"
+	,"DllImport":"certadm.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25181,7 +25185,7 @@
 },{
 	"Name":"PstGetTrustAnchors"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25196,7 +25200,7 @@
 },{
 	"Name":"PstGetTrustAnchorsEx"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25212,7 +25216,7 @@
 },{
 	"Name":"PstGetCertificateChain"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25226,7 +25230,7 @@
 },{
 	"Name":"PstGetCertificates"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25243,7 +25247,7 @@
 },{
 	"Name":"PstAcquirePrivateKey"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25255,7 +25259,7 @@
 },{
 	"Name":"PstValidate"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25272,7 +25276,7 @@
 },{
 	"Name":"PstMapCertificate"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -25286,7 +25290,7 @@
 },{
 	"Name":"PstGetUserNameForCertificate"
 	,"SetLastError":false
-	,"DllImport":"certpoleng"
+	,"DllImport":"certpoleng.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

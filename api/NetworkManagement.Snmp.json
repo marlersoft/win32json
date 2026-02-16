@@ -721,6 +721,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"stream","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -734,6 +735,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"idLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ids","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -746,6 +748,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"asnType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"asnValue","Type":{"Kind":"ApiRef","Name":"_asnValue_e__Union","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]},"Attrs":[]}
@@ -757,6 +760,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":4
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"number","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"unsigned32","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -780,6 +784,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"AsnObjectIdentifier","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"AsnAny","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]},"Attrs":[]}
@@ -792,6 +797,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"list","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SnmpVarBind","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]}},"Attrs":[]}
 		,{"Name":"len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -901,6 +907,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ptr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -913,6 +920,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ptr","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -925,6 +933,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"hipart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lopart","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -937,6 +946,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"syntax","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"_value_e__Union","TargetKind":"Default","Api":"NetworkManagement.Snmp","Parents":[]},"Attrs":[]}
@@ -948,6 +958,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"sNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"uNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -965,6 +976,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"vendorName","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"vendorContact","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -1022,7 +1034,7 @@
 "Functions":[{
 	"Name":"SnmpUtilOidCpy"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1035,7 +1047,7 @@
 },{
 	"Name":"SnmpUtilOidAppend"
 	,"SetLastError":true
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1048,7 +1060,7 @@
 },{
 	"Name":"SnmpUtilOidNCmp"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1062,7 +1074,7 @@
 },{
 	"Name":"SnmpUtilOidCmp"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1075,7 +1087,7 @@
 },{
 	"Name":"SnmpUtilOidFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1087,7 +1099,7 @@
 },{
 	"Name":"SnmpUtilOctetsCmp"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1100,7 +1112,7 @@
 },{
 	"Name":"SnmpUtilOctetsNCmp"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1114,7 +1126,7 @@
 },{
 	"Name":"SnmpUtilOctetsCpy"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1127,7 +1139,7 @@
 },{
 	"Name":"SnmpUtilOctetsFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1139,7 +1151,7 @@
 },{
 	"Name":"SnmpUtilAsnAnyCpy"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1152,7 +1164,7 @@
 },{
 	"Name":"SnmpUtilAsnAnyFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1164,7 +1176,7 @@
 },{
 	"Name":"SnmpUtilVarBindCpy"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1177,7 +1189,7 @@
 },{
 	"Name":"SnmpUtilVarBindFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1189,7 +1201,7 @@
 },{
 	"Name":"SnmpUtilVarBindListCpy"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1202,7 +1214,7 @@
 },{
 	"Name":"SnmpUtilVarBindListFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1214,7 +1226,7 @@
 },{
 	"Name":"SnmpUtilMemFree"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1226,7 +1238,7 @@
 },{
 	"Name":"SnmpUtilMemAlloc"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1238,7 +1250,7 @@
 },{
 	"Name":"SnmpUtilMemReAlloc"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1251,7 +1263,7 @@
 },{
 	"Name":"SnmpUtilOidToA"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1263,7 +1275,7 @@
 },{
 	"Name":"SnmpUtilIdsToA"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1276,7 +1288,7 @@
 },{
 	"Name":"SnmpUtilPrintOid"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1288,7 +1300,7 @@
 },{
 	"Name":"SnmpUtilPrintAsnAny"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1300,7 +1312,7 @@
 },{
 	"Name":"SnmpSvcGetUptime"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1311,7 +1323,7 @@
 },{
 	"Name":"SnmpSvcSetLogLevel"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1323,7 +1335,7 @@
 },{
 	"Name":"SnmpSvcSetLogType"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1335,7 +1347,7 @@
 },{
 	"Name":"SnmpUtilDbgPrint"
 	,"SetLastError":false
-	,"DllImport":"snmpapi"
+	,"DllImport":"snmpapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1348,7 +1360,7 @@
 },{
 	"Name":"SnmpMgrOpen"
 	,"SetLastError":true
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1363,7 +1375,7 @@
 },{
 	"Name":"SnmpMgrCtl"
 	,"SetLastError":true
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1381,7 +1393,7 @@
 },{
 	"Name":"SnmpMgrClose"
 	,"SetLastError":false
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1393,7 +1405,7 @@
 },{
 	"Name":"SnmpMgrRequest"
 	,"SetLastError":true
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1409,7 +1421,7 @@
 },{
 	"Name":"SnmpMgrStrToOid"
 	,"SetLastError":false
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1422,7 +1434,7 @@
 },{
 	"Name":"SnmpMgrOidToStr"
 	,"SetLastError":false
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1435,7 +1447,7 @@
 },{
 	"Name":"SnmpMgrTrapListen"
 	,"SetLastError":true
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1447,7 +1459,7 @@
 },{
 	"Name":"SnmpMgrGetTrap"
 	,"SetLastError":false
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1464,7 +1476,7 @@
 },{
 	"Name":"SnmpMgrGetTrapEx"
 	,"SetLastError":false
-	,"DllImport":"mgmtapi"
+	,"DllImport":"mgmtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1483,7 +1495,7 @@
 },{
 	"Name":"SnmpGetTranslateMode"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1495,7 +1507,7 @@
 },{
 	"Name":"SnmpSetTranslateMode"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1507,7 +1519,7 @@
 },{
 	"Name":"SnmpGetRetransmitMode"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1519,7 +1531,7 @@
 },{
 	"Name":"SnmpSetRetransmitMode"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1531,7 +1543,7 @@
 },{
 	"Name":"SnmpGetTimeout"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1545,7 +1557,7 @@
 },{
 	"Name":"SnmpSetTimeout"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1558,7 +1570,7 @@
 },{
 	"Name":"SnmpGetRetry"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1572,7 +1584,7 @@
 },{
 	"Name":"SnmpSetRetry"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1585,7 +1597,7 @@
 },{
 	"Name":"SnmpGetVendorInfo"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1597,7 +1609,7 @@
 },{
 	"Name":"SnmpStartup"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1613,7 +1625,7 @@
 },{
 	"Name":"SnmpCleanup"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1624,7 +1636,7 @@
 },{
 	"Name":"SnmpOpen"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1637,7 +1649,7 @@
 },{
 	"Name":"SnmpClose"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1649,7 +1661,7 @@
 },{
 	"Name":"SnmpSendMsg"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1665,7 +1677,7 @@
 },{
 	"Name":"SnmpRecvMsg"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1681,7 +1693,7 @@
 },{
 	"Name":"SnmpRegister"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1698,7 +1710,7 @@
 },{
 	"Name":"SnmpCreateSession"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1713,7 +1725,7 @@
 },{
 	"Name":"SnmpListen"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1726,7 +1738,7 @@
 },{
 	"Name":"SnmpListenEx"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1740,7 +1752,7 @@
 },{
 	"Name":"SnmpCancelMsg"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1753,7 +1765,7 @@
 },{
 	"Name":"SnmpStartupEx"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1769,7 +1781,7 @@
 },{
 	"Name":"SnmpCleanupEx"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1780,7 +1792,7 @@
 },{
 	"Name":"SnmpStrToEntity"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1793,7 +1805,7 @@
 },{
 	"Name":"SnmpEntityToStr"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1807,7 +1819,7 @@
 },{
 	"Name":"SnmpFreeEntity"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1819,7 +1831,7 @@
 },{
 	"Name":"SnmpStrToContext"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1832,7 +1844,7 @@
 },{
 	"Name":"SnmpContextToStr"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1845,7 +1857,7 @@
 },{
 	"Name":"SnmpFreeContext"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1857,7 +1869,7 @@
 },{
 	"Name":"SnmpSetPort"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1870,7 +1882,7 @@
 },{
 	"Name":"SnmpCreatePdu"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1887,7 +1899,7 @@
 },{
 	"Name":"SnmpGetPduData"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1904,7 +1916,7 @@
 },{
 	"Name":"SnmpSetPduData"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1921,7 +1933,7 @@
 },{
 	"Name":"SnmpDuplicatePdu"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1934,7 +1946,7 @@
 },{
 	"Name":"SnmpFreePdu"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1946,7 +1958,7 @@
 },{
 	"Name":"SnmpCreateVbl"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1960,7 +1972,7 @@
 },{
 	"Name":"SnmpDuplicateVbl"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1973,7 +1985,7 @@
 },{
 	"Name":"SnmpFreeVbl"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1985,7 +1997,7 @@
 },{
 	"Name":"SnmpCountVbl"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1997,7 +2009,7 @@
 },{
 	"Name":"SnmpGetVb"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2012,7 +2024,7 @@
 },{
 	"Name":"SnmpSetVb"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2027,7 +2039,7 @@
 },{
 	"Name":"SnmpDeleteVb"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2040,7 +2052,7 @@
 },{
 	"Name":"SnmpGetLastError"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2052,7 +2064,7 @@
 },{
 	"Name":"SnmpStrToOid"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2065,7 +2077,7 @@
 },{
 	"Name":"SnmpOidToStr"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2079,7 +2091,7 @@
 },{
 	"Name":"SnmpOidCopy"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2092,7 +2104,7 @@
 },{
 	"Name":"SnmpOidCompare"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2107,7 +2119,7 @@
 },{
 	"Name":"SnmpEncodeMsg"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2124,7 +2136,7 @@
 },{
 	"Name":"SnmpDecodeMsg"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2141,7 +2153,7 @@
 },{
 	"Name":"SnmpFreeDescriptor"
 	,"SetLastError":false
-	,"DllImport":"wsnmp32"
+	,"DllImport":"wsnmp32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -314,6 +314,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pszInstanceId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1745,7 +1746,7 @@
 "Functions":[{
 	"Name":"SwDeviceCreate"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1764,7 +1765,7 @@
 },{
 	"Name":"SwDeviceClose"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1776,7 +1777,7 @@
 },{
 	"Name":"SwDeviceSetLifetime"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1789,7 +1790,7 @@
 },{
 	"Name":"SwDeviceGetLifetime"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1802,7 +1803,7 @@
 },{
 	"Name":"SwDevicePropertySet"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1816,7 +1817,7 @@
 },{
 	"Name":"SwDeviceInterfaceRegister"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1834,7 +1835,7 @@
 },{
 	"Name":"SwMemFree"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1846,7 +1847,7 @@
 },{
 	"Name":"SwDeviceInterfaceSetState"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1860,7 +1861,7 @@
 },{
 	"Name":"SwDeviceInterfacePropertySet"
 	,"SetLastError":false
-	,"DllImport":"CFGMGR32"
+	,"DllImport":"CFGMGR32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

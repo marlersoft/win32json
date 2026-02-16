@@ -1645,6 +1645,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwAttrType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fDataType","Type":{"Kind":"ApiRef","Name":"RADIUS_DATA_TYPE","TargetKind":"Default","Api":"NetworkManagement.NetworkPolicyServer","Parents":[]},"Attrs":[]}
@@ -1658,6 +1659,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"dwValue","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"lpValue","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Const"]}
@@ -1671,6 +1673,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VendorId","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"VendorType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1771,6 +1774,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Add","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -1788,6 +1792,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}

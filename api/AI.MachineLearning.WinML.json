@@ -71,6 +71,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"NumDimensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -86,6 +87,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -98,6 +100,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pStrings","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"pInts","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int64"}},"Attrs":[]}
@@ -113,6 +116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"KeyType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -127,6 +131,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pStringFields","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"pIntFields","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int64"}},"Attrs":[]}
@@ -141,6 +146,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pStringKeys","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"pIntKeys","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int64"}},"Attrs":[]}
@@ -154,6 +160,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"NumDimensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -169,6 +176,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"NumDimensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -183,6 +191,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"BindType","Type":{"Kind":"ApiRef","Name":"WINML_BINDING_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -195,6 +204,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Tensor","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_BINDING_DESC","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 			,{"Name":"Sequence","Type":{"Kind":"ApiRef","Name":"WINML_SEQUENCE_BINDING_DESC","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -211,6 +221,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"NumDimensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -224,6 +235,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 	]
@@ -235,6 +247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"KeyType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"Fields","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -247,6 +260,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementType","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_DATA_TYPE","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"NumDimensions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -260,6 +274,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Description","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -274,6 +289,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Tensor","Type":{"Kind":"ApiRef","Name":"WINML_TENSOR_VARIABLE_DESC","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 			,{"Name":"Sequence","Type":{"Kind":"ApiRef","Name":"WINML_SEQUENCE_VARIABLE_DESC","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -289,6 +305,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Author","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -534,6 +551,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"edgeType","Type":{"Kind":"ApiRef","Name":"MLOperatorEdgeType","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -545,6 +563,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"reserved","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"tensorDataType","Type":{"Kind":"ApiRef","Name":"MLOperatorTensorDataType","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -995,6 +1014,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"options","Type":{"Kind":"ApiRef","Name":"MLOperatorParameterOptions","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
 		,{"Name":"typeFormat","Type":{"Kind":"ApiRef","Name":"MLOperatorSchemaEdgeTypeFormat","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -1007,6 +1027,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"reserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Const"]}
 			,{"Name":"typeLabel","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1021,6 +1042,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"typeLabel","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"allowedTypes","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"MLOperatorEdgeDescription","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]}},"Attrs":["Const"]}
@@ -1250,10 +1272,11 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"MLOperatorAttributeType","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
-		,{"Name":"required","Type":{"Kind":"Native","Name":"Boolean"},"Attrs":[]}
+		,{"Name":"required","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -1263,6 +1286,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"MLOperatorAttributeType","TargetKind":"Default","Api":"AI.MachineLearning.WinML","Parents":[]},"Attrs":[]}
@@ -1276,6 +1300,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"reserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Const"]}
 			,{"Name":"ints","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int64"}},"Attrs":["Const"]}
@@ -1291,6 +1316,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"operatorSetVersionAtLastChange","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -1313,6 +1339,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"domain","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -1350,6 +1377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"domain","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1427,7 +1455,7 @@
 "Functions":[{
 	"Name":"WinMLCreateRuntime"
 	,"SetLastError":false
-	,"DllImport":"winml"
+	,"DllImport":"winml.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1439,7 +1467,7 @@
 },{
 	"Name":"MLCreateOperatorRegistry"
 	,"SetLastError":false
-	,"DllImport":"windows.ai.machinelearning"
+	,"DllImport":"windows.ai.machinelearning.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

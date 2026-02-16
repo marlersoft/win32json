@@ -3284,6 +3284,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"buffer","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3296,6 +3297,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dataLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -3322,6 +3324,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"WSManDataType","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3333,6 +3336,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"text","Type":{"Kind":"ApiRef","Name":"WSMAN_DATA_TEXT","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 			,{"Name":"binaryData","Type":{"Kind":"ApiRef","Name":"WSMAN_DATA_BINARY","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3347,6 +3351,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"code","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"errorDetail","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3362,6 +3367,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"username","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"password","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3392,6 +3398,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"authenticationMechanism","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3403,6 +3410,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"userAccount","Type":{"Kind":"ApiRef","Name":"WSMAN_USERNAME_PASSWORD_CREDS","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 			,{"Name":"certificateThumbprint","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3416,6 +3424,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3429,6 +3438,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"optionsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"options","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_OPTION","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
@@ -3442,6 +3452,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"optionsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"options","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_OPTION","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
@@ -3456,6 +3467,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"key","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3468,6 +3480,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numberKeys","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"keys","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_KEY","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
@@ -3480,6 +3493,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"path","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dialect","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3492,6 +3506,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"filter","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"dialect","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3504,6 +3519,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fragment","Type":{"Kind":"ApiRef","Name":"WSMAN_FRAGMENT","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 		,{"Name":"filter","Type":{"Kind":"ApiRef","Name":"WSMAN_FILTER","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3520,6 +3536,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fragment","Type":{"Kind":"ApiRef","Name":"WSMAN_FRAGMENT","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 		,{"Name":"filter","Type":{"Kind":"ApiRef","Name":"WSMAN_FILTER","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3537,6 +3554,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3561,6 +3579,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"accessType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"authenticationCredentials","Type":{"Kind":"ApiRef","Name":"WSMAN_AUTHENTICATION_CREDENTIALS","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3573,6 +3592,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3616,6 +3636,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3646,6 +3667,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3656,6 +3678,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -3666,6 +3689,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"streamIDsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"streamIDs","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -3678,6 +3702,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"value","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3690,6 +3715,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"varsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"vars","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_ENVIRONMENT_VARIABLE","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
@@ -3702,6 +3728,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"inputStreamSet","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_STREAM_ID_SET","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
 		,{"Name":"outputStreamSet","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_STREAM_ID_SET","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
@@ -3717,6 +3744,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Base","Type":{"Kind":"ApiRef","Name":"WSMAN_SHELL_STARTUP_INFO_V10","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 		,{"Name":"name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3729,6 +3757,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"idleTimeoutMs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -3755,6 +3784,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"streamId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"streamData","Type":{"Kind":"ApiRef","Name":"WSMAN_DATA","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3769,6 +3799,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"data","Type":{"Kind":"ApiRef","Name":"WSMAN_DATA","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 	]
@@ -3780,6 +3811,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"data","Type":{"Kind":"ApiRef","Name":"WSMAN_DATA","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 	]
@@ -3791,6 +3823,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"receiveData","Type":{"Kind":"ApiRef","Name":"WSMAN_RECEIVE_DATA_RESULT","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
 		,{"Name":"connectData","Type":{"Kind":"ApiRef","Name":"WSMAN_CONNECT_DATA","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3822,6 +3855,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"operationContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"completionFunction","Type":{"Kind":"ApiRef","Name":"WSMAN_SHELL_COMPLETION_FUNCTION","TargetKind":"FunctionPointer","Api":"System.RemoteManagement","Parents":[]},"Attrs":[]}
@@ -3834,6 +3868,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"argsCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"args","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -3846,6 +3881,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"subject","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"issuerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3860,6 +3896,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"senderName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"authenticationMechanism","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -3875,6 +3912,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"senderDetails","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSMAN_SENDER_DETAILS","TargetKind":"Default","Api":"System.RemoteManagement","Parents":[]}},"Attrs":[]}
 		,{"Name":"locale","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -4043,6 +4081,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"maxAllowedConcurrentShells","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"maxAllowedConcurrentOperations","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5195,7 +5234,7 @@
 "Functions":[{
 	"Name":"WSManInitialize"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5208,7 +5247,7 @@
 },{
 	"Name":"WSManDeinitialize"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5221,7 +5260,7 @@
 },{
 	"Name":"WSManGetErrorMessage"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5239,7 +5278,7 @@
 },{
 	"Name":"WSManCreateSession"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5256,7 +5295,7 @@
 },{
 	"Name":"WSManCloseSession"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5269,7 +5308,7 @@
 },{
 	"Name":"WSManSetSessionOption"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5283,7 +5322,7 @@
 },{
 	"Name":"WSManGetSessionOptionAsDword"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5297,7 +5336,7 @@
 },{
 	"Name":"WSManGetSessionOptionAsString"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5313,7 +5352,7 @@
 },{
 	"Name":"WSManCloseOperation"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5326,7 +5365,7 @@
 },{
 	"Name":"WSManCreateShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5345,7 +5384,7 @@
 },{
 	"Name":"WSManRunShellCommand"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5363,7 +5402,7 @@
 },{
 	"Name":"WSManSignalShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5380,7 +5419,7 @@
 },{
 	"Name":"WSManReceiveShellOutput"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5397,7 +5436,7 @@
 },{
 	"Name":"WSManSendShellInput"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5416,7 +5455,7 @@
 },{
 	"Name":"WSManCloseCommand"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5430,7 +5469,7 @@
 },{
 	"Name":"WSManCloseShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5444,7 +5483,7 @@
 },{
 	"Name":"WSManCreateShellEx"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5464,7 +5503,7 @@
 },{
 	"Name":"WSManRunShellCommandEx"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5483,7 +5522,7 @@
 },{
 	"Name":"WSManDisconnectShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5498,7 +5537,7 @@
 },{
 	"Name":"WSManReconnectShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5512,7 +5551,7 @@
 },{
 	"Name":"WSManReconnectShellCommand"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5526,7 +5565,7 @@
 },{
 	"Name":"WSManConnectShell"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5545,7 +5584,7 @@
 },{
 	"Name":"WSManConnectShellCommand"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5563,7 +5602,7 @@
 },{
 	"Name":"WSManPluginReportContext"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5577,7 +5616,7 @@
 },{
 	"Name":"WSManPluginReceiveResult"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5594,7 +5633,7 @@
 },{
 	"Name":"WSManPluginOperationComplete"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5609,7 +5648,7 @@
 },{
 	"Name":"WSManPluginGetOperationParameters"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5623,7 +5662,7 @@
 },{
 	"Name":"WSManPluginGetConfiguration"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5637,7 +5676,7 @@
 },{
 	"Name":"WSManPluginReportCompletion"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5650,7 +5689,7 @@
 },{
 	"Name":"WSManPluginFreeRequestDetails"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5662,7 +5701,7 @@
 },{
 	"Name":"WSManPluginAuthzUserComplete"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5680,7 +5719,7 @@
 },{
 	"Name":"WSManPluginAuthzOperationComplete"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5696,7 +5735,7 @@
 },{
 	"Name":"WSManPluginAuthzQueryQuotaComplete"
 	,"SetLastError":false
-	,"DllImport":"WsmSvc"
+	,"DllImport":"WsmSvc.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

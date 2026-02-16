@@ -61,6 +61,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MajorVersion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"MinorVersion","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -74,6 +75,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"WNV_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
 		,{"Name":"NotificationType","Type":{"Kind":"ApiRef","Name":"WNV_NOTIFICATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
@@ -88,6 +90,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IP","Type":{"Kind":"ApiRef","Name":"_IP_e__Union","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
 	]
@@ -98,6 +101,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"v4","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"v6","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -112,6 +116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"PAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -127,6 +132,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"PA","Type":{"Kind":"ApiRef","Name":"WNV_IP_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
@@ -140,6 +146,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MACAddress","Type":{"Kind":"ApiRef","Name":"DL_EUI48","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"CAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -157,6 +164,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ObjectType","Type":{"Kind":"ApiRef","Name":"WNV_OBJECT_TYPE","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
 		,{"Name":"ObjectParam","Type":{"Kind":"ApiRef","Name":"_ObjectParam_e__Union","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
@@ -168,6 +176,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ProviderAddressChange","Type":{"Kind":"ApiRef","Name":"WNV_PROVIDER_ADDRESS_CHANGE_PARAM","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
 			,{"Name":"CustomerAddressChange","Type":{"Kind":"ApiRef","Name":"WNV_CUSTOMER_ADDRESS_CHANGE_PARAM","TargetKind":"Default","Api":"NetworkManagement.WindowsNetworkVirtualization","Parents":[]},"Attrs":[]}
@@ -181,6 +190,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"PAFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -196,7 +206,7 @@
 "Functions":[{
 	"Name":"WnvOpen"
 	,"SetLastError":false
-	,"DllImport":"wnvapi"
+	,"DllImport":"wnvapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -207,7 +217,7 @@
 },{
 	"Name":"WnvRequestNotification"
 	,"SetLastError":false
-	,"DllImport":"wnvapi"
+	,"DllImport":"wnvapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

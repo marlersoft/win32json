@@ -7727,6 +7727,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Command","Type":{"Kind":"ApiRef","Name":"PROPERTYKEY","TargetKind":"Default","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"AccessType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10448,7 +10449,7 @@
 "Functions":[{
 	"Name":"DMProcessConfigXMLFiltered"
 	,"SetLastError":false
-	,"DllImport":"DMProcessXMLFiltered"
+	,"DllImport":"DMProcessXMLFiltered.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

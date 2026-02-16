@@ -40,6 +40,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"jobId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"currentDocument","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -175,6 +176,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"JobId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CurrentDocument","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -233,7 +235,7 @@
 "Functions":[{
 	"Name":"StartXpsPrintJob"
 	,"SetLastError":false
-	,"DllImport":"XPSPRINT"
+	,"DllImport":"XPSPRINT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -254,7 +256,7 @@
 },{
 	"Name":"StartXpsPrintJob1"
 	,"SetLastError":false
-	,"DllImport":"XPSPRINT"
+	,"DllImport":"XPSPRINT.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

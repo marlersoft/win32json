@@ -8,6 +8,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"value","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -19,6 +20,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"M11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"M12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -478,6 +480,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"displayAdapterLUID","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"displayVidPnSourceId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -594,7 +597,7 @@
 "Functions":[{
 	"Name":"CreatePresentationFactory"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

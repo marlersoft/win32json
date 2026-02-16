@@ -799,6 +799,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"guidId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"pszwName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2111,6 +2112,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"capabilities","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID_AND_ATTRIBUTES","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
@@ -2123,6 +2125,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"binaries","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -2135,6 +2138,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"INET_FIREWALL_AC_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]},"Attrs":[]}
 		,{"Name":"createType","Type":{"Kind":"ApiRef","Name":"INET_FIREWALL_AC_CREATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]},"Attrs":[]}
@@ -2150,6 +2154,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"capabilities","Type":{"Kind":"ApiRef","Name":"INET_FIREWALL_AC_CAPABILITIES","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]},"Attrs":[]}
 			,{"Name":"binaries","Type":{"Kind":"ApiRef","Name":"INET_FIREWALL_AC_BINARIES","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]},"Attrs":[]}
@@ -2163,6 +2168,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"appContainerSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
 		,{"Name":"userSid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SID","TargetKind":"Default","Api":"Security","Parents":[]}},"Attrs":[]}
@@ -2237,6 +2243,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"keyword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -2251,6 +2258,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dynamicKeywordAddress","Type":{"Kind":"ApiRef","Name":"_tag_FW_DYNAMIC_KEYWORD_ADDRESS0","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]},"Attrs":[]}
 		,{"Name":"next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"_tag_FW_DYNAMIC_KEYWORD_ADDRESS_DATA0","TargetKind":"Default","Api":"NetworkManagement.WindowsFirewall","Parents":[]}},"Attrs":[]}
@@ -4973,7 +4981,7 @@
 "Functions":[{
 	"Name":"NetworkIsolationSetupAppContainerBinaries"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4991,7 +4999,7 @@
 },{
 	"Name":"NetworkIsolationRegisterForAppContainerChanges"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5006,7 +5014,7 @@
 },{
 	"Name":"NetworkIsolationUnregisterForAppContainerChanges"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5018,7 +5026,7 @@
 },{
 	"Name":"NetworkIsolationFreeAppContainers"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5030,7 +5038,7 @@
 },{
 	"Name":"NetworkIsolationEnumAppContainers"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5044,7 +5052,7 @@
 },{
 	"Name":"NetworkIsolationGetAppContainerConfig"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5057,7 +5065,7 @@
 },{
 	"Name":"NetworkIsolationSetAppContainerConfig"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5070,7 +5078,7 @@
 },{
 	"Name":"NetworkIsolationDiagnoseConnectFailureAndGetInfo"
 	,"SetLastError":false
-	,"DllImport":"api-ms-win-net-isolation-l1-1-0"
+	,"DllImport":"api-ms-win-net-isolation-l1-1-0.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

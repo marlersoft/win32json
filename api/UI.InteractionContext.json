@@ -237,6 +237,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"translationX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"translationY","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -252,6 +253,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"velocityX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"velocityY","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -266,6 +268,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"delta","Type":{"Kind":"ApiRef","Name":"MANIPULATION_TRANSFORM","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 		,{"Name":"cumulative","Type":{"Kind":"ApiRef","Name":"MANIPULATION_TRANSFORM","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -280,6 +283,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -291,6 +295,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"flags","Type":{"Kind":"ApiRef","Name":"CROSS_SLIDE_FLAGS","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 	]
@@ -302,6 +307,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"interactionId","Type":{"Kind":"ApiRef","Name":"INTERACTION_ID","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 		,{"Name":"interactionFlags","Type":{"Kind":"ApiRef","Name":"INTERACTION_FLAGS","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -317,6 +323,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"manipulation","Type":{"Kind":"ApiRef","Name":"INTERACTION_ARGUMENTS_MANIPULATION","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 			,{"Name":"tap","Type":{"Kind":"ApiRef","Name":"INTERACTION_ARGUMENTS_TAP","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -331,6 +338,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"interactionId","Type":{"Kind":"ApiRef","Name":"INTERACTION_ID","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 		,{"Name":"interactionFlags","Type":{"Kind":"ApiRef","Name":"INTERACTION_FLAGS","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -348,6 +356,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"manipulation","Type":{"Kind":"ApiRef","Name":"INTERACTION_ARGUMENTS_MANIPULATION","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 			,{"Name":"tap","Type":{"Kind":"ApiRef","Name":"INTERACTION_ARGUMENTS_TAP","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -362,6 +371,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"interactionId","Type":{"Kind":"ApiRef","Name":"INTERACTION_ID","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 		,{"Name":"enable","Type":{"Kind":"ApiRef","Name":"INTERACTION_CONFIGURATION_FLAGS","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
@@ -374,6 +384,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"threshold","Type":{"Kind":"ApiRef","Name":"CROSS_SLIDE_THRESHOLD","TargetKind":"Default","Api":"UI.InteractionContext","Parents":[]},"Attrs":[]}
 		,{"Name":"distance","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -410,7 +421,7 @@
 "Functions":[{
 	"Name":"CreateInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -422,7 +433,7 @@
 },{
 	"Name":"DestroyInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -434,7 +445,7 @@
 },{
 	"Name":"RegisterOutputCallbackInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -448,7 +459,7 @@
 },{
 	"Name":"RegisterOutputCallbackInteractionContext2"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -462,7 +473,7 @@
 },{
 	"Name":"SetInteractionConfigurationInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -476,7 +487,7 @@
 },{
 	"Name":"GetInteractionConfigurationInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -490,7 +501,7 @@
 },{
 	"Name":"SetPropertyInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -504,7 +515,7 @@
 },{
 	"Name":"GetPropertyInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -518,7 +529,7 @@
 },{
 	"Name":"SetInertiaParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -532,7 +543,7 @@
 },{
 	"Name":"GetInertiaParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -546,7 +557,7 @@
 },{
 	"Name":"SetCrossSlideParametersInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -560,7 +571,7 @@
 },{
 	"Name":"GetCrossSlideParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -574,7 +585,7 @@
 },{
 	"Name":"SetTapParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -588,7 +599,7 @@
 },{
 	"Name":"GetTapParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -602,7 +613,7 @@
 },{
 	"Name":"SetHoldParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -616,7 +627,7 @@
 },{
 	"Name":"GetHoldParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -630,7 +641,7 @@
 },{
 	"Name":"SetTranslationParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -644,7 +655,7 @@
 },{
 	"Name":"GetTranslationParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -658,7 +669,7 @@
 },{
 	"Name":"SetMouseWheelParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -672,7 +683,7 @@
 },{
 	"Name":"GetMouseWheelParameterInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -686,7 +697,7 @@
 },{
 	"Name":"ResetInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -698,7 +709,7 @@
 },{
 	"Name":"GetStateInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -712,7 +723,7 @@
 },{
 	"Name":"AddPointerInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -725,7 +736,7 @@
 },{
 	"Name":"RemovePointerInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -738,7 +749,7 @@
 },{
 	"Name":"ProcessPointerFramesInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -753,7 +764,7 @@
 },{
 	"Name":"BufferPointerPacketsInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -767,7 +778,7 @@
 },{
 	"Name":"ProcessBufferedPacketsInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -779,7 +790,7 @@
 },{
 	"Name":"ProcessInertiaInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -791,7 +802,7 @@
 },{
 	"Name":"StopInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -803,7 +814,7 @@
 },{
 	"Name":"SetPivotInteractionContext"
 	,"SetLastError":false
-	,"DllImport":"NInput"
+	,"DllImport":"NInput.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

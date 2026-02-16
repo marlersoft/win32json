@@ -107,6 +107,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxIops","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"MaxBandwidth","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -123,6 +124,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"JobHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"MemberLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -136,6 +138,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TotalUserTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"TotalKernelTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -154,6 +157,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PerProcessUserTimeLimit","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"PerJobUserTimeLimit","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -173,6 +177,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BasicLimitInformation","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_BASIC_LIMIT_INFORMATION","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"IoInfo","Type":{"Kind":"ApiRef","Name":"IO_COUNTERS","TargetKind":"Default","Api":"System.Threading","Parents":[]},"Attrs":[]}
@@ -189,6 +194,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfAssignedProcesses","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumberOfProcessIdsInList","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -202,6 +208,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UIRestrictionsClass","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_UILIMIT","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 	]
@@ -213,6 +220,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityLimitFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_SECURITY","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"JobToken","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -228,6 +236,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"EndOfJobTimeAction","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_TERMINATE_AT_END_ACTION","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 	]
@@ -239,6 +248,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CompletionKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"CompletionPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -251,6 +261,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BasicInfo","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_BASIC_ACCOUNTING_INFORMATION","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"IoInfo","Type":{"Kind":"ApiRef","Name":"IO_COUNTERS","TargetKind":"Default","Api":"System.Threading","Parents":[]},"Attrs":[]}
@@ -263,6 +274,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MemberLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -300,6 +312,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IoReadBytesLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"IoWriteBytesLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -317,6 +330,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IoReadBytesLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"IoWriteBytesLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -338,6 +352,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"RateControlToleranceInterval","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE_INTERVAL","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlToleranceInterval","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE_INTERVAL","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -350,6 +365,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"RateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -362,6 +378,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"JobHighMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"JobMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -375,6 +392,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LimitFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_LIMIT","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"ViolationLimitFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_LIMIT","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -397,6 +415,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LimitFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_LIMIT","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"ViolationLimitFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_LIMIT","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -423,6 +442,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"RateControlToleranceLimit","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlToleranceLimit","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -435,6 +455,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"RateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 			,{"Name":"CpuRateControlTolerance","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_RATE_CONTROL_TOLERANCE","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -447,6 +468,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"JobHighMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			,{"Name":"JobMemoryLimit","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -460,6 +482,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ControlFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_CPU_RATE_CONTROL","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -471,6 +494,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"CpuRate","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Weight","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -483,6 +507,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"MinRate","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"MaxRate","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -511,6 +536,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxBandwidth","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"ControlFlags","Type":{"Kind":"ApiRef","Name":"JOB_OBJECT_NET_RATE_CONTROL_FLAGS","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -539,6 +565,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxIops","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"MaxBandwidth","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -556,6 +583,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxIops","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"MaxBandwidth","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -579,6 +607,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MaxIops","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"MaxBandwidth","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -621,6 +650,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IoCount","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"TotalNonOverlappedQueueTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -635,6 +665,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ControlFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ReadStats","Type":{"Kind":"ApiRef","Name":"JOBOBJECT_IO_ATTRIBUTION_STATS","TargetKind":"Default","Api":"System.JobObjects","Parents":[]},"Attrs":[]}
@@ -704,7 +735,7 @@
 "Functions":[{
 	"Name":"IsProcessInJob"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -718,7 +749,7 @@
 },{
 	"Name":"CreateJobObjectW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -731,7 +762,7 @@
 },{
 	"Name":"FreeMemoryJobObject"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -743,7 +774,7 @@
 },{
 	"Name":"OpenJobObjectW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -757,7 +788,7 @@
 },{
 	"Name":"AssignProcessToJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -770,7 +801,7 @@
 },{
 	"Name":"TerminateJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -783,7 +814,7 @@
 },{
 	"Name":"SetInformationJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -798,7 +829,7 @@
 },{
 	"Name":"SetIoRateControlInformationJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -811,7 +842,7 @@
 },{
 	"Name":"QueryInformationJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -827,7 +858,7 @@
 },{
 	"Name":"QueryIoRateControlInformationJobObject"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -842,7 +873,7 @@
 },{
 	"Name":"UserHandleGrantAccess"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -856,7 +887,7 @@
 },{
 	"Name":"CreateJobObjectA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -869,7 +900,7 @@
 },{
 	"Name":"OpenJobObjectA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -883,7 +914,7 @@
 },{
 	"Name":"CreateJobSet"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

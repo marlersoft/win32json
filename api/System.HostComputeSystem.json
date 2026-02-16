@@ -95,6 +95,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"HCS_EVENT_TYPE","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"EventData","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -191,6 +192,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -217,6 +219,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"HCS_CREATE_OPTIONS","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"UserToken","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -231,7 +234,7 @@
 "Functions":[{
 	"Name":"HcsEnumerateComputeSystems"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -244,7 +247,7 @@
 },{
 	"Name":"HcsEnumerateComputeSystemsInNamespace"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -258,7 +261,7 @@
 },{
 	"Name":"HcsCreateOperation"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HCS_OPERATION","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -271,7 +274,7 @@
 },{
 	"Name":"HcsCloseOperation"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -283,7 +286,7 @@
 },{
 	"Name":"HcsGetOperationContext"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -295,7 +298,7 @@
 },{
 	"Name":"HcsSetOperationContext"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -308,7 +311,7 @@
 },{
 	"Name":"HcsGetComputeSystemFromOperation"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HCS_SYSTEM","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -320,7 +323,7 @@
 },{
 	"Name":"HcsGetProcessFromOperation"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HCS_PROCESS","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -332,7 +335,7 @@
 },{
 	"Name":"HcsGetOperationType"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HCS_OPERATION_TYPE","TargetKind":"Default","Api":"System.HostComputeSystem","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -344,7 +347,7 @@
 },{
 	"Name":"HcsGetOperationId"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt64"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -356,7 +359,7 @@
 },{
 	"Name":"HcsGetOperationResult"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -369,7 +372,7 @@
 },{
 	"Name":"HcsGetOperationResultAndProcessInfo"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -383,7 +386,7 @@
 },{
 	"Name":"HcsGetProcessorCompatibilityFromSavedState"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -396,7 +399,7 @@
 },{
 	"Name":"HcsWaitForOperationResult"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -410,7 +413,7 @@
 },{
 	"Name":"HcsWaitForOperationResultAndProcessInfo"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -425,7 +428,7 @@
 },{
 	"Name":"HcsSetOperationCallback"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -439,7 +442,7 @@
 },{
 	"Name":"HcsCancelOperation"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -451,7 +454,7 @@
 },{
 	"Name":"HcsCreateComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -467,7 +470,7 @@
 },{
 	"Name":"HcsCreateComputeSystemInNamespace"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -484,7 +487,7 @@
 },{
 	"Name":"HcsOpenComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -498,7 +501,7 @@
 },{
 	"Name":"HcsOpenComputeSystemInNamespace"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -513,7 +516,7 @@
 },{
 	"Name":"HcsCloseComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -525,7 +528,7 @@
 },{
 	"Name":"HcsStartComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -539,7 +542,7 @@
 },{
 	"Name":"HcsShutDownComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -553,7 +556,7 @@
 },{
 	"Name":"HcsTerminateComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -567,7 +570,7 @@
 },{
 	"Name":"HcsCrashComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -581,7 +584,7 @@
 },{
 	"Name":"HcsPauseComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -595,7 +598,7 @@
 },{
 	"Name":"HcsResumeComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -609,7 +612,7 @@
 },{
 	"Name":"HcsSaveComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -623,7 +626,7 @@
 },{
 	"Name":"HcsGetComputeSystemProperties"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -637,7 +640,7 @@
 },{
 	"Name":"HcsModifyComputeSystem"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -652,7 +655,7 @@
 },{
 	"Name":"HcsWaitForComputeSystemExit"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -666,7 +669,7 @@
 },{
 	"Name":"HcsSetComputeSystemCallback"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -681,7 +684,7 @@
 },{
 	"Name":"HcsCreateProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -697,7 +700,7 @@
 },{
 	"Name":"HcsOpenProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -712,7 +715,7 @@
 },{
 	"Name":"HcsCloseProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -724,7 +727,7 @@
 },{
 	"Name":"HcsTerminateProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -738,7 +741,7 @@
 },{
 	"Name":"HcsSignalProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -752,7 +755,7 @@
 },{
 	"Name":"HcsGetProcessInfo"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -765,7 +768,7 @@
 },{
 	"Name":"HcsGetProcessProperties"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -779,7 +782,7 @@
 },{
 	"Name":"HcsModifyProcess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -793,7 +796,7 @@
 },{
 	"Name":"HcsSetProcessCallback"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -808,7 +811,7 @@
 },{
 	"Name":"HcsWaitForProcessExit"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -822,7 +825,7 @@
 },{
 	"Name":"HcsGetServiceProperties"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -835,7 +838,7 @@
 },{
 	"Name":"HcsModifyServiceSettings"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -848,7 +851,7 @@
 },{
 	"Name":"HcsSubmitWerReport"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -860,7 +863,7 @@
 },{
 	"Name":"HcsCreateEmptyGuestStateFile"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -872,7 +875,7 @@
 },{
 	"Name":"HcsCreateEmptyRuntimeStateFile"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -884,7 +887,7 @@
 },{
 	"Name":"HcsGrantVmAccess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -897,7 +900,7 @@
 },{
 	"Name":"HcsRevokeVmAccess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -910,7 +913,7 @@
 },{
 	"Name":"HcsGrantVmGroupAccess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -922,7 +925,7 @@
 },{
 	"Name":"HcsRevokeVmGroupAccess"
 	,"SetLastError":false
-	,"DllImport":"computecore"
+	,"DllImport":"computecore.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -934,7 +937,7 @@
 },{
 	"Name":"HcsImportLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -948,7 +951,7 @@
 },{
 	"Name":"HcsExportLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -963,7 +966,7 @@
 },{
 	"Name":"HcsExportLegacyWritableLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -978,7 +981,7 @@
 },{
 	"Name":"HcsDestroyLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -990,7 +993,7 @@
 },{
 	"Name":"HcsSetupBaseOSLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1004,7 +1007,7 @@
 },{
 	"Name":"HcsInitializeWritableLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1018,7 +1021,7 @@
 },{
 	"Name":"HcsInitializeLegacyWritableLayer"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1033,7 +1036,7 @@
 },{
 	"Name":"HcsAttachLayerStorageFilter"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1046,7 +1049,7 @@
 },{
 	"Name":"HcsDetachLayerStorageFilter"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1058,7 +1061,7 @@
 },{
 	"Name":"HcsFormatWritableLayerVhd"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1070,7 +1073,7 @@
 },{
 	"Name":"HcsGetLayerVhdMountPath"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1083,7 +1086,7 @@
 },{
 	"Name":"HcsSetupBaseOSVolume"
 	,"SetLastError":false
-	,"DllImport":"computestorage"
+	,"DllImport":"computestorage.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

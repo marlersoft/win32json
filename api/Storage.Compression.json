@@ -81,6 +81,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Allocate","Type":{"Kind":"ApiRef","Name":"PFN_COMPRESS_ALLOCATE","TargetKind":"FunctionPointer","Api":"Storage.Compression","Parents":[]},"Attrs":[]}
 		,{"Name":"Free","Type":{"Kind":"ApiRef","Name":"PFN_COMPRESS_FREE","TargetKind":"FunctionPointer","Api":"Storage.Compression","Parents":[]},"Attrs":[]}
@@ -105,7 +106,7 @@
 "Functions":[{
 	"Name":"CreateCompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -119,7 +120,7 @@
 },{
 	"Name":"SetCompressorInformation"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -134,7 +135,7 @@
 },{
 	"Name":"QueryCompressorInformation"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -149,7 +150,7 @@
 },{
 	"Name":"Compress"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -166,7 +167,7 @@
 },{
 	"Name":"ResetCompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -178,7 +179,7 @@
 },{
 	"Name":"CloseCompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -190,7 +191,7 @@
 },{
 	"Name":"CreateDecompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -204,7 +205,7 @@
 },{
 	"Name":"SetDecompressorInformation"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -219,7 +220,7 @@
 },{
 	"Name":"QueryDecompressorInformation"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -234,7 +235,7 @@
 },{
 	"Name":"Decompress"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -251,7 +252,7 @@
 },{
 	"Name":"ResetDecompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -263,7 +264,7 @@
 },{
 	"Name":"CloseDecompressor"
 	,"SetLastError":true
-	,"DllImport":"Cabinet"
+	,"DllImport":"Cabinet.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

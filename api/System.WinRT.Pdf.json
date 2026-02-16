@@ -21,6 +21,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SourceRect","Type":{"Kind":"ApiRef","Name":"D2D_RECT_F","TargetKind":"Default","Api":"Graphics.Direct2D.Common","Parents":[]},"Attrs":[]}
 		,{"Name":"DestinationWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -70,7 +71,7 @@
 "Functions":[{
 	"Name":"PdfCreateRenderer"
 	,"SetLastError":false
-	,"DllImport":"Windows.Data.Pdf"
+	,"DllImport":"Windows.Data.Pdf.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -112,6 +112,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lastFrameTime","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"currentCompositionRate","Type":{"Kind":"ApiRef","Name":"DXGI_RATIONAL","TargetKind":"Default","Api":"Graphics.Dxgi.Common","Parents":[]},"Attrs":[]}
@@ -140,6 +141,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"startTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"targetTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -153,6 +155,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"displayAdapterLuid","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"renderAdapterLuid","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -168,6 +171,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"presentCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"refreshCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -182,6 +186,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"outstandingPresents","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"presentTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -3950,6 +3955,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -4052,7 +4058,7 @@
 "Functions":[{
 	"Name":"DCompositionCreateDevice"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4066,7 +4072,7 @@
 },{
 	"Name":"DCompositionCreateDevice2"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4080,7 +4086,7 @@
 },{
 	"Name":"DCompositionCreateDevice3"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4094,7 +4100,7 @@
 },{
 	"Name":"DCompositionCreateSurfaceHandle"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4108,7 +4114,7 @@
 },{
 	"Name":"DCompositionAttachMouseWheelToHwnd"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4122,7 +4128,7 @@
 },{
 	"Name":"DCompositionAttachMouseDragToHwnd"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4136,7 +4142,7 @@
 },{
 	"Name":"DCompositionGetFrameId"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4149,7 +4155,7 @@
 },{
 	"Name":"DCompositionGetStatistics"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4165,7 +4171,7 @@
 },{
 	"Name":"DCompositionGetTargetStatistics"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4179,7 +4185,7 @@
 },{
 	"Name":"DCompositionBoostCompositorClock"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4191,7 +4197,7 @@
 },{
 	"Name":"DCompositionWaitForCompositorClock"
 	,"SetLastError":false
-	,"DllImport":"dcomp"
+	,"DllImport":"dcomp.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

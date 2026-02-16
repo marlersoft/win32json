@@ -156,6 +156,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExitStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PebBaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -192,6 +193,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VaCloneHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -203,6 +205,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AuxPagesCaptured","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -214,6 +217,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RegionCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -225,6 +229,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HandlesCaptured","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -236,6 +241,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ThreadsCaptured","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ContextLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -248,6 +254,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SectionHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -260,6 +267,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TotalCycleCount","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"TotalWallClockPeriod","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -282,6 +290,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Address","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"BasicInformation","Type":{"Kind":"ApiRef","Name":"MEMORY_BASIC_INFORMATION","TargetKind":"Default","Api":"System.Memory","Parents":[]},"Attrs":[]}
@@ -297,6 +306,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"AllocationBase","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -320,6 +330,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Handle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"PSS_HANDLE_FLAGS","TargetKind":"Default","Api":"System.Diagnostics.ProcessSnapshotting","Parents":[]},"Attrs":[]}
@@ -345,6 +356,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Process","Type":{"Kind":"ApiRef","Name":"_Process_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.ProcessSnapshotting","Parents":["_TypeSpecificInformation_e__Union"]},"Attrs":[]}
 			,{"Name":"Thread","Type":{"Kind":"ApiRef","Name":"_Thread_e__Struct","TargetKind":"Default","Api":"System.Diagnostics.ProcessSnapshotting","Parents":["_TypeSpecificInformation_e__Union"]},"Attrs":[]}
@@ -360,6 +372,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"CurrentCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 				,{"Name":"MaximumCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -372,6 +385,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"BaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 				,{"Name":"AllocationAttributes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -385,6 +399,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ManualReset","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"Signaled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -397,6 +412,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"CurrentCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 				,{"Name":"Abandoned","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -411,6 +427,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ExitStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"TebBaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -429,6 +446,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ExitStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PebBaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -460,6 +478,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExitStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"TebBaseAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -489,6 +508,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"AllocRoutine","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -500,7 +520,7 @@
 "Functions":[{
 	"Name":"PssCaptureSnapshot"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -515,7 +535,7 @@
 },{
 	"Name":"PssFreeSnapshot"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -528,7 +548,7 @@
 },{
 	"Name":"PssQuerySnapshot"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -543,7 +563,7 @@
 },{
 	"Name":"PssWalkSnapshot"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -559,7 +579,7 @@
 },{
 	"Name":"PssDuplicateSnapshot"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -575,7 +595,7 @@
 },{
 	"Name":"PssWalkMarkerCreate"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -588,7 +608,7 @@
 },{
 	"Name":"PssWalkMarkerFree"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -600,7 +620,7 @@
 },{
 	"Name":"PssWalkMarkerGetPosition"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -613,7 +633,7 @@
 },{
 	"Name":"PssWalkMarkerSetPosition"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -626,7 +646,7 @@
 },{
 	"Name":"PssWalkMarkerSeekToBeginning"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

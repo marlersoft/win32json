@@ -647,6 +647,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressFamily","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"Scope","Type":{"Kind":"ApiRef","Name":"PNRP_SCOPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -673,6 +674,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpwszIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -692,6 +694,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpwszIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -712,6 +715,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"blobPayload","Type":{"Kind":"ApiRef","Name":"BLOB","TargetKind":"Default","Api":"System.Com","Parents":[]},"Attrs":[]}
 			,{"Name":"pwszPayload","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -725,6 +729,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Cloud","Type":{"Kind":"ApiRef","Name":"PNRP_CLOUD_ID","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -790,6 +795,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wHighestVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -802,6 +808,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pbData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -814,6 +821,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -837,6 +845,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"sin6","Type":{"Kind":"ApiRef","Name":"SOCKADDR_IN6","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -849,6 +858,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -865,6 +875,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ullConnectionId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -879,6 +890,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"PEER_RECORD_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -893,6 +905,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"status","Type":{"Kind":"ApiRef","Name":"PEER_CONNECTION_STATUS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -909,6 +922,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"recordType","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -993,6 +1007,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1013,6 +1028,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ullNodeId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -1029,6 +1045,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"PEER_NODE_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1043,6 +1060,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_GRAPH_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -1055,6 +1073,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_GRAPH_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1066,6 +1085,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"dwStatus","Type":{"Kind":"ApiRef","Name":"PEER_GRAPH_STATUS_FLAGS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 			,{"Name":"incomingData","Type":{"Kind":"ApiRef","Name":"PEER_EVENT_INCOMING_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1084,7 +1104,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -1099,7 +1121,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -1115,7 +1139,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -1129,7 +1155,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
@@ -1141,6 +1169,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwzSspFilename","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1254,6 +1283,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1274,6 +1304,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1292,6 +1323,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1321,6 +1353,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1344,6 +1377,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"PEER_MEMBER_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1357,6 +1391,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_GROUP_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -1369,6 +1404,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_GROUP_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1380,6 +1416,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"dwStatus","Type":{"Kind":"ApiRef","Name":"PEER_GROUP_STATUS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 			,{"Name":"incomingData","Type":{"Kind":"ApiRef","Name":"PEER_EVENT_INCOMING_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1397,6 +1434,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1450,6 +1488,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"ApiRef","Name":"PEER_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1463,6 +1502,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"ApiRef","Name":"PEER_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1476,6 +1516,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzNickName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1493,6 +1534,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"address","Type":{"Kind":"ApiRef","Name":"PEER_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzEndpointName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1505,6 +1547,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwzNickName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"endpoint","Type":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1544,6 +1587,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"applicationId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"applicationData","Type":{"Kind":"ApiRef","Name":"PEER_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1557,6 +1601,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"action","Type":{"Kind":"ApiRef","Name":"PEER_INVITATION_RESPONSE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzMessage","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1570,6 +1615,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1583,6 +1629,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"application","Type":{"Kind":"ApiRef","Name":"PEER_APPLICATION","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzApplicationToLaunch","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1615,6 +1662,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"status","Type":{"Kind":"ApiRef","Name":"PEER_PRESENCE_STATUS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzDescriptiveText","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1661,6 +1709,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_COLLAB_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pInstance","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
@@ -1673,6 +1722,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"PEER_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1685,6 +1735,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1699,6 +1750,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1713,6 +1765,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1727,6 +1780,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1739,6 +1793,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"changeType","Type":{"Kind":"ApiRef","Name":"PEER_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"pPeopleNearMe","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PEOPLE_NEAR_ME","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -1751,6 +1806,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
 		,{"Name":"hrChange","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1763,6 +1819,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"eventType","Type":{"Kind":"ApiRef","Name":"PEER_COLLAB_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1774,6 +1831,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"watchListChangedData","Type":{"Kind":"ApiRef","Name":"PEER_EVENT_WATCHLIST_CHANGED_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 			,{"Name":"presenceChangedData","Type":{"Kind":"ApiRef","Name":"PEER_EVENT_PRESENCE_CHANGED_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1792,6 +1850,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"cAddresses","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -1807,6 +1866,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwzCloudName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwScope","Type":{"Kind":"ApiRef","Name":"PNRP_SCOPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1820,6 +1880,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwzCloudName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzPublishingIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1944,6 +2005,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pb","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -1956,6 +2018,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"key","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"appData","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -1968,6 +2031,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Attach","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -2007,6 +2071,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pvContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"Attach","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":[]}
@@ -2025,6 +2090,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cbKey","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2045,6 +2111,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fIterative","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2062,6 +2129,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"socketAddress","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2076,6 +2144,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"AddressList","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"DRT_ADDRESS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":[]}
@@ -2088,6 +2157,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"type","Type":{"Kind":"ApiRef","Name":"DRT_MATCH_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -2102,6 +2172,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"type","Type":{"Kind":"ApiRef","Name":"DRT_EVENT_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 		,{"Name":"hr","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2115,6 +2186,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"leafsetKeyChange","Type":{"Kind":"ApiRef","Name":"_leafsetKeyChange_e__Struct","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"registrationStateChange","Type":{"Kind":"ApiRef","Name":"_registrationStateChange_e__Struct","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -2127,6 +2199,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"status","Type":{"Kind":"ApiRef","Name":"DRT_STATUS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 				,{"Name":"bootstrapAddresses","Type":{"Kind":"ApiRef","Name":"_bootstrapAddresses_e__Struct","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":["_Anonymous_e__Union","_statusChange_e__Struct"]},"Attrs":[]}
@@ -2138,6 +2211,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"cntAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 					,{"Name":"pAddresses","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -2151,6 +2225,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"state","Type":{"Kind":"ApiRef","Name":"DRT_REGISTRATION_STATE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 				,{"Name":"localKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -2163,6 +2238,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"change","Type":{"Kind":"ApiRef","Name":"DRT_LEAFSET_KEY_CHANGE_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
 				,{"Name":"localKey","Type":{"Kind":"ApiRef","Name":"DRT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -2191,6 +2267,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2203,6 +2280,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Data","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -2214,6 +2292,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwContentInfoMinVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2228,6 +2307,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"status","Type":{"Kind":"ApiRef","Name":"PEERDIST_STATUS","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":[]}
@@ -2254,6 +2334,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fFlashCrowd","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -2263,12 +2344,14 @@
 "Functions":[{
 	"Name":"PeerGraphStartup"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"wVersionRequested","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 		,{"Name":"pVersionData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_VERSION_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["Out"]}
@@ -2276,35 +2359,41 @@
 },{
 	"Name":"PeerGraphShutdown"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 	]
 },{
 	"Name":"PeerGraphFreeData"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pvData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGraphGetItemCount"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
@@ -2312,12 +2401,14 @@
 },{
 	"Name":"PeerGraphGetNextItem"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -2326,24 +2417,28 @@
 },{
 	"Name":"PeerGraphEndEnumeration"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGraphCreate"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pGraphProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GRAPH_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"pwzDatabaseName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2353,12 +2448,14 @@
 },{
 	"Name":"PeerGraphOpen"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzGraphId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzPeerId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2371,12 +2468,14 @@
 },{
 	"Name":"PeerGraphListen"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwScope","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In","Optional"]}
@@ -2386,12 +2485,14 @@
 },{
 	"Name":"PeerGraphConnect"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzPeerId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -2401,24 +2502,28 @@
 },{
 	"Name":"PeerGraphClose"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGraphDelete"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzGraphId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzPeerId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2427,12 +2532,14 @@
 },{
 	"Name":"PeerGraphGetStatus"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pdwStatus","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
@@ -2440,12 +2547,14 @@
 },{
 	"Name":"PeerGraphGetProperties"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppGraphProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GRAPH_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -2453,12 +2562,14 @@
 },{
 	"Name":"PeerGraphSetProperties"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pGraphProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GRAPH_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -2466,12 +2577,14 @@
 },{
 	"Name":"PeerGraphRegisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"hEvent","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -2482,24 +2595,28 @@
 },{
 	"Name":"PeerGraphUnregisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGraphGetEventData"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppEventData","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GRAPH_EVENT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -2507,12 +2624,14 @@
 },{
 	"Name":"PeerGraphGetRecord"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
@@ -2521,12 +2640,14 @@
 },{
 	"Name":"PeerGraphAddRecord"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_RECORD","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -2535,12 +2656,14 @@
 },{
 	"Name":"PeerGraphUpdateRecord"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_RECORD","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -2548,12 +2671,14 @@
 },{
 	"Name":"PeerGraphDeleteRecord"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
@@ -2562,12 +2687,14 @@
 },{
 	"Name":"PeerGraphEnumRecords"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
@@ -2577,12 +2704,14 @@
 },{
 	"Name":"PeerGraphSearchRecords"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzCriteria","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2591,12 +2720,14 @@
 },{
 	"Name":"PeerGraphExportDatabase"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2604,12 +2735,14 @@
 },{
 	"Name":"PeerGraphImportDatabase"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2617,12 +2750,14 @@
 },{
 	"Name":"PeerGraphValidateDeferredRecords"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"cRecordIds","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -2631,12 +2766,14 @@
 },{
 	"Name":"PeerGraphOpenDirectConnection"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzPeerId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2646,12 +2783,14 @@
 },{
 	"Name":"PeerGraphSendData"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ullConnectionId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -2662,12 +2801,14 @@
 },{
 	"Name":"PeerGraphCloseDirectConnection"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ullConnectionId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -2675,12 +2816,14 @@
 },{
 	"Name":"PeerGraphEnumConnections"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -2689,12 +2832,14 @@
 },{
 	"Name":"PeerGraphEnumNodes"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzPeerId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -2703,12 +2848,14 @@
 },{
 	"Name":"PeerGraphSetPresence"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"fPresent","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -2716,12 +2863,14 @@
 },{
 	"Name":"PeerGraphGetNodeInfo"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ullNodeId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -2730,12 +2879,14 @@
 },{
 	"Name":"PeerGraphSetNodeAttributes"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzAttributes","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2743,12 +2894,14 @@
 },{
 	"Name":"PeerGraphPeerTimeToUniversalTime"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pftPeerTime","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
@@ -2757,12 +2910,14 @@
 },{
 	"Name":"PeerGraphUniversalTimeToPeerTime"
 	,"SetLastError":false
-	,"DllImport":"P2PGRAPH"
+	,"DllImport":"P2PGRAPH.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGraph","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pftUniversalTime","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
@@ -2771,24 +2926,28 @@
 },{
 	"Name":"PeerFreeData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pvData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional","Const"]}
 	]
 },{
 	"Name":"PeerGetItemCount"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
@@ -2796,12 +2955,14 @@
 },{
 	"Name":"PeerGetNextItem"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
@@ -2810,24 +2971,28 @@
 },{
 	"Name":"PeerEndEnumeration"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGroupStartup"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"wVersionRequested","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 		,{"Name":"pVersionData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_VERSION_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["Out"]}
@@ -2835,23 +3000,27 @@
 },{
 	"Name":"PeerGroupShutdown"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 	]
 },{
 	"Name":"PeerGroupCreate"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GROUP_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"phGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
@@ -2859,12 +3028,14 @@
 },{
 	"Name":"PeerGroupOpen"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzGroupPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2874,12 +3045,14 @@
 },{
 	"Name":"PeerGroupJoin"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzInvitation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2889,12 +3062,14 @@
 },{
 	"Name":"PeerGroupPasswordJoin"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzInvitation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2905,24 +3080,28 @@
 },{
 	"Name":"PeerGroupConnect"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGroupConnectByAddress"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"cAddresses","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -2931,24 +3110,28 @@
 },{
 	"Name":"PeerGroupClose"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGroupDelete"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzGroupPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2956,12 +3139,14 @@
 },{
 	"Name":"PeerGroupCreateInvitation"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzIdentityInfo","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -2973,12 +3158,14 @@
 },{
 	"Name":"PeerGroupCreatePasswordInvitation"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppwzInvitation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -2986,12 +3173,14 @@
 },{
 	"Name":"PeerGroupParseInvitation"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzInvitation","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"ppInvitationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_INVITATION_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -2999,12 +3188,14 @@
 },{
 	"Name":"PeerGroupGetStatus"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pdwStatus","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
@@ -3012,12 +3203,14 @@
 },{
 	"Name":"PeerGroupGetProperties"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GROUP_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3025,12 +3218,14 @@
 },{
 	"Name":"PeerGroupSetProperties"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GROUP_PROPERTIES","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3038,12 +3233,14 @@
 },{
 	"Name":"PeerGroupEnumMembers"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3053,12 +3250,14 @@
 },{
 	"Name":"PeerGroupOpenDirectConnection"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3068,12 +3267,14 @@
 },{
 	"Name":"PeerGroupCloseDirectConnection"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ullConnectionId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -3081,12 +3282,14 @@
 },{
 	"Name":"PeerGroupEnumConnections"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3095,12 +3298,14 @@
 },{
 	"Name":"PeerGroupSendData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ullConnectionId","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -3111,12 +3316,14 @@
 },{
 	"Name":"PeerGroupRegisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"hEvent","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -3127,24 +3334,28 @@
 },{
 	"Name":"PeerGroupUnregisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerGroupGetEventData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppEventData","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_GROUP_EVENT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3152,12 +3363,14 @@
 },{
 	"Name":"PeerGroupGetRecord"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
@@ -3166,12 +3379,14 @@
 },{
 	"Name":"PeerGroupAddRecord"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_RECORD","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3180,12 +3395,14 @@
 },{
 	"Name":"PeerGroupUpdateRecord"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_RECORD","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3193,12 +3410,14 @@
 },{
 	"Name":"PeerGroupDeleteRecord"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
@@ -3206,12 +3425,14 @@
 },{
 	"Name":"PeerGroupEnumRecords"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRecordType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
@@ -3220,12 +3441,14 @@
 },{
 	"Name":"PeerGroupSearchRecords"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzCriteria","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3234,12 +3457,14 @@
 },{
 	"Name":"PeerGroupExportDatabase"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3247,12 +3472,14 @@
 },{
 	"Name":"PeerGroupImportDatabase"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3260,12 +3487,14 @@
 },{
 	"Name":"PeerGroupIssueCredentials"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzSubjectIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3276,12 +3505,14 @@
 },{
 	"Name":"PeerGroupExportConfig"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pwzPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3290,12 +3521,14 @@
 },{
 	"Name":"PeerGroupImportConfig"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzXML","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3306,12 +3539,14 @@
 },{
 	"Name":"PeerGroupPeerTimeToUniversalTime"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pftPeerTime","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
@@ -3320,12 +3555,14 @@
 },{
 	"Name":"PeerGroupUniversalTimeToPeerTime"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pftUniversalTime","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
@@ -3334,12 +3571,14 @@
 },{
 	"Name":"PeerGroupResumePasswordAuthentication"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hGroup","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"hPeerEventHandle","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -3347,12 +3586,14 @@
 },{
 	"Name":"PeerIdentityCreate"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzClassifier","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pwzFriendlyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -3362,12 +3603,14 @@
 },{
 	"Name":"PeerIdentityGetFriendlyName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"ppwzFriendlyName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -3375,12 +3618,14 @@
 },{
 	"Name":"PeerIdentitySetFriendlyName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pwzFriendlyName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3388,12 +3633,14 @@
 },{
 	"Name":"PeerIdentityGetCryptKey"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"phCryptProv","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UIntPtr"}},"Attrs":["Out"]}
@@ -3401,36 +3648,42 @@
 },{
 	"Name":"PeerIdentityDelete"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerEnumIdentities"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerEnumGroups"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
@@ -3438,12 +3691,14 @@
 },{
 	"Name":"PeerCreatePeerName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pwzClassifier","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -3452,12 +3707,14 @@
 },{
 	"Name":"PeerIdentityGetXML"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"ppwzIdentityXML","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -3465,12 +3722,14 @@
 },{
 	"Name":"PeerIdentityExport"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzIdentity","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pwzPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3479,12 +3738,14 @@
 },{
 	"Name":"PeerIdentityImport"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzImportXML","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pwzPassword","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -3493,47 +3754,55 @@
 },{
 	"Name":"PeerIdentityGetDefault"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"ppwzPeerName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabStartup"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"wVersionRequested","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabShutdown"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 	]
 },{
 	"Name":"PeerCollabSignin"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hwndParent","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional"]}
 		,{"Name":"dwSigninOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3541,36 +3810,42 @@
 },{
 	"Name":"PeerCollabSignout"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"dwSigninOptions","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabGetSigninOptions"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pdwSigninOptions","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabAsyncInviteContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3581,12 +3856,14 @@
 },{
 	"Name":"PeerCollabGetInvitationResponse"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hInvitation","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"ppInvitationResponse","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_INVITATION_RESPONSE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3594,36 +3871,42 @@
 },{
 	"Name":"PeerCollabCancelInvitation"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hInvitation","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabCloseHandle"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hInvitation","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabInviteContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3633,12 +3916,14 @@
 },{
 	"Name":"PeerCollabAsyncInviteEndpoint"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"pcInvitation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_INVITATION","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3648,12 +3933,14 @@
 },{
 	"Name":"PeerCollabInviteEndpoint"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"pcInvitation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_INVITATION","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -3662,24 +3949,28 @@
 },{
 	"Name":"PeerCollabGetAppLaunchInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"ppLaunchInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_APP_LAUNCH_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabRegisterApplication"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcApplication","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_APPLICATION_REGISTRATION_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"registrationType","Type":{"Kind":"ApiRef","Name":"PEER_APPLICATION_REGISTRATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":["In"]}
@@ -3687,12 +3978,14 @@
 },{
 	"Name":"PeerCollabUnregisterApplication"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pApplicationId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
 		,{"Name":"registrationType","Type":{"Kind":"ApiRef","Name":"PEER_APPLICATION_REGISTRATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":["In"]}
@@ -3700,12 +3993,14 @@
 },{
 	"Name":"PeerCollabGetApplicationRegistrationInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pApplicationId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
 		,{"Name":"registrationType","Type":{"Kind":"ApiRef","Name":"PEER_APPLICATION_REGISTRATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":["In"]}
@@ -3714,12 +4009,14 @@
 },{
 	"Name":"PeerCollabEnumApplicationRegistrationInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"registrationType","Type":{"Kind":"ApiRef","Name":"PEER_APPLICATION_REGISTRATION_TYPE","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]},"Attrs":["In"]}
 		,{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
@@ -3727,12 +4024,14 @@
 },{
 	"Name":"PeerCollabGetPresenceInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"ppPresenceInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PRESENCE_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3740,12 +4039,14 @@
 },{
 	"Name":"PeerCollabEnumApplications"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"pApplicationId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
@@ -3754,12 +4055,14 @@
 },{
 	"Name":"PeerCollabEnumObjects"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"pObjectId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional","Const"]}
@@ -3768,12 +4071,14 @@
 },{
 	"Name":"PeerCollabEnumEndpoints"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
@@ -3781,36 +4086,42 @@
 },{
 	"Name":"PeerCollabRefreshEndpointData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabDeleteEndpointData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabQueryContactData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"ppwzContactData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -3818,96 +4129,112 @@
 },{
 	"Name":"PeerCollabSubscribeEndpointData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerCollabUnsubscribeEndpointData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_ENDPOINT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerCollabSetPresenceInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcPresenceInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PRESENCE_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabGetEndpointName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"ppwzEndpointName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabSetEndpointName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzEndpointName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerCollabSetObject"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcObject","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_OBJECT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabDeleteObject"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pObjectId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerCollabRegisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hEvent","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"cEventRegistration","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -3917,12 +4244,14 @@
 },{
 	"Name":"PeerCollabGetEventData"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppEventData","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_COLLAB_EVENT_DATA","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3930,36 +4259,42 @@
 },{
 	"Name":"PeerCollabUnregisterEvent"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hPeerEvent","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabEnumPeopleNearMe"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabAddContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzContactData","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"ppContact","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out","Optional"]}
@@ -3967,24 +4302,28 @@
 },{
 	"Name":"PeerCollabDeleteContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"PeerCollabGetContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"ppContact","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -3992,36 +4331,42 @@
 },{
 	"Name":"PeerCollabUpdateContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pContact","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerCollabEnumContacts"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"phPeerEnum","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"PeerCollabExportContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"ppwzContactData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -4029,12 +4374,14 @@
 },{
 	"Name":"PeerCollabParseContact"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzContactData","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"ppContact","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_CONTACT","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -4042,12 +4389,14 @@
 },{
 	"Name":"PeerNameToPeerHostName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"ppwzHostName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -4055,12 +4404,14 @@
 },{
 	"Name":"PeerHostNameToPeerName"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pwzHostName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"ppwzPeerName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
@@ -4068,35 +4419,41 @@
 },{
 	"Name":"PeerPnrpStartup"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"wVersionRequested","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerPnrpShutdown"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 	]
 },{
 	"Name":"PeerPnrpRegister"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pRegistrationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PNRP_REGISTRATION_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In","Optional"]}
@@ -4105,12 +4462,14 @@
 },{
 	"Name":"PeerPnrpUpdateRegistration"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hRegistration","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pRegistrationInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PNRP_REGISTRATION_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}},"Attrs":["In"]}
@@ -4118,24 +4477,28 @@
 },{
 	"Name":"PeerPnrpUnregister"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hRegistration","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"PeerPnrpResolve"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pcwzCloudName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -4145,12 +4508,14 @@
 },{
 	"Name":"PeerPnrpStartResolve"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcwzPeerName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pcwzCloudName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -4161,12 +4526,14 @@
 },{
 	"Name":"PeerPnrpGetCloudInfo"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"pcNumClouds","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 		,{"Name":"ppCloudInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PNRP_CLOUD_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -4174,12 +4541,14 @@
 },{
 	"Name":"PeerPnrpGetEndpoint"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hResolve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"ppEndpoint","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PEER_PNRP_ENDPOINT_INFO","TargetKind":"Default","Api":"NetworkManagement.P2P","Parents":[]}}},"Attrs":["Out"]}
@@ -4187,19 +4556,21 @@
 },{
 	"Name":"PeerPnrpEndResolve"
 	,"SetLastError":false
-	,"DllImport":"P2P"
+	,"DllImport":"P2P.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hResolve","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
 },{
 	"Name":"DrtCreatePnrpBootstrapResolver"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4215,7 +4586,7 @@
 },{
 	"Name":"DrtDeletePnrpBootstrapResolver"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4227,7 +4598,7 @@
 },{
 	"Name":"DrtCreateDnsBootstrapResolver"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4241,7 +4612,7 @@
 },{
 	"Name":"DrtDeleteDnsBootstrapResolver"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4253,7 +4624,7 @@
 },{
 	"Name":"DrtCreateIpv6UdpTransport"
 	,"SetLastError":false
-	,"DllImport":"drttransport"
+	,"DllImport":"drttransport.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4269,7 +4640,7 @@
 },{
 	"Name":"DrtDeleteIpv6UdpTransport"
 	,"SetLastError":false
-	,"DllImport":"drttransport"
+	,"DllImport":"drttransport.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4281,7 +4652,7 @@
 },{
 	"Name":"DrtCreateDerivedKeySecurityProvider"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4295,7 +4666,7 @@
 },{
 	"Name":"DrtCreateDerivedKey"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4308,7 +4679,7 @@
 },{
 	"Name":"DrtDeleteDerivedKeySecurityProvider"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4320,7 +4691,7 @@
 },{
 	"Name":"DrtCreateNullSecurityProvider"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4332,7 +4703,7 @@
 },{
 	"Name":"DrtDeleteNullSecurityProvider"
 	,"SetLastError":false
-	,"DllImport":"drtprov"
+	,"DllImport":"drtprov.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4344,7 +4715,7 @@
 },{
 	"Name":"DrtOpen"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4359,7 +4730,7 @@
 },{
 	"Name":"DrtClose"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4371,7 +4742,7 @@
 },{
 	"Name":"DrtGetEventDataSize"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4384,7 +4755,7 @@
 },{
 	"Name":"DrtGetEventData"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4398,7 +4769,7 @@
 },{
 	"Name":"DrtRegisterKey"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4413,7 +4784,7 @@
 },{
 	"Name":"DrtUpdateKey"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4426,7 +4797,7 @@
 },{
 	"Name":"DrtUnregisterKey"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4438,7 +4809,7 @@
 },{
 	"Name":"DrtStartSearch"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4456,7 +4827,7 @@
 },{
 	"Name":"DrtContinueSearch"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4468,7 +4839,7 @@
 },{
 	"Name":"DrtGetSearchResultSize"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4481,7 +4852,7 @@
 },{
 	"Name":"DrtGetSearchResult"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4495,7 +4866,7 @@
 },{
 	"Name":"DrtGetSearchPathSize"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4508,7 +4879,7 @@
 },{
 	"Name":"DrtGetSearchPath"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4522,7 +4893,7 @@
 },{
 	"Name":"DrtEndSearch"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4534,7 +4905,7 @@
 },{
 	"Name":"DrtGetInstanceName"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4548,7 +4919,7 @@
 },{
 	"Name":"DrtGetInstanceNameSize"
 	,"SetLastError":false
-	,"DllImport":"drt"
+	,"DllImport":"drt.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4561,7 +4932,7 @@
 },{
 	"Name":"PeerDistStartup"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4575,7 +4946,7 @@
 },{
 	"Name":"PeerDistShutdown"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4587,7 +4958,7 @@
 },{
 	"Name":"PeerDistGetStatus"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4600,7 +4971,7 @@
 },{
 	"Name":"PeerDistRegisterForStatusChangeNotification"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4616,7 +4987,7 @@
 },{
 	"Name":"PeerDistUnregisterForStatusChangeNotification"
 	,"SetLastError":true
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4628,7 +4999,7 @@
 },{
 	"Name":"PeerDistServerPublishStream"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4647,7 +5018,7 @@
 },{
 	"Name":"PeerDistServerPublishAddToStream"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4663,7 +5034,7 @@
 },{
 	"Name":"PeerDistServerPublishCompleteStream"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4677,7 +5048,7 @@
 },{
 	"Name":"PeerDistServerCloseStreamHandle"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4690,7 +5061,7 @@
 },{
 	"Name":"PeerDistServerUnpublish"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4704,7 +5075,7 @@
 },{
 	"Name":"PeerDistServerOpenContentInformation"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4723,7 +5094,7 @@
 },{
 	"Name":"PeerDistServerRetrieveContentInformation"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4739,7 +5110,7 @@
 },{
 	"Name":"PeerDistServerCloseContentInformation"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4752,7 +5123,7 @@
 },{
 	"Name":"PeerDistServerCancelAsyncOperation"
 	,"SetLastError":true
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4767,7 +5138,7 @@
 },{
 	"Name":"PeerDistClientOpenContent"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4783,7 +5154,7 @@
 },{
 	"Name":"PeerDistClientCloseContent"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4796,7 +5167,7 @@
 },{
 	"Name":"PeerDistClientAddContentInformation"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4812,7 +5183,7 @@
 },{
 	"Name":"PeerDistClientCompleteContentInformation"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4826,7 +5197,7 @@
 },{
 	"Name":"PeerDistClientAddData"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4842,7 +5213,7 @@
 },{
 	"Name":"PeerDistClientBlockRead"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4859,7 +5230,7 @@
 },{
 	"Name":"PeerDistClientStreamRead"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4876,7 +5247,7 @@
 },{
 	"Name":"PeerDistClientFlushContent"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4892,7 +5263,7 @@
 },{
 	"Name":"PeerDistClientCancelAsyncOperation"
 	,"SetLastError":true
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4906,7 +5277,7 @@
 },{
 	"Name":"PeerDistGetStatusEx"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4919,7 +5290,7 @@
 },{
 	"Name":"PeerDistRegisterForStatusChangeNotificationEx"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4935,7 +5306,7 @@
 },{
 	"Name":"PeerDistGetOverlappedResult"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4949,7 +5320,7 @@
 },{
 	"Name":"PeerDistServerOpenContentInformationEx"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4969,7 +5340,7 @@
 },{
 	"Name":"PeerDistClientGetInformationByHandle"
 	,"SetLastError":false
-	,"DllImport":"PeerDist"
+	,"DllImport":"PeerDist.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

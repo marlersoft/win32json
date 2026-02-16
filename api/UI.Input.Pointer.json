@@ -71,6 +71,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pointerType","Type":{"Kind":"ApiRef","Name":"POINTER_INPUT_TYPE","TargetKind":"Default","Api":"UI.WindowsAndMessaging","Parents":[]},"Attrs":[]}
 		,{"Name":"pointerId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -97,6 +98,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pointerInfo","Type":{"Kind":"ApiRef","Name":"POINTER_INFO","TargetKind":"Default","Api":"UI.Input.Pointer","Parents":[]},"Attrs":[]}
 		,{"Name":"touchFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -114,6 +116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pointerInfo","Type":{"Kind":"ApiRef","Name":"POINTER_INFO","TargetKind":"Default","Api":"UI.Input.Pointer","Parents":[]},"Attrs":[]}
 		,{"Name":"penFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -131,6 +134,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"page","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"usage","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -145,6 +149,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"UI.Input.Pointer","Parents":[]},"Attrs":[]}
 	]
@@ -155,6 +160,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"UI.Input.Pointer","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"m","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Single"}},"Attrs":[]}
@@ -166,6 +172,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 				,{"Name":"_12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -192,7 +199,7 @@
 "Functions":[{
 	"Name":"GetUnpredictedMessagePos"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -203,7 +210,7 @@
 },{
 	"Name":"InitializeTouchInjection"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -216,7 +223,7 @@
 },{
 	"Name":"InjectTouchInput"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -229,7 +236,7 @@
 },{
 	"Name":"GetPointerType"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -242,7 +249,7 @@
 },{
 	"Name":"GetPointerCursorId"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -255,7 +262,7 @@
 },{
 	"Name":"GetPointerInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -268,7 +275,7 @@
 },{
 	"Name":"GetPointerInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -282,7 +289,7 @@
 },{
 	"Name":"GetPointerFrameInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -296,7 +303,7 @@
 },{
 	"Name":"GetPointerFrameInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -311,7 +318,7 @@
 },{
 	"Name":"GetPointerTouchInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -324,7 +331,7 @@
 },{
 	"Name":"GetPointerTouchInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -338,7 +345,7 @@
 },{
 	"Name":"GetPointerFrameTouchInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -352,7 +359,7 @@
 },{
 	"Name":"GetPointerFrameTouchInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -367,7 +374,7 @@
 },{
 	"Name":"GetPointerPenInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -380,7 +387,7 @@
 },{
 	"Name":"GetPointerPenInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -394,7 +401,7 @@
 },{
 	"Name":"GetPointerFramePenInfo"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -408,7 +415,7 @@
 },{
 	"Name":"GetPointerFramePenInfoHistory"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -423,7 +430,7 @@
 },{
 	"Name":"SkipPointerFrameMessages"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -435,7 +442,7 @@
 },{
 	"Name":"InjectSyntheticPointerInput"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -449,7 +456,7 @@
 },{
 	"Name":"EnableMouseInPointer"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -461,7 +468,7 @@
 },{
 	"Name":"IsMouseInPointerEnabled"
 	,"SetLastError":false
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -472,7 +479,7 @@
 },{
 	"Name":"GetPointerInputTransform"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -486,7 +493,7 @@
 },{
 	"Name":"GetPointerDevices"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -499,7 +506,7 @@
 },{
 	"Name":"GetPointerDevice"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -512,7 +519,7 @@
 },{
 	"Name":"GetPointerDeviceProperties"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -526,7 +533,7 @@
 },{
 	"Name":"GetPointerDeviceRects"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -540,7 +547,7 @@
 },{
 	"Name":"GetPointerDeviceCursors"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -554,7 +561,7 @@
 },{
 	"Name":"GetRawPointerDeviceData"
 	,"SetLastError":true
-	,"DllImport":"USER32"
+	,"DllImport":"USER32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

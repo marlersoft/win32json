@@ -374,6 +374,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wButtons","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"bLeftTrigger","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -391,6 +392,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwPacketNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Gamepad","Type":{"Kind":"ApiRef","Name":"XINPUT_GAMEPAD","TargetKind":"Default","Api":"UI.Input.XboxController","Parents":[]},"Attrs":[]}
@@ -403,6 +405,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wLeftMotorSpeed","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wRightMotorSpeed","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -415,6 +418,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"SubType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -430,6 +434,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BatteryType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"BatteryLevel","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -442,6 +447,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"VirtualKey","Type":{"Kind":"ApiRef","Name":"XINPUT_VIRTUAL_KEY","TargetKind":"Default","Api":"UI.Input.XboxController","Parents":[]},"Attrs":[]}
 		,{"Name":"Unicode","Type":{"Kind":"Native","Name":"Char"},"Attrs":[]}
@@ -455,7 +461,7 @@
 "Functions":[{
 	"Name":"XInputGetState"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -468,7 +474,7 @@
 },{
 	"Name":"XInputSetState"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -481,7 +487,7 @@
 },{
 	"Name":"XInputGetCapabilities"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -495,7 +501,7 @@
 },{
 	"Name":"XInputEnable"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -507,7 +513,7 @@
 },{
 	"Name":"XInputGetAudioDeviceIds"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -523,7 +529,7 @@
 },{
 	"Name":"XInputGetBatteryInformation"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -537,7 +543,7 @@
 },{
 	"Name":"XInputGetKeystroke"
 	,"SetLastError":false
-	,"DllImport":"XINPUTUAP"
+	,"DllImport":"XINPUTUAP.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

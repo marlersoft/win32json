@@ -3686,6 +3686,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Elements","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"COMPATIBILITY_CONTEXT_ELEMENT","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}},"Attrs":[]}
@@ -4548,6 +4549,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"m_h","Type":{"Kind":"ApiRef","Name":"MSIHANDLE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
 	]
@@ -4846,6 +4848,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szPatchData","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"ePatchDataType","Type":{"Kind":"ApiRef","Name":"MSIPATCHDATATYPE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -4860,6 +4863,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"szPatchData","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"ePatchDataType","Type":{"Kind":"ApiRef","Name":"MSIPATCHDATATYPE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -4918,6 +4922,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFileHashInfoSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwData","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -5204,6 +5209,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbAssemblyInfo","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwAssemblyFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5219,6 +5225,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5574,6 +5581,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileName","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
 		,{"Name":"FileNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6341,6 +6349,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"TaskType","Type":{"Kind":"ApiRef","Name":"PM_TASK_TYPE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -6353,6 +6362,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ConsumerPID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"ExtensionID","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6365,6 +6375,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"TaskID","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6377,6 +6388,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"TaskID","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6389,6 +6401,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FilterType","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"FilterParameter","Type":{"Kind":"ApiRef","Name":"_FilterParameter_e__Union","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -6400,6 +6413,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Dummy","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"Genre","Type":{"Kind":"ApiRef","Name":"PM_APP_GENRE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -6472,6 +6486,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -6493,6 +6508,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"URIBaseOrAUMID","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"URIFragmentOrArgs","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6505,6 +6521,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -6528,6 +6545,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"PackagePath","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6547,6 +6565,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"PackagePath","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -6563,6 +6582,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProductID","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"PackagePath","Type":{"Kind":"ApiRef","Name":"BSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -9739,6 +9759,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OffsetInOldFile","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"LengthInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9751,6 +9772,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OffsetInOldFile","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"LengthInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9764,6 +9786,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfThisStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OldFileName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -9780,6 +9803,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfThisStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OldFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -9796,6 +9820,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfThisStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OldFileHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -9812,6 +9837,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfThisStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -9827,6 +9853,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"OldFileNameA","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			,{"Name":"OldFileNameW","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -9841,6 +9868,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CountRanges","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Range","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}},"Attrs":[]}
@@ -9852,6 +9880,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"OldOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"OldLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9866,6 +9895,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfThisStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SymbolOptionFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9885,6 +9915,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
 		,{"Name":"uSize","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -9897,6 +9928,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"lpcStart","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Const"]}
 			,{"Name":"lpStart","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -9910,6 +9942,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpStart","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"uSize","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -9922,6 +9955,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HashSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HashValue","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -9934,6 +9968,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FileTypeSet","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"FileType","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -9951,6 +9986,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulAssemblyIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulFileIndexInAssembly","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9963,6 +9999,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulFilenameLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9978,6 +10015,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulEncodedAssemblyIdentityLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10022,6 +10060,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RunLevel","Type":{"Kind":"ApiRef","Name":"ACTCTX_REQUESTED_RUN_LEVEL","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -10049,6 +10088,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Id","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"ACTCTX_COMPATIBILITY_ELEMENT_TYPE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]},"Attrs":[]}
@@ -10062,6 +10102,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulFormatVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10084,6 +10125,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10103,6 +10145,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10122,6 +10165,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ulDataFormatVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10142,7 +10186,7 @@
 "Functions":[{
 	"Name":"MsiCloseHandle"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10154,7 +10198,7 @@
 },{
 	"Name":"MsiCloseAllHandles"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10165,7 +10209,7 @@
 },{
 	"Name":"MsiSetInternalUI"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLUILEVEL","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10178,7 +10222,7 @@
 },{
 	"Name":"MsiSetExternalUIA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLUI_HANDLERA","TargetKind":"FunctionPointer","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10192,7 +10236,7 @@
 },{
 	"Name":"MsiSetExternalUIW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLUI_HANDLERW","TargetKind":"FunctionPointer","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10206,7 +10250,7 @@
 },{
 	"Name":"MsiSetExternalUIRecord"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10221,7 +10265,7 @@
 },{
 	"Name":"MsiEnableLogA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10235,7 +10279,7 @@
 },{
 	"Name":"MsiEnableLogW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10249,7 +10293,7 @@
 },{
 	"Name":"MsiQueryProductStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10261,7 +10305,7 @@
 },{
 	"Name":"MsiQueryProductStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10273,7 +10317,7 @@
 },{
 	"Name":"MsiGetProductInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10288,7 +10332,7 @@
 },{
 	"Name":"MsiGetProductInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10303,7 +10347,7 @@
 },{
 	"Name":"MsiGetProductInfoExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10320,7 +10364,7 @@
 },{
 	"Name":"MsiGetProductInfoExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10337,7 +10381,7 @@
 },{
 	"Name":"MsiInstallProductA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10350,7 +10394,7 @@
 },{
 	"Name":"MsiInstallProductW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10363,7 +10407,7 @@
 },{
 	"Name":"MsiConfigureProductA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10377,7 +10421,7 @@
 },{
 	"Name":"MsiConfigureProductW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10391,7 +10435,7 @@
 },{
 	"Name":"MsiConfigureProductExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10406,7 +10450,7 @@
 },{
 	"Name":"MsiConfigureProductExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10421,7 +10465,7 @@
 },{
 	"Name":"MsiReinstallProductA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10434,7 +10478,7 @@
 },{
 	"Name":"MsiReinstallProductW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10447,7 +10491,7 @@
 },{
 	"Name":"MsiAdvertiseProductExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10464,7 +10508,7 @@
 },{
 	"Name":"MsiAdvertiseProductExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10481,7 +10525,7 @@
 },{
 	"Name":"MsiAdvertiseProductA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10496,7 +10540,7 @@
 },{
 	"Name":"MsiAdvertiseProductW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10511,7 +10555,7 @@
 },{
 	"Name":"MsiProcessAdvertiseScriptA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10527,7 +10571,7 @@
 },{
 	"Name":"MsiProcessAdvertiseScriptW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10543,7 +10587,7 @@
 },{
 	"Name":"MsiAdvertiseScriptA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10558,7 +10602,7 @@
 },{
 	"Name":"MsiAdvertiseScriptW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10573,7 +10617,7 @@
 },{
 	"Name":"MsiGetProductInfoFromScriptA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10592,7 +10636,7 @@
 },{
 	"Name":"MsiGetProductInfoFromScriptW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10611,7 +10655,7 @@
 },{
 	"Name":"MsiGetProductCodeA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10624,7 +10668,7 @@
 },{
 	"Name":"MsiGetProductCodeW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10637,7 +10681,7 @@
 },{
 	"Name":"MsiGetUserInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"USERINFOSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10655,7 +10699,7 @@
 },{
 	"Name":"MsiGetUserInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"USERINFOSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10673,7 +10717,7 @@
 },{
 	"Name":"MsiCollectUserInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10685,7 +10729,7 @@
 },{
 	"Name":"MsiCollectUserInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10697,7 +10741,7 @@
 },{
 	"Name":"MsiApplyPatchA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10712,7 +10756,7 @@
 },{
 	"Name":"MsiApplyPatchW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10727,7 +10771,7 @@
 },{
 	"Name":"MsiGetPatchInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10742,7 +10786,7 @@
 },{
 	"Name":"MsiGetPatchInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10757,7 +10801,7 @@
 },{
 	"Name":"MsiEnumPatchesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10773,7 +10817,7 @@
 },{
 	"Name":"MsiEnumPatchesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10789,7 +10833,7 @@
 },{
 	"Name":"MsiRemovePatchesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10804,7 +10848,7 @@
 },{
 	"Name":"MsiRemovePatchesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10819,7 +10863,7 @@
 },{
 	"Name":"MsiExtractPatchXMLDataA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10834,7 +10878,7 @@
 },{
 	"Name":"MsiExtractPatchXMLDataW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10849,7 +10893,7 @@
 },{
 	"Name":"MsiGetPatchInfoExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10867,7 +10911,7 @@
 },{
 	"Name":"MsiGetPatchInfoExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10885,7 +10929,7 @@
 },{
 	"Name":"MsiApplyMultiplePatchesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10899,7 +10943,7 @@
 },{
 	"Name":"MsiApplyMultiplePatchesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10913,7 +10957,7 @@
 },{
 	"Name":"MsiDeterminePatchSequenceA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10929,7 +10973,7 @@
 },{
 	"Name":"MsiDeterminePatchSequenceW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10945,7 +10989,7 @@
 },{
 	"Name":"MsiDetermineApplicablePatchesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10959,7 +11003,7 @@
 },{
 	"Name":"MsiDetermineApplicablePatchesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10973,7 +11017,7 @@
 },{
 	"Name":"MsiEnumPatchesExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10994,7 +11038,7 @@
 },{
 	"Name":"MsiEnumPatchesExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11015,7 +11059,7 @@
 },{
 	"Name":"MsiQueryFeatureStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11028,7 +11072,7 @@
 },{
 	"Name":"MsiQueryFeatureStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11041,7 +11085,7 @@
 },{
 	"Name":"MsiQueryFeatureStateExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11057,7 +11101,7 @@
 },{
 	"Name":"MsiQueryFeatureStateExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11073,7 +11117,7 @@
 },{
 	"Name":"MsiUseFeatureA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11086,7 +11130,7 @@
 },{
 	"Name":"MsiUseFeatureW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11099,7 +11143,7 @@
 },{
 	"Name":"MsiUseFeatureExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11114,7 +11158,7 @@
 },{
 	"Name":"MsiUseFeatureExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11129,7 +11173,7 @@
 },{
 	"Name":"MsiGetFeatureUsageA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11144,7 +11188,7 @@
 },{
 	"Name":"MsiGetFeatureUsageW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11159,7 +11203,7 @@
 },{
 	"Name":"MsiConfigureFeatureA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11173,7 +11217,7 @@
 },{
 	"Name":"MsiConfigureFeatureW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11187,7 +11231,7 @@
 },{
 	"Name":"MsiReinstallFeatureA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11201,7 +11245,7 @@
 },{
 	"Name":"MsiReinstallFeatureW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11215,7 +11259,7 @@
 },{
 	"Name":"MsiProvideComponentA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11232,7 +11276,7 @@
 },{
 	"Name":"MsiProvideComponentW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11249,7 +11293,7 @@
 },{
 	"Name":"MsiProvideQualifiedComponentA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11265,7 +11309,7 @@
 },{
 	"Name":"MsiProvideQualifiedComponentW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11281,7 +11325,7 @@
 },{
 	"Name":"MsiProvideQualifiedComponentExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11300,7 +11344,7 @@
 },{
 	"Name":"MsiProvideQualifiedComponentExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11319,7 +11363,7 @@
 },{
 	"Name":"MsiGetComponentPathA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11334,7 +11378,7 @@
 },{
 	"Name":"MsiGetComponentPathW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11349,7 +11393,7 @@
 },{
 	"Name":"MsiGetComponentPathExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11366,7 +11410,7 @@
 },{
 	"Name":"MsiGetComponentPathExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11383,7 +11427,7 @@
 },{
 	"Name":"MsiProvideAssemblyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11400,7 +11444,7 @@
 },{
 	"Name":"MsiProvideAssemblyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11417,7 +11461,7 @@
 },{
 	"Name":"MsiQueryComponentStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11433,7 +11477,7 @@
 },{
 	"Name":"MsiQueryComponentStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11449,7 +11493,7 @@
 },{
 	"Name":"MsiEnumProductsA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11462,7 +11506,7 @@
 },{
 	"Name":"MsiEnumProductsW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11475,7 +11519,7 @@
 },{
 	"Name":"MsiEnumProductsExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11494,7 +11538,7 @@
 },{
 	"Name":"MsiEnumProductsExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11513,7 +11557,7 @@
 },{
 	"Name":"MsiEnumRelatedProductsA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11528,7 +11572,7 @@
 },{
 	"Name":"MsiEnumRelatedProductsW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11543,7 +11587,7 @@
 },{
 	"Name":"MsiEnumFeaturesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11558,7 +11602,7 @@
 },{
 	"Name":"MsiEnumFeaturesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11573,7 +11617,7 @@
 },{
 	"Name":"MsiEnumComponentsA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11586,7 +11630,7 @@
 },{
 	"Name":"MsiEnumComponentsW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11599,7 +11643,7 @@
 },{
 	"Name":"MsiEnumComponentsExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11617,7 +11661,7 @@
 },{
 	"Name":"MsiEnumComponentsExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11635,7 +11679,7 @@
 },{
 	"Name":"MsiEnumClientsA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11649,7 +11693,7 @@
 },{
 	"Name":"MsiEnumClientsW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11663,7 +11707,7 @@
 },{
 	"Name":"MsiEnumClientsExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11682,7 +11726,7 @@
 },{
 	"Name":"MsiEnumClientsExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11701,7 +11745,7 @@
 },{
 	"Name":"MsiEnumComponentQualifiersA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11718,7 +11762,7 @@
 },{
 	"Name":"MsiEnumComponentQualifiersW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11735,7 +11779,7 @@
 },{
 	"Name":"MsiOpenProductA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11748,7 +11792,7 @@
 },{
 	"Name":"MsiOpenProductW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11761,7 +11805,7 @@
 },{
 	"Name":"MsiOpenPackageA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11774,7 +11818,7 @@
 },{
 	"Name":"MsiOpenPackageW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11787,7 +11831,7 @@
 },{
 	"Name":"MsiOpenPackageExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11801,7 +11845,7 @@
 },{
 	"Name":"MsiOpenPackageExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11815,7 +11859,7 @@
 },{
 	"Name":"MsiGetPatchFileListA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11830,7 +11874,7 @@
 },{
 	"Name":"MsiGetPatchFileListW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11845,7 +11889,7 @@
 },{
 	"Name":"MsiGetProductPropertyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11860,7 +11904,7 @@
 },{
 	"Name":"MsiGetProductPropertyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11875,7 +11919,7 @@
 },{
 	"Name":"MsiVerifyPackageA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11887,7 +11931,7 @@
 },{
 	"Name":"MsiVerifyPackageW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11899,7 +11943,7 @@
 },{
 	"Name":"MsiGetFeatureInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11917,7 +11961,7 @@
 },{
 	"Name":"MsiGetFeatureInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11935,7 +11979,7 @@
 },{
 	"Name":"MsiInstallMissingComponentA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11949,7 +11993,7 @@
 },{
 	"Name":"MsiInstallMissingComponentW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11963,7 +12007,7 @@
 },{
 	"Name":"MsiInstallMissingFileA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11976,7 +12020,7 @@
 },{
 	"Name":"MsiInstallMissingFileW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -11989,7 +12033,7 @@
 },{
 	"Name":"MsiLocateComponentA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12003,7 +12047,7 @@
 },{
 	"Name":"MsiLocateComponentW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"INSTALLSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12017,7 +12061,7 @@
 },{
 	"Name":"MsiSourceListClearAllA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12031,7 +12075,7 @@
 },{
 	"Name":"MsiSourceListClearAllW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12045,7 +12089,7 @@
 },{
 	"Name":"MsiSourceListAddSourceA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12060,7 +12104,7 @@
 },{
 	"Name":"MsiSourceListAddSourceW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12075,7 +12119,7 @@
 },{
 	"Name":"MsiSourceListForceResolutionA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12089,7 +12133,7 @@
 },{
 	"Name":"MsiSourceListForceResolutionW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12103,7 +12147,7 @@
 },{
 	"Name":"MsiSourceListAddSourceExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12120,7 +12164,7 @@
 },{
 	"Name":"MsiSourceListAddSourceExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12137,7 +12181,7 @@
 },{
 	"Name":"MsiSourceListAddMediaDiskA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12155,7 +12199,7 @@
 },{
 	"Name":"MsiSourceListAddMediaDiskW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12173,7 +12217,7 @@
 },{
 	"Name":"MsiSourceListClearSourceA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12189,7 +12233,7 @@
 },{
 	"Name":"MsiSourceListClearSourceW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12205,7 +12249,7 @@
 },{
 	"Name":"MsiSourceListClearMediaDiskA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12221,7 +12265,7 @@
 },{
 	"Name":"MsiSourceListClearMediaDiskW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12237,7 +12281,7 @@
 },{
 	"Name":"MsiSourceListClearAllExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12252,7 +12296,7 @@
 },{
 	"Name":"MsiSourceListClearAllExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12267,7 +12311,7 @@
 },{
 	"Name":"MsiSourceListForceResolutionExA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12282,7 +12326,7 @@
 },{
 	"Name":"MsiSourceListForceResolutionExW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12297,7 +12341,7 @@
 },{
 	"Name":"MsiSourceListSetInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12314,7 +12358,7 @@
 },{
 	"Name":"MsiSourceListSetInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12331,7 +12375,7 @@
 },{
 	"Name":"MsiSourceListGetInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12349,7 +12393,7 @@
 },{
 	"Name":"MsiSourceListGetInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12367,7 +12411,7 @@
 },{
 	"Name":"MsiSourceListEnumSourcesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12385,7 +12429,7 @@
 },{
 	"Name":"MsiSourceListEnumSourcesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12403,7 +12447,7 @@
 },{
 	"Name":"MsiSourceListEnumMediaDisksA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12424,7 +12468,7 @@
 },{
 	"Name":"MsiSourceListEnumMediaDisksW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12445,7 +12489,7 @@
 },{
 	"Name":"MsiGetFileVersionA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12461,7 +12505,7 @@
 },{
 	"Name":"MsiGetFileVersionW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12477,7 +12521,7 @@
 },{
 	"Name":"MsiGetFileHashA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12491,7 +12535,7 @@
 },{
 	"Name":"MsiGetFileHashW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12505,7 +12549,7 @@
 },{
 	"Name":"MsiGetFileSignatureInformationA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12521,7 +12565,7 @@
 },{
 	"Name":"MsiGetFileSignatureInformationW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12537,7 +12581,7 @@
 },{
 	"Name":"MsiGetShortcutTargetA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12552,7 +12596,7 @@
 },{
 	"Name":"MsiGetShortcutTargetW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12567,7 +12611,7 @@
 },{
 	"Name":"MsiIsProductElevatedA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12580,7 +12624,7 @@
 },{
 	"Name":"MsiIsProductElevatedW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12593,7 +12637,7 @@
 },{
 	"Name":"MsiNotifySidChangeA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12606,7 +12650,7 @@
 },{
 	"Name":"MsiNotifySidChangeW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12619,7 +12663,7 @@
 },{
 	"Name":"MsiBeginTransactionA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12634,7 +12678,7 @@
 },{
 	"Name":"MsiBeginTransactionW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12649,7 +12693,7 @@
 },{
 	"Name":"MsiEndTransaction"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12661,7 +12705,7 @@
 },{
 	"Name":"MsiJoinTransaction"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12675,7 +12719,7 @@
 },{
 	"Name":"MsiDatabaseOpenViewA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12689,7 +12733,7 @@
 },{
 	"Name":"MsiDatabaseOpenViewW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12703,7 +12747,7 @@
 },{
 	"Name":"MsiViewGetErrorA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIDBERROR","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12717,7 +12761,7 @@
 },{
 	"Name":"MsiViewGetErrorW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIDBERROR","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12731,7 +12775,7 @@
 },{
 	"Name":"MsiViewExecute"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12744,7 +12788,7 @@
 },{
 	"Name":"MsiViewFetch"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12757,7 +12801,7 @@
 },{
 	"Name":"MsiViewModify"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12771,7 +12815,7 @@
 },{
 	"Name":"MsiViewGetColumnInfo"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12785,7 +12829,7 @@
 },{
 	"Name":"MsiViewClose"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12797,7 +12841,7 @@
 },{
 	"Name":"MsiDatabaseGetPrimaryKeysA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12811,7 +12855,7 @@
 },{
 	"Name":"MsiDatabaseGetPrimaryKeysW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12825,7 +12869,7 @@
 },{
 	"Name":"MsiDatabaseIsTablePersistentA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSICONDITION","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12838,7 +12882,7 @@
 },{
 	"Name":"MsiDatabaseIsTablePersistentW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSICONDITION","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12851,7 +12895,7 @@
 },{
 	"Name":"MsiGetSummaryInformationA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12866,7 +12910,7 @@
 },{
 	"Name":"MsiGetSummaryInformationW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12881,7 +12925,7 @@
 },{
 	"Name":"MsiSummaryInfoGetPropertyCount"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12894,7 +12938,7 @@
 },{
 	"Name":"MsiSummaryInfoSetPropertyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12911,7 +12955,7 @@
 },{
 	"Name":"MsiSummaryInfoSetPropertyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12928,7 +12972,7 @@
 },{
 	"Name":"MsiSummaryInfoGetPropertyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12946,7 +12990,7 @@
 },{
 	"Name":"MsiSummaryInfoGetPropertyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12964,7 +13008,7 @@
 },{
 	"Name":"MsiSummaryInfoPersist"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12976,7 +13020,7 @@
 },{
 	"Name":"MsiOpenDatabaseA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -12990,7 +13034,7 @@
 },{
 	"Name":"MsiOpenDatabaseW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13004,7 +13048,7 @@
 },{
 	"Name":"MsiDatabaseImportA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13018,7 +13062,7 @@
 },{
 	"Name":"MsiDatabaseImportW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13032,7 +13076,7 @@
 },{
 	"Name":"MsiDatabaseExportA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13047,7 +13091,7 @@
 },{
 	"Name":"MsiDatabaseExportW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13062,7 +13106,7 @@
 },{
 	"Name":"MsiDatabaseMergeA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13076,7 +13120,7 @@
 },{
 	"Name":"MsiDatabaseMergeW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13090,7 +13134,7 @@
 },{
 	"Name":"MsiDatabaseGenerateTransformA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13106,7 +13150,7 @@
 },{
 	"Name":"MsiDatabaseGenerateTransformW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13122,7 +13166,7 @@
 },{
 	"Name":"MsiDatabaseApplyTransformA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13136,7 +13180,7 @@
 },{
 	"Name":"MsiDatabaseApplyTransformW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13150,7 +13194,7 @@
 },{
 	"Name":"MsiCreateTransformSummaryInfoA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13166,7 +13210,7 @@
 },{
 	"Name":"MsiCreateTransformSummaryInfoW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13182,7 +13226,7 @@
 },{
 	"Name":"MsiDatabaseCommit"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13194,7 +13238,7 @@
 },{
 	"Name":"MsiGetDatabaseState"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIDBSTATE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13206,7 +13250,7 @@
 },{
 	"Name":"MsiCreateRecord"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIHANDLE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13218,7 +13262,7 @@
 },{
 	"Name":"MsiRecordIsNull"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13231,7 +13275,7 @@
 },{
 	"Name":"MsiRecordDataSize"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13244,7 +13288,7 @@
 },{
 	"Name":"MsiRecordSetInteger"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13258,7 +13302,7 @@
 },{
 	"Name":"MsiRecordSetStringA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13272,7 +13316,7 @@
 },{
 	"Name":"MsiRecordSetStringW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13286,7 +13330,7 @@
 },{
 	"Name":"MsiRecordGetInteger"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13299,7 +13343,7 @@
 },{
 	"Name":"MsiRecordGetStringA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13314,7 +13358,7 @@
 },{
 	"Name":"MsiRecordGetStringW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13329,7 +13373,7 @@
 },{
 	"Name":"MsiRecordGetFieldCount"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13341,7 +13385,7 @@
 },{
 	"Name":"MsiRecordSetStreamA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13355,7 +13399,7 @@
 },{
 	"Name":"MsiRecordSetStreamW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13369,7 +13413,7 @@
 },{
 	"Name":"MsiRecordReadStream"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13384,7 +13428,7 @@
 },{
 	"Name":"MsiRecordClearData"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13396,7 +13440,7 @@
 },{
 	"Name":"MsiGetActiveDatabase"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIHANDLE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13408,7 +13452,7 @@
 },{
 	"Name":"MsiSetPropertyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13422,7 +13466,7 @@
 },{
 	"Name":"MsiSetPropertyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13436,7 +13480,7 @@
 },{
 	"Name":"MsiGetPropertyA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13451,7 +13495,7 @@
 },{
 	"Name":"MsiGetPropertyW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13466,7 +13510,7 @@
 },{
 	"Name":"MsiGetLanguage"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt16"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13478,7 +13522,7 @@
 },{
 	"Name":"MsiGetMode"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13491,7 +13535,7 @@
 },{
 	"Name":"MsiSetMode"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13505,7 +13549,7 @@
 },{
 	"Name":"MsiFormatRecordA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13520,7 +13564,7 @@
 },{
 	"Name":"MsiFormatRecordW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13535,7 +13579,7 @@
 },{
 	"Name":"MsiDoActionA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13548,7 +13592,7 @@
 },{
 	"Name":"MsiDoActionW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13561,7 +13605,7 @@
 },{
 	"Name":"MsiSequenceA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13575,7 +13619,7 @@
 },{
 	"Name":"MsiSequenceW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13589,7 +13633,7 @@
 },{
 	"Name":"MsiProcessMessage"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13603,7 +13647,7 @@
 },{
 	"Name":"MsiEvaluateConditionA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSICONDITION","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13616,7 +13660,7 @@
 },{
 	"Name":"MsiEvaluateConditionW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSICONDITION","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13629,7 +13673,7 @@
 },{
 	"Name":"MsiGetFeatureStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13644,7 +13688,7 @@
 },{
 	"Name":"MsiGetFeatureStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13659,7 +13703,7 @@
 },{
 	"Name":"MsiSetFeatureStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13673,7 +13717,7 @@
 },{
 	"Name":"MsiSetFeatureStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13687,7 +13731,7 @@
 },{
 	"Name":"MsiSetFeatureAttributesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13701,7 +13745,7 @@
 },{
 	"Name":"MsiSetFeatureAttributesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13715,7 +13759,7 @@
 },{
 	"Name":"MsiGetComponentStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13730,7 +13774,7 @@
 },{
 	"Name":"MsiGetComponentStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13745,7 +13789,7 @@
 },{
 	"Name":"MsiSetComponentStateA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13759,7 +13803,7 @@
 },{
 	"Name":"MsiSetComponentStateW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13773,7 +13817,7 @@
 },{
 	"Name":"MsiGetFeatureCostA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13789,7 +13833,7 @@
 },{
 	"Name":"MsiGetFeatureCostW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13805,7 +13849,7 @@
 },{
 	"Name":"MsiEnumComponentCostsA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13824,7 +13868,7 @@
 },{
 	"Name":"MsiEnumComponentCostsW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13843,7 +13887,7 @@
 },{
 	"Name":"MsiSetInstallLevel"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13856,7 +13900,7 @@
 },{
 	"Name":"MsiGetFeatureValidStatesA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13870,7 +13914,7 @@
 },{
 	"Name":"MsiGetFeatureValidStatesW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13884,7 +13928,7 @@
 },{
 	"Name":"MsiGetSourcePathA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13899,7 +13943,7 @@
 },{
 	"Name":"MsiGetSourcePathW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13914,7 +13958,7 @@
 },{
 	"Name":"MsiGetTargetPathA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13929,7 +13973,7 @@
 },{
 	"Name":"MsiGetTargetPathW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13944,7 +13988,7 @@
 },{
 	"Name":"MsiSetTargetPathA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13958,7 +14002,7 @@
 },{
 	"Name":"MsiSetTargetPathW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13972,7 +14016,7 @@
 },{
 	"Name":"MsiVerifyDiskSpace"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13984,7 +14028,7 @@
 },{
 	"Name":"MsiEnableUIPreview"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -13997,7 +14041,7 @@
 },{
 	"Name":"MsiPreviewDialogA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14010,7 +14054,7 @@
 },{
 	"Name":"MsiPreviewDialogW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14023,7 +14067,7 @@
 },{
 	"Name":"MsiPreviewBillboardA"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14037,7 +14081,7 @@
 },{
 	"Name":"MsiPreviewBillboardW"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14051,7 +14095,7 @@
 },{
 	"Name":"MsiGetLastErrorRecord"
 	,"SetLastError":false
-	,"DllImport":"msi"
+	,"DllImport":"msi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"MSIHANDLE","TargetKind":"Default","Api":"System.ApplicationInstallationAndServicing","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14062,7 +14106,7 @@
 },{
 	"Name":"SfcGetNextProtectedFile"
 	,"SetLastError":true
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14075,7 +14119,7 @@
 },{
 	"Name":"SfcIsFileProtected"
 	,"SetLastError":false
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14088,7 +14132,7 @@
 },{
 	"Name":"SfcIsKeyProtected"
 	,"SetLastError":false
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14102,7 +14146,7 @@
 },{
 	"Name":"SfpVerifyFile"
 	,"SetLastError":false
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14116,7 +14160,7 @@
 },{
 	"Name":"CreatePatchFileA"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14132,7 +14176,7 @@
 },{
 	"Name":"CreatePatchFileW"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14148,7 +14192,7 @@
 },{
 	"Name":"CreatePatchFileByHandles"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14164,7 +14208,7 @@
 },{
 	"Name":"CreatePatchFileExA"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14183,7 +14227,7 @@
 },{
 	"Name":"CreatePatchFileExW"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14202,7 +14246,7 @@
 },{
 	"Name":"CreatePatchFileByHandlesEx"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14221,7 +14265,7 @@
 },{
 	"Name":"ExtractPatchHeaderToFileA"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14234,7 +14278,7 @@
 },{
 	"Name":"ExtractPatchHeaderToFileW"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14247,7 +14291,7 @@
 },{
 	"Name":"ExtractPatchHeaderToFileByHandles"
 	,"SetLastError":false
-	,"DllImport":"mspatchc"
+	,"DllImport":"mspatchc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14260,7 +14304,7 @@
 },{
 	"Name":"TestApplyPatchToFileA"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14274,7 +14318,7 @@
 },{
 	"Name":"TestApplyPatchToFileW"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14288,7 +14332,7 @@
 },{
 	"Name":"TestApplyPatchToFileByHandles"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14302,7 +14346,7 @@
 },{
 	"Name":"TestApplyPatchToFileByBuffers"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14319,7 +14363,7 @@
 },{
 	"Name":"ApplyPatchToFileA"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14334,7 +14378,7 @@
 },{
 	"Name":"ApplyPatchToFileW"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14349,7 +14393,7 @@
 },{
 	"Name":"ApplyPatchToFileByHandles"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14364,7 +14408,7 @@
 },{
 	"Name":"ApplyPatchToFileExA"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14381,7 +14425,7 @@
 },{
 	"Name":"ApplyPatchToFileExW"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14398,7 +14442,7 @@
 },{
 	"Name":"ApplyPatchToFileByHandlesEx"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14415,7 +14459,7 @@
 },{
 	"Name":"ApplyPatchToFileByBuffers"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14437,7 +14481,7 @@
 },{
 	"Name":"GetFilePatchSignatureA"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14457,7 +14501,7 @@
 },{
 	"Name":"GetFilePatchSignatureW"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14477,7 +14521,7 @@
 },{
 	"Name":"GetFilePatchSignatureByHandle"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14497,7 +14541,7 @@
 },{
 	"Name":"GetFilePatchSignatureByBuffer"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14518,7 +14562,7 @@
 },{
 	"Name":"NormalizeFileForPatchSignature"
 	,"SetLastError":false
-	,"DllImport":"mspatcha"
+	,"DllImport":"mspatcha.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14539,7 +14583,7 @@
 },{
 	"Name":"GetDeltaInfoB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14552,7 +14596,7 @@
 },{
 	"Name":"GetDeltaInfoA"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14565,7 +14609,7 @@
 },{
 	"Name":"GetDeltaInfoW"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14578,7 +14622,7 @@
 },{
 	"Name":"ApplyDeltaGetReverseB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14595,7 +14639,7 @@
 },{
 	"Name":"ApplyDeltaB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14610,7 +14654,7 @@
 },{
 	"Name":"ApplyDeltaProvidedB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14626,7 +14670,7 @@
 },{
 	"Name":"ApplyDeltaA"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14641,7 +14685,7 @@
 },{
 	"Name":"ApplyDeltaW"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14656,7 +14700,7 @@
 },{
 	"Name":"CreateDeltaB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14678,7 +14722,7 @@
 },{
 	"Name":"CreateDeltaA"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14700,7 +14744,7 @@
 },{
 	"Name":"CreateDeltaW"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14722,7 +14766,7 @@
 },{
 	"Name":"GetDeltaSignatureB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14737,7 +14781,7 @@
 },{
 	"Name":"GetDeltaSignatureA"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14752,7 +14796,7 @@
 },{
 	"Name":"GetDeltaSignatureW"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14767,7 +14811,7 @@
 },{
 	"Name":"DeltaNormalizeProvidedB"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14783,7 +14827,7 @@
 },{
 	"Name":"DeltaFree"
 	,"SetLastError":false
-	,"DllImport":"msdelta"
+	,"DllImport":"msdelta.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14795,7 +14839,7 @@
 },{
 	"Name":"CreateActCtxA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14807,7 +14851,7 @@
 },{
 	"Name":"CreateActCtxW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14819,7 +14863,7 @@
 },{
 	"Name":"AddRefActCtx"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14831,7 +14875,7 @@
 },{
 	"Name":"ReleaseActCtx"
 	,"SetLastError":false
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14843,7 +14887,7 @@
 },{
 	"Name":"ZombifyActCtx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14855,7 +14899,7 @@
 },{
 	"Name":"ActivateActCtx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14868,7 +14912,7 @@
 },{
 	"Name":"DeactivateActCtx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14881,7 +14925,7 @@
 },{
 	"Name":"GetCurrentActCtx"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14893,7 +14937,7 @@
 },{
 	"Name":"FindActCtxSectionStringA"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14909,7 +14953,7 @@
 },{
 	"Name":"FindActCtxSectionStringW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14925,7 +14969,7 @@
 },{
 	"Name":"FindActCtxSectionGuid"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14941,7 +14985,7 @@
 },{
 	"Name":"QueryActCtxW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14959,7 +15003,7 @@
 },{
 	"Name":"QueryActCtxSettingsW"
 	,"SetLastError":true
-	,"DllImport":"KERNEL32"
+	,"DllImport":"KERNEL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

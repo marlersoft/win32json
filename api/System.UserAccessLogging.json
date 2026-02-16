@@ -8,6 +8,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RoleGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -21,7 +22,7 @@
 "Functions":[{
 	"Name":"UalStart"
 	,"SetLastError":false
-	,"DllImport":"ualapi"
+	,"DllImport":"ualapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -33,7 +34,7 @@
 },{
 	"Name":"UalStop"
 	,"SetLastError":false
-	,"DllImport":"ualapi"
+	,"DllImport":"ualapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -45,7 +46,7 @@
 },{
 	"Name":"UalInstrument"
 	,"SetLastError":false
-	,"DllImport":"ualapi"
+	,"DllImport":"ualapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -57,7 +58,7 @@
 },{
 	"Name":"UalRegisterProduct"
 	,"SetLastError":false
-	,"DllImport":"ualapi"
+	,"DllImport":"ualapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

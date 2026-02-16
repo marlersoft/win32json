@@ -47,6 +47,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BasicInfo","Type":{"Kind":"ApiRef","Name":"FILE_BASIC_INFO","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"FileSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -74,6 +75,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RelativeFileName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 		,{"Name":"FsMetadata","Type":{"Kind":"ApiRef","Name":"CF_FS_METADATA","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -112,6 +114,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -129,6 +132,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BuildNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RevisionNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -170,6 +174,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"us","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -196,6 +201,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"us","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -207,6 +213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Primary","Type":{"Kind":"ApiRef","Name":"CF_HYDRATION_POLICY_PRIMARY_USHORT","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 		,{"Name":"Modifier","Type":{"Kind":"ApiRef","Name":"CF_HYDRATION_POLICY_MODIFIER_USHORT","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -232,6 +239,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"us","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -254,6 +262,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"us","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 	]
@@ -265,6 +274,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Primary","Type":{"Kind":"ApiRef","Name":"CF_POPULATION_POLICY_PRIMARY_USHORT","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 		,{"Name":"Modifier","Type":{"Kind":"ApiRef","Name":"CF_POPULATION_POLICY_MODIFIER_USHORT","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -328,6 +338,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Hydration","Type":{"Kind":"ApiRef","Name":"CF_HYDRATION_POLICY","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -344,6 +355,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProviderName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -362,6 +374,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ConnectionKey","Type":{"Kind":"ApiRef","Name":"CF_CONNECTION_KEY","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -554,6 +567,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ParamSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -565,6 +579,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Cancel","Type":{"Kind":"ApiRef","Name":"_Cancel_e__Struct","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"FetchData","Type":{"Kind":"ApiRef","Name":"_FetchData_e__Struct","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -586,6 +601,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_RENAME_COMPLETION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"SourcePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -598,6 +614,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_RENAME_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"TargetPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -610,6 +627,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DELETE_COMPLETION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 			]
@@ -621,6 +639,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DELETE_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 			]
@@ -632,6 +651,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DEHYDRATE_COMPLETION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"Reason","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DEHYDRATION_REASON","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -644,6 +664,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DEHYDRATE_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"Reason","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_DEHYDRATION_REASON","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -656,6 +677,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_CLOSE_COMPLETION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 			]
@@ -667,6 +689,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_OPEN_COMPLETION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 			]
@@ -678,6 +701,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_FETCH_PLACEHOLDERS_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"Pattern","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -690,6 +714,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_VALIDATE_DATA_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"RequiredFileOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -703,6 +728,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_FETCH_DATA_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"RequiredFileOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -720,6 +746,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_CANCEL_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union","_Cancel_e__Struct"]},"Attrs":[]}
@@ -731,6 +758,7 @@
 				,"Kind":"Union"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"FetchData","Type":{"Kind":"ApiRef","Name":"_FetchData_e__Struct","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union","_Cancel_e__Struct","_Anonymous_e__Union"]},"Attrs":[]}
 				]
@@ -741,6 +769,7 @@
 					,"Kind":"Struct"
 					,"Size":0
 					,"PackingSize":0
+					,"Attrs":[]
 					,"Fields":[
 						{"Name":"FileOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 						,{"Name":"Length","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -794,6 +823,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK_TYPE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 		,{"Name":"Callback","Type":{"Kind":"ApiRef","Name":"CF_CALLBACK","TargetKind":"FunctionPointer","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -838,6 +868,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Code","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -854,6 +885,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StructSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_TYPE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -962,6 +994,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ParamSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -973,6 +1006,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"TransferData","Type":{"Kind":"ApiRef","Name":"_TransferData_e__Struct","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"RetrieveData","Type":{"Kind":"ApiRef","Name":"_RetrieveData_e__Struct","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -990,6 +1024,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_ACK_DELETE_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1002,6 +1037,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_ACK_RENAME_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1014,6 +1050,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_ACK_DEHYDRATE_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1028,6 +1065,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_TRANSFER_PLACEHOLDERS_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1044,6 +1082,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_RESTART_HYDRATION_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"FsMetadata","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CF_FS_METADATA","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]}},"Attrs":["Const"]}
@@ -1058,6 +1097,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_ACK_DATA_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1072,6 +1112,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_RETRIEVE_DATA_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -1087,6 +1128,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"CF_OPERATION_TRANSFER_DATA_FLAGS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionStatus","Type":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1131,6 +1173,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StartingOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1297,6 +1340,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PinState","Type":{"Kind":"ApiRef","Name":"CF_PIN_STATE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 		,{"Name":"InSyncState","Type":{"Kind":"ApiRef","Name":"CF_IN_SYNC_STATE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -1313,6 +1357,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OnDiskDataSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ValidatedDataSize","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -1346,6 +1391,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SyncRootFileId","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -1357,6 +1403,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProviderStatus","Type":{"Kind":"ApiRef","Name":"CF_SYNC_PROVIDER_STATUS","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
 		,{"Name":"ProviderName","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -1370,6 +1417,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SyncRootFileId","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"HydrationPolicy","Type":{"Kind":"ApiRef","Name":"CF_HYDRATION_POLICY","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]},"Attrs":[]}
@@ -1401,7 +1449,7 @@
 "Functions":[{
 	"Name":"CfGetPlatformInfo"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1413,7 +1461,7 @@
 },{
 	"Name":"CfRegisterSyncRoot"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1428,7 +1476,7 @@
 },{
 	"Name":"CfUnregisterSyncRoot"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1440,7 +1488,7 @@
 },{
 	"Name":"CfConnectSyncRoot"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1456,7 +1504,7 @@
 },{
 	"Name":"CfDisconnectSyncRoot"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1468,7 +1516,7 @@
 },{
 	"Name":"CfGetTransferKey"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1481,7 +1529,7 @@
 },{
 	"Name":"CfReleaseTransferKey"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1494,7 +1542,7 @@
 },{
 	"Name":"CfExecute"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1507,7 +1555,7 @@
 },{
 	"Name":"CfUpdateSyncProviderStatus"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1520,7 +1568,7 @@
 },{
 	"Name":"CfQuerySyncProviderStatus"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1533,7 +1581,7 @@
 },{
 	"Name":"CfReportSyncStatus"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1546,7 +1594,7 @@
 },{
 	"Name":"CfCreatePlaceholders"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1562,7 +1610,7 @@
 },{
 	"Name":"CfOpenFileWithOplock"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1576,7 +1624,7 @@
 },{
 	"Name":"CfReferenceProtectedHandle"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1588,7 +1636,7 @@
 },{
 	"Name":"CfGetWin32HandleFromProtectedHandle"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1600,7 +1648,7 @@
 },{
 	"Name":"CfReleaseProtectedHandle"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1612,7 +1660,7 @@
 },{
 	"Name":"CfCloseHandle"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1624,7 +1672,7 @@
 },{
 	"Name":"CfConvertToPlaceholder"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1641,7 +1689,7 @@
 },{
 	"Name":"CfUpdatePlaceholder"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1661,7 +1709,7 @@
 },{
 	"Name":"CfRevertPlaceholder"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1675,7 +1723,7 @@
 },{
 	"Name":"CfHydratePlaceholder"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1691,7 +1739,7 @@
 },{
 	"Name":"CfDehydratePlaceholder"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1707,7 +1755,7 @@
 },{
 	"Name":"CfSetPinState"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1722,7 +1770,7 @@
 },{
 	"Name":"CfSetInSyncState"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1737,7 +1785,7 @@
 },{
 	"Name":"CfSetCorrelationVector"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1750,7 +1798,7 @@
 },{
 	"Name":"CfGetCorrelationVector"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1763,7 +1811,7 @@
 },{
 	"Name":"CfGetPlaceholderStateFromAttributeTag"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CF_PLACEHOLDER_STATE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1776,7 +1824,7 @@
 },{
 	"Name":"CfGetPlaceholderStateFromFileInfo"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CF_PLACEHOLDER_STATE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1789,7 +1837,7 @@
 },{
 	"Name":"CfGetPlaceholderStateFromFindData"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"CF_PLACEHOLDER_STATE","TargetKind":"Default","Api":"Storage.CloudFilters","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1801,7 +1849,7 @@
 },{
 	"Name":"CfGetPlaceholderInfo"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1817,7 +1865,7 @@
 },{
 	"Name":"CfGetSyncRootInfoByPath"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1833,7 +1881,7 @@
 },{
 	"Name":"CfGetSyncRootInfoByHandle"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1849,7 +1897,7 @@
 },{
 	"Name":"CfGetPlaceholderRangeInfo"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1867,7 +1915,7 @@
 },{
 	"Name":"CfReportProviderProgress"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1882,7 +1930,7 @@
 },{
 	"Name":"CfReportProviderProgress2"
 	,"SetLastError":false
-	,"DllImport":"cldapi"
+	,"DllImport":"cldapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

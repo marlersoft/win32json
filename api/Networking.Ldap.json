@@ -2013,6 +2013,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ld_sb","Type":{"Kind":"ApiRef","Name":"_ld_sb_e__Struct","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]},"Attrs":[]}
 		,{"Name":"ld_host","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2038,6 +2039,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"sb_sd","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 			,{"Name":"Reserved1","Type":{"Kind":"Array","Shape":{"Size":41},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2053,6 +2055,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"tv_sec","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"tv_usec","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -2065,6 +2068,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"bv_len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bv_val","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2077,6 +2081,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lm_msgid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lm_msgtype","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2100,6 +2105,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldctl_oid","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 		,{"Name":"ldctl_value","Type":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]},"Attrs":[]}
@@ -2113,6 +2119,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldctl_oid","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 		,{"Name":"ldctl_value","Type":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]},"Attrs":[]}
@@ -2126,6 +2133,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"mod_op","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"mod_type","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2138,6 +2146,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"modv_strvals","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"modv_bvals","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}},"Attrs":[]}
@@ -2151,6 +2160,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"mod_op","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"mod_type","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2163,6 +2173,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"modv_strvals","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"modv_bvals","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}},"Attrs":[]}
@@ -2176,6 +2187,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"opaque","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 	]
@@ -2187,6 +2199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lv_size","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lv_major","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2200,6 +2213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldapai_info_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ldapai_api_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -2216,6 +2230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldapai_info_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ldapai_api_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -2232,6 +2247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldapaif_info_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ldapaif_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -2245,6 +2261,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldapaif_info_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ldapaif_name","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2270,6 +2287,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -2280,6 +2298,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sk_attrtype","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 		,{"Name":"sk_matchruleoid","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2293,6 +2312,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sk_attrtype","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 		,{"Name":"sk_matchruleoid","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
@@ -2306,6 +2326,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ldvlv_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ldvlv_before_count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2376,6 +2397,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SizeOfCallbacks","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"QueryForConnection","Type":{"Kind":"ApiRef","Name":"QUERYFORCONNECTION","TargetKind":"FunctionPointer","Api":"Networking.Ldap","Parents":[]},"Attrs":[]}
@@ -2415,7 +2437,7 @@
 "Functions":[{
 	"Name":"ldap_openW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2428,7 +2450,7 @@
 },{
 	"Name":"ldap_openA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2441,7 +2463,7 @@
 },{
 	"Name":"ldap_initW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2454,7 +2476,7 @@
 },{
 	"Name":"ldap_initA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2467,7 +2489,7 @@
 },{
 	"Name":"ldap_sslinitW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2481,7 +2503,7 @@
 },{
 	"Name":"ldap_sslinitA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2495,7 +2517,7 @@
 },{
 	"Name":"ldap_connect"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2508,7 +2530,7 @@
 },{
 	"Name":"ldap_open"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2521,7 +2543,7 @@
 },{
 	"Name":"ldap_init"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2534,7 +2556,7 @@
 },{
 	"Name":"ldap_sslinit"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2548,7 +2570,7 @@
 },{
 	"Name":"cldap_openW"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2561,7 +2583,7 @@
 },{
 	"Name":"cldap_openA"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2574,7 +2596,7 @@
 },{
 	"Name":"cldap_open"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2587,7 +2609,7 @@
 },{
 	"Name":"ldap_unbind"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2599,7 +2621,7 @@
 },{
 	"Name":"ldap_unbind_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2611,7 +2633,7 @@
 },{
 	"Name":"ldap_get_option"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2625,7 +2647,7 @@
 },{
 	"Name":"ldap_get_optionW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2639,7 +2661,7 @@
 },{
 	"Name":"ldap_set_option"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2653,7 +2675,7 @@
 },{
 	"Name":"ldap_set_optionW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2667,7 +2689,7 @@
 },{
 	"Name":"ldap_simple_bindW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2681,7 +2703,7 @@
 },{
 	"Name":"ldap_simple_bindA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2695,7 +2717,7 @@
 },{
 	"Name":"ldap_simple_bind_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2709,7 +2731,7 @@
 },{
 	"Name":"ldap_simple_bind_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2723,7 +2745,7 @@
 },{
 	"Name":"ldap_bindW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2738,7 +2760,7 @@
 },{
 	"Name":"ldap_bindA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2753,7 +2775,7 @@
 },{
 	"Name":"ldap_bind_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2768,7 +2790,7 @@
 },{
 	"Name":"ldap_bind_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2783,7 +2805,7 @@
 },{
 	"Name":"ldap_sasl_bindA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2801,7 +2823,7 @@
 },{
 	"Name":"ldap_sasl_bindW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2819,7 +2841,7 @@
 },{
 	"Name":"ldap_sasl_bind_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2837,7 +2859,7 @@
 },{
 	"Name":"ldap_sasl_bind_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2855,7 +2877,7 @@
 },{
 	"Name":"ldap_simple_bind"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2869,7 +2891,7 @@
 },{
 	"Name":"ldap_simple_bind_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2883,7 +2905,7 @@
 },{
 	"Name":"ldap_bind"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2898,7 +2920,7 @@
 },{
 	"Name":"ldap_bind_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2913,7 +2935,7 @@
 },{
 	"Name":"ldap_searchW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2930,7 +2952,7 @@
 },{
 	"Name":"ldap_searchA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2947,7 +2969,7 @@
 },{
 	"Name":"ldap_search_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2965,7 +2987,7 @@
 },{
 	"Name":"ldap_search_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2983,7 +3005,7 @@
 },{
 	"Name":"ldap_search_stW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3002,7 +3024,7 @@
 },{
 	"Name":"ldap_search_stA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3021,7 +3043,7 @@
 },{
 	"Name":"ldap_search_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3043,7 +3065,7 @@
 },{
 	"Name":"ldap_search_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3065,7 +3087,7 @@
 },{
 	"Name":"ldap_search_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3087,7 +3109,7 @@
 },{
 	"Name":"ldap_search_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3109,7 +3131,7 @@
 },{
 	"Name":"ldap_search"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3126,7 +3148,7 @@
 },{
 	"Name":"ldap_search_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3144,7 +3166,7 @@
 },{
 	"Name":"ldap_search_st"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3163,7 +3185,7 @@
 },{
 	"Name":"ldap_search_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3185,7 +3207,7 @@
 },{
 	"Name":"ldap_search_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3207,7 +3229,7 @@
 },{
 	"Name":"ldap_check_filterW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3220,7 +3242,7 @@
 },{
 	"Name":"ldap_check_filterA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3233,7 +3255,7 @@
 },{
 	"Name":"ldap_modifyW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3247,7 +3269,7 @@
 },{
 	"Name":"ldap_modifyA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3261,7 +3283,7 @@
 },{
 	"Name":"ldap_modify_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3275,7 +3297,7 @@
 },{
 	"Name":"ldap_modify_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3289,7 +3311,7 @@
 },{
 	"Name":"ldap_modify_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3306,7 +3328,7 @@
 },{
 	"Name":"ldap_modify_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3323,7 +3345,7 @@
 },{
 	"Name":"ldap_modify_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3339,7 +3361,7 @@
 },{
 	"Name":"ldap_modify_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3355,7 +3377,7 @@
 },{
 	"Name":"ldap_modify"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3369,7 +3391,7 @@
 },{
 	"Name":"ldap_modify_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3383,7 +3405,7 @@
 },{
 	"Name":"ldap_modify_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3400,7 +3422,7 @@
 },{
 	"Name":"ldap_modify_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3416,7 +3438,7 @@
 },{
 	"Name":"ldap_modrdn2W"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3431,7 +3453,7 @@
 },{
 	"Name":"ldap_modrdn2A"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3446,7 +3468,7 @@
 },{
 	"Name":"ldap_modrdnW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3460,7 +3482,7 @@
 },{
 	"Name":"ldap_modrdnA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3474,7 +3496,7 @@
 },{
 	"Name":"ldap_modrdn2_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3489,7 +3511,7 @@
 },{
 	"Name":"ldap_modrdn2_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3504,7 +3526,7 @@
 },{
 	"Name":"ldap_modrdn_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3518,7 +3540,7 @@
 },{
 	"Name":"ldap_modrdn_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3532,7 +3554,7 @@
 },{
 	"Name":"ldap_modrdn2"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3547,7 +3569,7 @@
 },{
 	"Name":"ldap_modrdn"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3561,7 +3583,7 @@
 },{
 	"Name":"ldap_modrdn2_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3576,7 +3598,7 @@
 },{
 	"Name":"ldap_modrdn_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3590,7 +3612,7 @@
 },{
 	"Name":"ldap_rename_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3609,7 +3631,7 @@
 },{
 	"Name":"ldap_rename_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3628,7 +3650,7 @@
 },{
 	"Name":"ldap_rename_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3646,7 +3668,7 @@
 },{
 	"Name":"ldap_rename_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3664,7 +3686,7 @@
 },{
 	"Name":"ldap_rename_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3683,7 +3705,7 @@
 },{
 	"Name":"ldap_rename_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3701,7 +3723,7 @@
 },{
 	"Name":"ldap_addW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3715,7 +3737,7 @@
 },{
 	"Name":"ldap_addA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3729,7 +3751,7 @@
 },{
 	"Name":"ldap_add_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3743,7 +3765,7 @@
 },{
 	"Name":"ldap_add_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3757,7 +3779,7 @@
 },{
 	"Name":"ldap_add_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3774,7 +3796,7 @@
 },{
 	"Name":"ldap_add_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3791,7 +3813,7 @@
 },{
 	"Name":"ldap_add_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3807,7 +3829,7 @@
 },{
 	"Name":"ldap_add_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3823,7 +3845,7 @@
 },{
 	"Name":"ldap_add"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3837,7 +3859,7 @@
 },{
 	"Name":"ldap_add_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3851,7 +3873,7 @@
 },{
 	"Name":"ldap_add_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3868,7 +3890,7 @@
 },{
 	"Name":"ldap_add_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3884,7 +3906,7 @@
 },{
 	"Name":"ldap_compareW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3899,7 +3921,7 @@
 },{
 	"Name":"ldap_compareA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3914,7 +3936,7 @@
 },{
 	"Name":"ldap_compare_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3929,7 +3951,7 @@
 },{
 	"Name":"ldap_compare_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3944,7 +3966,7 @@
 },{
 	"Name":"ldap_compare"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3959,7 +3981,7 @@
 },{
 	"Name":"ldap_compare_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3974,7 +3996,7 @@
 },{
 	"Name":"ldap_compare_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3993,7 +4015,7 @@
 },{
 	"Name":"ldap_compare_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4012,7 +4034,7 @@
 },{
 	"Name":"ldap_compare_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4030,7 +4052,7 @@
 },{
 	"Name":"ldap_compare_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4048,7 +4070,7 @@
 },{
 	"Name":"ldap_compare_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4067,7 +4089,7 @@
 },{
 	"Name":"ldap_compare_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4085,7 +4107,7 @@
 },{
 	"Name":"ldap_deleteW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4098,7 +4120,7 @@
 },{
 	"Name":"ldap_deleteA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4111,7 +4133,7 @@
 },{
 	"Name":"ldap_delete_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4124,7 +4146,7 @@
 },{
 	"Name":"ldap_delete_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4137,7 +4159,7 @@
 },{
 	"Name":"ldap_delete_extW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4153,7 +4175,7 @@
 },{
 	"Name":"ldap_delete_extA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4169,7 +4191,7 @@
 },{
 	"Name":"ldap_delete_ext_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4184,7 +4206,7 @@
 },{
 	"Name":"ldap_delete_ext_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4199,7 +4221,7 @@
 },{
 	"Name":"ldap_delete"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4212,7 +4234,7 @@
 },{
 	"Name":"ldap_delete_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4225,7 +4247,7 @@
 },{
 	"Name":"ldap_delete_ext"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4241,7 +4263,7 @@
 },{
 	"Name":"ldap_delete_ext_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4256,7 +4278,7 @@
 },{
 	"Name":"ldap_abandon"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4269,7 +4291,7 @@
 },{
 	"Name":"ldap_result"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4285,7 +4307,7 @@
 },{
 	"Name":"ldap_msgfree"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4297,7 +4319,7 @@
 },{
 	"Name":"ldap_result2error"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4311,7 +4333,7 @@
 },{
 	"Name":"ldap_parse_resultW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4330,7 +4352,7 @@
 },{
 	"Name":"ldap_parse_resultA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4349,7 +4371,7 @@
 },{
 	"Name":"ldap_parse_extended_resultA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4365,7 +4387,7 @@
 },{
 	"Name":"ldap_parse_extended_resultW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4381,7 +4403,7 @@
 },{
 	"Name":"ldap_controls_freeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4393,7 +4415,7 @@
 },{
 	"Name":"ldap_control_freeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4405,7 +4427,7 @@
 },{
 	"Name":"ldap_controls_freeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4417,7 +4439,7 @@
 },{
 	"Name":"ldap_control_freeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4429,7 +4451,7 @@
 },{
 	"Name":"ldap_free_controlsW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4441,7 +4463,7 @@
 },{
 	"Name":"ldap_free_controlsA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4453,7 +4475,7 @@
 },{
 	"Name":"ldap_parse_result"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4472,7 +4494,7 @@
 },{
 	"Name":"ldap_controls_free"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4484,7 +4506,7 @@
 },{
 	"Name":"ldap_control_free"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4496,7 +4518,7 @@
 },{
 	"Name":"ldap_free_controls"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4508,7 +4530,7 @@
 },{
 	"Name":"ldap_err2stringW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4520,7 +4542,7 @@
 },{
 	"Name":"ldap_err2stringA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4532,7 +4554,7 @@
 },{
 	"Name":"ldap_err2string"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4544,7 +4566,7 @@
 },{
 	"Name":"ldap_perror"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4557,7 +4579,7 @@
 },{
 	"Name":"ldap_first_entry"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4570,7 +4592,7 @@
 },{
 	"Name":"ldap_next_entry"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4583,7 +4605,7 @@
 },{
 	"Name":"ldap_count_entries"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4596,7 +4618,7 @@
 },{
 	"Name":"ldap_first_attributeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4610,7 +4632,7 @@
 },{
 	"Name":"ldap_first_attributeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4624,7 +4646,7 @@
 },{
 	"Name":"ldap_first_attribute"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4638,7 +4660,7 @@
 },{
 	"Name":"ldap_next_attributeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4652,7 +4674,7 @@
 },{
 	"Name":"ldap_next_attributeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4666,7 +4688,7 @@
 },{
 	"Name":"ldap_next_attribute"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4680,7 +4702,7 @@
 },{
 	"Name":"ldap_get_valuesW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4694,7 +4716,7 @@
 },{
 	"Name":"ldap_get_valuesA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4708,7 +4730,7 @@
 },{
 	"Name":"ldap_get_values"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4722,7 +4744,7 @@
 },{
 	"Name":"ldap_get_values_lenW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4736,7 +4758,7 @@
 },{
 	"Name":"ldap_get_values_lenA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4750,7 +4772,7 @@
 },{
 	"Name":"ldap_get_values_len"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4764,7 +4786,7 @@
 },{
 	"Name":"ldap_count_valuesW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4776,7 +4798,7 @@
 },{
 	"Name":"ldap_count_valuesA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4788,7 +4810,7 @@
 },{
 	"Name":"ldap_count_values"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4800,7 +4822,7 @@
 },{
 	"Name":"ldap_count_values_len"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4812,7 +4834,7 @@
 },{
 	"Name":"ldap_value_freeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4824,7 +4846,7 @@
 },{
 	"Name":"ldap_value_freeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4836,7 +4858,7 @@
 },{
 	"Name":"ldap_value_free"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4848,7 +4870,7 @@
 },{
 	"Name":"ldap_value_free_len"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4860,7 +4882,7 @@
 },{
 	"Name":"ldap_get_dnW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4873,7 +4895,7 @@
 },{
 	"Name":"ldap_get_dnA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4886,7 +4908,7 @@
 },{
 	"Name":"ldap_get_dn"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4899,7 +4921,7 @@
 },{
 	"Name":"ldap_explode_dnW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4912,7 +4934,7 @@
 },{
 	"Name":"ldap_explode_dnA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4925,7 +4947,7 @@
 },{
 	"Name":"ldap_explode_dn"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4938,7 +4960,7 @@
 },{
 	"Name":"ldap_dn2ufnW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4950,7 +4972,7 @@
 },{
 	"Name":"ldap_dn2ufnA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4962,7 +4984,7 @@
 },{
 	"Name":"ldap_dn2ufn"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4974,7 +4996,7 @@
 },{
 	"Name":"ldap_memfreeW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4986,7 +5008,7 @@
 },{
 	"Name":"ldap_memfreeA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4998,7 +5020,7 @@
 },{
 	"Name":"ber_bvfree"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5010,7 +5032,7 @@
 },{
 	"Name":"ldap_memfree"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5022,7 +5044,7 @@
 },{
 	"Name":"ldap_ufn2dnW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5035,7 +5057,7 @@
 },{
 	"Name":"ldap_ufn2dnA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5048,7 +5070,7 @@
 },{
 	"Name":"ldap_ufn2dn"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5061,7 +5083,7 @@
 },{
 	"Name":"ldap_startup"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5074,7 +5096,7 @@
 },{
 	"Name":"ldap_cleanup"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5086,7 +5108,7 @@
 },{
 	"Name":"ldap_escape_filter_elementW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5101,7 +5123,7 @@
 },{
 	"Name":"ldap_escape_filter_elementA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5116,7 +5138,7 @@
 },{
 	"Name":"ldap_escape_filter_element"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5131,7 +5153,7 @@
 },{
 	"Name":"ldap_set_dbg_flags"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5143,7 +5165,7 @@
 },{
 	"Name":"ldap_set_dbg_routine"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5155,7 +5177,7 @@
 },{
 	"Name":"LdapUTF8ToUnicode"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5170,7 +5192,7 @@
 },{
 	"Name":"LdapUnicodeToUTF8"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5185,7 +5207,7 @@
 },{
 	"Name":"ldap_create_sort_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5200,7 +5222,7 @@
 },{
 	"Name":"ldap_create_sort_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5215,7 +5237,7 @@
 },{
 	"Name":"ldap_parse_sort_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5230,7 +5252,7 @@
 },{
 	"Name":"ldap_parse_sort_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5245,7 +5267,7 @@
 },{
 	"Name":"ldap_create_sort_control"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5260,7 +5282,7 @@
 },{
 	"Name":"ldap_parse_sort_control"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5275,7 +5297,7 @@
 },{
 	"Name":"ldap_encode_sort_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5290,7 +5312,7 @@
 },{
 	"Name":"ldap_encode_sort_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5305,7 +5327,7 @@
 },{
 	"Name":"ldap_create_page_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5321,7 +5343,7 @@
 },{
 	"Name":"ldap_create_page_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5337,7 +5359,7 @@
 },{
 	"Name":"ldap_parse_page_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5352,7 +5374,7 @@
 },{
 	"Name":"ldap_parse_page_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5367,7 +5389,7 @@
 },{
 	"Name":"ldap_create_page_control"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5383,7 +5405,7 @@
 },{
 	"Name":"ldap_parse_page_control"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5398,7 +5420,7 @@
 },{
 	"Name":"ldap_search_init_pageW"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5420,7 +5442,7 @@
 },{
 	"Name":"ldap_search_init_pageA"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5442,7 +5464,7 @@
 },{
 	"Name":"ldap_search_init_page"
 	,"SetLastError":true
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldapsearch","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5464,7 +5486,7 @@
 },{
 	"Name":"ldap_get_next_page"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5479,7 +5501,7 @@
 },{
 	"Name":"ldap_get_next_page_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5496,7 +5518,7 @@
 },{
 	"Name":"ldap_get_paged_count"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5511,7 +5533,7 @@
 },{
 	"Name":"ldap_search_abandon_page"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5524,7 +5546,7 @@
 },{
 	"Name":"ldap_create_vlv_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5539,7 +5561,7 @@
 },{
 	"Name":"ldap_create_vlv_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5554,7 +5576,7 @@
 },{
 	"Name":"ldap_parse_vlv_controlW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5571,7 +5593,7 @@
 },{
 	"Name":"ldap_parse_vlv_controlA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5588,7 +5610,7 @@
 },{
 	"Name":"ldap_start_tls_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5604,7 +5626,7 @@
 },{
 	"Name":"ldap_start_tls_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5620,7 +5642,7 @@
 },{
 	"Name":"ldap_stop_tls_s"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5632,7 +5654,7 @@
 },{
 	"Name":"ldap_first_reference"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5645,7 +5667,7 @@
 },{
 	"Name":"ldap_next_reference"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAPMessage","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5658,7 +5680,7 @@
 },{
 	"Name":"ldap_count_references"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5671,7 +5693,7 @@
 },{
 	"Name":"ldap_parse_referenceW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5685,7 +5707,7 @@
 },{
 	"Name":"ldap_parse_referenceA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5699,7 +5721,7 @@
 },{
 	"Name":"ldap_parse_reference"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5713,7 +5735,7 @@
 },{
 	"Name":"ldap_extended_operationW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5730,7 +5752,7 @@
 },{
 	"Name":"ldap_extended_operationA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5747,7 +5769,7 @@
 },{
 	"Name":"ldap_extended_operation_sA"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5765,7 +5787,7 @@
 },{
 	"Name":"ldap_extended_operation_sW"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5783,7 +5805,7 @@
 },{
 	"Name":"ldap_extended_operation"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5800,7 +5822,7 @@
 },{
 	"Name":"ldap_close_extended_op"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5813,7 +5835,7 @@
 },{
 	"Name":"LdapGetLastError"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5824,7 +5846,7 @@
 },{
 	"Name":"LdapMapErrorToWin32"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5836,7 +5858,7 @@
 },{
 	"Name":"ldap_conn_from_msg"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5849,7 +5871,7 @@
 },{
 	"Name":"ber_init"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"berelement","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5861,7 +5883,7 @@
 },{
 	"Name":"ber_free"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5874,7 +5896,7 @@
 },{
 	"Name":"ber_bvecfree"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5886,7 +5908,7 @@
 },{
 	"Name":"ber_bvdup"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"LDAP_BERVAL","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5898,7 +5920,7 @@
 },{
 	"Name":"ber_alloc_t"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"berelement","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5910,7 +5932,7 @@
 },{
 	"Name":"ber_skip_tag"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5923,7 +5945,7 @@
 },{
 	"Name":"ber_peek_tag"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5936,7 +5958,7 @@
 },{
 	"Name":"ber_first_element"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5950,7 +5972,7 @@
 },{
 	"Name":"ber_next_element"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5964,7 +5986,7 @@
 },{
 	"Name":"ber_flatten"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5977,7 +5999,7 @@
 },{
 	"Name":"ber_printf"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5990,7 +6012,7 @@
 },{
 	"Name":"ber_scanf"
 	,"SetLastError":false
-	,"DllImport":"WLDAP32"
+	,"DllImport":"WLDAP32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

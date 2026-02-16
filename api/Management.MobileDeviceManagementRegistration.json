@@ -404,6 +404,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pszMDMServiceUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pszAuthenticationUri","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -416,6 +417,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fDeviceRegisteredWithManagement","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwDeviceRegistionKind","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -440,7 +442,7 @@
 "Functions":[{
 	"Name":"GetDeviceRegistrationInfo"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -453,7 +455,7 @@
 },{
 	"Name":"IsDeviceRegisteredWithManagement"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -467,7 +469,7 @@
 },{
 	"Name":"IsManagementRegistrationAllowed"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -479,7 +481,7 @@
 },{
 	"Name":"IsMdmUxWithoutAadAllowed"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -491,7 +493,7 @@
 },{
 	"Name":"SetManagedExternally"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -503,7 +505,7 @@
 },{
 	"Name":"DiscoverManagementService"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -516,7 +518,7 @@
 },{
 	"Name":"RegisterDeviceWithManagementUsingAADCredentials"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -528,7 +530,7 @@
 },{
 	"Name":"RegisterDeviceWithManagementUsingAADDeviceCredentials"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -539,7 +541,7 @@
 },{
 	"Name":"RegisterDeviceWithManagementUsingAADDeviceCredentials2"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -551,7 +553,7 @@
 },{
 	"Name":"RegisterDeviceWithManagement"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -565,7 +567,7 @@
 },{
 	"Name":"UnregisterDeviceWithManagement"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -577,7 +579,7 @@
 },{
 	"Name":"GetDeviceManagementConfigInfo"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -591,7 +593,7 @@
 },{
 	"Name":"SetDeviceManagementConfigInfo"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -604,7 +606,7 @@
 },{
 	"Name":"GetManagementAppHyperlink"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -617,7 +619,7 @@
 },{
 	"Name":"DiscoverManagementServiceEx"
 	,"SetLastError":false
-	,"DllImport":"MDMRegistration"
+	,"DllImport":"MDMRegistration.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -631,7 +633,7 @@
 },{
 	"Name":"RegisterDeviceWithLocalManagement"
 	,"SetLastError":false
-	,"DllImport":"MDMLocalManagement"
+	,"DllImport":"MDMLocalManagement.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -643,7 +645,7 @@
 },{
 	"Name":"ApplyLocalManagementSyncML"
 	,"SetLastError":false
-	,"DllImport":"MDMLocalManagement"
+	,"DllImport":"MDMLocalManagement.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -656,7 +658,7 @@
 },{
 	"Name":"UnregisterDeviceWithLocalManagement"
 	,"SetLastError":false
-	,"DllImport":"MDMLocalManagement"
+	,"DllImport":"MDMLocalManagement.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

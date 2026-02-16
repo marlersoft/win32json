@@ -107,6 +107,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"WEB_SOCKET_PROPERTY_TYPE","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":[]}
 		,{"Name":"pvValue","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -120,6 +121,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pcName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["NotNullTerminated"]}
 		,{"Name":"ulNameLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -134,6 +136,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Struct","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":[]}
 		,{"Name":"CloseStatus","Type":{"Kind":"ApiRef","Name":"_CloseStatus_e__Struct","TargetKind":"Default","Api":"Networking.WebSocket","Parents":[]},"Attrs":[]}
@@ -145,6 +148,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pbReason","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"ulReasonLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -158,6 +162,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"pbBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"ulBufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -169,7 +174,7 @@
 "Functions":[{
 	"Name":"WebSocketCreateClientHandle"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -183,7 +188,7 @@
 },{
 	"Name":"WebSocketBeginClientHandshake"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -203,7 +208,7 @@
 },{
 	"Name":"WebSocketEndClientHandshake"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -220,7 +225,7 @@
 },{
 	"Name":"WebSocketCreateServerHandle"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -234,7 +239,7 @@
 },{
 	"Name":"WebSocketBeginServerHandshake"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -253,7 +258,7 @@
 },{
 	"Name":"WebSocketEndServerHandshake"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -265,7 +270,7 @@
 },{
 	"Name":"WebSocketSend"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -280,7 +285,7 @@
 },{
 	"Name":"WebSocketReceive"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -294,7 +299,7 @@
 },{
 	"Name":"WebSocketGetAction"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -313,7 +318,7 @@
 },{
 	"Name":"WebSocketCompleteAction"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -327,7 +332,7 @@
 },{
 	"Name":"WebSocketAbortHandle"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -339,7 +344,7 @@
 },{
 	"Name":"WebSocketDeleteHandle"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -351,7 +356,7 @@
 },{
 	"Name":"WebSocketGetGlobalProperty"
 	,"SetLastError":false
-	,"DllImport":"websocket"
+	,"DllImport":"websocket.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

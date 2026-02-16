@@ -163,6 +163,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwEventType","Type":{"Kind":"ApiRef","Name":"RESTOREPOINTINFO_EVENT_TYPE","TargetKind":"Default","Api":"System.Restore","Parents":[]},"Attrs":[]}
 		,{"Name":"dwRestorePtType","Type":{"Kind":"ApiRef","Name":"RESTOREPOINTINFO_TYPE","TargetKind":"Default","Api":"System.Restore","Parents":[]},"Attrs":[]}
@@ -177,6 +178,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwEventType","Type":{"Kind":"ApiRef","Name":"RESTOREPOINTINFO_EVENT_TYPE","TargetKind":"Default","Api":"System.Restore","Parents":[]},"Attrs":[]}
 		,{"Name":"dwRestorePtType","Type":{"Kind":"ApiRef","Name":"RESTOREPOINTINFO_TYPE","TargetKind":"Default","Api":"System.Restore","Parents":[]},"Attrs":[]}
@@ -191,6 +193,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ftCreation","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwEventType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -206,6 +209,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"llSequenceNumber","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
@@ -216,7 +220,7 @@
 "Functions":[{
 	"Name":"SRSetRestorePointA"
 	,"SetLastError":false
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -229,7 +233,7 @@
 },{
 	"Name":"SRSetRestorePointW"
 	,"SetLastError":false
-	,"DllImport":"sfc"
+	,"DllImport":"sfc.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

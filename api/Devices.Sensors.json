@@ -2434,6 +2434,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Key","Type":{"Kind":"ApiRef","Name":"PROPERTYKEY","TargetKind":"Default","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"ApiRef","Name":"PROPVARIANT","TargetKind":"Default","Api":"System.Com.StructuredStorage","Parents":[]},"Attrs":[]}
@@ -2446,6 +2447,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AllocatedSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2459,6 +2461,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AllocatedSizeInBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2472,6 +2475,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"X","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"Y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -2485,6 +2489,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Devices.Sensors","Parents":[]},"Attrs":[]}
 	]
@@ -2495,6 +2500,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Struct","TargetKind":"Default","Api":"Devices.Sensors","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Struct","TargetKind":"Default","Api":"Devices.Sensors","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -2507,6 +2513,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"V1","Type":{"Kind":"ApiRef","Name":"VEC3D","TargetKind":"Default","Api":"Devices.Sensors","Parents":[]},"Attrs":[]}
 				,{"Name":"V2","Type":{"Kind":"ApiRef","Name":"VEC3D","TargetKind":"Default","Api":"Devices.Sensors","Parents":[]},"Attrs":[]}
@@ -2520,6 +2527,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"A11","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 				,{"Name":"A12","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -2541,6 +2549,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"X","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"Y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -2567,7 +2576,7 @@
 "Functions":[{
 	"Name":"GetPerformanceTime"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2579,7 +2588,7 @@
 },{
 	"Name":"InitPropVariantFromFloat"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2592,7 +2601,7 @@
 },{
 	"Name":"PropKeyFindKeyGetPropVariant"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2607,7 +2616,7 @@
 },{
 	"Name":"PropKeyFindKeySetPropVariant"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2622,7 +2631,7 @@
 },{
 	"Name":"PropKeyFindKeyGetFileTime"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2636,7 +2645,7 @@
 },{
 	"Name":"PropKeyFindKeyGetGuid"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2650,7 +2659,7 @@
 },{
 	"Name":"PropKeyFindKeyGetBool"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2664,7 +2673,7 @@
 },{
 	"Name":"PropKeyFindKeyGetUlong"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2678,7 +2687,7 @@
 },{
 	"Name":"PropKeyFindKeyGetUshort"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2692,7 +2701,7 @@
 },{
 	"Name":"PropKeyFindKeyGetFloat"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2706,7 +2715,7 @@
 },{
 	"Name":"PropKeyFindKeyGetDouble"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2720,7 +2729,7 @@
 },{
 	"Name":"PropKeyFindKeyGetInt32"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2734,7 +2743,7 @@
 },{
 	"Name":"PropKeyFindKeyGetInt64"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2748,7 +2757,7 @@
 },{
 	"Name":"PropKeyFindKeyGetNthUlong"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2763,7 +2772,7 @@
 },{
 	"Name":"PropKeyFindKeyGetNthUshort"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2778,7 +2787,7 @@
 },{
 	"Name":"PropKeyFindKeyGetNthInt64"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2793,7 +2802,7 @@
 },{
 	"Name":"IsKeyPresentInPropertyList"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2806,7 +2815,7 @@
 },{
 	"Name":"IsKeyPresentInCollectionList"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2819,7 +2828,7 @@
 },{
 	"Name":"IsCollectionListSame"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2832,7 +2841,7 @@
 },{
 	"Name":"PropVariantGetInformation"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2848,7 +2857,7 @@
 },{
 	"Name":"PropertiesListCopy"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2861,7 +2870,7 @@
 },{
 	"Name":"PropertiesListGetFillableCount"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2873,7 +2882,7 @@
 },{
 	"Name":"CollectionsListGetMarshalledSize"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2885,7 +2894,7 @@
 },{
 	"Name":"CollectionsListCopyAndMarshall"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2898,7 +2907,7 @@
 },{
 	"Name":"CollectionsListMarshall"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2910,7 +2919,7 @@
 },{
 	"Name":"CollectionsListGetMarshalledSizeWithoutSerialization"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2922,7 +2931,7 @@
 },{
 	"Name":"CollectionsListUpdateMarshalledPointer"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2934,7 +2943,7 @@
 },{
 	"Name":"SerializationBufferAllocate"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2947,7 +2956,7 @@
 },{
 	"Name":"SerializationBufferFree"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2959,7 +2968,7 @@
 },{
 	"Name":"CollectionsListGetSerializedSize"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2971,7 +2980,7 @@
 },{
 	"Name":"CollectionsListSerializeToBuffer"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2985,7 +2994,7 @@
 },{
 	"Name":"CollectionsListAllocateBufferAndSerialize"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -2999,7 +3008,7 @@
 },{
 	"Name":"CollectionsListDeserializeFromBuffer"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3013,7 +3022,7 @@
 },{
 	"Name":"SensorCollectionGetAt"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3028,7 +3037,7 @@
 },{
 	"Name":"CollectionsListGetFillableCount"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3040,7 +3049,7 @@
 },{
 	"Name":"EvaluateActivityThresholds"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3054,7 +3063,7 @@
 },{
 	"Name":"CollectionsListSortSubscribedActivitiesByConfidence"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3067,7 +3076,7 @@
 },{
 	"Name":"InitPropVariantFromCLSIDArray"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3081,7 +3090,7 @@
 },{
 	"Name":"IsSensorSubscribed"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -3094,7 +3103,7 @@
 },{
 	"Name":"IsGUIDPresentInList"
 	,"SetLastError":false
-	,"DllImport":"SensorsUtilsV2"
+	,"DllImport":"SensorsUtilsV2.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

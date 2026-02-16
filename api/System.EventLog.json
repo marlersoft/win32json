@@ -124,6 +124,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"System.EventLog","Parents":[]},"Attrs":[]}
 		,{"Name":"Count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -136,6 +137,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"BooleanVal","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"SByteVal","Type":{"Kind":"Native","Name":"SByte"},"Attrs":[]}
@@ -212,6 +214,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Server","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"User","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -598,6 +601,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -624,6 +628,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ulSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"szLogicalLogFile","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -638,6 +643,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFull","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -647,7 +653,7 @@
 "Functions":[{
 	"Name":"EvtOpenSession"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -662,7 +668,7 @@
 },{
 	"Name":"EvtClose"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -674,7 +680,7 @@
 },{
 	"Name":"EvtCancel"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -686,7 +692,7 @@
 },{
 	"Name":"EvtGetExtendedStatus"
 	,"SetLastError":false
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -700,7 +706,7 @@
 },{
 	"Name":"EvtQuery"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -715,7 +721,7 @@
 },{
 	"Name":"EvtNext"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -732,7 +738,7 @@
 },{
 	"Name":"EvtSeek"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -748,7 +754,7 @@
 },{
 	"Name":"EvtSubscribe"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -767,7 +773,7 @@
 },{
 	"Name":"EvtCreateRenderContext"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -781,7 +787,7 @@
 },{
 	"Name":"EvtRender"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -799,7 +805,7 @@
 },{
 	"Name":"EvtFormatMessage"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -819,7 +825,7 @@
 },{
 	"Name":"EvtOpenLog"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -833,7 +839,7 @@
 },{
 	"Name":"EvtGetLogInfo"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -849,7 +855,7 @@
 },{
 	"Name":"EvtClearLog"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -864,7 +870,7 @@
 },{
 	"Name":"EvtExportLog"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -880,7 +886,7 @@
 },{
 	"Name":"EvtArchiveExportedLog"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -895,7 +901,7 @@
 },{
 	"Name":"EvtOpenChannelEnum"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -908,7 +914,7 @@
 },{
 	"Name":"EvtNextChannelPath"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -923,7 +929,7 @@
 },{
 	"Name":"EvtOpenChannelConfig"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -937,7 +943,7 @@
 },{
 	"Name":"EvtSaveChannelConfig"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -950,7 +956,7 @@
 },{
 	"Name":"EvtSetChannelConfigProperty"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -965,7 +971,7 @@
 },{
 	"Name":"EvtGetChannelConfigProperty"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -982,7 +988,7 @@
 },{
 	"Name":"EvtOpenPublisherEnum"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -995,7 +1001,7 @@
 },{
 	"Name":"EvtNextPublisherId"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1010,7 +1016,7 @@
 },{
 	"Name":"EvtOpenPublisherMetadata"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1026,7 +1032,7 @@
 },{
 	"Name":"EvtGetPublisherMetadataProperty"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1043,7 +1049,7 @@
 },{
 	"Name":"EvtOpenEventMetadataEnum"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1056,7 +1062,7 @@
 },{
 	"Name":"EvtNextEventMetadata"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1069,7 +1075,7 @@
 },{
 	"Name":"EvtGetEventMetadataProperty"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1086,7 +1092,7 @@
 },{
 	"Name":"EvtGetObjectArraySize"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1099,7 +1105,7 @@
 },{
 	"Name":"EvtGetObjectArrayProperty"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1117,7 +1123,7 @@
 },{
 	"Name":"EvtGetQueryInfo"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1133,7 +1139,7 @@
 },{
 	"Name":"EvtCreateBookmark"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1145,7 +1151,7 @@
 },{
 	"Name":"EvtUpdateBookmark"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1158,7 +1164,7 @@
 },{
 	"Name":"EvtGetEventInfo"
 	,"SetLastError":true
-	,"DllImport":"wevtapi"
+	,"DllImport":"wevtapi.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1174,7 +1180,7 @@
 },{
 	"Name":"ClearEventLogA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1187,7 +1193,7 @@
 },{
 	"Name":"ClearEventLogW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1200,7 +1206,7 @@
 },{
 	"Name":"BackupEventLogA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1213,7 +1219,7 @@
 },{
 	"Name":"BackupEventLogW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1226,7 +1232,7 @@
 },{
 	"Name":"CloseEventLog"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1238,7 +1244,7 @@
 },{
 	"Name":"DeregisterEventSource"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1250,7 +1256,7 @@
 },{
 	"Name":"NotifyChangeEventLog"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1263,7 +1269,7 @@
 },{
 	"Name":"GetNumberOfEventLogRecords"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1276,7 +1282,7 @@
 },{
 	"Name":"GetOldestEventLogRecord"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1289,7 +1295,7 @@
 },{
 	"Name":"OpenEventLogA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventLogHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1302,7 +1308,7 @@
 },{
 	"Name":"OpenEventLogW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventLogHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1315,7 +1321,7 @@
 },{
 	"Name":"RegisterEventSourceA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventSourceHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1328,7 +1334,7 @@
 },{
 	"Name":"RegisterEventSourceW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventSourceHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1341,7 +1347,7 @@
 },{
 	"Name":"OpenBackupEventLogA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventLogHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1354,7 +1360,7 @@
 },{
 	"Name":"OpenBackupEventLogW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"EventLogHandle","TargetKind":"Default","Api":"System.EventLog","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1367,7 +1373,7 @@
 },{
 	"Name":"ReadEventLogA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1385,7 +1391,7 @@
 },{
 	"Name":"ReadEventLogW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1403,7 +1409,7 @@
 },{
 	"Name":"ReportEventA"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1423,7 +1429,7 @@
 },{
 	"Name":"ReportEventW"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1443,7 +1449,7 @@
 },{
 	"Name":"GetEventLogInformation"
 	,"SetLastError":true
-	,"DllImport":"ADVAPI32"
+	,"DllImport":"ADVAPI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

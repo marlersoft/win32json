@@ -29,6 +29,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BindFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MiscFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -154,7 +155,7 @@
 "Functions":[{
 	"Name":"D3D11On12CreateDevice"
 	,"SetLastError":false
-	,"DllImport":"d3d11"
+	,"DllImport":"d3d11.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

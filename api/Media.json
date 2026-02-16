@@ -636,6 +636,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"u","Type":{"Kind":"ApiRef","Name":"_u_e__Union","TargetKind":"Default","Api":"Media","Parents":[]},"Attrs":[]}
@@ -647,6 +648,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ms","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"sample","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -662,6 +664,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":1
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"songptrpos","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -673,6 +676,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"hour","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"min","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -708,6 +712,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wPeriodMin","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wPeriodMax","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -835,6 +840,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Media","Parents":[]},"Attrs":[]}
 		,{"Name":"qw","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -846,6 +852,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"wFrameRate","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"wFrameFract","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -860,6 +867,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"qwTick","Type":{"Kind":"Native","Name":"Int64"},"Attrs":[]}
 		,{"Name":"timecode","Type":{"Kind":"ApiRef","Name":"TIMECODE","TargetKind":"Default","Api":"Media","Parents":[]},"Attrs":[]}
@@ -872,7 +880,7 @@
 "Functions":[{
 	"Name":"timeGetSystemTime"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -885,7 +893,7 @@
 },{
 	"Name":"timeGetTime"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -896,7 +904,7 @@
 },{
 	"Name":"timeGetDevCaps"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -909,7 +917,7 @@
 },{
 	"Name":"timeBeginPeriod"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -921,7 +929,7 @@
 },{
 	"Name":"timeEndPeriod"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -933,7 +941,7 @@
 },{
 	"Name":"timeSetEvent"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -949,7 +957,7 @@
 },{
 	"Name":"timeKillEvent"
 	,"SetLastError":false
-	,"DllImport":"WINMM"
+	,"DllImport":"WINMM.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

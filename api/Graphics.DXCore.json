@@ -108,6 +108,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"vendorID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"deviceID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -122,6 +123,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"vendorID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"deviceID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -137,6 +139,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nodeIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"segmentGroup","Type":{"Kind":"ApiRef","Name":"DXCoreSegmentGroup","TargetKind":"Default","Api":"Graphics.DXCore","Parents":[]},"Attrs":[]}
@@ -149,6 +152,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"budget","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"currentUsage","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -455,7 +459,7 @@
 "Functions":[{
 	"Name":"DXCoreCreateAdapterFactory"
 	,"SetLastError":false
-	,"DllImport":"DXCORE"
+	,"DllImport":"DXCORE.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

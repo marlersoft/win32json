@@ -207,6 +207,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwPublicVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -227,6 +228,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszReferenceTag","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -248,6 +250,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pwszReferenceTag","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -264,6 +267,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -281,6 +285,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"wszCatalogFile","Type":{"Kind":"Array","Shape":{"Size":260},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -307,6 +312,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbStruct","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"pStore","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATSTORE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}},"Attrs":[]}
@@ -318,7 +324,7 @@
 "Functions":[{
 	"Name":"CryptCATOpen"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -334,7 +340,7 @@
 },{
 	"Name":"CryptCATClose"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -346,7 +352,7 @@
 },{
 	"Name":"CryptCATStoreFromHandle"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATSTORE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -358,7 +364,7 @@
 },{
 	"Name":"CryptCATHandleFromStore"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -370,7 +376,7 @@
 },{
 	"Name":"CryptCATPersistStore"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -382,7 +388,7 @@
 },{
 	"Name":"CryptCATGetCatAttrInfo"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -395,7 +401,7 @@
 },{
 	"Name":"CryptCATPutCatAttrInfo"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -411,7 +417,7 @@
 },{
 	"Name":"CryptCATEnumerateCatAttr"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -424,7 +430,7 @@
 },{
 	"Name":"CryptCATGetMemberInfo"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -437,7 +443,7 @@
 },{
 	"Name":"CryptCATAllocSortedMemberInfo"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -450,7 +456,7 @@
 },{
 	"Name":"CryptCATFreeSortedMemberInfo"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -463,7 +469,7 @@
 },{
 	"Name":"CryptCATGetAttrInfo"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -477,7 +483,7 @@
 },{
 	"Name":"CryptCATPutMemberInfo"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -495,7 +501,7 @@
 },{
 	"Name":"CryptCATPutAttrInfo"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -512,7 +518,7 @@
 },{
 	"Name":"CryptCATEnumerateMember"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -525,7 +531,7 @@
 },{
 	"Name":"CryptCATEnumerateAttr"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -539,7 +545,7 @@
 },{
 	"Name":"CryptCATCDFOpen"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATCDF","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -552,7 +558,7 @@
 },{
 	"Name":"CryptCATCDFClose"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -564,7 +570,7 @@
 },{
 	"Name":"CryptCATCDFEnumCatAttributes"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -578,7 +584,7 @@
 },{
 	"Name":"CryptCATCDFEnumMembers"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATMEMBER","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -592,7 +598,7 @@
 },{
 	"Name":"CryptCATCDFEnumAttributes"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CRYPTCATATTRIBUTE","TargetKind":"Default","Api":"Security.Cryptography.Catalog","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -607,7 +613,7 @@
 },{
 	"Name":"IsCatalogFile"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -620,7 +626,7 @@
 },{
 	"Name":"CryptCATAdminAcquireContext"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -634,7 +640,7 @@
 },{
 	"Name":"CryptCATAdminAcquireContext2"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -650,7 +656,7 @@
 },{
 	"Name":"CryptCATAdminReleaseContext"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -663,7 +669,7 @@
 },{
 	"Name":"CryptCATAdminReleaseCatalogContext"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -677,7 +683,7 @@
 },{
 	"Name":"CryptCATAdminEnumCatalogFromHash"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -693,7 +699,7 @@
 },{
 	"Name":"CryptCATAdminCalcHashFromFileHandle"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -708,7 +714,7 @@
 },{
 	"Name":"CryptCATAdminCalcHashFromFileHandle2"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -724,7 +730,7 @@
 },{
 	"Name":"CryptCATAdminAddCatalog"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -739,7 +745,7 @@
 },{
 	"Name":"CryptCATAdminRemoveCatalog"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -753,7 +759,7 @@
 },{
 	"Name":"CryptCATCatalogInfoFromContext"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -767,7 +773,7 @@
 },{
 	"Name":"CryptCATAdminResolveCatalogPath"
 	,"SetLastError":true
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -782,7 +788,7 @@
 },{
 	"Name":"CryptCATAdminPauseServiceForBackup"
 	,"SetLastError":false
-	,"DllImport":"WINTRUST"
+	,"DllImport":"WINTRUST.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

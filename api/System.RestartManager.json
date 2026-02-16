@@ -102,6 +102,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ProcessStartTime","Type":{"Kind":"ApiRef","Name":"FILETIME","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -114,6 +115,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Process","Type":{"Kind":"ApiRef","Name":"RM_UNIQUE_PROCESS","TargetKind":"Default","Api":"System.RestartManager","Parents":[]},"Attrs":[]}
 		,{"Name":"strAppName","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -158,6 +160,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FilterAction","Type":{"Kind":"ApiRef","Name":"RM_FILTER_ACTION","TargetKind":"Default","Api":"System.RestartManager","Parents":[]},"Attrs":[]}
 		,{"Name":"FilterTrigger","Type":{"Kind":"ApiRef","Name":"RM_FILTER_TRIGGER","TargetKind":"Default","Api":"System.RestartManager","Parents":[]},"Attrs":[]}
@@ -171,6 +174,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"strFilename","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 			,{"Name":"Process","Type":{"Kind":"ApiRef","Name":"RM_UNIQUE_PROCESS","TargetKind":"Default","Api":"System.RestartManager","Parents":[]},"Attrs":[]}
@@ -195,7 +199,7 @@
 "Functions":[{
 	"Name":"RmStartSession"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -209,7 +213,7 @@
 },{
 	"Name":"RmJoinSession"
 	,"SetLastError":false
-	,"DllImport":"RstrtMgr"
+	,"DllImport":"RstrtMgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -222,7 +226,7 @@
 },{
 	"Name":"RmEndSession"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -234,7 +238,7 @@
 },{
 	"Name":"RmRegisterResources"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -252,7 +256,7 @@
 },{
 	"Name":"RmGetList"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -268,7 +272,7 @@
 },{
 	"Name":"RmShutdown"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -282,7 +286,7 @@
 },{
 	"Name":"RmRestart"
 	,"SetLastError":false
-	,"DllImport":"rstrtmgr"
+	,"DllImport":"rstrtmgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -296,7 +300,7 @@
 },{
 	"Name":"RmCancelCurrentTask"
 	,"SetLastError":false
-	,"DllImport":"RstrtMgr"
+	,"DllImport":"RstrtMgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -308,7 +312,7 @@
 },{
 	"Name":"RmAddFilter"
 	,"SetLastError":false
-	,"DllImport":"RstrtMgr"
+	,"DllImport":"RstrtMgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -324,7 +328,7 @@
 },{
 	"Name":"RmRemoveFilter"
 	,"SetLastError":false
-	,"DllImport":"RstrtMgr"
+	,"DllImport":"RstrtMgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -339,7 +343,7 @@
 },{
 	"Name":"RmGetFilterList"
 	,"SetLastError":false
-	,"DllImport":"RstrtMgr"
+	,"DllImport":"RstrtMgr.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

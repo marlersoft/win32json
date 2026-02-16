@@ -6778,7 +6778,7 @@
 		,{"Name":"WSA_NOT_ENOUGH_MEMORY","Value":8}
 		,{"Name":"WSA_OPERATION_ABORTED","Value":995}
 		,{"Name":"WSA_WAIT_EVENT_0","Value":0}
-		,{"Name":"WSA_WAIT_IO_COMPLETION","Value":129}
+		,{"Name":"WSA_WAIT_IO_COMPLETION","Value":192}
 		,{"Name":"WSABASEERR","Value":10000}
 		,{"Name":"WSAEINTR","Value":10004}
 		,{"Name":"WSAEBADF","Value":10009}
@@ -6940,6 +6940,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -6950,6 +6951,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -6960,6 +6962,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -6988,6 +6991,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TokenRate","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"TokenBucketSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7006,6 +7010,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"S_un","Type":{"Kind":"ApiRef","Name":"_S_un_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -7016,6 +7021,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"S_un_b","Type":{"Kind":"ApiRef","Name":"_S_un_b_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_S_un_e__Union"]},"Attrs":[]}
 			,{"Name":"S_un_w","Type":{"Kind":"ApiRef","Name":"_S_un_w_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_S_un_e__Union"]},"Attrs":[]}
@@ -7028,6 +7034,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"s_w1","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"s_w2","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7040,6 +7047,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"s_b1","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"s_b2","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -7056,6 +7064,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sa_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sa_data","Type":{"Kind":"Array","Shape":{"Size":14},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -7068,6 +7077,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpSockaddr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"iSockaddrLength","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7080,6 +7090,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iAddressCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"Address","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"SOCKET_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -7092,6 +7103,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"LocalAddr","Type":{"Kind":"ApiRef","Name":"SOCKET_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"RemoteAddr","Type":{"Kind":"ApiRef","Name":"SOCKET_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7106,6 +7118,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ss_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"__ss_pad1","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -7120,6 +7133,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ss_family","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"__ss_pad1","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -7134,6 +7148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Processor","Type":{"Kind":"ApiRef","Name":"PROCESSOR_NUMBER","TargetKind":"Default","Api":"System.Kernel","Parents":[]},"Attrs":[]}
 		,{"Name":"NumaNodeId","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7210,6 +7225,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -7220,6 +7236,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7231,6 +7248,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -7244,6 +7262,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sin_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7258,6 +7277,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sdl_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sdl_data","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -7271,6 +7291,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"buf","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7283,6 +7304,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"name","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"namelen","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7299,6 +7321,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cmsg_len","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"cmsg_level","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7312,6 +7335,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7324,12 +7348,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoW"
+	"Name":"ADDRINFOW"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7338,16 +7363,17 @@
 		,{"Name":"ai_addrlen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_canonname","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ai_addr","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoexA"
+	"Name":"ADDRINFOEXA"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"ADDRINFOEX"}]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7359,16 +7385,17 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoexW"
+	"Name":"ADDRINFOEXW"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7380,16 +7407,17 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoex2A"
+	"Name":"ADDRINFOEX2A"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"ADDRINFOEX2"}]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7401,18 +7429,19 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex2A","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX2A","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoex2W"
+	"Name":"ADDRINFOEX2W"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7424,18 +7453,19 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex2W","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX2W","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoex3"
+	"Name":"ADDRINFOEX3"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7447,19 +7477,20 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex3","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX3","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ai_interfaceindex","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoex4"
+	"Name":"ADDRINFOEX4"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7471,7 +7502,7 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex4","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX4","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ai_interfaceindex","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7479,12 +7510,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"addrinfoex5"
+	"Name":"ADDRINFOEX5"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7496,7 +7528,7 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex5","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX5","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ai_interfaceindex","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7511,6 +7543,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_servertype","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ai_flags","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -7525,18 +7558,20 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ai_template","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
 },{
-	"Name":"addrinfoex6"
+	"Name":"ADDRINFOEX6"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ai_flags","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_family","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7548,7 +7583,7 @@
 		,{"Name":"ai_blob","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"ai_bloblen","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 		,{"Name":"ai_provider","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
-		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoex5","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
+		,{"Name":"ai_next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEX5","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"ai_version","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ai_fqdn","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"ai_interfaceindex","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7566,6 +7601,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fd_count","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"fd_array","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -7578,6 +7614,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"tv_sec","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"tv_usec","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7590,6 +7627,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"h_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"h_aliases","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":[]}
@@ -7605,6 +7643,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"n_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"n_aliases","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":[]}
@@ -7619,6 +7658,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"s_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"s_aliases","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":[]}
@@ -7633,6 +7673,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"p_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"p_aliases","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":[]}
@@ -7646,6 +7687,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wHighVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7663,6 +7705,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sp_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sp_protocol","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7675,6 +7718,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"l_onoff","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"l_linger","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -7687,6 +7731,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SendingFlowspec","Type":{"Kind":"ApiRef","Name":"FLOWSPEC","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"ReceivingFlowspec","Type":{"Kind":"ApiRef","Name":"FLOWSPEC","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7700,6 +7745,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lNetworkEvents","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"iErrorCode","Type":{"Kind":"Array","Shape":{"Size":10},"Child":{"Kind":"Native","Name":"Int32"}},"Attrs":[]}
@@ -7712,6 +7758,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ChainLen","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"ChainEntries","Type":{"Kind":"Array","Shape":{"Size":7},"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
@@ -7724,6 +7771,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSAPROTOCOL_INFO"}]
 	,"Fields":[
 		{"Name":"dwServiceFlags1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwServiceFlags2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7754,6 +7802,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwServiceFlags1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwServiceFlags2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7833,6 +7882,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"WSACOMPLETIONTYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Parameters","Type":{"Kind":"ApiRef","Name":"_Parameters_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7844,6 +7894,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"WindowMessage","Type":{"Kind":"ApiRef","Name":"_WindowMessage_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Parameters_e__Union"]},"Attrs":[]}
 			,{"Name":"Event","Type":{"Kind":"ApiRef","Name":"_Event_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Parameters_e__Union"]},"Attrs":[]}
@@ -7857,6 +7908,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
 				,{"Name":"hPort","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7870,6 +7922,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
 				,{"Name":"lpfnCompletionProc","Type":{"Kind":"ApiRef","Name":"LPWSAOVERLAPPED_COMPLETION_ROUTINE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7882,6 +7935,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":[]}
 			]
@@ -7893,6 +7947,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"uMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -7908,6 +7963,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iAddressFamily","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"iProtocol","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -7932,6 +7988,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ecHow","Type":{"Kind":"ApiRef","Name":"WSAECOMPARATOR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -7944,6 +8001,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSAQUERYSET"}]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpszServiceInstanceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7969,6 +8027,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpszServiceInstanceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -7994,6 +8053,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSAQUERYSET2"}]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpszServiceInstanceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8018,6 +8078,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"lpszServiceInstanceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8055,6 +8116,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSANSCLASSINFO"}]
 	,"Fields":[
 		{"Name":"lpszName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8070,6 +8132,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8085,6 +8148,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSASERVICECLASSINFO"}]
 	,"Fields":[
 		{"Name":"lpServiceClassId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
 		,{"Name":"lpszServiceClassName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8099,6 +8163,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpServiceClassId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
 		,{"Name":"lpszServiceClassName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8113,6 +8178,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSANAMESPACE_INFO"}]
 	,"Fields":[
 		{"Name":"NSProviderId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8128,6 +8194,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NSProviderId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8143,6 +8210,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[{"Kind":"Obsolete","Message":"WSANAMESPACE_INFOEX"}]
 	,"Fields":[
 		{"Name":"NSProviderId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8159,6 +8227,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NSProviderId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8175,6 +8244,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fd","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"events","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
@@ -8188,6 +8258,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"socket","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"completionKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -8204,6 +8275,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"u","Type":{"Kind":"ApiRef","Name":"_u_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -8214,6 +8286,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 			,{"Name":"Word","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -8227,6 +8300,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin6_family","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"sin6_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8241,6 +8315,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Address","Type":{"Kind":"ApiRef","Name":"SOCKADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"AddressIn","Type":{"Kind":"ApiRef","Name":"SOCKADDR_IN","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8254,6 +8329,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iiFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iiAddress","Type":{"Kind":"ApiRef","Name":"sockaddr_gen","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8268,6 +8344,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"iiFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iiAddress","Type":{"Kind":"ApiRef","Name":"SOCKET_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8297,6 +8374,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin6_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sin6_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8311,6 +8389,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"sin6_scope_id","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"sin6_scope_struct","Type":{"Kind":"ApiRef","Name":"SCOPE_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8324,6 +8403,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin6_family","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"sin6_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8339,6 +8419,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Ipv4","Type":{"Kind":"ApiRef","Name":"SOCKADDR_IN","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Ipv6","Type":{"Kind":"ApiRef","Name":"SOCKADDR_IN6","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8352,6 +8433,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SourceAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR_IN6","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"DestinationAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR_IN6","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -8376,6 +8458,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"imr_multiaddr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"imr_interface","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8388,6 +8471,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"imr_multiaddr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"imr_sourceaddr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8401,6 +8485,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"imsf_multiaddr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"imsf_interface","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8416,6 +8501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ipv6mr_multiaddr","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"ipv6mr_interface","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8428,6 +8514,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"gr_interface","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"gr_group","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8440,6 +8527,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"gsr_interface","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"gsr_group","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8453,6 +8541,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"gf_interface","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"gf_group","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8468,6 +8557,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ipi_addr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"ipi_ifindex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8480,6 +8570,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ipi6_addr","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"ipi6_ifindex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8492,18 +8583,20 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pkt_info","Type":{"Kind":"ApiRef","Name":"IN_PKTINFO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"scope_id","Type":{"Kind":"ApiRef","Name":"SCOPE_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"in6_pktinfo_ex"
+	"Name":"IN6_PKTINFO_EX"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pkt_info","Type":{"Kind":"ApiRef","Name":"IN6_PKTINFO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"scope_id","Type":{"Kind":"ApiRef","Name":"SCOPE_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8516,6 +8609,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"protocol","Type":{"Kind":"ApiRef","Name":"IPPROTO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"info","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8530,6 +8624,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"srcaddress","Type":{"Kind":"ApiRef","Name":"SOCKADDR_INET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"protocol","Type":{"Kind":"ApiRef","Name":"IPPROTO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -8556,6 +8651,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RateKbitsPerSec","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WindowSizeInMSecs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8569,6 +8665,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DataBytesSent","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"TotalBytesSent","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -8592,6 +8689,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumODataPacketsReceived","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"NumRDataPacketsReceived","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -8620,6 +8718,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"FECBlockSize","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"FECProActivePackets","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8634,6 +8733,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"adapternum","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"netnum","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8651,6 +8751,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"netnum","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"hopcount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -8666,6 +8767,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ConnectionState","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"WatchDogActive","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8694,6 +8796,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nTXDataBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"nRXDataBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8712,6 +8815,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"irdaAddressFamily","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"irdaDeviceID","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8725,6 +8829,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"irdaDeviceID","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"irdaDeviceName","Type":{"Kind":"Array","Shape":{"Size":22},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -8740,6 +8845,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"irdaDeviceID","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"irdaDeviceName","Type":{"Kind":"Array","Shape":{"Size":22},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -8753,6 +8859,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numDevice","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Device","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"WINDOWS_IRDA_DEVICE_INFO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -8765,6 +8872,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"numDevice","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Device","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"WCE_IRDA_DEVICE_INFO","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -8777,6 +8885,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"irdaClassName","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 		,{"Name":"irdaAttribName","Type":{"Kind":"Array","Shape":{"Size":256},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -8790,6 +8899,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"irdaAttribInt","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"irdaAttribOctetSeq","Type":{"Kind":"ApiRef","Name":"_irdaAttribOctetSeq_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_irdaAttribute_e__Union"]},"Attrs":[]}
@@ -8802,6 +8912,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"CharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -8815,6 +8926,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -8829,6 +8941,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"irdaDeviceID","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"irdaClassName","Type":{"Kind":"Array","Shape":{"Size":64},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -8843,6 +8956,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"irdaAttribInt","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 			,{"Name":"irdaAttribOctetSeq","Type":{"Kind":"ApiRef","Name":"_irdaAttribOctetSeq_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_irdaAttribute_e__Union"]},"Attrs":[]}
@@ -8855,6 +8969,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"CharSet","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8868,6 +8983,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Len","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"OctetSeq","Type":{"Kind":"Array","Shape":{"Size":1024},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -9077,6 +9193,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -9115,6 +9232,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Bandwidth","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"Instability","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -9188,6 +9306,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ConnectivityLevel","Type":{"Kind":"ApiRef","Name":"NL_NETWORK_CONNECTIVITY_LEVEL_HINT","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"ConnectivityCost","Type":{"Kind":"ApiRef","Name":"NL_NETWORK_CONNECTIVITY_COST_HINT","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9203,6 +9322,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Bandwidth","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"Instability","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -9238,6 +9358,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 	]
@@ -9249,6 +9370,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"onoff","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"keepalivetime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9279,6 +9401,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportSettingId","Type":{"Kind":"ApiRef","Name":"TRANSPORT_SETTING_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"BrokerEventGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -9291,6 +9414,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportSettingId","Type":{"Kind":"ApiRef","Name":"TRANSPORT_SETTING_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"BrokerEventGuid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -9304,6 +9428,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ChannelStatus","Type":{"Kind":"ApiRef","Name":"CONTROL_CHANNEL_TRIGGER_STATUS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -9315,6 +9440,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TransportSettingId","Type":{"Kind":"ApiRef","Name":"TRANSPORT_SETTING_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Handle","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -9327,6 +9453,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"TxTimestampsBuffered","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -9353,6 +9480,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Sender","Type":{"Kind":"ApiRef","Name":"SOCKET_PRIORITY_HINT","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Receiver","Type":{"Kind":"ApiRef","Name":"SOCKET_PRIORITY_HINT","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9379,6 +9507,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Mode","Type":{"Kind":"ApiRef","Name":"RCVALL_VALUE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Interface","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9391,6 +9520,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Rtt","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MaxSynRetransmissions","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9420,6 +9550,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Level","Type":{"Kind":"ApiRef","Name":"TCP_ICW_LEVEL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -9431,6 +9562,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TcpDelayedAckFrequency","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
@@ -9442,6 +9574,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"State","Type":{"Kind":"ApiRef","Name":"TCPSTATE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Mss","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9471,6 +9604,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"State","Type":{"Kind":"ApiRef","Name":"TCPSTATE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Mss","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9509,6 +9643,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StartPort","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"NumberOfPorts","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -9521,6 +9656,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Token","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -9532,6 +9668,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Reservation","Type":{"Kind":"ApiRef","Name":"INET_PORT_RANGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Token","Type":{"Kind":"ApiRef","Name":"INET_PORT_RESERVATION_TOKEN","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9544,6 +9681,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OwningPid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -9580,6 +9718,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"SecurityFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9592,6 +9731,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"SecurityFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9613,6 +9753,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PeerAddress","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9627,6 +9768,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PeerAddress","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9640,6 +9782,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PeerAddress","Type":{"Kind":"ApiRef","Name":"SOCKADDR_STORAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9655,6 +9798,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9669,6 +9813,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SecurityProtocol","Type":{"Kind":"ApiRef","Name":"SOCKET_SECURITY_PROTOCOL","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9687,6 +9832,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RssEnabled","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -9711,6 +9857,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BehaviorId","Type":{"Kind":"ApiRef","Name":"WSA_COMPATIBILITY_BEHAVIOR_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"TargetOsVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9723,6 +9870,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Status","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"BytesTransferred","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9737,6 +9885,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BufferId","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"RIO_BUFFERID_t","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"Offset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9750,6 +9899,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TotalLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -9761,6 +9911,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumofDigits","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9774,6 +9925,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Layer2Protocol","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Layer2UserSpecifiedProtocol","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9790,6 +9942,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HighLayerInfoType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HighLayerInfoLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9803,6 +9956,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"satm_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"satm_number","Type":{"Kind":"ApiRef","Name":"ATM_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9839,6 +9993,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IEType","Type":{"Kind":"ApiRef","Name":"Q2931_IE_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"IELength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9864,6 +10019,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ForwardMaxCPCSSDUSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BackwardMaxCPCSSDUSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9878,6 +10034,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UserDefined","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -9889,6 +10046,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AALType","Type":{"Kind":"ApiRef","Name":"AAL_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"AALSpecificParameters","Type":{"Kind":"ApiRef","Name":"_AALSpecificParameters_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9900,6 +10058,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"AAL5Parameters","Type":{"Kind":"ApiRef","Name":"AAL5_PARAMETERS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"AALUserParameters","Type":{"Kind":"ApiRef","Name":"AALUSER_PARAMETERS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9913,6 +10072,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PeakCellRate_CLP0","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"PeakCellRate_CLP01","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -9930,6 +10090,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Forward","Type":{"Kind":"ApiRef","Name":"ATM_TD","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Backward","Type":{"Kind":"ApiRef","Name":"ATM_TD","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -9943,6 +10104,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BearerClass","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"TrafficType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9958,6 +10120,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Layer2Protocol","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Layer2Mode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9979,6 +10142,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ATM_Number","Type":{"Kind":"ApiRef","Name":"ATM_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Presentation_Indication","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -9992,6 +10156,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Location","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Cause","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -10006,6 +10171,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"QOSClassForward","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"QOSClassBackward","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -10018,6 +10184,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"TypeOfNetworkId","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"NetworkIdPlan","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -10032,6 +10199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeviceNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"VPI","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10045,6 +10213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":4
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PvcConnectionId","Type":{"Kind":"ApiRef","Name":"ATM_CONNECTION_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PvcQos","Type":{"Kind":"ApiRef","Name":"QOS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -10082,6 +10251,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AuthLevel","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cchDomainName","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10096,6 +10266,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwProviderType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10111,6 +10282,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Head","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
 		,{"Name":"HeadLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10181,6 +10353,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwElFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"cLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10193,6 +10366,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"pBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -10204,6 +10378,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"nFileOffset","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"hFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -10310,6 +10485,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"header","Type":{"Kind":"ApiRef","Name":"_header_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"data","Type":{"Kind":"ApiRef","Name":"_data_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -10321,6 +10497,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"rawData","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			,{"Name":"interfaceData","Type":{"Kind":"ApiRef","Name":"_interfaceData_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_data_e__Union"]},"Attrs":[]}
@@ -10335,6 +10512,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"remote","Type":{"Kind":"ApiRef","Name":"_remote_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_data_e__Union","_ICS_e__Struct"]},"Attrs":[]}
 			]
@@ -10345,6 +10523,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"speed","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 					,{"Name":"type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10361,6 +10540,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"type","Type":{"Kind":"ApiRef","Name":"NLA_CONNECTIVITY_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 				,{"Name":"internet","Type":{"Kind":"ApiRef","Name":"NLA_INTERNET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -10373,6 +10553,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"information","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
 			]
@@ -10384,6 +10565,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"dwSpeed","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10398,6 +10580,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"type","Type":{"Kind":"ApiRef","Name":"NLA_BLOB_DATA_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10428,6 +10611,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"result","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"fds","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10442,6 +10626,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpMsg","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSAMSG","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
 		,{"Name":"dwFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -10584,6 +10769,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"ApiRef","Name":"RIO_NOTIFICATION_COMPLETION_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -10595,6 +10781,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Event","Type":{"Kind":"ApiRef","Name":"_Event_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Iocp","Type":{"Kind":"ApiRef","Name":"_Iocp_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -10606,6 +10793,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"IocpHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"CompletionKey","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -10619,6 +10807,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"EventHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"NotifyReset","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -10743,6 +10932,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RIOReceive","Type":{"Kind":"ApiRef","Name":"LPFN_RIORECEIVE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -10767,6 +10957,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wHighVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -10780,6 +10971,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ThreadHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
@@ -11312,6 +11504,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpWSPAccept","Type":{"Kind":"ApiRef","Name":"LPWSPACCEPT","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"lpWSPAddressToString","Type":{"Kind":"ApiRef","Name":"LPWSPADDRESSTOSTRING","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -11573,6 +11766,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpWPUCloseEvent","Type":{"Kind":"ApiRef","Name":"LPWPUCLOSEEVENT","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"lpWPUCloseSocketHandle","Type":{"Kind":"ApiRef","Name":"LPWPUCLOSESOCKETHANDLE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -11701,6 +11895,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RecordSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -11885,6 +12080,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMajorVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12020,6 +12216,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwMajorVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12040,6 +12237,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNameSpaceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12053,6 +12251,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwNameSpaceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12066,6 +12265,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwValueType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12081,6 +12281,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwValueType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12096,6 +12297,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwValueType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12111,6 +12313,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwTypeNameOffset","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwValueCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12124,6 +12327,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpTypeName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwValueCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12137,6 +12341,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpTypeName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"dwValueCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12150,6 +12355,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwAddressType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwAddressFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12166,6 +12372,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwAddressCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Addresses","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"SERVICE_ADDRESS","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":[]}
@@ -12178,6 +12385,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpServiceType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
 		,{"Name":"lpServiceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -12198,6 +12406,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpServiceType","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":[]}
 		,{"Name":"lpServiceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -12218,6 +12427,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ServiceInfo","Type":{"Kind":"ApiRef","Name":"SERVICE_INFOA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12230,6 +12440,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ServiceInfo","Type":{"Kind":"ApiRef","Name":"SERVICE_INFOW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12242,6 +12453,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwServiceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iAddressFamily","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -12260,6 +12472,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwServiceFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"iAddressFamily","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -12278,6 +12491,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwScope","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12299,6 +12513,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwScope","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"dwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12344,6 +12559,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"lpServiceCallbackProc","Type":{"Kind":"ApiRef","Name":"LPSERVICE_CALLBACK_PROC","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"lParam","Type":{"Kind":"ApiRef","Name":"LPARAM","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -12397,6 +12613,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sun_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sun_path","Type":{"Kind":"Array","Shape":{"Size":108},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -12409,6 +12626,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sa_family","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"sa_netnum","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"ApiRef","Name":"CHAR","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":[]}
@@ -12423,6 +12641,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"tp_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"tp_addr_type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12438,6 +12657,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"snb_family","Type":{"Kind":"Native","Name":"Int16"},"Attrs":[]}
 		,{"Name":"snb_type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12451,6 +12671,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin_family","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"net_address","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -12467,6 +12688,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":3},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12478,6 +12700,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		]
@@ -12490,6 +12713,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":3},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -12501,6 +12725,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12512,6 +12737,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Oui","Type":{"Kind":"ApiRef","Name":"DL_OUI","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"Ei48","Type":{"Kind":"ApiRef","Name":"DL_EI48","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12525,6 +12751,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":5},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
@@ -12536,6 +12763,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Byte","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -12548,6 +12776,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Oui","Type":{"Kind":"ApiRef","Name":"DL_OUI","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Struct"]},"Attrs":[]}
@@ -12559,6 +12788,7 @@
 			,"Kind":"Union"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Ei64","Type":{"Kind":"ApiRef","Name":"DL_EI64","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 				,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Struct","_Anonymous_e__Union"]},"Attrs":[]}
@@ -12570,6 +12800,7 @@
 				,"Kind":"Struct"
 				,"Size":0
 				,"PackingSize":0
+				,"Attrs":[]
 				,"Fields":[
 					{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 					,{"Name":"Tse","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12586,6 +12817,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Dsap","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Ssap","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12601,6 +12833,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Destination","Type":{"Kind":"ApiRef","Name":"DL_EUI48","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Source","Type":{"Kind":"ApiRef","Name":"DL_EUI48","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12613,6 +12846,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12626,6 +12860,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12637,6 +12872,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Tag","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -12648,6 +12884,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
@@ -12661,6 +12898,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Code","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12674,6 +12912,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"ICMP_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Data","Type":{"Kind":"ApiRef","Name":"_Data_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12685,6 +12924,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Data32","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":[]}
 			,{"Name":"Data16","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":[]}
@@ -12699,6 +12939,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -12718,6 +12959,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"FlagsAndOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous3_e__Union"]},"Attrs":[]}
@@ -12729,6 +12971,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
@@ -12741,6 +12984,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"TypeOfServiceAndEcnField","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
@@ -12752,6 +12996,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -12764,6 +13009,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"VersionAndHeaderLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
@@ -12775,6 +13021,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -12788,6 +13035,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"OptionLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12799,6 +13047,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"OptionType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -12810,6 +13059,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -12843,6 +13093,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionHeader","Type":{"Kind":"ApiRef","Name":"IPV4_OPTION_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Pointer","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12855,6 +13106,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"FlagsOverflow","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -12866,6 +13118,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -12892,6 +13145,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OptionHeader","Type":{"Kind":"ApiRef","Name":"IPV4_OPTION_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Pointer","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12940,6 +13194,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RsHeader","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -12951,6 +13206,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RaHeader","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
@@ -12962,6 +13218,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"RouterAdvertAddr","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PreferenceLevel","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -12974,6 +13231,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"OriginateTimestamp","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12988,6 +13246,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"AddressMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13000,6 +13259,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"HardwareAddressSpace","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"ProtocolAddressSpace","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13040,6 +13300,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous2","Type":{"Kind":"ApiRef","Name":"_Anonymous2_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13053,6 +13314,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"MaxRespTime","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13066,6 +13328,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
 			,{"Name":"VersionType","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13077,6 +13340,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13102,6 +13366,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13118,6 +13383,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"QueriersQueryInterfaceCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
@@ -13129,6 +13395,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13141,6 +13408,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"MaxRespCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
@@ -13152,6 +13420,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13165,6 +13434,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"AuxillaryDataLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13179,6 +13449,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13194,6 +13465,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"PayloadLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13209,6 +13481,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"VersionClassFlow","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -13220,6 +13493,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -13233,6 +13507,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextHeader","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13246,6 +13521,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"OffsetAndFlags","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13257,6 +13533,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
@@ -13270,6 +13547,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextHeader","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13282,6 +13560,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"DataLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13310,6 +13589,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"IPV6_OPTION_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"JumbogramLength","Type":{"Kind":"Array","Shape":{"Size":4},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -13322,6 +13602,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"IPV6_OPTION_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Array","Shape":{"Size":2},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -13334,6 +13615,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NextHeader","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13349,17 +13631,19 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_rs_hdr","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_router_advert"
+	"Name":"ND_ROUTER_ADVERT_HEADER"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_ra_hdr","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"nd_ra_reachable","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13373,6 +13657,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13384,30 +13669,33 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		]
 		,"NestedTypes":[]
 	}]
 },{
-	"Name":"nd_neighbor_solicit"
+	"Name":"ND_NEIGHBOR_SOLICIT_HEADER"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_ns_hdr","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"nd_ns_target","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_neighbor_advert"
+	"Name":"ND_NEIGHBOR_ADVERT_HEADER"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_na_hdr","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"nd_na_target","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13420,6 +13708,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13431,6 +13720,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Reserved2","Type":{"Kind":"Array","Shape":{"Size":3},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -13438,12 +13728,13 @@
 		,"NestedTypes":[]
 	}]
 },{
-	"Name":"nd_redirect"
+	"Name":"ND_REDIRECT_HEADER"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_rd_hdr","Type":{"Kind":"ApiRef","Name":"ICMP_MESSAGE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"nd_rd_target","Type":{"Kind":"ApiRef","Name":"IN6_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13451,12 +13742,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_opt_hdr"
+	"Name":"ND_OPTION_HDR"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13486,12 +13778,13 @@
 	]
 	,"IntegerBase":"Int32"
 },{
-	"Name":"nd_opt_prefix_info"
+	"Name":"ND_OPTION_PREFIX_INFO"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_pi_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_pi_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13509,6 +13802,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"nd_opt_pi_reserved2","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
@@ -13520,6 +13814,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"nd_opt_pi_reserved3","Type":{"Kind":"Array","Shape":{"Size":3},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 				,{"Name":"nd_opt_pi_site_prefix_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13533,6 +13828,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"nd_opt_pi_flags_reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"_Flags_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
@@ -13544,6 +13840,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13551,12 +13848,13 @@
 		}]
 	}]
 },{
-	"Name":"nd_opt_rd_hdr"
+	"Name":"ND_OPTION_RD_HDR"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_rh_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_rh_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13565,12 +13863,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_opt_mtu"
+	"Name":"ND_OPTION_MTU"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_mtu_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_mtu_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13579,12 +13878,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_opt_route_info"
+	"Name":"ND_OPTION_ROUTE_INFO"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_ri_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_ri_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13600,6 +13900,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"nd_opt_ri_flags_reserved","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Flags","Type":{"Kind":"ApiRef","Name":"_Flags_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -13611,6 +13912,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13618,12 +13920,13 @@
 		}]
 	}]
 },{
-	"Name":"nd_opt_rdnss"
+	"Name":"ND_OPTION_RDNSS"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_rdnss_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_rdnss_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13632,12 +13935,13 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"nd_opt_dnssl"
+	"Name":"ND_OPTION_DNSSL"
 	,"Architectures":[]
 	,"Platform":null
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nd_opt_dnssl_type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"nd_opt_dnssl_len","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13652,6 +13956,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IcmpHeader","Type":{"Kind":"ApiRef","Name":"ICMP_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"MaxRespTime","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13678,6 +13983,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IcmpHeader","Type":{"Kind":"ApiRef","Name":"ICMP_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous1","Type":{"Kind":"ApiRef","Name":"_Anonymous1_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13694,6 +14000,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"QueriersQueryInterfaceCode","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous2_e__Union"]},"Attrs":[]}
@@ -13705,6 +14012,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 			]
@@ -13717,6 +14025,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"MaxRespCode","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous1_e__Union"]},"Attrs":[]}
@@ -13728,6 +14037,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 			]
@@ -13741,6 +14051,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"AuxillaryDataLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13755,6 +14066,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IcmpHeader","Type":{"Kind":"ApiRef","Name":"ICMP_HEADER","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13768,6 +14080,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"th_sport","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"th_dport","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13787,6 +14100,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13800,6 +14114,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13813,6 +14128,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13825,6 +14141,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13837,6 +14154,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Left","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Right","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13850,6 +14168,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13864,6 +14183,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13876,6 +14196,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Kind","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -13889,6 +14210,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"CompartmentId","Type":{"Kind":"ApiRef","Name":"COMPARTMENT_ID","TargetKind":"Default","Api":"System.Kernel","Parents":[]},"Attrs":[]}
 		,{"Name":"ScopeId","Type":{"Kind":"ApiRef","Name":"SCOPE_ID","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13916,6 +14238,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13927,6 +14250,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Eui64","Type":{"Kind":"ApiRef","Name":"DL_EUI64","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -13938,6 +14262,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":1
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"MappedPort","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13953,6 +14278,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Reserved","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -13964,6 +14290,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":1
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Eui64","Type":{"Kind":"ApiRef","Name":"DL_EUI64","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
 			,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Struct","TargetKind":"Default","Api":"Networking.WinSock","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -13975,6 +14302,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":1
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 				,{"Name":"MappedPort","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13994,6 +14322,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":1
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SequenceNumber","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -14017,6 +14346,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"ApiRef","Name":"NPI_MODULEID_TYPE","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":[]}
@@ -14029,6 +14359,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			,{"Name":"IfLuid","Type":{"Kind":"ApiRef","Name":"LUID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -14054,6 +14385,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"s_name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"s_aliases","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"SByte"}}},"Attrs":[]}
@@ -14068,6 +14400,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"wVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"wHighVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -14083,7 +14416,7 @@
 "Functions":[{
 	"Name":"__WSAFDIsSet"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14096,7 +14429,7 @@
 },{
 	"Name":"accept"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14110,7 +14443,7 @@
 },{
 	"Name":"bind"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14124,7 +14457,7 @@
 },{
 	"Name":"closesocket"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14136,7 +14469,7 @@
 },{
 	"Name":"connect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14150,7 +14483,7 @@
 },{
 	"Name":"ioctlsocket"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14164,7 +14497,7 @@
 },{
 	"Name":"getpeername"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14178,7 +14511,7 @@
 },{
 	"Name":"getsockname"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14192,7 +14525,7 @@
 },{
 	"Name":"getsockopt"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14208,7 +14541,7 @@
 },{
 	"Name":"htonl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14220,7 +14553,7 @@
 },{
 	"Name":"htons"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt16"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14232,31 +14565,35 @@
 },{
 	"Name":"inet_addr"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"inet_pton() or InetPton("}
+	]
 	,"Params":[
 		{"Name":"cp","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"inet_ntoa"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"inet_ntop() or InetNtop("}
+	]
 	,"Params":[
 		{"Name":"in","Type":{"Kind":"ApiRef","Name":"IN_ADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"listen"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14269,7 +14606,7 @@
 },{
 	"Name":"ntohl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14281,7 +14618,7 @@
 },{
 	"Name":"ntohs"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt16"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14293,7 +14630,7 @@
 },{
 	"Name":"recv"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14308,7 +14645,7 @@
 },{
 	"Name":"recvfrom"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14325,7 +14662,7 @@
 },{
 	"Name":"select"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14341,7 +14678,7 @@
 },{
 	"Name":"send"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14356,7 +14693,7 @@
 },{
 	"Name":"sendto"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14373,7 +14710,7 @@
 },{
 	"Name":"setsockopt"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14389,7 +14726,7 @@
 },{
 	"Name":"shutdown"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14402,7 +14739,7 @@
 },{
 	"Name":"socket"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14416,12 +14753,14 @@
 },{
 	"Name":"gethostbyaddr"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"hostent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getnameinfo() or GetNameInfoW("}
+	]
 	,"Params":[
 		{"Name":"addr","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":1},"Const"]}
 		,{"Name":"len","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -14430,19 +14769,21 @@
 },{
 	"Name":"gethostbyname"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"hostent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getaddrinfo() or GetAddrInfoW("}
+	]
 	,"Params":[
 		{"Name":"name","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 	]
 },{
 	"Name":"gethostname"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14455,7 +14796,7 @@
 },{
 	"Name":"GetHostNameW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14468,7 +14809,7 @@
 },{
 	"Name":"getservbyport"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"servent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14481,7 +14822,7 @@
 },{
 	"Name":"getservbyname"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"servent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14494,7 +14835,7 @@
 },{
 	"Name":"getprotobynumber"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"protoent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14506,7 +14847,7 @@
 },{
 	"Name":"getprotobyname"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"protoent","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14518,7 +14859,7 @@
 },{
 	"Name":"WSAStartup"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14531,7 +14872,7 @@
 },{
 	"Name":"WSACleanup"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14542,7 +14883,7 @@
 },{
 	"Name":"WSASetLastError"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14554,7 +14895,7 @@
 },{
 	"Name":"WSAGetLastError"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WSA_ERROR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14565,57 +14906,67 @@
 },{
 	"Name":"WSAIsBlocking"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"Winsock "}
+	]
 	,"Params":[
 	]
 },{
 	"Name":"WSAUnhookBlockingHook"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"Winsock "}
+	]
 	,"Params":[
 	]
 },{
 	"Name":"WSASetBlockingHook"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"FARPROC","TargetKind":"FunctionPointer","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"Winsock "}
+	]
 	,"Params":[
 		{"Name":"lpBlockFunc","Type":{"Kind":"ApiRef","Name":"FARPROC","TargetKind":"FunctionPointer","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"WSACancelBlockingCall"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":null
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"Winsock "}
+	]
 	,"Params":[
 	]
 },{
 	"Name":"WSAAsyncGetServByName"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getservbyname("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14627,12 +14978,14 @@
 },{
 	"Name":"WSAAsyncGetServByPort"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getservbyport("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14644,12 +14997,14 @@
 },{
 	"Name":"WSAAsyncGetProtoByName"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getprotobyname("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14660,12 +15015,14 @@
 },{
 	"Name":"WSAAsyncGetProtoByNumber"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getprotobynumber("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14676,12 +15033,14 @@
 },{
 	"Name":"WSAAsyncGetHostByName"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"GetAddrInfoExW("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14692,12 +15051,14 @@
 },{
 	"Name":"WSAAsyncGetHostByAddr"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"getnameinfo() or GetNameInfoW("}
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"wMsg","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14710,24 +15071,28 @@
 },{
 	"Name":"WSACancelAsyncRequest"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"hAsyncTaskHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"WSAAsyncSelect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAEventSelect("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"hWnd","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -14737,7 +15102,7 @@
 },{
 	"Name":"WSAAccept"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14753,7 +15118,7 @@
 },{
 	"Name":"WSACloseEvent"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14765,7 +15130,7 @@
 },{
 	"Name":"WSAConnect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14783,7 +15148,7 @@
 },{
 	"Name":"WSAConnectByNameW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14803,12 +15168,14 @@
 },{
 	"Name":"WSAConnectByNameA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAConnectByNameW("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"nodename","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
@@ -14823,7 +15190,7 @@
 },{
 	"Name":"WSAConnectByList"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14842,7 +15209,7 @@
 },{
 	"Name":"WSACreateEvent"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14853,12 +15220,14 @@
 },{
 	"Name":"WSADuplicateSocketA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSADuplicateSocketW("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"dwProcessId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -14867,7 +15236,7 @@
 },{
 	"Name":"WSADuplicateSocketW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14881,7 +15250,7 @@
 },{
 	"Name":"WSAEnumNetworkEvents"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14895,12 +15264,14 @@
 },{
 	"Name":"WSAEnumProtocolsA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAEnumProtocolsW("}
+	]
 	,"Params":[
 		{"Name":"lpiProtocols","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Optional"]}
 		,{"Name":"lpProtocolBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSAPROTOCOL_INFOA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2},"Optional"]}
@@ -14909,7 +15280,7 @@
 },{
 	"Name":"WSAEnumProtocolsW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14923,7 +15294,7 @@
 },{
 	"Name":"WSAEventSelect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14937,7 +15308,7 @@
 },{
 	"Name":"WSAGetOverlappedResult"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14953,12 +15324,14 @@
 },{
 	"Name":"WSAGetQOSByName"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		"Obsolete"
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpQOSName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSABUF","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In"]}
@@ -14967,7 +15340,7 @@
 },{
 	"Name":"WSAHtonl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14981,7 +15354,7 @@
 },{
 	"Name":"WSAHtons"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -14995,7 +15368,7 @@
 },{
 	"Name":"WSAIoctl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15015,7 +15388,7 @@
 },{
 	"Name":"WSAJoinLeaf"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15034,7 +15407,7 @@
 },{
 	"Name":"WSANtohl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15048,7 +15421,7 @@
 },{
 	"Name":"WSANtohs"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15062,7 +15435,7 @@
 },{
 	"Name":"WSARecv"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15080,12 +15453,14 @@
 },{
 	"Name":"WSARecvDisconnect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSARecv("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpInboundDisconnectData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSABUF","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
@@ -15093,7 +15468,7 @@
 },{
 	"Name":"WSARecvFrom"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15113,7 +15488,7 @@
 },{
 	"Name":"WSAResetEvent"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15125,7 +15500,7 @@
 },{
 	"Name":"WSASend"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15143,7 +15518,7 @@
 },{
 	"Name":"WSASendMsg"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15160,12 +15535,14 @@
 },{
 	"Name":"WSASendDisconnect"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSASend("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lpOutboundDisconnectData","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSABUF","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
@@ -15173,7 +15550,7 @@
 },{
 	"Name":"WSASendTo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15193,7 +15570,7 @@
 },{
 	"Name":"WSASetEvent"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15205,12 +15582,14 @@
 },{
 	"Name":"WSASocketA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSASocketW("}
+	]
 	,"Params":[
 		{"Name":"af","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"type","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -15222,7 +15601,7 @@
 },{
 	"Name":"WSASocketW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15239,7 +15618,7 @@
 },{
 	"Name":"WSAWaitForMultipleEvents"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15255,12 +15634,14 @@
 },{
 	"Name":"WSAAddressToStringA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAAddressToStringW("}
+	]
 	,"Params":[
 		{"Name":"lpsaAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SOCKADDR","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":1}]}
 		,{"Name":"dwAddressLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -15271,7 +15652,7 @@
 },{
 	"Name":"WSAAddressToStringW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15287,12 +15668,14 @@
 },{
 	"Name":"WSAStringToAddressA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAStringToAddressW("}
+	]
 	,"Params":[
 		{"Name":"AddressString","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"AddressFamily","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -15303,7 +15686,7 @@
 },{
 	"Name":"WSAStringToAddressW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15319,12 +15702,14 @@
 },{
 	"Name":"WSALookupServiceBeginA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSALookupServiceBeginW("}
+	]
 	,"Params":[
 		{"Name":"lpqsRestrictions","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSAQUERYSETA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"dwControlFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -15333,7 +15718,7 @@
 },{
 	"Name":"WSALookupServiceBeginW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15347,12 +15732,14 @@
 },{
 	"Name":"WSALookupServiceNextA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSALookupServiceNextW("}
+	]
 	,"Params":[
 		{"Name":"hLookup","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"dwControlFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -15362,7 +15749,7 @@
 },{
 	"Name":"WSALookupServiceNextW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15377,7 +15764,7 @@
 },{
 	"Name":"WSANSPIoctl"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15396,7 +15783,7 @@
 },{
 	"Name":"WSALookupServiceEnd"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15408,19 +15795,21 @@
 },{
 	"Name":"WSAInstallServiceClassA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAInstallServiceClassW("}
+	]
 	,"Params":[
 		{"Name":"lpServiceClassInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSASERVICECLASSINFOA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In"]}
 	]
 },{
 	"Name":"WSAInstallServiceClassW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15432,7 +15821,7 @@
 },{
 	"Name":"WSARemoveServiceClass"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15444,12 +15833,14 @@
 },{
 	"Name":"WSAGetServiceClassInfoA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAGetServiceClassInfoW("}
+	]
 	,"Params":[
 		{"Name":"lpProviderId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In"]}
 		,{"Name":"lpServiceClassId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In"]}
@@ -15459,7 +15850,7 @@
 },{
 	"Name":"WSAGetServiceClassInfoW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15474,12 +15865,14 @@
 },{
 	"Name":"WSAEnumNameSpaceProvidersA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAEnumNameSpaceProvidersW("}
+	]
 	,"Params":[
 		{"Name":"lpdwBufferLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"lpnspBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSANAMESPACE_INFOA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":0}]}
@@ -15487,7 +15880,7 @@
 },{
 	"Name":"WSAEnumNameSpaceProvidersW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15500,12 +15893,14 @@
 },{
 	"Name":"WSAEnumNameSpaceProvidersExA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAEnumNameSpaceProvidersW("}
+	]
 	,"Params":[
 		{"Name":"lpdwBufferLength","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		,{"Name":"lpnspBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSANAMESPACE_INFOEXA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":0}]}
@@ -15513,7 +15908,7 @@
 },{
 	"Name":"WSAEnumNameSpaceProvidersExW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15526,12 +15921,14 @@
 },{
 	"Name":"WSAGetServiceClassNameByClassIdA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSAGetServiceClassNameByClassIdW("}
+	]
 	,"Params":[
 		{"Name":"lpServiceClassId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In"]}
 		,{"Name":"lpszServiceClassName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -15540,7 +15937,7 @@
 },{
 	"Name":"WSAGetServiceClassNameByClassIdW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15554,12 +15951,14 @@
 },{
 	"Name":"WSASetServiceA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSASetServiceW("}
+	]
 	,"Params":[
 		{"Name":"lpqsRegInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSAQUERYSETA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"essoperation","Type":{"Kind":"ApiRef","Name":"WSAESETSERVICEOP","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
@@ -15568,7 +15967,7 @@
 },{
 	"Name":"WSASetServiceW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15582,7 +15981,7 @@
 },{
 	"Name":"WSAProviderConfigChange"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15596,7 +15995,7 @@
 },{
 	"Name":"WSAPoll"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15610,7 +16009,7 @@
 },{
 	"Name":"ProcessSocketNotifications"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15628,7 +16027,7 @@
 },{
 	"Name":"RtlIpv4AddressToStringA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15641,7 +16040,7 @@
 },{
 	"Name":"RtlIpv4AddressToStringExA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15656,7 +16055,7 @@
 },{
 	"Name":"RtlIpv4AddressToStringW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15669,7 +16068,7 @@
 },{
 	"Name":"RtlIpv4AddressToStringExW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15684,7 +16083,7 @@
 },{
 	"Name":"RtlIpv4StringToAddressA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15699,7 +16098,7 @@
 },{
 	"Name":"RtlIpv4StringToAddressExA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15714,7 +16113,7 @@
 },{
 	"Name":"RtlIpv4StringToAddressW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15729,7 +16128,7 @@
 },{
 	"Name":"RtlIpv4StringToAddressExW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15744,7 +16143,7 @@
 },{
 	"Name":"RtlIpv6AddressToStringA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15757,7 +16156,7 @@
 },{
 	"Name":"RtlIpv6AddressToStringExA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15773,7 +16172,7 @@
 },{
 	"Name":"RtlIpv6AddressToStringW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15786,7 +16185,7 @@
 },{
 	"Name":"RtlIpv6AddressToStringExW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15802,7 +16201,7 @@
 },{
 	"Name":"RtlIpv6StringToAddressA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15816,7 +16215,7 @@
 },{
 	"Name":"RtlIpv6StringToAddressExA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15831,7 +16230,7 @@
 },{
 	"Name":"RtlIpv6StringToAddressW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15845,7 +16244,7 @@
 },{
 	"Name":"RtlIpv6StringToAddressExW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15860,7 +16259,7 @@
 },{
 	"Name":"RtlEthernetAddressToStringA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15873,7 +16272,7 @@
 },{
 	"Name":"RtlEthernetAddressToStringW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15886,7 +16285,7 @@
 },{
 	"Name":"RtlEthernetStringToAddressA"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15900,7 +16299,7 @@
 },{
 	"Name":"RtlEthernetStringToAddressW"
 	,"SetLastError":false
-	,"DllImport":"ntdll"
+	,"DllImport":"ntdll.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15914,12 +16313,14 @@
 },{
 	"Name":"WSARecvEx"
 	,"SetLastError":false
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"WSARecv("}
+	]
 	,"Params":[
 		{"Name":"s","Type":{"Kind":"ApiRef","Name":"SOCKET","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]},"Attrs":["In"]}
 		,{"Name":"buf","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -15929,7 +16330,7 @@
 },{
 	"Name":"TransmitFile"
 	,"SetLastError":false
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15947,7 +16348,7 @@
 },{
 	"Name":"AcceptEx"
 	,"SetLastError":false
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15966,7 +16367,7 @@
 },{
 	"Name":"GetAcceptExSockaddrs"
 	,"SetLastError":false
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -15985,7 +16386,7 @@
 },{
 	"Name":"WSCEnumProtocols"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16000,7 +16401,7 @@
 },{
 	"Name":"WSCEnumProtocols32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16015,7 +16416,7 @@
 },{
 	"Name":"WSCDeinstallProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16028,7 +16429,7 @@
 },{
 	"Name":"WSCDeinstallProvider32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16041,7 +16442,7 @@
 },{
 	"Name":"WSCInstallProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16057,7 +16458,7 @@
 },{
 	"Name":"WSCInstallProvider64_32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16073,7 +16474,7 @@
 },{
 	"Name":"WSCGetProviderPath"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16088,7 +16489,7 @@
 },{
 	"Name":"WSCGetProviderPath32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16103,7 +16504,7 @@
 },{
 	"Name":"WSCUpdateProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16119,7 +16520,7 @@
 },{
 	"Name":"WSCUpdateProvider32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16135,7 +16536,7 @@
 },{
 	"Name":"WSCSetProviderInfo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16152,7 +16553,7 @@
 },{
 	"Name":"WSCGetProviderInfo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16169,7 +16570,7 @@
 },{
 	"Name":"WSCSetProviderInfo32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16186,7 +16587,7 @@
 },{
 	"Name":"WSCGetProviderInfo32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16203,7 +16604,7 @@
 },{
 	"Name":"WSCSetApplicationCategory"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16221,7 +16622,7 @@
 },{
 	"Name":"WSCGetApplicationCategory"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16238,7 +16639,7 @@
 },{
 	"Name":"WPUCompleteOverlappedRequest"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16254,7 +16655,7 @@
 },{
 	"Name":"WSCEnumNameSpaceProviders32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16267,7 +16668,7 @@
 },{
 	"Name":"WSCEnumNameSpaceProvidersEx32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16280,7 +16681,7 @@
 },{
 	"Name":"WSCInstallNameSpace"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16296,7 +16697,7 @@
 },{
 	"Name":"WSCInstallNameSpace32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16312,7 +16713,7 @@
 },{
 	"Name":"WSCUnInstallNameSpace"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16324,7 +16725,7 @@
 },{
 	"Name":"WSCInstallNameSpaceEx"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16341,7 +16742,7 @@
 },{
 	"Name":"WSCInstallNameSpaceEx32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16358,7 +16759,7 @@
 },{
 	"Name":"WSCUnInstallNameSpace32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16370,7 +16771,7 @@
 },{
 	"Name":"WSCEnableNSProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16383,7 +16784,7 @@
 },{
 	"Name":"WSCEnableNSProvider32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16396,7 +16797,7 @@
 },{
 	"Name":"WSCInstallProviderAndChains64_32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -16416,7 +16817,7 @@
 },{
 	"Name":"WSAAdvertiseProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16429,7 +16830,7 @@
 },{
 	"Name":"WSAUnadvertiseProvider"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16441,7 +16842,7 @@
 },{
 	"Name":"WSAProviderCompleteAsyncCall"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16454,7 +16855,7 @@
 },{
 	"Name":"EnumProtocolsA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16468,7 +16869,7 @@
 },{
 	"Name":"EnumProtocolsW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16482,7 +16883,7 @@
 },{
 	"Name":"GetAddressByNameA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16503,7 +16904,7 @@
 },{
 	"Name":"GetAddressByNameW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16524,7 +16925,7 @@
 },{
 	"Name":"GetTypeByNameA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16537,7 +16938,7 @@
 },{
 	"Name":"GetTypeByNameW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16550,7 +16951,7 @@
 },{
 	"Name":"GetNameByTypeA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16564,7 +16965,7 @@
 },{
 	"Name":"GetNameByTypeW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16578,7 +16979,7 @@
 },{
 	"Name":"SetServiceA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16595,7 +16996,7 @@
 },{
 	"Name":"SetServiceW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16612,7 +17013,7 @@
 },{
 	"Name":"GetServiceA"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16630,7 +17031,7 @@
 },{
 	"Name":"GetServiceW"
 	,"SetLastError":true
-	,"DllImport":"MSWSOCK"
+	,"DllImport":"MSWSOCK.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16648,7 +17049,7 @@
 },{
 	"Name":"getaddrinfo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16663,7 +17064,7 @@
 },{
 	"Name":"GetAddrInfoW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16672,25 +17073,27 @@
 	,"Params":[
 		{"Name":"pNodeName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pServiceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
-		,{"Name":"pHints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
-		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
+		,{"Name":"pHints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
+		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
 	]
 },{
 	"Name":"GetAddrInfoExA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"GetAddrInfoExW("}
+	]
 	,"Params":[
 		{"Name":"pName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"pServiceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"lpNspId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional"]}
-		,{"Name":"hints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
-		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
+		,{"Name":"hints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
+		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
 		,{"Name":"timeout","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"timeval","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"lpCompletionRoutine","Type":{"Kind":"ApiRef","Name":"LPLOOKUPSERVICE_COMPLETION_ROUTINE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":["In","Optional"]}
@@ -16699,7 +17102,7 @@
 },{
 	"Name":"GetAddrInfoExW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16710,8 +17113,8 @@
 		,{"Name":"pServiceName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 		,{"Name":"dwNameSpace","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"lpNspId","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In","Optional"]}
-		,{"Name":"hints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
-		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
+		,{"Name":"hints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional","Const"]}
+		,{"Name":"ppResult","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}}},"Attrs":["Out"]}
 		,{"Name":"timeout","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"timeval","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"lpOverlapped","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"OVERLAPPED","TargetKind":"Default","Api":"System.IO","Parents":[]}},"Attrs":["In","Optional"]}
 		,{"Name":"lpCompletionRoutine","Type":{"Kind":"ApiRef","Name":"LPLOOKUPSERVICE_COMPLETION_ROUTINE","TargetKind":"FunctionPointer","Api":"Networking.WinSock","Parents":[]},"Attrs":["In","Optional"]}
@@ -16720,7 +17123,7 @@
 },{
 	"Name":"GetAddrInfoExCancel"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16732,7 +17135,7 @@
 },{
 	"Name":"GetAddrInfoExOverlappedResult"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16744,12 +17147,14 @@
 },{
 	"Name":"SetAddrInfoExA"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"SetAddrInfoExW("}
+	]
 	,"Params":[
 		{"Name":"pName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		,{"Name":"pServiceName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
@@ -16767,7 +17172,7 @@
 },{
 	"Name":"SetAddrInfoExW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16790,7 +17195,7 @@
 },{
 	"Name":"freeaddrinfo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16802,43 +17207,45 @@
 },{
 	"Name":"FreeAddrInfoW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"pAddrInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
+		{"Name":"pAddrInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
 	]
 },{
 	"Name":"FreeAddrInfoEx"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FreeAddrInfoExW("}
+	]
 	,"Params":[
-		{"Name":"pAddrInfoEx","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
+		{"Name":"pAddrInfoEx","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXA","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
 	]
 },{
 	"Name":"FreeAddrInfoExW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.1"
 	,"Attrs":[]
 	,"Params":[
-		{"Name":"pAddrInfoEx","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"addrinfoexW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
+		{"Name":"pAddrInfoEx","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ADDRINFOEXW","TargetKind":"Default","Api":"Networking.WinSock","Parents":[]}},"Attrs":["In","Optional"]}
 	]
 },{
 	"Name":"getnameinfo"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16856,7 +17263,7 @@
 },{
 	"Name":"GetNameInfoW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16874,7 +17281,7 @@
 },{
 	"Name":"inet_pton"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16888,7 +17295,7 @@
 },{
 	"Name":"InetPtonW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16902,7 +17309,7 @@
 },{
 	"Name":"inet_ntop"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16917,7 +17324,7 @@
 },{
 	"Name":"InetNtopW"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16932,7 +17339,7 @@
 },{
 	"Name":"WSASetSocketSecurity"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16948,7 +17355,7 @@
 },{
 	"Name":"WSAQuerySocketSecurity"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16966,7 +17373,7 @@
 },{
 	"Name":"WSASetSocketPeerTargetName"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16982,7 +17389,7 @@
 },{
 	"Name":"WSADeleteSocketPeerTargetName"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -16998,7 +17405,7 @@
 },{
 	"Name":"WSAImpersonateSocketPeer"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -17012,7 +17419,7 @@
 },{
 	"Name":"WSARevertImpersonation"
 	,"SetLastError":false
-	,"DllImport":"fwpuclnt"
+	,"DllImport":"fwpuclnt.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -17023,7 +17430,7 @@
 },{
 	"Name":"SetSocketMediaStreamingMode"
 	,"SetLastError":false
-	,"DllImport":"Windows.Networking"
+	,"DllImport":"Windows.Networking.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -17035,7 +17442,7 @@
 },{
 	"Name":"WSCWriteProviderOrder"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -17048,7 +17455,7 @@
 },{
 	"Name":"WSCWriteProviderOrder32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -17061,7 +17468,7 @@
 },{
 	"Name":"WSCWriteNameSpaceOrder"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -17074,7 +17481,7 @@
 },{
 	"Name":"WSCWriteNameSpaceOrder32"
 	,"SetLastError":false
-	,"DllImport":"WS2_32"
+	,"DllImport":"WS2_32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":["X64","Arm64"]
@@ -17087,8 +17494,9 @@
 }],
 
 "UnicodeAliases":[
-	"addrinfoex"
-	,"addrinfoex2"
+	"ADDRINFO"
+	,"ADDRINFOEX"
+	,"ADDRINFOEX2"
 	,"WSAPROTOCOL_INFO"
 	,"WSAQUERYSET"
 	,"WSAQUERYSET2"

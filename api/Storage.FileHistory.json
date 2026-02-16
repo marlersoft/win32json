@@ -688,12 +688,14 @@
 "Functions":[{
 	"Name":"FhServiceOpenPipe"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceOpenPipe is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"StartServiceIfStopped","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"Pipe","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]}},"Attrs":["Out"]}
@@ -701,24 +703,28 @@
 },{
 	"Name":"FhServiceClosePipe"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceClosePipe is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"FhServiceStartBackup"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceStartBackup is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 		,{"Name":"LowPriorityIo","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -726,12 +732,14 @@
 },{
 	"Name":"FhServiceStopBackup"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceStopBackup is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 		,{"Name":"StopTracking","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -739,36 +747,42 @@
 },{
 	"Name":"FhServiceReloadConfiguration"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceReloadConfiguration is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"FhServiceBlockBackup"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceBlockBackup is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 	]
 },{
 	"Name":"FhServiceUnblockBackup"
 	,"SetLastError":false
-	,"DllImport":"fhsvcctl"
+	,"DllImport":"fhsvcctl.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows8.0"
-	,"Attrs":[]
+	,"Attrs":[
+		{"Kind":"Obsolete","Message":"FhServiceUnblockBackup is deprecated and might not work on all platforms. For more info, see MSDN"}
+	]
 	,"Params":[
 		{"Name":"Pipe","Type":{"Kind":"ApiRef","Name":"FH_SERVICE_PIPE_HANDLE","TargetKind":"Default","Api":"System.WindowsProgramming","Parents":[]},"Attrs":["In"]}
 	]

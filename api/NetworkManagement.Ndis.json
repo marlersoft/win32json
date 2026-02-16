@@ -11199,6 +11199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ifRcvAddressType","Type":{"Kind":"ApiRef","Name":"NET_IF_RCV_ADDRESS_TYPE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"ifRcvAddressLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -11212,6 +11213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ifAliasLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"ifAliasOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -11224,6 +11226,7 @@
 	,"Kind":"Union"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Value","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"Info","Type":{"Kind":"ApiRef","Name":"_Info_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -11235,6 +11238,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		]
@@ -11333,6 +11337,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BusNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SlotNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11346,6 +11351,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"String","Type":{"Kind":"Array","Shape":{"Size":257},"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -11358,6 +11364,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Address","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -11400,6 +11407,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ifOperStatus","Type":{"Kind":"ApiRef","Name":"NET_IF_OPER_STATUS","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"ifOperStatusFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11464,6 +11472,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Oid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DataLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11477,6 +11486,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Oid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"DataLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11491,6 +11501,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"MaximumLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -11504,6 +11515,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Type","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Revision","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -11517,6 +11529,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"SupportedStatistics","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11561,6 +11574,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11574,6 +11588,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11588,6 +11603,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"DeviceType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11625,6 +11641,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"StatusType","Type":{"Kind":"ApiRef","Name":"NDIS_802_11_STATUS_TYPE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
@@ -11636,6 +11653,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Bssid","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -11649,6 +11667,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BSSID","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11661,6 +11680,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NumCandidates","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11690,6 +11710,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NetworkType","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"NDIS_802_11_NETWORK_TYPE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
@@ -11716,6 +11737,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"HopPattern","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11730,6 +11752,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BeaconPeriod","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11745,6 +11768,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"TransmittedFragmentCount","Type":{"Kind":"ApiRef","Name":"LARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -11780,6 +11804,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"KeyIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11796,6 +11821,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"KeyIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11809,6 +11835,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"KeyIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -11860,6 +11887,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SsidLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Ssid","Type":{"Kind":"Array","Shape":{"Size":32},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -11872,6 +11900,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MacAddress","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -11892,6 +11921,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Bssid","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"NDIS_WLAN_BSSID","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
@@ -11904,6 +11934,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MacAddress","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -11926,6 +11957,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Bssid","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"NDIS_WLAN_BSSID_EX","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
@@ -11938,6 +11970,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Timestamp","Type":{"Kind":"Array","Shape":{"Size":8},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"BeaconInterval","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -11951,6 +11984,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ElementID","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12009,6 +12043,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"ListenInterval","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12022,6 +12057,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Capabilities","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"StatusCode","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12035,6 +12071,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"AvailableRequestFixedIEs","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12054,6 +12091,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Status","Type":{"Kind":"ApiRef","Name":"NDIS_802_11_STATUS_INDICATION","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Request","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"NDIS_802_11_AUTHENTICATION_REQUEST","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
@@ -12066,6 +12104,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Type","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12078,6 +12117,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"AuthenticationEvent","Type":{"Kind":"ApiRef","Name":"NDIS_802_11_AUTHENTICATION_EVENT","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 			,{"Name":"RssiTrigger","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -12103,6 +12143,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"BSSID","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 		,{"Name":"PMKID","Type":{"Kind":"Array","Shape":{"Size":16},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -12115,6 +12156,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"BSSIDInfoCount","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12128,6 +12170,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AuthModeSupported","Type":{"Kind":"ApiRef","Name":"NDIS_802_11_AUTHENTICATION_MODE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"EncryptStatusSupported","Type":{"Kind":"ApiRef","Name":"NDIS_802_11_WEP_STATUS","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12140,6 +12183,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Version","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12155,6 +12199,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NumberOfItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Non_Bcast_Ssid","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"NDIS_802_11_SSID","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
@@ -12182,6 +12227,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeviceDescription","Type":{"Kind":"ApiRef","Name":"NDIS_VAR_DATA_DESC","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"DevSpecificInfo","Type":{"Kind":"ApiRef","Name":"NDIS_VAR_DATA_DESC","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12232,6 +12278,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"algoIdentifier","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"algoKeylen","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12274,6 +12321,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Operation","Type":{"Kind":"ApiRef","Name":"OFFLOAD_OPERATION_E","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"SPI","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12289,6 +12337,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SrcAddr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SrcMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12314,6 +12363,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OffloadHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -12337,6 +12387,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"UdpEncapType","Type":{"Kind":"ApiRef","Name":"UDP_ENCAP_TYPE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"DstEncapPort","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12349,6 +12400,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"SrcAddr","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"SrcMask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12376,6 +12428,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OffloadHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"EncapTypeEntryOffldHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -12451,6 +12504,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ProtocolType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"HeaderOffset","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12463,6 +12517,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressLength","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"AddressType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12476,6 +12531,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressCount","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"AddressType","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -12489,6 +12545,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"IN_ADDR","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12502,6 +12559,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"sin6_port","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"sin6_flowinfo","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12516,6 +12574,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"NetworkAddress","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"NodeAddress","Type":{"Kind":"Array","Shape":{"Size":6},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -12544,6 +12603,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ClockPrecision","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12556,6 +12616,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ReadTime","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 	]
@@ -12567,6 +12628,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Priority","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12599,6 +12661,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"MinMagicPacketWakeUp","Type":{"Kind":"ApiRef","Name":"NDIS_DEVICE_POWER_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"MinPatternWakeUp","Type":{"Kind":"ApiRef","Name":"NDIS_DEVICE_POWER_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12612,6 +12675,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"WakeUpCapabilities","Type":{"Kind":"ApiRef","Name":"NDIS_PM_WAKE_UP_CAPABILITIES","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12737,6 +12801,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12777,6 +12842,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Outbound","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Inbound","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12789,6 +12855,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"XmitLinkSpeed","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"RcvLinkSpeed","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -12801,6 +12868,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Guid","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12814,6 +12882,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Oid","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Status","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -12827,6 +12896,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ExtraBOFs","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"MinTurnAroundTime","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12854,6 +12924,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"MediaConnectState","Type":{"Kind":"ApiRef","Name":"NET_IF_MEDIA_CONNECT_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12871,6 +12942,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"MediaDuplexState","Type":{"Kind":"ApiRef","Name":"NET_IF_MEDIA_DUPLEX_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12887,6 +12959,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"OperationalStatus","Type":{"Kind":"ApiRef","Name":"NET_IF_OPER_STATUS","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12900,6 +12973,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"AddressFamily","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"OperationalStatus","Type":{"Kind":"ApiRef","Name":"NET_IF_OPER_STATUS","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -12913,6 +12987,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12927,6 +13002,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12940,6 +13016,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv4Checksum","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -12963,6 +13040,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4","Type":{"Kind":"ApiRef","Name":"_IPv4_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
@@ -12973,6 +13051,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -12988,6 +13067,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4Transmit","Type":{"Kind":"ApiRef","Name":"_IPv4Transmit_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv4Receive","Type":{"Kind":"ApiRef","Name":"_IPv4Receive_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13001,6 +13081,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13013,6 +13094,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13025,6 +13107,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13037,6 +13120,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13050,6 +13134,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Supported","Type":{"Kind":"ApiRef","Name":"_Supported_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv4AH","Type":{"Kind":"ApiRef","Name":"_IPv4AH_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13062,6 +13147,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
@@ -13073,6 +13159,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"_bitfield","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		]
@@ -13084,6 +13171,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"AhEspCombined","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13100,6 +13188,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4","Type":{"Kind":"ApiRef","Name":"_IPv4_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv6","Type":{"Kind":"ApiRef","Name":"_IPv6_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13111,6 +13200,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13125,6 +13215,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13139,6 +13230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Checksum","Type":{"Kind":"ApiRef","Name":"NDIS_TCP_IP_CHECKSUM_OFFLOAD","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13155,6 +13247,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4","Type":{"Kind":"ApiRef","Name":"_IPv4_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 	]
@@ -13165,6 +13258,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13181,6 +13275,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4Transmit","Type":{"Kind":"ApiRef","Name":"_IPv4Transmit_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv4Receive","Type":{"Kind":"ApiRef","Name":"_IPv4Receive_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13194,6 +13289,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"IpExtensionHeadersSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13209,6 +13305,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"IpExtensionHeadersSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13224,6 +13321,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"IpOptionsSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13240,6 +13338,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"IpOptionsSupported","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13257,6 +13356,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Supported","Type":{"Kind":"ApiRef","Name":"_Supported_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv4AH","Type":{"Kind":"ApiRef","Name":"_IPv4AH_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13269,6 +13369,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Des","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13287,6 +13388,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Md5","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"Sha_1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13303,6 +13405,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"AhEspCombined","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13319,6 +13422,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"IPv4","Type":{"Kind":"ApiRef","Name":"_IPv4_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IPv6","Type":{"Kind":"ApiRef","Name":"_IPv6_e__Struct","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13330,6 +13434,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13345,6 +13450,7 @@
 		,"Kind":"Struct"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			,{"Name":"MaxOffLoadSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13359,6 +13465,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Checksum","Type":{"Kind":"ApiRef","Name":"NDIS_WMI_TCP_IP_CHECKSUM_OFFLOAD","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13375,6 +13482,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13390,6 +13498,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Encapsulation","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13450,6 +13559,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"SendControlState","Type":{"Kind":"ApiRef","Name":"NDIS_PORT_CONTROL_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13479,6 +13589,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"PortNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13495,6 +13606,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"PortNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13511,6 +13623,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IfIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13529,6 +13642,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"IfIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13544,6 +13658,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13558,6 +13673,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"CapabilitiesFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13572,6 +13688,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13590,6 +13707,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13619,6 +13737,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"MediaConnectState","Type":{"Kind":"ApiRef","Name":"NET_IF_MEDIA_CONNECT_STATE","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
@@ -13639,6 +13758,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"PortNumber","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13661,6 +13781,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Next","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"NDIS_PORT","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]}},"Attrs":[]}
 		,{"Name":"NdisReserved","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -13676,6 +13797,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"NumberOfPorts","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13691,6 +13813,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PtpV2OverUdpIPv4EventMsgReceiveHw","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"PtpV2OverUdpIPv4AllMsgReceiveHw","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -13715,6 +13838,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"HardwareClockFrequencyHz","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -13731,6 +13855,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Header","Type":{"Kind":"ApiRef","Name":"NDIS_OBJECT_HEADER","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"Flags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -13746,6 +13871,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Major","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"Minor","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -13774,6 +13900,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"NDK_VERSION","TargetKind":"Default","Api":"NetworkManagement.Ndis","Parents":[]},"Attrs":[]}
 		,{"Name":"VendorId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}

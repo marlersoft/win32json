@@ -4289,6 +4289,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nSize","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"nVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4325,6 +4326,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"emr","Type":{"Kind":"ApiRef","Name":"EMR","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"pfd","Type":{"Kind":"ApiRef","Name":"PIXELFORMATDESCRIPTOR","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]},"Attrs":[]}
@@ -4337,6 +4339,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"x","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"y","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -4349,6 +4352,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"gmfBlackBoxX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
 		,{"Name":"gmfBlackBoxY","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -4364,6 +4368,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"nSize","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"nVersion","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
@@ -4652,6 +4657,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -4662,6 +4668,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -4672,6 +4679,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 	]
 	,"NestedTypes":[]
@@ -4858,7 +4866,7 @@
 "Functions":[{
 	"Name":"ChoosePixelFormat"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4871,7 +4879,7 @@
 },{
 	"Name":"DescribePixelFormat"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4886,7 +4894,7 @@
 },{
 	"Name":"GetPixelFormat"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4898,7 +4906,7 @@
 },{
 	"Name":"SetPixelFormat"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4912,7 +4920,7 @@
 },{
 	"Name":"GetEnhMetaFilePixelFormat"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4926,7 +4934,7 @@
 },{
 	"Name":"wglCopyContext"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4940,7 +4948,7 @@
 },{
 	"Name":"wglCreateContext"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HGLRC","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4952,7 +4960,7 @@
 },{
 	"Name":"wglCreateLayerContext"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HGLRC","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4965,7 +4973,7 @@
 },{
 	"Name":"wglDeleteContext"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4977,7 +4985,7 @@
 },{
 	"Name":"wglGetCurrentContext"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HGLRC","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4988,7 +4996,7 @@
 },{
 	"Name":"wglGetCurrentDC"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HDC","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -4999,7 +5007,7 @@
 },{
 	"Name":"wglGetProcAddress"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PROC","TargetKind":"FunctionPointer","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5011,7 +5019,7 @@
 },{
 	"Name":"wglMakeCurrent"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5024,7 +5032,7 @@
 },{
 	"Name":"wglShareLists"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5037,7 +5045,7 @@
 },{
 	"Name":"wglUseFontBitmapsA"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5052,7 +5060,7 @@
 },{
 	"Name":"wglUseFontBitmapsW"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5067,7 +5075,7 @@
 },{
 	"Name":"SwapBuffers"
 	,"SetLastError":true
-	,"DllImport":"GDI32"
+	,"DllImport":"GDI32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5079,7 +5087,7 @@
 },{
 	"Name":"wglUseFontOutlinesA"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5098,7 +5106,7 @@
 },{
 	"Name":"wglUseFontOutlinesW"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5117,7 +5125,7 @@
 },{
 	"Name":"wglDescribeLayerPlane"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5133,7 +5141,7 @@
 },{
 	"Name":"wglSetLayerPaletteEntries"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5149,7 +5157,7 @@
 },{
 	"Name":"wglGetLayerPaletteEntries"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5165,7 +5173,7 @@
 },{
 	"Name":"wglRealizeLayerPalette"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5179,7 +5187,7 @@
 },{
 	"Name":"wglSwapLayerBuffers"
 	,"SetLastError":true
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5192,7 +5200,7 @@
 },{
 	"Name":"glAccum"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5205,7 +5213,7 @@
 },{
 	"Name":"glAlphaFunc"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5218,7 +5226,7 @@
 },{
 	"Name":"glAreTexturesResident"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Byte"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5232,7 +5240,7 @@
 },{
 	"Name":"glArrayElement"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5244,7 +5252,7 @@
 },{
 	"Name":"glBegin"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5256,7 +5264,7 @@
 },{
 	"Name":"glBindTexture"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5269,7 +5277,7 @@
 },{
 	"Name":"glBitmap"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5287,7 +5295,7 @@
 },{
 	"Name":"glBlendFunc"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5300,7 +5308,7 @@
 },{
 	"Name":"glCallList"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5312,7 +5320,7 @@
 },{
 	"Name":"glCallLists"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5326,7 +5334,7 @@
 },{
 	"Name":"glClear"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5338,7 +5346,7 @@
 },{
 	"Name":"glClearAccum"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5353,7 +5361,7 @@
 },{
 	"Name":"glClearColor"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5368,7 +5376,7 @@
 },{
 	"Name":"glClearDepth"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5380,7 +5388,7 @@
 },{
 	"Name":"glClearIndex"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5392,7 +5400,7 @@
 },{
 	"Name":"glClearStencil"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5404,7 +5412,7 @@
 },{
 	"Name":"glClipPlane"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5417,7 +5425,7 @@
 },{
 	"Name":"glColor3b"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5431,7 +5439,7 @@
 },{
 	"Name":"glColor3bv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5443,7 +5451,7 @@
 },{
 	"Name":"glColor3d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5457,7 +5465,7 @@
 },{
 	"Name":"glColor3dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5469,7 +5477,7 @@
 },{
 	"Name":"glColor3f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5483,7 +5491,7 @@
 },{
 	"Name":"glColor3fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5495,7 +5503,7 @@
 },{
 	"Name":"glColor3i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5509,7 +5517,7 @@
 },{
 	"Name":"glColor3iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5521,7 +5529,7 @@
 },{
 	"Name":"glColor3s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5535,7 +5543,7 @@
 },{
 	"Name":"glColor3sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5547,7 +5555,7 @@
 },{
 	"Name":"glColor3ub"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5561,7 +5569,7 @@
 },{
 	"Name":"glColor3ubv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5573,7 +5581,7 @@
 },{
 	"Name":"glColor3ui"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5587,7 +5595,7 @@
 },{
 	"Name":"glColor3uiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5599,7 +5607,7 @@
 },{
 	"Name":"glColor3us"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5613,7 +5621,7 @@
 },{
 	"Name":"glColor3usv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5625,7 +5633,7 @@
 },{
 	"Name":"glColor4b"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5640,7 +5648,7 @@
 },{
 	"Name":"glColor4bv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5652,7 +5660,7 @@
 },{
 	"Name":"glColor4d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5667,7 +5675,7 @@
 },{
 	"Name":"glColor4dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5679,7 +5687,7 @@
 },{
 	"Name":"glColor4f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5694,7 +5702,7 @@
 },{
 	"Name":"glColor4fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5706,7 +5714,7 @@
 },{
 	"Name":"glColor4i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5721,7 +5729,7 @@
 },{
 	"Name":"glColor4iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5733,7 +5741,7 @@
 },{
 	"Name":"glColor4s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5748,7 +5756,7 @@
 },{
 	"Name":"glColor4sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5760,7 +5768,7 @@
 },{
 	"Name":"glColor4ub"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5775,7 +5783,7 @@
 },{
 	"Name":"glColor4ubv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5787,7 +5795,7 @@
 },{
 	"Name":"glColor4ui"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5802,7 +5810,7 @@
 },{
 	"Name":"glColor4uiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5814,7 +5822,7 @@
 },{
 	"Name":"glColor4us"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5829,7 +5837,7 @@
 },{
 	"Name":"glColor4usv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5841,7 +5849,7 @@
 },{
 	"Name":"glColorMask"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5856,7 +5864,7 @@
 },{
 	"Name":"glColorMaterial"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5869,7 +5877,7 @@
 },{
 	"Name":"glColorPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5884,7 +5892,7 @@
 },{
 	"Name":"glCopyPixels"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5900,7 +5908,7 @@
 },{
 	"Name":"glCopyTexImage1D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5918,7 +5926,7 @@
 },{
 	"Name":"glCopyTexImage2D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5937,7 +5945,7 @@
 },{
 	"Name":"glCopyTexSubImage1D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5954,7 +5962,7 @@
 },{
 	"Name":"glCopyTexSubImage2D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5973,7 +5981,7 @@
 },{
 	"Name":"glCullFace"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5985,7 +5993,7 @@
 },{
 	"Name":"glDeleteLists"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -5998,7 +6006,7 @@
 },{
 	"Name":"glDeleteTextures"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6011,7 +6019,7 @@
 },{
 	"Name":"glDepthFunc"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6023,7 +6031,7 @@
 },{
 	"Name":"glDepthMask"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6035,7 +6043,7 @@
 },{
 	"Name":"glDepthRange"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6048,7 +6056,7 @@
 },{
 	"Name":"glDisable"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6060,7 +6068,7 @@
 },{
 	"Name":"glDisableClientState"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6072,7 +6080,7 @@
 },{
 	"Name":"glDrawArrays"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6086,7 +6094,7 @@
 },{
 	"Name":"glDrawBuffer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6098,7 +6106,7 @@
 },{
 	"Name":"glDrawElements"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6113,7 +6121,7 @@
 },{
 	"Name":"glDrawPixels"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6129,7 +6137,7 @@
 },{
 	"Name":"glEdgeFlag"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6141,7 +6149,7 @@
 },{
 	"Name":"glEdgeFlagPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6154,7 +6162,7 @@
 },{
 	"Name":"glEdgeFlagv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6166,7 +6174,7 @@
 },{
 	"Name":"glEnable"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6178,7 +6186,7 @@
 },{
 	"Name":"glEnableClientState"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6190,7 +6198,7 @@
 },{
 	"Name":"glEnd"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6201,7 +6209,7 @@
 },{
 	"Name":"glEndList"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6212,7 +6220,7 @@
 },{
 	"Name":"glEvalCoord1d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6224,7 +6232,7 @@
 },{
 	"Name":"glEvalCoord1dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6236,7 +6244,7 @@
 },{
 	"Name":"glEvalCoord1f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6248,7 +6256,7 @@
 },{
 	"Name":"glEvalCoord1fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6260,7 +6268,7 @@
 },{
 	"Name":"glEvalCoord2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6273,7 +6281,7 @@
 },{
 	"Name":"glEvalCoord2dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6285,7 +6293,7 @@
 },{
 	"Name":"glEvalCoord2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6298,7 +6306,7 @@
 },{
 	"Name":"glEvalCoord2fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6310,7 +6318,7 @@
 },{
 	"Name":"glEvalMesh1"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6324,7 +6332,7 @@
 },{
 	"Name":"glEvalMesh2"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6340,7 +6348,7 @@
 },{
 	"Name":"glEvalPoint1"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6352,7 +6360,7 @@
 },{
 	"Name":"glEvalPoint2"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6365,7 +6373,7 @@
 },{
 	"Name":"glFeedbackBuffer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6379,7 +6387,7 @@
 },{
 	"Name":"glFinish"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6390,7 +6398,7 @@
 },{
 	"Name":"glFlush"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6401,7 +6409,7 @@
 },{
 	"Name":"glFogf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6414,7 +6422,7 @@
 },{
 	"Name":"glFogfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6427,7 +6435,7 @@
 },{
 	"Name":"glFogi"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6440,7 +6448,7 @@
 },{
 	"Name":"glFogiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6453,7 +6461,7 @@
 },{
 	"Name":"glFrontFace"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6465,7 +6473,7 @@
 },{
 	"Name":"glFrustum"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6482,7 +6490,7 @@
 },{
 	"Name":"glGenLists"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6494,7 +6502,7 @@
 },{
 	"Name":"glGenTextures"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6507,7 +6515,7 @@
 },{
 	"Name":"glGetBooleanv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6520,7 +6528,7 @@
 },{
 	"Name":"glGetClipPlane"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6533,7 +6541,7 @@
 },{
 	"Name":"glGetDoublev"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6546,7 +6554,7 @@
 },{
 	"Name":"glGetError"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6557,7 +6565,7 @@
 },{
 	"Name":"glGetFloatv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6570,7 +6578,7 @@
 },{
 	"Name":"glGetIntegerv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6583,7 +6591,7 @@
 },{
 	"Name":"glGetLightfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6597,7 +6605,7 @@
 },{
 	"Name":"glGetLightiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6611,7 +6619,7 @@
 },{
 	"Name":"glGetMapdv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6625,7 +6633,7 @@
 },{
 	"Name":"glGetMapfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6639,7 +6647,7 @@
 },{
 	"Name":"glGetMapiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6653,7 +6661,7 @@
 },{
 	"Name":"glGetMaterialfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6667,7 +6675,7 @@
 },{
 	"Name":"glGetMaterialiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6681,7 +6689,7 @@
 },{
 	"Name":"glGetPixelMapfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6694,7 +6702,7 @@
 },{
 	"Name":"glGetPixelMapuiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6707,7 +6715,7 @@
 },{
 	"Name":"glGetPixelMapusv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6720,7 +6728,7 @@
 },{
 	"Name":"glGetPointerv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6733,7 +6741,7 @@
 },{
 	"Name":"glGetPolygonStipple"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6745,7 +6753,7 @@
 },{
 	"Name":"glGetString"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6757,7 +6765,7 @@
 },{
 	"Name":"glGetTexEnvfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6771,7 +6779,7 @@
 },{
 	"Name":"glGetTexEnviv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6785,7 +6793,7 @@
 },{
 	"Name":"glGetTexGendv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6799,7 +6807,7 @@
 },{
 	"Name":"glGetTexGenfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6813,7 +6821,7 @@
 },{
 	"Name":"glGetTexGeniv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6827,7 +6835,7 @@
 },{
 	"Name":"glGetTexImage"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6843,7 +6851,7 @@
 },{
 	"Name":"glGetTexLevelParameterfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6858,7 +6866,7 @@
 },{
 	"Name":"glGetTexLevelParameteriv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6873,7 +6881,7 @@
 },{
 	"Name":"glGetTexParameterfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6887,7 +6895,7 @@
 },{
 	"Name":"glGetTexParameteriv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6901,7 +6909,7 @@
 },{
 	"Name":"glHint"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6914,7 +6922,7 @@
 },{
 	"Name":"glIndexMask"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6926,7 +6934,7 @@
 },{
 	"Name":"glIndexPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6940,7 +6948,7 @@
 },{
 	"Name":"glIndexd"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6952,7 +6960,7 @@
 },{
 	"Name":"glIndexdv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6964,7 +6972,7 @@
 },{
 	"Name":"glIndexf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6976,7 +6984,7 @@
 },{
 	"Name":"glIndexfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6988,7 +6996,7 @@
 },{
 	"Name":"glIndexi"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7000,7 +7008,7 @@
 },{
 	"Name":"glIndexiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7012,7 +7020,7 @@
 },{
 	"Name":"glIndexs"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7024,7 +7032,7 @@
 },{
 	"Name":"glIndexsv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7036,7 +7044,7 @@
 },{
 	"Name":"glIndexub"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7048,7 +7056,7 @@
 },{
 	"Name":"glIndexubv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7060,7 +7068,7 @@
 },{
 	"Name":"glInitNames"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7071,7 +7079,7 @@
 },{
 	"Name":"glInterleavedArrays"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7085,7 +7093,7 @@
 },{
 	"Name":"glIsEnabled"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Byte"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7097,7 +7105,7 @@
 },{
 	"Name":"glIsList"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Byte"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7109,7 +7117,7 @@
 },{
 	"Name":"glIsTexture"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Byte"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7121,7 +7129,7 @@
 },{
 	"Name":"glLightModelf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7134,7 +7142,7 @@
 },{
 	"Name":"glLightModelfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7147,7 +7155,7 @@
 },{
 	"Name":"glLightModeli"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7160,7 +7168,7 @@
 },{
 	"Name":"glLightModeliv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7173,7 +7181,7 @@
 },{
 	"Name":"glLightf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7187,7 +7195,7 @@
 },{
 	"Name":"glLightfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7201,7 +7209,7 @@
 },{
 	"Name":"glLighti"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7215,7 +7223,7 @@
 },{
 	"Name":"glLightiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7229,7 +7237,7 @@
 },{
 	"Name":"glLineStipple"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7242,7 +7250,7 @@
 },{
 	"Name":"glLineWidth"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7254,7 +7262,7 @@
 },{
 	"Name":"glListBase"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7266,7 +7274,7 @@
 },{
 	"Name":"glLoadIdentity"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7277,7 +7285,7 @@
 },{
 	"Name":"glLoadMatrixd"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7289,7 +7297,7 @@
 },{
 	"Name":"glLoadMatrixf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7301,7 +7309,7 @@
 },{
 	"Name":"glLoadName"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7313,7 +7321,7 @@
 },{
 	"Name":"glLogicOp"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7325,7 +7333,7 @@
 },{
 	"Name":"glMap1d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7342,7 +7350,7 @@
 },{
 	"Name":"glMap1f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7359,7 +7367,7 @@
 },{
 	"Name":"glMap2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7380,7 +7388,7 @@
 },{
 	"Name":"glMap2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7401,7 +7409,7 @@
 },{
 	"Name":"glMapGrid1d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7415,7 +7423,7 @@
 },{
 	"Name":"glMapGrid1f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7429,7 +7437,7 @@
 },{
 	"Name":"glMapGrid2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7446,7 +7454,7 @@
 },{
 	"Name":"glMapGrid2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7463,7 +7471,7 @@
 },{
 	"Name":"glMaterialf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7477,7 +7485,7 @@
 },{
 	"Name":"glMaterialfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7491,7 +7499,7 @@
 },{
 	"Name":"glMateriali"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7505,7 +7513,7 @@
 },{
 	"Name":"glMaterialiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7519,7 +7527,7 @@
 },{
 	"Name":"glMatrixMode"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7531,7 +7539,7 @@
 },{
 	"Name":"glMultMatrixd"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7543,7 +7551,7 @@
 },{
 	"Name":"glMultMatrixf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7555,7 +7563,7 @@
 },{
 	"Name":"glNewList"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7568,7 +7576,7 @@
 },{
 	"Name":"glNormal3b"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7582,7 +7590,7 @@
 },{
 	"Name":"glNormal3bv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7594,7 +7602,7 @@
 },{
 	"Name":"glNormal3d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7608,7 +7616,7 @@
 },{
 	"Name":"glNormal3dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7620,7 +7628,7 @@
 },{
 	"Name":"glNormal3f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7634,7 +7642,7 @@
 },{
 	"Name":"glNormal3fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7646,7 +7654,7 @@
 },{
 	"Name":"glNormal3i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7660,7 +7668,7 @@
 },{
 	"Name":"glNormal3iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7672,7 +7680,7 @@
 },{
 	"Name":"glNormal3s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7686,7 +7694,7 @@
 },{
 	"Name":"glNormal3sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7698,7 +7706,7 @@
 },{
 	"Name":"glNormalPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7712,7 +7720,7 @@
 },{
 	"Name":"glOrtho"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7729,7 +7737,7 @@
 },{
 	"Name":"glPassThrough"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7741,7 +7749,7 @@
 },{
 	"Name":"glPixelMapfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7755,7 +7763,7 @@
 },{
 	"Name":"glPixelMapuiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7769,7 +7777,7 @@
 },{
 	"Name":"glPixelMapusv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7783,7 +7791,7 @@
 },{
 	"Name":"glPixelStoref"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7796,7 +7804,7 @@
 },{
 	"Name":"glPixelStorei"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7809,7 +7817,7 @@
 },{
 	"Name":"glPixelTransferf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7822,7 +7830,7 @@
 },{
 	"Name":"glPixelTransferi"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7835,7 +7843,7 @@
 },{
 	"Name":"glPixelZoom"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7848,7 +7856,7 @@
 },{
 	"Name":"glPointSize"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7860,7 +7868,7 @@
 },{
 	"Name":"glPolygonMode"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7873,7 +7881,7 @@
 },{
 	"Name":"glPolygonOffset"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7886,7 +7894,7 @@
 },{
 	"Name":"glPolygonStipple"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7898,7 +7906,7 @@
 },{
 	"Name":"glPopAttrib"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7909,7 +7917,7 @@
 },{
 	"Name":"glPopClientAttrib"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7920,7 +7928,7 @@
 },{
 	"Name":"glPopMatrix"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7931,7 +7939,7 @@
 },{
 	"Name":"glPopName"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7942,7 +7950,7 @@
 },{
 	"Name":"glPrioritizeTextures"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7956,7 +7964,7 @@
 },{
 	"Name":"glPushAttrib"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7968,7 +7976,7 @@
 },{
 	"Name":"glPushClientAttrib"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7980,7 +7988,7 @@
 },{
 	"Name":"glPushMatrix"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -7991,7 +7999,7 @@
 },{
 	"Name":"glPushName"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8003,7 +8011,7 @@
 },{
 	"Name":"glRasterPos2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8016,7 +8024,7 @@
 },{
 	"Name":"glRasterPos2dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8028,7 +8036,7 @@
 },{
 	"Name":"glRasterPos2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8041,7 +8049,7 @@
 },{
 	"Name":"glRasterPos2fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8053,7 +8061,7 @@
 },{
 	"Name":"glRasterPos2i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8066,7 +8074,7 @@
 },{
 	"Name":"glRasterPos2iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8078,7 +8086,7 @@
 },{
 	"Name":"glRasterPos2s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8091,7 +8099,7 @@
 },{
 	"Name":"glRasterPos2sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8103,7 +8111,7 @@
 },{
 	"Name":"glRasterPos3d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8117,7 +8125,7 @@
 },{
 	"Name":"glRasterPos3dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8129,7 +8137,7 @@
 },{
 	"Name":"glRasterPos3f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8143,7 +8151,7 @@
 },{
 	"Name":"glRasterPos3fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8155,7 +8163,7 @@
 },{
 	"Name":"glRasterPos3i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8169,7 +8177,7 @@
 },{
 	"Name":"glRasterPos3iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8181,7 +8189,7 @@
 },{
 	"Name":"glRasterPos3s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8195,7 +8203,7 @@
 },{
 	"Name":"glRasterPos3sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8207,7 +8215,7 @@
 },{
 	"Name":"glRasterPos4d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8222,7 +8230,7 @@
 },{
 	"Name":"glRasterPos4dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8234,7 +8242,7 @@
 },{
 	"Name":"glRasterPos4f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8249,7 +8257,7 @@
 },{
 	"Name":"glRasterPos4fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8261,7 +8269,7 @@
 },{
 	"Name":"glRasterPos4i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8276,7 +8284,7 @@
 },{
 	"Name":"glRasterPos4iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8288,7 +8296,7 @@
 },{
 	"Name":"glRasterPos4s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8303,7 +8311,7 @@
 },{
 	"Name":"glRasterPos4sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8315,7 +8323,7 @@
 },{
 	"Name":"glReadBuffer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8327,7 +8335,7 @@
 },{
 	"Name":"glReadPixels"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8345,7 +8353,7 @@
 },{
 	"Name":"glRectd"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8360,7 +8368,7 @@
 },{
 	"Name":"glRectdv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8373,7 +8381,7 @@
 },{
 	"Name":"glRectf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8388,7 +8396,7 @@
 },{
 	"Name":"glRectfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8401,7 +8409,7 @@
 },{
 	"Name":"glRecti"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8416,7 +8424,7 @@
 },{
 	"Name":"glRectiv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8429,7 +8437,7 @@
 },{
 	"Name":"glRects"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8444,7 +8452,7 @@
 },{
 	"Name":"glRectsv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8457,7 +8465,7 @@
 },{
 	"Name":"glRenderMode"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8469,7 +8477,7 @@
 },{
 	"Name":"glRotated"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8484,7 +8492,7 @@
 },{
 	"Name":"glRotatef"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8499,7 +8507,7 @@
 },{
 	"Name":"glScaled"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8513,7 +8521,7 @@
 },{
 	"Name":"glScalef"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8527,7 +8535,7 @@
 },{
 	"Name":"glScissor"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8542,7 +8550,7 @@
 },{
 	"Name":"glSelectBuffer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8555,7 +8563,7 @@
 },{
 	"Name":"glShadeModel"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8567,7 +8575,7 @@
 },{
 	"Name":"glStencilFunc"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8581,7 +8589,7 @@
 },{
 	"Name":"glStencilMask"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8593,7 +8601,7 @@
 },{
 	"Name":"glStencilOp"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8607,7 +8615,7 @@
 },{
 	"Name":"glTexCoord1d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8619,7 +8627,7 @@
 },{
 	"Name":"glTexCoord1dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8631,7 +8639,7 @@
 },{
 	"Name":"glTexCoord1f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8643,7 +8651,7 @@
 },{
 	"Name":"glTexCoord1fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8655,7 +8663,7 @@
 },{
 	"Name":"glTexCoord1i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8667,7 +8675,7 @@
 },{
 	"Name":"glTexCoord1iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8679,7 +8687,7 @@
 },{
 	"Name":"glTexCoord1s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8691,7 +8699,7 @@
 },{
 	"Name":"glTexCoord1sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8703,7 +8711,7 @@
 },{
 	"Name":"glTexCoord2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8716,7 +8724,7 @@
 },{
 	"Name":"glTexCoord2dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8728,7 +8736,7 @@
 },{
 	"Name":"glTexCoord2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8741,7 +8749,7 @@
 },{
 	"Name":"glTexCoord2fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8753,7 +8761,7 @@
 },{
 	"Name":"glTexCoord2i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8766,7 +8774,7 @@
 },{
 	"Name":"glTexCoord2iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8778,7 +8786,7 @@
 },{
 	"Name":"glTexCoord2s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8791,7 +8799,7 @@
 },{
 	"Name":"glTexCoord2sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8803,7 +8811,7 @@
 },{
 	"Name":"glTexCoord3d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8817,7 +8825,7 @@
 },{
 	"Name":"glTexCoord3dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8829,7 +8837,7 @@
 },{
 	"Name":"glTexCoord3f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8843,7 +8851,7 @@
 },{
 	"Name":"glTexCoord3fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8855,7 +8863,7 @@
 },{
 	"Name":"glTexCoord3i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8869,7 +8877,7 @@
 },{
 	"Name":"glTexCoord3iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8881,7 +8889,7 @@
 },{
 	"Name":"glTexCoord3s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8895,7 +8903,7 @@
 },{
 	"Name":"glTexCoord3sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8907,7 +8915,7 @@
 },{
 	"Name":"glTexCoord4d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8922,7 +8930,7 @@
 },{
 	"Name":"glTexCoord4dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8934,7 +8942,7 @@
 },{
 	"Name":"glTexCoord4f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8949,7 +8957,7 @@
 },{
 	"Name":"glTexCoord4fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8961,7 +8969,7 @@
 },{
 	"Name":"glTexCoord4i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8976,7 +8984,7 @@
 },{
 	"Name":"glTexCoord4iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -8988,7 +8996,7 @@
 },{
 	"Name":"glTexCoord4s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9003,7 +9011,7 @@
 },{
 	"Name":"glTexCoord4sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9015,7 +9023,7 @@
 },{
 	"Name":"glTexCoordPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9030,7 +9038,7 @@
 },{
 	"Name":"glTexEnvf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9044,7 +9052,7 @@
 },{
 	"Name":"glTexEnvfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9058,7 +9066,7 @@
 },{
 	"Name":"glTexEnvi"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9072,7 +9080,7 @@
 },{
 	"Name":"glTexEnviv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9086,7 +9094,7 @@
 },{
 	"Name":"glTexGend"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9100,7 +9108,7 @@
 },{
 	"Name":"glTexGendv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9114,7 +9122,7 @@
 },{
 	"Name":"glTexGenf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9128,7 +9136,7 @@
 },{
 	"Name":"glTexGenfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9142,7 +9150,7 @@
 },{
 	"Name":"glTexGeni"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9156,7 +9164,7 @@
 },{
 	"Name":"glTexGeniv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9170,7 +9178,7 @@
 },{
 	"Name":"glTexImage1D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9189,7 +9197,7 @@
 },{
 	"Name":"glTexImage2D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9209,7 +9217,7 @@
 },{
 	"Name":"glTexParameterf"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9223,7 +9231,7 @@
 },{
 	"Name":"glTexParameterfv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9237,7 +9245,7 @@
 },{
 	"Name":"glTexParameteri"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9251,7 +9259,7 @@
 },{
 	"Name":"glTexParameteriv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9265,7 +9273,7 @@
 },{
 	"Name":"glTexSubImage1D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9283,7 +9291,7 @@
 },{
 	"Name":"glTexSubImage2D"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9303,7 +9311,7 @@
 },{
 	"Name":"glTranslated"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9317,7 +9325,7 @@
 },{
 	"Name":"glTranslatef"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9331,7 +9339,7 @@
 },{
 	"Name":"glVertex2d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9344,7 +9352,7 @@
 },{
 	"Name":"glVertex2dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9356,7 +9364,7 @@
 },{
 	"Name":"glVertex2f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9369,7 +9377,7 @@
 },{
 	"Name":"glVertex2fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9381,7 +9389,7 @@
 },{
 	"Name":"glVertex2i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9394,7 +9402,7 @@
 },{
 	"Name":"glVertex2iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9406,7 +9414,7 @@
 },{
 	"Name":"glVertex2s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9419,7 +9427,7 @@
 },{
 	"Name":"glVertex2sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9431,7 +9439,7 @@
 },{
 	"Name":"glVertex3d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9445,7 +9453,7 @@
 },{
 	"Name":"glVertex3dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9457,7 +9465,7 @@
 },{
 	"Name":"glVertex3f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9471,7 +9479,7 @@
 },{
 	"Name":"glVertex3fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9483,7 +9491,7 @@
 },{
 	"Name":"glVertex3i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9497,7 +9505,7 @@
 },{
 	"Name":"glVertex3iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9509,7 +9517,7 @@
 },{
 	"Name":"glVertex3s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9523,7 +9531,7 @@
 },{
 	"Name":"glVertex3sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9535,7 +9543,7 @@
 },{
 	"Name":"glVertex4d"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9550,7 +9558,7 @@
 },{
 	"Name":"glVertex4dv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9562,7 +9570,7 @@
 },{
 	"Name":"glVertex4f"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9577,7 +9585,7 @@
 },{
 	"Name":"glVertex4fv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9589,7 +9597,7 @@
 },{
 	"Name":"glVertex4i"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9604,7 +9612,7 @@
 },{
 	"Name":"glVertex4iv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9616,7 +9624,7 @@
 },{
 	"Name":"glVertex4s"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9631,7 +9639,7 @@
 },{
 	"Name":"glVertex4sv"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9643,7 +9651,7 @@
 },{
 	"Name":"glVertexPointer"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9658,7 +9666,7 @@
 },{
 	"Name":"glViewport"
 	,"SetLastError":false
-	,"DllImport":"OPENGL32"
+	,"DllImport":"OPENGL32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9673,7 +9681,7 @@
 },{
 	"Name":"gluErrorString"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9685,7 +9693,7 @@
 },{
 	"Name":"gluErrorUnicodeStringEXT"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9697,7 +9705,7 @@
 },{
 	"Name":"gluGetString"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9709,7 +9717,7 @@
 },{
 	"Name":"gluOrtho2D"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9724,7 +9732,7 @@
 },{
 	"Name":"gluPerspective"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9739,7 +9747,7 @@
 },{
 	"Name":"gluPickMatrix"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9755,7 +9763,7 @@
 },{
 	"Name":"gluLookAt"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9775,7 +9783,7 @@
 },{
 	"Name":"gluProject"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9795,7 +9803,7 @@
 },{
 	"Name":"gluUnProject"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9815,7 +9823,7 @@
 },{
 	"Name":"gluScaleImage"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9835,7 +9843,7 @@
 },{
 	"Name":"gluBuild1DMipmaps"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9852,7 +9860,7 @@
 },{
 	"Name":"gluBuild2DMipmaps"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9870,7 +9878,7 @@
 },{
 	"Name":"gluNewQuadric"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GLUquadric","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9881,7 +9889,7 @@
 },{
 	"Name":"gluDeleteQuadric"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9893,7 +9901,7 @@
 },{
 	"Name":"gluQuadricNormals"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9906,7 +9914,7 @@
 },{
 	"Name":"gluQuadricTexture"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9919,7 +9927,7 @@
 },{
 	"Name":"gluQuadricOrientation"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9932,7 +9940,7 @@
 },{
 	"Name":"gluQuadricDrawStyle"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9945,7 +9953,7 @@
 },{
 	"Name":"gluCylinder"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9962,7 +9970,7 @@
 },{
 	"Name":"gluDisk"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9978,7 +9986,7 @@
 },{
 	"Name":"gluPartialDisk"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -9996,7 +10004,7 @@
 },{
 	"Name":"gluSphere"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10011,7 +10019,7 @@
 },{
 	"Name":"gluQuadricCallback"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10025,7 +10033,7 @@
 },{
 	"Name":"gluNewTess"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GLUtesselator","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10036,7 +10044,7 @@
 },{
 	"Name":"gluDeleteTess"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10048,7 +10056,7 @@
 },{
 	"Name":"gluTessBeginPolygon"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10061,7 +10069,7 @@
 },{
 	"Name":"gluTessBeginContour"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10073,7 +10081,7 @@
 },{
 	"Name":"gluTessVertex"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10087,7 +10095,7 @@
 },{
 	"Name":"gluTessEndContour"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10099,7 +10107,7 @@
 },{
 	"Name":"gluTessEndPolygon"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10111,7 +10119,7 @@
 },{
 	"Name":"gluTessProperty"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10125,7 +10133,7 @@
 },{
 	"Name":"gluTessNormal"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10140,7 +10148,7 @@
 },{
 	"Name":"gluTessCallback"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10154,7 +10162,7 @@
 },{
 	"Name":"gluGetTessProperty"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10168,7 +10176,7 @@
 },{
 	"Name":"gluNewNurbsRenderer"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"GLUnurbs","TargetKind":"Default","Api":"Graphics.OpenGL","Parents":[]}}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10179,7 +10187,7 @@
 },{
 	"Name":"gluDeleteNurbsRenderer"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10191,7 +10199,7 @@
 },{
 	"Name":"gluBeginSurface"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10203,7 +10211,7 @@
 },{
 	"Name":"gluBeginCurve"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10215,7 +10223,7 @@
 },{
 	"Name":"gluEndCurve"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10227,7 +10235,7 @@
 },{
 	"Name":"gluEndSurface"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10239,7 +10247,7 @@
 },{
 	"Name":"gluBeginTrim"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10251,7 +10259,7 @@
 },{
 	"Name":"gluEndTrim"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10263,7 +10271,7 @@
 },{
 	"Name":"gluPwlCurve"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10279,7 +10287,7 @@
 },{
 	"Name":"gluNurbsCurve"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10297,7 +10305,7 @@
 },{
 	"Name":"gluNurbsSurface"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10319,7 +10327,7 @@
 },{
 	"Name":"gluLoadSamplingMatrices"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10334,7 +10342,7 @@
 },{
 	"Name":"gluNurbsProperty"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10348,7 +10356,7 @@
 },{
 	"Name":"gluGetNurbsProperty"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10362,7 +10370,7 @@
 },{
 	"Name":"gluNurbsCallback"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10376,7 +10384,7 @@
 },{
 	"Name":"gluBeginPolygon"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10388,7 +10396,7 @@
 },{
 	"Name":"gluNextContour"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -10401,7 +10409,7 @@
 },{
 	"Name":"gluEndPolygon"
 	,"SetLastError":false
-	,"DllImport":"GLU32"
+	,"DllImport":"GLU32.dll"
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

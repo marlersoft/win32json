@@ -80,6 +80,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DeviceId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"VendorId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -106,6 +107,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"OPEN_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -117,6 +119,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Version2","Type":{"Kind":"ApiRef","Name":"_Version2_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -129,6 +132,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"GetInfoOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"ReadOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -143,6 +147,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"GetInfoOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"ReadOnly","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -156,6 +161,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"RWDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -227,6 +233,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"CREATE_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -238,6 +245,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Version2","Type":{"Kind":"ApiRef","Name":"_Version2_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -251,6 +259,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -276,6 +285,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -299,6 +309,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -320,6 +331,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"UniqueId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"MaximumSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -373,6 +385,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"ATTACH_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -384,6 +397,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Version2","Type":{"Kind":"ApiRef","Name":"_Version2_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -395,6 +409,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"RestrictedOffset","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"RestrictedLength","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -407,6 +422,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -490,6 +506,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DependencyTypeFlags","Type":{"Kind":"ApiRef","Name":"DEPENDENT_DISK_FLAG","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"ProviderSpecificFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -503,6 +520,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DependencyTypeFlags","Type":{"Kind":"ApiRef","Name":"DEPENDENT_DISK_FLAG","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"ProviderSpecificFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -521,6 +539,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"STORAGE_DEPENDENCY_INFO_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"NumberEntries","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -533,6 +552,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1Entries","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"STORAGE_DEPENDENCY_INFO_TYPE_1","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]}},"Attrs":[]}
 			,{"Name":"Version2Entries","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"STORAGE_DEPENDENCY_INFO_TYPE_2","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]}},"Attrs":[]}
@@ -585,6 +605,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"GET_VIRTUAL_DISK_INFO_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -596,6 +617,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Size","Type":{"Kind":"ApiRef","Name":"_Size_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Identifier","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -620,6 +642,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Enabled","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"NewerChanges","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -633,6 +656,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"LogicalSectorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"PhysicalSectorSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -646,6 +670,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ParentResolved","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"ParentLocationBuffer","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Char"}},"Attrs":[]}
@@ -658,6 +683,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"VirtualSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 				,{"Name":"PhysicalSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -692,6 +718,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"SET_VIRTUAL_DISK_INFO_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -703,6 +730,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			,{"Name":"UniqueIdentifier","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -719,6 +747,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"LinkageId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -731,6 +760,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ChildDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"ParentFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -745,6 +775,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"OperationStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CurrentValue","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -770,6 +801,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"COMPACT_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -781,6 +813,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -791,6 +824,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"Reserved","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -830,6 +864,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"MERGE_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -841,6 +876,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"Version2","Type":{"Kind":"ApiRef","Name":"_Version2_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
@@ -852,6 +888,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"MergeSourceDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 				,{"Name":"MergeTargetDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -864,6 +901,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"MergeDepth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 			]
@@ -900,6 +938,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"EXPAND_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -911,6 +950,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -921,6 +961,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"NewSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
@@ -958,6 +999,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"RESIZE_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -969,6 +1011,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -979,6 +1022,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"NewSize","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 			]
@@ -1017,6 +1061,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"MIRROR_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1028,6 +1073,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1038,6 +1084,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"MirrorVirtualDiskPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			]
@@ -1066,6 +1113,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"ByteOffset","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
 		,{"Name":"ByteLength","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":[]}
@@ -1114,6 +1162,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"TAKE_SNAPSHOT_VHDSET_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1125,6 +1174,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1135,6 +1185,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			]
@@ -1172,6 +1223,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"DELETE_SNAPSHOT_VHDSET_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1183,6 +1235,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1193,6 +1246,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 			]
@@ -1232,6 +1286,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"MODIFY_VHDSET_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1243,6 +1298,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"SnapshotPath","Type":{"Kind":"ApiRef","Name":"_SnapshotPath_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 			,{"Name":"SnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1255,6 +1311,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"SnapshotFilePath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
@@ -1293,6 +1350,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"APPLY_SNAPSHOT_VHDSET_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1304,6 +1362,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1314,6 +1373,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"SnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 				,{"Name":"LeafSnapshotId","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
@@ -1351,6 +1411,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"RAW_SCSI_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1362,6 +1423,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1372,6 +1434,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"RSVDHandle","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 				,{"Name":"DataIn","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1393,6 +1456,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"RAW_SCSI_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1404,6 +1468,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1414,6 +1479,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ScsiStatus","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 				,{"Name":"SenseInfoLength","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
@@ -1441,6 +1507,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Version","Type":{"Kind":"ApiRef","Name":"FORK_VIRTUAL_DISK_VERSION","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
 		,{"Name":"Anonymous","Type":{"Kind":"ApiRef","Name":"_Anonymous_e__Union","TargetKind":"Default","Api":"Storage.Vhd","Parents":[]},"Attrs":[]}
@@ -1452,6 +1519,7 @@
 		,"Kind":"Union"
 		,"Size":0
 		,"PackingSize":0
+		,"Attrs":[]
 		,"Fields":[
 			{"Name":"Version1","Type":{"Kind":"ApiRef","Name":"_Version1_e__Struct","TargetKind":"Default","Api":"Storage.Vhd","Parents":["_Anonymous_e__Union"]},"Attrs":[]}
 		]
@@ -1462,6 +1530,7 @@
 			,"Kind":"Struct"
 			,"Size":0
 			,"PackingSize":0
+			,"Attrs":[]
 			,"Fields":[
 				{"Name":"ForkedVirtualDiskPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Const"]}
 			]
@@ -1485,7 +1554,7 @@
 "Functions":[{
 	"Name":"OpenVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1502,7 +1571,7 @@
 },{
 	"Name":"CreateVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1522,7 +1591,7 @@
 },{
 	"Name":"AttachVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1539,7 +1608,7 @@
 },{
 	"Name":"DetachVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1553,7 +1622,7 @@
 },{
 	"Name":"GetVirtualDiskPhysicalPath"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1567,7 +1636,7 @@
 },{
 	"Name":"GetAllAttachedVirtualDiskPhysicalPaths"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1580,7 +1649,7 @@
 },{
 	"Name":"GetStorageDependencyInformation"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1596,7 +1665,7 @@
 },{
 	"Name":"GetVirtualDiskInformation"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1611,7 +1680,7 @@
 },{
 	"Name":"SetVirtualDiskInformation"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1624,7 +1693,7 @@
 },{
 	"Name":"EnumerateVirtualDiskMetadata"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1638,7 +1707,7 @@
 },{
 	"Name":"GetVirtualDiskMetadata"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1653,7 +1722,7 @@
 },{
 	"Name":"SetVirtualDiskMetadata"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1668,7 +1737,7 @@
 },{
 	"Name":"DeleteVirtualDiskMetadata"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1681,7 +1750,7 @@
 },{
 	"Name":"GetVirtualDiskOperationProgress"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1695,7 +1764,7 @@
 },{
 	"Name":"CompactVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1710,7 +1779,7 @@
 },{
 	"Name":"MergeVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1725,7 +1794,7 @@
 },{
 	"Name":"ExpandVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1740,7 +1809,7 @@
 },{
 	"Name":"ResizeVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1755,7 +1824,7 @@
 },{
 	"Name":"MirrorVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1770,7 +1839,7 @@
 },{
 	"Name":"BreakMirrorVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1782,7 +1851,7 @@
 },{
 	"Name":"AddVirtualDiskParent"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1795,7 +1864,7 @@
 },{
 	"Name":"QueryChangesVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1814,7 +1883,7 @@
 },{
 	"Name":"TakeSnapshotVhdSet"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1828,7 +1897,7 @@
 },{
 	"Name":"DeleteSnapshotVhdSet"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1842,7 +1911,7 @@
 },{
 	"Name":"ModifyVhdSet"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1856,7 +1925,7 @@
 },{
 	"Name":"ApplySnapshotVhdSet"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1870,7 +1939,7 @@
 },{
 	"Name":"RawSCSIVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1885,7 +1954,7 @@
 },{
 	"Name":"ForkVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -1900,7 +1969,7 @@
 },{
 	"Name":"CompleteForkVirtualDisk"
 	,"SetLastError":false
-	,"DllImport":"VirtDisk"
+	,"DllImport":"VirtDisk.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

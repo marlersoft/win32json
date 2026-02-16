@@ -1814,6 +1814,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"X","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"Y","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -1916,6 +1917,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Position","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2505,6 +2507,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"PixelFormat","Type":{"Kind":"ApiRef","Name":"D2D1_PIXEL_FORMAT","TargetKind":"Default","Api":"Graphics.Direct2D.Common","Parents":[]},"Attrs":[]}
 		,{"Name":"DpiX","Type":{"Kind":"Native","Name":"Single"},"Attrs":[]}
@@ -2522,6 +2525,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Format","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"Width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2535,6 +2539,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Format","Type":{"Kind":"Native","Name":"Guid"},"Attrs":[]}
 		,{"Name":"pbBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
@@ -2549,6 +2554,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Height","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -2567,6 +2573,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cComponents","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"RestartInterval","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4920,6 +4927,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cbSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"CodecMajorVersion","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -4976,6 +4984,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Input","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
 		,{"Name":"Output","Type":{"Kind":"Native","Name":"Double"},"Attrs":[]}
@@ -4988,6 +4997,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cPoints","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"aPoints","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"WICRawToneCurvePoint","TargetKind":"Default","Api":"Graphics.Imaging","Parents":[]}},"Attrs":[]}
@@ -5421,6 +5431,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Width","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"Height","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -5518,6 +5529,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"DxgiFormat","Type":{"Kind":"ApiRef","Name":"DXGI_FORMAT","TargetKind":"Default","Api":"Graphics.Dxgi.Common","Parents":[]},"Attrs":[]}
 		,{"Name":"BytesPerBlock","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6240,6 +6252,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Position","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6303,6 +6316,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"Position","Type":{"Kind":"ApiRef","Name":"ULARGE_INTEGER","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"Length","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -6452,7 +6466,7 @@
 "Functions":[{
 	"Name":"WICConvertBitmapSource"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6466,7 +6480,7 @@
 },{
 	"Name":"WICCreateBitmapFromSection"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6484,7 +6498,7 @@
 },{
 	"Name":"WICCreateBitmapFromSectionEx"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6503,7 +6517,7 @@
 },{
 	"Name":"WICMapGuidToShortName"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6518,7 +6532,7 @@
 },{
 	"Name":"WICMapShortNameToGuid"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6531,7 +6545,7 @@
 },{
 	"Name":"WICMapSchemaToName"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6547,7 +6561,7 @@
 },{
 	"Name":"WICMatchMetadataContent"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6562,7 +6576,7 @@
 },{
 	"Name":"WICSerializeMetadataContent"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -6577,7 +6591,7 @@
 },{
 	"Name":"WICGetMetadataContentSize"
 	,"SetLastError":false
-	,"DllImport":"WindowsCodecs"
+	,"DllImport":"WindowsCodecs.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]

@@ -213,6 +213,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"SI_OBJECT_INFO_FLAGS","TargetKind":"Default","Api":"Security.Authorization.UI","Parents":[]},"Attrs":[]}
 		,{"Name":"hInstance","Type":{"Kind":"ApiRef","Name":"HINSTANCE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -229,6 +230,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pguid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["Const"]}
 		,{"Name":"mask","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -243,6 +245,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pguid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["Const"]}
 		,{"Name":"dwFlags","Type":{"Kind":"ApiRef","Name":"ACE_FLAGS","TargetKind":"Default","Api":"Security","Parents":[]},"Attrs":[]}
@@ -421,6 +424,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pSid","Type":{"Kind":"ApiRef","Name":"PSID","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pwzCommonName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -435,6 +439,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"cItems","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"aSidInfo","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"ApiRef","Name":"SID_INFO","TargetKind":"Default","Api":"Security.Authorization.UI","Parents":[]}},"Attrs":[]}
@@ -528,6 +533,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"pwszName","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"pData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":[]}
@@ -545,6 +551,7 @@
 	,"Kind":"Struct"
 	,"Size":0
 	,"PackingSize":0
+	,"Attrs":[]
 	,"Fields":[
 		{"Name":"fEvaluated","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"cObjectTypeListLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -611,7 +618,7 @@
 "Functions":[{
 	"Name":"CreateSecurityPage"
 	,"SetLastError":true
-	,"DllImport":"ACLUI"
+	,"DllImport":"ACLUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HPROPSHEETPAGE","TargetKind":"Default","Api":"UI.Controls","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -623,7 +630,7 @@
 },{
 	"Name":"EditSecurity"
 	,"SetLastError":true
-	,"DllImport":"ACLUI"
+	,"DllImport":"ACLUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
@@ -636,7 +643,7 @@
 },{
 	"Name":"EditSecurityAdvanced"
 	,"SetLastError":false
-	,"DllImport":"ACLUI"
+	,"DllImport":"ACLUI.dll"
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
