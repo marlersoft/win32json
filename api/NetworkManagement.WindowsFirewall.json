@@ -23,63 +23,15 @@
 	,"ValueType":"UInt32"
 	,"Value":2
 	,"Attrs":[]
-},{
-	"Name":"UPnPNAT"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"ae1e00aa-3fd5-403c-8a27-2bbdc30cd0e1"
-	,"Attrs":[]
-},{
-	"Name":"NetSharingManager"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"5c63c1ad-3956-4ff8-8486-40034758315b"
-	,"Attrs":[]
-},{
-	"Name":"NetFwRule"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"2c5bc43e-3369-4c33-ab0c-be9469677af4"
-	,"Attrs":[]
-},{
-	"Name":"NetFwOpenPort"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"0ca545c6-37ad-4a6c-bf92-9f7610067ef5"
-	,"Attrs":[]
-},{
-	"Name":"NetFwAuthorizedApplication"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"ec9846b3-2762-4a6b-a214-6acb603462d2"
-	,"Attrs":[]
-},{
-	"Name":"NetFwPolicy2"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"e2b3c97f-6ae1-41ac-817a-f6f92166d7dd"
-	,"Attrs":[]
-},{
-	"Name":"NetFwProduct"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"9d745ed8-c514-4d1d-bf42-751fed2d5ac7"
-	,"Attrs":[]
-},{
-	"Name":"NetFwProducts"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"cc19079b-8272-4d73-bb70-cdb533527b61"
-	,"Attrs":[]
-},{
-	"Name":"NetFwMgr"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"304ce942-6e39-40d8-943a-b913c40c9cd4"
-	,"Attrs":[]
 }],
 
 "Types":[{
+	"Name":"UPnPNAT"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"ae1e00aa-3fd5-403c-8a27-2bbdc30cd0e1"
+},{
 	"Name":"IUPnPNAT"
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"
@@ -686,6 +638,12 @@
 			{"Name":"lInternalPort","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		]
 	}]
+},{
+	"Name":"NetSharingManager"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"5c63c1ad-3956-4ff8-8486-40034758315b"
 },{
 	"Name":"IEnumNetConnection"
 	,"Architectures":[]
@@ -1884,6 +1842,48 @@
 			,{"Name":"ppProps","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"INetConnectionProps","TargetKind":"Com","Api":"NetworkManagement.WindowsFirewall","Parents":[]}},"Attrs":["Out","RetVal"]}
 		]
 	}]
+},{
+	"Name":"NetFwRule"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"2c5bc43e-3369-4c33-ab0c-be9469677af4"
+},{
+	"Name":"NetFwOpenPort"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"0ca545c6-37ad-4a6c-bf92-9f7610067ef5"
+},{
+	"Name":"NetFwAuthorizedApplication"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"ec9846b3-2762-4a6b-a214-6acb603462d2"
+},{
+	"Name":"NetFwPolicy2"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"e2b3c97f-6ae1-41ac-817a-f6f92166d7dd"
+},{
+	"Name":"NetFwProduct"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"9d745ed8-c514-4d1d-bf42-751fed2d5ac7"
+},{
+	"Name":"NetFwProducts"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"cc19079b-8272-4d73-bb70-cdb533527b61"
+},{
+	"Name":"NetFwMgr"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"304ce942-6e39-40d8-943a-b913c40c9cd4"
 },{
 	"Name":"NET_FW_POLICY_TYPE"
 	,"Architectures":[]

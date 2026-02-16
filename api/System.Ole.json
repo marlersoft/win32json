@@ -6795,7 +6795,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"fEscapePressed","Type":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
-			,{"Name":"grfKeyState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"grfKeyState","Type":{"Kind":"ApiRef","Name":"MODIFIERKEYS_FLAGS","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":["In"]}
 		]
 	},{
 		"Name":"GiveFeedback"
@@ -6827,7 +6827,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pDataObj","Type":{"Kind":"ApiRef","Name":"IDataObject","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
-			,{"Name":"grfKeyState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"grfKeyState","Type":{"Kind":"ApiRef","Name":"MODIFIERKEYS_FLAGS","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pt","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pdwEffect","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		]
@@ -6840,7 +6840,7 @@
 		,"Platform":null
 		,"Attrs":[]
 		,"Params":[
-			{"Name":"grfKeyState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			{"Name":"grfKeyState","Type":{"Kind":"ApiRef","Name":"MODIFIERKEYS_FLAGS","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pt","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pdwEffect","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		]
@@ -6864,7 +6864,7 @@
 		,"Attrs":[]
 		,"Params":[
 			{"Name":"pDataObj","Type":{"Kind":"ApiRef","Name":"IDataObject","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
-			,{"Name":"grfKeyState","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
+			,{"Name":"grfKeyState","Type":{"Kind":"ApiRef","Name":"MODIFIERKEYS_FLAGS","TargetKind":"Default","Api":"System.SystemServices","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pt","Type":{"Kind":"ApiRef","Name":"POINTL","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 			,{"Name":"pdwEffect","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 		]

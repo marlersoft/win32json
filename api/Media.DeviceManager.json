@@ -1062,54 +1062,6 @@
 	,"Value":16
 	,"Attrs":[]
 },{
-	"Name":"MediaDevMgrClassFactory"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"50040c1d-bdbf-4924-b873-f14d6c5bfd66"
-	,"Attrs":[]
-},{
-	"Name":"MediaDevMgr"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"25baad81-3560-11d3-8471-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMDevice"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"807b3cdf-357a-11d3-8471-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMStorage"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"807b3ce0-357a-11d3-8471-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMStorageGlobal"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"807b3ce1-357a-11d3-8471-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMDeviceEnum"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"430e35af-3971-11d3-8474-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMStorageEnum"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"eb401a3b-3af7-11d3-8474-00c04f79dbc0"
-	,"Attrs":[]
-},{
-	"Name":"WMDMLogger"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"110a3202-5a79-11d3-8d78-444553540000"
-	,"Attrs":[]
-},{
 	"Name":"g_wszWMDMFileName"
 	,"Type":{"Kind":"Native","Name":"String"}
 	,"ValueType":"String"
@@ -1724,6 +1676,48 @@
 		,{"Name":"abMacState","Type":{"Kind":"Array","Shape":{"Size":36},"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
+},{
+	"Name":"MediaDevMgrClassFactory"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"50040c1d-bdbf-4924-b873-f14d6c5bfd66"
+},{
+	"Name":"MediaDevMgr"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"25baad81-3560-11d3-8471-00c04f79dbc0"
+},{
+	"Name":"WMDMDevice"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"807b3cdf-357a-11d3-8471-00c04f79dbc0"
+},{
+	"Name":"WMDMStorage"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"807b3ce0-357a-11d3-8471-00c04f79dbc0"
+},{
+	"Name":"WMDMStorageGlobal"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"807b3ce1-357a-11d3-8471-00c04f79dbc0"
+},{
+	"Name":"WMDMDeviceEnum"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"430e35af-3971-11d3-8474-00c04f79dbc0"
+},{
+	"Name":"WMDMStorageEnum"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"eb401a3b-3af7-11d3-8474-00c04f79dbc0"
 },{
 	"Name":"WMDM_TAG_DATATYPE"
 	,"Architectures":[]
@@ -5455,6 +5449,12 @@
 			,{"Name":"pdwProtocolCount","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 		]
 	}]
+},{
+	"Name":"WMDMLogger"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"110a3202-5a79-11d3-8d78-444553540000"
 },{
 	"Name":"IWMDMLogger"
 	,"Architectures":[]

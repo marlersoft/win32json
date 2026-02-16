@@ -7289,84 +7289,6 @@
 	,"ValueType":"String"
 	,"Value":"EndSync"
 	,"Attrs":[]
-},{
-	"Name":"WpdSerializer"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"0b91a74b-ad7c-4a9d-b563-29eef9167172"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceValues"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"0c15d503-d017-47ce-9016-7b3f978721cc"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceKeyCollection"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"de2d022d-2480-43be-97f0-d1fa2cf98f4f"
-	,"Attrs":[]
-},{
-	"Name":"PortableDevicePropVariantCollection"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"08a99e2f-6d6d-4b80-af5a-baf2bcbe4cb9"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceValuesCollection"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"3882134d-14cf-4220-9cb4-435f86d83f60"
-	,"Attrs":[]
-},{
-	"Name":"PortableDevice"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"728a21c5-3d9e-48d7-9810-864848f0f404"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceManager"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"0af10cec-2ecd-4b92-9581-34f6ae0637f3"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceService"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"ef5db4c2-9312-422c-9152-411cd9c4dd84"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceDispatchFactory"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"43232233-8338-4658-ae01-0b4ae830b6b0"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceFTM"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"f7c0039a-4762-488a-b4b3-760ef9a1ba9b"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceServiceFTM"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"1649b154-c794-497a-9b03-f3f0121302f3"
-	,"Attrs":[]
-},{
-	"Name":"PortableDeviceWebControl"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"186dd02c-2dec-41b5-a7d4-b59056fade51"
-	,"Attrs":[]
-},{
-	"Name":"EnumBthMtpConnectors"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"a1570149-e645-4f43-8b0d-409b061db2fc"
-	,"Attrs":[]
 }],
 
 "Types":[{
@@ -7812,6 +7734,36 @@
 		,{"Name":"AccessProperty","Type":{"Kind":"ApiRef","Name":"PROPERTYKEY","TargetKind":"Default","Api":"UI.Shell.PropertiesSystem","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
+},{
+	"Name":"WpdSerializer"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"0b91a74b-ad7c-4a9d-b563-29eef9167172"
+},{
+	"Name":"PortableDeviceValues"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"0c15d503-d017-47ce-9016-7b3f978721cc"
+},{
+	"Name":"PortableDeviceKeyCollection"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"de2d022d-2480-43be-97f0-d1fa2cf98f4f"
+},{
+	"Name":"PortableDevicePropVariantCollection"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"08a99e2f-6d6d-4b80-af5a-baf2bcbe4cb9"
+},{
+	"Name":"PortableDeviceValuesCollection"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"3882134d-14cf-4220-9cb4-435f86d83f60"
 },{
 	"Name":"WPD_STREAM_UNITS"
 	,"Architectures":[]
@@ -8588,6 +8540,48 @@
 			{"Name":"dwIndex","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In","Const"]}
 		]
 	}]
+},{
+	"Name":"PortableDevice"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"728a21c5-3d9e-48d7-9810-864848f0f404"
+},{
+	"Name":"PortableDeviceManager"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"0af10cec-2ecd-4b92-9581-34f6ae0637f3"
+},{
+	"Name":"PortableDeviceService"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"ef5db4c2-9312-422c-9152-411cd9c4dd84"
+},{
+	"Name":"PortableDeviceDispatchFactory"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"43232233-8338-4658-ae01-0b4ae830b6b0"
+},{
+	"Name":"PortableDeviceFTM"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"f7c0039a-4762-488a-b4b3-760ef9a1ba9b"
+},{
+	"Name":"PortableDeviceServiceFTM"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"1649b154-c794-497a-9b03-f3f0121302f3"
+},{
+	"Name":"PortableDeviceWebControl"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"186dd02c-2dec-41b5-a7d4-b59056fade51"
 },{
 	"Name":"IPortableDeviceManager"
 	,"Architectures":[]
@@ -10066,6 +10060,12 @@
 			,{"Name":"pErrorHandler","Type":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In","Optional"]}
 		]
 	}]
+},{
+	"Name":"EnumBthMtpConnectors"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"a1570149-e645-4f43-8b0d-409b061db2fc"
 },{
 	"Name":"IEnumPortableDeviceConnectors"
 	,"Architectures":[]

@@ -19200,6 +19200,65 @@
 	]
 	,"IntegerBase":"UInt16"
 },{
+	"Name":"MODIFIERKEYS_FLAGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"MK_LBUTTON","Value":1}
+		,{"Name":"MK_RBUTTON","Value":2}
+		,{"Name":"MK_SHIFT","Value":4}
+		,{"Name":"MK_CONTROL","Value":8}
+		,{"Name":"MK_MBUTTON","Value":16}
+		,{"Name":"MK_XBUTTON1","Value":32}
+		,{"Name":"MK_XBUTTON2","Value":64}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"STATIC_STYLES"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"SS_LEFT","Value":0}
+		,{"Name":"SS_CENTER","Value":1}
+		,{"Name":"SS_RIGHT","Value":2}
+		,{"Name":"SS_ICON","Value":3}
+		,{"Name":"SS_BLACKRECT","Value":4}
+		,{"Name":"SS_GRAYRECT","Value":5}
+		,{"Name":"SS_WHITERECT","Value":6}
+		,{"Name":"SS_BLACKFRAME","Value":7}
+		,{"Name":"SS_GRAYFRAME","Value":8}
+		,{"Name":"SS_WHITEFRAME","Value":9}
+		,{"Name":"SS_USERITEM","Value":10}
+		,{"Name":"SS_SIMPLE","Value":11}
+		,{"Name":"SS_LEFTNOWORDWRAP","Value":12}
+		,{"Name":"SS_OWNERDRAW","Value":13}
+		,{"Name":"SS_BITMAP","Value":14}
+		,{"Name":"SS_ENHMETAFILE","Value":15}
+		,{"Name":"SS_ETCHEDHORZ","Value":16}
+		,{"Name":"SS_ETCHEDVERT","Value":17}
+		,{"Name":"SS_ETCHEDFRAME","Value":18}
+		,{"Name":"SS_TYPEMASK","Value":31}
+		,{"Name":"SS_REALSIZECONTROL","Value":64}
+		,{"Name":"SS_NOPREFIX","Value":128}
+		,{"Name":"SS_NOTIFY","Value":256}
+		,{"Name":"SS_CENTERIMAGE","Value":512}
+		,{"Name":"SS_RIGHTJUST","Value":1024}
+		,{"Name":"SS_REALSIZEIMAGE","Value":2048}
+		,{"Name":"SS_SUNKEN","Value":4096}
+		,{"Name":"SS_EDITCONTROL","Value":8192}
+		,{"Name":"SS_ENDELLIPSIS","Value":16384}
+		,{"Name":"SS_PATHELLIPSIS","Value":32768}
+		,{"Name":"SS_WORDELLIPSIS","Value":49152}
+		,{"Name":"SS_ELLIPSISMASK","Value":49152}
+	]
+	,"IntegerBase":"UInt32"
+},{
 	"Name":"PUMS_SCHEDULER_ENTRY_POINT"
 	,"Architectures":[]
 	,"Platform":null

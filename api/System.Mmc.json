@@ -527,33 +527,21 @@
 	,"ValueType":"UInt32"
 	,"Value":255
 	,"Attrs":[]
-},{
-	"Name":"Application"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"49b2791a-b1ae-4c90-9b8e-e860ba07f889"
-	,"Attrs":[]
-},{
-	"Name":"AppEventsDHTMLConnector"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"ade6444b-c91f-4e37-92a4-5bb430a33340"
-	,"Attrs":[]
-},{
-	"Name":"MMCVersionInfo"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"d6fedb1d-cf21-4bd9-af3b-c5468e9c6684"
-	,"Attrs":[]
-},{
-	"Name":"ConsolePower"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"f0285374-dff1-11d3-b433-00c04f8ecd78"
-	,"Attrs":[]
 }],
 
 "Types":[{
+	"Name":"Application"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"49b2791a-b1ae-4c90-9b8e-e860ba07f889"
+},{
+	"Name":"AppEventsDHTMLConnector"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"ade6444b-c91f-4e37-92a4-5bb430a33340"
+},{
 	"Name":"MMC_PROPERTY_ACTION"
 	,"Architectures":[]
 	,"Platform":null
@@ -2866,6 +2854,18 @@
 			{"Name":"Name","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}}},"Attrs":["Out","RetVal"]}
 		]
 	}]
+},{
+	"Name":"MMCVersionInfo"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"d6fedb1d-cf21-4bd9-af3b-c5468e9c6684"
+},{
+	"Name":"ConsolePower"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"f0285374-dff1-11d3-b433-00c04f8ecd78"
 },{
 	"Name":"MMC_RESULT_VIEW_STYLE"
 	,"Architectures":[]

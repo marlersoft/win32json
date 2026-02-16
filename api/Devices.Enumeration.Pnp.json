@@ -281,66 +281,6 @@
 	,"ValueType":"String"
 	,"Value":"AddressFamily"
 	,"Attrs":[]
-},{
-	"Name":"UPnPDeviceFinder"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"e2085f28-feb7-404a-b8e7-e659bdeaaa02"
-	,"Attrs":[]
-},{
-	"Name":"UPnPDevices"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"b9e84ffd-ad3c-40a4-b835-0882ebcbaaa8"
-	,"Attrs":[]
-},{
-	"Name":"UPnPDevice"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"a32552c5-ba61-457a-b59a-a2561e125e33"
-	,"Attrs":[]
-},{
-	"Name":"UPnPServices"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"c0bc4b4a-a406-4efc-932f-b8546b8100cc"
-	,"Attrs":[]
-},{
-	"Name":"UPnPService"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"c624ba95-fbcb-4409-8c03-8cceec533ef1"
-	,"Attrs":[]
-},{
-	"Name":"UPnPDescriptionDocument"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"1d8a9b47-3a28-4ce2-8a4b-bd34e45bceeb"
-	,"Attrs":[]
-},{
-	"Name":"UPnPDeviceFinderEx"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"181b54fc-380b-4a75-b3f1-4ac45e9605b0"
-	,"Attrs":[]
-},{
-	"Name":"UPnPDescriptionDocumentEx"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"33fd0563-d81a-4393-83cc-0195b1da2f91"
-	,"Attrs":[]
-},{
-	"Name":"UPnPRegistrar"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"204810b9-73b2-11d4-bf42-00b0d0118b56"
-	,"Attrs":[]
-},{
-	"Name":"UPnPRemoteEndpointInfo"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"2e5e84e9-4049-4244-b728-2d24227157c7"
-	,"Attrs":[]
 }],
 
 "Types":[{
@@ -415,6 +355,54 @@
 		,{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
 		,{"Name":"pszDeviceInstanceId","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Optional","Const"]}
 	]
+},{
+	"Name":"UPnPDeviceFinder"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"e2085f28-feb7-404a-b8e7-e659bdeaaa02"
+},{
+	"Name":"UPnPDevices"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"b9e84ffd-ad3c-40a4-b835-0882ebcbaaa8"
+},{
+	"Name":"UPnPDevice"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"a32552c5-ba61-457a-b59a-a2561e125e33"
+},{
+	"Name":"UPnPServices"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"c0bc4b4a-a406-4efc-932f-b8546b8100cc"
+},{
+	"Name":"UPnPService"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"c624ba95-fbcb-4409-8c03-8cceec533ef1"
+},{
+	"Name":"UPnPDescriptionDocument"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"1d8a9b47-3a28-4ce2-8a4b-bd34e45bceeb"
+},{
+	"Name":"UPnPDeviceFinderEx"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"181b54fc-380b-4a75-b3f1-4ac45e9605b0"
+},{
+	"Name":"UPnPDescriptionDocumentEx"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"33fd0563-d81a-4393-83cc-0195b1da2f91"
 },{
 	"Name":"IUPnPDeviceFinder"
 	,"Architectures":[]
@@ -1414,6 +1402,18 @@
 			{"Name":"hrLoadResult","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
+},{
+	"Name":"UPnPRegistrar"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"204810b9-73b2-11d4-bf42-00b0d0118b56"
+},{
+	"Name":"UPnPRemoteEndpointInfo"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"2e5e84e9-4049-4244-b728-2d24227157c7"
 },{
 	"Name":"IUPnPEventSink"
 	,"Architectures":[]

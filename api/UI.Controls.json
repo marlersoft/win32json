@@ -60,12 +60,6 @@
 	,"Value":215
 	,"Attrs":[]
 },{
-	"Name":"ImageList"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"7c476ba2-02b1-48f4-8048-b24619ddc058"
-	,"Attrs":[]
-},{
 	"Name":"WM_CTLCOLOR"
 	,"Type":{"Kind":"Native","Name":"UInt32"}
 	,"ValueType":"UInt32"
@@ -17376,6 +17370,12 @@
 	]
 	,"IntegerBase":"Int32"
 },{
+	"Name":"ImageList"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"7c476ba2-02b1-48f4-8048-b24619ddc058"
+},{
 	"Name":"IImageList"
 	,"Architectures":[]
 	,"Platform":"windows6.0.6000"
@@ -21884,7 +21884,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"CtlType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"CtlType","Type":{"Kind":"ApiRef","Name":"DRAWITEMSTRUCT_CTL_TYPE","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
 		,{"Name":"CtlID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"itemID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"itemWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -21937,7 +21937,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"CtlType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"CtlType","Type":{"Kind":"ApiRef","Name":"DRAWITEMSTRUCT_CTL_TYPE","TargetKind":"Default","Api":"UI.Controls","Parents":[]},"Attrs":[]}
 		,{"Name":"CtlID","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"hwndItem","Type":{"Kind":"ApiRef","Name":"HWND","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"itemID1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}

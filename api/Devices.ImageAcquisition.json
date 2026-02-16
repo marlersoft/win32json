@@ -7451,33 +7451,27 @@
 	,"ValueType":"String"
 	,"Value":"Scan Available Item"
 	,"Attrs":[]
-},{
-	"Name":"WiaDevMgr"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"a1f4e726-8cf1-11d1-bf92-0060081ed811"
-	,"Attrs":[]
-},{
-	"Name":"WiaDevMgr2"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"b6c292bc-7c88-41ee-8b54-8ec92617e599"
-	,"Attrs":[]
-},{
-	"Name":"WiaLog"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"a1e75357-881a-419e-83e2-bb16db197c68"
-	,"Attrs":[]
-},{
-	"Name":"WiaVideo"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"3908c3cd-4478-4536-af2f-10c25d4ef89a"
-	,"Attrs":[]
 }],
 
 "Types":[{
+	"Name":"WiaDevMgr"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"a1f4e726-8cf1-11d1-bf92-0060081ed811"
+},{
+	"Name":"WiaDevMgr2"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"b6c292bc-7c88-41ee-8b54-8ec92617e599"
+},{
+	"Name":"WiaLog"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"a1e75357-881a-419e-83e2-bb16db197c68"
+},{
 	"Name":"WIA_DITHER_PATTERN_DATA"
 	,"Architectures":[]
 	,"Platform":null
@@ -10294,6 +10288,12 @@
 		,{"Name":"pEndorserValues","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WIAS_ENDORSER_VALUE","TargetKind":"Default","Api":"Devices.ImageAcquisition","Parents":[]}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
+},{
+	"Name":"WiaVideo"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"3908c3cd-4478-4536-af2f-10c25d4ef89a"
 },{
 	"Name":"WIAVIDEO_STATE"
 	,"Architectures":[]

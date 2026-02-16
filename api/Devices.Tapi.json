@@ -6738,36 +6738,6 @@
 	,"Value":1
 	,"Attrs":[]
 },{
-	"Name":"TAPI"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"21d6d48e-a88b-11d0-83dd-00aa003ccabd"
-	,"Attrs":[]
-},{
-	"Name":"DispatchMapper"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"e9225296-c759-11d1-a02b-00c04fb6809f"
-	,"Attrs":[]
-},{
-	"Name":"RequestMakeCall"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"ac48ffe0-f8c4-11d1-a030-00c04fb6809f"
-	,"Attrs":[]
-},{
-	"Name":"Rendezvous"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"f1029e5b-cb5b-11d0-8d59-00c04fd91ac0"
-	,"Attrs":[]
-},{
-	"Name":"McastAddressAllocation"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"df0daef2-a289-11d1-8697-006008b0e5d2"
-	,"Attrs":[]
-},{
 	"Name":"atypNull"
 	,"Type":{"Kind":"Native","Name":"Int32"}
 	,"ValueType":"Int32"
@@ -8708,6 +8678,24 @@
 		,{"Name":"dwSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
+},{
+	"Name":"TAPI"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"21d6d48e-a88b-11d0-83dd-00aa003ccabd"
+},{
+	"Name":"DispatchMapper"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"e9225296-c759-11d1-a02b-00c04fb6809f"
+},{
+	"Name":"RequestMakeCall"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"ac48ffe0-f8c4-11d1-a030-00c04fb6809f"
 },{
 	"Name":"TAPI_TONEMODE"
 	,"Architectures":[]
@@ -17972,6 +17960,12 @@
 	,"Interface":{"Kind":"ApiRef","Name":"IDispatch","TargetKind":"Com","Api":"System.Com","Parents":[]}
 	,"Methods":[]
 },{
+	"Name":"Rendezvous"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"f1029e5b-cb5b-11d0-8d59-00c04fd91ac0"
+},{
 	"Name":"DIRECTORY_TYPE"
 	,"Architectures":[]
 	,"Platform":null
@@ -18782,6 +18776,12 @@
 			,{"Name":"ppDirectoryObject","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ITDirectoryObject","TargetKind":"Com","Api":"Devices.Tapi","Parents":[]}},"Attrs":["Out","RetVal"]}
 		]
 	}]
+},{
+	"Name":"McastAddressAllocation"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"df0daef2-a289-11d1-8697-006008b0e5d2"
 },{
 	"Name":"IMcastScope"
 	,"Architectures":[]

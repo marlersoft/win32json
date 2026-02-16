@@ -497,18 +497,6 @@
 	,"ValueType":"Int32"
 	,"Value":-2147212265
 	,"Attrs":[]
-},{
-	"Name":"VssSnapshotMgmt"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"0b5a2c52-3eb9-470a-96e2-6c6d4570e40f"
-	,"Attrs":[]
-},{
-	"Name":"VSSCoordinator"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"e579ab5f-1cc4-44b4-bed9-de0991ff0623"
-	,"Attrs":[]
 }],
 
 "Types":[{
@@ -2496,6 +2484,12 @@
 		]
 	}]
 },{
+	"Name":"VssSnapshotMgmt"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"0b5a2c52-3eb9-470a-96e2-6c6d4570e40f"
+},{
 	"Name":"VSS_MGMT_OBJECT_TYPE"
 	,"Architectures":[]
 	,"Platform":null
@@ -2972,6 +2966,12 @@
 			{"Name":"ppenum","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IVssEnumMgmtObject","TargetKind":"Com","Api":"Storage.Vss","Parents":[]}},"Attrs":["In","Out"]}
 		]
 	}]
+},{
+	"Name":"VSSCoordinator"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"e579ab5f-1cc4-44b4-bed9-de0991ff0623"
 },{
 	"Name":"IVssAdmin"
 	,"Architectures":[]

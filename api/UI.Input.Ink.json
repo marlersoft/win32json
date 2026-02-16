@@ -1,19 +1,13 @@
 {
-"Constants":[{
-	"Name":"InkDesktopHost"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"062584a6-f830-4bdc-a4d2-0a10ab062b1d"
-	,"Attrs":[]
-},{
-	"Name":"InkD2DRenderer"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"4044e60c-7b01-4671-a97c-04e0210a07a5"
-	,"Attrs":[]
-}],
+"Constants":[],
 
 "Types":[{
+	"Name":"InkDesktopHost"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"062584a6-f830-4bdc-a4d2-0a10ab062b1d"
+},{
 	"Name":"IInkCommitRequestHandler"
 	,"Architectures":[]
 	,"Platform":"windows10.0.10240"
@@ -164,6 +158,12 @@
 			,{"Name":"ppv","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["Out","ComOutPtr"]}
 		]
 	}]
+},{
+	"Name":"InkD2DRenderer"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"4044e60c-7b01-4671-a97c-04e0210a07a5"
 },{
 	"Name":"INK_HIGH_CONTRAST_ADJUSTMENT"
 	,"Architectures":[]

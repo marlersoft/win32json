@@ -3479,30 +3479,6 @@
 	,"ValueType":"UInt32"
 	,"Value":64
 	,"Attrs":[]
-},{
-	"Name":"CameraUIControl"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"16d5a2be-b1c5-47b3-8eae-ccbcf452c7e8"
-	,"Attrs":[]
-},{
-	"Name":"EditionUpgradeHelper"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"01776df3-b9af-4e50-9b1c-56e93116d704"
-	,"Attrs":[]
-},{
-	"Name":"EditionUpgradeBroker"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"c4270827-4f39-45df-9288-12ff6b85a921"
-	,"Attrs":[]
-},{
-	"Name":"DefaultBrowserSyncSettings"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"3ac83423-3112-4aa6-9b5b-1feb23d0c5f9"
-	,"Attrs":[]
 }],
 
 "Types":[{
@@ -4293,6 +4269,12 @@
 		,{"Name":"param5","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["In","Out"]}
 	]
 },{
+	"Name":"CameraUIControl"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"16d5a2be-b1c5-47b3-8eae-ccbcf452c7e8"
+},{
 	"Name":"CameraUIControlMode"
 	,"Architectures":[]
 	,"Platform":null
@@ -4529,6 +4511,18 @@
 			{"Name":"pszPath","Type":{"Kind":"ApiRef","Name":"PWSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","Const"]}
 		]
 	}]
+},{
+	"Name":"EditionUpgradeHelper"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"01776df3-b9af-4e50-9b1c-56e93116d704"
+},{
+	"Name":"EditionUpgradeBroker"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"c4270827-4f39-45df-9288-12ff6b85a921"
 },{
 	"Name":"IEditionUpgradeHelper"
 	,"Architectures":[]
@@ -5626,6 +5620,12 @@
 	,"Params":[
 	]
 },{
+	"Name":"DefaultBrowserSyncSettings"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"3ac83423-3112-4aa6-9b5b-1feb23d0c5f9"
+},{
 	"Name":"IDefaultBrowserSyncSettings"
 	,"Architectures":[]
 	,"Platform":null
@@ -6232,7 +6232,7 @@
 	"Name":"SignalObjectAndWait"
 	,"SetLastError":true
 	,"DllImport":"KERNEL32.dll"
-	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"WIN32_ERROR","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.1.2600"

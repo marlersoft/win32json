@@ -192,18 +192,6 @@
 	,"Value":4294967295
 	,"Attrs":[]
 },{
-	"Name":"MMDeviceEnumerator"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"bcde0395-e52f-467c-8e3d-c4579291692e"
-	,"Attrs":[]
-},{
-	"Name":"DeviceTopology"
-	,"Type":{"Kind":"Native","Name":"Guid"}
-	,"ValueType":"String"
-	,"Value":"1df639d0-5ec1-47aa-9379-828dc1aa8c59"
-	,"Attrs":[]
-},{
 	"Name":"ENDPOINT_FORMAT_RESET_MIX_ONLY"
 	,"Type":{"Kind":"Native","Name":"UInt32"}
 	,"ValueType":"UInt32"
@@ -5870,6 +5858,12 @@
 		]
 	}]
 },{
+	"Name":"MMDeviceEnumerator"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"bcde0395-e52f-467c-8e3d-c4579291692e"
+},{
 	"Name":"DIRECTX_AUDIO_ACTIVATION_PARAMS"
 	,"Architectures":[]
 	,"Platform":null
@@ -6380,6 +6374,12 @@
 			{"Name":"callback","Type":{"Kind":"ApiRef","Name":"IAudioSystemEffectsPropertyChangeNotificationClient","TargetKind":"Com","Api":"Media.Audio","Parents":[]},"Attrs":["In"]}
 		]
 	}]
+},{
+	"Name":"DeviceTopology"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"ComClassID"
+	,"Guid":"1df639d0-5ec1-47aa-9379-828dc1aa8c59"
 },{
 	"Name":"DataFlow"
 	,"Architectures":[]
