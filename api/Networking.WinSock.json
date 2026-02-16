@@ -12536,7 +12536,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 	]
 },{
@@ -12547,7 +12549,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"lParam","Type":{"Kind":"ApiRef","Name":"LPARAM","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"hAsyncTaskHandle","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}

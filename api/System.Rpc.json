@@ -2683,7 +2683,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"BufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -2697,7 +2699,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pfnFilter","Type":{"Kind":"ApiRef","Name":"RPCLT_PDU_FILTER_FUNC","TargetKind":"FunctionPointer","Api":"System.Rpc","Parents":[]},"Attrs":["In"]}
 	]
@@ -2709,7 +2713,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"RPC_STATUS","TargetKind":"Default","Api":"System.Rpc","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hWnd","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}

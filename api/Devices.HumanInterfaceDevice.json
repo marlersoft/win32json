@@ -19204,7 +19204,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
 		,{"Name":"NewScanCodes","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -19218,7 +19220,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Version","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt32"}},"Attrs":["Out"]}
 	]

@@ -2163,7 +2163,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]

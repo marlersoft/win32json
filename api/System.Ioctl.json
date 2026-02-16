@@ -15576,7 +15576,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"SourceContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IO_IRP_EXT_TRACK_OFFSET_HEADER","TargetKind":"Default","Api":"System.Ioctl","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"TargetContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IO_IRP_EXT_TRACK_OFFSET_HEADER","TargetKind":"Default","Api":"System.Ioctl","Parents":[]}},"Attrs":["In","Out"]}

@@ -3191,7 +3191,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pchText","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"cchText","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}

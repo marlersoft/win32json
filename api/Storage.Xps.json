@@ -509,6 +509,24 @@
 	,"ValueType":"Int32"
 	,"Value":-2142108404
 	,"Attrs":[]
+},{
+	"Name":"XpsOMObjectFactory"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"e974d26d-3d9b-4d47-88cc-3872f2dc3585"
+	,"Attrs":[]
+},{
+	"Name":"XpsOMThumbnailGenerator"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"7e4a23e2-b969-4761-be35-1a8ced58e323"
+	,"Attrs":[]
+},{
+	"Name":"XpsSignatureManager"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"b0c43320-2315-44a2-b70a-0943a140a8ee"
+	,"Attrs":[]
 }],
 
 "Types":[{
@@ -715,18 +733,6 @@
 		,{"Name":"fwType","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
-},{
-	"Name":"XpsOMObjectFactory"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"e974d26d-3d9b-4d47-88cc-3872f2dc3585"
-},{
-	"Name":"XpsOMThumbnailGenerator"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"7e4a23e2-b969-4761-be35-1a8ced58e323"
 },{
 	"Name":"XPS_TILE_MODE"
 	,"Architectures":[]
@@ -7243,12 +7249,6 @@
 			{"Name":"xpsFactory","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IXpsOMObjectFactory","TargetKind":"Com","Api":"Storage.Xps","Parents":[]}},"Attrs":["Out","RetVal"]}
 		]
 	}]
-},{
-	"Name":"XpsSignatureManager"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"b0c43320-2315-44a2-b70a-0943a140a8ee"
 },{
 	"Name":"XPS_SIGNATURE_STATUS"
 	,"Architectures":[]

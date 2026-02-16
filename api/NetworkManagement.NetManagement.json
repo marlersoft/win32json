@@ -12407,6 +12407,12 @@
 	,"ValueType":"UInt32"
 	,"Value":48
 	,"Attrs":[]
+},{
+	"Name":"NetProvisioning"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"2aa2b5fe-b846-4d07-810c-b21ee45320e3"
+	,"Attrs":[]
 }],
 
 "Types":[{
@@ -18555,12 +18561,6 @@
 			,{"Name":"pAdapterInstanceGuid","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Guid"}},"Attrs":["In"]}
 		]
 	}]
-},{
-	"Name":"NetProvisioning"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"2aa2b5fe-b846-4d07-810c-b21ee45320e3"
 },{
 	"Name":"IProvisioningDomain"
 	,"Architectures":[]

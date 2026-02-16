@@ -4968,6 +4968,30 @@
 	,"Value":-2147483648
 	,"Attrs":[]
 },{
+	"Name":"SpellCheckerFactory"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"7ab36653-1796-484b-bdfa-e74f1db7c1dc"
+	,"Attrs":[]
+},{
+	"Name":"CMLangString"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"c04d65cf-b70d-11d0-b188-00aa0038c969"
+	,"Attrs":[]
+},{
+	"Name":"CMLangConvertCharset"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"d66d6f99-cdaa-11d0-b822-00c04fc9b31f"
+	,"Attrs":[]
+},{
+	"Name":"CMultiLanguage"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"275c23e2-3747-11d0-9fea-00aa003f8646"
+	,"Attrs":[]
+},{
 	"Name":"UITER_UNKNOWN_INDEX"
 	,"Type":{"Kind":"Native","Name":"Int32"}
 	,"ValueType":"Int32"
@@ -6288,12 +6312,6 @@
 	]
 	,"NestedTypes":[]
 },{
-	"Name":"SpellCheckerFactory"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"7ab36653-1796-484b-bdfa-e74f1db7c1dc"
-},{
 	"Name":"WORDLIST_TYPE"
 	,"Architectures":[]
 	,"Platform":null
@@ -7406,7 +7424,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"fnNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -7419,7 +7439,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"fnNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -7434,7 +7456,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"fnNumber","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -7735,7 +7759,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"origin","Type":{"Kind":"ApiRef","Name":"UCharIteratorOrigin","TargetKind":"Default","Api":"Globalization","Parents":[]},"Attrs":["In"]}
@@ -7748,7 +7774,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"delta","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -7762,7 +7790,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -7774,7 +7804,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -7786,7 +7818,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -7798,7 +7832,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -7810,7 +7846,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -7822,7 +7860,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"something","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -7835,7 +7875,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Const"]}
 	]
@@ -7847,7 +7889,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"iter","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCharIterator","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"state","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -8103,7 +8147,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"value","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -8328,7 +8374,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"args","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UConverterToUnicodeArgs","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
@@ -8345,7 +8393,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"args","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UConverterFromUnicodeArgs","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
@@ -8375,7 +8425,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"size","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -8388,7 +8440,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"mem","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -8402,7 +8456,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"mem","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -9401,7 +9457,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"start","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -9416,7 +9474,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"code","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -9488,7 +9548,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"UCharDirection","TargetKind":"Default","Api":"Globalization","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"c","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -9536,7 +9598,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"dest","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"src","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Const"]}
@@ -9551,7 +9615,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int64"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -9563,7 +9629,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"nativeIndex","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -9577,7 +9645,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"nativeStart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -9594,7 +9664,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"nativeStart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -9611,7 +9683,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"nativeStart","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -9628,7 +9702,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int64"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Const"]}
 	]
@@ -9640,7 +9716,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Const"]}
 		,{"Name":"nativeIndex","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -9653,7 +9731,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ut","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UText","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -9833,7 +9913,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt16"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"offset","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
 		,{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -11180,7 +11262,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"steps","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -11193,7 +11277,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"SByte"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"context","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
 		,{"Name":"matchIndex","Type":{"Kind":"Native","Name":"Int64"},"Attrs":["In"]}
@@ -11491,7 +11577,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"csm","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UCaseMap","TargetKind":"Default","Api":"Globalization","Parents":[]}},"Attrs":["In","Const"]}
 		,{"Name":"dest","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
@@ -11741,24 +11829,6 @@
 	,"Fields":[
 	]
 	,"NestedTypes":[]
-},{
-	"Name":"CMLangString"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"c04d65cf-b70d-11d0-b188-00aa0038c969"
-},{
-	"Name":"CMLangConvertCharset"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"d66d6f99-cdaa-11d0-b822-00c04fc9b31f"
-},{
-	"Name":"CMultiLanguage"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"275c23e2-3747-11d0-9fea-00aa003f8646"
 },{
 	"Name":"IMLangStringBufW"
 	,"Architectures":[]

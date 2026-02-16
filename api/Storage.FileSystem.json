@@ -4782,7 +4782,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"cbBufferLength","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"pvUserContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -4795,7 +4797,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pvBuffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"pvUserContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -5043,7 +5047,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hLogFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"lsnTarget","Type":{"Kind":"ApiRef","Name":"CLS_LSN","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]},"Attrs":["In"]}
@@ -5057,7 +5063,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hLogFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"dwError","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -5072,7 +5080,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hLogFile","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pvClientContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -6734,7 +6744,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FIO_CONTEXT","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"lpo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FH_OVERLAPPED","TargetKind":"Default","Api":"Storage.FileSystem","Parents":[]}},"Attrs":["In","Out"]}

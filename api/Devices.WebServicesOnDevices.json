@@ -1210,7 +1210,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"server","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 		,{"Name":"session","Type":{"Kind":"ApiRef","Name":"IWSDServiceMessaging","TargetKind":"Com","Api":"Devices.WebServicesOnDevices","Parents":[]},"Attrs":["In"]}
@@ -1266,7 +1268,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"thisUnknown","Type":{"Kind":"ApiRef","Name":"IUnknown","TargetKind":"Com","Api":"System.Com","Parents":[]},"Attrs":["In"]}
 		,{"Name":"event","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WSD_EVENT","TargetKind":"Default","Api":"Devices.WebServicesOnDevices","Parents":[]}},"Attrs":["In","Out"]}

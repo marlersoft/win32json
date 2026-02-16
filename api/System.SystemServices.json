@@ -19011,25 +19011,6 @@
 	]
 	,"IntegerBase":"UInt32"
 },{
-	"Name":"CHOOSECOLOR_FLAGS"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"Enum"
-	,"Flags":true
-	,"Scoped":false
-	,"Values":[
-		{"Name":"CC_RGBINIT","Value":1}
-		,{"Name":"CC_FULLOPEN","Value":2}
-		,{"Name":"CC_PREVENTFULLOPEN","Value":4}
-		,{"Name":"CC_SHOWHELP","Value":8}
-		,{"Name":"CC_ENABLEHOOK","Value":16}
-		,{"Name":"CC_ENABLETEMPLATE","Value":32}
-		,{"Name":"CC_ENABLETEMPLATEHANDLE","Value":64}
-		,{"Name":"CC_SOLIDCOLOR","Value":128}
-		,{"Name":"CC_ANYCOLOR","Value":256}
-	]
-	,"IntegerBase":"UInt32"
-},{
 	"Name":"CLIPBOARD_FORMATS"
 	,"Architectures":[]
 	,"Platform":null
@@ -19240,7 +19221,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"_abnormal_termination","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"EstablisherFrame","Type":{"Kind":"Native","Name":"UInt64"},"Attrs":["In"]}
@@ -19253,7 +19236,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Process","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"TableAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -20103,7 +20088,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Process","Type":{"Kind":"ApiRef","Name":"HANDLE","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"TableAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -20118,7 +20105,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ExceptionPointers","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"EXCEPTION_POINTERS","TargetKind":"Default","Api":"System.Diagnostics.Debug","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"EstablisherFrame","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
@@ -20131,7 +20120,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"_abnormal_termination","Type":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"EstablisherFrame","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}

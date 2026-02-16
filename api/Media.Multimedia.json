@@ -72,6 +72,12 @@
 	,"Value":20480
 	,"Attrs":[]
 },{
+	"Name":"KSDATAFORMAT_SUBTYPE_IEEE_FLOAT"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"00000003-0000-0010-8000-00aa00389b71"
+	,"Attrs":[]
+},{
 	"Name":"MCI_TEST"
 	,"Type":{"Kind":"Native","Name":"Int32"}
 	,"ValueType":"Int32"
@@ -27926,12 +27932,6 @@
 	,"FreeFunc":null
 	,"InvalidHandleValue":0
 },{
-	"Name":"KSDATAFORMAT_SUBTYPE_IEEE_FLOAT"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"00000003-0000-0010-8000-00aa00389b71"
-},{
 	"Name":"ADPCMCOEFSET"
 	,"Architectures":[]
 	,"Platform":null
@@ -31212,7 +31212,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"dwInst","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
 	]

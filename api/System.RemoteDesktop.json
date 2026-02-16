@@ -1488,6 +1488,24 @@
 	,"Value":800
 	,"Attrs":[]
 },{
+	"Name":"TSUserExInterfaces"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"0910dd01-df8c-11d1-ae27-00c04fa35813"
+	,"Attrs":[]
+},{
+	"Name":"ADsTSUserEx"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"e2e9cae6-1e7b-4b8e-babd-e9bf6292ac29"
+	,"Attrs":[]
+},{
+	"Name":"Workspace"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"4f1dfca6-3aad-48e1-8406-4bc21a501d7c"
+	,"Attrs":[]
+},{
 	"Name":"RDCLIENT_BITMAP_RENDER_SERVICE"
 	,"Type":{"Kind":"Native","Name":"Guid"}
 	,"ValueType":"String"
@@ -1899,18 +1917,6 @@
 	,"Def":{"Kind":"Native","Name":"IntPtr"}
 	,"FreeFunc":"WTSVirtualChannelClose"
 	,"InvalidHandleValue":0
-},{
-	"Name":"TSUserExInterfaces"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"0910dd01-df8c-11d1-ae27-00c04fa35813"
-},{
-	"Name":"ADsTSUserEx"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"e2e9cae6-1e7b-4b8e-babd-e9bf6292ac29"
 },{
 	"Name":"IADsTSUserEx"
 	,"Architectures":[]
@@ -3831,12 +3837,6 @@
 	,"Params":[
 		{"Name":"pEntryPoints","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CHANNEL_ENTRY_POINTS","TargetKind":"Default","Api":"System.RemoteDesktop","Parents":[]}},"Attrs":["In","Out"]}
 	]
-},{
-	"Name":"Workspace"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"4f1dfca6-3aad-48e1-8406-4bc21a501d7c"
 },{
 	"Name":"IWorkspaceClientExt"
 	,"Architectures":[]

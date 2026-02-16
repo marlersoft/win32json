@@ -275,7 +275,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ReturnValue","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
 	]
@@ -287,7 +289,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ExceptionRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_EXCEPTION_AMD64","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -299,7 +303,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR64","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -311,7 +317,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR64","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -323,7 +331,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"EnclaveAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"NumberOfBytes","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -338,7 +348,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"EnclaveAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"NumberOfBytes","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -351,7 +363,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"EnclaveAddress","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"NumberOfytes","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -365,7 +379,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR64","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -377,7 +393,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"EnclaveInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCLAVE_INFORMATION","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["Out"]}
 	]
@@ -405,7 +423,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"KeyRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ENCLAVE_VBS_BASIC_KEY_REQUEST","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"RequestedKeySize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -419,7 +439,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"EnclaveData","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["In","Optional","Const"]}
 		,{"Name":"Report","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2},"Optional"]}
@@ -434,7 +456,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Report","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":1},"Const"]}
 		,{"Name":"ReportSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -447,7 +471,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Buffer","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Byte"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":1}]}
 		,{"Name":"NumberOfBytes","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -485,7 +511,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ExceptionRecord","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
@@ -497,7 +525,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR32","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -509,7 +539,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR32","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]
@@ -521,7 +553,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ThreadDescriptor","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"VBS_BASIC_ENCLAVE_THREAD_DESCRIPTOR32","TargetKind":"Default","Api":"System.Environment","Parents":[]}},"Attrs":["In"]}
 	]

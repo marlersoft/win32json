@@ -271,7 +271,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
@@ -283,7 +285,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"memory","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 	]
@@ -295,7 +299,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pszFile","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"oflag","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -311,7 +317,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"memory","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -327,7 +335,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"memory","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -343,7 +353,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"err","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
@@ -357,7 +369,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"dist","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -373,7 +387,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pszFile","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"err","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Int32"}},"Attrs":["In","Out"]}
@@ -387,7 +403,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pccab","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CCAB","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"cbPrevCab","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -401,7 +419,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pccab","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CCAB","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"pszFile","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
@@ -417,7 +437,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pszName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pdate","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"UInt16"}},"Attrs":["In","Out"]}
@@ -434,7 +456,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"typeStatus","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		,{"Name":"cb1","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -449,7 +473,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOL","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pszTempName","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":1}]}
 		,{"Name":"cbTempName","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -592,7 +618,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"cb","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 	]
@@ -604,7 +632,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pv","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Optional"]}
 	]
@@ -616,7 +646,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pszFile","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		,{"Name":"oflag","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -630,7 +662,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"pv","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["Out",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -644,7 +678,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"pv","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -658,7 +694,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 	]
@@ -670,7 +708,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"hf","Type":{"Kind":"Native","Name":"IntPtr"},"Attrs":["In"]}
 		,{"Name":"dist","Type":{"Kind":"Native","Name":"Int32"},"Attrs":["In"]}
@@ -684,7 +724,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Int32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pfdid","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FDIDECRYPT","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -736,7 +778,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"IntPtr"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"fdint","Type":{"Kind":"ApiRef","Name":"FDINOTIFICATIONTYPE","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]},"Attrs":["In"]}
 		,{"Name":"pfdin","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"FDINOTIFICATION","TargetKind":"Default","Api":"Storage.Cabinets","Parents":[]}},"Attrs":["In","Out"]}

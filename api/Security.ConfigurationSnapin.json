@@ -364,7 +364,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pSceCbInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SCESVC_CALLBACK_INFO","TargetKind":"Default","Api":"Security.ConfigurationSnapin","Parents":[]}},"Attrs":["In","Out"]}
 	]
@@ -376,7 +378,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pSceCbInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SCESVC_CALLBACK_INFO","TargetKind":"Default","Api":"Security.ConfigurationSnapin","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"ServiceInfo","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SCESVC_CONFIGURATION_INFO","TargetKind":"Default","Api":"Security.ConfigurationSnapin","Parents":[]}},"Attrs":["In","Out"]}

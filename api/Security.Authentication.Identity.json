@@ -9835,7 +9835,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"UserName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UNICODE_STRING","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"RelativeId","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
@@ -9849,7 +9851,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 	]
 },{
@@ -9860,7 +9864,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"AccountName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UNICODE_STRING","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"FullName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UNICODE_STRING","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
@@ -13721,7 +13727,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ClearPassword","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UNICODE_STRING","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["In"]}
 		,{"Name":"OldCredentials","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In",{"Kind":"MemorySize","BytesParamIndex":2}]}
@@ -13742,7 +13750,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"CredentialName","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"UNICODE_STRING","TargetKind":"Default","Api":"Foundation","Parents":[]}},"Attrs":["Out"]}
 	]
@@ -13754,7 +13764,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"p","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 	]
@@ -13806,7 +13818,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Table","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SAM_REGISTER_MAPPING_TABLE","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]}},"Attrs":["Out"]}
 	]
@@ -15410,7 +15424,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ClientRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In"]}
 		,{"Name":"LogonType","Type":{"Kind":"ApiRef","Name":"SECURITY_LOGON_TYPE","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]},"Attrs":["In"]}
@@ -15437,7 +15453,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ClientRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In"]}
 		,{"Name":"LogonType","Type":{"Kind":"ApiRef","Name":"SECURITY_LOGON_TYPE","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]},"Attrs":["In"]}
@@ -15465,7 +15483,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ClientRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In"]}
 		,{"Name":"LogonType","Type":{"Kind":"ApiRef","Name":"SECURITY_LOGON_TYPE","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]},"Attrs":["In"]}
@@ -15483,7 +15503,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"NTSTATUS","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"ClientRequest","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}},"Attrs":["In"]}
 		,{"Name":"LogonType","Type":{"Kind":"ApiRef","Name":"SECURITY_LOGON_TYPE","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]},"Attrs":["In"]}

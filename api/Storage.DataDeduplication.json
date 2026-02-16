@@ -5,15 +5,21 @@
 	,"ValueType":"UInt32"
 	,"Value":1024
 	,"Attrs":[]
+},{
+	"Name":"DedupBackupSupport"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"73d6b2ad-2984-4715-b2e3-924c149744dd"
+	,"Attrs":[]
+},{
+	"Name":"DedupDataPort"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"8f107207-1829-48b2-a64b-e61f8e0d9acb"
+	,"Attrs":[]
 }],
 
 "Types":[{
-	"Name":"DedupBackupSupport"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"73d6b2ad-2984-4715-b2e3-924c149744dd"
-},{
 	"Name":"DEDUP_CONTAINER_EXTENT"
 	,"Architectures":[]
 	,"Platform":null
@@ -415,12 +421,6 @@
 		,{"Name":"DedupCompressionAlgorithm_Xpress","Value":1}
 	]
 	,"IntegerBase":"Int32"
-},{
-	"Name":"DedupDataPort"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"8f107207-1829-48b2-a64b-e61f8e0d9acb"
 },{
 	"Name":"IDedupDataPort"
 	,"Architectures":[]

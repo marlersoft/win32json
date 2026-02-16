@@ -8328,6 +8328,48 @@
 	,"Value":12801
 	,"Attrs":[]
 },{
+	"Name":"BidiRequest"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"b9162a23-45f9-47cc-80f5-fe0fe9b9e1a2"
+	,"Attrs":[]
+},{
+	"Name":"BidiRequestContainer"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"fc5b8a24-db05-4a01-8388-22edf6c2bbba"
+	,"Attrs":[]
+},{
+	"Name":"BidiSpl"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"2a614240-a4c5-4c33-bd87-1bc709331639"
+	,"Attrs":[]
+},{
+	"Name":"PrinterQueue"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"eb54c230-798c-4c9e-b461-29fad04039b1"
+	,"Attrs":[]
+},{
+	"Name":"PrinterQueueView"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"eb54c231-798c-4c9e-b461-29fad04039b1"
+	,"Attrs":[]
+},{
+	"Name":"PrintSchemaAsyncOperation"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"43b2f83d-10f2-48ab-831b-55fdbdbd34a4"
+	,"Attrs":[]
+},{
+	"Name":"PrinterExtensionManager"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"331b60da-9e90-4dd0-9c84-eac4e659b61f"
+	,"Attrs":[]
+},{
 	"Name":"NOTIFICATION_RELEASE"
 	,"Type":{"Kind":"Native","Name":"Guid"}
 	,"ValueType":"String"
@@ -8397,24 +8439,6 @@
 		,{"Name":"PRINTER_ACCESS_MANAGE_LIMITED","Value":64}
 	]
 	,"IntegerBase":"UInt32"
-},{
-	"Name":"BidiRequest"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"b9162a23-45f9-47cc-80f5-fe0fe9b9e1a2"
-},{
-	"Name":"BidiRequestContainer"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"fc5b8a24-db05-4a01-8388-22edf6c2bbba"
-},{
-	"Name":"BidiSpl"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"2a614240-a4c5-4c33-bd87-1bc709331639"
 },{
 	"Name":"IBidiRequest"
 	,"Architectures":[]
@@ -13493,30 +13517,6 @@
 			,{"Name":"ppDeviceResources","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IXMLDOMDocument2","TargetKind":"Com","Api":"Data.Xml.MsXml","Parents":[]}},"Attrs":["Out"]}
 		]
 	}]
-},{
-	"Name":"PrinterQueue"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"eb54c230-798c-4c9e-b461-29fad04039b1"
-},{
-	"Name":"PrinterQueueView"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"eb54c231-798c-4c9e-b461-29fad04039b1"
-},{
-	"Name":"PrintSchemaAsyncOperation"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"43b2f83d-10f2-48ab-831b-55fdbdbd34a4"
-},{
-	"Name":"PrinterExtensionManager"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"331b60da-9e90-4dd0-9c84-eac4e659b61f"
 },{
 	"Name":"IPrintSchemaElement"
 	,"Architectures":[]

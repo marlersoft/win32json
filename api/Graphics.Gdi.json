@@ -1182,66 +1182,6 @@
 	,"Value":0
 	,"Attrs":[]
 },{
-	"Name":"BI_RGB"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"BI_RLE8"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"BI_RLE4"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"BI_BITFIELDS"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"BI_JPEG"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"BI_PNG"
-	,"Type":{"Kind":"Native","Name":"Int32"}
-	,"ValueType":"Int32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"TMPF_FIXED_PITCH"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"TMPF_VECTOR"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"TMPF_DEVICE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"TMPF_TRUETYPE"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
 	"Name":"NTM_REGULAR"
 	,"Type":{"Kind":"Native","Name":"Int32"}
 	,"ValueType":"Int32"
@@ -2194,72 +2134,6 @@
 	,"Type":{"Kind":"Native","Name":"UInt32"}
 	,"ValueType":"UInt32"
 	,"Value":4294967295
-	,"Attrs":[]
-},{
-	"Name":"BS_SOLID"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":0
-	,"Attrs":[]
-},{
-	"Name":"BS_NULL"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"BS_HOLLOW"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":1
-	,"Attrs":[]
-},{
-	"Name":"BS_HATCHED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":2
-	,"Attrs":[]
-},{
-	"Name":"BS_PATTERN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":3
-	,"Attrs":[]
-},{
-	"Name":"BS_INDEXED"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":4
-	,"Attrs":[]
-},{
-	"Name":"BS_DIBPATTERN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":5
-	,"Attrs":[]
-},{
-	"Name":"BS_DIBPATTERNPT"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":6
-	,"Attrs":[]
-},{
-	"Name":"BS_PATTERN8X8"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":7
-	,"Attrs":[]
-},{
-	"Name":"BS_DIBPATTERN8X8"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":8
-	,"Attrs":[]
-},{
-	"Name":"BS_MONOPATTERN"
-	,"Type":{"Kind":"Native","Name":"UInt32"}
-	,"ValueType":"UInt32"
-	,"Value":9
 	,"Attrs":[]
 },{
 	"Name":"HS_API_MAX"
@@ -7971,6 +7845,57 @@
 	]
 	,"IntegerBase":"Int32"
 },{
+	"Name":"BRUSH_STYLE"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"BS_SOLID","Value":0}
+		,{"Name":"BS_NULL","Value":1}
+		,{"Name":"BS_HOLLOW","Value":1}
+		,{"Name":"BS_HATCHED","Value":2}
+		,{"Name":"BS_PATTERN","Value":3}
+		,{"Name":"BS_INDEXED","Value":4}
+		,{"Name":"BS_DIBPATTERN","Value":5}
+		,{"Name":"BS_DIBPATTERNPT","Value":6}
+		,{"Name":"BS_PATTERN8X8","Value":7}
+		,{"Name":"BS_DIBPATTERN8X8","Value":8}
+		,{"Name":"BS_MONOPATTERN","Value":9}
+	]
+	,"IntegerBase":"UInt32"
+},{
+	"Name":"TMPF_FLAGS"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":true
+	,"Scoped":false
+	,"Values":[
+		{"Name":"TMPF_FIXED_PITCH","Value":1}
+		,{"Name":"TMPF_VECTOR","Value":2}
+		,{"Name":"TMPF_DEVICE","Value":8}
+		,{"Name":"TMPF_TRUETYPE","Value":4}
+	]
+	,"IntegerBase":"Byte"
+},{
+	"Name":"BI_COMPRESSION"
+	,"Architectures":[]
+	,"Platform":null
+	,"Kind":"Enum"
+	,"Flags":false
+	,"Scoped":false
+	,"Values":[
+		{"Name":"BI_RGB","Value":0}
+		,{"Name":"BI_RLE8","Value":1}
+		,{"Name":"BI_RLE4","Value":2}
+		,{"Name":"BI_BITFIELDS","Value":3}
+		,{"Name":"BI_JPEG","Value":4}
+		,{"Name":"BI_PNG","Value":5}
+	]
+	,"IntegerBase":"Int32"
+},{
 	"Name":"HDC"
 	,"Architectures":[]
 	,"Platform":null
@@ -8218,7 +8143,7 @@
 		,{"Name":"biHeight","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"biPlanes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"biBitCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		,{"Name":"biCompression","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"biCompression","Type":{"Kind":"ApiRef","Name":"BI_COMPRESSION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"biSizeImage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"biXPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"biYPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -8240,7 +8165,7 @@
 		,{"Name":"bV4Height","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"bV4Planes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"bV4BitCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		,{"Name":"bV4V4Compression","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"bV4V4Compression","Type":{"Kind":"ApiRef","Name":"BI_COMPRESSION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"bV4SizeImage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bV4XPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"bV4YPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -8271,7 +8196,7 @@
 		,{"Name":"bV5Height","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"bV5Planes","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
 		,{"Name":"bV5BitCount","Type":{"Kind":"Native","Name":"UInt16"},"Attrs":[]}
-		,{"Name":"bV5Compression","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"bV5Compression","Type":{"Kind":"ApiRef","Name":"BI_COMPRESSION","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"bV5SizeImage","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"bV5XPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
 		,{"Name":"bV5YPelsPerMeter","Type":{"Kind":"Native","Name":"Int32"},"Attrs":[]}
@@ -8449,7 +8374,7 @@
 		,{"Name":"tmItalic","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmUnderlined","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmStruckOut","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		,{"Name":"tmPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		,{"Name":"tmPitchAndFamily","Type":{"Kind":"ApiRef","Name":"TMPF_FLAGS","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"tmCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -8480,7 +8405,7 @@
 		,{"Name":"tmItalic","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmUnderlined","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmStruckOut","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		,{"Name":"tmPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		,{"Name":"tmPitchAndFamily","Type":{"Kind":"ApiRef","Name":"TMPF_FLAGS","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"tmCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -8511,7 +8436,7 @@
 		,{"Name":"tmItalic","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmUnderlined","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmStruckOut","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		,{"Name":"tmPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		,{"Name":"tmPitchAndFamily","Type":{"Kind":"ApiRef","Name":"TMPF_FLAGS","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"tmCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ntmFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ntmSizeEM","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8546,7 +8471,7 @@
 		,{"Name":"tmItalic","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmUnderlined","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"tmStruckOut","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
-		,{"Name":"tmPitchAndFamily","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
+		,{"Name":"tmPitchAndFamily","Type":{"Kind":"ApiRef","Name":"TMPF_FLAGS","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"tmCharSet","Type":{"Kind":"Native","Name":"Byte"},"Attrs":[]}
 		,{"Name":"ntmFlags","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"ntmSizeEM","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
@@ -8579,7 +8504,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"lbStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"lbStyle","Type":{"Kind":"ApiRef","Name":"BRUSH_STYLE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"lbColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lbHatch","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":[]}
 	]
@@ -8593,7 +8518,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"lbStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"lbStyle","Type":{"Kind":"ApiRef","Name":"BRUSH_STYLE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"lbColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lbHatch","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 	]
@@ -8607,7 +8532,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"lopnStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"lopnStyle","Type":{"Kind":"ApiRef","Name":"PEN_STYLE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"lopnWidth","Type":{"Kind":"ApiRef","Name":"POINT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 		,{"Name":"lopnColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
 	]
@@ -8621,7 +8546,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"elpPenStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"elpPenStyle","Type":{"Kind":"ApiRef","Name":"PEN_STYLE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"elpWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"elpBrushStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"elpColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -8639,7 +8564,7 @@
 	,"PackingSize":0
 	,"Attrs":[]
 	,"Fields":[
-		{"Name":"elpPenStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		{"Name":"elpPenStyle","Type":{"Kind":"ApiRef","Name":"PEN_STYLE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"elpWidth","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"elpBrushStyle","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
 		,{"Name":"elpColor","Type":{"Kind":"ApiRef","Name":"COLORREF","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":[]}
@@ -10107,7 +10032,7 @@
 	,"Fields":[
 		{"Name":"emr","Type":{"Kind":"ApiRef","Name":"EMR","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"xform","Type":{"Kind":"ApiRef","Name":"XFORM","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
-		,{"Name":"iMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"iMode","Type":{"Kind":"ApiRef","Name":"MODIFY_WORLD_TRANSFORM_MODE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 	]
 	,"NestedTypes":[]
 },{
@@ -10352,7 +10277,7 @@
 	,"Fields":[
 		{"Name":"emr","Type":{"Kind":"ApiRef","Name":"EMR","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"cbRgnData","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
-		,{"Name":"iMode","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":[]}
+		,{"Name":"iMode","Type":{"Kind":"ApiRef","Name":"RGN_COMBINE_MODE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]},"Attrs":[]}
 		,{"Name":"RgnData","Type":{"Kind":"Array","Shape":null,"Child":{"Kind":"Native","Name":"Byte"}},"Attrs":[]}
 	]
 	,"NestedTypes":[]
@@ -10909,7 +10834,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
 	]
@@ -10921,7 +10848,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"param1","Type":{"Kind":"Native","Name":"UIntPtr"},"Attrs":["In"]}
@@ -10934,7 +10863,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"Void"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 	]
@@ -10946,7 +10877,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"param1","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
@@ -10960,7 +10893,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"param0","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"param1","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Const"]}
@@ -12118,7 +12053,7 @@
 	"Name":"GetBkMode"
 	,"SetLastError":false
 	,"DllImport":"GDI32.dll"
-	,"ReturnType":{"Kind":"Native","Name":"Int32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"BACKGROUND_MODE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"
@@ -12494,7 +12429,7 @@
 	"Name":"GetMapMode"
 	,"SetLastError":false
 	,"DllImport":"GDI32.dll"
-	,"ReturnType":{"Kind":"Native","Name":"Int32"}
+	,"ReturnType":{"Kind":"ApiRef","Name":"HDC_MAP_MODE","TargetKind":"Default","Api":"Graphics.Gdi","Parents":[]}
 	,"ReturnAttrs":[]
 	,"Architectures":[]
 	,"Platform":"windows5.0"

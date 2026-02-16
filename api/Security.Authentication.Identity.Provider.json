@@ -71,6 +71,18 @@
 	,"ValueType":"String"
 	,"Value":"PropertyStore"
 	,"Attrs":[]
+},{
+	"Name":"CoClassIdentityStore"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"30d49246-d217-465f-b00b-ac9ddd652eb7"
+	,"Attrs":[]
+},{
+	"Name":"CIdentityProfileHandler"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"ecf5bf46-e3b6-449a-b56b-43f58f867814"
+	,"Attrs":[]
 }],
 
 "Types":[{
@@ -870,18 +882,6 @@
 			{"Name":"ppIdentityProperties","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"IPropertyStore","TargetKind":"Com","Api":"UI.Shell.PropertiesSystem","Parents":[]}},"Attrs":["In","Out","Optional"]}
 		]
 	}]
-},{
-	"Name":"CoClassIdentityStore"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"30d49246-d217-465f-b00b-ac9ddd652eb7"
-},{
-	"Name":"CIdentityProfileHandler"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"ecf5bf46-e3b6-449a-b56b-43f58f867814"
 },{
 	"Name":"IIdentityStore"
 	,"Architectures":[]

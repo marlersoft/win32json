@@ -284,7 +284,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"authoringModeObject","Type":{"Kind":"ApiRef","Name":"IWebApplicationAuthoringMode","TargetKind":"Com","Api":"System.Diagnostics.Debug.WebApp","Parents":[]},"Attrs":["In"]}
 		,{"Name":"host","Type":{"Kind":"ApiRef","Name":"IWebApplicationHost","TargetKind":"Com","Api":"System.Diagnostics.Debug.WebApp","Parents":[]},"Attrs":["In"]}
@@ -297,7 +299,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"host","Type":{"Kind":"ApiRef","Name":"IWebApplicationHost","TargetKind":"Com","Api":"System.Diagnostics.Debug.WebApp","Parents":[]},"Attrs":["In"]}
 	]

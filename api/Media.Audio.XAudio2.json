@@ -1343,6 +1343,42 @@
 	,"ValueType":"UInt32"
 	,"Value":131072
 	,"Attrs":[]
+},{
+	"Name":"FXEQ"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"f5e01117-d6c4-485a-a3f5-695196f3dbfa"
+	,"Attrs":[]
+},{
+	"Name":"FXMasteringLimiter"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"c4137916-2be1-46fd-8599-441536f49856"
+	,"Attrs":[]
+},{
+	"Name":"FXReverb"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"7d9aca56-cb68-4807-b632-b137352e8596"
+	,"Attrs":[]
+},{
+	"Name":"FXEcho"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"5039d740-f736-449a-84d3-a56202557b87"
+	,"Attrs":[]
+},{
+	"Name":"AudioVolumeMeter"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"4fc3b166-972a-40cf-bc37-7db03db2fba3"
+	,"Attrs":[]
+},{
+	"Name":"AudioReverb"
+	,"Type":{"Kind":"Native","Name":"Guid"}
+	,"ValueType":"String"
+	,"Value":"c2633b16-471b-4498-b8c5-4f0959e2ec09"
+	,"Attrs":[]
 }],
 
 "Types":[{
@@ -1567,30 +1603,6 @@
 			,{"Name":"ParameterByteSize","Type":{"Kind":"Native","Name":"UInt32"},"Attrs":["In"]}
 		]
 	}]
-},{
-	"Name":"FXEQ"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"f5e01117-d6c4-485a-a3f5-695196f3dbfa"
-},{
-	"Name":"FXMasteringLimiter"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"c4137916-2be1-46fd-8599-441536f49856"
-},{
-	"Name":"FXReverb"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"7d9aca56-cb68-4807-b632-b137352e8596"
-},{
-	"Name":"FXEcho"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"5039d740-f736-449a-84d3-a56202557b87"
 },{
 	"Name":"FXEQ_PARAMETERS"
 	,"Architectures":[]
@@ -2537,18 +2549,6 @@
 			,{"Name":"Error","Type":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In"]}
 		]
 	}]
-},{
-	"Name":"AudioVolumeMeter"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"4fc3b166-972a-40cf-bc37-7db03db2fba3"
-},{
-	"Name":"AudioReverb"
-	,"Architectures":[]
-	,"Platform":null
-	,"Kind":"ComClassID"
-	,"Guid":"c2633b16-471b-4498-b8c5-4f0959e2ec09"
 },{
 	"Name":"XAUDIO2FX_VOLUMEMETER_LEVELS"
 	,"Architectures":[]

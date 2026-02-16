@@ -2276,7 +2276,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Format","Type":{"Kind":"ApiRef","Name":"PSTR","TargetKind":"Default","Api":"Foundation","Parents":[]},"Attrs":["In","NotNullTerminated","Const"]}
 	]
@@ -2346,7 +2348,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"ReferralFromConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -2365,7 +2369,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"ReferralFromConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -2385,7 +2391,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"PrimaryConnection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"ConnectionToDereference","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
@@ -2413,7 +2421,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Connection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"trusted_CAs","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"SecPkgContext_IssuerListInfoEx","TargetKind":"Default","Api":"Security.Authentication.Identity","Parents":[]}},"Attrs":["In","Out"]}
@@ -2427,7 +2437,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"BOOLEAN","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"Connection","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"ldap","TargetKind":"Default","Api":"Networking.Ldap","Parents":[]}},"Attrs":["In","Out"]}
 		,{"Name":"pServerCert","Type":{"Kind":"PointerTo","Child":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"CERT_CONTEXT","TargetKind":"Default","Api":"Security.Cryptography","Parents":[]}}},"Attrs":["In","Out"]}

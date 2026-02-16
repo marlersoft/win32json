@@ -666,7 +666,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pExceptionInformation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WER_RUNTIME_EXCEPTION_INFORMATION","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]}},"Attrs":["In","Const"]}
@@ -683,7 +685,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pExceptionInformation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WER_RUNTIME_EXCEPTION_INFORMATION","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]}},"Attrs":["In","Const"]}
@@ -701,7 +705,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"ApiRef","Name":"HRESULT","TargetKind":"Default","Api":"Foundation","Parents":[]}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"pContext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In"]}
 		,{"Name":"pExceptionInformation","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"WER_RUNTIME_EXCEPTION_INFORMATION","TargetKind":"Default","Api":"System.ErrorReporting","Parents":[]}},"Attrs":["In","Const"]}

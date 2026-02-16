@@ -5676,7 +5676,9 @@
 	,"SetLastError":false
 	,"ReturnType":{"Kind":"Native","Name":"UInt32"}
 	,"ReturnAttrs":[]
-	,"Attrs":[]
+	,"Attrs":[
+		"Cdecl"
+	]
 	,"Params":[
 		{"Name":"keycontext","Type":{"Kind":"PointerTo","Child":{"Kind":"Native","Name":"Void"}},"Attrs":["In","Out"]}
 		,{"Name":"val_list","Type":{"Kind":"PointerTo","Child":{"Kind":"ApiRef","Name":"val_context","TargetKind":"Default","Api":"System.Registry","Parents":[]}},"Attrs":["In","Out"]}
